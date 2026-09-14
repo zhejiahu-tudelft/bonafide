@@ -1,0 +1,82 @@
+{
+  "catalog_version": "2026.09.11",
+  "catalog_entries": 1709,
+  "vendors_compared": 13,
+  "juniper_entries": 8,
+  "juniper_rank": 8,
+  "juniper_since_2024": 2,
+  "juniper_share_of_group": 0.0308,
+  "group_median_entries": 12.0,
+  "counts": {
+    "Cisco": {
+      "kev_entries": 97,
+      "added_since_2024": 29,
+      "known_ransomware_use": 7
+    },
+    "Ivanti": {
+      "kev_entries": 35,
+      "added_since_2024": 23,
+      "known_ransomware_use": 12
+    },
+    "Fortinet": {
+      "kev_entries": 30,
+      "added_since_2024": 19,
+      "known_ransomware_use": 14
+    },
+    "Citrix": {
+      "kev_entries": 24,
+      "added_since_2024": 10,
+      "known_ransomware_use": 7
+    },
+    "SonicWall": {
+      "kev_entries": 19,
+      "added_since_2024": 10,
+      "known_ransomware_use": 13
+    },
+    "Palo Alto Networks": {
+      "kev_entries": 15,
+      "added_since_2024": 11,
+      "known_ransomware_use": 6
+    },
+    "Zyxel": {
+      "kev_entries": 12,
+      "added_since_2024": 3,
+      "known_ransomware_use": 2
+    },
+    "Juniper": {
+      "kev_entries": 8,
+      "added_since_2024": 2,
+      "known_ransomware_use": 0
+    },
+    "F5": {
+      "kev_entries": 7,
+      "added_since_2024": 1,
+      "known_ransomware_use": 4
+    },
+    "Sophos": {
+      "kev_entries": 7,
+      "added_since_2024": 2,
+      "known_ransomware_use": 2
+    },
+    "Check Point": {
+      "kev_entries": 3,
+      "added_since_2024": 3,
+      "known_ransomware_use": 2
+    },
+    "Arista": {
+      "kev_entries": 2,
+      "added_since_2024": 2,
+      "known_ransomware_use": 0
+    },
+    "HPE (excl. Juniper)": {
+      "kev_entries": 1,
+      "added_since_2024": 1,
+      "known_ransomware_use": 0
+    }
+  },
+  "juniper_by_year": {
+    "2022": 1,
+    "2023": 5,
+    "2025": 2
+  }
+}

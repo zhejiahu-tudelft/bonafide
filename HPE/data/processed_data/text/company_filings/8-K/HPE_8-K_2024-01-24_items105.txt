@@ -1,0 +1,49 @@
+hpe-20240119
+0001645590
+false
+0001645590
+2024-01-19
+2024-01-19
+UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549
+FORM | 8-K
+CURRENT REPORT
+PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+January 19, 2024
+Date of Report (Date of Earliest Event Reported)
+HEWLETT PACKARD ENTERPRISE COMPANY
+(Exact name of registrant as specified in its charter)
+Delaware | 001-37483 | 47-3298624
+(State or other jurisdiction of incorporation) | (Commission File Number) | (I.R.S. Employer Identification No.)
+1701 East Mossy Oaks Road, | Spring, | TX | 77389
+(Address of principal executive offices) | (Zip code)
+(678) | 259-9860
+(Registrant’s telephone number, including area code)
+Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:
+☐
+Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+☐
+Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+☐
+Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+☐
+Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+Securities registered pursuant to Section 12(b) of the Exchange Act:
+Title of each class | Trading Symbol(s) | Name of each exchange on which registered
+Common stock, par value $0.01 per share | HPE | NYSE
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).
+☐ | Emerging growth company
+☐ | If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.
+Item 1.05 | Material Cybersecurity Incidents
+On December 12, 2023, Hewlett Packard Enterprise Company (the “Company,” “HPE,” or “we”) was notified that a suspected nation-state actor, believed to be the threat actor Midnight Blizzard, the state-sponsored actor also known as Cozy Bear, had gained unauthorized access to HPE’s cloud-based email environment. The Company, with assistance from external cybersecurity experts, immediately activated our response process to investigate, contain, and remediate the incident, eradicating the activity.
+Based on our investigation, we now believe that the threat actor accessed and exfiltrated data beginning in May 2023 from a small percentage of HPE mailboxes belonging to individuals in our cybersecurity, go-to-market, business segments, and other functions.
+While our investigation of this incident and its scope remains ongoing, the Company now understands this incident is likely related to earlier activity by this threat actor, of which we were notified in June 2023, involving unauthorized access to and exfiltration of a limited number of SharePoint files as early as May 2023. Following the notice in June, we immediately investigated with the assistance of external cybersecurity experts and took containment and remediation measures intended to eradicate the activity. Upon undertaking such actions, we determined that such activity did not materially impact the Company.
+We have notified and are cooperating with law enforcement and are also assessing our regulatory notification obligations, and we will make notifications as appropriate based on our investigation findings.
+As of the date of this filing, the incident has not had a material impact on the Company’s operations, and the Company has not determined the incident is reasonably likely to materially impact the Company’s financial condition or results of operations.
+Forward-looking statements.
+This Form 8-K contains forward-looking statements within the meaning of the safe harbor provisions of the Private Securities Litigation Reform Act of 1995. Such statements involve risks, uncertainties, and assumptions. If the risks or uncertainties ever materialize or the assumptions prove incorrect, the results of Hewlett Packard Enterprise Company and its consolidated subsidiaries (“Hewlett Packard Enterprise”) may differ materially from those expressed or implied by such forward-looking statements and assumptions. The words “believe,” “expect,” “anticipate,” “intend,” “will,” "may," and similar expressions are intended to identify such forward-looking statements. If the risks or uncertainties ever materialize or the assumptions prove incorrect, the results of Hewlett Packard Enterprise may differ materially from those expressed or implied by such forward-looking statements and assumptions. All statements other than statements of historical fact are statements that could be deemed forward-looking statements, including but not limited to any ongoing investigations, potential findings, or potential financial or operational impacts of the aforementioned incident. Risks, uncertainties and assumptions include those that are described in Hewlett Packard Enterprise’s Annual Report on Form 10-K for the fiscal year ended October 31, 2023, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K, and that are otherwise described or updated from time to time in Hewlett Packard Enterprise’s Securities and Exchange Commission reports. Hewlett Packard Enterprise assumes no obligation and does not intend to update these forward-looking statements, except as required by applicable law.
+SIGNATURE
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has caused this report to be signed on its behalf by the undersigned hereunto duly authorized.
+HEWLETT PACKARD ENTERPRISE COMPANY
+DATE:  January 24, 2024 | By: | /s/ Jonathan Sturz
+Name: | Jonathan Sturz
+Title: | Vice President, Deputy General Counsel and Assistant Corporate Secretary

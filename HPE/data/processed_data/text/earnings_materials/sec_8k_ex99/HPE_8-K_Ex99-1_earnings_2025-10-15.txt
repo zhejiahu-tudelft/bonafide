@@ -1,0 +1,183 @@
+EX-99.1
+2
+ex-991x10152025x8k.htm
+EX-99.1
+Document
+Exhibit 99.1
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+FISCAL 2025 SEGMENT INFORMATION
+(Unaudited)
+Segment Realignment
+REVISED AMOUNTS | AMOUNTS AS PREVIOUSLY REPORTED | VARIANCE
+Three months ended | Nine months ended | Three months ended | Nine months ended | Three months ended | Nine months ended
+In millions | Jan. 31, 2025 | Apr. 30, 2025 | July 31, 2025 | July 31, 2025 | Jan. 31, 2025 | Apr. 30, 2025 | July 31, 2025 | July 31, 2025 | Jan. 31, 2025 | Apr. 30, 2025 | July 31, 2025 | July 31, 2025
+Net Revenue: (a)
+Cloud & AI | $ | 6,511 | $ | 6,271 | $ | 7,212 | $ | 19,994 | $ | — | $ | — | $ | — | $ | — | $ | 6,511 | $ | 6,271 | $ | 7,212 | $ | 19,994
+Server | — | — | — | — | 4,290 | 4,058 | 4,940 | 13,288 | (4,290) | (4,058) | (4,940) | (13,288)
+Hybrid Cloud | — | — | — | — | 1,405 | 1,453 | 1,484 | 4,342 | (1,405) | (1,453) | (1,484) | (4,342)
+Financial Services | — | — | — | — | 873 | 856 | 886 | 2,615 | (873) | (856) | (886) | (2,615)
+Networking | 1,076 | 1,084 | 1,654 | 3,814 | 1,146 | 1,162 | 1,730 | 4,038 | (70) | (78) | (76) | (224)
+Corporate Investments and Other | 267 | 272 | 270 | 809 | 197 | 194 | 194 | 585 | 70 | 78 | 76 | 224
+Total Segments | 7,854 | 7,627 | 9,136 | 24,617 | 7,911 | 7,723 | 9,234 | 24,868 | (57) | (96) | (98) | (251)
+Elimination of intersegment net revenue | — | — | — | — | (57) | (96) | (98) | (251) | 57 | 96 | 98 | 251
+Total HPE consolidated net revenue | $ | 7,854 | $ | 7,627 | $ | 9,136 | $ | 24,617 | $ | 7,854 | $ | 7,627 | $ | 9,136 | $ | 24,617 | $ | — | $ | — | $ | — | $ | —
+Earnings Before Taxes: (a)
+Cloud & AI | $ | 547 | $ | 414 | $ | 504 | $ | 1,465 | $ | — | $ | — | $ | — | $ | — | $ | 547 | $ | 414 | $ | 504 | $ | 1,465
+Server | — | — | — | — | 348 | 241 | 317 | 906 | (348) | (241) | (317) | (906)
+Hybrid Cloud | — | — | — | — | 99 | 78 | 87 | 264 | (99) | (78) | (87) | (264)
+Financial Services | — | — | — | — | 82 | 89 | 88 | 259 | (82) | (89) | (88) | (259)
+Networking | 320 | 271 | 365 | 956 | 314 | 274 | 360 | 948 | 6 | (3) | 5 | 8
+Corporate Investments and Other | (8) | (7) | (19) | (34) | (2) | (10) | (14) | (26) | (6) | 3 | (5) | (8)
+Total segment earnings from operations | 859 | 678 | 850 | 2,387 | 841 | 672 | 838 | 2,351 | 18 | 6 | 12 | 36
+Unallocated corporate costs and eliminations | (79) | (65) | (73) | (217) | (61) | (59) | (61) | (181) | (18) | (6) | (12) | (36)
+Stock-based compensation expense | (154) | (116) | (177) | (447) | (154) | (116) | (177) | (447) | — | — | — | —
+Amortization of intangible assets | (38) | (37) | (126) | (201) | (38) | (37) | (126) | (201) | — | — | — | —
+Impairment of goodwill | — | (1,361) | — | (1,361) | — | (1,361) | — | (1,361) | — | — | — | —
+Transformation (costs) credit | (15) | 13 | — | (2) | (15) | 13 | — | (2) | — | — | — | —
+Acquisition, disposition and other charges | (63) | (55) | (225) | (343) | (63) | (55) | (225) | (343) | — | — | — | —
+H3C divestiture related severance costs | (77) | (20) | — | (97) | (77) | (20) | — | (97) | — | — | — | —
+Cost reduction program | — | (146) | (2) | (148) | — | (146) | (2) | (148) | — | — | — | —
+Gain on sale of a business | 244 | — | 1 | 245 | 244 | — | 1 | 245 | — | — | — | —
+Interest and other, net | 39 | 39 | 8 | 86 | 39 | 39 | 8 | 86 | — | — | — | —
+Earnings from equity interests | 17 | 25 | 32 | 74 | 17 | 25 | 32 | 74 | — | — | — | —
+Total HPE consolidated earnings (loss) before taxes | $ | 733 | $ | (1,045) | $ | 288 | $ | (24) | $ | 733 | $ | (1,045) | $ | 288 | $ | (24) | $ | — | $ | — | $ | — | $ | —
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+FISCAL 2025 SEGMENT INFORMATION
+(Unaudited)
+REVISED AMOUNTS | AMOUNTS AS PREVIOUSLY REPORTED | VARIANCE
+Three months ended | Nine months ended | Three months ended | Nine months ended | Three months ended | Nine months ended
+Jan. 31, 2025 | Apr. 30, 2025 | July 31, 2025 | July 31, 2025 | Jan. 31, 2025 | Apr. 30, 2025 | July 31, 2025 | July 31, 2025 | Jan. 31, 2025 | Apr. 30, 2025 | July 31, 2025 | July 31, 2025
+Segment Operating Margin: (a)
+Cloud & AI | 8.4 | % | 6.6 | % | 7.0 | % | 7.3 | % | — | % | — | % | — | % | — | % | 8.4 | pts | 6.6 | pts | 7.0 | pts | 7.3 | pts
+Server | — | % | — | % | — | % | — | % | 8.1 | % | 5.9 | % | 6.4 | % | 6.8 | % | (8.1 | pts) | (5.9 | pts) | (6.4 | pts) | (6.8 | pts)
+Hybrid Cloud | — | % | — | % | — | % | — | % | 7.0 | % | 5.4 | % | 5.9 | % | 6.1 | % | (7.0 | pts) | (5.4 | pts) | (5.9 | pts) | (6.1 | pts)
+Financial Services | — | % | — | % | — | % | — | % | 9.4 | % | 10.4 | % | 9.9 | % | 9.9 | % | (9.4 | pts) | (10.4 | pts) | (9.9 | pts) | (9.9 | pts)
+Networking | 29.7 | % | 25.0 | % | 22.1 | % | 25.1 | % | 27.4 | % | 23.6 | % | 20.8 | % | 23.5 | % | 2.3 | pts | 1.4 | pts | 1.3 | pts | 1.6 | pts
+Corporate Investments and Other | (3.0) | % | (2.6) | % | (7.0) | % | (4.2) | % | (1.0) | % | (5.2) | % | (7.2) | % | (4.4) | % | (2.0 | pts) | 2.6 | pts | 0.2 | pts | 0.2 | pts
+Total segment operating margin | 10.9 | % | 8.9 | % | 9.3 | % | 9.7 | % | 10.6 | % | 8.7 | % | 9.1 | % | 9.5 | % | 0.3 | pts | 0.2 | pts | 0.2 | pts | 0.2 | pts
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+FISCAL 2024 SEGMENT INFORMATION
+(Unaudited)
+REVISED AMOUNTS | AMOUNTS AS PREVIOUSLY REPORTED | VARIANCE
+Three months ended | Twelve months ended | Three months ended | Twelve months ended | Three months ended | Twelve months ended
+In millions | Jan. 31, 2024 | Apr. 30, 2024 | July 31, 2024 | Oct. 31, 2024 | Oct. 31, 2024 | Jan. 31, 2024 | Apr. 30, 2024 | July 31, 2024 | Oct. 31, 2024 | Oct. 31, 2024 | Jan. 31, 2024 | Apr. 30, 2024 | July 31, 2024 | Oct. 31, 2024 | Oct. 31, 2024
+Net Revenue: (a)
+Cloud & AI | $ | 5,316 | $ | 5,866 | $ | 6,327 | $ | 7,072 | $ | 24,581 | $ | — | $ | — | $ | — | $ | — | $ | — | $ | 5,316 | $ | 5,866 | $ | 6,327 | $ | 7,072 | $ | 24,581
+Server | — | — | — | — | — | 3,327 | 3,841 | 4,255 | 4,681 | 16,104 | (3,327) | (3,841) | (4,255) | (4,681) | (16,104)
+Hybrid Cloud | — | — | — | — | — | 1,273 | 1,282 | 1,325 | 1,607 | 5,487 | (1,273) | (1,282) | (1,325) | (1,607) | (5,487)
+Financial Services | — | — | — | — | — | 873 | 867 | 879 | 893 | 3,512 | (873) | (867) | (879) | (893) | (3,512)
+Networking | 1,130 | 1,014 | 1,052 | 1,050 | 4,246 | 1,201 | 1,086 | 1,121 | 1,124 | 4,532 | (71) | (72) | (69) | (74) | (286)
+Corporate Investments and Other | 309 | 324 | 331 | 336 | 1,300 | 238 | 252 | 262 | 262 | 1,014 | 71 | 72 | 69 | 74 | 286
+Total segments | 6,755 | 7,204 | 7,710 | 8,458 | 30,127 | 6,912 | 7,328 | 7,842 | 8,567 | 30,649 | (157) | (124) | (132) | (109) | (522)
+Elimination of intersegment net revenue | — | — | — | — | — | (157) | (124) | (132) | (109) | (522) | 157 | 124 | 132 | 109 | 522
+Total HPE consolidated net revenue | $ | 6,755 | $ | 7,204 | $ | 7,710 | $ | 8,458 | $ | 30,127 | $ | 6,755 | $ | 7,204 | $ | 7,710 | $ | 8,458 | $ | 30,127 | $ | — | $ | — | $ | — | $ | — | $ | —
+Earnings Before Taxes: (a)
+Cloud & AI | $ | 508 | $ | 525 | $ | 612 | $ | 756 | $ | 2,401 | $ | — | $ | — | $ | — | $ | — | $ | — | $ | 508 | $ | 525 | $ | 612 | $ | 756 | $ | 2,401
+Server | — | — | — | — | — | 379 | 423 | 461 | 541 | 1,804 | (379) | (423) | (461) | (541) | (1,804)
+Hybrid Cloud | — | — | — | — | — | 51 | 13 | 69 | 126 | 259 | (51) | (13) | (69) | (126) | (259)
+Financial Services | — | — | — | — | — | 74 | 81 | 79 | 82 | 316 | (74) | (81) | (79) | (82) | (316)
+Networking | 357 | 240 | 259 | 278 | 1,134 | 353 | 237 | 251 | 274 | 1,115 | 4 | 3 | 8 | 4 | 19
+Corporate Investments and Other | (14) | (12) | (12) | (6) | (44) | (10) | (9) | (4) | (2) | (25) | (4) | (3) | (8) | (4) | (19)
+Total segment earnings from operations | 851 | 753 | 859 | 1,028 | 3,491 | 847 | 745 | 856 | 1,021 | 3,469 | 4 | 8 | 3 | 7 | 22
+Unallocated corporate costs and eliminations | (76) | (69) | (88) | (90) | (323) | (72) | (61) | (85) | (83) | (301) | (4) | (8) | (3) | (7) | (22)
+Stock-based compensation expense | (141) | (120) | (80) | (89) | (430) | (141) | (120) | (80) | (89) | (430) | — | — | — | — | —
+Amortization of intangible assets | (71) | (67) | (60) | (69) | (267) | (71) | (67) | (60) | (69) | (267) | — | — | — | — | —
+Transformation costs | (20) | (33) | (14) | (26) | (93) | (20) | (33) | (14) | (26) | (93) | — | — | — | — | —
+Acquisition, disposition and other charges | (18) | (39) | (70) | (61) | (188) | (18) | (39) | (70) | (61) | (188) | — | — | — | — | —
+Gain on sale of equity interest | — | — | — | 733 | 733 | — | — | — | 733 | 733 | — | — | — | — | —
+Interest and other, net | (88) | (22) | (12) | 5 | (117) | (88) | (22) | (12) | 5 | (117) | — | — | — | — | —
+Earnings (loss) from equity interests | 46 | 42 | 73 | (14) | 147 | 46 | 42 | 73 | (14) | 147 | — | — | — | — | —
+Total HPE consolidated earnings before taxes | $ | 483 | $ | 445 | $ | 608 | $ | 1,417 | $ | 2,953 | $ | 483 | $ | 445 | $ | 608 | $ | 1,417 | $ | 2,953 | $ | — | $ | — | $ | — | $ | — | $ | —
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+FISCAL 2024 SEGMENT INFORMATION
+(Unaudited)
+REVISED AMOUNTS | AMOUNTS AS PREVIOUSLY REPORTED | VARIANCE
+Three months ended | Twelve months ended | Three months ended | Twelve months ended | Three months ended | Twelve months ended
+Jan. 31, 2024 | Apr. 30, 2024 | July 31, 2024 | Oct. 31, 2024 | Oct. 31, 2024 | Jan. 31, 2024 | Apr. 30, 2024 | July 31, 2024 | Oct. 31, 2024 | Oct. 31, 2024 | Jan. 31, 2024 | Apr. 30, 2024 | July 31, 2024 | Oct. 31, 2024 | Oct. 31, 2024
+Segment Operating Margin: (a)
+Cloud & AI | 9.6 | % | 8.9 | % | 9.7 | % | 10.7 | % | 9.8 | % | — | % | — | % | — | % | — | % | — | % | 9.6 | pts | 8.9 | pts | 9.7 | pts | 10.7 | pts | 9.8 | pts
+Server | — | % | — | % | — | % | — | % | — | % | 11.4 | % | 11.0 | % | 10.8 | % | 11.6 | % | 11.2 | % | (11.4 | pts) | (11.0 | pts) | (10.8 | pts) | (11.6 | pts) | (11.2 | pts)
+Hybrid Cloud | — | % | — | % | — | % | — | % | — | % | 4.0 | % | 1.0 | % | 5.2 | % | 7.8 | % | 4.7 | % | (4.0 | pts) | (1.0 | pts) | (5.2 | pts) | (7.8 | pts) | (4.7 | pts)
+Financial Services | — | % | — | % | — | % | — | % | — | % | 8.5 | % | 9.3 | % | 9.0 | % | 9.2 | % | 9.0 | % | (8.5 | pts) | (9.3 | pts) | (9.0 | pts) | (9.2 | pts) | (9.0 | pts)
+Networking | 31.6 | % | 23.7 | % | 24.6 | % | 26.5 | % | 26.7 | % | 29.4 | % | 21.8 | % | 22.4 | % | 24.4 | % | 24.6 | % | 2.2 | pts | 1.9 | pts | 2.2 | pts | 2.1 | pts | 2.1 | pts
+Corporate Investments and Other | (4.5) | % | (3.7) | % | (3.6) | % | (1.8) | % | (3.4) | % | (4.2) | % | (3.6) | % | (1.5) | % | (0.8) | % | (2.5) | % | (0.3 | pts) | (0.1 | pts) | (2.1 | pts) | (1.0 | pts) | (0.9 | pts)
+Total segment operating margin | 12.6 | % | 10.5 | % | 11.1 | % | 12.2 | % | 11.6 | % | 12.3 | % | 10.2 | % | 10.9 | % | 11.9 | % | 11.3 | % | 0.3 | pts | 0.3 | pts | 0.2 | pts | 0.3 | pts | 0.3 | pts
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+FISCAL 2025 COMBINED COMPANY INFORMATION
+(Unaudited)
+(In millions)
+Combined Company Financial Information
+HPE Recast Segment Results | Juniper Networks | Combined Company (b)
+Three months ended | Nine months ended | Three months ended | Nine months ended | Three months ended | Nine months ended
+Jan. 31, 2025 | Apr. 30, 2025 | July 31, 2025 (c) | July 31, 2025 (c) | Dec. 31, 2024 | Mar 31, 2025 | June 30, 2025 | June 30, 2025 | Jan. 31, 2025 | Apr. 30, 2025 | July 31, 2025 (c) | Jul. 31, 2025 (c)
+Net Revenue:
+Cloud & AI | $ | 6,511 | $ | 6,271 | $ | 7,212 | $ | 19,994 | $ | — | $ | — | $ | — | $ | — | $ | 6,511 | $ | 6,271 | $ | 7,212 | $ | 19,994
+Networking | 1,076 | 1,084 | 1,654 | 3,814 | 1,404 | 1,280 | 1,434 | 4,118 | 2,480 | 2,364 | 3,088 | 7,932
+Corporate Investments and Other | 267 | 272 | 270 | 809 | — | — | — | — | 267 | 272 | 270 | 809
+Total segments | $ | 7,854 | $ | 7,627 | $ | 9,136 | $ | 24,617 | $ | 1,404 | $ | 1,280 | $ | 1,434 | $ | 4,118 | $ | 9,258 | $ | 8,907 | $ | 10,570 | $ | 28,735
+Earnings Before Taxes: (d)
+Cloud & AI | $ | 583 | $ | 451 | $ | 543 | $ | 1,577 | $ | — | $ | — | $ | — | $ | — | $ | 583 | $ | 451 | $ | 543 | $ | 1,577
+Networking | 286 | 236 | 328 | 850 | 269 | 183 | 212 | 664 | 555 | 419 | 540 | 1,514
+Corporate Investments and Other | (10) | (9) | (21) | (40) | — | — | — | — | (10) | (9) | (21) | (40)
+Total segment earnings from operations | 859 | 678 | 850 | 2,387 | 269 | 183 | 212 | 664 | 1,128 | 861 | 1,062 | 3,051
+Unallocated corporate costs and eliminations | (79) | (65) | (73) | (217) | — | — | — | — | (79) | (65) | (73) | (217)
+Stock-based compensation expense | (154) | (116) | (177) | (447) | (80) | (65) | (52) | (197) | (234) | (181) | (229) | (644)
+Amortization of intangible assets | (38) | (37) | (126) | (201) | (10) | (10) | (11) | (31) | (48) | (47) | (137) | (232)
+Impairment of goodwill | — | (1,361) | — | (1,361) | — | — | — | — | — | (1,361) | — | (1,361)
+Transformation (costs) credit | (15) | 13 | — | (2) | — | (11) | (17) | (28) | (15) | 2 | (17) | (30)
+Acquisition, disposition and other charges | (63) | (55) | (225) | (343) | (11) | (10) | (48) | (69) | (74) | (65) | (273) | (412)
+H3C divestiture related severance costs | (77) | (20) | — | (97) | — | — | — | — | (77) | (20) | — | (97)
+Cost reduction program | — | (146) | (2) | (148) | — | — | — | — | — | (146) | (2) | (148)
+Gain on sale of a business | 244 | — | 1 | 245 | — | — | — | — | 244 | — | 1 | 245
+Interest and other, net | 39 | 39 | 8 | 86 | 13 | (5) | 1 | 9 | 52 | 34 | 9 | 95
+Earnings from equity interests | 17 | 25 | 32 | 74 | — | — | — | — | 17 | 25 | 32 | 74
+Total combined earnings (loss) before taxes | $ | 733 | $ | (1,045) | $ | 288 | $ | (24) | $ | 181 | $ | 82 | $ | 85 | $ | 348 | $ | 914 | $ | (963) | $ | 373 | $ | 324
+HPE Recast Segment Results | Juniper Networks | Combined Company (b)
+Three months ended | Nine months ended | Three months ended | Nine months ended | Three months ended | Nine months ended
+Jan. 31, 2025 | Apr. 30, 2025 | July 31, 2025 (c) | July 31, 2025 (c) | Dec. 31, 2024 | Mar 31, 2025 | June 30, 2025 | Jun 30, 2025 | Jan. 31, 2025 | Apr. 30, 2025 | July 31, 2025 (c) | July 31, 2025 (c)
+Segment Operating Margin: (d)
+Cloud & AI | 9.0 | % | 7.2 | % | 7.5 | % | 7.9 | % | — | % | — | % | — | % | — | % | 9.0 | % | 7.2 | % | 7.5 | % | 7.9 | %
+Networking | 26.6 | % | 21.8 | % | 19.8 | % | 22.3 | % | 19.2 | % | 14.3 | % | 14.8 | % | 16.1 | % | 22.4 | % | 17.7 | % | 17.5 | % | 19.1 | %
+Corporate Investments and Other | (3.7) | % | (3.3) | % | (7.8) | % | (4.9) | % | — | % | — | % | — | % | — | % | (3.7) | % | (3.3) | % | (7.8) | % | (4.9) | %
+Total segment operating margin | 10.9 | % | 8.9 | % | 9.3 | % | 9.7 | % | 19.2 | % | 14.3 | % | 14.8 | % | 16.1 | % | 12.2 | % | 9.7 | % | 10.0 | % | 10.6 | %
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+FISCAL 2024 COMBINED COMPANY INFORMATION
+(Unaudited)
+(In millions)
+HPE Recast Segment Results | Juniper Networks | Combined Company (b)
+Three months ended | Twelve months ended | Three months ended | Twelve months ended | Three months ended | Twelve months ended
+Jan. 31, 2024 | Apr. 30, 2024 | July 31, 2024 | Oct. 31, 2024 | Oct. 31, 2024 | Dec. 30, 2023 | Mar 31, 2024 | June 30, 2024 | Sep. 30, 2024 | Sep. 30, 2024 | Jan 31, 2024 | Apr. 30, 2024 | July 31, 2024 | Oct. 31, 2024 | Oct. 31, 2024
+Net Revenue:
+Cloud & AI | $ | 5,316 | $ | 5,866 | $ | 6,327 | $ | 7,072 | $ | 24,581 | $ | — | $ | — | $ | — | $ | — | $ | — | $ | 5,316 | $ | 5,866 | $ | 6,327 | $ | 7,072 | $ | 24,581
+Networking | 1,130 | 1,014 | 1,052 | 1,050 | 4,246 | 1,365 | 1,149 | 1,189 | 1,331 | 5,034 | 2,495 | 2,163 | 2,241 | 2,381 | 9,280
+Corporate Investments and Other | 309 | 324 | 331 | 336 | 1,300 | — | — | — | — | — | 309 | 324 | 331 | 336 | 1,300
+Total segments | $ | 6,755 | $ | 7,204 | $ | 7,710 | $ | 8,458 | $ | 30,127 | $ | 1,365 | $ | 1,149 | $ | 1,189 | $ | 1,331 | $ | 5,034 | $ | 8,120 | $ | 8,353 | $ | 8,899 | $ | 9,789 | $ | 35,161
+Earnings Before Taxes: (d)
+Cloud & AI | $ | 546 | $ | 561 | $ | 648 | $ | 790 | $ | 2,545 | $ | — | $ | — | $ | — | $ | — | $ | — | $ | 546 | $ | 561 | $ | 648 | $ | 790 | $ | 2,545
+Networking | 320 | 206 | 225 | 246 | 997 | 250 | 121 | 130 | 200 | 701 | 570 | 327 | 355 | 446 | 1,698
+Corporate Investments and Other | (15) | (14) | (14) | (8) | (51) | — | — | — | — | — | (15) | (14) | (14) | (8) | (51)
+Total segment earnings from operations | 851 | 753 | 859 | 1,028 | 3,491 | 250 | 121 | 130 | 200 | 701 | 1,101 | 874 | 989 | 1,228 | 4,192
+Unallocated corporate costs and eliminations | (76) | (69) | (88) | (90) | (323) | — | — | — | — | — | (76) | (69) | (88) | (90) | (323)
+Stock-based compensation expense | (141) | (120) | (80) | (89) | (430) | (83) | (83) | (62) | (75) | (303) | (224) | (203) | (142) | (164) | (733)
+Amortization of intangible assets | (71) | (67) | (60) | (69) | (267) | (17) | (17) | (11) | (11) | (56) | (88) | (84) | (71) | (80) | (323)
+Transformation costs | (20) | (33) | (14) | (26) | (93) | (20) | (4) | (2) | (5) | (31) | (40) | (37) | (16) | (31) | (124)
+Acquisition, disposition and other charges | (18) | (39) | (70) | (61) | (188) | — | (28) | (9) | (14) | (51) | (18) | (67) | (79) | (75) | (239)
+Gain on sale of equity interest | — | — | — | 733 | 733 | — | — | — | — | — | — | — | — | 733 | 733
+Interest and other, net | (88) | (22) | (12) | 5 | (117) | (13) | (15) | 1 | 2 | (25) | (101) | (37) | (11) | 7 | (142)
+Earnings from equity interests | 46 | 42 | 73 | (14) | 147 | — | — | — | — | — | 46 | 42 | 73 | (14) | 147
+Total combined earnings (loss) before taxes | $ | 483 | $ | 445 | $ | 608 | $ | 1,417 | $ | 2,953 | $ | 117 | $ | (26) | $ | 47 | $ | 97 | $ | 235 | $ | 600 | $ | 419 | $ | 655 | $ | 1,514 | $ | 3,188
+HPE Recast Segment Results | Juniper Networks | Combined Company (b)
+Three months ended | Twelve months ended | Three months ended | Twelve months ended | Three months ended | Twelve months ended
+Jan. 31, 2024 | Apr. 30, 2024 | July 31, 2024 | Oct. 31, 2024 | Oct. 31, 2024 | Dec. 30, 2023 | Mar 31, 2024 | June 30, 2024 | Sep. 30, 2024 | Sep. 30, 2024 | Jan. 31, 2024 | Apr. 30, 2024 | July 31, 2024 | Oct. 31, 2024 | Oct. 31, 2024
+Segment Operating Margin: (d)
+Cloud & AI | 10.3 | % | 9.6 | % | 10.2 | % | 11.2 | % | 10.4 | % | — | % | — | % | — | % | — | % | — | % | 10.3 | % | 9.6 | % | 10.2 | % | 11.2 | % | 10.4 | %
+Networking | 28.3 | % | 20.3 | % | 21.4 | % | 23.4 | % | 23.5 | % | 18.3 | % | 10.5 | % | 10.9 | % | 15.0 | % | 13.9 | % | 22.8 | % | 15.1 | % | 15.8 | % | 18.7 | % | 18.3 | %
+Corporate Investments and Other | (4.9) | % | (4.3) | % | (4.2) | % | (2.4) | % | (3.9) | % | — | % | — | % | — | % | — | % | — | % | (4.9) | % | (4.3) | % | (4.2) | % | (2.4) | % | (3.9) | %
+Total segment operating margin | 12.6 | % | 10.5 | % | 11.1 | % | 12.2 | % | 11.6 | % | 18.3 | % | 10.5 | % | 10.9 | % | 15.0 | % | 13.9 | % | 13.6 | % | 10.5 | % | 11.1 | % | 12.5 | % | 11.9 | %
+(a) Effective at the beginning of the first quarter of fiscal 2026
+, Hewlett Packard Enterprise Company ("Hewlett Packard Enterprise," "HPE," or the "Company") plans to implement an organizational change by (i) merging the Server, Hybrid Cloud, and Financial Services business segments into a new segment named Cloud & AI and (ii) transferring the Telco and Instant On businesses to Corporate Investments and Other from Networking.
+The Company reflected these changes to its segment information retrospectively for the three completed fiscal quarters of 2025 and the quarterly and full year fiscal 2024 financial results, which primarily resulted in the realignment of net revenue and operating profit for each of the segments as described above. These changes had no impact on Hewlett Packard Enterprise’s previously reported consolidated net revenue, net earnings, net earnings per share or total assets.
+(b)
+The summary combined company financial information includes certain combined company financial information that is based on historical financial information reported by HPE and Juniper Networks. This combined company financial information represents the summation of the standalone financial information reported by HPE and the standalone financial information reported by Juniper Networks. This combined company financial information has not been prepared in accordance with Article 11 of Regulation S-X and does not give effect to the pro forma adjustments that might be required in connection with the preparation of pro forma financial information in accordance with Article 11 of Regulation S-X, and is not indicative of what the combined company’s performance would have been had HPE and Juniper Networks been a combined company for the periods presented. As a result, the combined company financial information could materially differ from financial information determined in accordance with Article 11 of Regulation S-X. HPE and Juniper Networks have different fiscal years: HPE’s fiscal year ends on October 31, and Juniper Networks’ fiscal year ended on December 31. This combined company financial information is based on available quarterly financial information of HPE and Juniper Networks according to their respective quarterly periods, and no calculations or adjustments have been performed to reconcile the differences in the differing quarterly reporting periods.
+(c) Following HPE's acquisition of Juniper Networks in July 2025, HPE historical and Combined Company financial information for the three and nine months ended July 31, 2025 include Juniper Networks revenue and operating profit for the month of July, of $480 million and $76 million, respectively.
+(d) Following the acquisition of Juniper and effective beginning in the first quarter of fiscal 2026 on a prospective basis, certain shared expenses will be realigned between the segments.  For purposes of the combined company financial information, this change has been applied retroactively.

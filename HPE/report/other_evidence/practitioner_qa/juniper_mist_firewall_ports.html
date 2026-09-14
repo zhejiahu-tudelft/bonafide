@@ -1,0 +1,2097 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" />
+<meta name="description" content="To ensure connectivity and proper operations of Juniper Mist™, configure your firewall to open the required firewall ports and allow traffic to/from the Juniper Mist IP addresses for your region." /><meta name="topicid" content="xi936729" /><meta name="branchId" content="1" /><meta name="jdoc-content-type" content="dita-topic" /><meta name="release" content="mist no-release" /><script type="application/ld+json">{"@context": "http://schema.org","@type": "WebPage","name": "Juniper Mist Firewall Ports and IP Addresses for Firewall Configuration | Mist | Juniper Networks","@id": "https://www.juniper.net/documentation/us/en/software/mist/mist-management/topics/ref/firewall-ports-to-open.html#WebPage","url": "https://www.juniper.net/documentation/us/en/software/mist/mist-management/topics/ref/firewall-ports-to-open.html"}</script><title>Juniper Mist Firewall Ports and IP Addresses for Firewall Configuration | Mist | Juniper Networks</title><link rel="modulepreload" crossorigin href="/documentation/webstatic/js/vue-core-CpJPVP49.js"><link rel="modulepreload" crossorigin href="/documentation/webstatic/js/state-P4uO3MmX.js"><link rel="modulepreload" crossorigin href="/documentation/webstatic/js/vendor-QbGKFtLE.js"><link rel="modulepreload" crossorigin href="/documentation/webstatic/js/http-DNwu3bhQ.js"><link rel="modulepreload" crossorigin href="/documentation/webstatic/js/utils-BrjAfiP7.js"><link rel="modulepreload" crossorigin href="/documentation/webstatic/js/common-CS1GkDpV.js"><link rel="stylesheet" crossorigin="" href="/documentation/webstatic/css/common-XYqID4_t.css"><link rel="stylesheet" crossorigin="" href="/documentation/webstatic/css/dita-yXMc-UTb.css"><script src="https://www.juniper.net/etc.clientlibs/clientlibs/granite/jquery.min.js"></script><link href="https://www.juniper.net/assets/styles/custom/juniper-survey.css" rel="stylesheet" type="text/css"><!--IXF: JavaScript begin-->
+<script class="trustecm" trackertype="functional">
+    /*
+    --LICENSE--
+    Access to and use of BrightEdge Link Equity Manager is governed by the 
+    Infrastructure Product Terms located at: www.brightedge.com/infrastructure-product-terms. 
+    Customer acknowledges and agrees it has read, understands and agrees to be bound by the 
+    Infrastructure Product Terms.
+    */
+
+    function startBESDK() {
+        var be_sdk_options = {
+            'api.endpoint': 'https://ixf2-api.bc0a.com',
+            'sdk.account': 'f00000000063367',
+            'requestparameters.caseinsensitive': true,
+            'whitelist.parameter.list': 'ixf'
+        };
+        BEJSSDK.construct(be_sdk_options);
+    }
+    (function () {
+        var sdkjs = document.createElement('script');
+        sdkjs.type = 'text/javascript';
+        sdkjs.async = true;
+        sdkjs.src = document.location.protocol + '//cdn.bc0a.com/be_ixf_js_sdk.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(sdkjs, s);
+        if (document.addEventListener) {
+            sdkjs.addEventListener('load', startBESDK);
+        } else {
+            sdkjs.onreadystatechange = startBESDK;
+        }
+    })();
+</script>
+<!--IXF: JavaScript end-->
+<script>
+    function insertcanonical() {
+        var canonicalexists = !!document.querySelector("link[rel='canonical']");
+        if (!canonicalexists) {
+            var tag = document.createElement("link");
+            var pathname = location.pathname;
+            var pattern = /\/$/;
+            if(pattern.test(pathname)){
+                pathname = pathname.replace(pattern,"/index.html");
+            }
+            // check if last character is slash else add / to be consistent
+            var href = "https://www.juniper.net" + pathname;
+            tag.setAttribute("rel", "canonical");
+            tag.setAttribute("href", href);
+            document.head.appendChild(tag);
+        }
+    }
+    insertcanonical();
+</script><link rel="preload" href="/documentation/webstatic/fonts/swmaterialicon.woff" as="font" type="font/woff" crossorigin="anonymous"><link rel="preload" href="/documentation/webstatic/fonts/Lato-Black.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" href="https://www.juniper.net/etc.clientlibs/juniper/clientlibs/clientlib-global-navigation.css" as="style" /><script src="https://assets.adobedtm.com/998b2d6d4944658536fe36266a249b07e626b86d/satelliteLib-6d05b7c7a99e1cbbdcac4fcfe7005e6bee80a0e9.js"></script><script type="text/javascript" src="../../__toc.js?v+20260910T070303" basepath="../../" id="tocscript"></script></head>
+<body id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1" style="visibility:hidden;">
+<!--[if lte IE 9]>
+	<div class="message-warning"> You are using unsupported version of Internet Explorer. Please upgrade your browser to latest version.</div>
+<![endif]-->
+<!-- Start survey script MaritzCX -->
+<script type="text/javascript" class="trustecm" trackertype="functional"
+	src="https://siteintercept.allegiancetech.com/dist/jn1si001/MCX_Juniper2.js" async></script>
+<script type="text/javascript" class="trustecm" trackertype="functional"
+	src="https://siteintercept.allegiancetech.com/InterceptScripts/mcxSiteIntercept-1.9.1.js" async></script>
+<div id="mcxInvitationModal">
+	<div id="mcxFloating">
+		<div id="mcxInfo2">
+			<div id="mcxNoButton">
+				<button id="mcxNo" onclick="McxSiteInterceptOnExit.declineSurvey();mcxDisplay();">X</button>
+			</div>
+			<div id="mcxLogos">
+				<img src="https://junipernetworks.allegiancetech.com/surveys/images/MRVCXM/juniper_logo.jpg">
+			</div>
+			<div class="clearfix">
+				<p id="mcxHeading">Help us improve your experience.</p>
+				<p id="mcxText1">Let us know what you think. </p>
+				<p id="mcxText2">Do you have time for a two-minute survey?</p>
+			</div>
+			<div id="mcxYesButton" onClick="McxSiteInterceptOnExit.acceptSurvey();mcxDisplay();" class="clearfix">
+				<button id="mcxYes">Yes</button>
+			</div>
+			<div>
+				<button id="noLater" onclick="McxSiteInterceptOnExit.declineSurvey();mcxDisplay();">Maybe Later</button>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	window.addEventListener('message', function (e) {
+		var key = e.message ? 'message' : 'data';
+		var data = e[key];
+		if (data === 'MaritzCX Survey Close') {
+			McxSiteInterceptOnExit.closeSurveyModal(); //close iframe
+		}
+	}, false);
+</script>
+<!-- End survey script MaritzCX --><script type="application/ld+json">
+  {
+"@context": "http://schema.org",
+"@type": "Organization",
+"name": "Juniper Networks",
+"url": "https://www.juniper.net/us/en/",
+"logo": "https://www.juniper.net/assets/svg/jnpr-logo.svg",
+"sameAs": ["https://en.wikipedia.org/wiki/Juniper_Networks",
+  "https://www.facebook.com/JuniperNetworks/",
+  "https://twitter.com/JuniperNetworks/",
+  "https://www.linkedin.com/company/juniper-networks",
+  "https://www.youtube.com/junipernetworks",
+  "https://www.instagram.com/junipernetworks/"
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+"@context": "http://schema.org",
+"@id": "https://www.juniper.net/us/en/#website",
+"@type": "WebSite",
+"url": "https://www.juniper.net/us/en/",
+"name": "Juniper Networks",
+"alternateName": "Juniper, Juniper Networks Inc.",
+"publisher": {
+  "@type": "Corporation",
+  "name": "Juniper Networks"
+  }
+}
+</script><div id="app"><sw-app inline-template=""><div><sw-header></sw-header><sw-change-widget></sw-change-widget><div class="main wrapper"><sw-leftnav> </sw-leftnav><sw-rightnav><div class="minitoc desktop-only"><h5>ON THIS PAGE</h5><ul v-scrollspy=""><li><p><a href="#xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_vs2_5xz_ddc">How To Use This Information</a></p></li><li><p><a href="#xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_at2_5xz_ddc">Global 01</a></p></li><li><p><a href="#xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_ct2_5xz_ddc">Global 02</a></p></li><li><p><a href="#xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_et2_5xz_ddc">Global 03</a></p></li><li><p><a href="#xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_gt2_5xz_ddc">Global 04</a></p></li><li><p><a href="#xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_xbg_fxc_32c">Global 05</a></p></li><li><p><a href="#xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_it2_5xz_ddc">EMEA 01</a></p></li><li><p><a href="#xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_kt2_5xz_ddc">EMEA 02</a></p></li><li><p><a href="#xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_mt2_5xz_ddc">EMEA 03</a></p></li><li><p><a href="#xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_r1b_vbl_2fc">EMEA 04</a></p></li><li><p><a href="#xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_ot2_5xz_ddc">APAC 01</a></p></li><li><p><a href="#xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_rh4_yck_tgc">APAC 02</a></p></li><li><p><a href="#xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_ybc_c1l_2fc">APAC 03</a></p></li><li><p><a href="#xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_qt2_5xz_ddc">Additional Hosts to Allow</a></p></li><li><p><a href="#xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_jlh_ddb_cfc">Additional Information for Access Points</a></p></li><li><p><a href="#xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_vrj_ddb_cfc">Ports for Access Assurance (NAC),
+        Wired
+        Assurance, and WAN Assurance
+        </a></p></li></ul></div></sw-rightnav><div class="l-body"><div class="page-options clearfix"><sw-breadcrumb> </sw-breadcrumb></div><div class="topicBody"><div id="topic-content">
+
+
+
+  <h1 class="title topictitle1" id="ariaid-title1">Juniper Mist Firewall Ports and IP Addresses for Firewall Configuration</h1>
+<sw-topic-details date="2026-09-10"></sw-topic-details>
+  
+  
+
+  <div class="body conbody"><p class="shortdesc shortdesc-title">To ensure connectivity and proper operations of Juniper Mist™, configure your firewall
+    to open the required firewall ports and allow traffic to/from the Juniper Mist IP addresses for
+    your region.</p>
+
+    
+    
+    
+    <div class="section" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_vs2_5xz_ddc"><h2 class="title sectiontitle">How To Use This Information</h2>
+      
+      <ul class="ul" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__ul_ws2_5xz_ddc">
+        <li class="li">
+          <p class="p">Within this document, refer to the appropriate table for your regional cloud instance
+            (such as Global 01, Global 02, and so on). For help identifying your cloud instance, see
+              <a class="xref" href="cloud-instances.html" title="Set up a Mist account on the regional cloud nearest you, or create a global account for single sign-on to multiple clouds.">Juniper Mist Clouds and Accounts</a>.</p>
+
+        </li>
+
+        <li class="li">
+          <p class="p">Cloud Services—The tables identify the IP addresses and ports to allow for various
+            cloud services, as listed. </p>
+
+          <ul class="ul" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__ul_xs2_5xz_ddc">
+            <li class="li">
+              <p class="p">Admin Portal</p>
+
+            </li>
+
+            <li class="li">
+              <p class="p">API</p>
+
+              <p class="p">Guest Wi-Fi Portal</p>
+
+            </li>
+
+            <li class="li">
+              <p class="p">Webhooks Source IP Addresses</p>
+
+            </li>
+
+          </ul>
+
+        </li>
+
+        <li class="li">
+          <p class="p">Device Types—The tables identify the IP addresses and ports to allow for various
+            Juniper devices. You can ignore any device types that you don't have in your
+            organization.</p>
+
+          <ul class="ul" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__ul_ys2_5xz_ddc">
+            <li class="li">
+              <p class="p">Juniper Mist Access Points and Juniper Mist Edge</p>
+
+            </li>
+
+            <li class="li">
+              <p class="p">EX Series Switches</p>
+
+            </li>
+
+            <li class="li">
+              <p class="p">SRX Series Firewalls</p>
+
+            </li>
+
+            <li class="li">
+              <p class="p">SSR Series Routers</p>
+
+            </li>
+
+          </ul>
+
+          <sw-admonition name=""><div class="note" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__note_zs2_5xz_ddc"><span class="notetitle">Note:</span> 
+            <p class="p">For terminators in the tables, use FQDN-based firewall rules. Their IP addresses will
+              change. </p>
+
+          </div>
+</sw-admonition>
+        </li>
+
+        <li class="li">
+          <p class="p">Additional Information—Also allow the ports and IP addresses in the <a class="xref" href="#xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_qt2_5xz_ddc">Additional Hosts to Allow</a> section. </p>
+
+        </li>
+
+        <li class="li">
+          
+          <p class="p">You need to provide unrestricted access to debian and mistsys repo in the environments
+            where you create the Mist Edge VM for initial bring up. Also, ensure that the Firewall
+            has Port-80 and Port-443 open. </p>
+
+          
+        </li>
+
+        
+        <li class="li">
+          <p class="p">You must allow outbound DNS access to 8.8.8.8 and 1.1.1.1. These addresses are
+            hard-coded into SSR Series routers. The router must make DNS requests to one of these
+            addresses.</p>
+
+        </li>
+
+        
+      </ul>
+
+    </div>
+
+    
+    
+    
+    <div class="section" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_at2_5xz_ddc"><h2 class="title sectiontitle">Global 01</h2>
+      
+      
+      <sw-table>
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__table_bt2_5xz_ddc" class="table"><caption><span class="tablecap"><span class="table--title-label">Table 1: </span>Global 01 IP Addresses and Ports to Allow</span></caption><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;">
+            <tr class="row">
+              <th class="entry cellrowborder" style="vertical-align:top;" id="d39e177">Cloud Service or Device Type</th>
+
+              <th class="entry cellrowborder" style="vertical-align:top;" id="d39e180">IP Addresses and Ports</th>
+
+            </tr>
+
+          </thead>
+<tbody class="tbody">
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e177 ">Admin Portal</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e180 ">
+                <p class="p">manage.mist.com/signin.html (TCP 443)</p>
+
+                <p class="p">api-ws.mist.com (TCP 443)</p>
+
+                <p class="p">api.mist.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e177 ">API</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e180 ">api.mist.com (TCP 443)</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e177 ">Guest Wi-Fi Portal</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e180 ">portal.mist.com (TCP 443)</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e177 ">Webhooks Source IP Addresses (static IP addresses)</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e180 ">
+                <p class="p">54.193.71.17</p>
+
+                <p class="p">54.215.237.20</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e177 ">Juniper Mist Support</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e180 ">support-portal.mist.com</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e177 ">Juniper Mist Access Points and Juniper Mist Edge</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e180 ">
+                <p class="p">ep-terminator.mistsys.net (TCP 443)</p>
+
+                <p class="p">portal.mist.com (TCP 443)</p>
+
+                <p class="p">redirect.mist.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e177 ">EX Series Switches</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e180 ">
+                <p class="p">redirect.juniper.net (TCP 443)</p>
+
+                <p class="p">jma-terminator.mistsys.net (TCP 443)</p>
+
+                <p class="p">ztp.mist.com (TCP 443)</p>
+
+                <p class="p">oc-term.mistsys.net (TCP 2200) </p>
+
+                
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e177 ">SRX Series Firewalls</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e180 ">
+                <p class="p">redirect.juniper.net (TCP 443)</p>
+
+                <p class="p">ztp.mist.com (TCP 443)</p>
+
+                <p class="p">oc-term.mistsys.net (TCP 2200)</p>
+
+                
+                <p class="p">signatures.juniper.net/cgi-bin/index.cgi</p>
+
+                
+                <p class="p">srx-log-terminator.mist.com (TCP 6514) </p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e177 ">SSR Series Routers</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e180 ">
+                <p class="p">ep-terminator.mistsys.net (TCP 443)</p>
+
+                <p class="p">portal.mist.com (TCP 443)</p>
+
+                <p class="p">redirect.mist.com (TCP 443)</p>
+
+                <p class="p">software.128technology.com (TCP 443)</p>
+
+                <p class="p">rp.cloud.threatseeker.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+          </tbody>
+</table>
+</div>
+</sw-table>
+    </div>
+
+    <div class="section" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_ct2_5xz_ddc"><h2 class="title sectiontitle">Global 02</h2>
+      
+      <sw-table>
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__table_dt2_5xz_ddc" class="table"><caption><span class="tablecap"><span class="table--title-label">Table 2: </span>Global 02 IP Addresses and Ports to Allow</span></caption><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;">
+            <tr class="row">
+              <th class="entry cellrowborder" style="vertical-align:top;" id="d39e359">Cloud Service or Device</th>
+
+              <th class="entry cellrowborder" style="vertical-align:top;" id="d39e362">IP Addresses and Ports</th>
+
+            </tr>
+
+          </thead>
+<tbody class="tbody">
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e359 ">Admin Portal</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e362 ">
+                <p class="p">manage.gc1.mist.com (TCP 443)</p>
+
+                <p class="p">api-ws.gc1.mist.com (TCP 443)</p>
+
+                <p class="p">api.gc1.mist.com(TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e359 ">API</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e362 ">api.gc1.mist.com (TCP 443)</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e359 ">Guest Wi-Fi Portal</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e362 ">portal.gc1.mist.com (TCP 443)</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e359 ">Webhooks Source IP Addresses (static IP addresses)</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e362 ">
+                <p class="p">34.94.226.48/28</p>
+
+                <p class="p">(34.94.226.48-34.94.226.63)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e359 ">Juniper Mist Support</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e362 ">support-portal.mist.com</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e359 ">Juniper Mist Access Points and Juniper Mist Edge</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e362 ">
+                <p class="p">ep-terminator.mistsys.net (TCP 443)</p>
+
+                <p class="p">ep-terminator.gc1.mist.com (TCP 443)</p>
+
+                <p class="p">portal.gc1.mist.com (TCP 443)</p>
+
+                <p class="p">redirect.mist.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e359 ">EX Series Switches</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e362 ">
+                <p class="p">redirect.juniper.net (TCP 443)</p>
+
+                <p class="p">jma-terminator.gc1.mist.com (TCP 443)</p>
+
+                <p class="p">ztp.gc1.mist.com (TCP 443)</p>
+
+                <p class="p">oc-term.gc1.mist.com (TCP 2200) </p>
+
+                <p class="p">cdn.juniper.net (TCP 443)</p>
+
+                
+                
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e359 ">SRX Series Firewalls</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e362 ">
+                <p class="p">redirect.juniper.net (TCP 443)</p>
+
+                <p class="p">ztp.gc1.mist.com (TCP 443)</p>
+
+                <p class="p">oc-term.gc1.mist.com (TCP 2200)</p>
+
+                
+                <p class="p">signatures.juniper.net/cgi-bin/index.cgi</p>
+
+                
+                <p class="p">srx-log-terminator.gc1.mist.com (TCP 6514) </p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e359 ">SSR Series Routers</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e362 ">
+                <p class="p">ep-terminator.mistsys.net (TCP 443)</p>
+
+                <p class="p">ep-terminator.gc1.mist.com (TCP 443)</p>
+
+                <p class="p">portal.gc1.mist.com (TCP 443)</p>
+
+                <p class="p">redirect.mist.com (TCP 443)</p>
+
+                <p class="p">software.128technology.com (TCP 443)</p>
+
+                <p class="p">rp.cloud.threatseeker.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+          </tbody>
+</table>
+</div>
+</sw-table>
+    </div>
+
+    <div class="section" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_et2_5xz_ddc"><h2 class="title sectiontitle">Global 03</h2>
+      
+      <sw-table>
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__table_ft2_5xz_ddc" class="table"><caption><span class="tablecap"><span class="table--title-label">Table 3: </span>Global 03 IP Addresses and Ports to Allow</span></caption><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;">
+            <tr class="row">
+              <th class="entry cellrowborder" style="vertical-align:top;" id="d39e551">Cloud Service or Device</th>
+
+              <th class="entry cellrowborder" style="vertical-align:top;" id="d39e554">IP Addresses and Ports</th>
+
+            </tr>
+
+          </thead>
+<tbody class="tbody">
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e551 ">Admin Portal</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e554 ">
+                <p class="p">manage.ac2.mist.com (TCP 443)</p>
+
+                <p class="p">api-ws.ac2.mist.com (TCP 443)</p>
+
+                <p class="p">api.ac2.mist.com(TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e551 ">API</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e554 ">api.ac2.mist.com (TCP 443)</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e551 ">Guest Wi-Fi Portal</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e554 ">portal.ac2.mist.com (TCP 443)</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e551 ">Webhooks Source IP Addresses (static IP addresses)</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e554 ">
+                <p class="p">34.231.34.177</p>
+
+                <p class="p">54.235.187.11</p>
+
+                <p class="p">18.233.33.230</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e551 ">Juniper Mist Support</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e554 ">support-portal.mist.com</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e551 ">Juniper Mist Access Points and Juniper Mist Edge</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e554 ">
+                <p class="p">ep-terminator.mistsys.net (TCP 443)</p>
+
+                <p class="p">ep-terminator.ac2.mist.com (TCP 443)</p>
+
+                <p class="p">portal.ac2.mist.com (TCP 443)</p>
+
+                <p class="p">redirect.mist.com (TCP 443) </p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e551 ">EX Series Switches</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e554 ">
+                <p class="p">redirect.juniper.net (TCP 443)</p>
+
+                <p class="p">jma-terminator.ac2.mist.com (TCP 443)</p>
+
+                <p class="p">ztp.ac2.mist.com (TCP 443)</p>
+
+                <p class="p">oc-term.ac2.mist.com (TCP 2200) </p>
+
+                <p class="p">cdn.juniper.net (TCP 443)</p>
+
+                
+                
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e551 ">SRX Series Firewalls</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e554 ">
+                <p class="p">redirect.juniper.net (TCP 443)</p>
+
+                <p class="p">ztp.ac2.mist.com (TCP 443)</p>
+
+                <p class="p">oc-term.ac2.mist.com (TCP 2200)</p>
+
+                
+                <p class="p">signatures.juniper.net/cgi-bin/index.cgi</p>
+
+                
+                <p class="p">srx-log-terminator.ac2.mist.com (TCP 6514) </p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e551 ">SSR Series Routers</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e554 ">
+                <p class="p">ep-terminator.mistsys.net (TCP 443)</p>
+
+                <p class="p">ep-terminator.ac2.mist.com (TCP 443)</p>
+
+                <p class="p">portal.ac2.mist.com (TCP 443)</p>
+
+                <p class="p">redirect.mist.com (TCP 443)</p>
+
+                <p class="p">software.128technology.com (TCP 443)</p>
+
+                <p class="p">rp.cloud.threatseeker.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+          </tbody>
+</table>
+</div>
+</sw-table>
+    </div>
+
+    <div class="section" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_gt2_5xz_ddc"><h2 class="title sectiontitle">Global 04</h2>
+      
+      <sw-table>
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__table_ht2_5xz_ddc" class="table"><caption><span class="tablecap"><span class="table--title-label">Table 4: </span>Global 04 IP Addresses and Ports to Allow</span></caption><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;">
+            <tr class="row">
+              <th class="entry cellrowborder" style="vertical-align:top;" id="d39e746">Cloud Service or Device</th>
+
+              <th class="entry cellrowborder" style="vertical-align:top;" id="d39e749">IP Addresses and Ports</th>
+
+            </tr>
+
+          </thead>
+<tbody class="tbody">
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e746 ">Admin Portal</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e749 ">
+                <p class="p">manage.gc2.mist.com (TCP 443)</p>
+
+                <p class="p">api-ws.gc2.mist.com (TCP 443)</p>
+
+                <p class="p">api.gc2.mist.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e746 ">API</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e749 ">api.gc2.mist.com (TCP 443)</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e746 ">Guest Wi-Fi Portal</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e749 ">portal.gc2.mist.com (TCP 443)</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e746 ">Webhooks Source IP Addresses (static IP addresses)</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e749 ">
+                <p class="p">34.152.4.85</p>
+
+                <p class="p">35.203.21.42</p>
+
+                <p class="p">34.152.7.156</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e746 ">Juniper Mist Support</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e749 ">support-portal.mist.com</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e746 ">Juniper Mist Access Points and Juniper Mist Edge</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e749 ">
+                <p class="p">ep-terminator.mistsys.net (TCP 443)</p>
+
+                <p class="p">ep-terminator.gc2.mist.com (TCP 443)</p>
+
+                <p class="p">portal.gc2.mist.com (TCP443)</p>
+
+                <p class="p">redirect.mist.com (TCP 443) </p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e746 ">EX Series Switches</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e749 ">
+                <p class="p">redirect.juniper.net (TCP 443)</p>
+
+                <p class="p">jma-terminator.gc2.mist.com (TCP 443)</p>
+
+                <p class="p">ztp.gc2.mist.com (TCP 443)</p>
+
+                <p class="p">oc-term.gc2.mist.com (TCP 2200) </p>
+
+                <p class="p">cdn.juniper.net (TCP 443)</p>
+
+                
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e746 ">SRX Series Firewalls</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e749 ">
+                <p class="p">redirect.juniper.net (TCP 443)</p>
+
+                <p class="p">ztp.gc2.mist.com (TCP 443)</p>
+
+                <p class="p">oc-term.gc2.mist.com (TCP 2200)</p>
+
+                
+                <p class="p">signatures.juniper.net/cgi-bin/index.cgi</p>
+
+                
+                <p class="p">srx-log-terminator.gc2.mist.com (TCP 6514) </p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e746 ">SSR Series Routers</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e749 ">
+                <p class="p">ep-terminator.mistsys.net (TCP 443)</p>
+
+                <p class="p">ep-terminator.gc2.mist.com (TCP 443)</p>
+
+                <p class="p">portal.gc2.mist.com (TCP443)</p>
+
+                <p class="p">redirect.mist.com (TCP 443)</p>
+
+                <p class="p">software.128technology.com (TCP 443)</p>
+
+                <p class="p">rp.cloud.threatseeker.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+          </tbody>
+</table>
+</div>
+</sw-table>
+    </div>
+
+    <div class="section" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_xbg_fxc_32c"><h2 class="title sectiontitle">Global 05</h2>
+      
+      <sw-table>
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__table_ybg_fxc_32c" class="table"><caption><span class="tablecap"><span class="table--title-label">Table 5: </span>Global 05 IP Addresses and Ports to Allow</span></caption><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;">
+            <tr class="row">
+              <th class="entry cellrowborder" style="vertical-align:top;" id="d39e942">Cloud Service or Device</th>
+
+              <th class="entry cellrowborder" style="vertical-align:top;" id="d39e945">IP Addresses and Ports</th>
+
+            </tr>
+
+          </thead>
+<tbody class="tbody">
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e942 ">Admin Portal</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e945 ">
+                <p class="p">manage.gc4.mist.com (TCP 443)</p>
+
+                <p class="p">api-ws.gc4.mist.com (TCP 443)</p>
+
+                <p class="p">api.gc4.mist.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e942 ">API</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e945 ">api.gc4.mist.com (TCP 443)</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e942 ">Guest Wi-Fi Portal</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e945 ">portal.gc4.mist.com (TCP 443)</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e942 ">Webhooks Source IP Addresses (static IP addresses)</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e945 ">
+                <p class="p">35.192.224.0/29</p>
+
+                <p class="p">(35.192.224.0 - 35.192.224.7)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e942 ">Juniper Mist Support</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e945 ">support-portal.mist.com</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e942 ">Juniper Mist Access Points and Juniper Mist Edge</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e945 ">
+                <p class="p">ep-terminator.mistsys.net (TCP 443)</p>
+
+                <p class="p">ep-terminator.gc4.mist.com (TCP 443)</p>
+
+                <p class="p">portal.gc4.mist.com (TCP443)</p>
+
+                <p class="p">redirect.mist.com (TCP 443) </p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e942 ">EX Series Switches</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e945 ">
+                <p class="p">redirect.juniper.net (TCP 443)</p>
+
+                <p class="p">jma-terminator.gc4.mist.com (TCP 443)</p>
+
+                <p class="p">ztp.gc4.mist.com (TCP 443)</p>
+
+                <p class="p">oc-term.gc4.mist.com (TCP 2200) </p>
+
+                <p class="p">cdn.juniper.net (TCP 443)</p>
+
+                
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e942 ">SRX Series Firewalls</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e945 ">
+                <p class="p">redirect.juniper.net (TCP 443)</p>
+
+                <p class="p">ztp.gc4.mist.com (TCP 443)</p>
+
+                <p class="p">oc-term.gc4.mist.com (TCP 2200)</p>
+
+                
+                <p class="p">signatures.juniper.net/cgi-bin/index.cgi</p>
+
+                
+                <p class="p">srx-log-terminator.gc4.mist.com (TCP 6514) </p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e942 ">SSR Series Routers</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e945 ">
+                <p class="p">ep-terminator.mistsys.net (TCP 443)</p>
+
+                <p class="p">ep-terminator.gc4.mist.com (TCP 443)</p>
+
+                <p class="p">portal.gc4.mist.com (TCP443)</p>
+
+                <p class="p">redirect.mist.com (TCP 443)</p>
+
+                <p class="p">software.128technology.com (TCP 443)</p>
+
+                <p class="p">rp.cloud.threatseeker.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+          </tbody>
+</table>
+</div>
+</sw-table>
+    </div>
+
+    <div class="section" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_it2_5xz_ddc"><h2 class="title sectiontitle">EMEA 01</h2>
+      
+      <sw-table>
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__table_jt2_5xz_ddc" class="table"><caption><span class="tablecap"><span class="table--title-label">Table 6: </span>EMEA 01 IP Addresses and Ports to Allow</span></caption><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;">
+            <tr class="row">
+              <th class="entry cellrowborder" style="vertical-align:top;" id="d39e1134">Cloud Service or Device</th>
+
+              <th class="entry cellrowborder" style="vertical-align:top;" id="d39e1137">IP Addresses and Ports</th>
+
+            </tr>
+
+          </thead>
+<tbody class="tbody">
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1134 ">Admin Portal</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1137 ">
+                <p class="p">manage.eu.mist.com (TCP 443)</p>
+
+                <p class="p">api-ws.eu.mist.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1134 ">API</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1137 ">api.eu.mist.com (TCP 443)</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1134 ">Guest Wi-Fi Portal</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1137 ">portal.eu.mist.com (TCP 443)</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1134 ">Webhooks Source IP Addresses (static IP addresses)</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1137 ">
+                <p class="p">3.122.172.223</p>
+
+                <p class="p">3.121.19.146</p>
+
+                <p class="p">3.120.167.1</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1134 ">Juniper Mist Support</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1137 ">support-portal.mist.com</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1134 ">Juniper Mist Access Points and Juniper Mist Edge</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1137 ">
+                <p class="p">ep-terminator.mistsys.net (TCP 443)</p>
+
+                <p class="p">ep-terminator.eu.mist.com (TCP 443)</p>
+
+                <p class="p">portal.eu.mist.com (TCP 443)</p>
+
+                <p class="p">redirect.mist.com (TCP 443) </p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1134 ">EX Series Switches</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1137 ">
+                <p class="p">redirect.juniper.net (TCP 443)</p>
+
+                <p class="p">jma-terminator.eu.mist.com (TCP 443)</p>
+
+                <p class="p">ztp.eu.mist.com (TCP 443)</p>
+
+                <p class="p">oc-term.eu.mist.com (TCP 2200) </p>
+
+                <p class="p">cdn.juniper.net (TCP 443)</p>
+
+                
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1134 ">SRX Series Firewalls</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1137 ">
+                <p class="p">redirect.juniper.net (TCP 443)</p>
+
+                <p class="p">ztp.eu.mist.com (TCP 443)</p>
+
+                <p class="p">oc-term.eu.mist.com (TCP 2200)</p>
+
+                
+                <p class="p">signatures.juniper.net/cgi-bin/index.cgi</p>
+
+                
+                <p class="p">srx-log-terminator.eu.mist.com (TCP 6514) </p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1134 ">SSR Series Routers</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1137 ">
+                <p class="p">ep-terminator.mistsys.net (TCP 443)</p>
+
+                <p class="p">ep-terminator.eu.mist.com (TCP 443)</p>
+
+                <p class="p">portal.eu.mist.com (TCP 443)</p>
+
+                <p class="p">redirect.mist.com (TCP 443)</p>
+
+                <p class="p">software.128technology.com (TCP 443)</p>
+
+                <p class="p">rp.cloud.threatseeker.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+          </tbody>
+</table>
+</div>
+</sw-table>
+    </div>
+
+    <div class="section" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_kt2_5xz_ddc"><h2 class="title sectiontitle">EMEA 02</h2>
+      
+      <sw-table>
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__table_lt2_5xz_ddc" class="table"><caption><span class="tablecap"><span class="table--title-label">Table 7: </span>EMEA 02 IP Addresses and Ports to Allow</span></caption><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;">
+            <tr class="row">
+              <th class="entry cellrowborder" style="vertical-align:top;" id="d39e1326">Cloud Service or Device</th>
+
+              <th class="entry cellrowborder" style="vertical-align:top;" id="d39e1329">IP Addresses and Ports</th>
+
+            </tr>
+
+          </thead>
+<tbody class="tbody">
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1326 ">Admin Portal</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1329 ">
+                <p class="p">manage.gc3.mist.com (TCP 443)</p>
+
+                <p class="p">api-ws.gc3.mist.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1326 ">API</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1329 ">
+                <p class="p">api.gc3.mist.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1326 ">Guest Wi-Fi Portal</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1329 ">
+                <p class="p">portal.gc3.mist.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1326 ">Webhooks Source IP Addresses (static IP addresses)</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1329 ">
+                <p class="p">35.234.156.66</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1326 ">Juniper Mist Support</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1329 ">support-portal.mist.com</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1326 ">Juniper Mist Access Points and Juniper Mist Edge</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1329 ">
+                <p class="p">ep-terminator.mistsys.net (TCP 443)</p>
+
+                <p class="p">ep-terminator.gc3.mist.com (TCP 443)</p>
+
+                <p class="p">portal.gc3.mist.com (TCP 443)</p>
+
+                <p class="p">redirect.mist.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1326 ">EX Series Switches</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1329 ">
+                <p class="p">redirect.juniper.net (TCP 443)</p>
+
+                <p class="p">jma-terminator.gc3.mist.com (TCP 443)</p>
+
+                <p class="p">ztp.gc3.mist.com (TCP 443)</p>
+
+                <p class="p">oc-term.gc3.mist.com (TCP 2200)</p>
+
+                <p class="p">cdn.juniper.net (TCP 443)</p>
+
+                
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1326 ">SRX Series Firewalls</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1329 ">
+                <p class="p">redirect.juniper.net (TCP 443)</p>
+
+                <p class="p">ztp.gc3.mist.com (TCP 443)</p>
+
+                <p class="p">oc-term.gc3.mist.com (TCP 2200)</p>
+
+                
+                <p class="p">signatures.juniper.net/cgi-bin/index.cgi</p>
+
+                
+                <p class="p">srx-log-terminator.gc3.mist.com (TCP 6514)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1326 ">SSR Series Routers</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1329 ">
+                <p class="p">ep-terminator.mistsys.net (TCP 443) </p>
+
+                <p class="p">ep-terminator.gc3.mist.com (TCP 443)</p>
+
+                <p class="p">portal.gc3.mist.com (TCP 443)</p>
+
+                <p class="p">redirect.mist.com (TCP 443)</p>
+
+                <p class="p">software.128technology.com (TCP 443)</p>
+
+                <p class="p">rp.cloud.threatseeker.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+          </tbody>
+</table>
+</div>
+</sw-table>
+    </div>
+
+    <div class="section" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_mt2_5xz_ddc"><h2 class="title sectiontitle">EMEA 03</h2>
+      
+      <sw-table>
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__table_nt2_5xz_ddc" class="table"><caption><span class="tablecap"><span class="table--title-label">Table 8: </span>EMEA 03 IP Addresses and Ports to Allow</span></caption><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;">
+            <tr class="row">
+              <th class="entry cellrowborder" style="vertical-align:top;" id="d39e1518">Cloud Service or Device</th>
+
+              <th class="entry cellrowborder" style="vertical-align:top;" id="d39e1521">IP Addresses and Ports</th>
+
+            </tr>
+
+          </thead>
+<tbody class="tbody">
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1518 ">Admin Portal</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1521 ">
+                <p class="p">manage.ac6.mist.com (TCP 443) </p>
+
+                <p class="p">api-ws.ac6.mist.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1518 ">API</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1521 ">
+                <p class="p">api.ac6.mist.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1518 ">Guest Wi-Fi Portal</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1521 ">
+                <p class="p">portal.ac6.mist.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1518 ">Webhooks Source IP Addresses (static IP addresses)</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1521 ">
+                <p class="p">51.112.15.151</p>
+
+                <p class="p">51.112.76.109</p>
+
+                <p class="p">51.112.86.222</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1518 ">Juniper Mist Support</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1521 ">
+                <p class="p">support-portal.mist.com</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1518 ">Juniper Mist Access Points and Juniper Mist Edge</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1521 ">
+                <p class="p">ep-terminator.mistsys.net (TCP 443)</p>
+
+                <p class="p">ep-terminator.ac6.mist.com (TCP 443)</p>
+
+                <p class="p">portal.ac6.mist.com (TCP 443)</p>
+
+                <p class="p">redirect.mist.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1518 ">EX Series Switches</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1521 ">
+                <p class="p">redirect.juniper.net (TCP 443)</p>
+
+                <p class="p">jma-terminator.ac6.mist.com (TCP 443)</p>
+
+                <p class="p">ztp.ac6.mist.com (TCP 443)</p>
+
+                <p class="p">oc-term.ac6.mist.com (TCP 2200)</p>
+
+                <p class="p">cdn.juniper.net (TCP 443)</p>
+
+                
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1518 ">SRX Series Firewalls</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1521 ">
+                <p class="p">redirect.juniper.net (TCP 443)</p>
+
+                <p class="p">ztp.ac6.mist.com (TCP 443)</p>
+
+                <p class="p">oc-term.ac6.mist.com (TCP 2200)</p>
+
+                
+                <p class="p">signatures.juniper.net/cgi-bin/index.cgi</p>
+
+                
+                <p class="p">srx-log-terminator.ac6.mist.com (TCP 6514)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1518 ">SSR Series Routers</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1521 ">
+                <p class="p">ep-terminator.mistsys.net (TCP 443)</p>
+
+                <p class="p">ep-terminator.ac6.mist.com (TCP 443)</p>
+
+                <p class="p">portal.ac6.mist.com (TCP 443)</p>
+
+                <p class="p">redirect.mist.com (TCP 443)</p>
+
+                <p class="p">software.128technology.com (TCP 443)</p>
+
+                <p class="p">rp.cloud.threatseeker.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+          </tbody>
+</table>
+</div>
+</sw-table>
+    </div>
+
+    
+    <div class="section" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_r1b_vbl_2fc"><h2 class="title sectiontitle">EMEA 04</h2>
+      
+      <sw-table>
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__table_s1b_vbl_2fc" class="table"><caption><span class="tablecap"><span class="table--title-label">Table 9: </span>EMEA 04 IP Addresses and Ports to Allow</span></caption><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;">
+            <tr class="row">
+              <th class="entry cellrowborder" style="vertical-align:top;" id="d39e1719">Cloud Service or Device</th>
+
+              <th class="entry cellrowborder" style="vertical-align:top;" id="d39e1722">IP Addresses and Ports</th>
+
+            </tr>
+
+          </thead>
+<tbody class="tbody">
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1719 ">Admin Portal</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1722 ">
+                <p class="p">manage.gc6.mist.com (TCP 443) </p>
+
+                <p class="p">api-ws.gc6.mist.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1719 ">API</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1722 ">
+                <p class="p">api.gc6.mist.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1719 ">Guest Wi-Fi Portal</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1722 ">
+                <p class="p">portal.gc6.mist.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1719 ">Webhooks Source IP Addresses (static IP addresses)</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1722 ">
+                <p class="p">34.166.152.112/29</p>
+
+                <p class="p">(34.166.152.112 - 34.166.152.119)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1719 ">Juniper Mist Support</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1722 ">
+                <p class="p">support-portal.mist.com</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1719 ">Juniper Mist Access Points and Juniper Mist Edge</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1722 ">
+                <p class="p">ep-terminator.mistsys.net (TCP 443)</p>
+
+                <p class="p">ep-terminator.gc6.mist.com (TCP 443)</p>
+
+                <p class="p">portal.gc6.mist.com (TCP 443)</p>
+
+                <p class="p">redirect.mist.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1719 ">EX Series Switches</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1722 ">
+                <p class="p">redirect.juniper.net (TCP 443)</p>
+
+                <p class="p">jma-terminator.gc6.mist.com (TCP 443)</p>
+
+                <p class="p">ztp.gc6.mist.com (TCP 443)</p>
+
+                <p class="p">oc-term.gc6.mist.com (TCP 2200)</p>
+
+                <p class="p">cdn.juniper.net (TCP 443)</p>
+
+                
+                
+                
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1719 ">SRX Series Firewalls</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1722 ">
+                <p class="p">redirect.juniper.net (TCP 443)</p>
+
+                <p class="p">ztp.gc6.mist.com (TCP 443)</p>
+
+                <p class="p">oc-term.gc6.mist.com (TCP 2200)</p>
+
+                
+                
+                <p class="p">signatures.juniper.net/cgi-bin/index.cgi</p>
+
+                
+                
+                <p class="p">srx-log-terminator.gc6.mist.com (TCP 6514)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1719 ">SSR Series Routers</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1722 ">
+                <p class="p">ep-terminator.mistsys.net (TCP 443)</p>
+
+                <p class="p">ep-terminator.gc6.mist.com (TCP 443)</p>
+
+                <p class="p">portal.gc6.mist.com (TCP 443)</p>
+
+                <p class="p">redirect.mist.com (TCP 443)</p>
+
+                <p class="p">software.128technology.com (TCP 443)</p>
+
+                <p class="p">rp.cloud.threatseeker.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+          </tbody>
+</table>
+</div>
+</sw-table>
+    </div>
+
+    
+    <div class="section" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_ot2_5xz_ddc"><h2 class="title sectiontitle">APAC 01</h2>
+      
+      <sw-table>
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__table_pt2_5xz_ddc" class="table"><caption><span class="tablecap"><span class="table--title-label">Table 10: </span>APAC 01 IP Addresses and Ports to Allow</span></caption><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;">
+            <tr class="row">
+              <th class="entry cellrowborder" style="vertical-align:top;" id="d39e1917">Cloud Service or Device</th>
+
+              <th class="entry cellrowborder" style="vertical-align:top;" id="d39e1920">IP Addresses and Ports</th>
+
+            </tr>
+
+          </thead>
+<tbody class="tbody">
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1917 ">Admin Portal</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1920 ">
+                <p class="p">manage.ac5.mist.com (TCP 443)</p>
+
+                <p class="p">api-ws.ac5.mist.com (TCP 443)</p>
+
+                <p class="p">api.ac5.mist.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1917 ">API</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1920 ">api.ac5.mist.com (TCP 443)</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1917 ">Guest Wi-Fi Portal</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1920 ">
+                <p class="p">portal.ac5.mist.com(TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1917 ">Webhooks Source IP Addresses (static IP addresses)</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1920 ">
+                <p class="p">54.206.226.168</p>
+
+                <p class="p">13.238.77.6</p>
+
+                <p class="p">54.79.134.226</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1917 ">Juniper Mist Support</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1920 ">support-portal.mist.com</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1917 ">Juniper Mist Access Points and Juniper Mist Edge</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1920 ">
+                <p class="p">ep-terminator.mistsys.net (TCP 443)</p>
+
+                <p class="p">ep-terminator.ac5.mist.com (TCP 443)</p>
+
+                <p class="p">portal.ac5.mist.com (TCP 443)</p>
+
+                <p class="p">redirect.mist.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1917 ">EX Series Switches</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1920 ">
+                <p class="p">redirect.juniper.net (TCP 443)</p>
+
+                <p class="p">jma-terminator.ac5.mist.com (TCP 443)</p>
+
+                <p class="p">ztp.ac5.mist.com (TCP 443)</p>
+
+                <p class="p">oc-term.ac5.mist.com (TCP 2200)</p>
+
+                <p class="p">cdn.juniper.net (TCP 443)</p>
+
+                
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1917 ">SRX Series Firewalls</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1920 ">
+                <p class="p">redirect.juniper.net (TCP 443)</p>
+
+                <p class="p">ztp.ac5.mist.com (TCP 443)</p>
+
+                <p class="p">oc-term.ac5.mist.com (TCP 2200)</p>
+
+                
+                <p class="p">signatures.juniper.net/cgi-bin/index.cgi</p>
+
+                
+                <p class="p">srx-log-terminator.ac5.mist.com (TCP 6514)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1917 ">SSR Series Routers</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e1920 ">
+                <p class="p">ep-terminator.mistsys.net (TCP 443)</p>
+
+                <p class="p">ep-terminator.ac5.mist.com (TCP 443)</p>
+
+                <p class="p">portal.ac5.mist.com (TCP 443)</p>
+
+                <p class="p">redirect.mist.com (TCP 443)</p>
+
+                <p class="p">software.128technology.com (TCP 443)</p>
+
+                <p class="p">rp.cloud.threatseeker.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+          </tbody>
+</table>
+</div>
+</sw-table>
+      
+    </div>
+
+    
+    <div class="section" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_rh4_yck_tgc"><h2 class="title sectiontitle">APAC 02</h2>
+      
+      <sw-table>
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__table_uh4_yck_tgc" class="table"><caption><span class="tablecap"><span class="table--title-label">Table 11: </span>APAC 02 IP Addresses and Ports to Allow</span></caption><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;">
+            <tr class="row">
+              <th class="entry cellrowborder" style="vertical-align:top;" id="d39e2116">Cloud Service or Device</th>
+
+              <th class="entry cellrowborder" style="vertical-align:top;" id="d39e2119">IP Addresses and Ports</th>
+
+            </tr>
+
+          </thead>
+<tbody class="tbody">
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2116 ">Admin Portal</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2119 ">
+                <p class="p">manage.gc5.mist.com (TCP 443)</p>
+
+                <p class="p">api-ws.gc5.mist.com (TCP 443)</p>
+
+                <p class="p">api.gc5.mist.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2116 ">API</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2119 ">api.gc5.mist.com (TCP 443)</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2116 ">Guest Wi-Fi Portal</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2119 ">portal.gc5.mist.com (TCP 443)</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2116 ">Webhooks Source IP Addresses (static IP addresses)</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2119 ">
+                <p class="p">34.47.180.168/29</p>
+
+                <p class="p">(34.47.180.168 - 34.47.180.175)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2116 ">Juniper Mist Support</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2119 ">support-portal.mist.com</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2116 ">Juniper Mist Access Points and Juniper Mist Edge</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2119 ">
+                <p class="p">ep-terminator.mistsys.net (TCP 443)</p>
+
+                <p class="p">ep-terminator.gc5.mist.com (TCP 443)</p>
+
+                <p class="p">portal.gc5.mist.com (TCP 443)</p>
+
+                <p class="p">redirect.mist.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2116 ">EX Series Switches</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2119 ">
+                <p class="p">redirect.juniper.net (TCP 443)</p>
+
+                <p class="p">jma-terminator.gc5.mist.com (TCP 443)</p>
+
+                <p class="p">ztp.gc5.mist.com (TCP 443)</p>
+
+                <p class="p">oc-term.gc5.mist.com (TCP 2200) </p>
+
+                <p class="p">cdn.juniper.net (TCP 443)</p>
+
+                
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2116 ">SRX Series Firewalls</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2119 ">
+                <p class="p">redirect.juniper.net (TCP 443)</p>
+
+                <p class="p">ztp.gc5.mist.com (TCP 443)</p>
+
+                <p class="p">oc-term.gc5.mist.com (TCP 2200)</p>
+
+                
+                <p class="p">signatures.juniper.net/cgi-bin/index.cgi</p>
+
+                
+                <p class="p">srx-log-terminator.gc5.mist.com (TCP 6514) </p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2116 ">SSR Series Routers</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2119 ">
+                <p class="p">ep-terminator.mistsys.net (TCP 443)</p>
+
+                <p class="p">ep-terminator.gc5.mist.com (TCP 443)</p>
+
+                <p class="p">portal.gc5.mist.com (TCP 443)</p>
+
+                <p class="p">redirect.mist.com (TCP 443)</p>
+
+                <p class="p">software.128technology.com (TCP 443)</p>
+
+                <p class="p">rp.cloud.threatseeker.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+          </tbody>
+</table>
+</div>
+</sw-table>
+    </div>
+
+    
+    <div class="section" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_ybc_c1l_2fc"><h2 class="title sectiontitle">APAC 03</h2>
+      
+      <sw-table>
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__table_zbc_c1l_2fc" class="table"><caption><span class="tablecap"><span class="table--title-label">Table 12: </span>APAC 03 IP Addresses and Ports to Allow</span></caption><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;">
+            <tr class="row">
+              <th class="entry cellrowborder" style="vertical-align:top;" id="d39e2308">Cloud Service or Device</th>
+
+              <th class="entry cellrowborder" style="vertical-align:top;" id="d39e2311">IP Addresses and Ports</th>
+
+            </tr>
+
+          </thead>
+<tbody class="tbody">
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2308 ">Admin Portal</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2311 ">
+                <p class="p">manage.gc7.mist.com (TCP 443)</p>
+
+                <p class="p">api-ws.gc7.mist.com (TCP 443)</p>
+
+                <p class="p">api.gc7.mist.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2308 ">API</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2311 ">api.gc7.mist.com (TCP 443)</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2308 ">Guest Wi-Fi Portal</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2311 ">
+                <p class="p">portal.gc7.mist.com(TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2308 ">Webhooks Source IP Addresses (static IP addresses)</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2311 ">
+                <p class="p">34.104.128.8/29</p>
+
+                <p class="p">(34.104.128.8 - 34.104.128.15)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2308 ">Juniper Mist Support</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2311 ">support-portal.mist.com</td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2308 ">Juniper Mist Access Points and Juniper Mist Edge</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2311 ">
+                <p class="p">ep-terminator.mistsys.net (TCP 443)</p>
+
+                <p class="p">ep-terminator.gc7.mist.com (TCP 443)</p>
+
+                <p class="p">portal.gc7.mist.com (TCP 443)</p>
+
+                <p class="p">redirect.mist.com (TCP 443)</p>
+
+                <sw-admonition name=""><div class="note" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__note_km3_3wc_gfc"><span class="notetitle">Note:</span> For Mist Edges to function effectively on the APAC 03
+                  cloud instance, a new version of the tunnel termination service is required. This
+                  version will be released at a later date. If you want to use Mist Edge with the
+                  tunnel service in this region, contact your account team for guidance.</div>
+</sw-admonition>
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2308 ">EX Series Switches</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2311 ">
+                <p class="p">redirect.juniper.net (TCP 443)</p>
+
+                <p class="p">jma-terminator.gc7.mist.com (TCP 443)</p>
+
+                <p class="p">ztp.gc7.mist.com (TCP 443)</p>
+
+                <p class="p">oc-term.gc7.mist.com (TCP 2200)</p>
+
+                <p class="p">cdn.juniper.net (TCP 443)</p>
+
+                
+                
+                
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2308 ">SRX Series Firewalls</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2311 ">
+                <p class="p">redirect.juniper.net (TCP 443)</p>
+
+                <p class="p">ztp.gc7.mist.com (TCP 443)</p>
+
+                <p class="p">oc-term.gc7.mist.com (TCP 2200)</p>
+
+                
+                
+                <p class="p">signatures.juniper.net/cgi-bin/index.cgi</p>
+
+                
+                
+                <p class="p">srx-log-terminator.gc7.mist.com (TCP 6514)</p>
+
+              </td>
+
+            </tr>
+
+            <tr class="row">
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2308 ">SSR Series Routers</td>
+
+              <td class="entry cellrowborder" style="vertical-align:top;" headers="d39e2311 ">
+                <p class="p">ep-terminator.mistsys.net (TCP 443)</p>
+
+                <p class="p">ep-terminator.gc7.mist.com (TCP 443)</p>
+
+                <p class="p">portal.gc7.mist.com (TCP 443)</p>
+
+                <p class="p">redirect.mist.com (TCP 443)</p>
+
+                <p class="p">software.128technology.com (TCP 443)</p>
+
+                <p class="p">rp.cloud.threatseeker.com (TCP 443)</p>
+
+              </td>
+
+            </tr>
+
+          </tbody>
+</table>
+</div>
+</sw-table>
+    </div>
+
+    
+    <div class="section" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_qt2_5xz_ddc"><h2 class="title sectiontitle">Additional Hosts to Allow</h2>
+      
+      <ul class="ul" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__ul_st2_5xz_ddc">
+        <li class="li"><strong class="ph b">portal.mist.com</strong> for Wi-Fi captive portal</li>
+
+        <li class="li"><strong class="ph b">manage.mist.com/signin.html</strong> for Admin UI access</li>
+
+        <li class="li"><strong class="ph b">api.mist.com</strong> for Admin API access</li>
+
+        <li class="li"><strong class="ph b">api-ws.mist.com</strong> for Admin websocket API access</li>
+
+        <li class="li"><strong class="ph b">support-portal.mist.com</strong> for Admin Support Portal access</li>
+
+      </ul>
+
+    </div>
+
+    
+    <div class="section" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_jlh_ddb_cfc"><h2 class="title sectiontitle">Additional Information for Access Points</h2>
+      
+      <ul class="ul" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__ul_nlh_ddb_cfc">
+        <li class="li">APs require TCP port 443 to connect to the Juniper Mist cloud. Optionally, you can
+          tunnel this traffic by using Layer 2 Tunneling Protocol (L2TP). </li>
+
+        
+        
+        <li class="li">
+          <p class="p">We also recommend opening UDP port 443 and TCP port 80. Port 443 is the primary
+            communication channel for AP’s talking to cloud (onboarding, telemetry, configuration).
+            Port 80 is recommended as a backup.</p>
+
+          
+        </li>
+
+        
+        
+        <li class="li"> The Domain Name System (DNS) requires UDP port 53 to look up the cloud hostnames.
+          However, the DNS does not need a public DNS server. </li>
+
+        <li class="li">The Dynamic Host Control Protocol (DHCP) initially requires UDP ports 67 and 68. After
+          initial device onboarding, you can configure static IP on the device if you prefer. </li>
+
+        <li class="li">The Network Time Protocol (NTP) may require UDP port 123 in some environments. The AP
+          will by default attempt to receive the time from pool.ntp.org. The AP can also receive
+          time through DHCP option 42. </li>
+
+        
+        
+        
+        <li class="li">
+          <p class="p">The IP addresses change periodically and may resolve to something like this:
+            ep-terminator-production-839577302.us-west-1.elb.amazonaws.com. </p>
+
+        </li>
+
+        <li class="li">
+          <p class="p">Proxy settings are supported and the proxy setting is used if available, but if not the
+            AP will still try to connect. </p>
+
+        </li>
+
+      </ul>
+
+    </div>
+
+    <div class="section" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__section_vrj_ddb_cfc"><h2 class="title sectiontitle">Ports for Access Assurance (NAC),
+        Wired
+        Assurance, and WAN Assurance
+        </h2>
+      
+      <p class="p">We recommend that you
+        use FQDN-based
+        firewall rules because the
+        IP addresses for the
+        terminators are subject to
+        change.</p>
+
+      <p class="p">For
+        Mist
+        Access
+        Assurance, allow outbound connections to:</p>
+
+      <ul class="ul" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__ul_mrx_d2b_cfc">
+        <li class="li"><strong class="ph b">radsec.nac.mist.com</strong>
+          (TCP 2083)
+          </li>
+
+      </ul>
+
+      
+      <p class="p">For Access Assurance in the European Union (EU), allow outbound
+        connections to:</p>
+
+      <ul class="ul" id="xd_b2e72d2fc490b097-645c59e9-18817f4f2c4--79a1__ul_hf1_d2b_cfc">
+        <li class="li">
+          <strong class="ph b">radsec-eu.nac.mist.com</strong>
+          (TCP
+          2083)</li>
+
+      </ul>
+
+    </div>
+
+    
+    
+  </div>
+
+</div><sw-prev-next> </sw-prev-next></div><sw-comments> </sw-comments></div></div><sw-pop-over></sw-pop-over><sw-footer></sw-footer></div></sw-app></div><script type="module" crossorigin="" src="/documentation/webstatic/js/dita-B14dSoXD.js"></script><script type="text/javascript" src="/assets/scripts/custom/cookie-consent.js"></script><script type="text/javascript">_satellite.pageBottom();</script></body>
+</html>

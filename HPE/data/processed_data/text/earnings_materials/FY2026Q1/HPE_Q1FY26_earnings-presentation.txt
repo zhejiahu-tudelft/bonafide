@@ -1,0 +1,4237 @@
+
+=== page 1 ===
+HPE Q 1FY2 6
+Earnings
+March 9, 2026
+1
+
+
+=== page 2 ===
+Forward -looking statements 
+This presentation contains forward -looking statements within the meaning of the safe harbor provisions of the Private Securities Litigation Reform Act of 1995 . Such statements involve risks, uncertainties,
+ and 
+assumptions
+. If the risks or uncertainties
+ ever materialize or the assumptions
+ prove incorrect, the results of Hewlett Packard Enterprise Company and its consolidated
+subsidiaries (“Hewlett Packard Enterprise”) may 
+differ materially from those expressed or implied by such forward -looking statements and assumptions
+. The words “believe”, “expect”, “anticipate”,
+ “guide”, “optimistic”, “intend”, “aim”, “will”, “estimates”, “may", 
+"likely”, “could”, “should” and similar expressions
+ are intended to identify such forward -looking statements . All statements other than statements of historical fact are statements that could be deemed forward -
+looking statements,
+including but not limited to any statements regarding the ongoing integration of Juniper Networks, Inc ., and any projections, estimates, or expectations
+ of savings or synergy realizations in 
+connection therewith ; any projections, estimations, or expectations
+ of addressable
+ markets and their sizes, revenue (including annualized revenue run -rate), margins, expenses (including stock -based compensation
+ 
+expenses), investments, effective tax rates, interest rates, the impact of tax law changes and related guidance and regulations, the impact of changes in trade policies and restrictions and the uncertainty created 
+thereby, commodity costs, net earnings, net earnings per share, cash flows, liquidity and capital resources, inventory, goodwill, impairment charges, hedges and derivatives and related offsets, order backlog, benefit 
+plan funding, deferred tax assets, share repurchases,
+ currency exchange rates, repayments of debts including our asset -backed debt securities, or other financial items ; recent amendments
+ to accounting
+ guidance 
+and any potential impacts on our financial reporting therefrom ; any projections or estimations of orders ; any projections of the amount, timing, or impact of cost saving actions and  anticipated benefits to be 
+realized if any ; any statements of the plans, strategies, and objectives of management
+ for future operations, as well as the execution and consummation
+ of corporate transactions or contemplated
+ acquisitions
+ and 
+dispositions (including but not limited to the disposition of shares of H3C Technologies
+ Co ., Limited (“H3C”) and the receipt of proceeds therefrom), research and development
+ expenditures,
+ and any resulting 
+benefits, cost savings, charges, or revenue or profitability improvements
+; any statements concerning
+ the expected development,
+ performance,
+ market share, or competitive performance
+ relating to products or 
+services ; any statements concerning
+ technological
+ and market trends, the pace of technological
+ innovation, and adoption of new technologies,
+ including artificial intelligence -related and other products and services 
+offered by Hewlett Packard Enterprise ; any statements regarding current or future macroeconomic
+ trends or events and the impacts of those trends and events on Hewlett Packard Enterprise and our financial 
+performance,
+ including but not limited to supply chain dynamics (including but not limited to worldwide memory shortages), uncertain global trade policies and/or restrictions, and demand for our products and 
+services, and our actions to mitigate such impacts to our business ; the scope and duration of geopolitical tensions, including but not limited to the ongoing conflict between Russia and Ukraine, instability and 
+conflicts in the Middle East, and the relationship between China and the U.S ., and our actions in response thereto, and their impacts on our business, operations, liquidity and capital resources, employees, 
+customers, partners, supply chain, financial results, and the world economy ; any statements regarding future regulatory trends and the resulting legal and reputational exposure, including but not limited to those 
+relating to environmental,
+ social, governance,
+ cybersecurity,
+ data privacy, and artificial intelligence issues, among others ; any statements regarding pending litigation, investigations,
+ claims, or disputes, including 
+but not limited to the legal proceedings
+ relating to the acquisition of Juniper Networks ; any statements of expectation or belief, including those relating to future guidance and the financial performance
+ of Hewlett 
+Packard Enterprise ; and any statements of assumptions
+ underlying any of the foregoing .
+Risks, uncertainties,
+ and assumptions
+ include the need to address the many challenges facing Hewlett Packard Enterprise’s businesses ; the competitive pressures faced by Hewlett Packard Enterprise’s businesses ; 
+risks associated with executing Hewlett Packard Enterprise’s strategy ; the impact of macroeconomic
+ and geopolitical trends and events, including but no limited to those mentioned above ; the need to effectively 
+manage third -party suppliers and distribute Hewlett Packard Enterprise's products and services ; the protection of Hewlett Packard Enterprise's intellectual property assets, including intellectual property licensed 
+from third parties and intellectual property shared with its former parent ; risks associated with Hewlett Packard Enterprise's international operations (including from geopolitical
+ events and macroeconomic
+ 
+uncertainties) ; the development of and transition to new products and services and the enhancement
+ of existing products and services to meet customer needs and respond to emerging technological
+ trends ; the 
+execution of Hewlett Packard Enterprise’s ongoing transformation and mix shift of its portfolio of offerings ; the execution and performance
+ of contracts by Hewlett Packard Enterprise and its suppliers, customers, 
+clients, and partners, including any impact thereon resulting from macroeconomic
+ or geopolitical events, including inflation and rising commodity costs ; the prospect of a shutdown of the U.S . federal government ; 
+the hiring and retention of key employees ; the execution, integration, consummation,
+ and other risks associated with business combination,
+ disposition, and investment transactions,
+ including but not limited to the 
+risks associated with the disposition of H3C shares and the receipt of proceeds therefrom and successful
+ integration of Juniper Networks, Inc ., including our ability to integrate and implement our plans and forecasts 
+and realize our anticipated financial and operational benefits with respect to the consolidated
+ business ; the execution, timing, and results of any cost reduction actions, including estimates and assumptions
+ related 
+to the costs and anticipated benefits of implementing
+ such actions ; the impact of changes to privacy, cybersecurity,
+ environmental,
+ global trade, and other governmental
+ regulations ; changes in our product, lease, 
+intellectual property, or real estate portfolio ; the payment or non -payment of a dividend for any period ; the efficacy of using non -GAAP, rather than GAAP, financial measures in business projections and planning ; the 
+judgments required in connection with determining certain financial metrics ; utility of segment realignments
+; allowances for recovery of receivables and warranty obligations ; provisions for, and resolution of, 
+pending litigation, investigations,
+ claims, and disputes ; the impacts of tax law changes and related guidance or regulations ; and other risks that are described in Hewlett Packard Enterprise’s Annual Report on Form 
+10-K for the fiscal year ended October 31, 2025 , subsequent Quarterly Reports on Form 10-Q, Current Reports on Form 8-K, and in other filings made by Hewlett Packard Enterprise from time to time with the 
+Securities and Exchange Commission
+. 
+As in prior periods, the financial information set forth in this presentation, including tax -related items, reflects estimates based on information available at this time . While Hewlett Packard Enterprise believes these 
+estimates to be reasonable, these amounts could differ materially from amounts to be reported in the Hewlett Packard Enterprise’s Annual Report on Form 10-K for the fiscal year ended October 31, 2025 . Hewlett 
+Packard Enterprise assumes no obligation and does not intend to update these forward -looking statements, except as required by applicable law .
+2
+
+
+=== page 3 ===
+Use of non -GAAP financial information 
+3
+HPE’s management
+ uses non -GAAP gross profit, non -GAAP gross profit margin, non -GAAP operating profit, non -GAAP operating profit margin (non -GAAP operating profit as a percentage
+ of revenue), non -GAAP 
+operating expenses, non -GAAP interest and other, net, Adjusted Earnings Before Interest, Taxes, Depreciation, and Amortization (“adjusted EBITDA”), non -GAAP income tax rate, non -GAAP net earnings, and non -
+GAAP diluted net earnings per share, to evaluate and forecast HPE's performance
+ before gains, losses or other charges that are considered by HPE's management
+ to be outside of HPE's operating results . Cash flow 
+from operations and free cash flow are liquidity measures that provide useful information to management
+ about the amount of cash available for investments in HPE's businesses,
+ funding acquisitions,
+ repurchasing
+ 
+stock and other purposes . Free cash flow represents cash flow from operations, less net capital expenditures
+ (investments in property, plant & equipment (“PP&E”) and software assets less proceeds from the sale of 
+PP&E) and adjusted for the effect of exchange rate fluctuations on cash, cash equivalents, and restricted cash . Normalized Networking revenue adjusts the historical Networking business segment revenue to reflect 
+8 months of pre -acquisition Juniper Networks results . We use the normalized Networking revenue as a supplemental
+ view for the Networking business segment . Annualized Revenue Run -Rate (“ARR”) is a financial 
+metric used to assess the growth of the Consumption
+ Services offerings . ARR represents the annualized revenue of all net HPE GreenLake cloud services revenue, related financial services revenue (which includes 
+rental income from operating leases and interest income from finance leases), and software -as -a-Service, software consumption
+ revenue, and other as -a-Service offerings, by taking such revenue recognized
+ during 
+a quarter and multiplying by four . We use ARR as a performance
+ metric . ARR should be viewed independently
+ of net revenue and is not intended to be combined with it. Net debt represents total short -term and 
+long -term borrowings less cash and cash equivalents, used within the net leverage ratio calculation . Non -GAAP weighted average shares include the impact of 7.635 % Series C Mandatory Convertible Preferred 
+Stock (“Preferred Stock”) and employee stock .
+We believe that providing these non -GAAP financial measures, in addition to the related GAAP measures, provides investors with greater transparency
+ to the information used by HPE's management
+ in its financial 
+and operational decision -making and allows investors to see HPE's results “through the eyes” of management
+. We further believe that providing this information provides investors with a supplemental
+ view to 
+understand our historical and prospective
+ operating performance
+ and to evaluate the efficacy of the methodology
+ and information used by management
+ to evaluate and measure such performance
+. Disclosure of 
+these non -GAAP financial measures also facilitates the comparison of HPE’s operating performance with performance of other companies in HPE’s industry that supplement their GAAP results with non -GAAP 
+financial measures that may be calculated in a similar manner . 
+These non -GAAP financial measures may have limitations as analytical tools, and these measures should not be considered in isolation or as a substitute for analysis of HPE's results as reported under GAAP . For 
+example, items such as stock -based compensation
+ expense, acquisition, disposition and other charges, H3C divestiture related severance costs, and disaster charges (recovery) that are excluded from non -GAAP 
+gross profit and non -GAAP gross profit margin can have a material impact on the equivalent GAAP earnings measure and cash flow . Items such as amortization of intangible assets, though not directly affecting 
+HPE’s cash position, represent the loss in value of intangible assets over time . The expense associated with this loss in value is not included in non -GAAP operating profit, non -GAAP operating profit margin, non -
+GAAP operating expenses, non -GAAP interest and other, net, adjusted EBITDA, non -GAAP income tax rate, non -GAAP net earnings, or non -GAAP diluted net earnings per share, and therefore does not reflect the full 
+economic effect of the loss in value of those intangible assets . In addition, items such as transformation costs, and divestiture related exit costs that are excluded from non -GAAP operating profit, non -GAAP 
+operating profit margin, non -GAAP operating expenses, non -GAAP interest and other, net, adjusted EBITDA, non -GAAP income tax rate, non -GAAP net earnings, and non -GAAP diluted net earnings per share can 
+have a material impact on the equivalent GAAP earnings measures and cash flow . Items such as, adjustments to non -service net periodic benefit cost/credit, litigation judgments, tax indemnification
+ and related 
+adjustments, adjustments for equity interests, gain on sale of a business, and gain/loss on investments, net that are excluded from non -GAAP income tax rate, non -GAAP net earnings, and non -GAAP diluted net 
+earnings per share can have a material impact on the equivalent GAAP earnings measure and cash flow . Items such as excess tax benefits from stock -based compensation,
+ structural rate adjustment and the related 
+tax impact from other non -GAAP measures that are excluded from the non -GAAP income tax rate, non -GAAP net earnings, and non -GAAP diluted net earnings per share can also have a material impact on the 
+equivalent GAAP earnings measures and cash flow . In addition, free cash flow does not represent the total increase or decrease in cash for the period . 
+Some of the limitations in relying on these non -GAAP financial measures are that they may be calculated differently by other companies, limiting the usefulness of those measures for comparative purposes, can 
+differ materially from the comparable GAAP measures due to exclusion of items mentioned above and may not reflect the full economic effect of the loss in value of certain assets . We compensate
+ for the limitations 
+on our use of these non -GAAP financial measures by relying primarily on our GAAP financial statements and using non -GAAP financial measures only as a supplemental
+. We also provide robust and detailed 
+reconciliations
+ of each non -GAAP financial measure to the most directly comparable GAAP measure, and we encourage investors to review those reconciliations
+ carefully . 
+HPE provides certain forward -looking guidance on a non -GAAP basis only . Hewlett Packard Enterprise is unable to provide a reconciliation
+ to the most directly comparable GAAP financial measure without 
+unreasonable
+ efforts, as the Company cannot predict some elements that are included in such directly comparable GAAP financial measure . These elements could have a material impact on the Company’s reported 
+GAAP results for the guidance period . Refer to the discussion of non -GAAP financial measures below for more information .
+
+
+=== page 4 ===
+
+
+=== page 5 ===
+Strong Networking Q1 results and increased profitability in 
+Cloud & AI drive higher fiscal 2026 outlook
+5
+HPE COMPANY
+▪
+Revenue of $9.3 billion, up 18% year
+-over -year;  Networking represents nearly 
+30% of total revenue 
+and more than 50% of total non
+-GAAP operating profit
+1.
+▪
+Record non
+-GAAP diluted net earnings per share
+1 of $0.65, well above the high end of guidance of $0.57 
+- $0.61, with strong free cash flow of $708 million
+1.
+▪
+Orders significantly outpaced revenues, 
+with strong demand across business segments.
+▪Raising FY26 Networking revenue, non
+-GAAP diluted net earnings per share
+1 and free cash flow
+5 outlook .
+NETWORKING SEGMENT
+▪
+Revenue growth of 
+152% year -over -year (7% on a normalized
+3 basis) , with record 
+order growth
+, driven by strength in wireless, data center switching and routing 
+product demand. 
+▪
+Driven by strong order demand momentum in data center switching and routing 
+products, we now expect to target
+ $1.7 to $1.9 billion
+3 in cumulative Networks for AI 
+orders by the end of FY2
+6.
+▪
+Campus and Branch orders increased by
+ high single digits
+3 year -over -year with 
+WiFi7 Access Point volume up > 10x.
+▪
+Completed phase -one of the Juniper integration with the launch of a 
+single HPE 
+Networking Sales team
+; FY26 cost synergies remain on track.  
+▪
+Phase -two of Juniper integration focused on executing the strategic 
+products and 
+software roadmap 
+and driving 
+revenue synergies 
+through GTM scale.
+▪
+At Mobile World Congress announced 
+expanded service provider infrastructure 
+vision – routing and compute 
+– designed to scale AI, cloud and 5G traffic faster, more 
+efficiently, and at a lower cost from edge to the core network.
+CLOUD & AI SEGMENT
+▪
+Server orders increased 
+low double -digits year
+-over -year , driven by strength in 
+traditional server demand and enterprise AI.
+▪
+AI backlog 
+>$5 billion , with 64% cumulative order mix in enterprise and sovereign 
+customers
+4.
+▪
+Storage Alletra MP orders up 42% year
+-over year , with five straight quarters of 
+double -digit growth.
+▪
+Approaching 
+50,000 
+GreenLake
+ customers; ARR
+2 remains on track to achieve $3.5 
+billion target by the end of fiscal 2026.
+▪
+Four consecutive quarters 
+of Private cloud AI orders growth 
+with a high double digit 
+sequential growth in new logos.
+▪
+HPE Financial Services 
+return on equity 
+over 25%.
+Reference endnotes slide in Appendix 2 for footnotes on this slide.
+
+
+=== page 6 ===
+• Net revenue of 
+$9.3 billion
+is up 18% from the prior -year period, down 
+4% sequentially within our outlook range
+• Non -GAAP gross margin
+1 of 36.6% was up 7.2 pts from the prior -year period and up 
+0.2 pts sequentially
+• Non -GAAP operating profit
+1 of $1.2 billion
+was up 52% from the prior -year period and flat
+sequentially
+• GAAP diluted net earnings per share of
+$0.31 , down $0.13 from the prior -year period
+• Non -GAAP diluted net earnings per share
+1 of $0.65 , up $0.16 from the prior -year period
+• Cash flow generated from operations of 
+$1.2 billion
+and free cash flow
+1 of $708 million
+• Returned $348 million
+to common shareholders in Q1 in the form of dividends and share repurchases
+−
+Declared Q2 FY26 dividend of $0.1425 per share payable on April
+23 rd, 2026
+Q1 FY26 financial results
+6
+Reference endnotes slide in Appendix 2 for footnotes on this slide.
+
+
+=== page 7 ===
+Q1 FY26 business segment results
+Net Revenue
+(in millions)
+Year -over -Year
+Revenue Growth 
+Operating Profit 
+(Loss) $
+(in millions)
+Operating Profit
+% Revenue
+Year -over -Year
+change in 
+OP % Revenue
+Sequential 
+change in 
+OP % Revenue
+Networking
+$2,706
+152%
+$640
+23.7%
+(6.0) pts
+0.3 pts
+Cloud & AI
+$6,334
+(3)%
+$645
+10.2%
+1.8 pts
+0.9 pts
+Corporate 
+Investments & Other
+$261
+(2)%
+$(12)
+(4.6)%
+(1.6) pts
+(6.4) pts
+HPE 1
+$9,301
+18.4%
+$1,182 2
+12.7% 2
+2.8 pts 2
+0.5 pts
+2
+7
+Reference endnotes slide in Appendix 2 for footnotes on this slide.
+
+
+=== page 8 ===
+$3.4
+$3.1
+$3.4
+$2.4
+$3.1
+$3.2
+$3.7
+$4.7
+$5.3
+ $-
+ $1.0
+ $2.0
+ $3.0
+ $4.0
+ $5.0
+ $6.0
+Q1'24
+Q2'24
+Q3'24
+Q4'24
+Q1'25
+Q2'25
+Q3'25
+Q4'25
+Q1'26
+AI Orders
+1,2 
+Networks for AI, Sovereign/Enterprise drive record backlog
+$ in billions
+$0.4
+$0.7
+$1.6
+$0.5
+$1.6
+$1.1
+$2.1
+$1.9
+$1.5
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+ $-
+ $0.5
+ $1.0
+ $1.5
+ $2.0
+ $2.5
+Q1'24
+Q2'24
+Q3'24
+Q4'24
+Q1'25
+Q2'25
+Q3'25
+Q4'25
+Q1'26
+64%
+Cumulative 
+Sovereign/ Ent 
+Customer Mix
+3
+AI Backlog
+1,2
+$ in billions
+Networks for AI and AI Systems sales pipeline remains 
+multiples of record Q1 backlog.
+Record AI backlog >$5 billion, with 64% cumulative order 
+mix booked in enterprise and sovereign customer segments.
+Strong Networks for AI orders
+, driven by high demand for 
+Juniper QFX data center switches and Juniper PTX/MX 
+routing products.
+Generated $1.1 billion Networks for AI and AI Systems 
+revenue. 
+8
+Reference endnotes slide in Appendix 2 for footnotes on this slide.
+
+
+=== page 9 ===
+$ in billions
+$ in millions
+Returned $348 million to common shareholders in 
+Q1 FY26
+Common Shareholder 
+Return
+Cash Flow
+1
+9
+At least $2.0 
+Raising FY26 free cash flow
+1 guidance to 
+at least $2 billion
+2
+3
+Reference endnotes slide in Appendix 2 for footnotes on this slide.
+
+
+=== page 10 ===
+3.1x
+2.6x
+~2.0x
+0.0x
+0.5x
+1.0x
+1.5x
+2.0x
+2.5x
+3.0x
+3.5x
+$0
+$5
+$10
+$15
+$20
+$25
+Q3'25 TTM Pro
+Forma
+Q1'26 TTM Pro
+Forma
+FY27
+Net Debt
+TTM Adjusted EBITDA
+Net Leverage
+On track to achieve ~2x net leverage by fiscal 2027
+10
+Strong liquidity position with cash and cash equivalents of 
+$4.8B at quarter
+-end. Anticipating H3C gross proceeds of 
+$1.4B in 2026. 
+Total net debt
+1 at quarter end totaled $16.8B
+3, including 
+$10.8B 4 associated with the financing company.
+Targeting FY26 free cash flow
+1 of at least $2.0B
+, supported 
+by strong Networking results and Cloud & AI profitable 
+revenue growth.
+Committed to maintaining our investment grade rating.
+$ in billions
+2
+Juniper close 
+(7/25)
+Net Debt to Adjusted EBITDA
+1 
+Leverage
+2
+Reference endnotes slide in Appendix 2 for footnotes on this slide.
+
+
+=== page 11 ===
+Outlook
+Q2 FY26
+Revenue
+$9.6 – $10 .0 billion
+GAAP diluted net EPS
+$0.09 – $0.13
+Non -GAAP diluted net EPS
+1,2
+$0.5 1– $0. 55
+Full Year FY26
+Revenue growth
+17% – 22% as reported
+5% – 10% normalized
+6
+GAAP operating profit growth
+4 90% – 550% as reported
+Non -GAAP operating profit growth
+1,3
+32% – 4 0 % as reported
+GAAP diluted net EPS
+$1.0 2 – $1.22
+Non -GAAP diluted net EPS
+1,4
+$2. 30 – $2. 50
+Free Cash Flow
+1,5
+At least $2.0 billion
+11
+Reference endnotes slide in Appendix 2 for footnotes on this slide.
+
+
+=== page 12 ===
+Q2 FY26
+Full Year FY26
+HPE
+•
+Revenue: $9.
+6 billion to $ 10.0 billion
+•
+Non -GAAP operating expenses
+1: increase sequentially
+•
+Non -GAAP operating margin rate
+1: down sequentially
+•
+GAAP diluted net EPS: $0.09 
+- $0.13
+•
+Non -GAAP diluted net EPS
+1,2: $0.5 1- $0. 55
+•
+Revenue growth: 17
+% - 22% on a reported basis, or 5
+% -
+10% on a normalized
+3 basis
+•
+Profitability will be weighted toward Q4, consistent with 
+historical linearity
+•
+Free cash flow
+1,4: at least $2.0 billion 
+•
+GAAP diluted net EPS: $
+1.02 - $1.22
+•
+Non -GAAP diluted net EPS
+1,5: $2. 30 - $2. 50
+•
+Non -GAAP operating profit growth
+1,6: 32% - 40%
+•
+Non -GAAP interest & other net
+1,4 to be an expense of 
+$540 - $590 million
+•
+Non -GAAP weighted average share count
+1: ~1,440 million
+Networking
+•
+Revenue growth: 142% - 152% y/y as reported,
+ high end 
+of the FY26 target on a normalized
+3 basis
+•
+Operating margin rate: 
+in line with FY26 target range
+•
+Revenue growth: raising to 
+68% - 73% on an as reported 
+basis; mid -to-high -single digit on a normalized
+3 basis
+•
+Operating margin rate: low 20% range
+Cloud & AI
+•
+Sequential increase in AI server revenue
+•
+Operating margin rate: near midpoint of FY26 target 
+range 
+•
+Revenue growth: mid
+-to-high -single digit
+◦AI Backlog: majority recognized in 2H and beyond
+ 
+◦Q3 FY26 will be the largest AI revenue quarter
+•
+Operating margin rate: 7% 
+- 9%
+12
+Outlook details
+Reference endnotes slide in Appendix 2 for footnotes on this slide.
+
+
+=== page 13 ===
+Supplemental slides
+13
+
+
+=== page 14 ===
+Networking – Q1 FY26 
+14
+Revenue
+$2,706
+million
+151.5% y/y 2 0.6% q/q
+Operating profit
+1
+$640 
+million
+23.7% of revenue
+Revenue by 
+customer segment
+$ in billions
+Revenue by 
+product segment
+Rev $
+Y/Y 3 
+◼
+Campus & Branch
+1,227
+2%
+◼
+Data Center Networking
+444
+31%
+◼
+Security
+255
+(5)%
+◼
+Routing
+780
+10%
+Total 
+2,706
+7%
+45%
+16%
+10%
+29%
+OP % revenue
+Revenue
+65%
+35%
+Rev $
+Y/Y 3 
+◼
+Enterprise
+1,758
+2%
+◼
+Service Provider
+4
+948
+20%
+Total 
+2,706
+7%
+Reference endnotes slide in Appendix 2 for footnotes on this slide.
+
+
+=== page 15 ===
+67%
+17%
+14%
+2%
+Cloud & AI – Q1 FY26
+15
+Revenue
+$6,334 
+million
+2.7% y/y  5.1% q/q
+Operating profit
+1
+$645 
+million
+10.2% of revenue
+OP % revenue
+$ in billions
+Rev $
+Y/Y 
+◼
+Server
+4,232
+(3)%
+◼
+Storage
+2
+1,061 
+1%
+◼
+Financial Services 
+876
+-% 
+◼
+Other 3
+165
+(30)%
+Total 
+6,334
+(3)%
+Revenue
+Revenue by 
+product segment
+Reference endnotes slide in Appendix 2 for footnotes on this slide.
+
+
+=== page 16 ===
+Q1 FY26 balance sheet
+16
+Operating Company
+1,2
+Net Cash
+3
+Financing Company
+1,2
+$(6.1)B
+Committed to investment grade rating and healthy balance sheet
+$13.0B
+$11.6B
+$0.8B
+$10.1B
+$4.0B
+4
+5
+Reference endnotes slide in Appendix 2 for footnotes on this slide.
+
+
+=== page 17 ===
+Appendix 1
+17
+
+
+=== page 18 ===
+Restated Financials
+1 for New Segmentation
+18
+Revised Amounts
+Amounts as Previously Reported
+in millions
+Q1'24
+Q2'24
+Q3'24
+Q4'24
+Q1'25
+Q2'25
+Q3'25
+Q4'25
+Q1'24
+Q2'24
+Q3'24
+Q4'24
+Q1'25
+Q2'25
+Q3'25
+Q4'25
+Net revenue:
+Cloud & AI
+$5,316
+$5,866
+$6,327
+$7,072
+$6,511
+$6,271
+$7,212
+$6,676
+$—
+$—
+$—
+$—
+$—
+$—
+$—
+$—
+Server
+—
+—
+—
+—
+—
+—
+—
+—
+3,327
+3,841
+4,255
+4,681
+4,290
+4,058
+4,940
+4,457
+Hybrid Cloud 
+—
+—
+—
+—
+—
+—
+—
+—
+1,273
+1,282
+1,325
+1,607
+1,405
+1,453
+1,484
+1,412
+Financial Services
+—
+—
+—
+—
+—
+—
+—
+—
+873
+867
+879
+893
+873
+856
+886
+889
+Networking
+1,130
+1,014
+1,052
+1,050
+1,076
+1,084
+1,654
+2,722
+1,201
+1,086
+1,121
+1,124
+1,146
+1,162
+1,730
+2,812
+Corporate Investments & Other
+309
+324
+331
+336
+267
+272
+270
+281
+238
+252
+262
+262
+197
+194
+194
+191
+Total Segments
+6,755
+7,204
+7,710
+8,458
+7,854
+7,627
+9,136
+9,679
+6,912
+7,328
+7,842
+8,567
+7,911
+7,723
+9,234
+9,761
+Intersegment net revenue
+—
+—
+—
+—
+—
+—
+—
+—
+(157)
+(124)
+(132)
+(109)
+(57)
+(96)
+(98)
+(82)
+Total HPE consolidated revenue
+$6,755
+$7,204
+$7,710
+$8,458
+$7,854
+$7,627
+$9,136
+$9,679
+$6,755
+$7,204
+$7,710
+$8,458
+$7,854
+$7,627
+$9,136
+$9,679
+Earnings before taxes
+Cloud & AI
+$508
+$525
+$612
+$756
+$547
+$414
+$504
+$620
+$—
+$—
+$—
+$—
+$—
+$—
+$—
+$—
+Server
+—
+—
+—
+—
+—
+—
+—
+—
+379
+423
+461
+541
+348
+241
+317
+437
+Hybrid Cloud
+—
+—
+—
+—
+—
+—
+—
+—
+51
+13
+69
+126
+99
+78
+87
+71
+Financial Services
+—
+—
+—
+—
+—
+—
+—
+—
+74
+81
+79
+82
+82
+89
+88
+102
+Networking
+357
+240
+259
+278
+320
+271
+365
+638
+353
+237
+251
+274
+314
+274
+360
+648
+Corporate Investments & Other
+(14)
+(12)
+(12)
+(6)
+(8)
+(7)
+(19)
+5
+(10)
+(9)
+(4)
+(2)
+(2)
+(10)
+(14)
+(6)
+Total segment earnings from 
+operations
+$851
+$753
+$859
+$1,028
+$859
+$678
+$850
+$1,263
+$847
+$745
+$856
+$1,021
+$841
+$672
+$838
+$1,252
+1. Effective at the beginning of the first quarter of fiscal 2026 HPE implemented an organizational change by (i) merging the Se
+rve r, Hybrid Cloud, and Financial Services business segments into a new segment named Cloud & AI and (ii) transferring 
+the Telco and Instant On businesses to Corporate Investments and Other from Networking. These changes had no impact on HPE’s 
+pre viously reported consolidated net revenue, net earnings, net earnings per share or total assets.
+
+
+=== page 19 ===
+Restated Financials for New Segmentation
+1 Reconciliation to 
+Earnings Before Taxes
+19
+Revised Amounts
+Amounts as Previously Reported
+in millions
+Q1'24
+Q2'24
+Q3'24
+Q4'24
+Q1'25
+Q2'25
+Q3'25
+Q4'25
+Q1'24
+Q2'24
+Q3'24
+Q4'24
+Q1'25
+Q2'25
+Q3'25
+Q4'25
+Earnings before taxes
+Cloud & AI
+$508
+$525
+$612
+$756
+$547
+$414
+$504
+$620
+$—
+$—
+$—
+$—
+$—
+$—
+$—
+$—
+Server
+—
+—
+—
+—
+—
+—
+—
+—
+379
+423
+461
+541
+348
+241
+317
+437
+Hybrid Cloud
+—
+—
+—
+—
+—
+—
+—
+—
+51
+13
+69
+126
+99
+78
+87
+71
+Financial Services
+—
+—
+—
+—
+—
+—
+—
+—
+74
+81
+79
+82
+82
+89
+88
+102
+Networking
+357
+240
+259
+278
+320
+271
+365
+638
+353
+237
+251
+274
+314
+274
+360
+648
+Corporate Investments & Other
+(14)
+(12)
+(12)
+(6)
+(8)
+(7)
+(19)
+5
+(10)
+(9)
+(4)
+(2)
+(2)
+(10)
+(14)
+(6)
+Total segment earnings from 
+operations
+851
+753
+859
+1,028
+859
+678
+850
+1,263
+847
+745
+856
+1,021
+841
+672
+838
+1,252
+Unallocated corporate costs and 
+eliminations
+(76)
+(69)
+(88)
+(90)
+(79)
+(65)
+(73)
+(80)
+(72)
+(61)
+(85)
+(83)
+(61)
+(59)
+(61)
+(69)
+Stock -based compensation 
+expense
+(141)
+(120)
+(80)
+(89)
+(154)
+(116)
+(177)
+(196)
+(141)
+(120)
+(80)
+(89)
+(154)
+(116)
+(177)
+(196)
+Amortization of intangible assets
+(71)
+(67)
+(60)
+(69)
+(38)
+(37)
+(126)
+(310)
+(71)
+(67)
+(60)
+(69)
+(38)
+(37)
+(126)
+(310)
+Transformation (costs) credit
+(20)
+(33)
+(14)
+(26)
+(15)
+13
+—
+—
+(20)
+(33)
+(14)
+(26)
+(15)
+13
+—
+—
+Impairment charges
+—
+—
+—
+—
+—
+(1,361)
+—
+(260)
+—
+—
+—
+—
+—
+(1,361)
+—
+(260)
+H3C divestiture related costs
+—
+—
+—
+—
+(77)
+(20)
+—
+—
+—
+—
+—
+—
+(77)
+(20)
+—
+—
+Cost reduction program
+—
+—
+—
+—
+—
+(146)
+(2)
+(127)
+—
+—
+—
+—
+—
+(146)
+(2)
+(127)
+Acquisition, disposition and other 
+charges
+(18)
+(39)
+(70)
+(61)
+(63)
+(55)
+(225)
+(298)
+(18)
+(39)
+(70)
+(61)
+(63)
+(55)
+(225)
+(298)
+Gain on sale of a business
+—
+—
+—
+—
+244
+—
+1
+3
+—
+—
+—
+—
+244
+—
+1
+3
+Gain on sale of equity interest
+—
+—
+—
+733
+—
+—
+—
+—
+—
+—
+—
+733
+—
+—
+—
+—
+Interest and other, net
+(88)
+(22)
+(12)
+5
+39
+39
+8
+(261)
+(88)
+(22)
+(12)
+5
+39
+39
+8
+(261)
+Earnings from equity interests
+46
+42
+73
+(14)
+17
+25
+32
+5
+46
+42
+73
+(14)
+17
+25
+32
+5
+Total HPE earnings (loss) before 
+taxes
+$483
+$445
+$608
+$1,417
+$733
+($1,045)
+$288
+($261)
+$483
+$445
+$608
+$1,417
+$733
+($1,045)
+$288
+($261)
+1. Effective at the beginning of the first quarter of fiscal 2026 HPE implemented an organizational change by (i) merging the Se
+rve r, Hybrid Cloud, and Financial Services business segments into a new segment named Cloud & AI and (ii) transferring 
+the Telco and Instant On businesses to Corporate Investments and Other from Networking. These changes had no impact on HPE’s 
+pre viously reported consolidated net revenue, net earnings, net earnings per share or total assets.
+
+
+=== page 20 ===
+Revenue Disaggregation 
+- As Reported
+20
+1. Storage includes revenue from GreenLake Flex and Software.
+2. Other category includes intersegment revenue eliminations and third
+-party storage solutions.
+3. N/M - Not meaningful
+Q1'24
+Q2'24
+Q3'24
+Q4'24
+Q1'25
+Q2'25
+Q3'25
+Q4'25
+Q1'26
+in millions
+Amount
+Amount
+Amount
+Amount
+Amount
+Y/Y %
+Amount
+Y/Y %
+Amount
+Y/Y %
+Amount
+Y/Y %
+Amount
+Y/Y %
+Networking:
+Campus & Branch
+$956
+$832
+$858
+$851
+$864
+(10%)
+$880
+6%
+$1,101
+28%
+$1,284
+51%
+$1,227
+42%
+Data Center Networking
+72
+79
+88
+88
+92
+28%
+96
+22%
+180
+105%
+354
+302%
+444
+383%
+Security
+101
+102
+105
+111
+119
+18%
+107
+5%
+160
+52%
+273
+146%
+255
+114%
+Routing
+1
+1
+1
+—
+1
+—%
+1
+—%
+213
+N/M 3
+811
+N/M 3
+780
+N/M 3
+Total Networking net 
+revenue
+$1,130
+$1,014
+$1,052
+$1,050
+$1,076
+$1,084
+$1,654
+$2,722
+$2,706
+Cloud & AI net revenue:
+Server
+$3,380
+$3,890
+$4,311
+$4,775
+$4,348
+29%
+$4,109
+6%
+$5,000
+16%
+$4,514
+(5%)
+$4,232
+(3%)
+Storage
+1
+960
+994
+1,010
+1,247
+1,055
+10%
+1,148
+16%
+1,171
+16%
+1,106
+(11%)
+1,061
+1%
+Financial Services
+873
+867
+879
+893
+873
+—%
+856
+(1%)
+886
+1%
+889
+—%
+876
+—%
+Other 2
+103
+115
+127
+157
+235
+126%
+158
+38%
+155
+22%
+167
+6%
+165
+(30%)
+Total Cloud & AI net revenue
+$5,316
+$5,866
+$6,327
+$7,072
+$6,511
+$6,271
+$7,212
+$6,676
+$6,334
+Corporate Investments and 
+Other
+$309
+$324
+$331
+$336
+$267
+$272
+$270
+$281
+$261
+Total HPE net revenue
+$6,755
+$7,204
+$7,710
+$8,458
+$7,854
+$7,627
+$9,136
+$9,679
+$9,301
+
+
+=== page 21 ===
+Customer Segmentation 
+- Networking As Reported
+21
+Q1'24
+Q2'24
+Q3'24
+Q4'24
+Q1'25
+Q2'25
+Q3'25
+Q4'25
+Q1'26
+in millions
+Amount
+Amount
+Amount
+Amount
+Amount
+Y/Y %
+Amount
+Y/Y %
+Amount
+Y/Y %
+Amount
+Y/Y %
+Amount
+Y/Y %
+Networking (Customer):
+Enterprise
+$1,097
+$977
+$1,006
+$993
+$1,027
+(6%)
+$1,049
+7%
+$1,375
+37%
+$1,853
+87%
+$1,758
+71%
+Service Provider
+1
+33
+37
+46
+57
+49
+48%
+35
+(5%)
+279
+507%
+869
+1,425%
+948
+1,835%
+Total Networking net 
+revenue
+$1,130
+$1,014
+$1,052
+$1,050
+$1,076
+$1,084
+$1,654
+$2,722
+$2,706
+1. Includes telco and cloud providers.
+
+
+=== page 22 ===
+Revenue Disaggregation & Customer Segmentation 
+-
+Networking Normalized
+1
+22
+Q1'24
+Q2'24
+Q3'24
+Q4'24
+Q1'25
+Q2'25
+Q3'25
+Q4'25
+Q1'26
+in millions
+Amount
+Amount
+Amount
+Amount
+Amount
+Y/Y %
+Amount
+Y/Y %
+Amount
+Y/Y %
+Amount
+Y/Y %
+Amount
+Y/Y %
+Networking (Product): 
+Campus & Branch
+$1,279
+$1,077
+$1,153
+$1,166
+$1,204
+(6%)
+$1,203
+12%
+$1,339
+16%
+$1,284
+10%
+$1,227
+2%
+Data Center Networking
+245
+253
+280
+356
+338
+38%
+301
+19%
+408
+46%
+354
+(1%)
+444
+31%
+Security
+248
+225
+232
+254
+269
+8%
+231
+3%
+251
+8%
+273
+7%
+255
+(5%)
+Routing
+719
+579
+589
+611
+711
+(1%)
+709
+22%
+640
+9%
+811
+33%
+780
+10%
+Total Networking net revenue
+$2,491
+$2,134
+$2,254
+$2,387
+$2,522
+$2,444
+$2,638
+$2,722
+$2,706
+Networking (Customer):
+Enterprise
+$1,778
+$1,522
+$1,616
+$1,627
+$1,729
+(3%)
+$1,676
+10%
+$1,811
+12%
+$1,853
+14%
+$1,758
+2%
+Service Provider
+2
+713
+612
+638
+760
+793
+11%
+768
+25%
+827
+30%
+869
+14%
+948
+20%
+Total Networking net revenue
+$2,491
+$2,134
+$2,254
+$2,387
+$2,522
+$2,444
+$2,638
+$2,722
+$2,706
+1. This normalized combined Networking financial information represents the summation of the standalone financial information of
+the Networking segment reported by the Company and to include the adjusted financial information for Juniper 
+Networks. This financial information has not been prepared in accordance with Article 11 of Regulation S
+-X and does not give eff
+ect to the pro forma adjustments that might be required in connection with the preparation of pro forma financial 
+information in accordance with Article 11 of Regulation S
+-X, and is not indicative of what the combined segment’s performance wo
+uld have been had HPE and Juniper Networks been a combined company for the periods presented. This financial 
+information has been presented solely to facilitate comparisons of the newly combined Networking business since HPE and Junip
+er Networks observe different fiscal years, with HPE’s fiscal year ending on October 31, and Juniper Networks’ fiscal 
+year having ended on December 31. This combined Networking  financial information was prepared to reconcile the differences i
+n the quarterly reporting periods. The internally prepared monthly financial data and the resulting figures above are 
+based on what we believe to be reasonable estimates, calculations, and processes. However, Juniper Networks’ internally prepa
+red monthly financial data has not been reviewed or audited by either Juniper Networks, Juniper Networks’ auditors, or 
+HPE’s auditors. Furthermore, the above amounts will differ from as
+-reported amounts in HPE’s or Juniper’s SEC filings. As such, 
+readers should not rely on this information as indicative of past performance of the Networking business nor treat this as 
+indicative of historical or future performance of the Networking business. The table below summarizes the reconciling amounts
+necessary to arrive at the reported Networking revenue (in millions): 
+2. Includes telco and cloud providers.
+Q1'24
+Q2'24
+Q3'24
+Q4'24
+Q1'25
+Q2'25
+Q3'25
+$1,361
+$1,120
+$1,202
+$1,337
+$1,446
+$1,360
+$984
+
+
+=== page 23 ===
+Q1 FY26 GAAP to non -GAAP bridge
+1
+23
+In millions, except tax rate and per share 
+amounts
+GAAP
+Acquisition, 
+disposition, and 
+other charges
+Stock -based 
+compensation 
+expense
+Amortization of 
+intangible assets
+Cost reduction 
+program
+Gain on 
+investments, net
+Adjustments for 
+equity interests
+Other 2
+Non -GAAP
+Revenue
+$9,301
+$9,301
+Cost of sales
+5,961
+(34)
+(24)
+(5)
+5,898
+Gross profit
+3,340
+34
+24
+5
+3,403
+Total operating expenses
+2,870
+(128)
+(192)
+(311)
+(18)
+2,221
+R&D
+744
+(6)
+(76)
+(3)
+659
+SG&A
+1,698
+(5)
+(116)
+(15)
+1,562
+Others 3
+428
+(117)
+—
+(311)
+—
+—
+Operating profit
+470
+162
+216
+311
+23
+1,182
+Interest & other, net
+(54)
+(14)
+(33)
+(101)
+Earnings from equity interests
+17
+—
+(17)
+—
+Pre -tax earnings
+433
+162
+216
+311
+23
+(14)
+(17)
+(33)
+1,081
+Income tax
+$19
+(74)
+(37)
+(38)
+(4)
+3
+(20)
+($151)
+Tax rate
+(4.4) %
+14.0 %
+Net earnings attributable to HPE
+$452
+88
+179
+273
+19
+(11)
+(17)
+(53)
+$930
+Preferred stock dividends
+(29)
+(29)
+Net earnings attributable to common 
+stockholders
+$423
+$901
+Diluted net EPS
+4
+$0.31
+$0.65
+1. For the purposes of determining Non
+-GAAP Net Earnings, the Company uses a long
+-term planning tax rate and excludes adjustments r
+elated to tax indemnifications and other adjustments, and the impact of tax on the above non
+-GAAP adjustments
+2. Other non -recurring adjustments include non
+-service net periodic benefit credit and tax indemnification and other adjustments.
+3. Other operating expenses include acquisition, disposition, and other charges and amortization of intangible assets.
+4. For purposes of calculating Non
+-GAAP diluted net EPS, the preferred stock dividends are added back to the Non
+-GAAP net earnings 
+attributable to common stockholders and the diluted weighted average share calculation assumes the preferred stock was 
+converted at issuance or as of the beginning of the reporting period.
+
+
+=== page 24 ===
+24
+In millions, 
+except tax rate and per 
+share amounts
+GAAP
+Transformation 
+credit
+Impairment 
+charges
+Acquisition, 
+disposition, 
+and other 
+charges
+Stock -based 
+compensation 
+expense
+Amortization of 
+intangible 
+assets
+H3C divestiture 
+related 
+severance 
+costs
+Gain on sale of 
+a business
+Cost reduction 
+program
+Loss on 
+investments 
+net
+Other 2
+Non -GAAP
+Revenue
+$34,296
+$34,296
+Cost of sales
+23,919
+(236)
+(49)
+(17)
+(126)
+23,491
+Gross profit
+10,377
+236
+49
+17
+126
+10,805
+Total operating expenses
+10,814
+(2)
+(1,621)
+(405)
+(594)
+(511)
+(80)
+(149)
+7,452
+R&D
+2,518
+(207)
+(8)
+(23)
+2,280
+SG&A
+5,704
+15
+(349)
+(72)
+(126)
+5,172
+Impairment charges
+1,621
+(1,621)
+—
+Others 3
+971
+(2)
+(420)
+(38)
+(511)
+—
+Operating (loss) profit
+(437)
+2
+1,621
+641
+643
+511
+97
+275
+3,353
+Interest & other, net
+(175)
+135
+(158)
+(198)
+Gain on sale of a business
+248
+(248)
+—
+Earnings from equity interests
+79
+5
+84
+Pre -tax (loss) earnings
+(285)
+2
+1,621
+641
+643
+511
+97
+(248)
+275
+140
+(158)
+3,239
+Income tax
+342
+(1)
+(12)
+(469)
+(151)
+(90)
+(18)
+22
+(55)
+(2)
+(52)
+(486)
+Tax rate
+120.0 %
+15.0%
+Net earnings attributable to HPE
+57
+1
+1,609
+172
+492
+421
+79
+(226)
+220
+138
+(210)
+2,753
+Preferred stock dividends
+(116)
+(116)
+Net (loss) earnings attributable to 
+common stockholders
+(59)
+2,637
+Diluted net EPS
+4
+$(0.04)
+$1.94
+1. For the purposes of determining Non
+-GAAP Net Earnings, the Company uses a long
+-term planning tax rate and excludes adjustments r
+elated to tax indemnifications and other adjustments, and the impact of tax on the above non
+-GAAP adjustments
+2. Other non -recurring adjustments include non
+-service net periodic benefit credit, proceeds from a litigation judgment, and tax indemnif
+ication and other adjustments. 
+3. Other operating expenses include Juniper acquisition costs, amortization of intangible assets, acquisition, disposition and o
+the r charges, stock
+-based compensation expense, and transformation costs.
+4. For purposes of calculating Non
+-GAAP diluted net EPS, the preferred stock dividends are added back to the Non
+-GAAP net earnings 
+attributable to common stockholders and the diluted weighted average share calculation assumes the preferred stock was 
+converted at issuance or as of the beginning of the reporting period.
+FY25 GAAP to 
+non -GAAP bridge
+1 
+
+
+=== page 25 ===
+Q4 FY25 GAAP 
+to non -GAAP bridge
+1
+In millions, except tax rate 
+and per share amounts
+GAAP
+Acquisition, 
+disposition, and 
+other charges
+Stock -based 
+compensation 
+expense
+Amortization of 
+intangible assets
+Impairment 
+charges
+Cost reduction 
+program
+Loss on 
+investments, net
+Other 2
+Non -GAAP
+Revenue
+$9 ,679
+$9,679
+Cost of sales
+6,438
+(189)
+(9)
+(80)
+6,160
+Gross profit
+3,241
+189
+9
+80
+3,519
+Total operating expenses
+3,249
+(109)
+(187)
+(310)
+(260)
+(47)
+2,336
+R&D
+881
+(73)
+808
+SG&A
+1,642
+15
+(82)
+(47)
+1,528
+Impairment of goodwill
+260
+(260)
+—
+Others 3
+466
+(124)
+(32)
+(310)
+—
+Operating profit
+(8)
+298
+196
+310
+260
+127
+1,183
+Interest & other, net
+(261)
+137
+(24)
+(148)
+Gain on sale of a business
+3
+(3)
+—
+Earnings from equity 
+interests
+5
+11
+16
+Pre -tax earnings
+(261)
+298
+196
+310
+260
+127
+148
+(27)
+1,051
+Income tax
+$436
+(419)
+(60)
+(63)
+(10)
+(22)
+(4)
+(16)
+(158)
+Tax rate
+167.0%
+15.0%
+Net earnings attributable to 
+HPE
+175
+(121)
+136
+247
+250
+105
+144
+(43)
+893
+Preferred stock dividends
+(29)
+(29)
+Net earnings attributable to 
+common stockholders
+146
+864 0
+Diluted net EPS
+4
+$0.11 0 
+$0.6 20
+1. For the purposes of determining Non
+-GAAP Net Earnings, the Company uses a long
+-term planning tax rate and excludes adjustments r
+elated to tax indemnifications and other adjustments, and the impact of tax on the above non
+-GAAP adjustments
+2. Other non -recurring adjustments include non
+-service net periodic benefit credit and tax indemnification and other adjustments. 
+3. Other operating expenses include Juniper acquisition costs, amortization of intangible assets, acquisition, disposition and o
+the r charges, and stock
+-based compensation expense.
+4. For purposes of calculating Non
+-GAAP diluted net EPS, the preferred stock dividends are added back to the Non
+-GAAP net earnings 
+attributable to common stockholders and the diluted weighted average share calculation assumes the preferred stock was conver
+ted at 
+issuance or as of the beginning of the reporting period.
+25
+
+
+=== page 26 ===
+Q3 FY25 GAAP to non
+-GAAP bridge
+1
+26
+In millions, except tax rate and per share 
+amounts
+GAAP
+Acquisition, 
+disposition, and other 
+charges
+Stock -based 
+compensation 
+expense
+Amortization of 
+intangible assets
+Cost reduction 
+program
+Loss on investments
+,
+net
+Other 2
+Non -GAAP
+Revenue
+$9,136
+$9,136
+Cost of sales
+6,464
+(50)
+(10)
+6,404
+Gross profit
+2,672
+50
+10
+2,732
+Total operating expenses
+2,425
+(175)
+(167)
+(126)
+(2)
+1,9 55
+R&D
+622
+(35)
+587
+SG&A
+1,496
+(126)
+(2)
+1,368
+Others 3
+307
+(175)
+(6)
+(126)
+—
+Operating profit
+247
+225
+177
+126
+2
+77 7
+Interest & other, net
+9
+1
+(77)
+(67)
+Earnings from equity interests
+32
+32
+Pre -tax earnings
+288
+225
+177
+126
+2
+1
+(77)
+742
+Income tax
+17
+(36)
+(39)
+(15)
+—
+—
+(38 )
+(111)
+Tax rate
+(6 .5)%
+15.0%
+Net earnings attributable to HPE
+305
+189
+138
+111
+2
+1
+(115)
+6 31
+Preferred stock dividends
+(29)
+(29)
+Net earnings attributable to common 
+stockholders
+276
+602
+Diluted net EPS
+4
+$0.21
+$0.44
+1. For the purposes of determining Non
+-GAAP Net Earnings, the Company uses a long
+-term planning tax rate and excludes adjustments r
+elated to tax indemnifications and other adjustments, and the impact of tax on the above non
+-GAAP adjustments
+2. Other non -recurring adjustments include a gain from a litigation judgment, non
+-service net periodic benefit cost and tax indemni
+fication and other adjustments.
+3. Other operating expenses include acquisition, disposition, and other charges, amortization of intangible assets, and stock
+-based compensation expense.
+4. For purposes of calculating Non
+-GAAP diluted net EPS, the preferred stock dividends are added back to the Non
+-GAAP net earnings 
+attributable to common stockholders and the diluted weighted average share calculation assumes the preferred stock was conver
+ted at 
+issuance or as of the beginning of the reporting period.
+
+
+=== page 27 ===
+Q2 FY25 GAAP to non
+-GAAP bridge
+1
+27
+1. For the purposes of determining Non
+-GAAP Net Earnings, the Company uses a long
+-term planning tax rate and excludes adjustments r
+elated to tax indemnifications and other adjustments, and the impact of tax on the above non
+-GAAP adjustments
+2. Other non -recurring adjustments include non
+-service net periodic benefit cost and tax indemnification and other adjustments.
+3. Other operating expenses include acquisition, disposition, and other charges, amortization of intangible assets, and transfor
+mat ion credit.
+4. For purposes of calculating Non
+-GAAP diluted net EPS, the preferred stock dividends are added back to the Non
+-GAAP net earnings 
+attributable to common stockholders and the diluted weighted average share calculation assumes the preferred stock was conver
+ted at 
+issuance or as of the beginning of the reporting period.
+In millions, except tax rate and per 
+share amounts
+GAAP
+Transformation 
+credit
+Impairment of 
+goodwill
+Cost reduction 
+program
+Acquisition, 
+disposition, and 
+other charges
+Stock -based 
+compensation 
+expense
+Amortization of 
+intangible 
+assets
+H3C divestiture 
+related 
+severance costs
+Gain on 
+investments net
+Other 2
+Non -GAAP
+Revenue
+$7,627
+$7,627
+Cost of sales
+5,458
+(46)
+—
+(13)
+(16)
+5,383
+Gross profit
+2,169
+46
+—
+13
+16
+2,244
+Total operating expenses
+3,278
+13
+(1,361)
+(100)
+(55)
+(103)
+(37)
+(4)
+1,631
+R&D
+540
+(23)
+(45)
+—
+472
+SG&A
+1,298
+(77)
+(58)
+(4)
+1,159
+Impairment of goodwill
+1,361
+(1,361)
+—
+Others 3
+79
+13
+(55)
+(37)
+—
+—
+Operating (loss) profit
+(1,109)
+(13)
+1,361
+146
+55
+116
+37
+20
+613
+Interest & other, net
+39
+(1)
+(29)
+9
+Earnings from equity interests
+25
+(6)
+19
+Pre -tax (loss) earnings
+(1,045)
+(13)
+1,361
+146
+55
+116
+37
+20
+(7)
+(29)
+641
+Income tax
+(5)
+2
+(2)
+(33)
+(4)
+(23)
+(6)
+(2)
+2
+(25)
+(96)
+Tax rate
+(0.5)%
+15.0%
+Net (loss) earnings attributable to HPE
+(1,050)
+(11)
+1,359
+113
+51
+93
+31
+18
+(5)
+(54)
+545
+Preferred stock dividends
+(29)
+(29)
+Net (loss) earnings attributable to 
+common stockholders
+(1,079)
+516
+Diluted net EPS
+4
+$(0.82)
+$0.38
+
+
+=== page 28 ===
+Q1 FY25 GAAP to non
+-GAAP bridge
+1
+28
+1. For the purposes of determining Non
+-GAAP Net Earnings, the Company uses a long
+-term planning tax rate and excludes adjustments r
+elated to tax indemnifications and other adjustments, and the impact of tax on the above non
+-GAAP adjustments
+2. Other non -recurring adjustments include non
+-service net periodic benefit cost and tax indemnification and other adjustments.
+3. Other operating expenses include amortization of intangible assets, acquisition, disposition, and other charges, and transfor
+mat ion costs.
+4. For purposes of calculating Non
+-GAAP diluted net EPS, the preferred stock dividends are added back to the Non
+-GAAP net earnings 
+attributable to common stockholders and the diluted weighted average share calculation assumes the preferred stock was conver
+ted at 
+issuance or as of the beginning of the reporting period.
+In millions, except tax rate and per share 
+amounts
+GAAP
+Transformation 
+costs
+Acquisition, 
+disposition, and 
+other charges
+Stock -based 
+compensation 
+expense
+Amortization of 
+intangible assets
+H3C divestiture 
+related 
+severance costs
+Gain on sale of a 
+business
+Gain on 
+investments net
+Other 2
+Non -GAAP
+Revenue
+$7,854
+$7,854
+Cost of sales
+5,559
+3
+(17)
+(1)
+5,544
+Gross profit
+2,295
+(3)
+17
+1
+2,310
+Total operating expenses
+1,862
+(15)
+(66)
+(137)
+(38)
+(76)
+1,530
+R&D
+475
+(54)
+(8)
+413
+SG&A
+1,268
+(83)
+(68)
+1,117
+Others 3
+119
+(15)
+(66)
+(38)
+—
+—
+Operating profit
+433
+15
+63
+154
+38
+77
+780
+Interest & other, net
+39
+(2)
+(29)
+8
+Gain on sale of a business
+244
+(244)
+—
+Earnings from equity interests
+17
+17
+Pre -tax earnings
+733
+15
+63
+154
+38
+77
+(244)
+(2)
+(29)
+805
+Income tax
+(106)
+(3)
+(10)
+(29)
+(6)
+(3)
+22
+—
+14
+(121)
+Tax rate
+14.5%
+15.0%
+Net earnings attributable to HPE
+627
+12
+53
+125
+32
+74
+(222)
+(2)
+(15)
+684
+Preferred stock dividends
+(29)
+(29)
+Net earnings attributable to common 
+stockholders
+598
+655
+Diluted net EPS
+4
+$0.44
+$0.49
+
+
+=== page 29 ===
+FY24 GAAP to non
+-GAAP bridge
+1
+29
+1. For the purposes of determining Non
+-GAAP Net Earnings, the Company uses a long
+-term planning tax rate and excludes adjustments r
+elated to tax indemnifications and other adjustments, and the impact of tax on the above non
+-GAAP adjustments
+2. Beginning with the first quarter of fiscal 2024, we exclude gains and losses (including impairments) on our non
+-marketable equit
+y investments.
+3. Represents earnings and amortization of basis difference for our investment in H3C, and the gain on sale of equity interest.
+4. Other non -recurring adjustments include non
+-service net periodic benefit cost /credit and tax indemnification and other adjustme
+nts.
+5. Other operating expenses include amortization of intangible assets, acquisition, disposition, and other related charges, and 
+transformation costs.
+6. For purposes of calculating Non
+-GAAP diluted net EPS, the preferred stock dividends are added back to the Non
+-GAAP net earnings 
+attributable to common stockholders and the diluted weighted average share calculation assumes the preferred stock was conver
+ted at 
+issuance or as of the beginning of the reporting period.
+In millions, except tax rate and per share 
+amounts
+GAAP
+Transformation 
+costs
+Disaster 
+recovery
+Acquisition, 
+disposition, and 
+other related 
+charges
+Stock -based 
+compensation 
+expense
+Divestiture 
+related exit cost
+Amortization 
+of intangible 
+assets
+Loss on 
+investments 
+net 2
+Adjustments for 
+equity 
+interests
+3
+Other 4
+Non -GAAP
+Revenue
+$30,127
+$30,127
+Cost of sales
+20,249
+43
+(49)
+(9)
+20,234
+Gross profit
+9,878
+(43)
+49
+9
+9,893
+Total operating expenses
+7,688
+(93)
+8
+(204)
+(381)
+(26)
+(267)
+6,725
+R&D
+2,246
+(158)
+2,088
+SG&A
+4,871
+15
+(223)
+(26)
+4,637
+Others 5
+571
+(93)
+(7)
+(204)
+(267)
+—
+Operating profit
+2,190
+93
+(51)
+204
+430
+35
+267
+3,168
+Interest & other, net
+(117)
+13
+20
+(84)
+Gain on sale of equity interest
+733
+(733)
+—
+Earnings from equity interests
+147
+(107)
+40
+Pre -tax earnings
+2,953
+93
+(51)
+204
+430
+35
+267
+13
+(840)
+20
+3,124
+Income tax
+(374)
+(17)
+(4)
+(33)
+(96)
+(2)
+(49)
+(3)
+103
+6
+(469)
+Tax rate
+12.7%
+15.0%
+Net earnings attributable to HPE
+2,579
+76
+(55)
+171
+334
+33
+218
+10
+(737)
+26
+2,655
+Preferred stock dividends
+(25)
+(25)
+Net earnings attributable to common 
+stockholders
+2,554
+2,630
+Diluted net EPS
+6
+$1.93
+$1.99
+
+
+=== page 30 ===
+Q4 FY24 GAAP to non
+-GAAP bridge
+1
+30
+1. For the purposes of determining Non
+-GAAP Net Earnings, the Company uses a long
+-term planning tax rate and excludes adjustments r
+elated to tax indemnifications and other adjustments, and the impact of tax on the above non
+-GAAP adjustments
+2. Beginning with the first quarter of fiscal 2024, we exclude gains and losses (including impairments) on our non
+-marketable equit
+y investments.
+3. Represents earnings and amortization of basis difference for our investment in H3C, and the gain on sale of equity interest.
+4. Other non -recurring adjustments include non
+-service net periodic benefit cost /credit and tax indemnification and other adjustme
+nts.
+5. Other operating expenses include amortization of intangible assets, acquisition, disposition, and other related charges, and 
+transformation costs.
+6. For purposes of calculating Non
+-GAAP diluted net EPS, the preferred stock dividends are added back to the Non
+-GAAP net earnings 
+attributable to common stockholders and the diluted weighted average share calculation assumes the preferred stock was conver
+ted at 
+issuance or as of the beginning of the reporting period.
+In millions, except tax rate and per share 
+amounts
+GAAP
+Transformation 
+costs
+Disaster 
+recovery
+Acquisition, 
+disposition, and 
+other related 
+charges
+Stock -based 
+compensation 
+expense
+Amortization of 
+intangible assets
+Gain on 
+investments net
+2
+Adjustments for 
+equity interests
+3
+Other 4
+Non -GAAP
+Revenue
+$8,458
+$8,458
+Cost of sales
+5,852
+4
+(10)
+5,846
+Gross profit
+2,606
+(4)
+10
+2,612
+Total operating expenses
+1,913
+(26)
+13
+(78)
+(79)
+(69)
+1,674
+R&D
+527
+(35)
+492
+SG&A
+1,211
+15
+(44)
+1,182
+Others 5
+175
+(26)
+(2)
+(78)
+(69)
+—
+Operating profit
+693
+26
+(17)
+78
+89
+69
+938
+Interest & other, net
+5
+(34)
+15
+(14)
+Gain on sale of equity interest
+733
+(733)
+—
+(Loss) earnings from equity interests
+(14)
+25
+11
+Pre -tax earnings
+1,417
+26
+(17)
+78
+89
+69
+(34)
+(708)
+15
+935
+Income tax
+(51)
+(6)
+(3)
+(15)
+(29)
+(13)
+7
+104
+(134)
+(140)
+Tax rate
+3.6 %
+15.0%
+Net earnings attributable to HPE
+1,366
+20
+(20)
+63
+60
+56
+(27)
+(604)
+(119)
+795
+Preferred stock dividends
+(25)
+(25)
+Net earnings attributable to common 
+stockholders
+1,341
+770
+Diluted net EPS
+6
+$0.99
+$0.58
+
+
+=== page 31 ===
+Q3 FY24 GAAP to non
+-GAAP bridge
+1
+31
+1. For the purposes of determining Non
+-GAAP Net Earnings, the Company uses a long
+-term planning tax rate and excludes adjustments r
+elated to tax indemnifications and other adjustments, and the impact of tax on the above non
+-GAAP adjustments
+2. Beginning with the first quarter of fiscal 2024, we exclude gains and losses (including impairments) on our non
+-marketable equit
+y investments.
+3. Represents earnings and amortization of basis difference for our investment in H3C.
+4. Other non -recurring adjustments include non
+-service net periodic benefit cost /credit and tax indemnification and other adjustme
+nts.
+5. Other operating expenses include amortization of intangible assets, acquisition, disposition, and other related charges, and 
+transformation costs.
+In millions,
+except tax rate and per share amounts
+GAAP
+Transformatio
+n costs
+Disaster 
+recovery
+Acquisition, 
+disposition, and 
+other related 
+charges
+Stock -based 
+compensation 
+expense
+Divestiture 
+related exit cost
+Amortization 
+of intangible 
+assets
+Gain on 
+investments 
+net 2
+Earnings from 
+equity 
+interests
+3
+Other 4
+Non -GAAP
+Revenue
+$7,710
+$7,710 
+Cost of sales
+5,271
+7
+(9)
+(9)
+5,260
+Gross profit
+2,439
+(7)
+9
+9
+2,450
+Total operating expenses
+1,892
+(14)
+(5)
+(37)
+(71)
+(26)
+(60)
+1,679
+R&D
+547
+-
+-
+-
+(29)
+-
+-
+518
+SG&A
+1,229
+-
+-
+-
+(42)
+(26)
+-
+1,161
+Others 5
+116
+(14)
+(5)
+(37)
+-
+-
+(60)
+-
+Operating profit
+547
+14
+(2)
+37
+80
+35
+60
+771
+Interest expense
+(12)
+(14)
+4
+(22)
+Earnings from equity interests
+73
+(44)
+29
+Pre -tax earnings
+608
+14
+(2)
+37
+80
+35
+60
+(14)
+(44)
+4
+778
+Income tax
+(96)
+(4)
+-
+(5)
+(16)
+(2)
+(10)
+3
+-
+13
+(117)
+Tax rate
+15.8%
+15.0%
+Net earnings
+512
+10
+(2)
+32
+64
+33
+50
+(11)
+(44)
+17
+661 
+Diluted net EPS
+$0.38
+$0.50 
+
+
+=== page 32 ===
+Q2 FY24 GAAP to non
+-GAAP bridge
+1
+32
+1. For the purposes of determining Non
+-GAAP Net Earnings, the Company uses a long
+-term planning tax rate and excludes adjustments r
+elated to tax indemnifications and other adjustments, and the impact of tax on the above non
+-GAAP adjustments
+2. Represents earnings and amortization of basis difference for our investment in H3C.
+3. Other non -recurring adjustments include non
+-service net periodic benefit cost /credit and tax indemnification and other adjustme
+nts.
+4. Other operating expenses include amortization of intangible assets, acquisition, disposition, and other related charges, and 
+transformation costs.
+In millions,
+except tax rate and per share amounts
+GAAP
+Transformation 
+costs
+Disaster recovery
+Acquisition, 
+disposition, and 
+other related charges
+Stock -based 
+compensation 
+expense
+Amortization of 
+intangible assets
+Earnings from 
+equity interests
+2
+Other 3
+Non -GAAP
+Revenue
+$7,204
+$7,204 
+Cost of sales
+4 ,828
+7
+(14)
+4,821
+Gross profit
+2,376
+(7)
+14
+2,383
+Total operating expenses
+1,951
+(33)
+-
+(46)
+(106)
+(67)
+1,699
+R&D
+590
+-
+-
+-
+(42)
+-
+548
+SG&A
+1,215
+-
+-
+-
+(64)
+-
+1,151
+Others 4
+146
+(33)
+-
+(46)
+-
+(67)
+-
+Operating profit
+425
+33
+(7)
+46
+120
+67
+684
+Interest expense
+(22)
+(1)
+(23)
+Earnings from equity interests
+42
+(42)
+-
+Pre -tax earnings
+445
+33
+(7)
+46
+120
+67
+(42)
+(1)
+661
+Income tax
+(131)
+(4)
+-
+(9)
+(23)
+(13)
+(1)
+81
+(100)
+Tax rate
+29.4%
+15.0%
+Net earnings
+314
+29
+(7)
+37
+97
+54
+(43)
+80
+$561 
+Diluted net EPS
+$0.24
+$0.42 
+
+
+=== page 33 ===
+Q1 FY24 GAAP to non
+-GAAP bridge
+1
+33
+1. For the purposes of determining Non
+-GAAP Net Earnings, the Company uses a long
+-term planning tax rate and excludes adjustments r
+elated to tax indemnifications and other adjustments, and the impact of tax on the above non
+-GAAP adjustments
+2. Beginning with the first quarter of fiscal 2024, we exclude gains and losses (including impairments) on our non
+-marketable equit
+y investments.
+3. Represents earnings and amortization of basis difference for our investment in H3C.
+4. Other non -recurring adjustments include non
+-service net periodic benefit cost /credit and tax indemnification and other adjustme
+nts.
+5. Other operating expenses include amortization of intangible assets, acquisition, disposition, and other related charges, and 
+transformation costs.
+In millions,
+except tax rate and per share amounts
+GAAP
+Transformation 
+costs
+Disaster (recovery) 
+charges
+Acquisition, 
+disposition, and 
+other related 
+charges
+Stock -based 
+compensation 
+expense
+Amortization of 
+intangible assets
+Loss on 
+investments 
+net 2
+Earnings from 
+equity interests
+3
+Other 4
+Non -GAAP
+Revenue
+$6,755
+$6,755 
+Cost of sales
+4 ,298
+25
+(16)
+4,307
+Gross profit
+2,457
+(25)
+16
+2,448
+Total operating expenses
+1,932
+(20)
+-
+(43)
+(125)
+(71)
+1,673
+R&D
+582
+-
+-
+-
+(52)
+-
+530
+SG&A
+1,216
+-
+-
+-
+(73)
+-
+1,143
+Others 5
+134
+(20)
+-
+(43)
+-
+(71)
+-
+Operating profit
+525
+20
+(25)
+43
+141
+71
+775
+Interest (expense) income & other, net
+(88)
+61
+2
+(25)
+Earnings from equity interests
+46
+(46)
+-
+Pre -tax earnings
+483
+20
+(25)
+43
+141
+71
+61
+(46)
+2
+750
+Income tax
+(96)
+(3)
+(1)
+(4)
+(28)
+(13)
+(13)
+-
+46
+(112)
+Tax rate
+19.9%
+15.0%
+Net earnings
+387
+17
+(26)
+39
+113
+58
+48
+(46)
+48
+638 
+Diluted net EPS
+$0.29
+$0.48 
+
+
+=== page 34 ===
+Reconciliation of Segment Operating Profit to GAAP & Non
+-
+GAAP Operating Profit
+34
+1. Effective at the beginning of the first quarter of fiscal 2026, HPE implemented an organizational change by (i) merging the S
+erv er, Hybrid Cloud, and Financial Services business segments into a new segment named Cloud & AI and (ii) transferring the 
+Telco and Instant On businesses to Corporate Investments and Other from Networking. The Company reflected these changes to it
+s s egment information retrospectively.
+In millions
+Q1’24
+Q2’24
+Q3’24
+Q4’24
+Q1’25
+Q2’25
+Q3’25
+Q4’25
+Q1’26
+Networking
+$357
+$240
+$259
+$278
+$320
+$271
+$365
+$638
+$640
+Cloud & AI
+508
+525
+612
+756
+547
+414
+504
+620
+645
+Corporate Investments and Other
+(14)
+(12)
+(12)
+(6)
+(8)
+(7)
+(19)
+5
+(12)
+Total Segment Operating Profit
+1
+851
+753
+859
+1,028
+859
+678
+850
+1,263
+1,273
+Unallocated corporate costs and eliminations
+1
+(76)
+(69)
+(88)
+(90)
+(79)
+(65)
+(73)
+(80)
+(91)
+Non -GAAP Operating Profit
+775
+684
+771
+938
+780
+613
+777
+1,183
+1,182
+Amortization of intangible assets
+(71)
+(67)
+(60)
+(69)
+(38)
+(37)
+(126)
+(310)
+(311)
+Impairment charges
+—
+—
+—
+—
+—
+(1,361)
+—
+(260)
+—
+Transformation (costs) credit
+(20)
+(33)
+(14)
+(26)
+(15)
+13
+—
+—
+—
+Stock -based compensation expense
+(141)
+(120)
+(80)
+(89)
+(154)
+(116)
+(177)
+(196)
+(216)
+H3C divestiture related severance costs
+—
+—
+—
+—
+(77)
+(20)
+—
+—
+—
+Cost reduction program
+—
+—
+—
+—
+—
+(146)
+(2)
+(127)
+(23)
+Acquisition, disposition and other charges
+(18)
+(39)
+(70)
+(61)
+(63)
+(55)
+(225)
+(298)
+(162)
+GAAP Operating Profit (Loss)
+$525
+$425
+$547
+$69 3
+$433
+($1,109)
+$247
+($8)
+$470
+
+
+=== page 35 ===
+Reconciliation of Operating Cash Flow to
+ Free Cash Flow
+1
+35
+1. Free cash flow represents cash flow from operations, less net capital expenditures (investments in property, plant & equipmen
+t (“PP&E”) and software assets less proceeds from the sale of PP&E), and adjusted for the effect of exchange rate fluctuations o
+n 
+cash, cash equivalents, and restricted cash.
+in millions
+Q1'25
+Q2'25
+Q3'25
+Q4'25
+Q1'26
+Net cash (used in) provided by operating activities
+($390)
+($461)
+$1,305
+$2,465
+$1,178
+Investment in property, plant and equipment and software assets
+(528)
+(547)
+(576)
+(641)
+(569)
+Proceeds from sale of property, plant and equipment
+84
+80
+90
+126
+66
+Effect of exchange rate changes on cash, cash equivalents, and restricted cash
+(43)
+81
+(29)
+(30)
+33
+Free cash flow
+1
+($877)
+($847)
+$790
+$1,920
+$708
+
+
+=== page 36 ===
+36
+1. Trailing twelve months ("TTM") refers to the period encompassing the month ended January 31, 2026, and the eleven months prec
+edi ng January 2026 for both HPE and Juniper Networks.
+2. A description of HPE’s use of non
+-GAAP financial information is provided on the slide titled “Use of non
+-GAAP financial informat
+ion”. 
+3. Calculated as Total net debt divided by Adjusted EBITDA.
+HPE 
+Q1'26 TTM
+Juniper Networks 
+Q1'26 TTM
+Pro Forma 
+TTM
+GAAP Operating Profit
+($400)
+$167
+($233)
+Acquisition, disposition and other charges
+740
+54
+794
+Stock -based compensation expense
+705
+95
+800
+Amortization of intangible assets
+784
+17
+801
+Cost reduction program
+298
+—
+298
+Transformation costs
+(13)
+24
+11
+Impairment charges
+1,621
+—
+1,621
+H3C divestiture related severance costs
+20
+—
+20
+Other
+—
+3
+3
+Non -GAAP Operating Profit
+2
+3,755
+360
+4,115
+Depreciation and amortization
+3,010
+45
+3,055
+Amortization of intangible assets
+(784)
+(17)
+(801)
+Adjusted EBITDA
+2
+$5,981
+$388
+$6,369
+Calculation of Total Debt and Net Debt
+January 31, 2026
+Notes payable and short
+-term borrowings
+$3,906
+Long -term debt
+17,705
+Total GAAP debt
+21,611
+Less: cash
+(4,841)
+Total net debt
+$16,770
+Adjusted EBITDA
+2
+6,369
+Leverage ratio 
+- Total net debt
+3
+2.6
+Reconciliation of TTM
+1 Operating Profit to Non
+-GAAP 
+Operating Profit and Adjusted EBITDA
+
+
+=== page 37 ===
+Reconciliation of TTM
+1 Operating Profit to Non
+-GAAP 
+Operating Profit and Adjusted EBITDA
+37
+1. Trailing twelve months ("TTM") refers to the period encompassing the month ended July 31, 2025, and the eleven months precedi
+ng July 2025 for both HPE and Juniper Networks.
+2. A description of HPE’s use of non
+-GAAP financial information is provided on the slide titled “Use of non
+-GAAP financial informat
+ion”. 
+3. Calculated as Total net debt divided by adjusted EBITDA.
+HPE 
+Q3'25 TTM
+Juniper Networks 
+Q3'25 TTM
+Pro Forma 
+TTM
+GAAP Operating 
+Profit
+$264
+$399
+$663
+Acquisition , disposition and other charges
+404
+77
+481
+Stock -based compensation expense
+536
+244
+780
+Amortization of intangible assets
+270
+39
+309
+Cost reduction program
+148
+—
+148
+Transformation costs
+28
+31
+59
+Impairment of goodwill
+1,361 
+—
+1,361
+H3C divestiture related severance costs
+97
+—
+97
+Other
+—
+6
+6
+Non -GAAP Operating 
+Profit 2
+3,108
+796
+3,904
+Depreciation and amortization
+2,500
+100
+2,600
+Amortization of intangible assets
+(270)
+(39)
+(309)
+Adjusted EBITDA
+2
+$5,338
+$857
+$6,195
+Calculation of Total Debt and Net Debt
+July 31, 2025
+Notes payable and short
+-term borrowings
+$6,799 
+Long -term debt
+16,854
+Total GAAP debt
+23,653
+Less: cash
+4,571
+Total net debt
+$19,082
+Adjusted EBITDA
+2
+$6,195
+Leverage ratio 
+- Total net debt
+3
+3.1
+
+
+=== page 38 ===
+Appendix 2
+38
+
+
+=== page 39 ===
+Endnotes
+39
+Slide 5: Strong Networking Q1 results and increased profitability in Cloud & AI drive higher fiscal 2026 outlook
+1.
+A description of HPE’s use of non
+-GAAP financial information is provided on the slide titled “Use of non
+-GAAP financial informat
+ion”. A reconciliation of specific 
+adjustments to GAAP results for the current and prior periods are included in the “Appendix 1" section. 
+2.
+Annualized Revenue Run
+-Rate (“ARR”) is a financial metric used to assess the growth of the Consumption Services offerings. ARR r
+epresents the annualized revenue of all 
+net HPE GreenLake cloud services revenue, related financial services revenue (which includes rental income from operating leases and interest i
+nc ome from finance 
+leases), and software
+-as-a-Service, software consumption revenue, and other as
+-a-Service offerings, by taking such revenue recog
+nized during a quarter and multiplying 
+by four. We use ARR as a performance metric. ARR should be viewed independently of net revenue and is not intended to be comb
+ine d with it.
+3.
+Normalized to include 8 months of pre
+-acquisition Juniper Networks results.
+4.
+Includes Networks for AI beginning in Q1’26.
+5.
+A description of HPE’s use of non
+-GAAP financial information is provided on the slide titled “Use of non
+-GAAP financial informat
+ion. HPE provides certain guidance on a 
+non -GAAP basis. The Company is unable to provide a reconciliation to the most directly comparable GAAP financial measure without
+ unreasonable efforts, as it cannot 
+predict some elements that are included in such directly comparable GAAP financial measure.
+Slide 6: Q1 FY26 financial results
+1.
+A description of HPE’s use of non
+-GAAP financial information is provided on the slide titled “Use of non
+-GAAP financial informat
+ion”. A reconciliation of specific 
+adjustments to GAAP results for the current and prior periods are included in the “Appendix 1" section. 
+Slide 7: Q1 FY26 business segment results
+1.
+Includes adjustments for unallocated corporate operating costs (which are managed only at the HPE corporate level) and elimin
+ations. Segment results on this slide do 
+not include or reflect these adjustments.
+2.
+HPE Operating Profit (“OP”) is a non
+-GAAP measure, which is reconciled to our GAAP OP on slide 34. HPE OP as a percentage of net
+ revenue and year
+-over -year change 
+in OP as a percentage of revenue were calculated using non
+-GAAP OP. A description of HPE’s use of non
+-GAAP financial information
+ is provided on the slide titled “Use of 
+non -GAAP financial information.”
+A reconciliation of specific adjustments to GAAP results for the current and prior periods are 
+included in the “Appendix 1” section.
+Slide 8: Networks for AI, Sovereign/Enterprise drive record backlog
+1.
+Orders and backlog figures presented on this slide are as of the ends of the quarterly periods presented and remain subject t
+o o ngoing adjustment for a variety of 
+reasons (including but not limited to re
+-bookings, cancellations, and fulfilment issues).
+2.
+Includes products and services. Networks for AI included beginning Q1’26. Does not include Networks for AI services.
+3.
+Cumulative sovereign and enterprise customer mix of cumulative AI orders since Q1’23. 
+
+
+=== page 40 ===
+Endnotes
+40
+Slide 9: Raising FY26 free cash flow
+ guidance to at least $2 billion
+1.
+A description of HPE’s use of non
+-GAAP financial information is provided on the slide titled “Use of Non
+-GAAP Financial Informat
+ion.” HPE provides certain guidance on a non 
+-GAAP basis. The Company is unable to provide a reconciliation to the most directly comparable GAAP financial measure without 
+unreasonable efforts, as it cannot predict 
+some elements that are included in such directly comparable GAAP financial measure.
+2.
+Free cash flow excludes $1.4B of anticipated H3C gross proceeds of investing cash flow.
+3.
+For reconciliation to operating cash flow, see slide 35. 
+Slide 10: On track to achieve ~2X net leverage by fiscal 2027
+1.
+A description of HPE’s use of non
+-GAAP financial information is provided on the slide titled “Use of non
+-GAAP financial informat
+ion”.  HPE provides certain guidance on a non
+-
+GAAP basis. The Company is unable to provide a reconciliation to the most directly comparable GAAP financial measure without 
+unr easonable efforts, as it cannot predict 
+some elements that are included in such directly comparable GAAP financial measure
+.
+2.
+Trailing twelve months (“TTM”) refers to (
+i) for Q3’25 TTM, the period encompassing the month ended July 31, 2025 and the eleven months preceding July 2025 for both HPE
+ 
+and Juniper Networks, and (ii) for Q1’26 TTM, the period encompassing the month ended January 31, 2026 and the eleven months 
+pre ceding January 2026 for both HPE and 
+Juniper Networks. See the reconciliations on slides 36 and 37.
+3.
+See the calculation of Total net debt on slide 36.
+4.
+Calculated as FS gross debt of $11.6 billion less FS cash of $0.8 billion, see slide 16 for further information.
+Slide 11:  Outlook
+1.
+A description of HPE’s use of non
+-GAAP financial information is provided on the slide titled “Use of non
+-GAAP financial informat
+ion”.
+2.
+Q2’26 non -GAAP diluted net EPS estimate excludes net after
+-tax adjustments
+of approximately $0.42 per diluted share, primarily r
+elated to amortization of intangible assets, 
+stock -based compensation expense, acquisition, disposition and other charges, and cost reduction program.
+3.
+FY26 non -GAAP operating profit excludes costs of approximately $2.7 billion primarily related to amortization of intangible asse
+ts, stock -based compensation expense, 
+acquisition, disposition and other charges, and cost reduction program. 
+4.
+FY26 non -GAAP diluted net EPS estimate excludes net after
+-tax adjustments of approximately $1.28 per diluted share, primarily re
+lated to amortization of intangible assets, 
+stock -based compensation expense, acquisition, disposition and other charges, cost reduction program, and adjustments related to
+ the sale of H3C. 
+5.
+HPE provides certain guidance on a non
+-GAAP basis. The Company is unable to provide a reconciliation to the most directly compar
+able GAAP financial measure without 
+unreasonable efforts, as it cannot predict some elements that are included in such directly comparable GAAP financial measure
+. 
+6.
+Normalized growth rates are calculated based on FY25 results that have been normalized to include 8 months of Juniper Network
+s results, pre -acquisition close, refer to slide 
+22 for more information.
+
+
+=== page 41 ===
+Endnotes
+41
+Slide 12: Outlook details 
+1.
+A description of HPE’s use of non
+-GAAP financial information is provided on the slide titled “Use of non
+-GAAP financial informat
+ion”.
+2.
+Q2’26 non -GAAP diluted net EPS estimate excludes net after
+-tax adjustments
+of approximately $0.42 per diluted share, primarily r
+elated to amortization of intangible assets, 
+stock -based compensation expense, acquisition, disposition and other charges, and cost reduction program.
+3.
+Normalized growth rates are calculated based on FY25 results that have been normalized to include 8 months of Juniper Network
+s results, pre -acquisition close, refer to slide 
+22 for more information. 
+4.
+HPE provides certain guidance on a non
+-GAAP basis. The Company is unable to provide a reconciliation to the most directly compar
+able GAAP financial measure without 
+unreasonable efforts, as it cannot predict some elements that are included in such directly comparable GAAP financial measure
+. 
+5.
+FY26 non -GAAP diluted net EPS estimate excludes net after
+-tax adjustments of approximately $1.28 per diluted share, primarily re
+lated to amortization of intangible assets, 
+stock -based compensation expense, acquisition, disposition and other charges, cost reduction program, and adjustments related to
+ the sale of H3C. 
+6.
+FY26 non -GAAP operating profit excludes costs of approximately $2.7 billion primarily related to amortization of intangible asse
+ts, stock -based compensation expense, 
+acquisition, disposition and other charges, and cost reduction program. 
+Slide 14:  Networking Q1  FY26
+1.
+Segment operating profit is calculated based on total segment operating profit, which
+excludes
+unallocated corporate operating c
+osts and other adjustments that 
+are managed only at the HPE corporate
+level. 
+2.
+Year -over -year growth is on as reported basis.
+3.
+Normalized growth rates are calculated based on FY25 results that have been normalized to include 8 months of Juniper Network
+s results, pre -acquisition close, refer to slide 
+22 for more information.
+4.
+Includes telco and cloud providers.
+Slide 15: Cloud & AI Q1 FY26
+1.
+Segment operating profit is calculated based on total segment operating profit, which
+excludes
+unallocated corporate operating c
+osts and other adjustments that 
+are managed only at the HPE corporate
+level.
+2.
+Storage includes revenue from 
+GreenLake Flex and Software.
+3.
+Other category includes intersegment revenue eliminations and third
+-party storage solutions.
+
+
+=== page 42 ===
+Endnotes
+42
+Slide 16: Q1 FY26 balance sheet
+1.
+Operating Company = Total HPE excluding Financial Services (FS); Financing Company = HPE Financial Services (FS).
+2.
+As of January 31, 2026, we have outstanding securitized debt of approximately  $2.1 billion from ABS issuances in the US mark
+et.
+3.
+Operating company net cash is defined as total company net cash excluding the cash and debt associated with Financial Service
+s.
+4.
+Net Portfolio Assets represents the total amount of Financing Receivables and Operating Lease Assets recorded on the balance 
+she et, net of reserves against those assets.
+5.
+FS gross debt includes primarily intercompany equity that is treated as debt for segment reporting purposes, intercompany deb
+t, and borrowing and funding related activity 
+associated with Financial Services and its subsidiaries. Debt excludes impact of interest rate swaps.

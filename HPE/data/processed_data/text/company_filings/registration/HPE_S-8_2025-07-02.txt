@@ -1,0 +1,227 @@
+S-8
+1
+ef20051379_s8.htm
+S-8
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+FORM S-8
+REGISTRATION STATEMENT
+UNDER
+THE SECURITIES ACT OF 1933
+Hewlett Packard Enterprise Company
+(Exact Name of Registrant as Specified in its Charter)
+Delaware | 47-3298624
+(State or Other Jurisdiction of Incorporation or Organization) | (I.R.S. Employer Identification No.)
+1701 East Mossy Oaks Road Spring, TX | 77389
+(Address of Principal Executive Offices) | (Zip Code)
+Juniper Networks, Inc. 2015 Equity Incentive Plan, as amended and restated
+128 Technology, Inc. Amended and Restated 2014 Equity Incentive Plan
+Apstra, Inc. Amended and Restated 2014 Equity Incentive Plan
+Mist Systems, Inc. 2014 Equity Incentive Plan
+Juniper Networks, Inc. Deferred Compensation Plan
+(Full Title of the Plan(s))
+David Antczak
+Senior Vice President, General Counsel and Corporate Secretary
+Hewlett Packard Enterprise Company
+1701 East Mossy Oaks Road,
+Spring, TX 77389
+(Name and Address of Agent for Service)
+(678) 259-9860
+(Telephone Number, Including Area Code, of Agent for Service)
+Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, or a smaller reporting company. See the definitions of “large accelerated
+filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act.
+Large accelerated filer ☒ | Accelerated filer ☐
+Non-accelerated filer ☐ (Do not check if a smaller reporting company) | Smaller reporting company ☐
+Emerging growth company ☐
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards
+provided pursuant to Section 7(a)(2)(B) of the Securities Act. ☐
+EXPLANATORY NOTE
+Hewlett Packard Enterprise Company, a Delaware corporation (the “
+Registrant
+”), is filing this Registration Statement on Form S-8 with the Securities and Exchange Commission (the “
+Commission
+”)
+relating to (A) shares of common stock of the Registrant, par value $0.01 per share (the “
+Common Stock
+”), that may be issued pursuant to awards outstanding under the (i) Juniper Networks, Inc. 2015 Equity Incentive Plan, as amended and
+restated (the “
+Juniper 2015 Plan
+”), (ii) 128 Technology, Inc. Amended and Restated 2014 Equity Incentive Plan (the “
+128 Technology Plan
+”), (iii) Apstra, Inc. Amended and Restated 2014 Equity Incentive Plan (the “
+Apstra Plan
+”) and
+(iv) Mist Systems, Inc. 2014 Equity Incentive Plan (the “
+Mist Systems Plan
+” and, together with the Juniper 2015 Plan, the 128 Technology Plan and the Apstra Plan, the “
+Juniper Incentive Plans
+”), and (B) deferred compensation obligations
+with respect to the Juniper Networks, Inc. Deferred Compensation Plan (the “
+Juniper Deferred Compensation Plan
+”).
+On January 9, 2024, the Registrant entered into an Agreement and Plan of Merger (as it may be amended, supplemented or otherwise modified from time to time, the “
+Merger Agreement
+”), by and
+among the Registrant, Juniper Networks, Inc., a Delaware corporation (“
+Juniper
+”), and Jasmine Acquisition Sub, Inc., a Delaware corporation and wholly owned subsidiary of the Registrant (“
+Merger Sub
+”).  Pursuant to the Merger Agreement,
+on July 2, 2025, Merger Sub merged with and into Juniper (the “
+Merger
+”), with Juniper surviving the Merger as a wholly owned subsidiary of the Registrant.
+In connection with and upon consummation of the Merger, and in accordance with the terms set forth in the Merger Agreement, the Juniper Incentive Plans and the Juniper Deferred Compensation Plan were
+assumed by the Registrant.  Certain equity awards in respect of shares of Juniper common stock granted under the Juniper Incentive Plans that remained outstanding under the Juniper Incentive Plans as of July 2, 2025 were converted into equity awards
+in respect of the Common Stock.  These converted awards will continue to be subject to the terms of the Juniper Incentive Plans following the Merger.  As of July 2, 2025, certain deferred compensation obligations in respect of the Juniper Deferred
+Compensation Plan remain outstanding as obligations of the Registrant to pay deferred compensation in the future.  This Registration Statement is being filed for the purpose of registering the Common Stock issuable upon the settlement of such
+converted awards and registering the deferred compensation obligations outstanding pursuant to the Juniper Deferred Compensation Plan.
+PART I
+INFORMATION REQUIRED IN THE SECTION 10(A) PROSPECTUS
+The information required by Item 1 and Item 2 of Part I of Form S-8 is omitted from this filing in accordance with Rule 428 under the Securities Act of 1933, as amended (the “
+Securities Act
+”),
+and the introductory note to Part I of Form S-8.
+The documents containing the information specified in Part I will be sent or given to employees as specified by Rule 428(b)(1) under the Securities Act. In
+accordance with the rules and regulations of the Commission, such documents are not being filed with the Commission as part of this Registration Statement.
+PART II
+INFORMATION REQUIRED IN THE REGISTRATION STATEMENT
+Item 3. | Incorporation of Documents by Reference.
+The Registrant hereby incorporates by reference into this Registration Statement the following documents previously filed by the Registrant with the Commission:
+• | the Registrant’s Annual Report on Form 10-K for the fiscal year ended October 31, 2024 , filed with the Commission on December 19, 2024 pursuant to Section 13 of the Securities Exchange Act of 1934, as amended (the “ Exchange Act ”);
+• | the Registrant’s Quarterly Reports on Form 10-Q for the fiscal quarters ended January 31, 2025 and April 30, 2025 , filed with the Commission on March 7, 2025 and June 4, 2025 ,
+respectively, pursuant to Section 13 of the Exchange Act;
+• | the Registrant’s Current Reports on Form 8-K filed with the Commission on November 5, 2024 , March 6, 2025 (solely with respect to Item 2.05), April 4, 2025 , and July 2, 2025 ,
+pursuant to Section 13 of the Exchange Act; and
+• | the description of the Registrant’s Common Stock set forth in Exhibit 4.18 to the Registrant’s Form 10-K (No. 001-37483) for
+the fiscal year ended October 31, 2024, filed with the Commission on December 19, 2024.
+All reports and definitive proxy or information statements filed pursuant to Section 13(a), 13(c), 14 or 15(d) of the Exchange Act subsequent to the filing of this Registration
+Statement and prior to the filing of a post-effective amendment which indicates that all securities offered hereby have been sold or which de-registers all securities then remaining unsold shall be deemed to be incorporated by reference into this
+Registration Statement and to be a part hereof from the date of filing such documents, except as to specific sections of such statements as set forth therein. Unless expressly incorporated into this Registration Statement, a report furnished, but not
+filed, on Form 8-K prior or subsequent to the date hereof shall not be incorporated by reference into this Registration Statement.
+Any statement contained in a document incorporated or deemed to be incorporated by reference herein shall be deemed to be modified or superseded for purposes of this Registration
+Statement to the extent that a statement contained in any subsequently filed document which also is deemed to be incorporated by reference herein modifies or supersedes such statement.
+Item 4. | Description of Securities.
+Not applicable as to the Juniper Incentive Plans
+in accordance with instruction to Item 4 of Form S-8
+.
+The Securities being registered pursuant to the Juniper Deferred Compensation Plan represent obligations (the “
+Obligations
+”) of the Registrant to pay deferred compensation in
+the future in accordance with the terms of the Juniper Deferred Compensation Plan.
+The Obligations are general unsecured obligations of the Registrant to pay deferred compensation in the future according to the Juniper Deferred Compensation Plan from the general
+assets of the Registrant, and rank equally with other unsecured and unsubordinated indebtedness of the Registrant.
+The amount of compensation to be deferred by each participant is determined in accordance with the Juniper Deferred Compensation Plan and will be based on elections by the
+participant.  Certain eligible employees may defer base salary, commissions and annual bonuses.  Amounts credited to a participant’s account are credited with deemed investment returns equal to the experience of selected hypothetical investments
+offered under the Juniper Deferred Compensation Plan and elected by the participant.  The Obligations are generally payable upon a date or dates selected by the participant in accordance with the terms of the Juniper Deferred Compensation Plan,
+subject to exceptions for in-service withdrawals and certain terminations of employment.  The Obligations generally are payable in the form of a lump-sum distribution or in installments, at the election of the participant made in accordance with the
+terms of the Juniper Deferred Compensation Plan.
+Participants or beneficiaries generally may not sell, transfer, anticipate, assign, hypothecate or otherwise dispose of any right or interest in the Juniper Deferred Compensation
+Plan.  A participant may designate one or more beneficiaries to receive any portion of Obligations payable in the event of death.  The Registrant reserves the right to amend or terminate the Juniper Deferred Compensation Plan at any time and for any
+reason.
+Item 5. | Interests of Named Experts and Counsel.
+David Antczak, Senior Vice President, General Counsel and Corporate Secretary of the Registrant, will pass upon the validity of the issuance of the shares of Common Stock offered by this Registration Statement. Mr.
+Antczak is an officer and employee of the Registrant and holds restricted stock units granted by the Registrant.
+Item 6. | Indemnification of Directors and Officers.
+Section 145 of the Delaware General Corporation Law (the “
+DGCL
+”) authorizes corporations to limit or eliminate the personal liability of directors, officers, employees or
+agents to corporations and their stockholders in certain situations for monetary damages for breaches of directors’ officers’ fiduciary duties as directors or officers, as applicable, in the circumstances therein provided and the Registrant’s
+restated certificate of incorporation includes such an exculpation provision. The Registrant’s restated certificate of incorporation and second amended and restated bylaws include provisions that indemnify directors or officers, to the fullest extent
+allowable under the DGCL, for monetary damages for actions taken as a director or officer, as applicable, of the Registrant or any predecessor of the Registrant, or for serving at the Registrant’s request or the request of any predecessor of the
+Registrant as a director or officer or another position at another corporation or enterprise, as the case may be. Article VIII of the Registrant’s restated certificate of incorporation includes such an indemnification provision. The Registrant’s
+second amended and restated bylaws also provide that the Registrant must indemnify and advance actual and reasonable expenses to its directors and officers, subject to its receipt of an undertaking from the indemnified party as may be required under
+the DGCL. The Registrant’s second amended and restated bylaws expressly authorize the Registrant to carry directors’ and officers’ insurance to protect the Registrant, its directors, officers, agents and employees for certain liabilities.
+The foregoing description is intended as a summary only and is qualified in its entirety by reference to the Registrant’s restated certificate of incorporation, second amended and
+restated bylaws and the DGCL.
+Item 7. | Exemption from Registration Claimed.
+Not applicable.
+Item 8. | Exhibits.
+The following exhibits are filed as part of this Registration Statement.
+Exhibit Number | Description of Exhibit
+4.1 | Restated Certificate of Incorporation of the Registrant (incorporated by reference to Exhibit 3.2 to the Registrant’s Current Report on Form 8-K filed with the Commission on April 12, 2024).
+4.2 | Second Amended and Restated Bylaws of the Registrant (incorporated by reference to Exhibit 3.1 to the Registrant’s Current Report on Form 8-K filed with the Commission on September 28, 2023).
+*4.3 | Juniper Networks, Inc. 2015 Equity Incentive Plan, as amended and restated.
+*4.4 | 128 Technology, Inc. Amended and Restated 2014 Equity Incentive Plan.
+*4.5 | Apstra, Inc. Amended and Restated 2014 Equity Incentive Plan.
+*4.6 | Mist Systems, Inc. 2014 Equity Incentive Plan.
+*4.7 | Juniper Networks, Inc. Deferred Compensation Plan.
+*5.1 | Opinion of David Antczak, Senior Vice President, General Counsel and Corporate Secretary of the Registrant.
+*5.2 | Opinion of Baker & McKenzie LLP.
+*23.1 | Consent of Ernst & Young, LLP, independent registered public accounting firm (with respect to the Registrant).
+*23.2 | Consent of David Antczak, Senior Vice President, General Counsel and Corporate Secretary (included in Exhibit 5.1 to this Registration Statement).
+*23.3 | Consent of Baker & McKenzie LLP (included in Exhibit 5.2 to this Registration Statement).
+*24 | Powers of Attorney (included on signature pages hereto).
+*107 | Calculation of Filing Fee Table.
+* Filed herewith.
+Item 9. | Undertakings.
+(a) The undersigned Registrant hereby undertakes:
+(1) To file, during any period in which offers or sales are being made, a post-effective amendment to this Registration Statement:
+(i) To include any prospectus required by Section 10(a)(3) of the Securities Act;
+(ii) To reflect in the prospectus any facts or events arising after the effective date of the Registration Statement (or the most recent post-effective amendment thereof) which,
+individually or in the aggregate, represent a fundamental change in the information set forth in the Registration Statement. Notwithstanding the foregoing, any increase or decrease in volume of securities offered (if the total dollar value of
+securities offered would not exceed that which was registered) and any deviation from the low or high end of the estimated maximum offering range may be reflected in the form of prospectus filed with the Commission pursuant to Rule 424(b) if, in the
+aggregate, the changes in volume and price represent no more than a 20% change in the maximum aggregate offering price set forth in the “Calculation of Registration Fee Tables” or “Calculation of Registration Fee” table, as applicable, in the
+effective Registration Statement; and
+(iii) To include any material information with respect to the plan of distribution not previously disclosed in the Registration Statement or any material change to such information in
+the Registration Statement;
+provided, however
+, that paragraphs (a)(1)(i) and (a)(1)(ii) do not apply if the information required to be included in a post-effective amendment by those
+paragraphs is contained in reports filed with or furnished to the Commission by the Registrant pursuant to Section 13 or Section 15(d) of the Securities Exchange Act of 1934 that are incorporated by reference in the Registration Statement;
+(2) That, for the purpose of determining any liability under the Securities Act of 1933, each such post-effective amendment shall be deemed to be a new registration statement relating
+to the securities offered therein, and the offering of such securities at that time shall be deemed to be the initial bona fide offering thereof; and
+(3) To remove from registration by means of a post-effective amendment any of the securities being registered which remain unsold at the termination of the offering.
+(b)  The undersigned Registrant hereby undertakes that, for purposes of determining any liability under the Securities Act of 1933, each filing of the Registrant’s annual report pursuant to Section
+13(a) or Section 15(d) of the Securities Exchange Act of 1934 (and, where applicable, each filing of an employee benefit plan’s annual report pursuant to Section 15(d) of the Securities Exchange Act of 1934) that is incorporated by reference in the
+Registration Statement shall be deemed to be a new registration statement relating to the securities offered therein, and the offering of such securities at that time shall be deemed to be the initial bona fide offering thereof.
+(h)  Insofar as indemnification for liabilities arising under the Securities Act of 1933 may be permitted to directors, officers and controlling persons of the Registrant pursuant to the foregoing
+provisions, or otherwise, the Registrant has been advised that in the opinion of the Securities and Exchange Commission such indemnification is against public policy as expressed in the Securities Act and is, therefore, unenforceable. In the event
+that a claim for indemnification against such liabilities (other than the payment by the Registrant of expenses incurred or paid by a director, officer or controlling person of the Registrant in the successful defense of any action, suit or
+proceeding) is asserted by such director, officer or controlling person in connection with the securities being registered, the Registrant will, unless in the opinion of its counsel the matter has been settled by controlling precedent, submit to a
+court of appropriate jurisdiction the question of whether such indemnification by it is against public policy as expressed in the Securities Act and will be governed by the final adjudication of such issue.
+SIGNATURES
+Pursuant to the requirements of the Securities Act of 1933, the Registrant certifies that it has reasonable grounds to believe that it meets all of the requirements for filing on Form
+S-8 and has duly caused this Registration Statement to be signed on its behalf by the undersigned, thereunto duly authorized, in the City of Spring, State of Texas, on July 2, 2025.
+HEWLETT PACKARD ENTERPRISE COMPANY
+By: | /s/ David Antczak
+Name: | David Antczak
+Title: | Senior Vice President, General Counsel and Corporate Secretary
+KNOW ALL PERSONS BY THESE PRESENT
+, that each person whose signature appears below hereby constitutes and appoints each of Marie Myers and David
+Antczak as his or her true and lawful agent, proxy and attorney-in-fact, each acting alone with full power of substitution and resubstitution, for him or her and in his or her name, place and stead, in any and all capacities, to (i) act on, sign and
+file with the Securities and Exchange Commission any and all amendments and supplements (including post-effective amendments) to this Registration Statement on Form S-8 together with all schedules and exhibits thereto, (ii) act on, sign and file such
+certificates, instruments, agreements and other documents as may be necessary or appropriate in connection therewith, and (iii) take any and all actions which may be necessary or appropriate in connection therewith, granting unto such agents, proxies
+and attorneys-in-fact, and each of them, full power and authority to do and perform each and every act and thing necessary or appropriate to be done, as fully for all intents and purposes as he or she might or could do in person, hereby approving,
+ratifying and confirming that all such agents, proxies and attorneys-in-fact, any of them or any of his or her or their substitute or substitutes, may lawfully do or cause to be done by virtue hereof.
+To effect the above, each of the undersigned has executed this Power of Attorney as of the date indicated above.
+Pursuant to the requirements of the Securities Act of 1933, as amended, this Registration Statement has been signed by the following persons in the capacities and as of the date
+indicated above.
+Signature | Title
+/s/ Antonio F. Neri | President, Chief Executive Officer and Director (Principal Executive Officer)
+Antonio F. Neri
+/s/ Marie Myers | Executive Vice President and Chief Financial Officer (Principal Financial Officer)
+Marie Myers
+/s/ Jeremy Cox | Senior Vice President, Controller and Chief Tax Officer (Principal Accounting Officer)
+Jeremy Cox
+/s/ Patricia F. Russo | Chair
+Patricia F. Russo
+/s/ Pamela L. Carter | Director
+Pamela L. Carter
+/s/ Frank A. D’Amelio | Director
+Frank A. D’Amelio
+/s/ Regina E. Dugan | Director
+Regina E. Dugan
+/s/ Jean M. Hobby | Director
+Jean M. Hobby
+/s/ Raymond J. Lane | Director
+Raymond J. Lane
+/s/ Ann M. Livermore | Director
+Ann M. Livermore
+/s/ Bethany J. Mayer | Director
+Bethany J. Mayer
+/s/ Charles H. Noski | Director
+Charles H. Noski
+/s/ Raymond E. Ozzie | Director
+Raymond E. Ozzie
+/s/ Gary M. Reiner | Director
+Gary M. Reiner

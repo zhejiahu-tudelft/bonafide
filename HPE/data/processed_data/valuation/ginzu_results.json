@@ -1,0 +1,12 @@
+{
+  "unlevered_beta": 1.2110393144007,
+  "levered_beta": 1.41750476257183,
+  "erp": 0.05266247395751,
+  "cost_of_equity": 0.124149307643586,
+  "pre_tax_cost_of_debt": 0.060613,
+  "wacc": 0.110612273738675,
+  "equity_weight": 0.822500134751463,
+  "value_operating_assets": 59713.071286976,
+  "value_equity": 45623.071286976,
+  "value_per_share": 31.5684719085641
+}

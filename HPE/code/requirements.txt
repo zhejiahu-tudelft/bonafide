@@ -1,0 +1,11 @@
+pandas==2.3.3
+numpy
+matplotlib
+scipy
+statsmodels
+ta
+openpyxl
+requests
+beautifulsoup4
+lxml
+yfinance==1.7.0

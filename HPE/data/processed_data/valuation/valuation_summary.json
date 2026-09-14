@@ -1,0 +1,91 @@
+{
+  "valuation_date": "2026-09-11",
+  "price": 62.09000015258789,
+  "cost_of_capital": {
+    "risk_free": 0.0495,
+    "erp": 0.0397,
+    "networking_profit_weight": 0.4045,
+    "unlevered_beta": 1.1476845879999997,
+    "debt_to_equity": 0.22560262110929089,
+    "levered_beta": 1.3522319024950338,
+    "cost_of_equity": 0.10318360652905284,
+    "pre_tax_cost_of_debt": 0.060613,
+    "after_tax_cost_of_debt": 0.04788427,
+    "equity_weight": 0.8159251479854879,
+    "debt_weight": 0.18407485201451212,
+    "wacc": 0.09300438934096673
+  },
+  "scenarios": {
+    "Bear": {
+      "pv_explicit": 25786.121527152616,
+      "terminal_value": 50194.6815441242,
+      "pv_terminal": 20375.051812215803,
+      "enterprise_value": 46161.17333936842,
+      "equity_value": 32071.17333936842,
+      "value_per_share": 22.191358584128547,
+      "tv_share_of_ev": 0.44138938285693446,
+      "implied_ev_to_fy27_ebitda": 5.013704066402564,
+      "probability": 0.25,
+      "terminal_growth": 0.0225,
+      "story": "AI-server digestion and memory-cost normalisation reverse FY26 ASP gains; networking share loss to Cisco/Arista; margins revert toward the pre-Juniper mix-adjusted ~10\u201311%.",
+      "fy27_revenue": 51150.00000000001,
+      "fy36_revenue": 58991.552705070295,
+      "lt_margin": 0.105
+    },
+    "Base": {
+      "pv_explicit": 37076.20315683438,
+      "terminal_value": 81501.75170385672,
+      "pv_terminal": 33083.23437200527,
+      "enterprise_value": 70159.43752883965,
+      "equity_value": 56069.437528839655,
+      "value_per_share": 38.796740632046316,
+      "tv_share_of_ev": 0.4715436089179893,
+      "implied_ev_to_fy27_ebitda": 6.728227907010433,
+      "probability": 0.5,
+      "terminal_growth": 0.0275,
+      "story": "FY27 in line with the raised framework (+13\u201317% revenue, 14\u201315% non-GAAP margin); growth fades to IDC/Gartner-consistent mid-single digits; margin settles at 12.5% as AI mix offsets networking mix.",
+      "fy27_revenue": 53474.99999999999,
+      "fy36_revenue": 75898.49391251417,
+      "lt_margin": 0.125
+    },
+    "Bull": {
+      "pv_explicit": 46511.17861367402,
+      "terminal_value": 112155.2794519688,
+      "pv_terminal": 45526.13064869438,
+      "enterprise_value": 92037.30926236839,
+      "equity_value": 77947.30926236839,
+      "value_per_share": 53.93493628079545,
+      "tv_share_of_ev": 0.4946486486139464,
+      "implied_ev_to_fy27_ebitda": 8.458534074291737,
+      "probability": 0.25,
+      "terminal_growth": 0.0325,
+      "story": "Networking (Oracle, Helios scale-up switches) lifts mix toward 30%+ of revenue at mid/high-20s margins; enterprise AI inference sustains server demand; margins hold near FY27 levels.",
+      "fy27_revenue": 54405.0,
+      "fy36_revenue": 85508.2312782654,
+      "lt_margin": 0.145
+    }
+  },
+  "probability_weighted_value": 38.429944032254156,
+  "upside_to_probability_weighted": -0.3810606548911015,
+  "reverse_dcf": {
+    "implied_long_term_margin_at_base_growth": 0.18417650504817762,
+    "implied_growth_uplift_pp_at_base_margin": 0.05822578828442908,
+    "implied_wacc_at_base_case": 0.07015328666223142,
+    "implied_growth_uplift_if_margin_holds_at_fy27_level": 0.03548284538613501,
+    "implied_fy27_36_revenue_cagr_at_base_margin": 0.1084671824579646,
+    "base_fy27_36_revenue_cagr": 0.050214525032828305
+  },
+  "dcf_base_sensitivity_range": [
+    35.47434126545396,
+    42.859813983124575
+  ],
+  "fair_value_range_dcf": [
+    22.191358584128547,
+    53.93493628079545
+  ],
+  "fair_value_core_range": [
+    35.47434126545396,
+    42.859813983124575
+  ],
+  "unaffected_price_1m_avg": 54.892381032307945
+}

@@ -1,0 +1,27 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:        hpe_revenue_yoy   R-squared:                       0.267
+Model:                            OLS   Adj. R-squared:                  0.179
+Method:                 Least Squares   F-statistic:                     3.372
+Date:                Tue, 15 Sep 2026   Prob (F-statistic):             0.0342
+Time:                        00:05:07   Log-Likelihood:                 37.047
+No. Observations:                  29   AIC:                            -66.09
+Df Residuals:                      25   BIC:                            -60.62
+Df Model:                           3                                         
+Covariance Type:                  HAC                                         
+==================================================================================
+                     coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const             -0.0419      0.030     -1.377      0.168      -0.102       0.018
+capex_yoy_lag0     0.0838      0.065      1.284      0.199      -0.044       0.212
+capex_yoy_lag1     0.1257      0.070      1.807      0.071      -0.011       0.262
+capex_yoy_lag2    -0.0265      0.037     -0.708      0.479      -0.100       0.047
+==============================================================================
+Omnibus:                        0.282   Durbin-Watson:                   0.948
+Prob(Omnibus):                  0.869   Jarque-Bera (JB):                0.463
+Skew:                          -0.143   Prob(JB):                        0.793
+Kurtosis:                       2.450   Cond. No.                         10.1
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 4 lags and without small sample correction

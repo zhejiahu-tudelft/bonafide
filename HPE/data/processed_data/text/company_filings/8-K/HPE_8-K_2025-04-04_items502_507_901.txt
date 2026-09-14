@@ -1,0 +1,96 @@
+hpe-20250402
+0001645590
+false
+0001645590
+2025-04-02
+2025-04-02
+0001645590
+us-gaap:CommonStockMember
+2025-04-02
+2025-04-02
+0001645590
+us-gaap:SeriesCPreferredStockMember
+2025-04-02
+2025-04-02
+UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549
+FORM | 8-K
+CURRENT REPORT
+PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+April 2, 2025
+Date of Report (Date of Earliest Event Reported)
+HEWLETT PACKARD ENTERPRISE COMPANY
+(Exact name of registrant as specified in its charter)
+Delaware | 001-37483 | 47-3298624
+(State or other jurisdiction of incorporation) | (Commission File Number) | (I.R.S. Employer Identification No.)
+1701 East Mossy Oaks Road, | Spring, | TX | 77389
+(Address of principal executive offices) | (Zip code)
+(678) | 259-9860
+(Registrant’s telephone number, including area code)
+Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:
+☐
+Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+☐
+Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+☐
+Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+☐
+Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+Securities registered pursuant to Section 12(b) of the Exchange Act:
+Title of each class | Trading Symbol(s) | Name of each exchange on which registered
+Common stock, par value $0.01 per share | HPE | NYSE
+7.625% Series C Mandatory Convertible Preferred Stock, par value $0.01 per share | HPEPRC | NYSE
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).
+☐ | Emerging growth company
+☐ | If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.
+Item 5.02 | Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers.
+On April 2, 2025, at the 2025 annual meeting of stockholders (the “2025 Annual Meeting”) of Hewlett Packard Enterprise Company (the “Company”), the Company's stockholders approved (1) an amendment (“Amendment No. 4”) to the Hewlett Packard Enterprise Company 2021 Stock Incentive Plan (the “SIP Plan”) to increase the number of shares of common stock reserved for issuance under the 2021 Plan by 22 million (22,000,000) shares, and (2) an amendment ("Amendment No. 1") to the Hewlett Packard Enterprise Company 2015 Employee Share Purchase Plan (the "ESP Plan") to extend the term of the ESP Plan by ten (10) years. The Company's Board of Directors approved Amendment No. 4 to the SIP Plan and Amendment No. 1 to the ESP Plan, subject to stockholder approval, on February 6, 2025.
+The foregoing descriptions of Amendment No. 4 to the SIP Plan and Amendment No. 1 to the ESP Plan are qualified in their entirety by reference to Amendment No. 4 and Amendment No. 1, which are filed as Exhibits 10.1 and 10.2, respectively, to this report.
+A more complete description of (i) the terms of Amendment No. 4 and the SIP Plan can be found in "Proposal no. 3: Vote to approve Amendment No. 4 to the Hewlett Packard Enterprise Company 2021 Stock Incentive Plan to increase the plan's shares available for issuance" on pages 57 to 65 of the Company's definitive proxy statement on Schedule 14A filed with the U.S. Securities and Exchange Commission on February 12, 2025 (the “2025 Proxy Statement”), and (ii) the terms of Amendment No. 1 and the ESP Plan can be found in "Proposal no. 4: Vote to approve Amendment No. 1 to the Hewlett Packard Enterprise Company 2015 Employee Share Purchase Plan to extend the plan's duration" on pages 66 to 69 of the Company's 2025 Proxy Statement, which descriptions are incorporated by reference herein.
+Item 5.07 | Submission of Matters to a Vote of Security Holders.
+On April 2, 2025, the Company held its 2025 Annual Meeting. At the 2025 Annual Meeting, the Company's stockholders voted on six proposals and cast their votes as described below. The proposals are described in the Company's 2025 Proxy Statement.
+Proposal 1
+The Company's stockholders cast their votes to elect 12 individuals to the Company's Board of Directors for the succeeding year or until their successors are duly qualified and elected as set forth below:
+Name | Votes For | Votes Against | Abstentions | Broker Non-Votes
+Pamela L. Carter | 948,964,573 | 43,464,272 | 1,365,600 | 153,093,912
+Frank A. D'Amelio | 989,222,840 | 3,167,453 | 1,404,152 | 153,093,912
+Regina E. Dugan | 989,469,284 | 3,041,922 | 1,283,239 | 153,093,912
+Jean M. Hobby | 988,534,712 | 3,964,190 | 1,295,543 | 153,093,912
+Raymond J. Lane | 986,478,437 | 5,968,543 | 1,347,465 | 153,093,912
+Ann M. Livermore | 975,467,083 | 16,548,792 | 1,778,570 | 153,093,912
+Bethany J. Mayer | 958,413,078 | 34,085,578 | 1,295,789 | 153,093,912
+Antonio F. Neri | 988,570,084 | 3,946,941 | 1,277,420 | 153,093,912
+Charles H. Noski | 975,898,634 | 16,501,910 | 1,393,901 | 153,093,912
+Raymond E. Ozzie | 988,615,119 | 3,797,694 | 1,381,632 | 153,093,912
+Gary M. Reiner | 972,020,255 | 20,369,945 | 1,404,245 | 153,093,912
+Patricia F. Russo | 940,852,940 | 51,824,294 | 1,117,211 | 153,093,912
+Proposal 2
+The Company's stockholders cast their votes to ratify the appointment of Ernst & Young LLP as the Company's independent registered public accounting firm for the fiscal year ending October 31, 2025 as set forth below:
+Votes For | Votes Against | Abstentions | Broker Non-Votes
+1,118,842,324 | 26,571,929 | 1,474,104 | —
+Proposal 3
+The Company's stockholders cast their votes to approve Amendment No. 4 to the Hewlett Packard Enterprise Company 2021 Stock Incentive Plan, as set forth below:
+Votes For | Votes Against | Abstentions | Broker Non-Votes
+695,894,511 | 295,039,360 | 2,860,574 | 153,093,912
+Proposal 4
+The Company's stockholders cast their votes to approve Amendment No. 1 to the Hewlett Packard Enterprise Company 2015 Employee Stock Purchase Plan, as set forth below:
+Votes For | Votes Against | Abstentions | Broker Non-Votes
+985,703,599 | 6,804,649 | 1,286,197 | 153,093,912
+Proposal 5
+The Company's stockholders cast their votes with respect to the advisory vote to approve executive compensation as set forth below:
+Votes For | Votes Against | Abstentions | Broker Non-Votes
+886,480,847 | 104,459,232 | 2,854,366 | 153,093,912
+Proposal 6
+The Company's stockholders cast their votes with respect to the stockholder proposal entitled: "Transparency in Lobbying", as set forth below:
+Votes For | Votes Against | Abstentions | Broker Non-Votes
+213,898,665 | 773,254,199 | 6,641,581 | 153,093,912
+Item 9.01 | Financial Statements and Exhibits.
+Exhibit Number | Description
+10.1 | Amendment No. 4 to the Hewlett Packard Enterprise Company 2021 Stock Incentive Plan
+10.2 | Amendment No. 1 to the Hewlett Packard Enterprise Company 2015 Employee Share Purchase Plan
+104 | Cover Page Interactive Data File (embedded within the Inline XBRL document)
+SIGNATURE
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has caused this report to be signed on its behalf by the undersigned hereunto duly authorized.
+HEWLETT PACKARD ENTERPRISE COMPANY
+DATE:  April 4, 2025 | By: | /s/ David Antczak
+Name: | David Antczak
+Title: | Senior Vice President, General Counsel and Corporate Secretary

@@ -1,0 +1,78 @@
+FWP
+1
+ny20035638x5_fwp.htm
+FWP
+Pricing Term Sheet dated as of September 10, 2024 | Free Writing Prospectus Filed pursuant to Rule 433 Supplementing the Preliminary Prospectus Supplement dated September 9, 2024 to the Prospectus dated December 22, 2023 Registration No. 333-276221
+Pricing Term Sheet
+Hewlett Packard Enterprise Company
+27,000,000 Shares of 7.625% Series C Mandatory Convertible Preferred Stock
+The information in this pricing term sheet should be read together with Hewlett Packard Enterprise Company’s preliminary prospectus supplement dated September 9, 2024 (the “Preliminary Prospectus
+Supplement”), including the documents incorporated by reference therein and the related base prospectus dated December 22, 2023, each filed pursuant to Rule 424(b) under the Securities Act of 1933, as amended, Registration No. 333-276221. Capitalized
+terms not defined in this pricing term sheet have the meanings given to such terms in the Preliminary Prospectus Supplement. The information in this pricing term sheet supersedes the information in the Preliminary Prospectus Supplement and the
+accompanying prospectus to the extent it is inconsistent with the information in the Preliminary Prospectus Supplement or the accompanying prospectus. All references to dollar amounts are references to U.S. dollars.
+Issuer: | Hewlett Packard Enterprise Company, a Delaware corporation (the “Issuer”).
+Ticker / Exchange for the Common Stock: | HPE / The New York Stock Exchange (“NYSE”).
+Trade Date: | September 11, 2024.
+Settlement Date*: | September 13, 2024 (T+2).
+Securities Offered: | 27,000,000 shares of the Issuer’s 7.625% Series C Mandatory Convertible Preferred Stock, par value $0.01 per share (the “Mandatory Convertible Preferred Stock”).
+Over-Allotment Option: | 3,000,000 additional shares of the Mandatory Convertible Preferred Stock.
+Public Offering Price: | $50.00 per share of the Mandatory Convertible Preferred Stock.
+Underwriting Discount: | $1.25 per share of the Mandatory Convertible Preferred Stock.
+Liquidation Preference: | $50.00 per share of the Mandatory Convertible Preferred Stock.
+Dividends: | 7.625% of the liquidation preference of $50.00 per share of the Mandatory Convertible Preferred Stock per annum. The expected dividend payable on the first Dividend Payment Date (as defined below) is approximately $0.83 per share of the Mandatory Convertible Preferred Stock. Each subsequent dividend is expected to be $0.95 per share of the Mandatory
+Convertible Preferred Stock.
+Dividend Record Dates: | The February 15, May 15, August 15 or November 15 immediately preceding the relevant Dividend Payment Date.
+Dividend Payment Dates: | March 1, June 1, September 1 and December 1 of each year, commencing on December 1, 2024 to, and ending on, and including, September 1, 2027.
+Mandatory Conversion Date: | The second business day immediately following the last trading day of the 20 consecutive trading day period beginning on, and including, the 21st scheduled trading day immediately preceding September 1, 2027. The Mandatory Conversion Date
+is expected to be September 1, 2027.
+Initial Price: | Approximately $16.10, which is equal to $50.00, divided by the Maximum Conversion Rate (as defined below).
+Threshold Appreciation Price: | Approximately $19.72, which is equal to $50.00, divided by the Minimum Conversion Rate (as defined below), and represents an approximately 22.5% appreciation over the Initial Price.
+Floor Price: | $5.64 (approximately 35% of the Initial Price), subject to adjustment as described in the Preliminary Prospectus Supplement.
+Conversion Rate: | Upon conversion on the Mandatory Conversion Date, the conversion rate for each share of the Mandatory Convertible Preferred Stock, will be not more than 3.1056 shares of the Issuer’s common stock (the “Maximum Conversion Rate”) and not
+less than 2.5352 shares of the Issuer’s common stock, (the “Minimum Conversion Rate”), depending on the Applicable Market Value of the Issuer’s common stock, as described below and subject to certain anti-dilution adjustments. The following table illustrates hypothetical conversion rates per share of the Mandatory Convertible Preferred Stock, subject to certain anti-dilution adjustments described in the Preliminary Prospectus Supplement:
+Assumed Applicable Market Value of the Issuer’s common stock | Assumed Conversion Rate (number of shares of the Issuer’s common stock to be received upon mandatory conversion of each share of the Mandatory Convertible Preferred Stock)
+Greater than the Threshold Appreciation Price Equal to or less than the Threshold Appreciation Price but greater than or equal to the Initial Price Less than the Initial Price | 2.5352 shares of common stock Between 2.5352 and 3.1056 shares of common stock, determined by dividing $50.00 by the Applicable Market Value 3.1056 shares of common stock
+Early Conversion at the Option of the Holder: | Other than during a Fundamental Change Conversion Period, at any time prior to September 1, 2027, holders of the Mandatory Convertible Preferred Stock have the option to elect to convert their shares of the Mandatory Convertible Preferred
+Stock, in whole or in part, into shares of the Issuer’s common stock at the Minimum Conversion Rate, subject to certain anti-dilution adjustments.
+Conversion at the Option of the Holder upon Fundamental Change; Fundamental Change Dividend Make-Whole Amount: | If a Fundamental Change occurs on or prior to September 1, 2027, holders of the Mandatory Convertible Preferred Stock will have the right during the Fundamental Change Conversion Period to convert their shares of the Mandatory Convertible
+Preferred Stock, in whole or in part, into shares of common stock (or units of exchange property (as described in the Preliminary Prospectus Supplement)) at the Fundamental Change Conversion Rate. Holders who convert their Mandatory Convertible Preferred Stock within the Fundamental Change Conversion Period will also receive a Fundamental Change Dividend Make-Whole Amount and, to the extent there is any, the Accumulated Dividend
+Amount. The following table sets forth the Fundamental Change Conversion Rate per share of the Mandatory Convertible Preferred Stock based on the Fundamental Change Effective Date and the Fundamental Change Stock Price:
+Fundamental Change Stock Price
+Fundamental Change Effective Date | $4.00 | $6.00 | $8.00 | $10.00 | $12.00 | $14.00 | $16.10 | $18.60 | $19.72 | $25.00 | $30.00 | $35.00 | $40.00 | $50.00
+September 13, 2024 | 1.9200 | 2.2757 | 2.4150 | 2.4651 | 2.4762 | 2.4714 | 2.4607 | 2.4474 | 2.4421 | 2.4254 | 2.4196 | 2.4196 | 2.4224 | 2.4308
+September 1, 2025 | 2.2950 | 2.5429 | 2.6369 | 2.6577 | 2.6427 | 2.6134 | 2.5796 | 2.5437 | 2.5300 | 2.4858 | 2.4668 | 2.4598 | 2.4588 | 2.4631
+September 1, 2026 | 2.6931 | 2.8240 | 2.8784 | 2.8822 | 2.8465 | 2.7875 | 2.7187 | 2.6451 | 2.6175 | 2.5342 | 2.5039 | 2.4948 | 2.4937 | 2.4972
+September 1, 2027 | 3.1056 | 3.1056 | 3.1056 | 3.1056 | 3.1056 | 3.1056 | 3.1056 | 2.6882 | 2.5352 | 2.5352 | 2.5352 | 2.5352 | 2.5352 | 2.5352
+The exact Fundamental Change Stock Price and Fundamental Change Effective Date may not be set forth on the table, in which case:
+•  if the Fundamental Change Stock Price is between two Fundamental Change Stock Price amounts in the table or the Fundamental Change Effective Date is between two Fundamental Change Effective Dates
+in the table, the Fundamental Change Conversion Rate will be determined by a straight-line interpolation between the Fundamental Change Conversion Rates set forth for the higher and lower Fundamental Change Stock Price amounts and the earlier and
+later Fundamental Change Effective Dates, as applicable, based on a 365- or 366-day year, as applicable;
+•  if the Fundamental Change Stock Price is in excess of $50.00 per share (subject to adjustment in the same manner as the Fundamental Change Stock Prices set forth in the first row of the table above
+as described in the Preliminary Prospectus Supplement), then the Fundamental Change Conversion Rate will be the Minimum Conversion Rate; and
+•  if the Fundamental Change Stock Price is less than $4.00 per share (subject to adjustment in the same manner as the Fundamental Change Stock Prices set forth in the first row of the table above
+as described in the Preliminary Prospectus Supplement), then the Fundamental Change Conversion Rate will be the Maximum Conversion Rate.
+Discount Rate for Purposes of Fundamental Change Dividend Make-Whole Amount: | The discount rate for purposes of determining the Fundamental Change Dividend Make-Whole Amount is 4.67% per annum.
+Use of Proceeds: | The Issuer intends to use the net proceeds from this offering to fund all or a portion of the consideration for the Juniper Acquisition, to pay related fees and expenses, and, if any proceeds remain thereafter, for other general corporate
+purposes, which may include, among other uses, repaying certain indebtedness of HPE, Juniper and their respective subsidiaries.
+Acquisition Termination Redemption: | The Issuer will have the option to redeem the Mandatory Convertible Preferred Stock, in whole but not in part, at the redemption amount set forth in the Preliminary Prospectus Supplement if (x) the consummation of the Juniper Acquisition
+does not occur on or before the later of (i) the date that is five business days after October 9, 2025 and (ii) the date that is five business days after any later date to which the Issuer and Juniper may agree to extend the “End Date” in the
+Merger Agreement or (y) the Issuer notifies the holders in writing that it will not pursue the consummation of the Juniper Acquisition.
+Listing: | The Issuer intends to apply to list the Mandatory Convertible Preferred Stock on the NYSE under the symbol “HPEPrC” If the application is approved, the Issuer expects trading in the Mandatory Convertible Preferred Stock on the NYSE to
+begin within 30 days after the Mandatory Convertible Preferred Stock is first issued.
+Concurrent Senior Notes Offering: | On September 10, 2024, the Issuer announced an offering of senior unsecured notes (the “Concurrent Senior Notes Offering”) pursuant to a separate prospectus supplement. The size, tranching, tenor and the pricing terms of the Concurrent
+Senior Notes Offering have not yet been determined. There can be no assurance that the Concurrent Senior Notes Offering will be completed on the terms described in the separate prospectus supplement or at all. The closing of this offering of
+Mandatory Convertible Preferred Stock is not subject to the completion of the Concurrent Senior Notes Offering.
+CUSIP / ISIN for the Mandatory Convertible Preferred Stock: | 42824C 208 / US42824C2089
+Joint Book-Running Managers: | Citigroup Global Markets Inc. J.P. Morgan Securities LLC Mizuho Securities USA LLC
+Joint Bookrunners: | Barclays Capital Inc. BNP Paribas Securities Corp. Deutsche Bank Securities Inc. HSBC Securities (USA) Inc. Wells Fargo Securities, LLC
+Co-Managers: | Academy Securities, Inc. ANZ Securities, Inc. CIBC World Markets Corp. Credit Agricole Securities (USA) Inc. ING Financial Markets LLC Loop Capital Markets LLC Santander US Capital Markets LLC SG Americas Securities, LLC Standard Chartered Bank TD Securities (USA) LLC U.S. Bancorp Investments, Inc.
+*Under Rule 15c6-1 of the Exchange Act, trades in the secondary market generally are required to settle in one business day, unless the parties to any such trade expressly agree otherwise. Accordingly, purchasers who
+wish to trade their shares of the Mandatory Convertible Preferred Stock on any date prior to the business day before delivery will be required, by virtue of the fact that the Mandatory Convertible Preferred Stock initially will settle in T+2, to
+specify alternative settlement arrangements to prevent a failed settlement and should consult their own advisors.
+The Issuer has filed a registration statement (including the Preliminary Prospectus Supplement and the accompanying prospectus) with the SEC for the offering to which this communication relates. Before you invest, you
+should read the Preliminary Prospectus Supplement and the accompanying prospectus in that registration statement and other documents the issuer has filed with the SEC for more complete information about the Issuer and this offering. You may get these
+documents for free by visiting EDGAR on the SEC Web site at www.sec.gov. Alternatively, copies may be obtained from Citigroup Global Markets Inc., c/o Broadridge Financial Solutions, 1155 Long Island Avenue, Edgewood, New York 11717, telephone:
+1-800-831-9146; J.P. Morgan Securities LLC, c/o Broadridge Financial Solutions, 1155 Long Island Avenue, Edgewood, NY 11717 or by email at prospectus-eq_fi@jpmchase.com and postsalemanualrequests@broadridge.com; or Mizuho Securities USA LLC,
+Attention: U.S. ECM Desk, 1271 Avenue of the Americas, New York, NY 10020, by telephone at (212) 205-7602 or by email at US-ECM@mizuhogroup.com.
+ANY DISCLAIMERS OR OTHER NOTICES THAT MAY APPEAR BELOW ARE NOT APPLICABLE TO THIS COMMUNICATION AND SHOULD BE DISREGARDED. SUCH DISCLAIMERS OR OTHER NOTICES WERE AUTOMATICALLY GENERATED AS A RESULT OF THIS COMMUNICATION BEING SENT VIA BLOOMBERG OR
+ANOTHER EMAIL SYSTEM.

@@ -1,0 +1,163 @@
+HPE to acquire Juniper - WLAN market impacts - Dell'Oro Group
+Market Research
+Telecommunications Infrastructure
+6G
+AI RAN
+Broadband Access & Home Networking
+Cable Outside Plant
+Data Center Interconnect with IPoDWDM & WDM Systems
+Fixed Wireless Access & CPE
+High End Routing & Aggregation
+Microwave Transmission & Mobile Backhaul
+Mobile Core Network & Multi-access Edge Computing
+Mobile Radio Access Network (RAN)
+Open RAN
+Optical Transport
+PON in the Data Center & Premise
+PON Optical Distribution Network (ODN)
+Private Wireless
+Telecom Capex
+Enterprise Networks & Security Infrastructure
+AI & Cloud-native Security
+Campus Ethernet Switch
+Campus NaaS & Public Cloud-managed LAN
+Distributed Cloud Networking
+Hybrid Mesh Firewall & Microsegmentation
+Network Security
+SASE & SD-WAN
+Total Ethernet Switch
+Wireless LAN
+Data Center Infrastructure
+Data Center High-density Power
+Data Center IT Capex
+Data Center IT Semiconductors & Components
+Data Center Liquid Cooling
+Data Center Interconnect with IPoDWDM & WDM Systems
+Data Center Physical Infrastructure
+Data Center Switch – AI Back-end Networks
+Data Center Switch – Front-end Networks
+Ethernet Adapter & Smart NIC
+PON in the Data Center & Premise
+How to Buy
+Research Package
+Request a Quote
+Custom Research and Consulting
+Knowledge Center
+2026 Predictions
+Blogs
+Articles
+Videos
+Email Subscription Form
+Events
+News Room
+About
+Meet the Team
+Careers
+FAQ
+Contact
+Client Login
+Market Research
+Telecommunications Infrastructure
+6G
+AI RAN
+Broadband Access & Home Networking
+Cable Outside Plant
+Data Center Interconnect with IPoDWDM & WDM Systems
+Fixed Wireless Access & CPE
+High End Routing & Aggregation
+Microwave Transmission & Mobile Backhaul
+Mobile Core Network & Multi-access Edge Computing
+Mobile Radio Access Network (RAN)
+Open RAN
+Optical Transport
+PON in the Data Center & Premise
+PON Optical Distribution Network (ODN)
+Private Wireless
+Telecom Capex
+Enterprise Networks & Security Infrastructure
+AI & Cloud-native Security
+Campus Ethernet Switch
+Campus NaaS & Public Cloud-managed LAN
+Distributed Cloud Networking
+Hybrid Mesh Firewall & Microsegmentation
+Network Security
+SASE & SD-WAN
+Total Ethernet Switch
+Wireless LAN
+Data Center Infrastructure
+Data Center High-density Power
+Data Center IT Capex
+Data Center IT Semiconductors & Components
+Data Center Liquid Cooling
+Data Center Interconnect with IPoDWDM & WDM Systems
+Data Center Physical Infrastructure
+Data Center Switch – AI Back-end Networks
+Data Center Switch – Front-end Networks
+Ethernet Adapter & Smart NIC
+PON in the Data Center & Premise
+How to Buy
+Research Package
+Request a Quote
+Custom Research and Consulting
+Knowledge Center
+2026 Predictions
+Blogs
+Articles
+Videos
+Email Subscription Form
+Events
+News Room
+About
+Meet the Team
+Careers
+FAQ
+Contact
+Client Login
+Search
+Client Login
+Contact Us
+January 10, 2024
+|
+Siân Morgan
+HPE to acquire Juniper – WLAN market impacts
+[wp_tech_share]
+Share
+Yesterday’s announcement of HPE’s plan to purchase Juniper Networks for approximately $14B rocked the networking world. Impacts on the
+switching
+and
+security aspects
+of the business have been covered in briefs by analysts Sameh Boujelbene and Mauricio Sanchez. As the overlap in portfolio seems especially important in Wireless LAN, here is my take from a WLAN perspective.
+Market Size
+In the Enterprise Class WLAN market, HPE is the second largest by revenues. The company recognized $1.1 B for the first three quarters of 2023, giving it a 13% market share. This compares to Juniper’s WLAN revenues of $ 288 M (4% market share) for the same period. Combined, the two companies’ WLAN revenues are still well under half of Cisco’s, who is the market leader. However, this view belies the market potential.
+Juniper Mist has been on a rocket ship trajectory over the past four years. The company has been displacing Cisco and HPE with Fortune 100 companies that are becoming more open to public cloud-managed WLAN, the only architecture that Juniper offers. In contrast, HPE Aruba has been underperforming in cloud-managed WLAN, with market share hovering around the 6% mark. Juniper’s revenues surpassed HPE’s public cloud-managed WLAN revenues in 2020. Mist WLAN grew 47% y/y for the first three quarters of 2023, compared to a 4% growth for Aruba public cloud-managed WLAN revenues in the same period.
+Synergies
+On the face of it, the two companies have WLAN solutions that compete head-to-head. However, each company has different strengths.
+Whereas Juniper has been making waves with its AI-Ops network management engine, Aruba is known for its high-quality radio solutions. HPE took an early leadership position in the new 6 GHz band and shipped more Wi-Fi 6E APs in 2022 than any other vendor, more even than Cisco. The company also just won Wi-Fi Now’s Best Enterprise Wi-Fi solution for two of its 6E APs with a specialized design that maximizes use of the 6 GHz band.
+Juniper’s Mist solution was developed by ex-Cisco executives who found the Cisco Meraki cloud too restrictive for their micro-services architecture. A cutting-edge software architecture has allowed Juniper to develop high-traction features, such as an AI-driven personal assistant, Marvis, to help operations staff with network decisions, and analysis of Zoom telemetry to improve videoconferencing quality.
+Competitive Positioning
+Antonio Neri, HPE’s CEO, has pointed to the complementarity of the two companies’ targeted market segments. An analysis of their 2022 WLAN market share by vertical indicates that Juniper and HPE have similar strengths in Service Provider, Retail, and Higher Education – in these segments, their market share is above their company’s overall share and future cannibalization of revenues in these segments seems inevitable. The analysis shows potential for HPE’s scale to boost Juniper’s WLAN performance in the Finance & Professional Services and Government segments. HPE’s GreenLake has obtained FedRAMP certification, which will boost government opportunities for Mist once the acquisition is complete.
+The biggest upside for Juniper Mist sales will be in the geographic reach that HPE can provide. HPE provides access to a larger volume of channel partners, and Juniper underperforms in all macro regions outside North America.
+What to watch for in the converged WLAN portfolio
+Juniper’s impressive growth has been fueled by their AI-Ops solution, and HPE has the scale of Juniper executives’ dreams. However, pointing to complementary strengths in public cloud-managed WLAN (Juniper) and on-premises managed WLAN (HPE) is too simplistic. Today, the cloud is hybrid, and distributed enterprises want a campus networking solution that can work seamlessly whether it’s managed from the public cloud or on-premises.
+Developing a coherence across the two architectures is a challenge that Cisco has been struggling with for the past year and a half. In mid-2022 they announced the intention to converge the Meraki and Catalyst platforms, but WLAN APs capable of operating under both management systems remain a small minority of their sales. Executives have told us that it is a long and complex endeavor to ensure that detailed networking parameters are represented and configured the same way from both Meraki and Catalyst management applications.
+Once the HPE-Juniper deal closes, the first task for the combined company’s campus networking teams will be the migration of micro-services-based Mist into the GreenLake environment. Executives will have painful memories of the disruptive integration of Aruba Central into GreenLake in 2022. It will be crucial to maintain the same extensibility, the same high-frequency delivery of software updates, and the same large-volume data analysis that customers expect from Mist, at the risk of losing their customers’ goodwill.
+However, the bigger technological challenge will be the development of a hybrid WLAN roadmap – involving seamless functionality across public cloud and on-premises managed WLAN equipment. Cisco and Extreme Networks already have a head start on that front.
+About the Author
+Siân Morgan joined Dell’Oro Group in 2022 and is responsible for the Ethernet Switch—Campus,  Wireless LAN, Campus NaaS and Public Cloud-Managed LAN market research program. She's known for delivering comprehensive quantitative insights into the Enterprise LAN market and the adoption of Public and Private Cloud-Managed platform adoption, including AI. With over 25 years of senior management experience in telecom and network technologies, such as 5G, OpenStack, LTE, IMS, and Wi-Fi, Ms. Morgan has held various roles in pre-sales, R&D, and post-sales support. Fluent in both French and English from a decade in Europe, her research is widely cited in industry publications. Ms. Morgan is also a frequent industry conference speaker.
+Read articles Siân Morgan has written or been featured in...
+Heavy Networking: How to Make a Technology Buying Decision
+AI-induced Memory Shortage Rocks Campus Network Market
+HPE Discover vs. Cisco Live: What the Leading Vendors are Saying about Campus Networking
+Back to Blog
+< Previous
+Next >
+Follow Us
+Market Research
+How to Buy
+Knowledge Center
+News Room
+About
+Contact
+©2026 Dell'Oro. All rights reserved
+Privacy Policy
+Terms of Use

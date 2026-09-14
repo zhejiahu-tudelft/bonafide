@@ -1,0 +1,144 @@
+
+=== page 1 ===
+ 
+  
+HPE SAM Modeling FAQ 
+ 
+Question: Can you clarify your long-term revenue growth outlook for FY25-FY28 on an as reported basis 
+versus on a combined normalized basis? 
+Response: Revenue is expected to grow at a CAGR of 8-11% on an as reported basis through FY28. If 
+you adjust FY25 to include 8 months of Juniper pre-acquisition close, the CAGR is expected to be 5-
+7%. This alternative view to the revenue growth estimates on an as reported basis, is meant to 
+illustrate as if the acquisition had closed at the start of HPE’s FY25. We present this to show a growth 
+estimate that is meant to compare the combined companies over all time periods. 
+ 
+Question: Can you clarify the combined company’s FY26 revenue growth rates in the two Form 8-K 
+filings from October 15, 2025? 
+Response: On a strictly as reported basis, FY26 total revenue is expected to grow 17-22% year-over-
+year.  This would include one month of Juniper results in HPE’s Q3 FY25 results and 3 months of 
+Juniper results in HPE’s Q4 FY25 results.   
+ 
+On an adjusted basis, if you adjust FY25 to include 8 months of Juniper results pre-acquisition close,, 
+FY26 revenue is expected to grow 5-10%.  This alternative view to the revenue growth estimates on an 
+as reported basis, is meant to illustrate as if the acquisition had closed at the start of HPE’s FY25. We 
+present this to show a growth estimate that is meant to compare the combined companies over both 
+time periods. 
+ 
+Question: Can you clarify the FY26 Networking revenue growth outlook using pro forma guidance? 
+Response: For modeling purposes, as we are in the quiet period and remain in our current reporting 
+structure, the recommendation is to add Instant On and Telco back into Networking to establish a 
+proforma FY25 revenue estimate that is inclusive of 12 months of Juniper aligned to HPEs fiscal 
+calendar of November 2024 to October 2025.  
+ 
+This will generate a baseline of approximately $10.6B for FY25 on which our guided growth rates were 
+based (low-to-mid-single digits growth). We will provide restated retrospective financial statements 
+according to the forthcoming new segmentation in January or February of 2026. 
+ 
+Question: How should the $480M of Networking revenue attributed to Juniper (for July 2025 and 
+included in HPE’s Q3 FY25 results) be allocated across the product segments, specifically Campus & 
+Branch, Data Center Networking, Security, and Routing? 
+Response: We did not and do not disclose product line breakout for the month of July 2025. However, 
+on our Q3 FY25 earnings call, we stated the following: “In cloud, we see strong demand for networking 
+for AI. Particularly in data center switching and Juniper PTX routing.” 
+ 
+ 
+ 
+
+
+=== page 2 ===
+2 
+ 
+Question: What changed between Hybrid Cloud and the new Storage segment? Why did Server also 
+change? 
+Response: Under our new Cloud & AI segment as part of the forthcoming segment re-alignment 
+beginning in Q1’26, we will disaggregate revenues between Server, Storage, Financial Services and 
+Other. Server will now include certain revenues that were previously reported under Hybrid Cloud. 
+Storage continues to include GreenLake Flex and software. We have not disclosed the size of 
+GreenLake. “Other” includes eliminations and third-party storage solutions. 
+ 
+Question: How should we think about the flow through of benefit from Juniper synergies and Catalyst 
+into your opex over the three-year period?   
+Response: We are encouraged by the initial benefit we are seeing from both programs and expect a 
+ramp through the year as we discussed during SAM.  We expect Catalyst to drive HPE to become a 
+much more nimble, cost-efficient company.  We will see the net benefit of the program via investments 
+that are critical for long-term growth and allow us to keep opex controlled over the three-year period, 
+which will drive operational leverage.       
+ 
+Question: Can you provide a summary of the guidance provided during the CFO remarks of the 2025 HPE 
+SAM presentation. 
+Response: FY26 additional non-GAAP guidance considerations: 
+• Tax rate of 14%1 
+• OIE to be a net expense of ~$650M 
+• Full year diluted net share count of 1.44B 
+• FY26 free cash flow (“FCF”): $1.5 to $2.0B range1 2 includes $600M in cash costs related to the 
+Juniper integration and Catalyst 
+• Expect non-GAAP operating profit margin to improve year-over-year to a low double-digit rate 
+• Expect historical seasonal trends will not be indicative of future performance.  As synergies 
+ramp throughout the year, we expect margin performance and net earnings to strengthen in 
+the second half of FY26, making it significantly stronger than the first. 
+• Expect ARR3 to grow to approximately $3.5B by the end of FY26 (from approximately $3.1B 
+at Q3 FY25) 
+• Expect networking for AI demand to improve during the year, with cumulative orders projected 
+to increase to $1.5B by the end of FY26, up from $600M of orders generated YTDQ3 FY25. 
+ 
+Question: What is the expected timing of debt pay down in the coming quarters? 
+Response: As stated, we intend to reduce net leverage to the 2x range by the end of FY27.  This 
+primarily consists of paying off debt and growing EBITDA.1 
+ 
+Question: How material will share repurchases be to the non-GAAP EPS $3.00+ guide? 
+Response: We intend to repurchase shares at a rate that offsets dilution through FY27. In the latter 
+half of FY28, we plan to accelerate the amount of shares repurchased, consistent with our broader 
+commitment to return at least 75% of FCF to shareholders. 
+ 
+ 
+ 
+
+
+=== page 3 ===
+3 
+ 
+Question: How much stock-based compensation does HPE issue annually that would need to be 
+repurchased to offset share dilution? 
+Response: Generally, we expect approximately $650M worth of shares will need to be repurchased 
+annually to offset share dilution attributable to stock-based compensation. 
+ 
+Question: What is the magnitude of the cash costs expected related to the Juniper integration and 
+Catalyst?  
+Response: Between both the Juniper integration and Catalyst actions, we expect to incur ~$600M in 
+cash costs in FY26.  Over the FY27 to FY28 timeframe, we expect to incur ~$450M in cash costs.  
+These investments will be primarily tied to headcount reduction, supply chain optimization, and 
+portfolio rationalization. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1 Hewlett Packard Enterprise provides certain guidance on a non-GAAP basis. The Company is unable to provide a 
+reconciliation to the most directly comparable GAAP financial measure without unreasonable efforts, as it cannot predict 
+some elements that are included in such directly comparable GAAP financial measure or, in the case of non-GAAP 
+operating profit growth CAGR, GAAP operating profit CAGR is not derivable because GAAP operating profit for FY25 is 
+expected to be negative. These elements could have a material impact on the Company’s reported GAAP results for the 
+guidance period. A description of HPE’s use of non-GAAP financial information is provided in HPE’s 2025 Securities 
+Analyst Meeting presentation materials on https://investors.hpe.com/ 
+ 
+2 Free cash flow represents cash flow from operations, less net capital expenditures (investments in property, plant & 
+equipment (“PP&E”) and software assets less proceeds from the sale of PP&E), and adjusted for the effect of exchange 
+rate fluctuations on cash, cash equivalents, and restricted cash. A description of HPE’s use of non-GAAP financial 
+information is provided in HPE’s 2025 Securities Analyst Meeting presentation materials on https://investors.hpe.com/ 
+ 
+3 Annualized Revenue Run-Rate (“ARR”) is a financial metric used to assess the growth of the Consumption Services 
+offerings. ARR represents the annualized revenue of all net HPE GreenLake cloud services revenue, related financial 
+services revenue (which includes rental income from operating leases and interest income from finance leases), and 
+software-as-a-Service, software consumption revenue, and other as-a-Service offerings, by taking such revenue 
+recognized during a quarter and multiplying by four. To better align the calculation of ARR with Juniper Networks’ 
+business and offerings, beginning with the quarter ended July 31, 2025, we also included revenue from software licenses 
+support and maintenance in our ARR calculation, and will continue to do so going forward. The impact of this change was 
+not material to the current and prior periods presented. We use ARR as a performance metric. ARR should be viewed 
+independently of net revenue and is not intended to be combined with it. 

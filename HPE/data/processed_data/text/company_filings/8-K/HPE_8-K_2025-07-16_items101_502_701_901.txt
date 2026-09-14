@@ -1,0 +1,71 @@
+hpe-20250716
+0001645590
+false
+0001645590
+2025-07-16
+2025-07-16
+0001645590
+us-gaap:CommonStockMember
+2025-07-16
+2025-07-16
+0001645590
+us-gaap:PreferredStockMember
+2025-07-16
+2025-07-16
+UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549
+FORM | 8-K
+CURRENT REPORT
+PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+July 16, 2025
+Date of Report (Date of Earliest Event Reported)
+HEWLETT PACKARD ENTERPRISE COMPANY
+(Exact name of registrant as specified in its charter)
+Delaware | 001-37483 | 47-3298624
+(State or other jurisdiction of incorporation) | (Commission File Number) | (I.R.S. Employer Identification No.)
+1701 East Mossy Oaks Road, | Spring, | TX | 77389
+(Address of principal executive offices) | (Zip code)
+(678) | 259-9860
+(Registrant’s telephone number, including area code)
+Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:
+☐
+Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+☐
+Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+☐
+Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+☐
+Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+Securities registered pursuant to Section 12(b) of the Exchange Act:
+Title of each class | Trading Symbol(s) | Name of each exchange on which registered
+Common stock, par value $0.01 per share | HPE | NYSE
+7.625% Series C Mandatory Convertible Preferred Stock, par value $0.01 per share | HPEPrC | NYSE
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).
+☐ | Emerging growth company
+☐ | If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.
+Item 1.01 | Entry into a Material Definitive Agreement.
+On July 16, 2025, Hewlett Packard Enterprise Company (the "Company") entered into a letter agreement (the "Cooperation Agreement") with Elliott Investment Management L.P., Elliott Associates, L.P., and Elliott International, L.P. (together, "Elliott").
+Pursuant to the Cooperation Agreement, the Company agreed, among other things, to appoint Robert M. Calderoni to the board of directors of the Company (the “Board”) effective immediately. In addition, until the Expiration Date (as defined below), Elliott has the ability to appoint an Elliott employee to the Board, subject to the Board’s approval, not to be unreasonably withheld, conditioned, or delayed (such director, together with Mr. Calderoni and any replacement director(s) selected in accordance with the Cooperation Agreement, the “New Directors”).  Mr. Calderoni and the Elliott employee director, if appointed, will be nominated by the Board to stand for election at the Company’s 2026 Annual Meeting of Stockholders (the “2026 Annual Meeting”). The size of the Board will not exceed (i) thirteen (13) directors from the date of the appointment of Mr. Calderoni to the closing of the 2026 Annual Meeting (or fourteen (14) directors if an Elliott employee is appointed to the Board prior to the 2026 Annual Meeting) and (ii) twelve (12) directors (or thirteen (13) directors if an Elliott employee is appointed to the Board) from the closing of the 2026 Annual Meeting until the Expiration Date.
+Pursuant to the Cooperation Agreement, the Board has established a Strategy Committee to support the Board and management in reviewing the strategy of the Company and its businesses and opportunities for value creation.  The Strategy Committee will be chaired by Mr. Calderoni and include three additional directors: Raymond Lane, Charles Noski and Gary Reiner. Mr. Calderoni has also been appointed to the Integration Committee of the Board which was formed by the Board following the closing of the Juniper Networks transaction.
+Pursuant to the Cooperation Agreement, Elliott has agreed to abide by certain standstill restrictions and voting commitments. The Cooperation Agreement also includes procedures regarding the replacement of any of the New Directors and a mutual non-disparagement provision. Elliott’s right to participate in the selection of replacement New Directors, and the Company’s obligations with respect to the appointment of such replacement New Directors, are subject, among other things, to Elliott beneficially owning a “net long position” of, or having aggregate net long economic exposure to, at least 2% of the Company’s then outstanding common stock at such time. Concurrent with entering into the Cooperation Agreement, Elliott and the Company also entered into an information sharing agreement allowing the parties to share information relating to certain Company material public announcements on a confidential basis, which agreement expires on the first anniversary of the date of such agreement.
+The Cooperation Agreement will remain effective until the first anniversary of the date of the Cooperation Agreement; provided, however, that if Elliott appoints an Elliott employee to the Board, the Cooperation Agreement will remain effective until the later of (i) the first anniversary of the date of the Cooperation Agreement and (ii) 11:59 p.m., Eastern Time, on the first date on which an employee of Elliott or an affiliate of Elliott ceases to serve on the Board (the "Expiration Date").
+The foregoing summary of the Cooperation Agreement does not purport to be complete and is qualified in its entirety by reference to the full text of the Cooperation Agreement, including the initial Strategy Committee Charter and the Integration Committee Charter attached as exhibits to the Cooperation Agreement, a copy of which is attached as Exhibit 10.1 and is incorporated by reference.
+Item 5.02 | Departure of Directors or Certain Officers; Election of Directors; Appointment of Certain Officers; Compensatory Arrangements of Certain Officers.
+The information set forth in Item 1.01 is incorporated herein by reference.
+Pursuant to the Cooperation Agreement, Mr. Calderoni has been appointed to the Board, the Strategy Committee (as chair) and the Integration Committee (as member) of the Board effective immediately.  A copy of the press release announcing the appointment of Mr. Calderoni is attached hereto as Exhibit 99.1.
+In consideration of his service during the remainder of the current Board year, Mr. Calderoni will receive pro-rata portions of the annual equity and cash retainers that are provided under the Company’s non-employee director compensation arrangements generally applicable to all non-employee directors (the “Director Compensation Program”). Thereafter, Mr. Calderoni will participate in full in the Director Compensation Program.
+Mr. Calderoni does not have any family relationships with any executive officer or director of the Company or its affiliates.  Mr. Calderoni is not party to any transaction requiring disclosure under Item 404(a) of Regulation S-K. Additionally, there are no arrangements or understandings between Mr. Calderoni and any other person pursuant to which he was appointed as a director, other than with respect to the matters referred to in Item 1.01.
+Item 7.01 | Regulation FD Disclosure.
+On July 16, 2025, the Company issued a press release announcing the Company’s entry into the Cooperation Agreement and the matters described in Item 1.01 and Item 5.02. A copy of the press release is furnished as Exhibit 99.1 and incorporated herein by reference.
+The information contained in Item 7.01 of this report, including Exhibit 99.1, shall not be deemed to be “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended, or otherwise subject to the liabilities of that section. The information contained in Item 7.01 of this report, including Exhibit 99.1, shall not be incorporated by reference into any filing of the registrant, whether made before, on, or after the date hereof, regardless of any general incorporation language in such filing, unless expressly incorporated by specific reference to such filing.
+Item 9.01 | Financial Statements and Exhibits.
+(d) Exhibits.
+Exhibit Number | Description
+10.1 | Cooperation Agreement , between Hewlett Packard Enterprise Company , Elliott Investment Management L.P., Elliott Associates, L.P., and Elliott International, L.P. , dated July 16 , 2025 .
+99.1 | Press Release, dated July 16 , 2025 .
+104 | Cover Page Interactive Data File (embedded within the Inline XBRL document)
+SIGNATURE
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has caused this report to be signed on its behalf by the undersigned hereunto duly authorized.
+HEWLETT PACKARD ENTERPRISE COMPANY
+DATE:  July 16, 2025 | By: | /s/ David Antczak
+Name: | David Antczak
+Title: | Senior Vice President, General Counsel and Corporate Secretary

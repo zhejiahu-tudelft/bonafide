@@ -1,0 +1,78 @@
+quarter,period_end,segment,line,revenue,operating_profit,source
+Q1 FY25,2025-01-31,Networking,Total,1076,320,Q1 FY26 earnings release (recast prior-year column)
+Q1 FY25,2025-01-31,Cloud & AI,Total,6511,547,Q1 FY26 earnings release (recast prior-year column)
+Q1 FY25,2025-01-31,Corporate Investments and Other,Total,267,-8,Q1 FY26 earnings release (recast prior-year column)
+Q1 FY25,2025-01-31,Networking,Campus & Branch,864,,Q1 FY26 earnings release
+Q1 FY25,2025-01-31,Networking,Data Center Networking,92,,Q1 FY26 earnings release
+Q1 FY25,2025-01-31,Networking,Security,119,,Q1 FY26 earnings release
+Q1 FY25,2025-01-31,Networking,Routing,1,,Q1 FY26 earnings release
+Q1 FY25,2025-01-31,Cloud & AI,Server,4348,,Q1 FY26 earnings release
+Q1 FY25,2025-01-31,Cloud & AI,Storage,1055,,Q1 FY26 earnings release
+Q1 FY25,2025-01-31,Cloud & AI,Financial Services,873,,Q1 FY26 earnings release
+Q1 FY25,2025-01-31,Cloud & AI,Other,235,,Q1 FY26 earnings release
+Q2 FY25,2025-04-30,Networking,Total,1084,271,Derived: 9M FY25 (Q3 FY26 release) less Q1 and Q3 FY25
+Q2 FY25,2025-04-30,Cloud & AI,Total,6271,414,Derived: 9M FY25 (Q3 FY26 release) less Q1 and Q3 FY25
+Q2 FY25,2025-04-30,Corporate Investments and Other,Total,272,-7,Derived: 9M FY25 (Q3 FY26 release) less Q1 and Q3 FY25
+Q2 FY25,2025-04-30,Networking,Campus & Branch,880,,Derived: 9M FY25 less Q1 and Q3 FY25
+Q2 FY25,2025-04-30,Networking,Data Center Networking,96,,Derived: 9M FY25 less Q1 and Q3 FY25
+Q2 FY25,2025-04-30,Networking,Security,107,,Derived: 9M FY25 less Q1 and Q3 FY25
+Q2 FY25,2025-04-30,Networking,Routing,1,,Derived: 9M FY25 less Q1 and Q3 FY25
+Q2 FY25,2025-04-30,Cloud & AI,Server,4109,,Derived: 9M FY25 less Q1 and Q3 FY25
+Q2 FY25,2025-04-30,Cloud & AI,Storage,1148,,Derived: 9M FY25 less Q1 and Q3 FY25
+Q2 FY25,2025-04-30,Cloud & AI,Financial Services,856,,Derived: 9M FY25 less Q1 and Q3 FY25
+Q2 FY25,2025-04-30,Cloud & AI,Other,158,,Derived: 9M FY25 less Q1 and Q3 FY25
+Q3 FY25,2025-07-31,Networking,Total,1654,365,Q3 FY26 earnings release (recast prior-year column)
+Q3 FY25,2025-07-31,Cloud & AI,Total,7212,504,Q3 FY26 earnings release (recast prior-year column)
+Q3 FY25,2025-07-31,Corporate Investments and Other,Total,270,-19,Q3 FY26 earnings release (recast prior-year column)
+Q3 FY25,2025-07-31,Networking,Campus & Branch,1101,,Q3 FY26 earnings release
+Q3 FY25,2025-07-31,Networking,Data Center Networking,180,,Q3 FY26 earnings release
+Q3 FY25,2025-07-31,Networking,Security,160,,Q3 FY26 earnings release
+Q3 FY25,2025-07-31,Networking,Routing,213,,Q3 FY26 earnings release
+Q3 FY25,2025-07-31,Cloud & AI,Server,5000,,Q3 FY26 earnings release
+Q3 FY25,2025-07-31,Cloud & AI,Storage,1171,,Q3 FY26 earnings release
+Q3 FY25,2025-07-31,Cloud & AI,Financial Services,886,,Q3 FY26 earnings release
+Q3 FY25,2025-07-31,Cloud & AI,Other,155,,Q3 FY26 earnings release
+Q4 FY25,2025-10-31,Networking,Total,2722,638,Q1 FY26 earnings release (recast sequential column)
+Q4 FY25,2025-10-31,Cloud & AI,Total,6676,620,Q1 FY26 earnings release (recast sequential column)
+Q4 FY25,2025-10-31,Corporate Investments and Other,Total,281,5,Q1 FY26 earnings release (recast sequential column)
+Q4 FY25,2025-10-31,Networking,Campus & Branch,1284,,Q1 FY26 earnings release
+Q4 FY25,2025-10-31,Networking,Data Center Networking,354,,Q1 FY26 earnings release
+Q4 FY25,2025-10-31,Networking,Security,273,,Q1 FY26 earnings release
+Q4 FY25,2025-10-31,Networking,Routing,811,,Q1 FY26 earnings release
+Q4 FY25,2025-10-31,Cloud & AI,Server,4514,,Q1 FY26 earnings release
+Q4 FY25,2025-10-31,Cloud & AI,Storage,1106,,Q1 FY26 earnings release
+Q4 FY25,2025-10-31,Cloud & AI,Financial Services,889,,Q1 FY26 earnings release
+Q4 FY25,2025-10-31,Cloud & AI,Other,167,,Q1 FY26 earnings release
+Q1 FY26,2026-01-31,Networking,Total,2706,640,Q1 FY26 earnings release
+Q1 FY26,2026-01-31,Cloud & AI,Total,6334,645,Q1 FY26 earnings release
+Q1 FY26,2026-01-31,Corporate Investments and Other,Total,261,-12,Q1 FY26 earnings release
+Q1 FY26,2026-01-31,Networking,Campus & Branch,1227,,Q1 FY26 earnings release
+Q1 FY26,2026-01-31,Networking,Data Center Networking,444,,Q1 FY26 earnings release
+Q1 FY26,2026-01-31,Networking,Security,255,,Q1 FY26 earnings release
+Q1 FY26,2026-01-31,Networking,Routing,780,,Q1 FY26 earnings release
+Q1 FY26,2026-01-31,Cloud & AI,Server,4232,,Q1 FY26 earnings release
+Q1 FY26,2026-01-31,Cloud & AI,Storage,1061,,Q1 FY26 earnings release
+Q1 FY26,2026-01-31,Cloud & AI,Financial Services,876,,Q1 FY26 earnings release
+Q1 FY26,2026-01-31,Cloud & AI,Other,165,,Q1 FY26 earnings release
+Q2 FY26,2026-04-30,Networking,Total,2690,581,Q3 FY26 earnings release (sequential column)
+Q2 FY26,2026-04-30,Cloud & AI,Total,7707,954,Q3 FY26 earnings release (sequential column)
+Q2 FY26,2026-04-30,Corporate Investments and Other,Total,281,-9,Q3 FY26 earnings release (sequential column)
+Q2 FY26,2026-04-30,Networking,Campus & Branch,1322,,Q3 FY26 earnings release
+Q2 FY26,2026-04-30,Networking,Data Center Networking,320,,Q3 FY26 earnings release
+Q2 FY26,2026-04-30,Networking,Security,273,,Q3 FY26 earnings release
+Q2 FY26,2026-04-30,Networking,Routing,775,,Q3 FY26 earnings release
+Q2 FY26,2026-04-30,Cloud & AI,Server,5454,,Q3 FY26 earnings release
+Q2 FY26,2026-04-30,Cloud & AI,Storage,1175,,Q3 FY26 earnings release
+Q2 FY26,2026-04-30,Cloud & AI,Financial Services,904,,Q3 FY26 earnings release
+Q2 FY26,2026-04-30,Cloud & AI,Other,174,,Q3 FY26 earnings release
+Q3 FY26,2026-07-31,Networking,Total,2893,637,Q3 FY26 earnings release
+Q3 FY26,2026-07-31,Cloud & AI,Total,9042,1539,Q3 FY26 earnings release
+Q3 FY26,2026-07-31,Corporate Investments and Other,Total,278,-67,Q3 FY26 earnings release
+Q3 FY26,2026-07-31,Networking,Campus & Branch,1442,,Q3 FY26 earnings release
+Q3 FY26,2026-07-31,Networking,Data Center Networking,382,,Q3 FY26 earnings release
+Q3 FY26,2026-07-31,Networking,Security,281,,Q3 FY26 earnings release
+Q3 FY26,2026-07-31,Networking,Routing,788,,Q3 FY26 earnings release
+Q3 FY26,2026-07-31,Cloud & AI,Server,6766,,Q3 FY26 earnings release
+Q3 FY26,2026-07-31,Cloud & AI,Storage,1291,,Q3 FY26 earnings release
+Q3 FY26,2026-07-31,Cloud & AI,Financial Services,883,,Q3 FY26 earnings release
+Q3 FY26,2026-07-31,Cloud & AI,Other,102,,Q3 FY26 earnings release

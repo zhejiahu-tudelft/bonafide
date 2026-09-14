@@ -1,0 +1,36 @@
+period,metric,value,source_file,note
+FY2020,non_gaap_gross_profit,8543,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2021-11-30.htm,
+FY2020,non_gaap_operating_profit,2282,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2021-11-30.htm,
+FY2020,non_gaap_net_earnings_hpe,2005,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2021-11-30.htm,
+FY2020,non_gaap_diluted_eps,1.54,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2021-11-30.htm,
+FY2020,free_cash_flow_reported,560,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2021-11-30.htm,
+FY2021,non_gaap_gross_profit,9424,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2022-11-29.htm,
+FY2021,non_gaap_operating_profit,2848,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2022-11-29.htm,
+FY2021,non_gaap_net_earnings_hpe,2602,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2022-11-29.htm,
+FY2021,non_gaap_diluted_eps,1.96,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2022-11-29.htm,
+FY2021,free_cash_flow_reported,1551,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2022-11-29.htm,"Explained difference: CFO-based FCF is $3,723m; the $2.17bn gap is consistent with FY21 Oracle litigation-judgment cash (GAAP line $2,351m) being excluded from reported FCF (analyst reconciliation)"
+FY2022,non_gaap_gross_profit,9667,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2023-11-28.htm,
+FY2022,non_gaap_operating_profit,3026,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2023-11-28.htm,
+FY2022,non_gaap_net_earnings_hpe,2664,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2023-11-28.htm,
+FY2022,non_gaap_diluted_eps,2.02,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2023-11-28.htm,
+FY2022,free_cash_flow_reported,1794,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2023-11-28.htm,
+FY2023,non_gaap_gross_profit,10273,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2024-12-05.htm,
+FY2023,non_gaap_operating_profit,3145,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2024-12-05.htm,
+FY2023,non_gaap_net_earnings_hpe,2832,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2024-12-05.htm,
+FY2023,non_gaap_diluted_eps,2.15,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2024-12-05.htm,
+FY2023,free_cash_flow_reported,2238,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2024-12-05.htm,
+FY2024,non_gaap_gross_profit,9893,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2025-12-04.htm,
+FY2024,non_gaap_operating_profit,3168,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2025-12-04.htm,
+FY2024,non_gaap_net_earnings_hpe,2655,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2025-12-04.htm,
+FY2024,non_gaap_diluted_eps,1.99,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2025-12-04.htm,
+FY2024,free_cash_flow_reported,2297,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2025-12-04.htm,
+FY2025,non_gaap_gross_profit,10805,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2025-12-04.htm,
+FY2025,non_gaap_operating_profit,3353,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2025-12-04.htm,
+FY2025,non_gaap_net_earnings_hpe,2753,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2025-12-04.htm,
+FY2025,non_gaap_diluted_eps,1.94,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2025-12-04.htm,
+FY2025,free_cash_flow_reported,986,report/earnings_materials/sec_8k_ex99/HPE_8-K_Ex99-1_earnings_2025-12-04.htm,
+TTM Q3 FY26,non_gaap_gross_profit,15787,report/earnings_materials/FY2026Q3/HPE_Q3FY26_earnings-press-release.pdf,FY25 10805 + 9M FY26 12268 - 9M FY25 7286
+TTM Q3 FY26,non_gaap_operating_profit,5767,report/earnings_materials/FY2026Q3/HPE_Q3FY26_earnings-press-release.pdf,FY25 3353 + 9M FY26 4584 - 9M FY25 2170
+TTM Q3 FY26,non_gaap_net_earnings_hpe,4569,report/earnings_materials/FY2026Q3/HPE_Q3FY26_earnings-press-release.pdf,FY25 2753 + 9M FY26 3676 - 9M FY25 1860
+TTM Q3 FY26,non_gaap_diluted_eps,3.17,report/earnings_materials/FY2026Q3/HPE_Q3FY26_earnings-press-release.pdf,Q4 FY25 0.62 + 9M FY26 2.55
+TTM Q3 FY26,free_cash_flow_reported,4501,report/earnings_materials/FY2026Q3/HPE_Q3FY26_earnings-press-release.pdf,FY25 986 + 9M FY26 2581 - 9M FY25 (934)

@@ -1,0 +1,62 @@
+hpe-20251128
+0001645590
+false
+0001645590
+2025-11-28
+2025-11-28
+0001645590
+us-gaap:CommonStockMember
+2025-11-28
+2025-11-28
+0001645590
+us-gaap:PreferredStockMember
+2025-11-28
+2025-11-28
+UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549
+FORM | 8-K
+CURRENT REPORT
+PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+November 28, 2025
+Date of Report (Date of Earliest Event Reported)
+HEWLETT PACKARD ENTERPRISE COMPANY
+(Exact name of registrant as specified in its charter)
+Delaware | 001-37483 | 47-3298624
+(State or other jurisdiction of incorporation) | (Commission File Number) | (I.R.S. Employer Identification No.)
+1701 East Mossy Oaks Road, | Spring, | TX | 77389
+(Address of principal executive offices) | (Zip code)
+(678) | 259-9860
+(Registrant’s telephone number, including area code)
+Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:
+☐
+Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+☐
+Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+☐
+Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+☐
+Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+Securities registered pursuant to Section 12(b) of the Exchange Act:
+Title of each class | Trading Symbol(s) | Name of each exchange on which registered
+Common stock, par value $0.01 per share | HPE | NYSE
+7.625% Series C Mandatory Convertible Preferred Stock, par value $0.01 per share | HPEPrC | NYSE
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).
+☐ | Emerging growth company
+☐ | If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.
+Item 1.01 | Entry into a Material Definitive Agreement.
+On November 28, 2025, H3C Holdings Limited (“H3C Holdings”), a wholly-owned subsidiary of Hewlett Packard Enterprise Company (“Hewlett Packard Enterprise”, “HPE”, or the “Company”), entered into three share purchase agreements with each of the following entities, each incorporated or formed (as applicable) in the People's Republic of China: (i) Unisplendour International Technology Limited, incorporated in the Hong Kong Special Administrative Region of the People's Republic of China ("UNIS"), (ii) Hefei Huaxin Mingzhu Equity Investment Partnership L.P., and (iii) Ningbo Yongning Yinshu Venture Capital Partnership (Limited Partnership) (each, a "Counterparty" and collectively, the "Counterparties") (each, a "Share Purchase Agreement" and collectively, the "Share Purchase Agreements"). The Share Purchase Agreements and the transactions contemplated therein, relate to the disposition of share capital of H3C Technologies Co., Limited ("H3C") held by HPE.
+Pursuant to and subject to the terms and conditions of the Share Purchase Agreements, and in furtherance of the Agreement on Subsequent Arrangements that was entered into on May 24, 2024 (the "Subsequent Arrangements Agreement") and the Side Letter that was entered into on November 17, 2025 to modify the Subsequent Arrangements Agreement, H3C Holdings shall sell to the Counterparties an aggregate of 9% of the total issued share capital of H3C (each, a “Sale Transaction” and collectively, the "Sale Transactions") for cash consideration of approximately USD $643 million (the “Consideration”).
+The obligations of H3C Holdings, on the one hand, and the Counterparties, on the other hand, to effect the Sale Transactions are subject to the satisfaction or waiver of certain conditions, including but not limited to: (i) each of the Counterparties having obtained all necessary approvals from the applicable governmental authorities in the People's Republic of China in connection with each Sale Transaction, (ii) delivery by H3C Holdings of a certified copy of the resolutions of its board of directors authorizing the execution of the Share Purchase Agreements and the Deed of Adherence (as defined in the Share Purchase Agreements), (iii) in the case of the Share Purchase Agreement with UNIS, approval by the shareholders of Unisplendour Corporation Limited, the parent company of UNIS, of that particular Sale Transaction, (iv) the absence of any law or order that would prevent or make illegal any of the Sale Transactions contemplated by the Share Purchase Agreements, (v) the accuracy of all parties’ representations and warranties, and (vi) compliance by all parties with their respective covenants as set forth in their applicable Share Purchase Agreement, in all material respects.
+Pursuant to and subject to the terms and conditions of the Share Purchase Agreements, H3C Holdings and each Counterparty have agreed to various covenants and agreements for each respective Sale Transaction, including, among other things, (i) for each Counterparty to use its respective best endeavors to obtain all its respective internal and external approvals, consents, and/or filings, (ii) for each Counterparty to keep H3C Holdings reasonably and timely informed of the status of its respective approvals, consents, and/or filings, (iii) for each Counterparty to provide prior written notice to H3C Holdings of material meetings with government authorities, as permitted by law and the applicable government authorities, and (iv) for H3C Holdings to cooperate with each Counterparty and its best endeavors to provide all information and documentation reasonably requested by such Counterparty in connection with their obtaining any consents, waivers, or approvals of any relevant governmental authority necessary to consummate their respective Sale Transaction. With respect to the Sale Transactions, H3C Holdings shall undertake all tax reporting obligations with the applicable tax authority in the People's Republic of China.
+Should the conditions set forth above not be satisfied by the Long Stop Date (as defined below), either H3C Holdings or the Counterparties may terminate their respective Share Purchase Agreement, provided that the party exercising such right is not in material breach of the applicable Share Purchase Agreement. The "Long Stop Date" means the date falling 180 days after November 28, 2025, provided that, if any of the aforementioned conditions is not satisfied or waived by 5:00 p.m. (Beijing time) on such date, such date may be extended once by a maximum of 30 days, subject to the provisions of the applicable Share Purchase Agreement.
+The Share Purchase Agreements also contain customary representations and warranties of each Counterparty and H3C Holdings.
+The foregoing summary of the Share Purchase Agreements do not purport to be complete and are qualified in their entirety by reference to the actual terms of the Share Purchase Agreements, copies of which will be filed as
+exhibits to the Company’s Annual Report on Form 10-K for the period ended October 31, 2025. The Share Purchase Agreements will be filed as exhibits to provide investors with information regarding their terms and are not intended to provide any financial or other factual information about HPE, UNIS or any Counterparty. In particular, the representations, warranties, and covenants contained in the Share Purchase Agreements (i) were made only for purposes of such agreements and as of specific dates; (ii) were made solely for the benefit of the parties to the Share Purchase Agreements; (iii) may be subject to limitations agreed upon by the parties, including being qualified by confidential disclosures made for the purposes of allocating contractual risk between the parties to the Share Purchase Agreements, rather than establishing those matters as facts; and (iv) may be subject to standards of materiality applicable to the contracting parties that differ from those applicable to investors. Investors are not third-party beneficiaries under the Share Purchase Agreements. Moreover, information concerning the subject matter of the representations, warranties, and covenants may change after the date of the Share Purchase Agreements, which subsequent information may or may not be fully reflected in public disclosures by HPE. Accordingly, investors should not rely on the representations, warranties, and covenants contained in the Share Purchase Agreements or any descriptions thereof as characterizations of the actual state of facts or condition of either of the parties or any of their respective affiliates.
+HPE and its affiliates have engaged in, and are expected to continue to engage in, other commercial dealings in the ordinary course of business with H3C, UNIS, and Unisplendour Corporation Limited.
+Forward-looking statements.
+This Form 8-K contains forward-looking statements within the meaning of the safe harbor provisions of the Private Securities Litigation Reform Act of 1995. All statements other than statements of historical fact are statements that could be deemed forward-looking statements, including but not limited to any projections of financial performance, plans, strategies and objectives of management for future operations or performance. The words “believe,” “expect,” “anticipate,” “intend,” “will,” “may,” and similar expressions are intended to identify such forward-looking statements. Such statements involve risks, uncertainties, and assumptions relating, but not limited, to obtaining all necessary external approvals and consents and/or making all necessary filings, and the timing thereof; obtaining approval of the Sale Transactions from Counterparties' respective stockholders; the timing and completion of all other obligations included in the Share Purchase Agreements; the timing of the consummation of the Sale Transactions, including receipt by HPE of the Consideration; and the anticipated use of the proceeds therefrom. If the risks or uncertainties ever materialize or the assumptions prove incorrect, the results of HPE and its consolidated subsidiaries may differ materially from those expressed or implied by such forward-looking statements and assumptions. Factors leading to such material differences may include, without limitation, the risk that the consummation of one or more of the Sale Transactions may be delayed; the risk of any unexpected costs or expenses resulting from the parties' carrying out the Share Purchase Agreements and the transactions contemplated thereby; the risk of any litigation relating to the Share Purchase Agreements and the transactions contemplated thereby; and the risk of any delays in obtaining any required governmental and regulatory approvals, as well as any terms and conditions of such approvals that could reduce anticipated benefits or cause the parties to abandon the Sale Transactions. Risks, uncertainties, and assumptions include those that are described in HPE’s Annual Report on Form 10-K for the fiscal year ended October 31, 2024, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K, and that are otherwise described or updated from time to time in HPE’s Securities and Exchange Commission reports. HPE assumes no obligation and does not intend to update these forward-looking statements, except as required by applicable law.
+SIGNATURE
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has caused this report to be signed on its behalf by the undersigned hereunto duly authorized.
+HEWLETT PACKARD ENTERPRISE COMPANY
+DATE:  December 1, 2025 | By: | /s/ David Antczak
+Name: | David Antczak
+Title: | Senior Vice President, General Counsel and Corporate Secretary

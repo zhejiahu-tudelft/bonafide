@@ -1,0 +1,185 @@
+S-8
+1
+forms-82021sipamendment3.htm
+S-8
+Document
+Registration No. 333-_________
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+Washington, D.C. 20549
+______________________________________________________________________________
+FORM S-8
+REGISTRATION STATEMENT
+UNDER
+THE SECURITIES ACT OF 1933
+______________________________________________________________________________
+Hewlett Packard Enterprise Company
+(Exact Name of Registrant as Specified in its Charter)
+______________________________________________________________________________
+Delaware | 47-3298624
+(State or Other Jurisdiction of Incorporation or Organization) | (I.R.S. Employer Identification No.)
+1701 East Mossy Oaks Road Spring, TX | 77389
+(Address of Principal Executive Offices) | (Zip Code)
+Hewlett Packard Enterprise Company 2021 Stock Incentive Plan
+(Full Title of the Plan)
+David Antczak
+Senior Vice President, General Counsel and Corporate Secretary
+Hewlett Packard Enterprise Company
+1701 East Mossy Oaks Road,
+Spring, TX 77389
+(Name and Address of Agent for Service)
+(678) 259-9860
+(Telephone Number, Including Area Code, of Agent for Service)
+_____________________________________________________________________________
+Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, or a smaller reporting company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company,” and “emerging growth company” in Rule 12b-2 of the Exchange Act.
+Large accelerated filer x | Accelerated filer o
+Non-accelerated filer o (Do not check if a smaller reporting company) | Smaller reporting company o
+Emerging growth company o
+If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 7(a)(2)(B) of the Securities Act.
+o
+Explanatory Note
+Pursuant to General Instruction E of Form S-8, Hewlett Packard Enterprise Company, a Delaware corporation (the “Company” or the “Registrant”), is filing this Registration Statement on Form S-8 with the Securities and Exchange Commission (the “Commission”) to register an additional 22,000,000 shares of common stock, par value $0.01 per share, of the Company (the “Common Stock”) for issuance pursuant to the Hewlett Packard Enterprise Company 2021 Stock Incentive Plan (as amended from time to time, the “2021 Plan”).
+In connection with the 2021 Plan, the Registrant previously filed with the Commission a registration statement on Form S-8 (Registration No. 333-272379) on June 2, 2023, a registration statement on Form S-8 (Registration No. 333-265378) on June 2, 2022, a registration statement on Form S-8 (Registration No. 333-255839) on May 6, 2021, and two registration statements on Form S-8 POS (Registration Nos. 333-217152 and 333-207671) on May 6, 2021 (collectively, the “Prior Registration Statements”). In accordance with General Instruction E to Form S-8, the Registrant hereby incorporates by reference the contents of the Prior Registration Statements, except to the extent supplemented, superseded or modified by the specific information set forth below or the specific exhibits attached hereto.
+Part I
+Information Required in the Section 10(A) Prospectus
+Item 1.
+Plan Information
+.
+Not required to be filed as part of this Registration Statement pursuant to the Note to Part I of Form S-8.
+Item 2.
+Registrant Information and Employee Plan Annual Information
+.
+The prospectus containing information required by Part I of Form S-8 and related to this Registration Statement is omitted from this Registration Statement in accordance with the Note to Part I of Form S-8.
+The documents containing the information specified in Part I will be sent or given to employees as specified by Rule 428(b)(1) under the Securities Act of 1933, as amended (the “Securities Act”). In accordance with the rules and regulations of the Commission, such documents are not being filed with the Commission as part of this Registration Statement.
+Part II
+Information Required in the Registration Statement
+Item 3.
+Incorporation of Documents by Reference
+.
+The Registrant hereby incorporates by reference into this Registration Statement the following documents previously filed by the Registrant with the Commission:
+(a) The Registrant’s Annual Report on
+Form 10-K for the fiscal year ended October 31, 202
+3
+filed with the Commission o
+n December
+22
+, 202
+3
+pursuant to Section 13 of the Securities Exchange Act of 1934, as amended (the “Exchange Act”);
+(b) The Registrant’s Quarterly Report on
+Form 10-Q for the fiscal quarter ended
+January 31, 202
+4
+,
+filed with the Commission on
+March
+5
+, 20
+2
+4
+;
+(c) The Registrant’s Current Reports on Form 8-K filed with the Commission on
+December 15, 2023
+,
+January 10, 2024
+(
+only
+Item 1.01 and Exhibit 2.1
+within Item 9.01)
+,
+January 23, 2024
+(only Item 5.02)
+,
+January 24, 2024
+,
+February 8, 2024
+,
+April 1, 2024
+,
+April 12, 2024
+and
+May
+24
+, 2024
+; and
+(d) The description of the Common Stock set forth in
+Exhibit
+4.
+12
+to the Registrant’s Form 10-K (No. 001-37483) for the fiscal year ended October 31, 2023 filed with the Commission on December 22, 2023.
+All reports and definitive proxy or information statements filed pursuant to Section 13(a), 13(c), 14 or 15(d) of the Exchange Act subsequent to the filing of this Registration Statement and prior to the filing of a post-effective amendment which indicates that all securities offered hereby have been sold or which de-registers all securities then remaining unsold shall be deemed to be incorporated by reference into this Registration Statement and to be a part hereof from the date of filing such documents, except as to specific sections of such statements as set forth therein. Unless expressly incorporated into this Registration Statement, a report furnished, but not filed, on Form 8-K prior or subsequent to the date hereof shall not be incorporated by reference into this Registration Statement. Any statement contained in a document incorporated or deemed to be incorporated by reference herein shall be deemed to be modified or superseded for purposes of this Registration Statement to the extent that a statement contained in any subsequently filed document which also is deemed to be incorporated by reference herein modifies or supersedes such statement.
+Item 4.
+Description of Securities
+.
+Not applicable.
+Item 5.
+Interests of Named Experts and Counsel
+.
+David Antczak, Senior Vice President, General Counsel and Corporate Secretary of the Registrant, will pass upon the validity of the issuance of the shares of Common Stock offered by this Registration Statement. Mr. Antczak is an officer and employee of the Registrant and holds restricted stock units granted by the Registrant.
+Item 6.
+Indemnification of Directors and Officers
+.
+Section 145 of the Delaware General Corporation Law (the “DGCL”) authorizes corporations to limit or eliminate the personal liability of directors, officers, employees or agents to corporations and their stockholders in certain situations for monetary damages for breaches of directors’ officers' fiduciary duties as directors or officers, as applicable, in the circumstances therein provided and the Registrant’s restated certificate of incorporation includes such an exculpation provision. The Registrant’s restated certificate of incorporation and second amended and restated bylaws include provisions that indemnify directors or officers, to the fullest extent allowable under the DGCL, for monetary damages for actions taken as a director or officer, as applicable, of the Registrant or any predecessor of the Registrant, or for serving at the Registrant’s request or the request of any predecessor of the Registrant as a director or officer or another position at another corporation or enterprise, as the case may be. Article VIII of the Registrant’s restated certificate of incorporation includes such an indemnification provision. The Registrant’s second amended and restated bylaws also provide that the Registrant must indemnify and advance actual and reasonable expenses to its directors and officers, subject to its receipt of an undertaking from the indemnified party as may be required under the DGCL. The Registrant’s second amended and restated bylaws expressly authorize the Registrant to carry directors’ and officers’ insurance to protect the Registrant, its directors, officers, agents and employees for certain liabilities.
+The foregoing description is intended as a summary only and is qualified in its entirety by reference to the Registrant’s restated certificate of incorporation, second amended and restated bylaws and the DGCL.
+Item 7.
+Exemption from Registration Claimed
+.
+Not applicable.
+Item 8.
+Exhibits
+.
+The following exhibits are filed as part of this Registration Statement.
+Exhibit Number | Description of Exhibit
+4.1 | Amended and Restated Certificate of Incorporation of the Registrant (incorporated by reference to Exhibit 3.1 to the Registrant’s Current Report on Form 8-K filed with the Commission on November 5, 2015).
+4.2 | Certificate of Amendment of the Amended and Restated Certificate of Incorporation of the Registrant (incorporated by reference to Exhibit 3.1 to the Registrant’s Current Report on Form 8-K filed with the Commission on April 12, 2024).
+4.3 | Restated Certificate of Incorporation of the Registrant (incorporated by reference to Exhibit 3.2 to the Registrant’s Current Report on Form 8-K filed with the Commission on April 12, 2024).
+4.4 | Second Amended and Restated Bylaws of the Registrant (incorporated by reference to Exhibit 3.1 to the Registrant’s Current Report on Form 8-K filed with the Commission on September 28, 2023).
+4.5 | Hewlett Packard Enterprise Company 2021 Stock Incentive Plan (incorporated by reference to Exhibit 4.4 to the Registrant's Registration Statement on Form S-8 filed with the Commission on May 6, 2021).
+4.6 | Amendment No. 1 to the Hewlett Packard Enterprise Company 2021 Stock Incentive Plan, effective April 5, 2022 (incorporated by reference to Exhibit 4.7 to the Registrant’s Registration Statement on Form S-8 filed with the Commission on June 2, 2022).
+4.7 | Amendment No. 2 to the Hewlett Packard Enterprise Company 2021 Stock Incentive Plan, effective April 5, 2023 (incorporated by reference to Exhibit 10.1 to the Registrant’s Current Report on Form 8-K filed with the Commission on April 6, 2023).
+4.8 | Amendment No. 3 to the Hewlett Packard Enterprise Company 2021 Stock Incentive Plan, effective April 10, 2024 (incorporated by reference to Exhibit 10.1 to the Registrant’s Current Report on Form 8-K filed with the Commission on April 12, 2024).
+*5.1 | Opinion re legality.
+*23.1 | Consent of Independent Registered Public Accounting Firm.
+*23.2 | Consent of Counsel (included in Exhibit 5.1 to this Registration Statement).
+*24 | Powers of Attorney (included on signature pages hereto).
+*107 | Calculation of Filing Fee Table.
+* Filed herewith.
+Item 9.
+Undertakings
+.
+(a) The undersigned Registrant hereby undertakes:
+(1) To file, during any period in which offers or sales are being made, a post-effective amendment to this
+Registration Statement:
+(i) To include any prospectus required by Section 10(a)(3) of the Securities Act;
+(ii) To reflect in the prospectus any facts or events arising after the effective date of the Registration Statement (or the most recent post-effective amendment thereof) which, individually or in the aggregate, represent a fundamental change in the information set forth in the Registration Statement. Notwithstanding the foregoing, any increase or decrease in volume of securities offered (if the total dollar value of securities offered would not exceed that which was registered) and any deviation from the low or high end of the estimated maximum offering range may be reflected in the form of prospectus filed with the Commission pursuant to Rule 424(b) if, in the aggregate, the changes in volume and price represent no more than a 20% change in the maximum aggregate offering price set forth in the “Calculation of Registration Fee Tables” or “Calculation of Registration Fee” table, as applicable,  in the effective Registration Statement; and
+(iii) To include any material information with respect to the plan of distribution not previously disclosed in the Registration Statement or any material change to such information in the Registration Statement;
+provided, however, that paragraphs (a)(1)(i) and (a)(1)(ii) do not apply if the information required to be included in a post-effective amendment by those paragraphs is contained in reports filed with or furnished to the Commission by the Registrant pursuant to Section 13 or Section 15(d) of the Securities Exchange Act of 1934 that are incorporated by reference in the Registration Statement;
+(2) That, for the purpose of determining any liability under the Securities Act of 1933, each such post-effective amendment shall be deemed to be a new registration statement relating to the securities offered therein, and the offering of such securities at that time shall be deemed to be the initial bona fide offering thereof; and
+(3) To remove from registration by means of a post-effective amendment any of the securities being registered which remain unsold at the termination of the offering.
+(b) The undersigned Registrant hereby undertakes that, for purposes of determining any liability under the Securities Act of 1933, each filing of the Registrant’s annual report pursuant to Section 13(a) or Section 15(d) of the Securities Exchange Act of 1934 (and, where applicable, each filing of an employee benefit plan’s annual report pursuant to Section 15(d) of the Securities Exchange Act of 1934) that is incorporated by reference in the Registration Statement shall be deemed to be a new registration statement relating to the securities offered therein, and the offering of such securities at that time shall be deemed to be the initial bona fide offering thereof.
+(h) Insofar as indemnification for liabilities arising under the Securities Act of 1933 may be permitted to directors, officers and controlling persons of the Registrant pursuant to the foregoing provisions, or otherwise, the Registrant has been advised that in the opinion of the Securities and Exchange Commission such indemnification is against public policy as expressed in the Securities Act and is, therefore, unenforceable. In the event that a claim for indemnification against such liabilities (other than the payment by the Registrant of expenses incurred or paid by a director, officer or controlling person of the Registrant in the successful defense of any action, suit or proceeding) is asserted by such director, officer or controlling person in connection with the securities being registered, the Registrant will, unless in the opinion of its counsel the matter has been settled by controlling precedent, submit to a court of appropriate jurisdiction the question whether such indemnification by it is against public policy as expressed in the Securities Act and will be governed by the final adjudication of such issue.
+Signatures
+Pursuant to the requirements of the Securities Act of 1933, the Registrant certifies that it has reasonable grounds to believe that it meets all of the requirements for filing on Form S-8 and has duly caused this Registration Statement to be signed on its behalf by the undersigned, thereunto duly authorized, in the City of Spring, State of Texas, on June 5, 2024.
+HEWLETT PACKARD ENTERPRISE COMPANY
+By: | /s/ David Antczak
+Name: | David Antczak
+Title: | Senior Vice President, General Counsel and Corporate Secretary
+KNOW ALL PERSONS BY THESE PRESENT
+, that each person whose signature appears below hereby constitutes and appoints each of Marie Myers and David Antczak as his or her true and lawful agent, proxy and attorney-in-fact, each acting alone with full power of substitution and resubstitution, for him or her and in his or her name, place and stead, in any and all capacities, to (i) act on, sign and file with the Securities and Exchange Commission any and all amendments and supplements (including post-effective amendments) to this Registration Statement on Form S-8 together with all schedules and exhibits thereto, (ii) act on, sign and file such certificates, instruments, agreements and other documents as may be necessary or appropriate in connection therewith, and (iii) take any and all actions which may be necessary or appropriate in connection therewith, granting unto such agents, proxies and attorneys-in-fact, and each of them, full power and authority to do and perform each and every act and thing necessary or appropriate to be done, as fully for all intents and purposes as he or she might or could do in person, hereby approving, ratifying and confirming that all such agents, proxies and attorneys-in-fact, any of them or any of his or her or their substitute or substitutes, may lawfully do or cause to be done by virtue hereof.
+To effect the above, each of the undersigned has executed this Power of Attorney as of the date indicated beside each name.
+Pursuant to the requirements of the Securities Act of 1933, as amended, this Registration Statement has been signed by the following persons in the capacities and as of the dates indicated.
+Signature | Date
+/s/ Antonio F. Neri Antonio F. Neri | President, Chief Executive Officer and Director (Principal Executive Officer) | June 5, 2024
+/s/ Marie Myers Marie Myers | Executive Vice President and Chief Financial Officer (Principal Financial Officer) | June 5, 2024
+/s/ Jeremy Cox Jeremy Cox | Senior Vice President, Controller and Chief Tax Officer (Principal Accounting Officer) | June 5, 2024
+/s/ Patricia F. Russo Patricia F. Russo | Chair | June 5, 2024
+/s/ Pamela L. Carter Pamela L. Carter | Director | June 5, 2024
+/s/ Frank A. D’Amelio Frank A. D’Amelio | Director | June 5, 2024
+/s/ Regina E. Dugan Regina E. Dugan | Director | June 5, 2024
+/s/ Jean M. Hobby Jean M. Hobby | Director | June 5, 2024
+/s/ Raymond J. Lane Raymond J. Lane | Director | June 5, 2024
+/s/ Ann M. Livermore Ann M. Livermore | Director | June 5, 2024
+/s/ Bethany J. Mayer Bethany J. Mayer | Director | June 5, 2024
+/s/Charles H. Noski Charles H. Noski | Director | June 5, 2024
+/s/ Raymond E. Ozzie Raymond E. Ozzie | Director | June 5, 2024
+/s/ Gary M. Reiner Gary M. Reiner | Director | June 5, 2024

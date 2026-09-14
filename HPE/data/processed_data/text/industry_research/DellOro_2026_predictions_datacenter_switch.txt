@@ -1,0 +1,168 @@
+Data Center Networking in 2025–2026: Milestones and Opportunities Amid Supply Risk - Dell'Oro Group
+Market Research
+Telecommunications Infrastructure
+6G
+AI RAN
+Broadband Access & Home Networking
+Cable Outside Plant
+Data Center Interconnect with IPoDWDM & WDM Systems
+Fixed Wireless Access & CPE
+High End Routing & Aggregation
+Microwave Transmission & Mobile Backhaul
+Mobile Core Network & Multi-access Edge Computing
+Mobile Radio Access Network (RAN)
+Open RAN
+Optical Transport
+PON in the Data Center & Premise
+PON Optical Distribution Network (ODN)
+Private Wireless
+Telecom Capex
+Enterprise Networks & Security Infrastructure
+AI & Cloud-native Security
+Campus Ethernet Switch
+Campus NaaS & Public Cloud-managed LAN
+Distributed Cloud Networking
+Hybrid Mesh Firewall & Microsegmentation
+Network Security
+SASE & SD-WAN
+Total Ethernet Switch
+Wireless LAN
+Data Center Infrastructure
+Data Center High-density Power
+Data Center IT Capex
+Data Center IT Semiconductors & Components
+Data Center Liquid Cooling
+Data Center Interconnect with IPoDWDM & WDM Systems
+Data Center Physical Infrastructure
+Data Center Switch – AI Back-end Networks
+Data Center Switch – Front-end Networks
+Ethernet Adapter & Smart NIC
+PON in the Data Center & Premise
+How to Buy
+Research Package
+Request a Quote
+Custom Research and Consulting
+Knowledge Center
+2026 Predictions
+Blogs
+Articles
+Videos
+Email Subscription Form
+Events
+News Room
+About
+Meet the Team
+Careers
+FAQ
+Contact
+Client Login
+Market Research
+Telecommunications Infrastructure
+6G
+AI RAN
+Broadband Access & Home Networking
+Cable Outside Plant
+Data Center Interconnect with IPoDWDM & WDM Systems
+Fixed Wireless Access & CPE
+High End Routing & Aggregation
+Microwave Transmission & Mobile Backhaul
+Mobile Core Network & Multi-access Edge Computing
+Mobile Radio Access Network (RAN)
+Open RAN
+Optical Transport
+PON in the Data Center & Premise
+PON Optical Distribution Network (ODN)
+Private Wireless
+Telecom Capex
+Enterprise Networks & Security Infrastructure
+AI & Cloud-native Security
+Campus Ethernet Switch
+Campus NaaS & Public Cloud-managed LAN
+Distributed Cloud Networking
+Hybrid Mesh Firewall & Microsegmentation
+Network Security
+SASE & SD-WAN
+Total Ethernet Switch
+Wireless LAN
+Data Center Infrastructure
+Data Center High-density Power
+Data Center IT Capex
+Data Center IT Semiconductors & Components
+Data Center Liquid Cooling
+Data Center Interconnect with IPoDWDM & WDM Systems
+Data Center Physical Infrastructure
+Data Center Switch – AI Back-end Networks
+Data Center Switch – Front-end Networks
+Ethernet Adapter & Smart NIC
+PON in the Data Center & Premise
+How to Buy
+Research Package
+Request a Quote
+Custom Research and Consulting
+Knowledge Center
+2026 Predictions
+Blogs
+Articles
+Videos
+Email Subscription Form
+Events
+News Room
+About
+Meet the Team
+Careers
+FAQ
+Contact
+Client Login
+Search
+Client Login
+Contact Us
+December 17, 2025
+|
+Sameh Boujelbene
+Data Center Networking in 2025–2026: Milestones and Opportunities Amid Supply Risk
+[wp_tech_share]
+Share
+As 2025 comes to a close, we reflect on several remarkable milestones achieved by the data center switching market this year, and what 2026 may have in store for us.
+Looking back at 2025, several clear inflection points reshaped the market:
+Ethernet overtakes InfiniBand in AI back-end networking:
+Supported by strong tailwinds on both the supply and demand sides, 2025 marked a decisive turning point for AI back-end networks, as Ethernet surpassed InfiniBand in market adoption. This shift is particularly striking given that just two years ago, InfiniBand accounted for nearly 80% of the data center switch sales in AI back-end networks.
+Overall Ethernet Data Center Switch sales nearly doubled compared with 2022:
+The rapid adoption of Ethernet in AI back-end deployments propelled total Ethernet data center switch sales to an all-time high in 2025, nearly doubling annual revenues compared with 2022 levels.
+800 Gbps well surpassed 20 M ports within just three years of shipments
+: As a point of reference, it took 400 Gbps six to seven years to achieve the same milestone
+The vendor landscape shifted meaningfully toward AI-exposed players:
+Vendors with greater exposure to AI back-end networking significantly outperformed the broader market in 2025. Companies such as Accton, Celestica and NVIDIA were among the primary beneficiaries of this shift, reflecting how AI-driven demand is reshaping competitive dynamics. Arista maintained the leading position in the Total Ethernet Data Center Switching market.
+Looking ahead to 2026, questions are emerging around whether the pace of investment can be sustained after such an extraordinary year. While skepticism around AI returns on investment is growing, we believe the industry is still in the early innings of a multi-year AI investment cycle. Based on the latest capital expenditure outlooks from the large hyperscalers (Google, Amazon, Microsoft, Meta, Oracle and others), we expect another strong year of AI-related investment in 2026, which should continue to drive robust spending across the networking portion of the infrastructure stack.
+Networking is becoming increasingly critical, as it plays a central role in addressing some of the most challenging scaling bottlenecks in AI deployments—including power availability and compute demand. Below are some of the inflection points expected for 2026:
+Demand remains exceptionally strong in AI back-end networking.
+We continue to expect strong double-digit growth in AI networking spending, driven by ongoing scale-out of AI clusters. The integration of co-packaged optics could further accelerate market growth as optics would easily add multi billions to the market size.
+Supply constraints remain the primary risk to our forecast.
+We expect demand to continue to outpace supply, with shortages in chips, memory, and other critical components representing the main caveats to our outlook. As a result, the market remains supply-constrained rather than demand-constrained—a challenging dynamic, but ultimately a more favorable one than the reverse.
+Scale-up emerges as a new battlefield for Ethernet.
+After securing a leading position in the scale-out segment of AI back-end networks, Ethernet is now expanding into scale-up, where NVLink has historically dominated. In this space, Ethernet will compete not only with NVLink but also with UALink, another alternative to NVLink. We anticipate 2026 will be a year full of vendor announcements targeting both Ethernet and UALink opportunities in scale-up. Scale-up represents what could be the largest total addressable market expansion the industry has ever seen.
+1.6 Tbps switches expected to ship in volume in 2026.
+2026 will mark the first year of volume deployments of 1.6 Tbps switches, driven by the insatiable demand for high bandwidth in AI clusters. 1.6 Tbps ramp is expected to be even faster than 800 Gbps, surpassing 5 M ports within one to two years of shipments.
+Co-packaged optics (CPO) expected to ramp on both InfiniBand and Ethernet switches.
+After many years of development and debate, 2026 is expected to see the initial volume ramp of CPO on both InfiniBand and Ethernet switches. On the demand side, major hyperscalers are actively trialing the technology. On the supply side, while NVIDIA is leading the way, we expect other vendors to follow shortly.
+Vendor diversity set to increase in 2026.
+As AI clusters continue to scale, vendor diversity with both incumbent vendors as well as new entrants, will become increasingly important to ensure risk mitigation and supply availability. We believe that no single vendor can meet the full demand for AI infrastructure. As a result, we expect SONiC adoption to accelerate in both scale-up and scale-out deployments, as it will be critical in enabling this broader vendor ecosystem
+In summary, as we look ahead to 2026, the AI-driven data center landscape is set to continue its rapid evolution. From Ethernet’s rise in AI back-end networks and the emergence of scale-up as a new battlefield, to the adoption of 1.6 Tbps switches, co-packaged optics, and a more diverse vendor ecosystem, the infrastructure supporting AI is expanding in both scale and complexity. While supply constraints and ROI questions remain challenges, the industry is clearly in the early innings of a multi-year AI journey. Networking, in particular, will play a pivotal role in enabling the next phase of AI growth, making 2026 an exciting year for both innovation and investment.
+About the Author
+Sameh Boujelbene joined Dell’Oro Group in 2011 and leads Ethernet Switch—Data Center, and AI Networks for AI Workloads market research. She expanded coverage to include InfiniBand and back-end Ethernet for AI workloads. Her front-end switch forecasts since 2020 have been highly accurate. She also developed research on Ethernet Adapters, Servers, and Campus Switches. Ms. Boujelbene has published articles and been cited in various industry and trade publications, and she is a frequent speaker at industry conferences and events.
+Read articles Sameh Boujelbene has written or been featured in...
+Cisco’s AI Data Center Strategy Expands Beyond Hardware Toward Validated Infrastructure
+Cisco Live 2026: Cisco’s AI Strategy Moves Beyond the Data Center
+OpenAI’s MRC Initiative Reinforces Ethernet’s Expanding Role in AI Back-end Networks
+Back to Blog
+< Previous
+Next >
+Follow Us
+Market Research
+How to Buy
+Knowledge Center
+News Room
+About
+Contact
+©2026 Dell'Oro. All rights reserved
+Privacy Policy
+Terms of Use

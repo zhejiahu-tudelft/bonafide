@@ -1,0 +1,230 @@
+IDC - AI Infrastructure Spending Hits $89.7B as ARM Passes x86
+Skip to main
+Skip to search
+Skip to footer
+Home
+Research
+Data & Analytics
+IDC Quanta
+Custom Solutions
+Events
+All Events
+Upcoming Events
+IDC Directions
+Become a Sponsor
+CIO Summit
+IT Security Summit
+AI Leadership Summit
+Single Sponsor Event
+Our Analysts
+About IDC
+Press Room
+Careers
+Offices
+Resources
+All Resources
+Resource Center
+Executive Insights
+Blogs
+Webinars
+AI Hub
+AI Resource Center
+Agentic AI
+Trending Topics
+FutureScape
+Middle East War
+Sustainability
+MyIDC
+IDC Global
+IDC Global
+Asia/Pacific
+China
+Europe
+Japan
+Latin America (Spanish)
+Middle East, Türkiye & Africa
+Search
+Search
+Account
+My Account
+Logout
+Login to MyIDC
+Register
+Become a Client
+Menu
+(Opens dialog)
+Become a Client
+Research
+Data & Analytics
+IDC Quanta
+Custom Solutions
+Events
+All Events
+Upcoming Events
+IDC Directions
+Become a Sponsor
+CIO Summit
+IT Security Summit
+AI Leadership Summit
+Single Sponsor Event
+Our Analysts
+About IDC
+Press Room
+Careers
+Offices
+Resources
+All Resources
+Resource Center
+Executive Insights
+Blogs
+Webinars
+AI Hub
+AI Resource Center
+Agentic AI
+Trending Topics
+FutureScape
+Middle East War
+Sustainability
+MyIDC
+You have reached the bottom of the dialog. Focus is being moved to the close button.
+Back
+Blogs home
+Resources
+July 21, 2026
+7 min
+AI Infrastructure Spending Holds Near $90 Billion in Q1 2026 as ARM Overtakes x86 in Accelerated Servers; 2026 Forecast Raised to $497 Billion
+According to IDC's Worldwide Quarterly AI Infrastructure Tracker, spending reached $89.7 billion in Q1 2026, up 33% year-over-year but flat sequentially as growth normalizes off a larger base. The defining shift was structural: ARM-based rack-scale GPU servers overtook x86 as the dominant accelerated computing platform. IDC raised its full-year 2026 forecast to $497 billion on hyperscaler capex growth and emerging non-GPU AI demand.
+Share
+Share on LinkedIn
+Share on X
+The Q1 2026 results confirm that AI infrastructure investment has moved well beyond initial proof-of-concept phases into a sustained, multi-year capital commitment cycle while the competitive battle has shifted from how much compute gets bought to which platform wins it. Enterprise technology buyers, cloud service providers, and national governments are making long term decisions about where to build, how much to spend, and which AI workloads to prioritize.
+For vendors, this means a prolonged period of elevated demand across accelerated compute, high-performance storage, and supporting network infrastructure, but also a fast-moving contest for architecture leadership, as ARM rackscale platforms displace x86 in the accelerated server market. For enterprises, the data signals that AI capacity is becoming a structural cost of doing business at scale, that storage refresh deferred during the initial AI buildout can no longer be postponed, and that late movers risk falling behind on both performance and cost efficiency.
+IDC now projects the global AI infrastructure market will surpass
+$1 trillion in 2029, reaching $1.08 trillion, before climbing to $1.21 trillion in 2030.
+Market dynamics
+Regional performance was mixed.
+The United States remained dominant at $67.9 billion (75.7% of global spend, +30.3% YoY), though growth continues to moderate. China (PRC) returned to growth at $7.8 billion (8.7% share, +9.3% YoY). The Middle East & Africa remained the fastest-growing region (+233% YoY to $1.1 billion), followed by APeJC (+62% to $5.8 billion) and Western Europe (up to $5.1 billion).
+Accelerated compute remains the structural backbone, alongside a growing non-GPU AI-centric layer.
+Server spending represented 97.6% of total AI infrastructure value in Q1 2026, and within that, a growing share of AI-centric demand is landing on infrastructure that isn’t GPU-accelerated at all. AI orchestration tooling, data-pipeline workloads, and CPU-only inference clusters that hyperscalers are running as a cost-mitigation strategy alongside their GPU buildouts.
+Deferred storage investment is catching up.
+After redirecting budget toward GPU and AI server spend for the past one to two years and treating storage refresh as postponable, enterprises can no longer put those purchases off. Pent-up storage refresh is now landing on top of genuine AI-driven demand, reinforcing the urgency behind external storage strategy even as AI-centric storage remains a small share (2.4%) of total AI infrastructure value.
+Data callout: Q1 2026 key metrics
+Total AI Infrastructure Spending (Q1 2026) | $89.7 billion
+Year-over-Year Growth (Q1 2026 vs. Q1 2025) | +33.1%
+Full-Year 2025 AI Infrastructure Spending | $318 billion
+Full-Year 2024 AI Infrastructure Spending | $153 billion (YoY +107.6%)
+Server Share of Q1 2026 AI Spending | $87.6 billion (97.6%)
+Storage Share of Q1 2026 AI Spending | $2.2 billion (2.4%)
+2029 Forecast — AI Infrastructure | $1.08 trillion
+Accelerated Server Platform Mix (Q1 2026) | Non-x86 (ARM) $53.0B vs. x86 $34.6B
+2030 Forecast — AI Infrastructure | $1.21 trillion
+“The Q1 2026 results make clear that AI infrastructure investment has entered a new phase where it’s not just about how much compute gets bought anymore, it’s about which platform wins it. We watched x86 accelerated servers fall from $52 billion to $35 billion in just two quarters while ARM rack-scale platforms nearly doubled, and that’s not demand destruction, that’s an architecture shift that is yet to be definitive as new x86 platforms are on the horizon as well. At the same time, we’re seeing genuine AI-driven demand show up in CPU-only inference clusters, AI orchestration tooling, and a storage refresh with a more AI-related flavor. While global economy and geopolitical tensions seem to slow down other markets, the AI investment pace continues showing an extraordinary resilience to the environment.”
+—
+Juan Seminara, Research Director, Worldwide Infrastructure Trackers, IDC
+Outlook
+IDC projects AI infrastructure spending will reach
+$497 billion in 2026
+, representing approximately 56% year-over-year growth; an acceleration, not a moderation, from the roughly 53% pace estimated as recently as last quarter, and still one of the largest absolute-dollar expansions ever recorded in a single IT market segment. The market is now forecast to surpass $1 trillion in 2029, reaching $1.08 trillion, before climbing to $1.21 trillion in 2030, a five-year compound annual growth rate (CAGR) of approximately 30% from 2025.
+What could accelerate this trajectory:
+Faster-than-expected scaling of inference workloads as enterprise AI application deployment broadens
+Sovereign AI program expansion in the Middle East, Southeast Asia, and Europe, driving incremental greenfield investment
+New model architectures and AI agent frameworks require deeper, more distributed compute infrastructure
+Emergence of non-GPU AI-centric demand (AI orchestration tooling, data-pipeline workloads, and physical AI use cases such as robotics and autonomous vehicles) extending the addressable market beyond GPU-based training and inference
+What could constrain growth:
+Power generation and grid capacity constraints, which remain the primary operational bottleneck for new data center commissioning in major markets
+Memory and storage component scarcity, which can lift server BOMs and slow procurement cycles, now compounded by enterprises simultaneously catching up on deferred storage refresh
+Expanded export controls and data-sovereignty regulations, which could reshape where AI workloads are deployed and which vendors win enterprise deals
+Geopolitical instability in the Middle East, where growth is concentrated in a small number of large, government-backed Gulf deals; escalation of regional tensions, including the ongoing conflict involving Iran, could delay procurement decisions, complicate data center siting and security planning, or shift government priorities away from AI infrastructure investment, introducing volatility to what is currently the fastest-growing region
+Investors and technology buyers should monitor Q2 2026 capital expenditure guidance from leading hyperscalers and AI platform providers, as these forward signals remain the most reliable leading indicator of near-term infrastructure demand.
+Frequently Asked Questions
+Why did AI infrastructure growth moderate from earlier 2025 peaks?
+Earlier quarters benefited from a step-change in capital deployment as hyperscalers accelerated training infrastructure buildouts, then a second step-change as ARM rack-scale platforms began displacing x86 in Q4 2025. Q1 2026’s 33% year-over-year growth reflects a much higher base, not a slowdown in demand. Sequential spending was essentially flat with Q4 2025’s record quarter. The long-term expansion cycle remains firmly intact, and IDC’s full-year 2026 forecast was revised upward, not downward, this quarter.
+Which regions are emerging as new AI infrastructure centers?
+The Middle East, particularly Saudi Arabia and the UAE, again posted the strongest year-over-year growth globally in Q1 2026, driven by government-backed sovereign AI initiatives and partnerships with leading hyperscalers, even as sequential spending pulled back from Q4 2025’s record deal flow. China returned to growth after a Q4 2025 decline. Western Europe and Asia/Pacific also grew sharply, supported by national AI strategies and localized cloud service provider expansion.
+What risks should buyers and vendors watch in 2026?
+Power availability is the single most important operational constraint heading into 2026. Data center commissioning timelines are increasingly driven by utility capacity rather than hardware lead times. In parallel, evolving trade policy, particularly around advanced GPU exports, will continue to reshape competitive dynamics across China, the Middle East, and other emerging markets. The rapid ARM/x86 platform shift also raises execution risk for x86-focused OEMs and ODMs that have not yet diversified their rack-scale roadmaps.
+Have ARM servers overtaken x86 in the accelerated server market, and what’s the outlook going forward?
+Yes, Non-x86 (ARM) accelerated server value climbed to $53.0 billion in Q1 2026, up from $47.5 billion in Q4 2025 and $29.8 billion in Q3 2025, while x86 accelerated value fell to $34.6 billion from $42.7 billion and $51.9 billion over the same span. The crossover, which began in Q4 2025, reflects large buyers consolidating around NVL72/GB200-class rack-scale platforms and redistributing volume away from custom x86 rack designs. Projections will depend on how offerings evolve. Which platform ultimately prevails remains to be seen, as supply challenges across the industry persist.
+Related IDC research
+For comprehensive vendor share, forecast data, and taxonomy detail, see:
+IDC Worldwide Quarterly AI Infrastructure Tracker
+. For taxonomy and methodology definitions, see:
+Worldwide Artificial Intelligence Infrastructure Tracker Taxonomy, 2025
+.
+Juan Pablo Seminara																	-
+Research Director, Worldwide Enterprise Infrastructure Trackers
+Analyst Profile
+Juan Pablo Seminara is the Research Director for IDC's Worldwide Enterprise Infrastructure Trackers within the Data & Analytics organization. Mr. Seminara is responsible for leading a team of analysts in charge of the product concept, roadmap, implementation, execution, and client…
+Subscribe to our blog
+Stay ahead in a rapidly evolving market. Get timely insights, trusted research, and actionable guidance to help you make smarter technology and business decisions — whether you’re driving innovation, evaluating solutions, or shaping strategy.
+Subscribe now
+Covered
+accelerated computing market share
+AI infrastructure forecast
+AI storage refresh cycle
+ARM vs x86 servers
+data center AI investment trends
+hyperscaler AI capex 2026
+rack-scale GPU server spending
+sovereign AI infrastructure spending
+Subscribe to our blog
+IDC Environmental Policy
+International Data Group is committed to protecting the environment, the health and safety of our employees, and the community in which we conduct our business. It is our policy to seek continual improvement throughout our business operations to lessen our impact on the local and global environment. We are committed to environmental excellence, pollution prevention and to purchasing products that reduce the use of natural resources.
+We fulfill this mission by a commitment to:
+Encouraging all partners to share in our mission
+Understanding environmental issues and sharing information with our partners
+Recognizing that fiscal responsibility is essential to our environmental future
+Instilling environmental responsibility as a corporate value
+Developing innovative and flexible solutions to bring about change
+Using our platforms and position in the IT industry to promote sustainability
+Minimize air travel to help reduce our impact on the environment
+Minimize use of materials and energy consumption in our offices
+Create a working environment that efficiently uses our office space
+Develop and maintain a hybrid working model that benefits both our employees and business partners
+Encourage employees to measure, minimize and collaborate on reducing energy consumption at home and in the office
+Engaging employees and promoting active participation in environmental and sustainability initiatives
+×
+Home
+IDC Corporate
+One Beacon St
+Suite 33100
+Boston MA 02108
++1.508.872.8200
+Products
+Research
+Data & Analytics
+IDC Quanta
+Custom Solutions
+Events
+Company
+About IDC
+Analysts
+Careers
+Offices
+Contact Us
+IDC Environmental Policy
+Resources
+MyIDC
+Events & Webinars
+Blog
+Resource Center
+Definitions
+Social Media
+IDC on LinkedIn
+IDC on X
+Copyright 2026 IDC. All rights reserved. IDC is an IDG company.
+Legal Links
+Trust
+Privacy Policy
+CCPA
+Support
+Terms of Use
+Permissions
+Subscribe
+Unsubscribe
+Copyright 2026 IDC. All rights reserved. IDC is an IDG company.
+Leaving?
+You are about to leave this section. Do you wish to continue?
+Cancel
+Continue
+×

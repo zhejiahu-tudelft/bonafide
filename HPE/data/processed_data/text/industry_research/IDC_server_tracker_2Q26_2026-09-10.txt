@@ -1,0 +1,107 @@
+Server revenue hits new record high - IT-Online
+Home
+Business IT
+Channelwise
+Subscribe
+Africa
+Company News
+Industry Areas
+IT in Education
+IT Consumables
+IT in Financial Services
+IT in Government
+IT in Health
+IT in Manufacturing
+IT in Retail
+IT in Sport
+Technology Areas
+Cloud Computing
+Application Development
+Application Software
+Business Intelligence
+Cloud Resources
+Compliance
+Contact Centres
+Digital Lifestyle
+Document Management
+E-Commerce
+Enterprise Business
+Enterprise Mobility
+Gaming
+HR and Payroll
+IT Service Management
+Lifecycle Management
+Linux & Open Source
+Mobile Computing
+Office Equipment
+Peripheral Reviews
+Personal Computers
+Power & Cooling
+Research
+Risk Management
+Security
+Servers
+Service Oriented Architecture
+Storage
+Supply Chain Management
+Telecommunications
+Unified Comms
+Virtualisation
+Visual Instruments
+Mobile Lifestyle Hub
+Select Page
+Server revenue hits new record high
+Sep 14, 2026
+The worldwide server market reached a record $166,3-billion in vendor revenue in the second quarter of 2026 – the highest quarterly total in the history of IDC’s
+Worldwide Quarterly Server Tracker
+, surpassing the previous high of $125,3-billion set in the fourth quarter of 2025.
+The result marks a 52% year-over-year increase and a 35,7% sequential gain.
+AI infrastructure investment remained the dominant driver of market growth, with this quarter’s gain reflecting both a resumption of unit shipment growth and continued increases in average selling prices across accelerated and non-accelerated systems alike.
+Two distinct dynamics are shaping the market. First, AI infrastructure investment from hyperscalers and large cloud providers continues to broaden across regions and use cases, with no signs of a pullback.
+Second, worldwide unit shipments grew 15,4% year-over-year alongside revenue growth of 52.0%, as a resumption in shipment volume combined with elevated memory pricing and continued component allocation, which pushed average selling prices higher across GPU-accelerated and non-accelerated systems alike.
+According to IDC, both incremental unit volume and price/mix are now contributing to near-term server market growth, with average selling prices continuing to climb even as shipment volumes recover.
+A record $166,3-billion in vendor revenue in 2Q26, the highest quarterly total in tracker history, reflecting 52% year-over-year growth from $109,4-billion in 2Q25.
+Non-x86 servers reached $74,4-billion, up 146% YoY, now representing 44,8% of total market revenue, closing in further on x86’s share.
+x86 server revenue reached $91,9-billion, up 16,1% YoY, even as non-x86 platforms captured a faster-growing share of AI-driven deployments.
+GPU-accelerated servers generated $87,4-billion (+28,1% YoY), representing 52,6% of total market revenue. Other Accelerated servers surged 237,6% YoY to $27,5-billion.
+Worldwide server unit shipments grew 15,4% year-over-year, alongside revenue growth of 52%, confirming that this quarter’s growth was driven by both a resumption in shipment volume and continued increases in average selling prices.
+ODM Direct revenue share compressed further from 60,6% in 2Q25 to 53,9% in 2Q26, as branded OEM vendors continued to capture a growing share of AI infrastructure deployments; ODM Direct revenue itself grew 35,2% YoY, trailing the broader market.
+The top three fastest-growing regions were Canada (+202,6%), Central & Eastern Europe (+98,3%), and Middle East & Africa (+68,8% YoY).
+The 2Q26 results confirm that AI infrastructure investment remains a durable, global, multi-sector phenomenon.
+Hyperscalers and large cloud service providers continued to commit substantial capital expenditure to GPU-optimised infrastructure, while AI infrastructure adoption continued to broaden beyond the largest public clouds into enterprise and government-directed deployments across a growing number of countries, a policy-and capex-driven demand layer that remains largely insulated from near-term commercial budget cycles.
+The defining story of the quarter, however, is what happened to pricing. Average selling prices for GPU-accelerated servers rose from roughly $118 600 to nearly $170 200 (+43,6% YoY), even as GPU unit shipments fell 10,8% year over year.
+In the non-accelerated segment, average selling prices climbed from about $9 800 to nearly $13 000 (+33,5% YoY) alongside a 16,7% increase in units, underscoring that both price and volume are contributing to growth in that segment.
+Vendors continue to cite DRAM and NAND flash pricing, along with component allocation, as the principal driver of these increases. IDC views this as a continuation of the supply-constrained environment first flagged in 1Q26, as buyers are increasingly securing components and finished systems further in advance to guard against further price inflation and allocation risk, a pattern consistent with inventory buildup ahead of anticipated component shortages rather than a change in underlying demand.
+That constraint is beginning to extend beyond components to the data centers themselves, with the pace of AI deployments increasingly gated by power availability, cooling, and facility readiness in addition to chip and memory supply.
+“The notable shift in the server market this quarter is in who is now buying,” says Kuba Stolarski, research vice-president of IDC’s Computing Platforms and Service Provider Infrastructure. “Demand is broadening beyond the largest hyperscalers toward specialised cloud providers (or neoclouds) scaling quickly, sovereign AI programs backed by public capital, and enterprises beginning to adopt agentic and inferencing workloads.
+“Each affects the market differently: neoclouds add scale, sovereign programs add spending that is less exposed to commercial budget cycles, and enterprise adoption adds longer-run upside as inference and agentic workloads move into production.
+“With demand increasingly committed well in advance, what will separate vendors is who can convert that demand into sales, as power and facility readiness become as binding as component supply.”
+Regional market results
+The US remained the dominant market, generating $112,2-billion (+54,9% YoY), representing 67,4% of global revenue. PRC reached $26,4-billion (+43,4% YoY), reaccelerating from recent quarters. APeJC grew 31,5% to $10,9-billion, while Western Europe grew 62,7% to $9,1-billion and Central & Eastern Europe grew 98,3% to $0,7-billion off a small base. Canada (+202,6%) was again the fastest-growing region worldwide, followed by Middle East & Africa (+68,8%) and Latin America (+32,8%), underscoring the increasingly global distribution of AI-driven server demand. Japan grew a modest 11,1% YoY.
+Market standings by company
+Branded OEM vendors extended their broad-based share gains against ODM Direct for a second consecutive quarter, led by Dell Technologies, which extended its exceptional run to retain the top position with a 13,4% revenue share and 165,4% YoY growth, again the fastest growth among the top five vendors, driven by continued record AI server orders.
+Supermicro held second place with 6,1% revenue share, growing 97,2% YoY.
+Lenovo retained third position with 5,1% share and 99,6% growth, while Hewlett Packard Enterprise ranked fourth with 3,5% share (+46% YoY) and IEIT Systems rounded out the top five with 2,4% share (-8,1% YoY).
+ODM Direct retained its dominant absolute position at $89,7-billion and its revenue grew 35,2% YoY, though its share compressed further, from 60,6% in 2Q25 to 53,9% in 2Q26 — as branded OEM vendors grew even faster and continued to capture a growing share of AI infrastructure deployments.
+Company | 2Q26 Revenue | 2Q26 Share | 2Q25 Revenue | 2Q25 Share | YoY Growth
+1. Dell Technologies | $22,240.6M | 13.4% | $8,381.2M | 7.7% | +165.4%
+2. Supermicro | $10,177.0M | 6.1% | $5,159.9M | 4.7% | +97.2%
+3. Lenovo | $8,411.3M | 5.1% | $4,214.3M | 3.9% | +99.6%
+4. Hewlett Packard Enterprise | $5,868.4M | 3.5% | $4,018.4M | 3.7% | +46.0%
+5. IEIT Systems | $4,001.5M | 2.4% | $4,356.0M | 4.0% | -8.1%
+ODM Direct | $89,660.3M | 53.9% | $66,328.4M | 60.6% | +35.2%
+Rest of Market | $25,960.1M | 15.6% | $16,928.7M | 15.5% | +53.4%
+Total | $166,319.2M | 100.0% | $109,386.8M | 100.0% | +52.0%
+Top 5 Companies — Worldwide Server Market, 2Q26 (Vendor Revenue in US$ millions)
+;
+Source: IDC Worldwide Quarterly Server Tracker, September 10, 2026
+Home
+Business IT
+Channelwise
+Subscribe
+Facebook
+X
+Designed by
+Elegant Themes
+| Powered by
+WordPress

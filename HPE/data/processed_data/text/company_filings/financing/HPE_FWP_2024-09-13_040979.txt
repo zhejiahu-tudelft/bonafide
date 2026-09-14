@@ -1,0 +1,64 @@
+FWP
+1
+ny20035638x10_fwp.htm
+FWP
+Pricing Term Sheet | Free Writing Prospectus
+dated as of September 12, 2024 | Filed Pursuant to Rule 433
+Supplementing the
+Preliminary Prospectus Supplement dated September 10, 2024 to the
+Prospectus dated December 22, 2023
+Registration No. 333-276221
+Pricing Term Sheet
+Hewlett Packard Enterprise Company
+$1,250,000,000 4.450% Notes due 2026 (the “2026 Notes”)
+$1,250,000,000 4.400% Notes due 2027 (the “2027 Notes”)
+$1,750,000,000 4.550% Notes due 2029 (the “2029 Notes”)
+$1,250,000,000 4.850% Notes due 2031 (the “2031 Notes”)
+$2,000,000,000 5.000% Notes due 2034 (the “2034 Notes”)
+$1,500,000,000 5.600% Notes due 2054 (the “2054 Notes”)
+The information in this pricing term sheet should be read together with Hewlett Packard Enterprise Company’s preliminary prospectus supplement dated September 10, 2024 (the “Preliminary Prospectus
+Supplement”), including the documents incorporated by reference therein and the related base prospectus dated December 22, 2023, each filed pursuant to Rule 424(b) under the Securities Act of 1933, as amended, Registration No. 333-276221. Capitalized
+terms not defined in this pricing term sheet have the meanings given to such terms in the Preliminary Prospectus Supplement. The information in this pricing term sheet supersedes the information in the Preliminary Prospectus Supplement and the
+accompanying prospectus to the extent it is inconsistent with the information in the Preliminary Prospectus Supplement or the accompanying prospectus. All references to dollar amounts are references to U.S. dollars.
+Issuer: | Hewlett Packard Enterprise Company
+Ratings (Moody’s / S&P / Fitch)*: | Baa2/BBB/BBB+
+Trade Date: | September 12, 2024
+Settlement Date**: | September 26, 2024 (T+10)
+Maturity Date: | 2026 Notes:  September 25, 2026 2027 Notes:  September 25, 2027 2029 Notes:  October 15, 2029 2031 Notes:  October 15, 2031 2034 Notes:  October 15, 2034 2054 Notes:  October 15, 2054
+Principal Amount Offered: | 2026 Notes:  $1,250,000,000 2027 Notes:  $1,250,000,000 2029 Notes:  $1,750,000,000 2031 Notes:  $1,250,000,000 2034 Notes:  $2,000,000,000 2054 Notes:  $1,500,000,000
+Price to Public (Issue Price): | 2026 Notes:  99.996% of the principal amount 2027 Notes:  99.953% of the principal amount 2029 Notes:  99.894% of the principal amount 2031 Notes:  99.908% of the principal amount 2034 Notes:  99.078% of the principal amount 2054 Notes:  98.086% of the principal amount
+Interest Rate: | 2026 Notes:  4.450% 2027 Notes:  4.400% 2029 Notes:  4.550% 2031 Notes:  4.850% 2034 Notes:  5.000% 2054 Notes:  5.600%
+Interest Payment Dates: | 2026 Notes:  Semi-annually in arrears on March 25 and September 25, beginning on March 25, 2025 2027 Notes:  Semi-annually in arrears on March 25 and September 25, beginning on March 25, 2025 2029 Notes:  Semi-annually in arrears on April 15 and October 15, beginning on April 15, 2025 2031 Notes:  Semi-annually in arrears on April 15 and October 15, beginning on April 15, 2025 2034 Notes:  Semi-annually in arrears on April 15 and October 15, beginning on April 15, 2025 2054 Notes:  Semi-annually in arrears on April 15 and October 15, beginning on April 15, 2025
+Benchmark Treasury: | 2026 Notes:  3.750% UST due August 31, 2026 2027 Notes:  3.750% UST due August 15, 2027 2029 Notes:  3.625% UST due August 31, 2029 2031 Notes:  3.750% UST due August 31, 2031 2034 Notes:  3.875% UST due August 15, 2034 2054 Notes:  4.625% UST due May 15, 2054
+Benchmark Treasury Price and Yield: | 2026 Notes:  100-05 7/8 ; 3.652% 2027 Notes:  100-20+; 3.517% 2029 Notes:  100-22; 3.473% 2031 Notes:  101-04 1/4 ; 3.565% 2034 Notes:  101-22+; 3.668% 2054 Notes:  111-03; 3.984%
+Spread to Benchmark Treasury: | 2026 Notes:  +80 basis points 2027 Notes:  +90 basis points 2029 Notes:  +110 basis points 2031 Notes:  +130 basis points 2034 Notes:  +145 basis points 2054 Notes:  +175 basis points
+Re-offer Yield: | 2026 Notes:  4.452% 2027 Notes:  4.417% 2029 Notes:  4.573% 2031 Notes:  4.865% 2034 Notes:  5.118% 2054 Notes:  5.734%
+Day Count Convention: | 30/360
+Make-whole Call: | 2026 Notes:  Treasury Rate + 12.5 basis points at any time prior to September 25, 2026 (the maturity date of the 2026 Notes) 2027 Notes:  Treasury Rate + 15 basis points at any time prior to August 25, 2027 (the Par Call Date of the 2027 Notes) 2029 Notes:  Treasury Rate + 20 basis points at any time prior to September 15, 2029 (the Par Call Date of the 2029 Notes) 2031 Notes:  Treasury Rate + 20 basis points at any time prior to August 15, 2031 (the Par Call Date of the 2031 Notes) 2034 Notes:  Treasury Rate + 25 basis points at any time prior to July 15, 2034 (the Par Call Date of the 2034 Notes) 2054 Notes:  Treasury Rate + 30 basis points at any time prior to April 15, 2054 (the Par Call Date of the 2054 Notes)
+Par Call: | 2027 Notes:  At any time on or after August 25, 2027 2029 Notes:  At any time on or after September 15, 2029 2031 Notes:  At any time on or after August 15, 2031 2034 Notes:  At any time on or after July 15, 2034 2054 Notes:  At any time on or after April 15, 2054
+Special Mandatory Redemption: | If (x) the consummation of the Juniper Acquisition does not occur on or before the later of (i) the date that is five business days after October 9, 2025 and (ii) the date that is five business days after any later date to which we and
+Juniper may agree to extend the “End Date” in the Merger Agreement or (y) we notify the Trustee that we will not pursue the consummation of the Juniper Acquisition, we will be required to redeem the 2029 Notes, the 2031 Notes, the 2034 Notes
+and the 2054 Notes (collectively, the “mandatorily redeemable notes”) at a redemption price equal to 101% of the aggregate principal amount of the mandatorily redeemable notes, plus accrued and unpaid interest, if any, to, but excluding, the
+special mandatory redemption date.  The 2026 Notes and the 2027 Notes are not subject to the special mandatory redemption.
+Concurrent Preferred Offering: | On September 10, 2024, the Issuer priced 30,000,000 shares (including the exercise of the over-allotment option by the underwriters thereto) of its 7.625% Series C Mandatory Convertible Preferred Stock, par value $0.01 per share (the
+“Concurrent Preferred Offering”).  There can be no assurance that the Concurrent Preferred Offering will be completed. The closing of this offering of the notes is not subject to the completion of the Concurrent Preferred Offering. The Issuer
+estimates that the net proceeds to the Issuer from the Concurrent Preferred Offering, if completed, after deducting underwriting discounts and commissions and estimated expenses payable by the Issuer (and including the exercise of the
+over-allotment option by the underwriters thereto), will be approximately $1.46 billion.
+CUSIP / ISIN: | 2026 Notes:  42824C BR9 / US42824CBR97 2027 Notes:  42824C BS7 / US42824CBS70 2029 Notes:  42824C BT5 / US42824CBT53 2031 Notes:  42824C BU2 / US42824CBU27 2034 Notes:  42824C BV0 / US42824CBV00 2054 Notes:  42824C BW8 / US42824CBW82
+Denominations: | $2,000 × $1,000
+Joint Book-Running Managers: | Citigroup Global Markets Inc. J.P. Morgan Securities LLC Mizuho Securities USA LLC
+Joint Bookrunners: | Barclays Capital Inc. BNP Paribas Securities Corp. Deutsche Bank Securities Inc. HSBC Securities (USA) Inc. Wells Fargo Securities, LLC
+Co-Managers: | ANZ Securities, Inc. CIBC World Markets Corp. Credit Agricole Securities (USA) Inc. ING Financial Markets LLC Loop Capital Markets LLC NatWest Markets Securities Inc. Oversea-Chinese Banking Corporation Limited Santander US Capital Markets LLC SG Americas Securities, LLC Standard Chartered Bank TD Securities (USA) LLC U.S. Bancorp Investments, Inc.
+________________________________________________________________________
+*A securities rating is not a recommendation to buy, sell or hold securities and may be subject to revision or withdrawal at any time.
+**We expect that delivery of the notes will be made against payment therefor on or about the settlement date specified in this pricing term sheet, which will be the tenth business day following the date of the pricing of
+the notes, or “T+10.”  Under Rule 15c6‑1 of the Securities Exchange Act of 1934, as amended, trades in the secondary market generally are required to settle in one business day, unless the parties to any such trade expressly agree otherwise.
+Accordingly, purchasers who wish to trade the notes on any date prior to the first business day before delivery will be required, by virtue of the fact that the notes initially will settle in T+10, to specify alternative settlement arrangements to
+prevent a failed settlement and should consult their own advisors.
+*****
+The Issuer has filed a registration statement (including a prospectus) with the Securities and Exchange Commission (the “SEC”) for the offering to which this pricing term sheet relates. Before you invest, you should read
+the prospectus in that registration statement, the related preliminary prospectus supplement and other documents the Issuer has filed with the SEC for more complete information about the Issuer and this offering.  You may get these documents for free
+by visiting EDGAR on the SEC website at www.sec.gov. Interested parties may also obtain the prospectus and the related preliminary prospectus supplement by requesting it from Citigroup Global Markets Inc. toll free at 1-800-831-9146, J.P. Morgan
+Securities LLC collect at 1-212-834-4533 or Mizuho Securities USA LLC toll free at 1-866-271-7403.
+ANY DISCLAIMERS OR OTHER NOTICES THAT MAY APPEAR BELOW ARE NOT APPLICABLE TO THIS PRICING TERM SHEET AND SHOULD BE DISREGARDED.  SUCH DISCLAIMERS OR OTHER NOTICES WERE AUTOMATICALLY GENERATED AS A RESULT OF THIS PRICING TERM SHEET BEING SENT VIA
+BLOOMBERG OR ANOTHER MAIL SYSTEM.

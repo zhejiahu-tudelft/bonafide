@@ -1,0 +1,59 @@
+FWP
+1
+ny20067190x8_fwp.htm
+FWP
+Pricing Term Sheet dated as of March 16, 2026 | Free Writing Prospectus Filed Pursuant to Rule 433 Supplementing the Preliminary Prospectus Supplement dated March 16, 2026 to the Prospectus dated December 22, 2023 Registration No. 333-276221
+Pricing Term Sheet
+Hewlett Packard Enterprise Company
+$500,000,000 4.500% Notes due 2028  (the “2028 Notes”)
+$600,000,000 4.600% Notes due 2029  (the “2029 Notes”)
+$600,000,000 5.250% Notes due 2033  (the “2033 Notes”)
+(together, the “Fixed Rate Notes”)
+$300,000,000 Floating Rate Notes due 2028 (the “Floating Rate Notes”
+and, together with the Fixed Rate Notes, the “Notes”)
+The information in this pricing term sheet should be read together with Hewlett Packard Enterprise Company’s preliminary prospectus supplement dated March 16, 2026 (the “Preliminary Prospectus Supplement”), including
+the documents incorporated by reference therein and the related base prospectus dated December 22, 2023, each filed pursuant to Rule 424(b) under the Securities Act of 1933, as amended, Registration No. 333-276221. Capitalized terms not defined in
+this pricing term sheet have the meanings given to such terms in the Preliminary Prospectus Supplement. The information in this pricing term sheet supersedes the information in the Preliminary Prospectus Supplement and the accompanying prospectus to
+the extent it is inconsistent with the information in the Preliminary Prospectus Supplement or the accompanying prospectus. All references to dollar amounts are references to U.S. dollars.
+Terms Applicable to the Notes
+Issuer: | Hewlett Packard Enterprise Company
+Ratings (Moody’s / S&P / Fitch)*: | Baa2/BBB/BBB+
+Trade Date: | March 16, 2026
+Settlement Date**: | March 23, 2026 (T+5)
+Denominations: | $2,000 × $1,000
+Joint Book-Running Managers: | Barclays Capital Inc. BofA Securities, Inc. SG Americas Securities, LLC Wells Fargo Securities, LLC
+Co-Managers: | BNP Paribas Securities Corp. Citigroup Global Markets Inc. HSBC Securities (USA) Inc. J.P. Morgan Securities LLC Mizuho Securities USA LLC Deutsche Bank Securities Inc. NatWest Markets Securities Inc. Santander US Capital Markets LLC TD Securities (USA) LLC Goldman Sachs & Co. LLC ING Financial Markets LLC Loop Capital Markets LLC U.S. Bancorp Investments, Inc. ANZ Securities, Inc. CIBC World Markets Corp. Credit Agricole Securities (USA) Inc. Oversea-Chinese Banking Corporation Limited Standard Chartered Bank
+Terms Applicable to the Fixed Rate Notes
+Principal Amount Offered: | 2028 Notes:  $500,000,000 2029 Notes:  $600,000,000 2033 Notes:  $600,000,000
+Maturity Date: | 2028 Notes:  March 23, 2028 2029 Notes:  March 23, 2029 2033 Notes:  April 1, 2033
+Price to Public (Issue Price): | 2028 Notes:  99.936% of the principal amount 2029 Notes:  99.875% of the principal amount 2033 Notes:  99.842% of the principal amount
+Interest Rate: | 2028 Notes:  4.500% 2029 Notes:  4.600% 2033 Notes:  5.250%
+Interest Payment Dates: | 2028 Notes:  Semi-annually in arrears on March 23 and September 23, beginning on September 23, 2026 2029 Notes:  Semi-annually in arrears on March 23 and September 23, beginning on September 23, 2026 2033 Notes:  Semi-annually in arrears on April 1 and October 1, beginning on October 1, 2026
+Benchmark Treasury: | 2028 Notes:  3.375% UST due February 29, 2028 2029 Notes:  3.500% UST due March 15, 2029 2033 Notes:  3.750% UST due February 28, 2033
+Benchmark Treasury Price and Yield: | 2028 Notes:  99-13+; 3.684% 2029 Notes:  99-14+; 3.695% 2033 Notes:  98-14+; 4.007%
+Spread to Benchmark Treasury: | 2028 Notes:  +85 basis points 2029 Notes:  +95 basis points 2033 Notes:  +127 basis points
+Re-offer Yield: | 2028 Notes:  4.534% 2029 Notes:  4.645% 2033 Notes:  5.277%
+Day Count Convention: | 30/360
+Make-whole Call: | 2028 Notes:  Treasury Rate +15 basis points at any time prior to March 23, 2028 (the maturity date of the 2028 Notes) 2029 Notes:  Treasury Rate +15 basis points at any time prior to February 23, 2029 (the Par Call Date of the 2029 Notes) 2033 Notes:  Treasury Rate +20 basis points at any time prior to February 1, 2033 (the Par Call Date of the 2033 Notes)
+Par Call: | 2028 Notes:  N/A 2029 Notes:  At any time on or after February 23, 2029 2033 Notes:  At any time on or after February 1, 2033
+CUSIP / ISIN: | 2028 Notes:  42824C CC1 / US42824CCC10 2029 Notes:  42824C CD9 / US42824CCD92 2033 Notes:  42824C CE7 / US42824CCE75
+Terms Applicable to the Floating Rate Notes
+Principal Amount Offered: | $300,000,000
+Maturity Date: | March 23, 2028
+Price to Public (Issue Price): | 100.000% of the principal amount
+Interest Rate: | Compounded SOFR plus 98 basis points
+Interest Payment Dates: | Quarterly on March 23, June 23, September 23 and December 23 of each year, beginning on June 23, 2026
+Day Count Convention: | Actual/360
+CUSIP / ISIN: | 42824C CF4 / US42824CCF41
+*A securities rating is not a recommendation to buy, sell or hold securities and may be subject to revision or withdrawal at any time.
+**We expect that delivery of the notes will be made against payment therefor on or about the settlement date specified in this pricing term sheet, which will be the fifth business day following the date of the pricing of
+the notes, or “T+5.”  Under Rule 15c6‑1 of the Securities Exchange Act of 1934, as amended, trades in the secondary market generally are required to settle in one business day, unless the parties to any such trade expressly agree otherwise.
+Accordingly, purchasers who wish to trade the notes on any date prior to the first business day before delivery will be required, by virtue of the fact that the notes initially will settle in T+5, to specify alternative settlement arrangements to
+prevent a failed settlement and should consult their own advisors.
+*****
+The Issuer has filed a registration statement (including a prospectus) with the Securities and Exchange Commission (the “SEC”) for the offering to which this pricing term sheet relates. Before you invest, you should read
+the prospectus in that registration statement, the related preliminary prospectus supplement and other documents the Issuer has filed with the SEC for more complete information about the Issuer and this offering.  You may get these documents for free
+by visiting EDGAR on the SEC website at www.sec.gov. Interested parties may also obtain the prospectus and the related preliminary prospectus supplement by requesting it from Barclays Capital Inc. toll free at 1-888-603-5847, BofA Securities, Inc.
+toll free at 1-800-294-1322, SG Americas Securities, LLC toll free at 1-855-881-2108 or Wells Fargo Securities, LLC. toll free at 1-800-645-3751.
+ANY DISCLAIMERS OR OTHER NOTICES THAT MAY APPEAR BELOW ARE NOT APPLICABLE TO THIS PRICING TERM SHEET AND SHOULD BE DISREGARDED.  SUCH DISCLAIMERS OR OTHER NOTICES WERE AUTOMATICALLY GENERATED AS A RESULT OF THIS PRICING TERM SHEET BEING SENT VIA
+BLOOMBERG OR ANOTHER MAIL SYSTEM.

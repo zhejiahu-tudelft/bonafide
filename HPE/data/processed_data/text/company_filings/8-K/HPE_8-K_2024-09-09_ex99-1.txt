@@ -1,0 +1,1472 @@
+EX-99.1
+3
+ef20035623_ex99-1.htm
+EXHIBIT 99.1
+Exhibit 99.1
+Juniper Network, Inc.
+Index to Consolidated Financial Statements
+Page
+Consolidated Statements of Operations | 5
+Consolidated Statements of Comprehensive Income | 6
+Consolidated Balance Sheets | 7
+Consolidated Statements of Cash Flows | 8
+Consolidated Statements of Changes in Stockholders' Equity | 9
+Notes to Consolidated Financial Statements | 10
+Note 1. Description of Business, Basis of Presentation and Significant Accounting Policies | 10
+Note 2. Cash Equivalents and Investments | 19
+Note 3. Fair Value Measurements | 22
+Note 4. Derivative Instruments | 24
+Note 5. Goodwill and Purchased Intangible Assets | 26
+Note 6. Other Financial Information | 27
+Note 7. Restructuring Charges | 30
+Note 8. Debt and Financing | 31
+Note 9. Equity | 33
+Note 10. Employee Benefit Plans | 34
+Note 11. Segments | 37
+Note 12. Income Taxes | 38
+Note 13. Net Income per Share | 41
+Note 14. Commitments and Contingencies | 42
+Note 15. Subsequent Events | 44
+1
+Report of Independent Registered Public Accounting Firm
+To the Stockholders and the Board of Directors of Juniper Networks, Inc.
+Opinion on the Financial Statements
+We have audited the accompanying consolidated balance sheets of Juniper Networks, Inc. (the Company) as of December 31, 2023 and
+2022, the related consolidated statements of operations, comprehensive income, changes in stockholders' equity and cash flows for each of the three years in the period ended December 31, 2023, and the related notes and the financial statement
+schedule listed in the Index at Item 15(a)2 (collectively referred to as the “consolidated financial statements”). In our opinion, the consolidated financial statements present fairly, in all material respects, the financial position of the
+Company at December 31, 2023 and 2022, and the results of its operations and its cash flows for each of the three years in the period ended December 31, 2023, in conformity with U.S. generally accepted accounting principles.
+We also have audited, in accordance with the standards of the Public Company Accounting Oversight Board (United States) (PCAOB),
+the Company’s internal control over financial reporting as of December 31, 2023, based on criteria established in Internal Control-Integrated Framework issued by the Committee of Sponsoring Organizations of the Treadway Commission (2013
+framework), and our report dated February 7, 2024 expressed an unqualified opinion thereon.
+Basis for Opinion
+These financial statements are the responsibility of the Company’s management. Our responsibility is to express an opinion on the
+Company’s financial statements based on our audits. We are a public accounting firm registered with the PCAOB and are required to be independent with respect to the Company in accordance with the U.S. federal securities laws and the applicable
+rules and regulations of the Securities and Exchange Commission and the PCAOB.
+We conducted our audits in accordance with the standards of the PCAOB. Those standards require that we plan and perform the audit
+to obtain reasonable assurance about whether the financial statements are free of material misstatement, whether due to error or fraud. Our audits included performing procedures to assess the risks of material misstatement of the financial
+statements, whether due to error or fraud, and performing procedures that respond to those risks. Such procedures included examining, on a test basis, evidence regarding the amounts and disclosures in the financial statements. Our audits also
+included evaluating the accounting principles used and significant estimates made by management, as well as evaluating the overall presentation of the financial statements. We believe that our audits provide a reasonable basis for our opinion.
+Critical Audit Matters
+The critical audit matters communicated below are matters arising from the current period audit of the financial statements that
+were communicated or required to be communicated to the audit committee and that: (1) relate to accounts or disclosures that are material to the financial statements and (2) involved our especially challenging, subjective or complex judgments.
+The communication of critical audit matters does not alter in any way our opinion on the consolidated financial statements, taken as a whole, and we are not, by communicating the critical audit matters below, providing separate opinions on the
+critical audit matters or on the accounts or disclosures to which they relate.
+2
+Identification of distinct performance obligations in revenue contracts
+Description of the matter | As described in Note 1 to the consolidated financial statements, the Company’s contracts with customers sometimes contain
+multiple performance obligations, which are accounted for separately if they are distinct. In such cases, the transaction price is then allocated to the distinct performance obligations on a relative standalone selling price basis and
+revenue is recognized when control of the distinct performance obligation is transferred. For example, product revenue is recognized at the time of hardware shipment or delivery of software license, and support revenue is recognized
+over time as the services are performed. Auditing the Company’s revenue recognition was challenging, specifically related to identifying and determining the
+distinct performance obligations and the associated timing of revenue recognition. For example, there were nonstandard terms and conditions that required judgment to determine the distinct performance obligations and the impact on the
+timing of revenue recognition.
+How we addressed the matter in our audit | We obtained an understanding, evaluated the design, and tested the operating effectiveness of controls over the Company’s
+revenue recognition process, including controls to identify and determine the distinct performance obligations and the timing of revenue recognition. Among the procedures we performed to test the identification and determination of the distinct performance obligations and
+the timing of revenue recognition, we read the executed contract and purchase order to understand the arrangement, identified the performance obligation(s), determined the distinct performance obligations, and evaluated the timing and
+amount of revenue recognized for a sample of individual sales transactions. We evaluated the accuracy of the Company’s contract summary documentation, specifically related to the identification and determination of distinct performance
+obligations and the timing of revenue recognition.
+Inventory Valuation & Contract Manufacturer Liabilities
+Description of the matter | As discussed in Note 1 of the consolidated financial statements, the Company’s inventories are stated at the lower of cost
+or net realizable value. The Company’s inventory balance totaled $1.0 billion on December 31, 2023. The Company records a loss provision when inventory is determined to be in excess of anticipated demand, or considered obsolete, to
+adjust inventory to its estimated realizable value. The Company records a liability and recognizes a corresponding loss for non-cancellable inventory purchase commitments with contract manufacturers that are in excess of the Company’s
+demand forecasts, or that are considered obsolete (“contract manufacturer liability”). Auditing management’s assessment of net realizable value for inventory, and contract manufacturer liabilities was complex
+and highly judgmental due to the assessment of management’s estimates of forecasted product demand, which can be impacted by changes in overall customer demand, changes in the timing of the introduction and customer adoption of new
+products, adjustments to manufacturing and engineering schedules, and overall economic and market conditions.
+How we addressed the matter in our audit | We obtained an understanding, evaluated the design and tested the operating effectiveness of controls over the Company’s
+determination of the net realizable value of inventory and the contract manufacturer liability. This included controls over the determination of forward-looking demand and production forecasts, and the evaluation of the accuracy and
+completeness of the inventory provision and contract manufacturer liability. To test the inventory provision and contract manufacturer liability, we performed audit procedures that included, among
+others, assessing the Company’s methodology over the computation of the loss provision and liability, testing the significant assumptions and the underlying inputs used by the Company in its analysis including historical sales trends,
+expectations regarding future sales, changes in the Company’s business, customer base and other relevant factors.
+/s/ Ernst & Young LLP
+We have served as the Company’s auditor since 1996.
+San Jose, California
+February 7, 2024
+3
+Report of Independent Registered Public Accounting Firm
+To the Stockholders and the Board of Directors of Juniper Networks, Inc.
+Opinion on Internal Control over Financial Reporting
+We have audited Juniper Networks, Inc.'s internal control over financial reporting as of December 31, 2023, based on criteria
+established in Internal Control-Integrated Framework issued by the Committee of Sponsoring Organizations of the Treadway Commission (2013 framework) (the COSO criteria). In our opinion, Juniper Networks, Inc. (the Company) maintained, in all
+material respects, effective internal control over financial reporting as of December 31, 2023, based on the COSO criteria.
+We also have audited, in accordance with the standards of the Public Company Accounting Oversight Board (United States) (PCAOB),
+the consolidated balance sheets of the Company as of December 31, 2023 and 2022, and the related consolidated statements of operations, comprehensive income, changes in stockholders' equity and cash flows for each of the three years in the
+period ended December 31, 2023, and the related notes and the financial statement schedule listed in the Index at Item 15(a)2 and our report dated February 7, 2024, expressed an unqualified opinion thereon.
+Basis for Opinion
+The Company’s management is responsible for maintaining effective internal control over financial reporting and for its assessment
+of the effectiveness of internal control over financial reporting included in the accompanying Management's Report on Internal Control over Financial Reporting. Our responsibility is to express an opinion on the Company's internal control over
+financial reporting based on our audit. We are a public accounting firm registered with the PCAOB and are required to be independent with respect to the Company in accordance with the U.S. federal securities laws and the applicable rules and
+regulations of the Securities and Exchange Commission and the PCAOB.
+We conducted our audit in accordance with the standards of the PCAOB. Those standards require that we plan and perform the audit
+to obtain reasonable assurance about whether effective internal control over financial reporting was maintained in all material respects.
+Our audit included obtaining an understanding of internal control over financial reporting, assessing the risk that a material
+weakness exists, testing and evaluating the design and operating effectiveness of internal control based on the assessed risk, and performing such other procedures as we considered necessary in the circumstances. We believe that our audit
+provides a reasonable basis for our opinion.
+Definition and Limitations of Internal Control Over Financial Reporting
+A company's internal control over financial reporting is a process designed to provide reasonable assurance regarding the
+reliability of financial reporting and the preparation of financial statements for external purposes in accordance with generally accepted accounting principles. A company's internal control over financial reporting includes those policies and
+procedures that (1) pertain to the maintenance of records that, in reasonable detail, accurately and fairly reflect the transactions and dispositions of the assets of the company; (2) provide reasonable assurance that transactions are recorded
+as necessary to permit preparation of financial statements in accordance with generally accepted accounting principles, and that receipts and expenditures of the company are being made only in accordance with authorizations of management and
+directors of the company; and (3) provide reasonable assurance regarding prevention or timely detection of unauthorized acquisition, use, or disposition of the company's assets that could have a material effect on the financial statements.
+Because of its inherent limitations, internal control over financial reporting may not prevent or detect misstatements. Also,
+projections of any evaluation of effectiveness to future periods are subject to the risk that controls may become inadequate because of changes in conditions, or that the degree of compliance with the policies or procedures may deteriorate.
+/s/ Ernst & Young LLP
+San Jose, California
+February 7, 2024
+4
+Juniper Networks, Inc.
+Consolidated Statements of Operations
+(In millions, except per share amounts)
+Years Ended December 31,
+2023 | 2022 | 2021
+Net revenues:
+Product | $ | 3,632.5 | $ | 3,539.9 | $ | 3,078.1
+Service | 1,932.0 | 1,761.3 | 1,657.3
+Total net revenues | 5,564.5 | 5,301.2 | 4,735.4
+Cost of revenues:
+Product | 1,781.6 | 1,761.7 | 1,409.4
+Service | 581.0 | 581.2 | 585.9
+Total cost of revenues | 2,362.6 | 2,342.9 | 1,995.3
+Gross margin | 3,201.9 | 2,958.3 | 2,740.1
+Operating expenses:
+Research and development | 1,144.4 | 1,036.1 | 1,007.2
+Sales and marketing | 1,233.9 | 1,133.4 | 1,052.7
+General and administrative | 255.5 | 249.5 | 249.8
+Restructuring charges | 98.0 | 20.2 | 42.9
+Total operating expenses | 2,731.8 | 2,439.2 | 2,352.6
+Operating income | 470.1 | 519.1 | 387.5
+Gain (loss) on privately-held investments, net (1) (2) | (97.3 | ) | 20.4 | 12.7
+Gain on divestiture | - | 45.8 | -
+Loss on extinguishment of debt | - | - | (60.6 | )
+Other expense, net (1) | (23.8 | ) | (49.0 | ) | (29.5 | )
+Income before income taxes and loss from equity method investment | 349.0 | 536.3 | 310.1
+Income tax provision | 29.2 | 60.5 | 57.4
+Loss from equity method investment, net of tax | 9.6 | 4.8 | -
+Net income | $ | 310.2 | $ | 471.0 | $ | 252.7
+Net income per share:
+Basic | $ | 0.97 | $ | 1.46 | $ | 0.78
+Diluted | $ | 0.95 | $ | 1.43 | $ | 0.76
+Shares used in computing net income per share:
+Basic | 320.0 | 322.1 | 324.4
+Diluted | 325.9 | 329.5 | 331.6
+(1) | The prior period amounts have been reclassified to conform to the current period presentation.
+(2) | Privately-held investments represent investments in privately-held debt, redeemable preferred stock securities, and equity investments without readily
+determinable fair value. Refer to Note 2, Cash Equivalents and Investments.
+See accompanying Notes to Consolidated Financial Statements
+5
+Consolidated Statements of Comprehensive Income
+(In millions)
+Years Ended December 31,
+2023 | 2022 | 2021
+Net income | $ | 310.2 | $ | 471.0 | $ | 252.7
+Other comprehensive income (loss), net of tax:
+Available-for-sale debt securities:
+Change in net unrealized gains and losses | 7.1 | (6.5 | ) | (5.0 | )
+Net realized losses (gains) reclassified into net income | - | 0.4 | (1.2 | )
+Net change on available-for-sale debt securities | 7.1 | (6.1 | ) | (6.2 | )
+Cash flow hedges:
+Change in net unrealized gains and losses | 11.7 | 15.7 | (13.5 | )
+Net realized losses (gains) reclassified into net income | 29.1 | 26.8 | (25.2 | )
+Net change on cash flow hedges | 40.8 | 42.5 | (38.7 | )
+Change in foreign currency translation adjustments | (3.0 | ) | (30.1 | ) | (12.8 | )
+Other comprehensive income (loss), net | 44.9 | 6.3 | (57.7 | )
+Comprehensive income | $ | 355.1 | $ | 477.3 | $ | 195.0
+See accompanying Notes to Consolidated Financial Statements
+6
+Consolidated Balance Sheets
+(In millions, except par values)
+December 31, 2023 | December 31, 2022
+ASSETS
+Current assets:
+Cash and cash equivalents | $ | 1,068.1 | $ | 880.1
+Short-term investments | 139.4 | 210.3
+Accounts receivable, net of allowance for doubtful accounts of $9.8 and $11.1 as of December 31, 2023 and 2022,
+respectively | 1,044.1 | 1,227.3
+Inventory | 952.4 | 619.4
+Prepaid expenses and other current assets | 591.5 | 680.0
+Total current assets | 3,795.5 | 3,617.1
+Property and equipment, net | 689.9 | 666.8
+Operating lease assets | 111.4 | 141.6
+Long-term investments | 116.8 | 139.6
+Purchased intangible assets, net | 91.8 | 160.5
+Goodwill | 3,734.4 | 3,734.4
+Other long-term assets | 978.7 | 866.7
+Total assets | $ | 9,518.5 | $ | 9,326.7
+LIABILITIES AND STOCKHOLDERS' EQUITY
+Current liabilities:
+Accounts payable | $ | 295.1 | $ | 347.4
+Accrued compensation | 292.2 | 306.1
+Deferred revenue | 1,130.0 | 1,020.5
+Other accrued liabilities | 386.7 | 404.9
+Total current liabilities | 2,104.0 | 2,078.9
+Long-term debt | 1,616.8 | 1,601.3
+Long-term deferred revenue | 894.9 | 642.6
+Long-term income taxes payable | 204.5 | 279.4
+Long-term operating lease liabilities | 82.9 | 117.7
+Other long-term liabilities | 122.7 | 131.7
+Total liabilities | 5,025.8 | 4,851.6
+Commitments and contingencies (Note 14)
+Stockholders' equity:
+Preferred stock, $0.00001 par value; 10.0 shares authorized; none issued and outstanding | - | -
+Common stock, $0.00001 par value; 1,000.0 shares authorized; 320.3 shares and 322.9 shares issued and outstanding
+as of December 31, 2023 and 2022, respectively | - | -
+Additional paid-in capital | 6,740.0 | 6,846.4
+Accumulated other comprehensive income | 49.1 | 4.2
+Accumulated deficit | (2,296.4 | ) | (2,375.5 | )
+Total stockholders' equity | 4,492.7 | 4,475.1
+Total liabilities and stockholders' equity | $ | 9,518.5 | $ | 9,326.7
+See accompanying Notes to Consolidated Financial Statements
+7
+Consolidated Statements of Cash Flows
+(In millions)
+Years Ended December 31,
+2023 | 2022 | 2021
+Cash flows from operating activities:
+Net income | $ | 310.2 | $ | 471.0 | $ | 252.7
+Adjustments to reconcile net income to net cash provided by operating activities:
+Share-based compensation expense | 279.4 | 209.3 | 222.6
+Depreciation, amortization, and accretion | 194.7 | 217.7 | 237.4
+Deferred income taxes | (262.1 | ) | (222.5 | ) | 71.7
+Provision for inventory excess and obsolescence (1) | 109.8 | 36.9 | 4.9
+Operating lease assets expense | 40.7 | 40.3 | 44.9
+Gain on divestiture | - | (45.8 | ) | -
+Loss (gain) on privately-held investments, net (1) | 97.3 | (20.4 | ) | (12.7 | )
+Loss from equity method investment | 9.6 | 4.8 | -
+Loss on extinguishment of debt | - | - | 60.6
+Impairment of assets (1) | 28.0 | 5.1 | 16.3
+Loss (gain) on non-qualified deferred compensation plan and other (1) | (4.8 | ) | 12.7 | (4.7 | )
+Changes in operating assets and liabilities, net of acquisitions:
+Accounts receivable, net | 183.4 | (232.0 | ) | (31.8 | )
+Inventory (1) | (484.4 | ) | (394.2 | ) | (60.4 | )
+Prepaid expenses and other assets (1) | 182.2 | (299.0 | ) | (249.9 | )
+Accounts payable | (51.9 | ) | 67.4 | 0.2
+Accrued compensation | (13.2 | ) | (23.1 | ) | 70.3
+Income taxes payable | (99.6 | ) | 21.1 | 24.3
+Other accrued liabilities | (7.5 | ) | (3.3 | ) | (85.4 | )
+Deferred revenue | 361.0 | 251.6 | 128.7
+Net cash provided by operating activities | 872.8 | 97.6 | 689.7
+Cash flows from investing activities:
+Purchases of property and equipment | (159.4 | ) | (105.1 | ) | (100.0 | )
+Proceeds from divestiture, net | - | 89.1 | -
+Purchases of available-for-sale debt securities | (155.0 | ) | (104.1 | ) | (649.8 | )
+Proceeds from sales of available-for-sale debt securities | 31.9 | 118.2 | 546.1
+Proceeds from maturities and redemptions of available-for-sale debt securities | 217.3 | 390.3 | 394.0
+Purchases of equity securities | (11.6 | ) | (16.5 | ) | (10.1 | )
+Proceeds from sales of equity securities | 15.7 | 47.7 | 25.6
+Payments for business acquisitions, net of cash and cash equivalents acquired | - | - | (182.6 | )
+Subsequent payments related to acquisitions in prior years | (0.7 | ) | (14.6 | ) | (10.1 | )
+Funding of loan receivable and other | (5.8 | ) | 2.5 | 0.7
+Net cash provided by (used in) investing activities | (67.6 | ) | 407.5 | 13.8
+Cash flows from financing activities:
+Repurchase and retirement of common stock | (397.6 | ) | (315.2 | ) | (443.5 | )
+Proceeds from issuance of common stock | 61.9 | 57.2 | 56.4
+Payment of dividends | (280.8 | ) | (270.4 | ) | (259.1 | )
+Payment of debt | - | - | (423.8 | )
+Payment of debt extinguishment costs | - | - | (58.3 | )
+Payment of debt issuance costs and other | (2.3 | ) | - | (3.4 | )
+Net cash used in financing activities | (618.8 | ) | (528.4 | ) | (1,131.7 | )
+Years Ended December 31,
+2023 | 2022 | 2021
+Effect of foreign currency exchange rates on cash, cash equivalents, and restricted cash | 0.2 | (21.7 | ) | (12.1 | )
+Net increase (decrease) in cash, cash equivalents, and restricted cash | 186.6 | (45.0 | ) | (440.3 | )
+Cash, cash equivalents, and restricted cash at beginning of period | 897.7 | 942.7 | 1,383.0
+Cash, cash equivalents, and restricted cash at end of period | $ | 1,084.3 | $ | 897.7 | $ | 942.7
+Supplemental disclosures of cash flow information:
+Cash paid for interest, net of amounts capitalized | $ | 81.5 | $ | 67.3 | $ | 62.6
+Cash paid for income taxes, net | $ | 400.9 | $ | 253.2 | $ | 113.2
+Non-cash investing activity:
+Equity method investment | $ | - | $ | 40.3 | $ | -
+(1) | The prior period amounts have been reclassified to conform to the current period presentation.
+See accompanying Notes to Consolidated Financial Statements
+8
+Consolidated Statements of Changes in Stockholders' Equity
+(In millions, except per share amounts)
+Shares | Common Stock and Additional Paid-In Capital | Accumulated Other Comprehensive Income (Loss) | Accumulated Deficit | Total Stockholders' Equity
+Balance at December 31, 2020 | 327.7 | $ | 7,156.9 | $ | 55.6 | $ | (2,669.0 | ) | $ | 4,543.5
+Net income | - | - | - | 252.7 | 252.7
+Other comprehensive loss, net | - | - | (57.7 | ) | - | (57.7 | )
+Issuance of common stock | 9.9 | 56.4 | - | - | 56.4
+Common stock assumed upon business combination | - | 2.7 | - | - | 2.7
+Repurchase and retirement of common stock | (16.0 | ) | (206.2 | ) | - | (237.3 | ) | (443.5 | )
+Share-based compensation expense | - | 221.9 | - | - | 221.9
+Payments of cash dividends ($0.80 per share of common stock) | - | (259.1 | ) | - | - | (259.1 | )
+Balance at December 31, 2021 | 321.6 | 6,972.6 | (2.1 | ) | (2,653.6 | ) | 4,316.9
+Net income | - | - | - | 471.0 | 471.0
+Other comprehensive income, net | - | - | 6.3 | - | 6.3
+Issuance of common stock | 10.9 | 57.2 | - | - | 57.2
+Repurchase and retirement of common stock | (9.6 | ) | (122.3 | ) | - | (192.9 | ) | (315.2 | )
+Share-based compensation expense | - | 209.3 | - | - | 209.3
+Payments of cash dividends ($0.84 per share of common stock) | - | (270.4 | ) | - | - | (270.4 | )
+Balance at December 31, 2022 | 322.9 | 6,846.4 | 4.2 | (2,375.5 | ) | 4,475.1
+Net income | - | - | - | 310.2 | 310.2
+Other comprehensive income, net | - | - | 44.9 | - | 44.9
+Issuance of common stock | 10.8 | 61.9 | - | - | 61.9
+Repurchase and retirement of common stock | (13.4 | ) | (167.3 | ) | - | (231.1 | ) | (398.4 | )
+Share-based compensation expense | - | 279.8 | - | - | 279.8
+Payments of cash dividends ($0.88 per share of common stock) | - | (280.8 | ) | - | - | (280.8 | )
+Balance at December 31, 2023 | 320.3 | $ | 6,740.0 | $ | 49.1 | $ | (2,296.4 | ) | $ | 4,492.7
+See accompanying Notes to Consolidated Financial Statements
+9
+Notes to Consolidated Financial Statements
+Note 1. Description of Business, Basis of Presentation and Significant
+Accounting Policies
+Description of Business
+Juniper Networks, Inc. (the “Company” or “Juniper”) designs, develops, and sells products and services for high-performance networks, to enable
+customers to build scalable, reliable, secure and cost-effective networks for their businesses, while achieving agility and improved operating efficiency through automation. Juniper challenges the inherent complexity that comes with networking in
+the multicloud era. Juniper does this with products, solutions and services that transform the way people connect, work and live. Juniper simplifies the process of transitioning to a secure and automated multicloud environment to enable secure,
+AI-driven networks that connect the world.
+Basis of Presentation
+The Consolidated Financial Statements, which include the Company and its wholly-owned subsidiaries, are prepared in accordance with U.S.
+generally accepted accounting principles (“U.S. GAAP”). All intercompany balances and transactions have been eliminated.
+Use of Estimates
+The preparation of the financial statements and related disclosures in accordance with U.S. GAAP requires the Company to make judgments,
+assumptions, and estimates that affect the amounts reported in the Consolidated Financial Statements and the accompanying notes. The Company bases its estimates and assumptions on current facts, historical experience, and various other factors
+that it believes are reasonable under the circumstances, to determine the carrying values of assets and liabilities that are not readily apparent from other sources. Actual results could differ from these estimates.
+Change in Accounting Estimate
+In December 2023, the Company completed an assessment of the useful lives of certain property and equipment. Effective January 1, 2024, the
+Company has increased the expected useful life of certain lab equipment from 3-5 years to 7 years to better reflect the economic value of our assets. The Company considered several factors in making this change, including current and historical
+usage patterns, as well as expected technology and overall changes in our product roadmap. This change in estimate will be applied prospectively beginning in the first quarter of 2024.
+Cash, Cash Equivalents, and Investments
+Cash and Cash Equivalents
+Cash and cash equivalents consist of cash on hand, demand deposits with banks, highly liquid investments in money market funds, commercial
+paper, government securities, certificates of deposits, time deposits, and corporate debt securities, which are readily convertible into cash. All highly liquid investments with original maturities of three months or less from Juniper's purchase
+date are classified as cash equivalents.
+Investments in Available-for-Sale Debt Securities
+The Company's investments in debt securities are classified as available-for-sale and include the Company's fixed income securities and
+investments in privately-held companies, consisting of debt and redeemable preferred stock securities.
+Fixed income securities primarily consist of corporate debt securities, U.S. treasury securities, time deposits, asset-backed and
+mortgage-backed securities, certificate of deposits, commercial paper, U.S. government agency securities, and foreign government debt securities. Fixed income securities are initially recorded at cost and periodically adjusted to fair value in
+the Consolidated Balance Sheets. The Company periodically evaluates these investments to determine if impairment charges are required. The Company determines whether a credit loss exists for available-for-sale debt securities in an unrealized
+loss position. When the fair value of a security is below its amortized cost, the amortized cost will be reduced to its fair value and the resulting loss will be recorded in Consolidated Statements of Operations, if it is more likely than not
+that we are required to sell the impaired security before recovery of its amortized cost basis, or we have the intention to sell the security. If neither of these conditions are met, the Company considers the extent to which the fair value is
+less than the amortized cost, any changes to the rating of the security by a rating agency, and review of the issuer's financial statements. If factors indicate a credit loss exists, an allowance for credit loss is recorded through other expense,
+net, limited by the amount that the fair value is less than the amortized cost basis.
+10
+The Company's privately-held debt and redeemable preferred stock securities are included in other long-term assets in the Consolidated Balance
+Sheets and are recorded at fair value. In determining the estimated fair value of such securities, the Company utilizes the most recent data available for the investee including known acquisition offers and subsequent funding rounds. The Company
+periodically evaluates these securities for indicators of impairment, including the inability to recover a portion of or the entire carrying amount of the investment, the inability of the investee to sustain earnings, the reduction in or
+termination of financial commitment to the investee from other investors, the intention to sell the investment, and whether it is more likely than not that the Company will be required to sell the investment before recovery of the entire
+amortized cost basis. If the Company determines that the decline in an investment's value indicates credit losses, the difference is recognized as an impairment loss in its Consolidated Statements of Operations.
+For all available-for-sale debt securities, unrealized gains and the amount of unrealized loss relating to factors other than credit loss are
+reported as a separate component of accumulated other comprehensive loss in the Consolidated Balance Sheets. Realized gains and losses are determined based on the specific identification method and are reported in the Consolidated Statements of
+Operations.
+Investments in Equity Securities
+The Company's investments in equity securities with readily determinable fair values consist of money market funds, amounts under the
+non-qualified compensation plan ("NQDC") that are invested in mutual funds, and investments in public companies. These investments are measured at fair value with changes in fair value recognized in the Consolidated Statements of Operations.
+Equity securities without readily determinable fair values include the Company's investments in privately-held companies consisting of
+non-redeemable preferred stock and common stock securities. The Company accounts for these securities at cost, adjusted for changes from observable transactions for identical or similar investments of the same issuer, less impairments. Fair value
+of these equity securities is reassessed when the Company identifies observable price changes indicating that an adjustment upward or downward to the carrying value is necessary. Any observable changes in fair value are recognized in earnings as
+of the date that the observable transaction took place. In addition, the Company periodically evaluates equity securities without readily determinable fair values to determine if impairment charges are required by evaluating whether an event or
+change in circumstance has occurred that may have a significant adverse effect on the fair value of the investment. A qualitative assessment is performed each reporting period to assess whether there are any impairment indicators, including, but
+not limited to, significant deterioration in the investee's earnings performance; credit rating; asset quality or business prospects; adverse change in the regulatory, economic, or technological environment; change in the general market condition
+of the geographic area or industry; acquisition offers; and the ability to continue as a going concern. If such indicators are present, the Company estimates the fair value of impaired investments and recognizes an impairment loss in the
+Consolidated Statement of Operations equal to the difference between the carrying value and fair value.
+The Company accounts for investments in companies over which it has the ability to exercise significant influence, but does not have control
+over the investee, under the equity method of accounting. The investment is initially measured at fair value and subsequently adjusted for any impairment, investee capital transactions, dividend received, plus or minus the Company's proportionate
+share of the equity method investee's income or loss. The Company records its interest in the net earnings or loss of its equity method investment along with adjustments for unrealized profits or losses on intra-entity transactions, within its
+Consolidated Statements of Operations. Depending on the timing of such financial statements of the investee, there may be a lag between the timing of such financial statement and the Company's quarter-end date. For the Company's sole equity
+method investment as of December 31, 2023, the Company's share of the investee's net earnings or loss is recorded two months in arrears. The Company records an impairment when factors indicate that the carrying amount of the investment might not
+be recoverable.
+11
+Fair Value
+Fair value is defined as the price that would be received upon sale of an asset or paid to transfer a liability in an orderly transaction
+between market participants at the measurement date. When determining fair value, the Company considers the principal or most advantageous market in which it transacts, and considers assumptions that market participants would use when pricing the
+asset or liability. The Company applies the following fair value hierarchy, which prioritizes the inputs used to measure fair value into three levels and bases the categorization within the hierarchy upon the lowest level of input that is
+available and significant to the fair value measurement:
+Level 1 - Quoted prices in active markets for identical assets or liabilities.
+Level 2 - Quoted prices for similar assets and liabilities in active markets or inputs that are observable for the asset or liability, either
+directly or indirectly through market corroboration, for substantially the full term of the financial instrument. These inputs are valued using market-based approaches.
+Level 3 - Inputs are unobservable inputs based on the Company’s assumptions. These inputs, if any, are valued using internal financial models.
+Derivative Instruments
+The Company uses derivative instruments, primarily foreign currency forward and interest rate contracts, to hedge certain foreign currency and
+interest rate exposures. The Company does not enter into derivatives for speculative or trading purposes.
+The Company uses foreign currency forward contracts or options contracts to hedge certain forecasted foreign currency transactions relating to
+operating expenses. These derivatives are designated as cash flow hedges, which are carried at fair value with the derivative's gain or loss initially reported as a component of accumulated other comprehensive loss, and upon occurrence of the
+forecasted transaction, is subsequently reclassified into the costs of services or operating expense line item to which the hedged transaction relates. Cash flows from such hedges are classified as operating activities.
+The Company also uses foreign currency forward contracts to mitigate variability in gains and losses generated from the re-measurement of
+certain monetary assets and liabilities denominated in non-functional currencies. These derivatives are carried at fair value with changes recorded in other expense, net in the Consolidated Statements of Operations in the same period as the
+changes in the fair value from the re-measurement of the underlying assets and liabilities. Cash flows from such derivatives are classified as operating activities.
+The Company uses interest rate swap contracts to convert certain of our fixed interest rate notes to floating interest rates based on the
+Secured Overnight Financing Rate (SOFR). All interest rate swap contracts will expire within seven years. The change in fair value of the derivative instrument substantially offsets the change in the fair value of the hedged item. These
+derivatives are classified in the Consolidated Statements of Cash Flows in the same section as the underlying item.
+The Company uses interest rate lock contracts, which fix the benchmark interest
+rates of future debt issuance. The Company records changes in fair value of these contracts in accumulated other comprehensive income (loss) in the consolidated balance sheets, in the period of change. When the forecasted transaction occurs,
+the Company will start to amortize the accumulated gains or losses included as a component of other comprehensive income (loss) related to the interest rate lock cash flow hedges to interest expense. In the event the underlying forecasted
+transaction does not occur, or it becomes probable that it will not occur, the gains or losses on the related cash flow hedge from accumulated other comprehensive income (loss) will be reclassified to other income and expense within the income
+statement.
+During the year ended
+December 31, 2023
+, the Company terminated these interest rate lock contracts. Refer to Note 4,
+Derivative Instruments
+.
+12
+The Company presents its derivative assets and derivative liabilities on a gross basis in the Consolidated Balance Sheets. However, under
+agreements containing provisions on set-off with certain counterparties, subject to applicable requirements, the Company is allowed to net-settle transactions, with a single net amount payable by one party to the other. The Company is neither
+required to pledge nor entitled to receive cash collateral related to these derivative transactions.
+Inventory
+Inventory consists primarily of component parts to be used in the manufacturing process and finished goods, and is stated at the lower of cost
+or net realizable value. In addition, the Company purchases and holds inventory to provide adequate component supplies over the life of the underlying products. Cost is computed using standard cost, which approximates actual cost, on a first-in,
+first-out basis. A charge is recorded to cost of product when inventory is determined to be in excess of anticipated demand or considered obsolete. At the point of loss recognition, a new, lower-cost basis for that inventory is established, and
+subsequent changes in facts and circumstances do not result in the restoration or increase in the newly established cost basis.
+Leases
+The Company determines if an arrangement is a lease at inception. The Company evaluates classification of leases as either operating or finance
+at commencement and, as necessary, at modification. As of December 31, 2023, the Company did not have any finance leases. Operating leases are included in operating lease right-of-use ("ROU") assets, other accrued liabilities, and operating lease
+liabilities on the Company's Consolidated Balance Sheets. ROU assets represent the Company's right to use an underlying asset for the lease term and lease liabilities represent its obligation to make lease payments arising from the lease.
+Operating lease ROU assets and liabilities are recognized on the commencement date based on the present value of lease payments over the lease
+term. As most of our leases do not provide an implicit rate, we use our incremental borrowing rate based on the information available at commencement date in determining the present value of lease payments. The operating lease ROU asset also
+includes any lease payments made prior to lease commencement and excludes lease incentives. Variable lease payments not dependent on an index or a rate, are expensed as incurred and are not included within the ROU asset and lease liability
+calculation. Variable lease payments primarily include reimbursements of costs incurred by lessors for common area maintenance and utilities. The Company's lease terms are the noncancelable period, including any rent-free periods provided by the
+lessor, and include options to extend or terminate the lease when it is reasonably certain that it will exercise that option. At lease inception, and in subsequent periods as necessary, the Company estimates the lease term based on its assessment
+of extension and termination options that are reasonably certain to be exercised. Lease costs are recognized on a straight-line basis over the lease term.
+The Company does not separate non-lease components from lease components for all underlying classes of assets. In addition, the Company does not
+recognize ROU assets and lease liabilities for short-term leases, which have a lease term of twelve months or less and do not include an option to purchase the underlying asset that the Company is reasonably certain to exercise.
+Lease cost for short-term leases is recognized on a straight-line basis over the lease term.
+13
+Property and Equipment
+Property and equipment are recorded at cost less accumulated depreciation. Depreciation is calculated using the straight-line method, over the
+estimated useful lives of the following assets:
+Estimated Useful Life (years)
+Computers, equipment, and software (*) | 1.5 to 10
+Furniture and fixtures | 5 to 7
+Building and building improvements | 7 to 40
+Land improvements | 10 to 40
+Leasehold improvements | Lease term, not to exceed 10 years
+(*) | Effective January 1, 2024, we increased the expected useful life of certain lab equipment from 3-5 years to 7 years to better reflect the economic
+value of our assets.
+Land is not depreciated. Construction-in-process is related to the construction or development of property and equipment that have not yet been
+placed in service for their intended use.
+Business Combinations
+The purchase price of an acquired entity is allocated to tangible assets, liabilities, and intangible assets based on their estimated fair
+values with the residual of the purchase price recorded as goodwill. The determination of the value of the intangible assets acquired involves certain estimates, such as expected future cash flows, which include consideration of future growth
+rates and margins, attrition rates, future changes in technology, discount rates, and the expected use of the acquired assets. These factors are also considered in determining the useful life of the acquired intangible assets. Acquisition related
+expenses are recognized separately from the business combination and are expensed as incurred. The Company's Consolidated Financial Statements include the operating results of acquired businesses from the date of each acquisition.
+Goodwill and Intangible Assets
+Goodwill is tested for impairment annually on November 1 or more frequently if certain circumstances indicate the carrying value of goodwill is
+impaired. Goodwill is tested for impairment at the reporting unit level. A qualitative assessment is first performed to determine whether it is necessary to quantitatively test goodwill for impairment. This initial assessment includes, among
+others, consideration of macroeconomic conditions and financial performance. If the qualitative assessment indicates that it is more likely than not that an impairment exists, a quantitative analysis is performed by determining the fair value of
+the reporting unit using a combination of the discounted cash flow and the market approaches. Goodwill is considered impaired if the carrying value of the reporting unit exceeds its fair value. A goodwill impairment loss is recognized for the
+amount that the carrying amount of the reporting unit, including goodwill, exceeds its fair value, limited to the total amount of goodwill allocated to that reporting unit.
+Intangible assets consist of existing technology, customer relationships, and trade name, which are amortized over the period of estimated
+benefit using the straight-line method and estimated useful lives of 4 or 5 years.
+Impairment of Long-lived Assets
+Long-lived assets, such as property, plant, and equipment, ROU assets, and purchased intangible assets subject to amortization, are reviewed for
+impairment whenever events or changes in circumstances indicate that the carrying amount of an asset may not be recoverable. Recoverability of assets to be held and used is measured by a comparison of the carrying amount of an asset, or asset
+group, to estimated undiscounted future cash flows expected to be generated by the asset, or asset group. An impairment charge is recognized by the amount by which the carrying amount of the asset, or asset group, exceeds its fair value.
+14
+Warranty Reserves
+The Company generally offers a one-year warranty or limited life-time warranty on most of its hardware products, and a 90-day warranty on the
+media that contains the software embedded in the products. Warranty costs are recognized as part of the Company's cost of sales based on associated material costs, logistics costs, labor costs, and overhead at the time revenue is recognized.
+Material costs are estimated primarily based upon the historical costs to repair or replace product returns within the warranty period. Labor, logistics, and overhead costs are estimated primarily based upon historical trends in the cost to
+support customer cases within the warranty period. Warranty reserve is reported within other accrued liabilities in the Consolidated Balance Sheets.
+Contract Manufacturer Liabilities
+The Company establishes a liability for non-cancelable, non-returnable purchase commitments with its contract manufacturers for carrying
+charges, quantities in excess of its demand forecasts, or obsolete material charges for components purchased by the contract manufacturers to meet the Company’s demand forecast or customer orders. The demand forecasts are based upon historical
+trends and analysis, adjusted for overall market conditions.
+Loss Contingencies
+The Company is subject to the possibility of various loss contingencies arising in the ordinary course of business. Management considers the
+likelihood of loss related to the occurrence of a liability as well as its ability to reasonably estimate the amount of loss, in determining loss contingencies. An estimated loss contingency is accrued when it is probable that a liability has
+been incurred and the amount of loss can be reasonably estimated. The Company regularly evaluates current information available to determine whether such accruals should be adjusted and whether new accruals are required.
+Foreign Currency
+Assets and liabilities of foreign operations with non-U.S. Dollar functional currency are translated to U.S. Dollars using exchange rates in
+effect at the end of the period. Revenue and expenses are translated to U.S. Dollars using rates that approximate those in effect during the period. The resulting translation adjustments are included in the Company’s Consolidated Balance Sheets
+in the stockholders’ equity section as a component of accumulated other comprehensive loss. The Company remeasures monetary assets and monetary liabilities in non-functional currencies and records the resulting foreign exchange transaction gains
+and losses in other expense, net in the Consolidated Statements of Operations.
+Revenue Recognition
+Revenue is recognized when promised goods or services are transferred to customers in an amount that reflects the consideration to which the
+Company expects to be entitled in exchange for those goods or services by following a five-step process, (1) identify the contract with a customer, (2) identify the performance obligations in the contract, (3) determine the transaction price, (4)
+allocate the transaction price, and (5) recognize revenue when or as the Company satisfies a performance obligation, as further described below.
+Identify the contract with a customer
+. The Company generally considers a sales contract and/or agreement with an approved purchase order as a customer contract provided that collection is considered probable, which is assessed based on the creditworthiness
+of the customer as determined by credit checks, payment histories, and/or other circumstances. The Company combines contracts with a customer if contracts are negotiated with a single commercial substance or contain price dependencies.
+Identify the performance obligations in the contract
+. Product performance obligations include hardware, software licenses including perpetual and term-based licenses, and service performance obligations including maintenance services, Software-as-a-Service ("SaaS"),
+education and training, and professional services.
+15
+Determine the transaction price
+. The transaction price for the Company’s contracts with its customers consists of both fixed and variable consideration, provided it is probable that a significant reversal of revenue will not occur when the uncertainty related to
+variable consideration is resolved. Fixed consideration includes amounts to be contractually billed to the customer while variable consideration includes estimates for rights of return, rebates, and price protection, which are based on
+historical sales returns and price protection credits, specific criteria outlined in rebate agreements, and other factors known at the time. The Company generally invoices customers for hardware, software licenses and related maintenance
+arrangements at time of delivery, and professional services either upfront or upon meeting certain milestones. Customer invoices are generally due within 30 to 90 days after issuance. The Company’s contracts with customers typically do not
+include significant financing components as the period between the transfer of performance obligations and timing of payment are generally within one year.
+Allocate the transaction price to the performance obligations in
+the contract
+. For contracts that contain multiple performance obligations, the Company allocates the transaction price to the performance obligations on a relative stand-alone selling price ("SSP") basis.
+SSP is based on multiple factors including, but not limited to historical discounting trends for products and services, pricing practices in different geographies and through different sales channels, gross margin objectives, internal costs,
+competitor pricing strategies, and industry technology lifecycles.
+Recognize revenue when or as the Company satisfies a performance
+obligation
+. Revenue for hardware and certain software licenses, are recognized at a point in time, which is generally upon shipment or delivery. Certain software licenses are recognized on a ratable basis
+over the term of the license. Revenue for maintenance services and SaaS is recognized on a ratable basis over the contract term. Revenue from education, training, and professional services is recognized as services are completed or ratably over
+the contractual period of generally one year or less.
+Deferred product revenue represents unrecognized revenue related to undelivered product commitments and other shipments that have not met
+revenue recognition criteria. Deferred service revenue represents billed amounts for service contracts, which include technical support, hardware and software maintenance, professional services, SaaS, and education and training, for which
+services have not been rendered.
+Revenue is recognized net of any taxes collected, which are subsequently remitted to governmental authorities.
+Deferred Contract Costs
+Sales commissions earned by the Company’s sales force are considered incremental and recoverable costs of obtaining a contract with a customer.
+The Company capitalizes these costs, for which the transfer of the goods or services to which the asset relates will occur in future periods. These costs are recorded as prepaid expenses or other long-term assets and are deferred and then
+amortized over a period of benefit which is typically over the term of the customer contracts. Amortization expense is included in sales and marketing expenses in the accompanying Consolidated Statements of Operations.
+Research and Development
+Costs to research, design, and develop the Company's products are expensed as incurred.
+Software Development Costs
+Capitalization of software development costs for software to be sold, leased, or otherwise marketed begins when a product's technological
+feasibility has been established and ends when a product is available for general release to customers. Generally, the Company's products are released soon after technological feasibility has been established. As a result, costs incurred between
+achieving technological feasibility and product general availability have not been significant.
+The Company capitalizes costs associated with internal-use software systems during the application development stage. Such capitalized costs
+include external direct costs incurred in developing or obtaining the applications and payroll and payroll-related costs for employees, who are directly associated with the development of the applications.
+16
+Advertising
+Advertising costs are charged to sales and marketing expense as incurred. Costs to produce advertising were approximately $4.9 million for 2023,
+and $7.4 million for 2022 and 2021. Costs to communicate advertising totaled approximately $25.9 million, $30.0 million, and $26.6 million, for 2023, 2022, and 2021, respectively.
+Share-Based Compensation
+The Company measures and recognizes compensation cost for all share-based awards made to employees and directors, including employee stock
+options, restricted stock awards ("RSAs"), restricted stock units ("RSUs"), performance share awards ("PSAs") and employee stock purchases related to the Employee Stock Purchase Plan ("ESPP"). For service condition only awards, share-based
+compensation expense is based on the fair value of the underlying awards and amortized on a straight-line basis. For PSAs, share-based compensation expense is amortized on a straight-line basis for each separate vesting portion of the awards. The
+Company accounts for forfeitures as they occur.
+The Company utilizes the Black-Scholes-Merton (“BSM”) option-pricing model to estimate the fair value of its ESPP purchase rights. The BSM model
+requires various highly subjective assumptions that represent management's best estimates of volatility, risk-free interest rate, expected life, and dividend yield. The Company estimates expected volatility based on the implied volatility of
+market-traded options, on the Company's common stock, adjusted for other relevant factors including historical volatility of the Company’s common stock over the most recent period commensurate with the estimated expected life of the Company’s
+ESPP. The expected life of ESPP purchase rights approximates the offering period.
+The Company determines the grant date fair value of its RSUs, RSAs, and PSAs based on the closing market price of the Company’s common stock on
+the date of grant, adjusted by the present value of the dividends expected to be paid on the underlying shares of common stock during the requisite and derived service period as these awards are not entitled to receive dividends until vested.
+For market-based RSUs, the Company estimates the fair value and derived service period using the Monte Carlo simulation option pricing model
+("Monte Carlo model"). The determination of the grant date fair value and derived service periods using the Monte Carlo model is affected by the Company's stock price, comparative market-based returns, as well as various highly subjective
+assumptions that represent management's best estimates of volatility, risk-free interest rate, and dividend yield. The Company estimates expected volatility based on the implied volatility of market-traded options, on the Company's common stock,
+adjusted for other relevant factors, including historical volatility of the Company’s common stock over the contractual life of the Company's market-based RSUs.
+Provision for Income Taxes
+Deferred tax assets and liabilities are recognized for the expected tax consequences of temporary differences between the tax basis of assets
+and liabilities and their reported amounts. Valuation allowances are recorded to reduce deferred tax assets to the amount that will more likely than not be realized.
+The Company accounts for uncertainty in income taxes using a two-step approach to recognize and measure uncertain tax positions. The first step
+is to evaluate the tax position for recognition by determining if the weight of available evidence indicates that it is more likely than not that the position will be sustained on audit, including resolution of related appeals or litigation
+processes, if any. The second step is to measure the tax benefit as the largest amount that is more than 50% likely of being realized upon settlement. The Company classifies the liability for unrecognized tax benefits as current to the extent
+that the Company anticipates payment (or receipt) of cash within one year. Interest and penalties related to uncertain tax positions are recognized in the provision for income taxes. The Company accounts for the current impacts of U.S. tax on
+certain foreign subsidiaries income, which is referred to as Global Intangible Low-Taxed Income, in the year earned.
+17
+Concentrations of Risk
+Financial instruments that subject the Company to concentrations of credit risk consist primarily of cash and cash equivalents, investments,
+derivatives, and accounts receivable. The Company invests only in high-quality credit instruments and maintains its cash, cash equivalents, and available-for-sale investments in fixed income securities with several high-quality institutions.
+Deposits held with banks, including those held in foreign branches of global banks, may exceed the amount of insurance provided on such deposits. We mitigate the concentration of credit risk in our investment portfolio through diversification of
+the investments in various industries and asset classes, and limits to the amount of credit exposure to any single issuer and credit rating.
+The Company’s derivatives expose it to credit risk to the extent that counterparties may be unable to meet the terms of the agreement. The
+Company has a risk assessment and mitigation framework to evaluate the potential risk of loss with any one counterparty resulting from this type of credit risk. As part of this risk mitigation framework, the Company transacts with major financial
+institutions with high credit ratings and also enters into master netting agreements, which permit net settlement of the transactions with the same counterparty. The Company performs periodic evaluations of the relative credit standing of these
+financial institutions. Therefore, the Company does not expect material losses as a result of defaults by counterparties.
+Generally, credit risk with respect to accounts receivable is diversified due to the number of entities comprising the Company's customer base
+and their dispersion across different geographic locations throughout the world. The Company performs ongoing credit evaluations of its customers and generally does not require collateral on accounts receivable. For the years ended December 31,
+2023, 2022, and 2021, no single customer accounted for 10% or more of net revenues.
+The Company relies on sole suppliers for certain critical components such as application-specific integrated circuits. Additionally, the Company
+relies primarily on a limited number of significant independent contract manufacturers and original design manufacturers for the production of its products. The inability of any supplier or manufacturer to fulfill supply requirements of the
+Company could negatively impact future operating results.
+Recent Accounting Standards Not Yet Adopted
+Improvements to Reportable Segment Disclosures:
+In November 2023, the Financial Accounting Standards Board (FASB) issued ASU 2023-07, Segment Reporting (Topic 280): Improvements to Reportable Segment Disclosures (ASU 2023-07), which requires disclosure of
+incremental segment information on an annual and interim basis. This ASU is effective for fiscal years beginning after December 15, 2023, and interim periods within fiscal years beginning after December 15, 2024 on a retrospective basis. The
+Company is currently evaluating the effect of this pronouncement on its disclosures.
+Improvements to Income Tax Disclosures:
+In December 2023, the FASB issued ASU 2023-09, Income Taxes (Topic 740): Improvements to Income Tax Disclosures (ASU 2023-09), which expands the disclosures required for income taxes. This ASU is effective for fiscal
+years beginning after December 15, 2024, with early adoption permitted. The amendment should be applied on a prospective basis while retrospective application is permitted. The Company is currently evaluating the effect of this pronouncement on
+its disclosures.
+18
+Note 2. Cash Equivalents and Investments
+Investments in Available-for-Sale Debt Securities
+The following table summarizes the Company's unrealized gains and losses and fair value of investments designated as available-for-sale debt
+securities as of December 31, 2023 and December 31, 2022 (in millions):
+As of December 31, 2023 | As of December 31, 2022
+Amortized Cost | Gross Unrealized Gains | Gross Unrealized Losses | Estimated Fair Value | Amortized Cost | Gross Unrealized Gains | Gross Unrealized Losses | Estimated Fair Value
+Fixed income securities:
+Asset-backed and mortgage-backed securities | $ | 38.2 | $ | 0.2 | $ | (0.4 | ) | $ | 38.0 | $ | 37.8 | $ | - | $ | (1.2 | ) | $ | 36.6
+Certificates of deposit | 3.0 | - | - | 3.0 | - | - | - | -
+Commercial paper | 41.1 | - | - | 41.1 | - | - | - | -
+Corporate debt securities | 160.2 | 0.7 | (1.3 | ) | 159.6 | 277.5 | - | (7.1 | ) | 270.4
+Foreign government debt securities | 5.3 | - | (0.2 | ) | 5.1 | 8.8 | - | (0.4 | ) | 8.4
+Time deposits | 273.6 | - | - | 273.6 | 70.6 | - | - | 70.6
+U.S. government agency securities | 4.0 | - | - | 4.0 | 18.6 | - | (0.6 | ) | 18.0
+U.S. government securities | 54.8 | 0.1 | - | 54.9 | 9.0 | - | (0.2 | ) | 8.8
+Total fixed income securities | 580.2 | 1.0 | (1.9 | ) | 579.3 | 422.3 | - | (9.5 | ) | 412.8
+Privately-held debt and redeemable preferred stock securities | 20.6 | 37.4 | (8.3 | ) | 49.7 | 15.5 | 37.4 | - | 52.9
+Total available-for-sale debt securities | $ | 600.8 | $ | 38.4 | $ | (10.2 | ) | $ | 629.0 | $ | 437.8 | $ | 37.4 | $ | (9.5 | ) | $ | 465.7
+Reported as:
+Cash equivalents | $ | 328.2 | $ | - | $ | - | $ | 328.2 | $ | 70.6 | $ | - | $ | - | $ | 70.6
+Short-term investments | 135.7 | - | (1.4 | ) | 134.3 | 205.9 | - | (3.3 | ) | 202.6
+Long-term investments | 116.3 | 1.0 | (0.5 | ) | 116.8 | 145.8 | - | (6.2 | ) | 139.6
+Other long-term assets | 20.6 | 37.4 | (8.3 | ) | 49.7 | 15.5 | 37.4 | - | 52.9
+Total | $ | 600.8 | $ | 38.4 | $ | (10.2 | ) | $ | 629.0 | $ | 437.8 | $ | 37.4 | $ | (9.5 | ) | $ | 465.7
+19
+The following table presents the contractual maturities of the Company's total fixed income securities as of December 31, 2023 (in millions):
+Amortized Cost | Estimated Fair Value
+Due in less than one year | $ | 463.9 | $ | 462.5
+Due between one and five years | 116.3 | 116.8
+Total | $ | 580.2 | $ | 579.3
+As of December 31, 2023, the Company had an unrea
+lized loss of $1.9 million from 93 fixed income
+available-for-sale debt securities in an unrealized loss position for more than 12 months.
+The gross unrealized losses related to these investments were primarily due to changes in market interest rates. The Company anticipates that it
+will recover the entire amortized cost basis of such available-for-sale debt securities and has determined that no allowance for credit losses was required to be recognized during the years ended December 31, 2023 and December 31, 2022.
+During the year ended December 31, 2023, the Company recognized an allowance for credit loss of $8.3 million on privately-held debt and
+redeemable preferred stock investments. The unrealized loss represents the difference between the estimated fair value and the cost of the investment. The determination of fair value was based on quantitative and qualitative analysis including
+factors such as the near-term prospects of the investee in the market in which it operates and evaluating the investee’s financial condition in relation to its outstanding obligations. During the years ended December 31, 2022 and December 31,
+2021, there were no unrealized losses related to Company's privately-held debt and redeemable preferred stock investments.
+During the years ended December 31, 2023 and December 31, 2022, the Company had
+no
+material gross realized gains or losses from available-for-sale debt securities. During the year ended December 31, 2021, the Company had gross realized gains of $15.3 million and no material gross realized losses from available-for-sale debt
+securities.
+Investments in Equity Securities
+The following table presents the Company's investments in equity securities as of December 31, 2023 and 2022 (in millions):
+As of December 31,
+2023 | 2022
+Equity investments with readily determinable fair value
+Money market funds | $ | 337.5 | $ | 420.8
+Mutual funds | 38.0 | 28.1
+Publicly-traded equity securities | 5.1 | 7.7
+Equity investments without readily determinable fair value | 45.8 | 137.7
+Equity investment under the equity method of accounting | 26.4 | 36.0
+Total equity securities | $ | 452.8 | $ | 630.3
+Reported as:
+Cash equivalents | $ | 337.5 | $ | 420.8
+Short-term investments | 5.1 | 7.7
+Prepaid expenses and other current assets | 2.5 | 2.4
+Other long-term assets | 107.7 | 199.4
+Total | $ | 452.8 | $ | 630.3
+During the years ended December 31, 2023, 2022, and 2021, there were
+no
+material unrealized
+gains or losses recognized for equity investments with readily determinable fair values.
+20
+During the year ended December 31, 2023, there were no material unrealized gains and
+$89.9
+million
+unrealized losses for equity investments without readily determinable fair value. The unrealized losses represent the difference between the estimated fair values and the carrying values of equity investments without readily
+determinable fair value. The Company estimated the fair value of these investments based on quantitative and qualitative analysis. This analysis involved use of judgment, significant estimates and assumptions, such as the near-term prospects of
+the investee in the market in which it operates, evaluating the investee’s financial condition in relation to its outstanding obligations, and probabilities of securing additional capital through various alternative scenarios. During the years
+ended December 31, 2022 and 2021, there were no material unrealized gains or losses recognized for equity investments without readily determinable fair value.
+As of December 31, 2023 and 2022, the Company's ownership in the investment accounted for under the equity method of accounting represented
+approximately
+24.1%
+and 25.0%, respectively. During the years ended December 31, 2023 and 2022, the loss recognized from the equity method investment was
+$9.6 million
+and $4.8 million, respectively.
+Restricted Cash and Investments
+The Company has restricted cash and investments for: (i) amounts under the Company's non-qualified deferred compensation plan for senior-level
+employees; (ii) amounts held under the Company's short-term disability plan in California; and (iii) amounts held in escrow accounts, as required in connection with certain acquisitions. Restricted investments consist of equity investments. As of
+December 31, 2023, the carrying value of restricted cash and investments was $54.3 million, of which $16.4 million was included in prepaid expenses and other current assets and $37.9 million was included in other long-term assets on the
+Consolidated Balance Sheets.
+The following table provides a reconciliation of cash, cash equivalents, and restricted cash included in the Consolidated Balance Sheets as of
+December 31, 2023 and December 31, 2022 (in millions):
+As of December 31,
+2023 | 2022
+Cash and cash equivalents | $ | 1,068.1 | $ | 880.1
+Restricted cash included in Prepaid expenses and other current assets | 13.8 | 15.2
+Restricted cash included in Other long-term assets | 2.4 | 2.4
+Total cash, cash equivalents, and restricted cash | $ | 1,084.3 | $ | 897.7
+21
+Note 3. Fair Value Measurements
+Assets and Liabilities Measured at Fair Value on a Recurring Basis
+The following table provides a summary of assets and liabilities measured at fair value on a recurring basis and as reported in the Consolidated
+Balance Sheets (in millions):
+Fair Value Measurements at December 31, 2023 | Fair Value Measurements at December 31, 2022
+Quoted Prices in Active Markets For Identical Assets (Level 1) | Significant Other Observable Remaining Inputs (Level 2) | Significant Other Unobservable Remaining Inputs (Level 3) | Total | Quoted Prices in Active Markets For Identical Assets (Level 1) | Significant Other Observable Remaining Inputs (Level 2) | Significant Other Unobservable Remaining Inputs (Level 3) | Total
+Assets:
+Available-for-sale debt securities:
+Asset-backed and mortgage-backed securities | $ | - | $ | 38.0 | $ | - | $ | 38.0 | $ | - | $ | 36.6 | $ | - | $ | 36.6
+Certificates of deposit | - | 3.0 | - | 3.0 | - | - | - | -
+Commercial paper | - | 41.1 | - | 41.1 | - | - | - | -
+Corporate debt securities | - | 159.6 | - | 159.6 | - | 270.4 | - | 270.4
+Foreign government debt securities | - | 5.1 | - | 5.1 | - | 8.4 | - | 8.4
+Time deposits | - | 273.6 | - | 273.6 | - | 70.6 | - | 70.6
+U.S. government agency securities | - | 4.0 | - | 4.0 | - | 18.0 | - | 18.0
+U.S. government securities | 20.0 | 34.9 | - | 54.9 | 8.8 | - | - | 8.8
+Privately-held debt and redeemable preferred stock securities | - | - | 49.7 | 49.7 | - | - | 52.9 | 52.9
+Total available-for-sale debt securities | 20.0 | 559.3 | 49.7 | 629.0 | 8.8 | 404.0 | 52.9 | 465.7
+Equity securities:
+Money market funds | 337.5 | - | - | 337.5 | 420.8 | - | - | 420.8
+Mutual funds | 38.0 | - | - | 38.0 | 28.1 | - | - | 28.1
+Publicly-traded equity securities | 5.1 | - | - | 5.1 | 7.7 | - | - | 7.7
+Total equity securities | 380.6 | - | - | 380.6 | 456.6 | - | - | 456.6
+Derivative assets:
+Foreign exchange contracts | - | 7.2 | - | 7.2 | - | 1.3 | - | 1.3
+Interest rate contracts | - | - | - | - | - | 125.4 | - | 125.4
+Total derivative assets | - | 7.2 | - | 7.2 | - | 126.7 | - | 126.7
+Total assets measured at fair value on a recurring basis | $ | 400.6 | $ | 566.5 | $ | 49.7 | $ | 1,016.8 | $ | 465.4 | $ | 530.7 | $ | 52.9 | $ | 1,049.0
+Liabilities:
+Derivative liabilities:
+Foreign exchange contracts | $ | - | $ | (7.2 | ) | $ | - | $ | (7.2 | ) | $ | - | $ | (37.6 | ) | $ | - | $ | (37.6 | )
+Interest rate contracts | - | (73.6 | ) | - | (73.6 | ) | - | (87.4 | ) | - | (87.4 | )
+Total derivative liabilities | - | (80.8 | ) | - | (80.8 | ) | - | (125.0 | ) | - | (125.0 | )
+Total liabilities measured at fair value on a recurring basis | $ | - | $ | (80.8 | ) | $ | - | $ | (80.8 | ) | $ | - | $ | (125.0 | ) | $ | - | $ | (125.0 | )
+Total assets, reported as:
+Cash equivalents | $ | 337.5 | $ | 328.2 | $ | - | $ | 665.7 | $ | 420.8 | $ | 70.6 | $ | - | $ | 491.4
+Short-term investments | 12.8 | 126.6 | - | 139.4 | 14.6 | 195.7 | - | 210.3
+Long-term investments | 12.3 | 104.5 | - | 116.8 | 1.9 | 137.7 | - | 139.6
+Prepaid expenses and other current assets | 2.5 | 4.6 | - | 7.1 | 2.4 | 0.8 | - | 3.2
+Other long-term assets | 35.5 | 2.6 | 49.7 | 87.8 | 25.7 | 125.9 | 52.9 | 204.5
+Total assets measured at fair value on a recurring basis | $ | 400.6 | $ | 566.5 | $ | 49.7 | $ | 1,016.8 | $ | 465.4 | $ | 530.7 | $ | 52.9 | $ | 1,049.0
+22
+Fair Value Measurements at December 31, 2023 | Fair Value Measurements at December 31, 2022
+Quoted Prices in Active Markets For Identical Assets (Level 1) | Significant Other Observable Remaining Inputs (Level 2) | Significant Other Unobservable Remaining Inputs (Level 3) | Total | Quoted Prices in Active Markets For Identical Assets (Level 1) | Significant Other Observable Remaining Inputs (Level 2) | Significant Other Unobservable Remaining Inputs (Level 3) | Total
+Total liabilities, reported as:
+Other accrued liabilities | $ | - | $ | (6.2 | ) | $ | - | $ | (6.2 | ) | $ | - | $ | (32.5 | ) | $ | - | $ | (32.5 | )
+Other long-term liabilities | - | (74.6 | ) | - | (74.6 | ) | - | (92.5 | ) | - | (92.5 | )
+Total liabilities measured at fair value on a recurring basis | $ | - | $ | (80.8 | ) | $ | - | $ | (80.8 | ) | $ | - | $ | (125.0 | ) | $ | - | $ | (125.0 | )
+The Company's Level 2 available-for-sale debt securities are priced using quoted market prices for similar instruments or non-binding market
+prices that are corroborated by observable market data. The Company uses inputs such as actual trade data, benchmark yields, broker/dealer quotes, or alternative pricing sources with reasonable levels of price transparency which are obtained from
+quoted market prices, independent pricing vendors, or other sources, to determine the ultimate fair value of these assets. The Company's derivative instruments are classified as Level 2, as they are not actively traded and are valued using
+pricing models that use observable market inputs. During the years ended December 31, 2023 and 2022, the Company had
+no
+transfers into or out of Level 3 of the fair value hierarchy of its
+assets or liabilities measured at fair value.
+The Company's privately-held debt and redeemable preferred stock securities are classified as Level 3 assets due to the lack of observable
+inputs to determine fair value. The Company estimates the fair value of its privately-held debt and redeemable preferred stock securities on a recurring basis using an analysis of the financial condition and near-term prospects of the investee,
+including recent valuations at the time of financing activities and the investee's capital structure.
+During the year ended December 31, 2023, the Company recognized an unrealized loss of $8.3
+million on its privately-held debt and redeemable preferred stock securities. Refer to Note 2,
+Cash Equivalents and Investments.
+Assets and Liabilities Measured at Fair Value on a Nonrecurring Basis
+The Company's investments in equity securities without readily determinable fair value are classified as Level 3 assets due to the lack of
+observable inputs to determine fair value. The Company estimates the fair value of equity securities without readily determinable fair value and investments accounted for under the equity method of accounting, on a nonrecurring basis using an
+analysis of the financial condition and near-term prospects of the investee, including recent financing activities and the investee's capital structure.
+As of December 31, 2023, downward adjustments
+for equity securities without readily determinable fair value in the aggregate were $89.9 million. Refer to Note 2,
+Cash Equivalents and Investments.
+There have been no material upward adjustments to the equity securities without readily determinable fair value.
+Certain of the Company's assets, including intangible assets, goodwill and property plant and equipment, are measured at fair value on a
+nonrecurring basis. During the year ended
+December 31, 2023
+, the Company recognized impairment charges of
+$28.0 million, which
+relate to
+the Company's property and equipment and other assets. There were no significant impairment charges recognized during the years ended December 2022 and 2021.
+As of December 31, 2023 and 2022, the Company had
+no
+liabilities required to be measured
+at fair value on a nonrecurring basis.
+Assets and Liabilities Not Measured at Fair Value
+The carrying amounts of the Company's accounts receivable, accounts payable, and other accrued liabilities approximate fair value due to their
+short maturities. As of December 31, 2023 and December 31, 2022, the estimated fair value of the Company's total outstanding debt in the Consolidated Balance Sheets was
+$1,581.7 million
+and
+$1,485.6 million, respectively, based on observable market inputs (Level 2).
+23
+Note 4. Derivative Instruments
+The notional amount of the Company's derivative instruments is summarized as follows (in millions):
+As of December 31,
+2023 | 2022
+Designated derivatives:
+Cash flow hedges:
+Foreign currency contracts | $ | 801.0 | $ | 775.9
+Interest rate lock contracts | - | 650.0
+Fair value hedges:
+Interest rate swap contracts | 600.0 | 600.0
+Total designated derivatives | $ | 1,401.0 | $ | 2,025.9
+Non-designated derivatives | 200.7 | 163.5
+Total | $ | 1,601.7 | $ | 2,189.4
+The fair value of derivative instruments on the Consolidated Balance Sheets was as follows:
+As of December 31,
+Balance Sheet Location | 2023 | 2022
+Derivative assets:
+Derivatives designated as hedging instruments:
+Foreign currency contracts as cash flow hedges | Other current assets | $ | 4.4 | $ | 0.7
+Foreign currency contracts as cash flow hedges | Other long-term assets | 2.7 | 0.5
+Interest rate lock contracts | Other long-term assets | - | 125.4
+Total derivatives designated as hedging instruments | $ | 7.1 | $ | 126.6
+Derivatives not designated as hedging instruments | Other current assets | 0.1 | 0.1
+Total derivative assets | $ | 7.2 | $ | 126.7
+Derivative liabilities:
+Derivatives designated as hedging instruments:
+Foreign currency contracts | Other accrued liabilities | $ | 6.0 | $ | 32.3
+Foreign currency contracts | Other long-term liabilities | 1.0 | 5.1
+Interest rate swap contracts | Other long-term liabilities | 73.6 | 87.4
+Total derivatives designated as hedging instruments | $ | 80.6 | $ | 124.8
+Derivatives not designated as hedging instruments | Other accrued liabilities | 0.2 | 0.2
+Total derivative liabilities | $ | 80.8 | $ | 125.0
+24
+Offsetting of Derivative Instruments
+The Company presents its derivative instruments at gross fair values in the Consolidated Balance Sheets. As of December 31, 2023 and December
+31, 2022, the potential effects of set-off associated with the derivative contracts would be
+a reduction to
+both derivative assets and derivative liabilities b
+y $7.2 million and
+$73.8 million, respectively.
+Designated Derivatives
+The Company uses foreign currency forward contracts or options contracts to hedge the Company's planned cost of revenues and operating expenses
+denominated in foreign currencies. These derivatives are designated as cash flow hedges and typically have maturities of
+thirty-six months
+or less.
+The Company enters into interest rate swap contracts, designated as fair value hedges, to convert the fixed interest rates of certain Senior
+Notes ("Notes") to floating interest rates. In April 2021, the Company entered into these contracts for an aggregate notional amount of $300.0 million for its fixed-rate Notes maturing in December 2030 in addition to the contracts entered in 2019
+for an aggregate notional amount of $300.0 million for its fixed-rate Notes maturing in March 2041. The interest rate swap contracts will expire within seven years.
+In 2020, the Company entered into interest rate lock contracts with large
+financial institutions, which fix the benchmark interest rates of future debt issuances for an aggregate notional amount of $650.0 million. These contracts were designated as cash flow hedges for a forecasted debt issuance which was expected to
+occur by the end of 2025
+. During the year ended
+December
+31, 2023
+, the Company terminated the interest rate lock contracts, resulting in a deferred gain of $133.9 million recognized in accumulated other
+comprehensive income, which will be deferred and amortized to interest expense over the term of the anticipated debt unless it becomes probable that the debt will not be issued with the terms anticipated at the hedge's inception. The Company
+classifies the cash flow in the same section as the underlying item resulting in the proceeds from sale being presented as operating activities.
+Effect of Derivative Instruments on the Consolidated Statements of Operations
+For cash flow hedges, the Company recognized an
+unrealized gain of $15.1 million
+,
+unrealized gain of $33.1 million and unrealized loss of $9.1 million in accumulated other comprehensive loss for the effective portion of its derivative instruments during the years ended December 31, 2023, 2022, and 2021, respectively.
+For foreign currency contracts, the Company
+reclassified a loss of $29.8 million, a loss of
+$25.8
+million and a gain of $28.9 million out of accumulated other comprehensive loss to cost of revenues and operating expenses in the Consolidated Statements of Operations during the years ended December 31, 2023, 2022, and 2021, respectively. As of
+December 31, 2023, an estimated
+$1.6 million of unrealized net loss
+within accumulated other comprehensive income is expected to be reclassified into earnings within the next twelve months.
+Non-Designated Derivatives
+The Company also uses foreign currency forward contracts to mitigate variability in gains and losses generated from the remeasurement of certain
+monetary assets and liabilities denominated in foreign currencies. These foreign exchange forward contracts typically have maturities of approximately
+one to four months.
+The outstanding
+non-designated derivative instruments are carried at fair value. Changes in the fair value of these derivatives, which were recorded in Other expense, net within the Consolidated Statements of Operations, were
+not material
+during the years ended December 31, 2023, 2022, and 2021, respectively.
+See Note 1,
+Description of Business, Basis of Presentation and Significant
+Accounting Policies,
+for the Company’s policy regarding the offsetting of derivative assets and derivative liabilities.
+25
+Note 5. Goodwill and Purchased Intangible Assets
+Goodwill
+The Company's goodwill activity was as follows (in millions):
+Amount
+December 31, 2021 | $ | 3,762.1
+Other (*) | (27.7 | )
+December 31, 2022 | 3,734.4
+Other | -
+December 31, 2023 | $ | 3,734.4
+(*) | Other primarily consists of $28.9 million reduction in goodwill due to the divestiture of the Company's silicon photonics business.
+We conducted our annual impairment test of goodwill during the fourth quarter of 2023; the estimated fair value of our reporting unit was
+substantially in excess of the carrying value. There was no goodwill impairment during the years ended December 31, 2023, 2022, and 2021.
+Purchased Intangible Assets
+The Company’s purchased intangible assets, net, were as follows (in millions):
+As of December 31, 2023 | As of December 31, 2022
+Gross | Accumulated Amortization | Accumulated Impairments and Other Charges | Net | Gross | Accumulated Amortization | Accumulated Impairments and Other Charges | Net
+Finite-lived intangible assets:
+Technologies and patents | $ | 913.1 | $ | (779.1 | ) | $ | (55.1 | ) | $ | 78.9 | $ | 913.1 | $ | (721.3 | ) | $ | (55.1 | ) | $ | 136.7
+Customer contracts, support agreements, and related relationships | 136.3 | (120.9 | ) | (2.8 | ) | 12.6 | 136.3 | (111.2 | ) | (2.8 | ) | 22.3
+Trade names and other | 9.6 | (9.3 | ) | - | 0.3 | 9.6 | (8.1 | ) | - | 1.5
+Total purchased intangible assets | $ | 1,059.0 | $ | (909.3 | ) | $ | (57.9 | ) | $ | 91.8 | $ | 1,059.0 | $ | (840.6 | ) | $ | (57.9 | ) | $ | 160.5
+Amortization expense related to purchased intangible assets with finite lives was $68.7 million, $74.8 million, and $79.5 million for the years
+ended December 31, 2023, 2022, and 2021, respectively. There were no significant impairment charges related to purchased intangible assets during the years ended December 31, 2023, 2022, and 2021.
+26
+As of December 31, 2023, the estimated future amortization expense of purchased intangible assets with finite lives was as follows (in
+millions):
+Years Ending December 31, | Amount
+2024 | $ | 49.2
+2025 | 39.6
+2026 | 3.0
+2027 | -
+2028 | -
+Total | $ | 91.8
+Note 6. Other Financial Information
+Total Inventory
+Total inventory consisted of the following (in millions):
+As of December 31,
+2023 | 2022
+Production and service materials | $ | 719.0 | $ | 479.6
+Finished goods | 299.0 | 163.3
+Total inventory | $ | 1,018.0 | $ | 642.9
+Reported as:
+Inventory | $ | 952.4 | $ | 619.4
+Other long-term assets (1) | 65.6 | 23.5
+Total inventory | $ | 1,018.0 | $ | 642.9
+(1)
+Long-term
+inventory balance classified as other long-term assets in the Company's Consolidated Balance Sheets consists of last time buy component inventory to be consumed beyond the Company's normal operating cycle.
+Prepaid Expenses and Other Current Assets
+Prepaid expenses and other current assets consisted of the following (in millions):
+As of December 31,
+2023 | 2022
+Contract manufacturer deposits | $ | 316.4 | $ | 434.7
+Prepaid expenses | 140.9 | 104.3
+Other current assets | 134.2 | 141.0
+Total prepaid expenses and other current assets | $ | 591.5 | $ | 680.0
+27
+Property and Equipment, Net
+Property and equipment, net, consisted of the following (in millions):
+As of December 31,
+2023 | 2022
+Computers and equipment | $ | 990.0 | $ | 940.0
+Software | 221.3 | 220.3
+Leasehold improvements | 185.9 | 189.2
+Furniture and fixtures | 45.3 | 45.4
+Building and building improvements | 292.8 | 271.9
+Land and land improvements | 243.6 | 243.6
+Construction-in-process | 4.1 | 12.1
+Property and equipment, gross | 1,983.0 | 1,922.5
+Accumulated depreciation | (1,293.1 | ) | (1,255.7 | )
+Property and equipment, net | $ | 689.9 | $ | 666.8
+Depreciation expense was $123.5 million, $137.7 million, and $151.0 million in 2023, 2022, and 2021, respectively.
+Warranties
+Changes in the Company’s warranty reserve were as follows (in millions):
+As of December 31,
+2023 | 2022
+Beginning balance | $ | 29.5 | $ | 33.0
+Provisions made during the period, net | 31.9 | 30.1
+Actual costs incurred during the period | (32.0 | ) | (33.6 | )
+Ending balance | $ | 29.4 | $ | 29.5
+Deferred Revenue
+Details of the Company's deferred revenue, as reported in the Consolidated Balance Sheets, were as follows (in millions):
+As of December 31,
+2023 | 2022
+Deferred product revenue, net | $ | 92.1 | $ | 108.8
+Deferred service revenue, net | 1,932.8 | 1,554.3
+Total | $ | 2,024.9 | $ | 1,663.1
+Reported as:
+Current | $ | 1,130.0 | $ | 1,020.5
+Long-term | 894.9 | 642.6
+Total | $ | 2,024.9 | $ | 1,663.1
+28
+Revenue
+See Note 11,
+Segments,
+for disaggregated revenue by customer
+solution, customer vertical, and geographic region.
+Product revenue of $48.3 million included in deferred revenue at January 1, 2023 was recognized during the year ended December 31, 2023. Service
+revenue of $907.3 million included in deferred revenue at January 1, 2023 was recognized during the year ended December 31, 2023.
+Remaining Performance Obligations
+Remaining Performance Obligations (RPO) are comprised mainly of deferred product and service revenue, and to a lesser extent, unbilled service
+revenue from non-cancellable contracts for which the Company has not invoiced and has an obligation to perform, and for which revenue has not yet been recognized in the financial statements.
+The following table summarizes the breakdown of RPO
+(1)
+as of December 31, 2023 and when the
+Company expects to recognize the amounts as revenue (in millions):
+Revenue Recognition Expected by Period
+Total | Less than 1 year | 1-3 years | More than 3 years
+Product | $ | 92.9 | $ | 77.3 | $ | 12.9 | $ | 2.7
+Service | 1,943.9 | 1,059.2 | 666.2 | 218.5
+Total | $ | 2,036.8 | $ | 1,136.5 | $ | 679.1 | $ | 221.2
+(1)
+The
+Company's RPO does not include backlog. Backlog consists of purchase orders for product expected to be shipped to the Company's distributors, resellers, or end-customers within the next twelve months. The following amounts are not included in
+the Company's backlog: (1) deferred revenue, (2) unbilled contract revenue, (3) all service obligations, including software as a service (SaaS), and (4) certain future revenue adjustments for items such as sales return reserves and early
+payment discounts.
+Deferred Contract Costs
+Deferred contract costs were $41.9 million and $28.2 million as of December 31, 2023 and 2022, respectively. During the years ended December 31,
+2023 and 2022, amortization expense for the deferred contract cost were $42.4 million and $35.0 million, respectively, and there were no material impairment charges recognized.
+Other Expense, Net
+Other expense, net consisted of the following (in millions):
+Years Ended December 31,
+2023 | 2022 | 2021
+Interest income | $ | 50.6 | $ | 19.6 | $ | 14.9
+Interest expense | (80.0 | ) | (58.6 | ) | (50.8 | )
+Gain (loss) on other investments, net (1) (2) | 6.0 | (11.6 | ) | 4.9
+Other | (0.4 | ) | 1.6 | 1.5
+Other expense, net | $ | (23.8 | ) | $ | (49.0 | ) | $ | (29.5 | )
+_______________
+(1) | Other investments represent fixed income securities and equity investments with readily
+determinable fair value.
+(2) | The prior period amounts have been reclassified to conform to the current period
+presentation.
+29
+Note 7. Restructuring Charges
+The Company’s restructuring events are primarily intended to realign its workforce, optimize cost structure, and consolidate facilities as a
+result of organizational and leadership changes to effectively support the Company’s long-term strategic objectives. Restructuring charges include termination benefits related to workforce reductions, facility exit-related costs, contract
+termination costs, impairment of certain assets and other related costs associated with exit or disposal activities. Workforce reduction-related benefits are provided to employees primarily under the Company’s ongoing benefit arrangements, which
+are accrued when the existing situation or set of circumstances indicates that an obligation has been incurred, it is probable the benefits will be paid, and the amount can be reasonably estimated in accordance with the provisions of the
+applicable accounting guidance.
+The following table presents restructuring charges included in the Consolidated Statements of Operations (in millions):
+Years Ended December 31,
+2023 | 2022 | 2021
+Employee severance | $ | 56.8 | $ | 12.4 | $ | 13.6
+Facility exit-related and asset impairments | 22.1 | 3.1 | 8.1
+Contract terminations and other | 19.1 | 4.7 | 21.2
+Total | $ | 98.0 | $ | 20.2 | $ | 42.9
+2023 Restructuring Plans
+During the third quarter of 2023, as a result of a thorough review of the Company’s business and strategic objectives, the Company initiated and
+approved a restructuring plan (“2023 Transformation Plan”) intended to reallocate resources and investments in long-term growth opportunities, realign its workforce, and optimize its real estate and asset portfolios to efficiently support the
+Company’s strategic priorities and goals. During the fourth quarter of 2023, the Company continued to implement the 2023 Transformation Plan, which primarily resulted in additional workforce reductions.
+In connection with the 2023 Transformation Plan, the Company incurred aggregate charges of $68.6 million, consisting of employee severance,
+facility exit-related, asset impairment, and other restructuring-related charges. The actions taken under the 2023 Transformation Plan are expected to be substantially completed by the end of the first quarter of 2024, though certain facility
+exits and workforce reduction actions may take longer to implement.
+The Company also incurred aggregate charges of $31.9 million related to employee severance, asset impairments, and contract terminations under
+another restructuring plan initiated during the first half of 2023. As of December 31, 2023, approved actions under this plan have been substantially completed.
+Prior Year Restructuring Activities
+In 2022 and 2021, the Company initiated restructuring plans designed to enable reinvestment in certain key priority areas to align with
+strategic changes, which resulted in severance costs from workforce reductions, facility exit-related costs, contract terminations, and other exit-related costs. As of December 31, 2023, activities under these plans have been substantially
+completed.
+30
+Restructuring Liabilities
+The following table provides a summary of changes in the restructuring liabilities (in millions) under the Company's approved restructuring
+plans for the twelve months ended December 31, 2023:
+2023 Restructuring Plans | Prior Year Plans
+Employee severance | Facility exit- related and asset impairments | Contract terminations and other | Employee severance | Facility exit- related and asset impairments | Contract terminations and other | Total
+Liability as of December 31, 2022 | $ | - | $ | - | $ | - | $ | 3.0 | $ | 1.2 | $ | 1.9 | $ | 6.1
+Charges | 57.3 | 24.1 | 19.1 | (0.5 | ) | (2.0 | ) | - | 98.0
+Cash payments | (28.4 | ) | (0.3 | ) | (14.7 | ) | (1.5 | ) | (0.4 | ) | (1.9 | ) | (47.2 | )
+Non-cash items | 0.1 | (23.6 | ) | (1.2 | ) | - | 1.4 | - | (23.3 | )
+Liability as of December 31, 2023 | $ | 29.0 | $ | 0.2 | $ | 3.2 | $ | 1.0 | $ | 0.2 | $ | - | $ | 33.6
+Note 8. Debt and Financing
+Debt
+The following table summarizes the Company's total debt (in millions, except percentages):
+As of December 31,
+Maturity Date | Effective Interest Rates | 2023 | 2022
+Senior Notes ("Notes"):
+1.200% fixed-rate notes | December 2025 | 1.37 | % | $ | 400.0 | $ | 400.0
+3.750% fixed-rate notes | August 2029 | 3.86 | % | 500.0 | 500.0
+2.000% fixed-rate notes | December 2030 | 2.12 | % | 400.0 | 400.0
+5.950% fixed-rate notes | March 2041 | 6.03 | % | 400.0 | 400.0
+Total Notes | 1,700.0 | 1,700.0
+Unaccreted discount and debt issuance costs | (9.6 | ) | (11.3 | )
+Hedge accounting fair value adjustments (*) | (73.6 | ) | (87.4 | )
+Total | $ | 1,616.8 | $ | 1,601.3
+(*) | Represents the fair value adjustments for interest rate swap contracts with an aggregate
+notional amount of $600.0 million. These contracts convert the fixed interest rates of certain Notes to floating interest rates and are designated as fair value hedges. See Note 4, Derivative Instruments , for a discussion of the Company's interest rate swap contracts.
+The Notes above are the Company’s senior unsecured and unsubordinated obligations, ranking equally in right of payment to all of the Company’s
+existing and future senior unsecured and unsubordinated indebtedness, and senior in right of payment to any of the Company’s future indebtedness that is expressly subordinated to the Notes.
+31
+As of December 31, 2023, the Company's aggregate debt maturities based on outstanding principal were as follows (in millions):
+Years Ending December 31, | Amount
+2024 | $ | -
+2025 | 400.0
+2026 | -
+2027 | -
+2028 | -
+Thereafter | 1,300.0
+Total | $ | 1,700.0
+The Company may redeem the Notes, either in whole or in part, at any time at a redemption price equal to the greater of (i) 100% of the
+aggregate principal amount of the Notes to be redeemed or (ii) the sum of the present values of the remaining scheduled payments discounted to the redemption date, plus, in either case, accrued and unpaid interest, if any.
+In the event of a change of control repurchase event, the holders of the Notes may require the Company to repurchase for cash all or part of the
+Notes at a purchase price equal to 101% of the aggregate principal amount, plus accrued and unpaid interest, if any.
+Interest on the Notes is payable in cash semiannually. The effective interest rates for the Notes include the interest on the Notes, accretion
+of the discount, and amortization of issuance costs. The indenture and supplemental indentures (together, the "indentures") that govern the Notes also contain various covenants, including limitations on the Company's ability to incur liens or
+enter into sale-leaseback transactions over certain dollar thresholds.
+As of December 31, 2023, the Company was in compliance with all covenants in the indentures governing the Notes.
+Revolving Credit Facility
+In June 2023, the Company entered into a new credit agreement with certain institutional lenders that provides for a five-year $500.0 million
+unsecured revolving credit facility (the "Revolving Credit Facility"), with an option to increase the Revolving Credit Facility by up to an additional $200.0 million, subject to the lenders' approval. Proceeds of loans made under the Revolving
+Credit Facility may be used by the Company for general corporate purposes. The Revolving Credit Facility will terminate in June 2028, subject to two one-year maturity extension options, on the terms and conditions set forth in the credit
+agreement.
+Revolving loans will bear interest, at the Company’s option, at either (i) a per annum rate equal to (x) with respect to borrowings in U.S.
+dollars, the adjusted term Secured Overnight Financing Rate ("SOFR"), (y) with respect to borrowings in Euros, the adjusted Euro Interbank Offered Rate ("EURIBOR"), and (z) with respect to borrowings in pounds sterling, daily simple Sterling
+Overnight Index Average ("SONIA"), in each case, plus a margin of between 0.875% and 1.500%, depending on the Company’s public debt rating, or (ii) with respect to borrowings in U.S. dollars, a per annum rate equal to the Base Rate plus a margin
+of between 0.000% and 0.500%, depending on the Company’s public debt rating. Base Rate is defined as the greatest of (A) the Wall Street Journal prime rate, (B) the greater of the U.S. federal funds rate and the overnight bank funding rate plus
+0.500% and (C) the adjusted term SOFR for a period of one month plus 1.00%. The Revolving Credit Facility also requires payment of a commitment fee on undrawn amounts at a rate of 0.075% to 0.225%, depending on the Company’s public debt rating.
+The Revolving Credit Facility requires the Company to maintain a leverage ratio no greater than 3.0x (provided that if a material acquisition
+has been consummated, the Company is permitted to maintain a leverage ratio no greater than 3.5x for up to four quarters).
+As of December 31, 2023, no amounts were outstanding under the Revolving Credit Facility and the Company was in compliance with all covenants in
+the Credit Agreement.
+32
+Financing Arrangements
+The Company provides certain customers with access to extended financing arrangements that allow for longer payment terms than those typically
+provided by the Company by factoring accounts receivable to third-party financing providers ("financing providers"). The program does not and is not intended to affect the timing of the Company's revenue recognition. Under the financing
+arrangements, proceeds from the financing providers are due to the Company within 1 to 90 days from the sale of the receivable. In these transactions with the financing providers, the Company surrenders control over the transferred assets.
+Pursuant to the financing arrangements for the sale of receivables, the Company sold receivables of $37.4 million, $50.6 million and $31.9
+million during the years ended December 31, 2023, 2022, and 2021, respectively. The Company received cash proceeds from financing providers of $48.0 million, $41.5 million, and $32.5 million during the years ended December 31, 2023, 2022, and
+2021, respectively. As of December 31, 2023 and December 31, 2022, the amounts owed by the financing providers were $0.6 million and $11.8 million, respectively, which were recorded in accounts receivable on the Company’s Consolidated Balance
+Sheets.
+Note 9. Equity
+The following table summarizes dividends paid, stock repurchases and retirements under the Company's stock repurchase programs, and stock
+repurchases for tax withholdings (in millions, except per share amounts):
+Dividends | Stock Repurchases | Total
+Year | Per Share | Amount | Shares | Average price per share | Amount | Tax Withholding Amount | Amount
+2023 | $ | 0.88 | $ | 280.8 | 13.1 | $ | 29.47 | $ | 385.0 | $ | 12.7 | $ | 678.5
+2022 | $ | 0.84 | $ | 270.4 | 9.2 | $ | 32.32 | $ | 299.7 | $ | 15.4 | $ | 585.5
+2021 | $ | 0.80 | $ | 259.1 | 15.7 | $ | 27.56 | $ | 433.3 | $ | 10.2 | $ | 702.6
+Cash Dividends on Shares of Common Stock
+During 2023, 2022, and 2021, the Company declared and paid quarterly cash dividends of $0.22, $0.21, and $0.20 per common share, totaling $280.8
+million, $270.4 million, and $259.1 million, respectively, on its outstanding common stock. Any future dividends, and the establishment of record and payment dates, are subject to approval by the Board of Directors (the "Board") of Juniper or an
+authorized committee thereof. See Note 15,
+Subsequent Events,
+for discussion of the Company's dividend declaration subsequent to December 31, 2023.
+Stock Repurchase Activities
+In January 2018, the Board approved a $2.0 billion share repurchase program ("2018 Stock Repurchase Program"). In October 2019, the Board
+authorized a $1.0 billion increase to the 2018 Stock Repurchase Program for a total of $3.0 billion.
+During the fiscal year ended December 31, 2023, the Company repurchased 13.1 million shares of its common stock in the open market at an average
+price of $29.47 per share for an aggregate purchase price of $385.0 million under the 2018 Stock Repurchase Program.
+As of December 31, 2023, there were $0.2 billion of authorized funds remaining under the 2018 Stock Repurchase Program.
+33
+In addition, the Company withholds shares of common stock from certain employees in connection with the vesting of stock awards issued to such
+employees to satisfy applicable tax withholding requirements. Such withheld shares are treated as common stock repurchases in the Company's financial statements as they reduce the number of shares that would have been issued upon vesting.
+Repurchases associated with tax withholdings were $12.7 million, $15.4 million, and $10.2 million during 2023, 2022, and 2021, respectively.
+Accumulated Other Comprehensive Income (Loss), Net of Tax
+The components of accumulated other comprehensive income (loss), net of related taxes,
+for the years ended
+December 31, 2023, 2022, and 2021 were as follows (in millions):
+Unrealized Gains/Losses on Available- for- Sale Debt Securities (1) | Unrealized Gains/Losses on Cash Flow Hedges (2) | Foreign Currency Translation Adjustments | Total
+Balance as of December 31, 2020 | $ | 34.1 | $ | 57.7 | $ | (36.2 | ) | $ | 55.6
+Other comprehensive loss before reclassifications | (5.0 | ) | (13.5 | ) | (12.8 | ) | (31.3 | )
+Amount reclassified from accumulated other comprehensive income (loss) | (1.2 | ) | (25.2 | ) | - | (26.4 | )
+Other comprehensive loss, net | (6.2 | ) | (38.7 | ) | (12.8 | ) | (57.7 | )
+Balance as of December 31, 2021 | $ | 27.9 | $ | 19.0 | $ | (49.0 | ) | $ | (2.1 | )
+Other comprehensive income (loss) before reclassifications | (6.5 | ) | 15.7 | (30.1 | ) | (20.9 | )
+Amount reclassified from accumulated other comprehensive income (loss) | 0.4 | 26.8 | - | 27.2
+Other comprehensive income (loss), net | (6.1 | ) | 42.5 | (30.1 | ) | 6.3
+Balance as of December 31, 2022 | $ | 21.8 | $ | 61.5 | $ | (79.1 | ) | $ | 4.2
+Other comprehensive income (loss) before reclassifications | 7.1 | 11.7 | (3.0 | ) | 15.8
+Amount reclassified from accumulated other comprehensive income (loss) | - | 29.1 | - | 29.1
+Other comprehensive income (loss), net | 7.1 | 40.8 | (3.0 | ) | 44.9
+Balance as of December 31, 2023 | $ | 28.9 | $ | 102.3 | $ | (82.1 | ) | $ | 49.1
+(1) | The reclassifications out of accumulated other comprehensive income (loss)
+during the years ended December 31, 2023, 2022 , and 2021 for realized gains on
+available-for-sale debt securities were not material, and were included in other expense, net, in the Consolidated Statements of Operations.
+(2) | The reclassifications out of accumulated other comprehensive income (loss) for realized gains (losses) on cash flow hedges was $(29.8) million, $(25.8)
+million and $28.9 million for the year ended December 31, 2023, 2022 and 2021, respectively. The reclassified amounts were included within cost of revenues, research and development, sales and marketing, and general and administrative
+in the Consolidated Statements of Operations.
+Note 10. Employee Benefit Plans
+Equity Incentive Plans
+The Company’s equity incentive plans include the 2015 Equity Incentive Plan (the “2015 Plan”) and the 2008 Employee Stock Purchase Plan (the
+“ESPP”). The Company has granted RSUs and PSAs under the 2015 Plan and purchase rights under the ESPP. In addition, in connection with certain past acquisitions, the Company has assumed or substituted stock options, RSUs, RSAs, and PSAs granted
+under the stock plans of the acquired companies. Such awards were converted into or replaced with the Company's stock options, RSUs, RSAs, and PSAs, respectively.
+34
+The 2015 Plan was adopted and approved by the Company's stockholders in May 2015 and had an initial authorized share reserve of 38.0 million
+shares of common stock, plus the addition of any shares subject to outstanding awards under the 2006 Equity Incentive Plan and the Amended and Restated 1996 Stock Plan that were outstanding as of May 19, 2015, and that subsequently expire or
+otherwise terminate, up to a maximum of an additional 29.0 million shares. In May 2017, May 2019, May 2022 and May 2023, the Company's stockholders approved an additional 23.0 million, 3.7 million, 4.5 million, and 7.0 million shares of common
+stock, respectively, for issuance under the 2015 Plan. As of December 31, 2023, an aggregate of 17.3 million shares were subject to outstanding equity awards and 2.3 million shares were available for future issuance under the 2015 Plan.
+The ESPP was adopted and approved by the Company's stockholders in May 2008. In May 2020, the Company's stockholders approved an additional 8.0
+million shares of common stock for issuance under the ESPP. To date, the Company's stockholders have approved a share reserve of 43.0 million shares of the Company's common stock for issuance under the ESPP. The ESPP permits eligible employees to
+acquire shares of the Company’s common stock at a 15% discount (as determined in the ESPP) through periodic payroll deductions of up to 10% of base compensation, subject to individual purchase limits of 6,000 shares in any twelve-month period or
+$25,000 worth of stock, determined at the fair market value of the shares at the time the stock purchase option is granted, in one calendar year. The ESPP provides 24 month offering periods with four 6-month purchase periods. A new 24-month
+offering period will commence every six months thereafter. The purchase price for the Company’s common stock under the ESPP is 85% of the lower of the fair market value of the shares at (1) the beginning of the applicable offering period or (2)
+the end of each 6-month purchase period during such offering period. The ESPP will continue in effect until February 25, 2028, unless terminated earlier under the provisions of the ESPP. As of December 31, 2023, approximately 39.4 million shares
+have been issued and 3.6 million shares remain available for future issuance under the ESPP.
+RSU, RSA, and PSA Activities
+RSUs generally vest over three years from the date of grant, and RSAs and PSAs generally vest over a period of one to three years provided that
+certain annual performance targets and other vesting criteria are met. Until vested, RSUs and PSAs do not have the voting and dividend participation rights of common stock and the shares underlying the awards are not considered issued and
+outstanding.
+The following table summarizes the Company’s RSU, RSA, and PSA activity and related information as of and for the year ended December 31, 2023
+(in millions, except per share amounts and years):
+Outstanding RSUs, RSAs, and PSAs
+Number of Shares | Weighted Average Grant-Date Fair Value per Share | Weighted Average Remaining Contractual Term (In Years) | Aggregate Intrinsic Value
+Balance at December 31, 2022 | 20.2 | $ | 26.78
+Granted (1)(2) | 9.6 | 28.88
+Vested (3) | (7.9 | ) | 26.04
+Canceled | (1.7 | ) | 26.37
+Balance at December 31, 2023 | 20.2 | $ | 28.10 | 1.1 | $ | 593.6
+As of December 31, 2023
+Vested and expected-to-vest RSUs, RSAs, and PSAs | 17.6 | $ | 27.67 | 1.1 | $ | 518.8
+(1) | Includes 7.8 million service-based, 1.4 million performance-based, and 0.4 million market-based awards.
+The number of shares subject to performance-based and market-based conditions represents the aggregate maximum number of shares that may be issued pursuant to the award over its full term. The grant date fair value of RSUs and PSAs
+was reduced by the present value of dividends expected to be paid on the underlying shares of common stock during the requisite and derived service period as these awards are not entitled to receive dividends until vested.
+(2) | The weighted-average grant-date fair value of RSUs, RSAs, and PSAs granted and assumed or substituted
+during 2023, 2022, and 2021 was $28.88, $29.62, and $26.21, respectively. The grant date fair value of RSUs and PSAs was reduced by the present value of dividends expected to be paid on the underlying shares of common stock during the
+requisite and derived service period as these awards are not entitled to receive dividends until vested. During 2023, the Company declared a quarterly cash dividend of $0.22 per share of common stock on January 31, 2023, April 25,
+2023, July 27, 2023, and October 26, 2023.
+(3) | Total fair value of RSUs, RSAs, and PSAs vested during 2023, 2022, and 2021 was $206.8 million, $202.2
+million, and $184.2 million, respectively.
+Shares Available for Grant
+The following table presents the stock activity and the total number of shares available for grant under the 2015 Plan (in millions):
+Number of Shares
+Balance as of December 31, 2022 | 3.4
+Additional shares authorized | 7.0
+Options, RSUs, and PSAs granted | (9.3 | )
+RSUs and PSAs canceled | 1.2
+Balance as of December 31, 2023 | 2.3
+Employee Stock Purchase Plan
+During 2023, 2022, and 2021, employees purchased 2.6 million, 2.6 million, and 2.8 million shares of common stock through the ESPP at an average
+exercise price of $23.53, $21.59, and $19.81 per share, respectively.
+Valuation Assumptions
+The weighted-average assumptions used and the resulting estimates of fair value for ESPP purchase rights and market-based RSUs were as follows:
+Years Ended December 31,
+2023 | 2022 | 2021
+ESPP Purchase Rights:
+Volatility | 28 | % | 29 | % | 32 | %
+Risk-free interest rate | 4.6 | % | 1.1 | % | 0.1 | %
+Expected life (years) | 1.3 | 1.3 | 1.3
+Dividend yield | 2.8 | % | 2.5 | % | 3.0 | %
+Weighted-average fair value per share | $ | 7.97 | $ | 8.84 | $ | 6.96
+Market-based RSUs:
+Volatility | 28 | % | 30 | % | 30 | %
+Risk-free interest rate | 4.3 | % | 1.7 | % | 0.2 | %
+Dividend yield | 2.8 | % | 2.5 | % | 3.4 | %
+Weighted-average fair value per share | $ | 37.45 | $ | 47.96 | $ | 30.70
+35
+Share-Based Compensation Expense
+Share-based compensation expense associated with stock options, RSUs, RSAs, PSAs, and ESPP purchase rights was recorded in the following cost
+and expense categories in the Company's Consolidated Statements of Operations (in millions):
+Years Ended December 31,
+2023 | 2022 | 2021
+Cost of revenues - Product | $ | 6.7 | $ | 5.9 | $ | 5.3
+Cost of revenues - Service | 20.8 | 17.4 | 18.2
+Research and development | 129.2 | 84.0 | 93.1
+Sales and marketing | 85.2 | 59.1 | 65.9
+General and administrative | 37.5 | 42.9 | 40.1
+Total | $ | 279.4 | $ | 209.3 | $ | 222.6
+The following table summarizes share-based compensation expense by award type (in millions):
+Years Ended December 31,
+2023 | 2022 | 2021
+Stock options | $ | 2.2 | $ | 5.4 | $ | 9.3
+RSUs, RSAs, and PSAs | 249.1 | 181.9 | 196.2
+ESPP Purchase Rights | 28.1 | 22.0 | 17.1
+Total | $ | 279.4 | $ | 209.3 | $ | 222.6
+For the years ended December 31, 2023, 2022, and 2021, the Company recognized tax benefits on total stock-based compensation expense, which are
+reflected in the income tax provision in the Consolidated Statements of Operations, of $36.9 million, $25.7 million, and $28.2 million, respectively.
+For the years ended December 31, 2023, 2022, and 2021, the realized tax benefit related to awards vested or exercised during the period was
+$34.4 million, $38.6 million, and $31.7 million, respectively. These amounts do not include the indirect effects of stock-based awards, which primarily relate to the research and development tax credit.
+As of December 31, 2023, the total unrecognized compensation cost related to unvested share-based awards was $383.4 million to be recognized
+over a weighted-average period of 1.8 years.
+401(k) Plan
+The Company maintains a savings and retirement plan qualified under Section 401(k) of the Internal Revenue Code of 1986, as amended (the "IRC").
+Employees meeting the eligibility requirements, as defined under the IRC, may contribute up to the statutory limits each year. The Company currently matches 30% of all eligible employee contributions which vest immediately. The Company’s matching
+contributions to the plan totaled $27.3 million, $23.5 million, and $22.3 million during 2023, 2022, and 2021, respectively.
+Deferred Compensation Plan
+The Company’s NQDC plan is an unfunded and unsecured deferred compensation arrangement. Under the NQDC plan, officers and other senior employees
+may elect to defer a portion of their compensation and contribute such amounts to one or more investment funds. As of December 31, 2023, the liability of the Company to the plan participants was $38.0 million, of which $2.5 million was included
+within other accrued liabilities and $35.5 million was included in other long-term liabilities on the Consolidated Balance Sheets. The Company had investments of $38.0 million correlating to the deferred compensation obligations, of which $2.5
+million was included within prepaid expenses and other current assets and $35.5 million was included within other long-term assets on the Consolidated Balance Sheets. As of December 31, 2022, the liability of the Company was $28.1 million, of
+which $2.4 million was included within other accrued liabilities and $25.7 million was included in other long-term liabilities on the Consolidated Balance Sheets. The Company had investments of $28.1 million correlating to the deferred
+compensation obligations, of which $2.4 million was included within prepaid expenses and other current assets and $25.7 million was included within other long-term assets on the Consolidated Balance Sheets.
+36
+Note 11. Segments
+The Company operates in one reportable segment. The Company's chief executive officer, who is the chief operating decision maker, reviews
+financial information presented on a consolidated basis for purposes of allocating resources and evaluating financial performance, accompanied by disaggregated information about net revenues by customer solution, customer vertical, and geographic
+region as presented below.
+The following table presents net revenues by customer solution (in millions):
+Years Ended December 31,
+2023 | 2022 | 2021
+Customer Solutions:
+Automated WAN Solutions | $ | 1,839.3 | $ | 1,865.3 | $ | 1,665.0
+Cloud-Ready Data Center | 744.7 | 878.9 | 727.1
+AI-Driven Enterprise | 1,391.8 | 1,026.2 | 830.4
+Hardware Maintenance and Professional Services | 1,588.7 | 1,530.8 | 1,512.9
+Total | $ | 5,564.5 | $ | 5,301.2 | $ | 4,735.4
+The following table presents net revenues by customer vertical
+(in millions):
+Years Ended December 31,
+2023 | 2022 | 2021
+Cloud | $ | 1,162.8 | $ | 1,393.6 | $ | 1,228.0
+Service Provider | 1,842.5 | 1,891.2 | 1,839.1
+Enterprise | 2,559.2 | 2,016.4 | 1,668.3
+Total | $ | 5,564.5 | $ | 5,301.2 | $ | 4,735.4
+The Company attributes revenues to geographic region based on the customer’s shipping address. The following table presents net revenues by
+geographic region (in millions):
+Years Ended December 31,
+2023 | 2022 | 2021
+Americas:
+United States | $ | 3,066.5 | $ | 2,931.6 | $ | 2,426.9
+Other | 266.8 | 225.2 | 222.2
+Total Americas | 3,333.3 | 3,156.8 | 2,649.1
+Europe, Middle East, and Africa | 1,405.7 | 1,370.0 | 1,314.5
+Asia Pacific | 825.5 | 774.4 | 771.8
+Total | $ | 5,564.5 | $ | 5,301.2 | $ | 4,735.4
+During the years ended December 31, 2023, 2022, and 2021, no customer accounted for greater than 10% of the Company's net revenues.
+37
+The following table presents geographic information for property and equipment, net (in millions).
+As of December 31,
+2023 | 2022
+United States | $ | 597.0 | $ | 579.3
+International | 92.9 | 87.5
+Property and equipment, net | $ | 689.9 | $ | 666.8
+The Company tracks assets by physical location. The majority of the Company’s assets, excluding cash and cash equivalents and investments, as of
+December 31, 2023 and December 31, 2022, were attributable to U.S. operations.
+Note 12. Income Taxes
+The components of pretax income are summarized as follows (in millions):
+Years Ended December 31,
+2023 | 2022 | 2021
+Domestic | $ | 340.4 | $ | 509.5 | $ | 264.6
+Foreign | 8.6 | 26.8 | 45.5
+Total pretax income | $ | 349.0 | $ | 536.3 | $ | 310.1
+The provision (benefit) for income taxes is summarized as follows (in millions):
+Years Ended December 31,
+2023 | 2022 | 2021
+Current provision (benefit):
+Federal | $ | 219.0 | $ | 223.6 | $ | 63.4
+States | 25.9 | 23.9 | 15.9
+Foreign | 46.5 | 36.2 | 48.2
+Total current provision (benefit) | 291.4 | 283.7 | 127.5
+Deferred (benefit) provision:
+Federal | (250.0 | ) | (199.3 | ) | (54.3 | )
+States | (13.6 | ) | (13.6 | ) | (4.1 | )
+Foreign | 1.4 | (10.3 | ) | (11.7 | )
+Total deferred (benefit) provision | (262.2 | ) | (223.2 | ) | (70.1 | )
+Total provision for income taxes | $ | 29.2 | $ | 60.5 | $ | 57.4
+38
+The provision (benefit) for income taxes differs from the amount computed by applying the federal statutory tax rate of 21% to pretax income for
+each of the years presented as follows (in millions):
+Years Ended December 31,
+2023 | 2022 | 2021
+Expected provision at statutory rate | $ | 73.3 | $ | 112.7 | $ | 65.1
+State taxes, net of federal benefit | 7.0 | 12.0 | 6.5
+Foreign income at different tax rates | (24.4 | ) | (18.1 | ) | (0.2 | )
+R&D tax credits | (31.4 | ) | (23.6 | ) | (16.6 | )
+Share-based compensation | (5.2 | ) | (7.4 | ) | (2.2 | )
+Non-deductible compensation | 5.1 | 4.0 | 4.2
+Recognition of previously unrecognized tax benefits | - | (8.1 | ) | -
+Other | 4.8 | (11.0 | ) | 0.6
+Total provision for income taxes | $ | 29.2 | $ | 60.5 | $ | 57.4
+In 2023, classified within "Other" above, the Company recorded a tax expense of $9.8 million on adjustments for certain privately-held
+investments and $5.0 million related to interest on income tax reserves. This was partially offset by income tax benefits of $10.9 million due to changes in tax legislation.
+Deferred income taxes reflect the net tax effects of tax carry-forward items and temporary differences between the carrying amounts of assets
+and liabilities for financial reporting purposes and the amounts used for income tax purposes. Deferred income taxes are classified as other long-term assets in the Company's Consolidated Balance Sheets. Significant components of the Company's
+long-term deferred tax assets and deferred tax liabilities are as follows (in millions):
+As of December 31,
+2023 | 2022
+Deferred tax assets:
+Net operating loss carry-forwards | $ | 44.4 | $ | 57.2
+Research and other credit carry-forwards | 294.4 | 281.3
+Deferred revenue | 74.9 | 58.1
+Share-based compensation | 25.4 | 17.2
+Capitalized R&D expenditure | 475.7 | 293.1
+Reserves and accruals not currently deductible | 133.0 | 66.1
+Operating lease liabilities | 31.9 | 39.7
+Other | 12.1 | 13.2
+Total deferred tax assets | 1,091.8 | 825.9
+Valuation allowance | (326.9 | ) | (310.9 | )
+Deferred tax assets, net of valuation allowance | 764.9 | 515.0
+Deferred tax liabilities:
+Property and equipment basis differences | (5.5 | ) | -
+Purchased intangible assets | (23.0 | ) | (32.3 | )
+Unremitted foreign earnings | (24.1 | ) | (23.7 | )
+Net unrealized gain | (41.9 | ) | (35.8 | )
+Operating lease assets | (29.5 | ) | (36.1 | )
+Total deferred tax liabilities | (124.0 | ) | (127.9 | )
+Net deferred tax assets | $ | 640.9 | $ | 387.1
+39
+As of December 31, 2023 and 2022, the Company had a valuation allowance on its U.S. and foreign deferred tax assets of $326.9 million and $310.9
+million, respectively. The balance at December 31, 2023 consisted of $5.2 million, $312.9 million, and $8.8 million against the Company's U.S. federal, state, and foreign deferred tax assets, respectively, which the Company believes are not more
+likely than not to be utilized in future years. The valuation allowance increased in 2023 and 2022 by $16 million and $10 million, respectively, primarily related to changes in state R&D tax credits.
+As of December 31, 2023, the Company had federal, California and other states net operating loss carry-forwards of approximately $104.3 million,
+$129.1 million, and $138.8 million, respectively. The California net operating loss carry-forwards of $129.1 million are expected to expire unused. The Company also had federal, California, and other state tax credit carry-forwards of
+approximately $2.4 million, $326.7 million, and $32.8 million, respectively. Unused net operating loss and other state tax credit carry-forwards will expire at various dates beginning in the year 2024. The California tax credit carry-forwards
+will carry forward indefinitely.
+The Company provides deferred tax liabilities for all tax consequences associated with the undistributed earnings that are expected to be
+repatriated to subsidiaries' parent unless the subsidiaries' earnings are considered indefinitely reinvested. The Company has made no provision for deferred taxes on approximately $156.7 million of cumulative undistributed earnings of certain
+foreign subsidiaries through December 31, 2023. These earnings are considered indefinitely invested in operations of the subsidiaries, as the Company intends to utilize these amounts to fund future expansion of its operations. If these earnings
+were distributed to the parent, the Company would be subject to additional taxes of approximately $31.7 million.
+As of December 31, 2023, 2022, and 2021, the total amount of gross unrecognized tax benefits was $132.8 million, $116.0 million, and $113.4
+million, respectively. As of December 31, 2023, approximately $127.8 million of the gross unrecognized tax benefits, if recognized, would affect the effective tax rate before considering valuation allowance.
+A reconciliation of the beginning and ending amount of the Company's total gross unrecognized tax benefits was as follows (in millions):
+Years Ended December 31,
+2023 | 2022 | 2021
+Balance at beginning of year | $ | 116.0 | $ | 113.4 | $ | 116
+Tax positions related to current year:
+Additions | 8.9 | 5.8 | 7.7
+Tax positions related to prior years:
+Additions | 8.9 | 6.9 | 3.3
+Reductions | - | (2.5 | ) | (3.6 | )
+Settlements | - | - | (9.4 | )
+Lapses in statutes of limitations | (1.0 | ) | (7.6 | ) | (0.6 | )
+Balance at end of year | $ | 132.8 | $ | 116.0 | $ | 113.4
+As of December 31, 2023, 2022, and 2021, the Company had accrued interest and penalties related to unrecognized tax benefits of $12.0 million,
+$5.6 million, and $8.1 million, respectively, as other long-term liabilities in the Consolidated Balance Sheets. Due to the changes in the level of gross unrecognized tax benefits, the Company recognized a (benefit), or expense, for net interest
+and penalties of $6.3 million, $(2.5) million, and $2.7 million in its Consolidated Statements of Operations during the years ended December 31, 2023, 2022, and 2021, respectively. The Company recognizes interest and penalties related to
+unrecognized tax benefits as a component of income tax expense.
+The Company engages in continuous discussions and negotiations with tax authorities regarding tax matters in various jurisdictions. There is a
+greater than remote likelihood that the balance of the gross unrecognized tax benefits will decrease by up to $49.9 million within the next twelve months due to the completion of tax review cycles in various tax jurisdictions and lapses of
+applicable statutes of limitation.
+40
+The Company conducts business globally and, as a result, Juniper Networks or one or more of its subsidiaries files income tax returns in the
+U.S. federal jurisdiction and various state and foreign jurisdictions. In the normal course of business, the Company is subject to examination by taxing authorities throughout the world, including such jurisdictions as the Netherlands, U.K.,
+France, Germany, Japan, China, Australia, India, and the U.S. With few exceptions, the Company is no longer subject to U.S. federal, state and local, and non-U.S. income tax examinations for years before 2012.
+The Company is currently under examination by the Internal Revenue Service and the India tax authorities for the 2017 through 2018 tax years and
+the 2012 through 2020 tax years, respectively. The Company regularly assesses the likelihood of an adverse outcome resulting from such examinations. As of December 31, 2023, the Company believes the resolution of the audits is unlikely to have a
+material effect on its consolidated financial condition or results of operations.
+The Company is pursuing all available administrative remedies relative to ongoing matters. The Company believes that it has adequately provided
+for any reasonably foreseeable outcomes related to proposed adjustments and the ultimate resolution of these matters is unlikely to have a material effect on its consolidated financial condition or results of operations; however, there is still a
+possibility that an adverse outcome of these matters could have a material effect on its consolidated financial condition and results of operations.
+Note 13. Net Income per Share
+The Company computed basic and diluted net income per share as follows (in millions, except per share amounts):
+Years Ended December 31,
+2023 | 2022 | 2021
+Numerator:
+Net income | $ | 310.2 | $ | 471.0 | $ | 252.7
+Denominator:
+Weighted-average shares used to compute basic net income per share | 320.0 | 322.1 | 324.4
+Dilutive effect of employee stock awards | 5.9 | 7.4 | 7.2
+Weighted-average shares used to compute diluted net income per share | 325.9 | 329.5 | 331.6
+Net income per share:
+Basic | $ | 0.97 | $ | 1.46 | $ | 0.78
+Diluted | $ | 0.95 | $ | 1.43 | $ | 0.76
+Anti-dilutive shares | 6.4 | 3.4 | 0.5
+Basic net income per share is computed using net income available to common stockholders and the weighted-average number of common shares
+outstanding for the period. Diluted net income per share is computed using net income available to common stockholders and the weighted-average number of common shares outstanding plus potentially dilutive common shares outstanding during the
+period. Dilutive potential common shares consist of common shares issuable upon exercise of stock options and purchase rights, and vesting of RSUs, RSAs, and PSAs. The Company includes the common shares underlying PSAs in the calculation of
+diluted net income per share only when they become contingently issuable. Anti-dilutive shares are excluded from the computation of diluted net income per share.
+41
+Note 14. Commitments and Contingencies
+Commitments
+Unconditional purchase obligations consist of agreements that include firm and non-cancelable terms to transfer funds in the future for fixed or
+minimum amounts or quantities to be purchased at fixed or minimum prices. For obligations with cancellation provisions, the amounts included in the following tables were limited to the non-cancelable portion of the agreement terms or the minimum
+cancellation fee.
+Purchase Commitments with Contract Manufacturers and Suppliers
+In order to reduce manufacturing lead times and in the interest of having access to adequate component supply, the Company enters into
+agreements with contract manufacturers and certain suppliers to procure inventory based on the Company's requirements. A significant portion of the Company's purchase commitments arising from these agreements consists of firm and non-cancelable
+commitments. In certain instances, these agreements allow the Company the option to cancel, reschedule, and adjust its requirements based on the Company's business needs prior to firm orders being placed. The following table summarizes the
+Company’s purchase commitments as of December 31, 2023 (in millions):
+Years Ending December 31, | Purchase Commitments
+2024 | $ | 989.5
+2025 | 137.1
+2026 | 80.0
+2027 | 85.0
+Total | $ | 1,291.6
+The Company establishes a liability in connection with purchase commitments related to quantities in excess of its demand forecasts or obsolete
+materials charges for components purchased by the contract manufacturers based on the Company’s demand forecast or customer orders. As of December 31, 2023, the Company had accrued $36.0 million related to such charges.
+Other Purchase Obligations
+The following table summarizes the Company’s unconditional purchase obligations other than with contract manufacturers and suppliers as of
+December 31, 2023 (in millions):
+Years Ending December 31, | Unconditional Purchase Obligations
+2024 | $ | 33.1
+2025 | 30.1
+2026 | 5.2
+2027 | 1.0
+2028 | 0.2
+Total | $ | 69.6
+In December 2018, the Company entered into a Master Services Agreement and certain Statements of Work, as subsequently amended (collectively,
+the “Agreement”), with International Business Machines Corporation ("IBM"). As of December 31, 2023, the Company expects to pay IBM $56.3 million over the remaining initial term of the Agreement. The table above does not include fees payable to
+IBM under the contract as the Company is unable to make a reasonably reliable estimate of the amount of the payments related to each of the years under this contract due to uncertainties in the usage of the services.
+42
+Leases
+The Company leases its facilities and certain equipment under non-cancelable operating leases that have remaining lease terms of 1 to 8 years
+and 1 to 4 years, respectively. Each leased facility is subject to an individual lease or sublease, which could provide various options to extend or terminate the lease agreement. Facilities are primarily comprised of corporate offices, data
+centers, and R&D facilities. Equipment includes vehicles and various office equipment. The Company also has variable lease payments that are primarily comprised of common area maintenance and utility charges. The Company's lease agreements do
+not contain any residual value guarantees or restrictive covenants.
+The components of lease costs and other information related to leases were as follows (in millions, except years and percentages):
+Years Ended December 31,
+2023 | 2022
+Operating lease cost | $ | 46.6 | $ | 48.4
+Variable lease cost | 11.9 | 10.0
+Total lease cost | $ | 58.5 | $ | 58.4
+Operating cash outflows from operating leases | $ | 51.6 | $ | 53.1
+ROU assets obtained in exchange for new operating lease liabilities | $ | 12.4 | $ | 26.0
+As of December 31,
+2023 | 2022
+Weighted average remaining lease term (years) | 3.6 | 4.1
+Weighted average discount rate | 3.8 | % | 3.5 | %
+As of December 31, 2023, future operating lease payments for each of the next five years and thereafter are as follows (in millions):
+Years Ending December 31, | Amount
+2024 | $ | 47.1
+2025 | 42.4
+2026 | 21.2
+2027 | 13.5
+2028 | 6.9
+Thereafter | 7.6
+Total lease payments | 138.7
+Less: interest | (9.4 | )
+Total | $ | 129.3
+Balance Sheet Information
+Other accrued liabilities | $ | 46.4
+Long-term operating lease liabilities | 82.9
+Total | $ | 129.3
+43
+Debt and Interest Payment on Debt
+As of December 31, 2023, the Company held total outstanding debt consisting of the Notes with a carrying value of $1,616.8 million. See Note 8,
+Debt and Financing
+, for further discussion of the Company's long-term debt and expected future principal maturities.
+Tax Liability
+Our transition tax liability represents future cash payments on accumulated foreign earnings of subsidiaries as a result of the Tax Cuts and
+Jobs Act of 2017 ("Tax Act"). The Company has elected to pay its transition tax, net of applicable tax refunds, over the eight-year period provided in the Tax Act. The remaining balance of the Company's transition tax obligation was $179.7
+million, of which $106.3 million remains in long-term income taxes payable as of December 31, 2023.
+As of December 31, 2023, the Company also had $92.7 million included in long-term income taxes payable on the Consolidated Balance Sheets for
+unrecognized tax positions. At this time, the Company is unable to make a reasonably reliable estimate of the timing of payments related to this amount due to uncertainties in the timing of tax audit outcomes.
+Guarantees
+The Company has financial guarantees consisting of third-party financing arrangements extended to end-user customers and standby letters of
+credit for certain lease facilities, insurance programs and customs of $32.5 million and $27.4 million, as of December 31, 2023 and December 31, 2022, respectively.
+Legal Proceedings
+The Company is involved in investigations, disputes, litigation, and legal proceedings. The Company records an accrual for loss contingencies
+for legal proceedings when it believes that an unfavorable outcome is both (a) probable and (b) the amount or range of any possible loss is reasonably estimable. The Company intends to aggressively defend itself in these matters, and while there
+can be no assurances and the outcome of these matters is currently not determinable, the Company currently believes that these existing claims or proceedings are not likely, individually and in the aggregate, to have a material adverse effect on
+its financial position. Notwithstanding the foregoing, there are many uncertainties associated with any litigation and these matters or other third-party claims against the Company may cause the Company to incur costly litigation and/or
+substantial settlement charges. In addition, the resolution of any intellectual property litigation may require the Company to make royalty payments, which could adversely affect gross margins in future periods. If any of those events were to
+occur, the Company's business, financial condition, results of operations, and cash flows could be adversely affected. The actual liability in any such matters may be materially different from the Company's estimates, if any, which could result
+in the need to adjust the liability and record additional expenses.
+Note 15. Subsequent Events
+Dividend Declaration
+On January 30, 2024, the Company announced a cash dividend of $0.22 per share of common stock to be paid on March 22, 2024 to stockholders of
+record as of the close of business on March 1, 2024.
+Merger Agreement
+On January 9, 2024, HPE and Juniper Networks, Inc. announced that the companies entered into a definitive Merger Agreement under which HPE will
+acquire Juniper in an all-cash transaction. Under the terms of this agreement, Juniper shareholders will receive $40.00 per share in cash upon the completion of the transaction, representing an equity value of approximately $14 billion. The
+transaction is currently expected to close in late calendar year 2024 or early calendar year 2025, subject to receipt of regulatory approvals, approval of the transaction by Juniper shareholders, and satisfaction of other customary closing
+conditions.
+44

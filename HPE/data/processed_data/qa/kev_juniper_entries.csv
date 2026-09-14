@@ -1,0 +1,9 @@
+cveID,product,vulnerabilityName,dateAdded,dueDate,knownRansomwareCampaignUse
+CVE-2020-1631,Junos OS,Juniper Junos OS Path Traversal Vulnerability,2022-03-25,2022-04-15,Unknown
+CVE-2023-36844,Junos OS,Juniper Junos OS EX Series PHP External Variable Modification Vulnerability,2023-11-13,2023-11-17,Unknown
+CVE-2023-36845,Junos OS,Juniper Junos OS EX Series and SRX Series PHP External Variable Modification Vulnerability,2023-11-13,2023-11-17,Unknown
+CVE-2023-36846,Junos OS,Juniper Junos OS SRX Series Missing Authentication for Critical Function Vulnerability,2023-11-13,2023-11-17,Unknown
+CVE-2023-36847,Junos OS,Juniper Junos OS EX Series Missing Authentication for Critical Function Vulnerability,2023-11-13,2023-11-17,Unknown
+CVE-2023-36851,Junos OS,Juniper Junos OS SRX Series Missing Authentication for Critical Function Vulnerability,2023-11-13,2023-11-17,Unknown
+CVE-2025-21590,Junos OS,Juniper Junos OS Improper Isolation or Compartmentalization Vulnerability,2025-03-13,2025-04-03,Unknown
+CVE-2015-7755,ScreenOS,Juniper ScreenOS Improper Authentication Vulnerability,2025-10-02,2025-10-23,Unknown

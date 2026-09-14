@@ -1,0 +1,282 @@
+IDC - NVIDIA Becomes #1 in Datacenter Ethernet Switching as 1Q26 Market Surges 39.8%
+Skip to main
+Skip to search
+Skip to footer
+Home
+Research
+Data & Analytics
+IDC Quanta
+Custom Solutions
+Events
+All Events
+Upcoming Events
+IDC Directions
+Become a Sponsor
+CIO Summit
+IT Security Summit
+AI Leadership Summit
+Single Sponsor Event
+Our Analysts
+About IDC
+Press Room
+Careers
+Offices
+Resources
+All Resources
+Resource Center
+Executive Insights
+Blogs
+Webinars
+AI Hub
+AI Resource Center
+Agentic AI
+Trending Topics
+FutureScape
+Middle East War
+Sustainability
+MyIDC
+IDC Global
+IDC Global
+Asia/Pacific
+China
+Europe
+Japan
+Latin America (Spanish)
+Middle East, Türkiye & Africa
+Search
+Search
+Account
+My Account
+Logout
+Login to MyIDC
+Register
+Become a Client
+Menu
+(Opens dialog)
+Become a Client
+Research
+Data & Analytics
+IDC Quanta
+Custom Solutions
+Events
+All Events
+Upcoming Events
+IDC Directions
+Become a Sponsor
+CIO Summit
+IT Security Summit
+AI Leadership Summit
+Single Sponsor Event
+Our Analysts
+About IDC
+Press Room
+Careers
+Offices
+Resources
+All Resources
+Resource Center
+Executive Insights
+Blogs
+Webinars
+AI Hub
+AI Resource Center
+Agentic AI
+Trending Topics
+FutureScape
+Middle East War
+Sustainability
+MyIDC
+You have reached the bottom of the dialog. Focus is being moved to the close button.
+Back
+Blogs home
+Resources
+Markets and Trends
+June 17, 2026
+7 min
+NVIDIA Becomes #1 in Datacenter Ethernet Switching as 1Q26 Market Surges 39.8% to $15.4 Billion
+Campus and branch switching posts double-digit gains, driven by a hardware refresh wave and rising component prices.
+Share
+Share on LinkedIn
+Share on X
+In the first quarter of 2026, the worldwide Ethernet switch market reached $15.4 billion, growing 39.8% year over year, according to IDC’s
+Quarterly Ethernet Switch Tracker
+. The datacenter segment, which covers high-speed switching infrastructure inside hyperscale and enterprise data centers, surged 61.0% YoY to $10.0 billion, fueled by AI infrastructure investments for AI inferencing and training workloads at scale. In a landmark shift, NVIDIA became the #1 vendor by revenue in datacenter Ethernet switching for the first time. Campus and branch switching grew 12.3% YoY, supported by a hardware refresh cycle and rising component prices.
+Ethernet switch market highlights
+Datacenter segment
+The datacenter portion of the Ethernet switch market grew 61.0% YoY in 1Q26 to reach $10.0 billion, according to IDC. This growth reflects the continued build-out of AI infrastructure by hyperscalers, cloud providers, and large enterprises. High-speed ports dominate spending: 800G switches accounted for 35.8% of datacenter segment revenues, while 200Gb/400Gb speeds represented 34.1% combined, together making up nearly 70% of datacenter Ethernet switch spending.
+Campus/branch (non-datacenter) segment
+Enterprise campus and branch Ethernet switch revenue grew 12.3% YoY in 1Q26 to $5.4 billion, per IDC. Two forces are at work: a broad hardware refresh cycle as organizations upgrade aging infrastructure to support newer Wi-Fi standards, AI-powered applications, and modern digital workloads; and average selling price increases driven by component shortages, particularly memory, which amplified revenue growth above underlying unit shipment trends.
+Regional performance
+Total Ethernet switch revenues grew across all regions in 1Q26, according to IDC. The Americas led with 49.7% YoY growth, reflecting strong hyperscaler and enterprise AI investment in North America. EMEA posted 32.2% growth, while Asia Pacific grew 25.9% YoY.
+Router market highlights
+The total router market reached $3.8 billion in 1Q26, growing 11.3% year over year, driven by continued investment in both service provider and enterprise network infrastructure, according to IDC’s
+Quarterly Router Tracker
+.
+Service provider segment
+The service provider segment, including communications service providers and cloud SPs, made up 77.2% of total router market revenues in 1Q26, reaching $2.9 billion with 12.9% YoY growth. Cloud and telecom infrastructure upgrades remain the primary driver.
+Enterprise segment
+The enterprise router market contributed $867 million, growing 6.1% YoY in 1Q26, reflecting ongoing investment in enterprise WAN connectivity and SD-WAN-enabled infrastructure modernization.
+Regional performance
+In 1Q26, the Americas router market rose 19.6% YoY, leading all regions. EMEA grew 9.8% YoY, while Asia Pacific posted 2.8% growth.
+Vendor highlights
+Cisco
+$4.5B revenue, 29.3% market share, +24.0% YoY.
+Cisco’s total Ethernet switch revenues increased 24.0% YoY in 1Q26, capturing 29.3% market share, per IDC. Non-datacenter revenues, representing 60.5% of Cisco’s total, grew 14.1% YoY, reflecting the campus refresh tailwind, while datacenter revenues rose 43.0% YoY on strong AI infrastructure demand. Cisco’s total router revenue grew 24.4% YoY, giving the company a 35.1% market share in 1Q26.
+NVIDIA
+$2.1B revenue, 21.5% datacenter segment share, +192.7% YoY.
+NVIDIA’s Ethernet switch revenues, entirely from the datacenter segment, surged 192.7% YoY to $2.1 billion in 1Q26, giving it a 21.5% share of the datacenter segment, according to IDC. This result marks a significant milestone: NVIDIA is now the #1 vendor by revenue in datacenter Ethernet switching. NVIDIA’s Spectrum-X platform, an end-to-end AI networking solution that integrates Spectrum Ethernet switches with BlueField DPUs and NVIDIA LinkX cables, purpose-built for large-scale GPU clusters, has emerged as the preferred network interconnect for large-scale AI training, winning significant traction with hyperscalers and AI-native cloud providers building AI factories.
+Arista Networks
+$2.2B revenue, 14.6% market share, +37.3% YoY.
+With 92% of its Ethernet switch revenues in the datacenter segment, Arista’s revenues grew 37.3% YoY in 1Q26 to $2.2 billion, per IDC. Arista holds a 14.6% share of the total Ethernet switch market and 20.7% in the datacenter segment, maintaining strong positioning in 400G and 800G deployments with hyperscale customers.
+Huawei
+$895M revenue, 5.8% market share, +27.2% YoY.
+Huawei’s total Ethernet switch revenue increased 27.2% YoY in 1Q26 to $895 million, giving the company a 5.8% market share, per IDC. Huawei’s router revenue grew 0.8% YoY in 1Q26, with a 25.4% market share, underscoring continued strength in the service provider networking segment, particularly in China and select emerging markets.
+HPE
+$985M revenue, 6.4% market share, +15.4% YoY.
+HPE’s total Ethernet switch revenue (70.5% from the non-datacenter segment) grew 15.4% YoY in 1Q26, reaching a 6.4% market share, per IDC. HPE revenues now include Juniper Networks, following the July 2025 acquisition. The company’s deepened campus and branch portfolio is converting the current refresh wave into revenue.
+Market dynamics
+NVIDIA becomes #1 in datacenter Ethernet switching
+The main takeaway for 1Q26 is NVIDIA’s position at the top of the datacenter Ethernet switch market. IDC data shows that with 192.7% YoY growth and $2.1 billion in quarterly revenue, NVIDIA’s Spectrum-X platform has captured hyperscaler and enterprise demand for AI factory network infrastructure through integrated co-design across GPUs and networking. This structural shift is redrawing vendor standing across the datacenter networking industry.
+AI as the primary demand driver
+AI deployments are accelerating across both hyperscalers and large organizations, applied to enhance customer experience, reduce operational risk, and empower key business areas, including IT infrastructure and operations, software development, and sales. According to IDC, this broad adoption of AI workloads, from large-scale training clusters to inferencing at the enterprise edge, is driving sustained demand for high-speed, low-latency datacenter networking.
+Campus refresh cycle and component-price inflation
+Non-datacenter switching is benefiting from a convergence of a broad enterprise hardware refresh cycle and rising average selling prices driven by memory component shortages, according to IDC. Organizations are replacing switching infrastructure to support modern wireless standards and digital workloads, while supply constraints are inflating revenue growth above underlying unit volumes, a dynamic IDC expects to persist in the near term.
+“NVIDIA’s rise to #1 in datacenter Ethernet switching in a single year is one of the most significant vendor landscape shifts IDC has tracked in enterprise networking. Spectrum-X’s integrated GPU-plus-networking design is winning AI factory deals that incumbent networking vendors cannot match with standalone hardware alone. The campus side tells a different but equally important story: the refresh wave is real, but IT teams should plan for ASP normalization once memory supply constraints ease. Budget for the transition now, not after prices move.”
+— Paul Nicholson, Research Vice President, Cloud and Datacenter Networks, IDC
+“Enterprise campus and branch ethernet switching growth is driven by a variety of factors: First, organizations are upgrading both their wired and wireless networks as part of a multi-year refresh cycle to support Wi-Fi 7, and enhanced speeds across the access, distribution, and core layers of the network. AI, security and IoT are other key drivers. Meanwhile, memory-driven supply chain concerns are a headwind worth watching in the coming quarters.”
+— Brandon Butler, Senior Research Manager, Network Infrastructure and Services, IDC
+Why it matters
+Who should care?
+CIOs, network architects, IT procurement teams, and technology vendors should pay close attention. According to IDC, NVIDIA’s position as the #1 datacenter Ethernet switching vendor in 1Q26 signals a shift in datacenter networking, reflecting the growing influence of AI infrastructure on purchasing decisions. Campus-focused buyers should factor in the impact of sustained ASP increases when planning budget refreshes.
+Business impact
+Organizations building AI infrastructure now face a more complex vendor landscape for datacenter networking, with compute and network decisions increasingly intertwined. On the campus side, the convergence of a refresh wave and price inflation is creating both urgency and budget pressure for IT teams.
+Ecosystem signal
+The composition of the datacenter Ethernet switching market is being redrawn. Vendors that meet AI factory requirements with highly integrated functionality, including high-bandwidth, low-latency, lossless fabrics, are gaining share at scale. This is reshaping the competitive outlook for all incumbent networking vendors.
+What’s next for the Ethernet switch and router market
+IDC expects the Ethernet switch market to sustain strong momentum through 2026, underpinned by continued AI infrastructure investment from hyperscalers and enterprises. As inferencing deployments scale alongside training workloads, demand for high-speed datacenter switching, particularly at 800G and beyond, should remain robust. NVIDIA’s position will face increasing competitive responses from Cisco, Arista, and Broadcom ecosystem vendors, making the datacenter segment one of the most actively contested in networking.
+In campus and branch, the refresh cycle is expected to continue, though revenue growth could moderate if memory supply constraints ease and reduce the ASP tailwind. Macro uncertainty, including tariff risks and regional economic volatility, remains a watch item that could temper investment decisions in some geographies.
+Learn more
+For deeper analysis and IDC research on enterprise network infrastructure trends, visit the IDC
+Quarterly Ethernet Switch Tracker
+and IDC
+Quarterly Router Tracker
+at
+idc.com
+, or
+contact IDC
+for the latest market insights and custom research.
+Paul Nicholson																	-
+Research Vice President, Networking and Infrastructure Services, Enterprise Infrastructure
+Analyst Profile
+Paul Nicholson is Research Vice President within IDC’s enterprise infrastructure global research domain and part of the networking infrastructure and services subdomain. He focuses on AI, cloud, and datacenter network infrastructure. His research spans Ethernet and InfiniBand switching, application delivery…
+Brandon Butler																	-
+Senior Research Manager, Networking and Infrastructure Services, Enterprise Infrastructure
+Analyst Profile
+Brandon Butler is a Senior Research Manager within IDC’s enterprise infrastructure global research domain and part of the networking infrastructure and services subdomain. His research covers market and technology trends, forecasts, and competitive analysis in enterprise campus, branch, and edge…
+Petr Jirovsky																	-
+Senior Research Director, Networking and Infrastructure Services, Enterprise Infrastructure
+Analyst Profile
+Petr Jirovsky is a Senior Research Director within IDC’s enterprise infrastructure global research domain and part of the Networking and Infrastructure Services subdomain. He provides quantitative insights on network infrastructure for the datacenter, cloud, and campus/branch environments. He serves as…
+Diego Anesini																	-
+VP Data and Analytics, Networking
+Analyst Profile
+Diego Anesini serves as Vice-President, Data & Analytics, Networking. Prior to this position, Diego held various roles in the company. The most recent was VP, Data & Analytics for Latin America. He has extensive experience in the Networking, Telecom and…
+Subscribe to our blog
+Stay ahead in a rapidly evolving market. Get timely insights, trusted research, and actionable guidance to help you make smarter technology and business decisions — whether you’re driving innovation, evaluating solutions, or shaping strategy.
+Subscribe now
+Data at a glance
+Total Ethernet switch market: $15.4B (+39.8% YoY)
+Datacenter segment: $10.0B (+61.0% YoY)
+Campus/branch segment: $5.4B (+12.3% YoY)
+800G share of datacenter revenues: 35.8%
+Top datacenter vendor: NVIDIA, $2.1B, 21.5% segment share (+192.7% YoY)
+Total router market: $3.8B (+11.3% YoY)
+Top region: Americas, +49.7% YoY
+Source:
+IDC Quarterly Ethernet Switch Tracker, 1Q26
+;
+IDC Quarterly Router Tracker, 1Q26
+Common questions
+How did NVIDIA become the #1 vendor in datacenter Ethernet switching?
+According to IDC, NVIDIA’s Spectrum-X platform, which combines Spectrum Ethernet switches, BlueField DPUs, and NVIDIA LinkX cables in an integrated AI networking stack, has become the preferred Ethernet interconnect for large-scale AI training clusters. Revenue surged 192.7% YoY to $2.1 billion, giving NVIDIA a 21.5% share of the datacenter Ethernet switching segment in 1Q26. Its integrated GPU-plus-networking design delivers performance advantages that standalone networking vendors cannot replicate with network hardware alone.
+Why did campus and branch switching grow despite component shortages?
+IDC data shows two forces drove 12.3% YoY revenue growth in the non-datacenter segment in 1Q26. First, a hardware refresh cycle, driven by aging campus infrastructure and the demands of Wi-Fi 6E/7, AI-powered applications, and modern digital workloads, sustained unit demand. Second, memory component shortages pushed average selling prices higher, amplifying revenue growth above underlying unit shipment trends.
+What risks could impact the 2026 outlook?
+IDC identifies three primary risks for the Ethernet switch and router market in 2026: ongoing macro uncertainty including tariff risks and geopolitical tensions; potential normalization of memory supply, which could reduce the ASP tailwind amplifying campus revenue growth; and competitive responses from Cisco, Arista, and Broadcom-ecosystem vendors to NVIDIA’s leading position in the datacenter segment.
+Related Posts
+115956
+Wi-Fi 7 Captures 44% of Enterprise WLAN Dependent Access Point Revenue as 1Q26 Market Grows 15.9% to Nearly $2.7 Billion
+Covered
+800G switching
+AI networking
+Arista Cisco NVIDIA comparison
+campus network refresh
+datacenter AI workloads
+datacenter Ethernet switching
+enterprise network infrastructure
+enterprise WAN
+Ethernet switch market 2026
+network infrastructure investment
+NVIDIA Spectrum-X
+router market
+Subscribe to our blog
+IDC Environmental Policy
+International Data Group is committed to protecting the environment, the health and safety of our employees, and the community in which we conduct our business. It is our policy to seek continual improvement throughout our business operations to lessen our impact on the local and global environment. We are committed to environmental excellence, pollution prevention and to purchasing products that reduce the use of natural resources.
+We fulfill this mission by a commitment to:
+Encouraging all partners to share in our mission
+Understanding environmental issues and sharing information with our partners
+Recognizing that fiscal responsibility is essential to our environmental future
+Instilling environmental responsibility as a corporate value
+Developing innovative and flexible solutions to bring about change
+Using our platforms and position in the IT industry to promote sustainability
+Minimize air travel to help reduce our impact on the environment
+Minimize use of materials and energy consumption in our offices
+Create a working environment that efficiently uses our office space
+Develop and maintain a hybrid working model that benefits both our employees and business partners
+Encourage employees to measure, minimize and collaborate on reducing energy consumption at home and in the office
+Engaging employees and promoting active participation in environmental and sustainability initiatives
+×
+Home
+IDC Corporate
+One Beacon St
+Suite 33100
+Boston MA 02108
++1.508.872.8200
+Products
+Research
+Data & Analytics
+IDC Quanta
+Custom Solutions
+Events
+Company
+About IDC
+Analysts
+Careers
+Offices
+Contact Us
+IDC Environmental Policy
+Resources
+MyIDC
+Events & Webinars
+Blog
+Resource Center
+Definitions
+Social Media
+IDC on LinkedIn
+IDC on X
+Copyright 2026 IDC. All rights reserved. IDC is an IDG company.
+Legal Links
+Trust
+Privacy Policy
+CCPA
+Support
+Terms of Use
+Permissions
+Subscribe
+Unsubscribe
+Copyright 2026 IDC. All rights reserved. IDC is an IDG company.
+Leaving?
+You are about to leave this section. Do you wish to continue?
+Cancel
+Continue
+×

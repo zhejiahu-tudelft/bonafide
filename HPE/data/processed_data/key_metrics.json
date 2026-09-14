@@ -1,0 +1,54 @@
+{
+  "valuation_date": "2026-09-11",
+  "as_of_date": "2026-09-14",
+  "price": 62.09000015258789,
+  "market_cap_fd_m": 89733.0,
+  "enterprise_value_m": 103823.0,
+  "fully_diluted_shares_m": 1445.21,
+  "ttm_revenue_m": 41871.0,
+  "ttm_revenue_growth": 0.3077,
+  "ttm_fcf_m": 4501.0,
+  "ttm_non_gaap_op_margin": 0.1377325595280743,
+  "ttm_gaap_op_margin": 0.0621432495044302,
+  "net_debt_m": 14028,
+  "wacc": 0.09300438934096673,
+  "base_value": 38.796740632046316,
+  "bear_value": 22.191358584128547,
+  "bull_value": 53.93493628079545,
+  "prob_weighted_value": 38.429944032254156,
+  "core_range": [
+    35.47434126545396,
+    42.859813983124575
+  ],
+  "ginzu_value": 31.5684719085641,
+  "ginzu_wacc": 0.110612273738675,
+  "arima_ttm_excess": 0.4410614057428428,
+  "r1_capex_coef": 0.098,
+  "r2_memory_coef": -0.0459,
+  "return_tail_ratio": 6.786338353700191,
+  "pe_fy27": 13.505724032659945,
+  "eps_fy27_consensus": 4.59731,
+  "reverse_margin": 0.18417650504817762,
+  "reverse_cagr": 0.1084671824579646,
+  "reverse_wacc": 0.07015328666223142,
+  "comps_pe_range": [
+    34.61413689748656,
+    105.74298163024888
+  ],
+  "comps_pe_mid": 87.47894466772449,
+  "sotp_range": [
+    66.6134371508004,
+    93.56504373711164
+  ],
+  "own_history_range": [
+    20.265693866510784,
+    46.1863767256491
+  ],
+  "ma_range": [
+    68.61547629038493,
+    74.10471439361574
+  ],
+  "networking_profit_share": 0.4045,
+  "networking_revenue_share": 0.263,
+  "headline": "HPE's AI-cycle re-rating has run ahead of what its cash flows support"
+}

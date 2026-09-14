@@ -1,0 +1,8 @@
+test,statistic,p_value,reading
+"ADF, log price",0.21483382154877753,0.973081412654689,Unit root not rejected → prices are non-stationary
+"ADF, daily log returns",-18.789217242912006,2.023593038964183e-30,Stationary
+"Ljung-Box returns, lag 10",17.622462515842418,0.061676044136758604,No significant autocorrelation
+"Ljung-Box returns, lag 20",29.08623275030963,0.08607525732236762,
+"Ljung-Box squared returns, lag 10",558.3026320471224,1.49801657682419e-113,Volatility clustering
+"Engle ARCH-LM, 5 lags",250.81316693653025,3.678250573790924e-52,ARCH effects
+Jarque-Bera normality,5500.731103111989,0.0,Non-normal (fat tails)

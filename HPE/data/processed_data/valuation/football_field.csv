@@ -1,0 +1,10 @@
+method,low,high
+52-week trading range (closes),20.0,62.09
+Sell-side price targets (low–high),52.0,88.0
+DCF: bear to bull scenarios,22.191358584128547,53.93493628079545
+"DCF base: WACC ±0.5pp, g ±0.25pp",35.47434126545396,42.859813983124575
+P/E next FY (core peers),34.61413689748656,105.74298163024888
+"EV/EBITDA TTM, GAAP basis (core peers)",18.699325695373872,83.75293989739988
+HPE own forward P/E history (FY20–FY24),20.265693866510784,46.1863767256491
+Sum of the parts (segment EV/EBIT),66.6134371508004,93.56504373711165
+Control premium 25–35% on 1-month average price,68.61547629038493,74.10471439361574

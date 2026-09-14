@@ -1,0 +1,24 @@
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:                revenue   No. Observations:                   30
+Model:               SARIMAX(0, 0, 1)   Log Likelihood                  43.842
+Date:                Tue, 15 Sep 2026   AIC                            -81.684
+Time:                        00:05:10   BIC                            -77.480
+Sample:                    12-31-2017   HQIC                           -80.339
+                         - 03-31-2025                                         
+Covariance Type:                  opg                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+intercept      8.8907      0.018    493.579      0.000       8.855       8.926
+ma.L1          0.5969      0.271      2.203      0.028       0.066       1.128
+sigma2         0.0031      0.001      4.891      0.000       0.002       0.004
+===================================================================================
+Ljung-Box (L1) (Q):                   0.42   Jarque-Bera (JB):                 2.98
+Prob(Q):                              0.52   Prob(JB):                         0.23
+Heteroskedasticity (H):               0.83   Skew:                            -0.38
+Prob(H) (two-sided):                  0.78   Kurtosis:                         4.34
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).

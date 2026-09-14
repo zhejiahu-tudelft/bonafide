@@ -1,0 +1,72 @@
+EX-99
+2
+ef20051378_ex99-1.htm
+EXHIBIT 99.1
+Exhibit 99.1
+Hewlett Packard Enterprise
+1701 E. Mossy Oaks Road
+Spring, TX 77389
+hpe.com
+News Release
+Hewlett Packard Enterprise closes acquisition of Juniper Networks to offer industry-leading comprehensive, cloud-native, AI-driven
+portfolio
+Combination accelerates HPE’s strategic vision with a full, secure networking IP stack
+HOUSTON
+–
+July 2, 2025
+–
+HPE
+(NYSE: HPE) today announced the successful completion of its previously announced acquisition of Juniper Networks,
+Inc., a leader in AI-native networks. The combination positions HPE to capture the growing AI and hybrid cloud market opportunity by creating an industry-leading cloud-native and AI-driven IT portfolio, including a full, modern networking stack.
+The transaction doubles the size of HPE’s networking business and provides customers with a comprehensive portfolio of networking solutions. It also accelerates the company’s portfolio mix shift to higher-margin, higher-growth areas and
+positions the company for long-term profitable revenue growth.
+“Today begins a new era for HPE – we are now at the epicenter of the transformation of IT, where AI and networking are converging,” said Antonio Neri,
+president and CEO of HPE. “In addition to positioning HPE to offer our customers a modern network architecture alternative and an even more differentiated and complete portfolio across hybrid cloud, AI, and networking, this combination
+accelerates our profitable growth strategy as we deepen our customer relevance and expand our total addressable market into attractive adjacent areas. We look forward to welcoming the Juniper team to HPE.”
+“HPE and Juniper have a unique opportunity to disrupt the networking industry at the most important and relevant time,” said Rami Rahim, former CEO of Juniper Networks,
+who will now lead the combined HPE Networking business. “Together, we’ll be able to provide customers and partners with a secure network that is purpose-built with AI and for AI.”
+Compelling Strategic & Financial Benefits
+• | Transformative for HPE’s strategic evolution . The acquisition
+accelerates HPE’s strategic vision with a full networking IP stack: from silicon, to hardware, to the operating system, to security, to software and services, with a cloud-native and AI-driven approach. This integration will accelerate
+customers’ deployment and adoption of both hybrid cloud and AI.
+• | Bolsters HPE’s position as a networking leader. The acquisition doubles
+the size of HPE’s networking business, substantially increasing its scope and total addressable market . The combined company will reach large adjacent
+markets, including data center, firewalls, and routers, bridging the global strength of HPE in enterprise security-first networking and SASE security with Juniper’s position in data center, service provider, and AI-native solutions.
+• | Provides customers with a leading AI-native foundation for their end-to-end
+networking needs. The transaction builds on the combined capabilities of HPE and Juniper to provide customers of all sizes with the modern networking architecture to manage and simplify increasingly complex connectivity needs –
+particularly those driven by data-intensive, hybrid AI workloads. Greater research and development scale will enable faster innovation across networking silicon, systems, and software.
+• | Gives customers access to HPE’s full portfolio offering across networking,
+hybrid cloud, and AI. Networking customers will benefit from HPE innovation across its full portfolio offering – including hybrid cloud, storage, compute, and software – to accelerate and simplify their AI transformations.
+• | Capitalizes on HPE’s go-to-market scale. The transaction creates
+revenue growth opportunities, as Juniper offerings benefit from HPE’s large, global go-to-market model and team. The combined company will offer secure, AI-native solutions with the ability to collect, analyze, and act on insightful
+network data across a broader installed base.
+• | Attractive financial profile expected to deliver strong value for HPE
+shareholders. The acquisition of Juniper’s high-margin business is expected to be accretive in the near- and long-term for the combined company. The transaction will be accretive to non-GAAP EPS in year 1, post close, with the
+combined networking business contributing more than 50% of total company operating income.
+The acquisition was originally announced on January 9, 2024, and was approved by Juniper shareholders on April 2, 2024. With the completion of the transaction, shares of
+Juniper’s common stock, which traded on the NYSE under the symbol “JNPR,” will cease trading as of today and will no longer be listed on the NYSE.
+Advisors
+J.P. Morgan Securities LLC and Qatalyst Partners served as HPE’s financial advisors. Committed financing for the transaction was provided by Citigroup Global Markets
+Inc., JPMorgan Chase Bank, N.A. and Mizuho Bank, Ltd. Wachtell, Lipton, Rosen & Katz, Freshfields Bruckhaus Deringer LLP, and Covington & Burling LLP served as legal counsel. FGS Global served as HPE’s strategic communications advisor.
+Goldman Sachs & Co. LLC served as Juniper’s exclusive financial advisor and Skadden, Arps, Slate, Meagher & Flom served as legal counsel.
+About Hewlett Packard Enterprise
+HPE (NYSE: HPE) is a leader in essential enterprise technology, bringing together the power of AI, cloud, and networking to help organizations achieve
+more. As pioneers of possibility, our innovation and expertise advance the way people live and work. We empower our customers across industries to optimize operational performance, transform data into foresight, and maximize their impact. Unlock
+your boldest ambitions with HPE. Discover more at www.hpe.com.
+Media Contact:
+Laura Keller
+Laura.Keller@hpe.com
+Investor Contact:
+Paul Glaser
+investor.relations@hpe.com
+Forward-looking Statements
+This document contains forward-looking statements within the meaning of the safe harbor provisions of the Private Securities Litigation Reform Act
+of 1995. Such statements involve risks, uncertainties and assumptions. If such risks or uncertainties materialize or such assumptions prove incorrect, the results of HPE and its consolidated subsidiaries could differ materially from those
+expressed or implied by such forward-looking statements and assumptions. All statements other than statements of historical fact are statements that could be deemed forward-looking statements, including, but not limited to, any statements
+regarding the ability of HPE to integrate and implement its plans, forecasts and other expectations with respect to Juniper’s business after the completion of the transaction, and to realize additional opportunities for growth and innovation
+as a combined company; any statements regarding the expected strategic, technological, and financial benefits and costs of the transaction contemplated by this document, including enhanced opportunities for growth, the delivery of customer
+benefits and the realization and timing of synergies and other economic benefits; projections of operational or financial performance; any statements concerning the expected development, performance, addressable market, market share or
+competitive performance relating to products or services; any statements of expectation or belief; and any statements of assumptions underlying any of the foregoing. Risks, uncertainties and assumptions include the possibility that expected
+benefits may not materialize as expected; that the parties are unable to successfully implement integration strategies; potential adverse business uncertainty resulting from the completion of the transaction; and other risks that are
+described in HPE’s SEC reports, including but not limited to the risks described in HPE’s Annual Report on Form 10-K for its fiscal year ended October 31, 2024, subsequent Quarterly Reports on Form 10-Q, Current Reports on Form 8-K, and in
+other filings made by Hewlett Packard Enterprise from time to time filed with the Securities and Exchange Commission. HPE assumes no obligation and does not intend to update these forward-looking statements.

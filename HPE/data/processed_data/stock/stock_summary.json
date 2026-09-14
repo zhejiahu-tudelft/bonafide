@@ -1,0 +1,39 @@
+{
+  "valuation_date": "2026-09-11",
+  "close": 62.09,
+  "sma50": 51.11,
+  "sma200": 34.01,
+  "pct_above_sma200": 0.8257,
+  "rsi14": 64.1,
+  "bb_pctb": 1.17,
+  "vol21": 0.721,
+  "vol63": 0.629,
+  "vol63_1y_median": 0.407,
+  "high52": 62.09,
+  "low52": 20.0,
+  "high52_date": "2026-09-11",
+  "low52_date": "2026-02-23",
+  "pct_from_high52": 0.0,
+  "current_drawdown_total_return": 0.0,
+  "volume_20d_vs_1y_avg": 0.98,
+  "up_volume_share_last3m": 0.544,
+  "up_volume_share_prior3m": 0.647,
+  "obv_change_3m": 95743500.0,
+  "price_change_3m": 0.289,
+  "macd_above_signal": true,
+  "betas": {
+    "2Y weekly vs SPY": 1.49,
+    "5Y monthly vs SPY": 1.4,
+    "5Y monthly vs XLK": 1.06
+  },
+  "n_big_moves": 62,
+  "n_gaps_5pct": 40,
+  "golden_cross_date": "2026-04-15",
+  "death_cross_date": "2026-03-12",
+  "price_cross_check": {
+    "overlapping_days": 2514,
+    "median_abs_diff": 0.0,
+    "max_abs_diff": 0.0219,
+    "days_above_0.5pct": 246
+  }
+}

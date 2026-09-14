@@ -1,0 +1,602 @@
+Why HPE Gave Oracle Equity Instead of a Price Cut on AI Gear - Futurum
+Skip to content
+Leadership Team
+Analyst Directory
+Newsroom
+Login
+Search ...
+Results
+See all results
+Close
+Search
+Futurum Signal
+What We Do
+Data & Intelligence
+Testing, Labs & Validation
+Research & Advisory
+Content & Campaigns
+Practice Areas
+Software & Applications
+Enterprise Software & Digital Workflows
+Software Lifecycle Engineering
+Data & AI Platforms
+Data Intelligence, Analytics, & Infrastructure
+AI Platforms
+Infrastructure
+Networking
+Hybrid Cloud & Infrastructure
+Silicon & Devices
+Semiconductors, Supply Chain, & Emerging Tech
+Intelligent Devices
+Cross-Cutting
+Cybersecurity & Resilience
+Ecosystems, Channels, & Marketplaces
+CIO & Technology Buyers
+Practice Areas
+Taxonomy Overview
+Methodology
+Futurum Research 2026: Key Issues and Predictions
+2026 Research Agenda: Key Topics and Coverage Areas
+Insights
+Analyst Insights
+Custom Research Reports
+Earnings & News
+Futurum AI Insights
+Media
+Research Reports
+Futurum Intelligence Platform
+Futurum Signal
+Subscribe to our Newsletter
+MEDIA PARTNERS
+Tech Strong Live Stream
+The Six Five Webcast
+PODCASTS
+Agents of AI Podcast
+Futurum Equities Podcast
+Investing with the Boys
+Security Boulevard Podcast
+Tech Field Day Podcast
+The Six Five Podcast
+Utilizing AI Podcast
+Utilizing Tech Podcast Series
+VIDEO SERIES
+Shimmy Says
+Tech Field Day News Rundown
+Techstrong Gang
+The Main Scoop!
+Presented by Broadcom
+Futurum Group
+A letter from CEO, Daniel Newman
+Leadership
+Analyst Directory
+Newsroom
+See Futurum Live at RSAC 2026
+Careers
+PORTFOLIO COMPANIES
+Signal65
+Six Five Media
+Tech Field Day
+Techstrong
+Visible Impact
+INTEGRITY
+Disclosures & Policies
+Client Success
+Trusted by 100+ industry leaders
+Learn more
+Featured Case Studies
+Get Onboard
+Client Login
+Futurum Signal
+What We Do
+Close What We Do
+Open What We Do
+Analyze
+Data & Intelligence
+Get organization-wide instant access to market sizing and decision-maker data in a self-serve subscription model with analyst support.
+Advise
+Research & Advisory
+Make smarter decisions with our team of industry-leading forward analysts who shape buyer decisions, vendor positioning, market perception, and capital markets simultaneously.
+Overview
+•
+Custom Research
+•
+ROI Spectrum
+•
+Signal
+Amplify
+Content & Campaigns
+Turn your message into motion with analyst-hosted video, live events, digital media, and content strategies.
+Assess
+Testing, Labs & Validation
+Prove your claims with third-party validation from engineers, not marketers, delivered through hands-on testing, benchmarking, and lab-backed content.
+Practice Areas
+Close Practice Areas
+Open Practice Areas
+Software & Applications
+Enterprise Software & Digital Workflows
+Software Lifecycle Engineering
+Data & AI Platforms
+Data Intelligence, Analytics, & Infrastructure
+AI Platforms
+Infrastructure
+Networking
+Hybrid Cloud & Infrastructure
+Silicon & Devices
+Semiconductors, Supply Chain, & Emerging Tech
+Intelligent Devices
+Cross-Cutting
+Cybersecurity & Resilience
+Ecosystems, Channels, & Marketplaces
+CIO & Technology Buyers
+How We Work
+Taxonomy Overview
+Methodology
+Futurum Research: 2026 Key Issues & Predictions
+2026 Research Agenda: Key Topics & Coverage Areas
+Insights
+Close Insights
+Open Insights
+Insights
+Analyst Insights
+Custom Research Reports
+Earnings & News
+Futurum AI Insights
+Premium Insights
+Futurum Intelligence Platform
+Futurum Signal
+Newsletter
+Subscribe to our Newsletter
+Media Partners
+Techstrong Live Stream
+The Six Five Webcast
+Podcasts
+Agents of Dev Podcast
+Futurum Equities Podcast
+Investing with the Boys
+Security Boulevard Podcast
+Tech Field Day Podcast
+The Six Five Podcast
+Utilizing AI Podcast
+Utilizing Tech: The Podcast Series About Emerging Technologies
+Video Series
+Shimmy Says
+Tech Field Day News Rundown
+Techstrong Gang
+The Main Scoop!
+Presented by Broadcom
+The Six Five Summit Replay
+Featured Insights
+September 10, 2026
+Article
+The Foundry Bet: IonQ, SkyWater, and the Industrialization of Quantum
+Futurum's Daniel Newman shares his insights on why quantum’s next phase is an industrialization race, why the SkyWater acquisition puts IonQ in the top echelon, and why the bet still...
+Daniel Newman
+September 14, 2026
+Article
+NVIDIA Groq 3 LPX’s Promise of World’s Fastest Inference Enters Full Production
+Brendan Burke, Research Director at Futurum, shares his insights on how NVIDIA Groq 3 LPX strengthens Vera Rubin and what cloud providers must prove before faster tokens support premium pricing....
+Brendan Burke
+Futurum Group
+Close Futurum Group
+Open Futurum Group
+Futurum Group
+A letter from CEO, Daniel Newman
+Leadership
+Analyst Directory
+Newsroom
+Careers
+Disclosures & Policies
+Portfolio Companies
+Signal65
+Six Five Media
+Tech Field Day
+Techstrong
+Visible Impact
+Client Success
+Close Client Success
+Open Client Success
+Trusted by 100+ industry leaders
+Learn more
+Featured Case Study
+July 7, 2025
+Case Study
+Scaling Smarter: How Google Cloud Marketplace Is Reshaping Partner Sales and GTM Strategy
+In our latest market study, Scaling Smarter: How Google Cloud Marketplace Is Reshaping Partner Sales and GTM Strategy, Futurum uncovers the strategies and results from top-performing ISVs and channel partners...
+Alex Smith & Tiffani Bova
+February 27, 2025
+Case Study
+Maximizing ROI with Agentic AI: Why Agentforce Is the Fast Path to Enterprise Value
+In the latest study by Futurum Research, Maximizing ROI with Agentic AI: Why Agentforce Is the Fast Path to Enterprise Value, completed in partnership with Salesforce, Futurum Research explores why...
+Dion Hinchcliffe & Nick Patience
+January 21, 2025
+Futurum and Kearney Reveal CEOs’ Readiness for AI Transformation in Landmark Study
+Dion Hinchcliffe, Vice President of CIO Practice; Daniel Newman, CEO; and Tiffani Bova, Chief Strategy and Research Officer of the Futurum Group and Ben Smith, Partner & Global Lead, Digital...
+Dion Hinchcliffe
+Become a Client
+Market Coverage
+News
+September 9, 2026
+Tom Hollingsworth
+Why HPE Gave Oracle Equity Instead of a Price Cut on AI Gear
+Ecosystems, Channels, & Marketplaces
+,
+Hybrid Cloud & Infrastructure
+,
+Semiconductors, Supply Chain, & Emerging Tech
+Analyst(s): Tom Hollingsworth
+Publication Date: September 9, 2026
+HPE and Oracle expanded their networking collaboration, with HPE issuing Oracle a warrant to purchase HPE shares at a nominal price as part of a multi-year deployment of Juniper routing and switching gear across Oracle’s AI data centers. The structure highlights an emerging pattern among infrastructure vendors that use equity incentives, rather than price concessions, to win and retain flagship AI infrastructure customers.
+What Is Covered in This Article:
+HPE and Oracle’s expanded Juniper networking agreement
+Mechanics and rationale of the penny warrant
+Why equity replaced a straight price discount
+Dilution, margin optics, and competitive pressure
+What the structure signals for future AI deals
+The News:
+HPE announced an expanded networking collaboration with Oracle on September 2, 2026, alongside its fiscal third-quarter 2026 earnings release. Under the agreement, Oracle plans a multi-year, global deployment of HPE Juniper Networking equipment, including PTX and MX routing platforms and QFX and EX switching platforms, across Oracle Cloud Infrastructure’s (OCI) AI data centers. The expanded collaboration builds on more than a decade of engineering work between Oracle and Juniper Networks and adds multi-year networking support services, financing capabilities, and joint work on intelligent telemetry for Oracle’s AI fabric.
+As part of the agreement, HPE issued Oracle a warrant, dated July 2, 2026, according to HPE’s quarterly filing, to purchase up to 4,156,466 shares of HPE common stock at an exercise price of $0.01 per share. The filing ties the warrant directly to Oracle’s decision to deploy HPE’s networking solutions across its AI data centers. Rami Rahim, executive vice president, president and general manager of Networking at HPE, said, “Oracle is building AI infrastructure at extraordinary scale, and HPE is uniquely positioned to support OCI with one of the industry’s most comprehensive networking portfolios for AI data centers.”
+Why HPE Gave Oracle Equity Instead of a Price Cut on AI Gear
+Analyst Take:
+HPE’s decision to pair a marquee Oracle networking deal with a nominal-cost equity warrant reflects a financing pattern increasingly visible across the AI infrastructure buildout, one in which vendors extend equity upside to hyperscaler customers rather than cut invoice prices outright. The approach lets HPE report clean segment economics in Networking, the exact business line driving its current growth narrative, while still offering Oracle an incentive large enough to anchor one of the industry’s largest AI infrastructure buildouts. This structure mirrors AI vendor equity financing arrangements now appearing elsewhere in the sector, where suppliers accept dilution risk in exchange for locking in reference-scale deployments. The mechanics of the warrant, its size relative to HPE’s share count, and its timing relative to the public announcement all point to a deliberate strategy rather than an incidental deal term. Understanding why HPE chose equity over pricing concessions requires examining margin optics, dilution economics, competitive dynamics, and what the structure signals about vendor-customer relationships in AI infrastructure.
+Margin Optics Over Price Concessions
+A direct discount on HPE’s Juniper routing and switching platforms would compress reported gross margin and average selling prices within the Networking segment. That segment is currently central both to HPE’s growth and profitability story, with routing and data center networking revenue expanding sharply following the Juniper integration. A warrant, by contrast, is a largely non-cash, non-operating instrument that does not flow through cost of goods sold or segment margin calculations. This allows HPE to preserve the appearance of pricing discipline in the same quarter it reports record Networking segment results. Investors evaluating segment profitability in isolation may not immediately see the warrant as an economic cost tied to the same contract. The distinction between accounting presentation and underlying economic cost is therefore central to how this transaction should be read.
+Dilution as a Cost of Reference-Customer Access
+The warrant covers just over four million shares against HPE’s outstanding share base, a fraction of one percent. That level of dilution is modest in absolute terms, even as the value transferred to Oracle scales with HPE’s stock price rather than a fixed dollar amount. In exchange, HPE secures Oracle as a flagship reference customer for its combined Juniper and Aruba networking portfolio inside one of the largest AI infrastructure buildouts underway. That reference value extends beyond the immediate contract, since other hyperscalers and large enterprises evaluating networking vendors for AI backend fabrics can point to Oracle’s deployment as validation. Equity dilution, unlike a cash rebate, also ties Oracle’s own financial interest to HPE’s stock performance rather than treating the relationship as a single transaction. The trade-off suggests HPE views the strategic and reputational value of the Oracle relationship as outweighing a small, variable dilution cost.
+Competitive Pressure in AI Backend Networking
+Oracle Cloud Infrastructure’s AI backend fabric is contested ground, with alternatives such as Nvidia’s Ethernet-based networking stack and other merchant-silicon options competing for the same GPU cluster traffic. Vendors seeking to win or retain this business face pressure to improve total deal economics without publicly cutting list prices that could set a precedent with other hyperscaler negotiations. A warrant structure allows HPE to sweeten the Oracle relationship without disclosing a specific discount percentage that competitors or other customers could reference. This opacity is a meaningful advantage in negotiations with other large accounts, since public price concessions tend to become a floor for future discussions. The RoCEv2-focused QFX switching platforms named in the agreement are also directly relevant to the same AI backend networking segment where competitive substitution risk is highest. Framing the incentive as equity rather than price, therefore, serves a defensive purpose against competitive displacement as much as an offensive one to win the deal.
+Equity Incentives as a Broader AI Infrastructure Pattern
+HPE’s warrant to Oracle follows a similar structure used by AMD in its 2025 agreement with OpenAI, in which AMD issued warrants tied to GPU deployment milestones rather than adjusting unit pricing. Both arrangements share a common logic: an infrastructure vendor accepts equity-linked risk in exchange for a customer commitment large enough to move segment-level growth metrics. This pattern differs from traditional vendor financing, which typically involves deferred payment terms or leasing rather than equity instruments tied to the vendor’s own stock. Its recurrence across at least two major AI infrastructure relationships suggests the approach is becoming an accepted mechanism for underwriting large, multi-year AI capacity commitments. Whether this remains confined to a handful of headline transactions or becomes a standard term in hyperscaler networking and compute contracts is not yet established. The emergence of this pattern nonetheless signals that equity-based incentives are becoming a recognized tool in AI infrastructure vendor negotiations, alongside more conventional pricing and financing terms.
+What to Watch:
+Whether HPE discloses the warrant’s accounting treatment in future segment margin reporting
+How other hyperscalers respond to equity-linked vendor incentives in future negotiations
+Whether Oracle exercises the warrant and how it times any share disposition
+Whether competing networking vendors introduce comparable equity-based deal structures
+How HPE’s Networking segment margins hold up as more AI-tied contracts are signed
+Whether investors or analysts begin scrutinizing equity warrants as an AI infrastructure financing mechanism
+See
+the full press release
+on HPE’s Oracle networking collaboration announcement on the company website.
+Declaration of generative AI and AI-assisted technologies in the writing process: This content has been generated with the support of artificial intelligence technologies. Due to the fast pace of content creation and the continuous evolution of data and information, The Futurum Group and its analysts strive to ensure the accuracy and factual integrity of the information presented. However, the opinions and interpretations expressed in this content reflect those of the individual author/analyst. The Futurum Group makes no guarantees regarding the completeness, accuracy, or reliability of any information contained herein. Readers are encouraged to verify facts independently and consult relevant sources for further clarification.
+Disclosure: Futurum is a research and advisory firm that engages or has engaged in research, analysis, and advisory services with many technology companies, including those mentioned in this article. The author does not hold any equity positions with any company mentioned in this article.
+Analysis and opinions expressed herein are specific to the analyst individually and data and other information that might have been provided for validation, not those of Futurum as a whole.
+Read the full
+Futurum Group Disclosure
+.
+Other Insights From Futurum:
+HPE’s Game-Changing $14 Billion Acquisition of Juniper
+HPE Q2 FY 2026: AI Orders Remain Strong as Supply Constraints Persist
+Oracle Q3 FY 2026 Earnings Driven by OCI AI Infrastructure Demand
+Author Information
+Tom Hollingsworth
+Tom Hollingsworth, CCIE #29213, is The Networking Nerd and Research Director, Networking at Futurum. He has spent the last twenty-five years implementing and understanding IT infrastructure, specializing in data center and campus networking, wireless and mobility solutions, and cybersecurity. He has extensive experience designing and implementing complex architectures and explaining their benefits to stakeholders and practitioners alike.
+Tom has hosted numerous Tech Field Day events focused on educating the wider enterprise IT community about solutions and products across the spectrum of offerings. He has participated in roundtable discussions and moderated panels on current and future technology outlooks. His advice is sought after by community members and company stakeholders at all levels. Tom has also hosted a weekly technology news podcast since 2018.
+Related Insights
+September 14, 2026
+Market Coverage
+News
+NVIDIA Groq 3 LPX’s Promise of World’s Fastest Inference Enters Full Production
+Brendan Burke, Research Director at Futurum, shares his insights on how NVIDIA Groq 3 LPX strengthens Vera Rubin and what cloud providers must prove before faster tokens support premium pricing....
+Brendan Burke
+September 14, 2026
+Market Coverage
+News
+NVIDIA and SpaceXAI Link Grok Expansion With Orbital Computing
+Brendan Burke, Research Director at Futurum, shares insights on NVIDIA Vera CPU adoption across Grok and Starmind and the evidence required to validate orbital AI computing....
+Brendan Burke
+September 14, 2026
+Market Coverage
+News
+Comarch Bets on Agentic Finance as AI Agent Adoption Hits 40%
+Comarch E-Invoicing launches AI Agent Access for 100,000+ entities, positioning itself as an infrastructure leader as enterprise AI agent adoption surges to 40%....
+FuturumAI
+September 11, 2026
+Market Coverage
+News
+ElevenLabs-UMG Deal Sets the Standard for Licensed AI Audio
+ElevenLabs and Universal Music Group partner to launch a licensed AI Audio Platform enabling fan-created remixes and personalized vocals, setting new standards for responsible AI commercialization....
+FuturumAI
+September 11, 2026
+Market Coverage
+News
+CISA and G7 Make PQC Transition an Immediate Imperative
+CISA and the G7 prioritize post-quantum cryptography now, not later. Red River's Quantum Cryptography Accelerator directly addresses their five key areas and counters the "harvest now, decrypt later" threat....
+FuturumAI
+September 11, 2026
+Market Coverage
+News
+Motive’s $1.3B Bet: Can Physical AI Crack Enterprise Supply Chain?
+Motive's $1.3B funding round from General Catalyst positions Physical AI as the solution to enterprise supply chain challenges, with focus on collision prevention and downtime reduction across 100,000 customers....
+FuturumAI
+Become a client
+Discover the power of a modern approach to Research, Analysis, Consulting, Media, Intelligence, and Go-to-Market. Let’s talk about how
+The Futurum Group
+can help elevate your brand.
+Become a Client
+Newsletter
+Get important insights straight to your inbox, receive first looks at eBooks, exclusive reports, and more.
+Subscribe
+Contact
+(833) 722-5337
+501 West Ave., Suite 2102
+Austin, TX 78701
+Quotes & Citations:
+[email protected]
+Press & Media Requests:
+[email protected]
+Linkedin
+X-twitter
+Youtube
+Facebook
+2026 The Futurum Group. All rights reserved.
+Privacy Policy
+Terms & Conditions
+Welcome to The Futurum Group
+Login to The Futurum Group
+Login to Futurum Intelligence Platform
+Login to Futurum Labs Research Library
+Book a Demo
+Welcome
+The vision behind everything in Futurum’s Custom Research practice is this: research should show you what is happening, what comes next, and what to do about it. It should be personal to each audience, easy for people to grasp, and structured so LLMs can reason over it accurately. And it should be fast and turnkey; you want answers now, not another project to carry for quarters.
+Whether you are defining business, channel, or go-to-market strategy; evaluating vendors or justifying ROI; or commissioning research to fill an emerging market need, we have your back, with a program that answers your questions with the objectivity and credibility to drive real decisions.
+To do it, we bring unmatched data to bear: Futurum research, surveys, and market projections; validated market feeds; ETR’s 15 years of insight from 10,000 technology decision-makers; G2’s buyer and user data; and what our analysts hear every day. Add leading primary collection, from AI-moderated voice interviews to surveys and analyst-led interviews, all turnkey, and every project comes out credible, nuanced, and actionable.
+And we don’t just drop the results in your lap. For internal work, we provide analyst-led sessions, interactive dashboards, and a range of formats. For market-facing work, Futurum delivers turnkey activation and amplification that actually gets seen, by people and by LLMs, through our media and share of voice. This is research that moves decisions and markets.
+We will meet you wherever you are, from a fast-turn brief to a multi-year program, and shape the work to your goals, timeline, and budget. The right program for your moment.
+If any of this is useful, I would love to talk.
+Benjamin Brown
+VP, Custom Research · The Futurum Group
+Connect
+Newsletter Sign-up Form
+Get important insights straight to your inbox, receive first looks at eBooks, exclusive event invitations, custom content, and more. We promise not to spam you or sell your name to anyone. You can always unsubscribe at any time.
+All fields are required
+Email*
+First Name*
+Last Name*
+Country*
+United States
+Afghanistan
+Âland Islands
+Albania
+Algeria
+American Samoa
+Andorra
+Angola
+Anguilla
+Antarctica
+Antigua and Barbuda
+Argentina
+Armenia
+Aruba
+Australia
+Austria
+Azerbaijan
+Bahamas
+Bahrain
+Bangladesh
+Barbados
+Belarus
+Belgium
+Belize
+Benin
+Bermuda
+Bhutan
+Bolivia
+Bosnia and Herzegovina
+Botswana
+Bouvet Island
+Brazil
+British Indian Ocean Territory
+Brunei Darussalam
+Bulgaria
+Burkina Faso
+Burundi
+Cambodia
+Cameroon
+Canada
+Cape Verde
+Cayman Islands
+Central African Republic
+Chad
+Chile
+China
+Christmas Island
+Cocos (Keeling) Islands
+Colombia
+Comoros
+Congo
+Congo, The Democratic Republic of the
+Cook Islands
+Costa Rica
+Cote D\'Ivoire
+Croatia
+Cuba
+Cyprus
+Czech Republic
+Denmark
+Djibouti
+Dominica
+Dominican Republic
+Ecuador
+Egypt
+El Salvador
+Equatorial Guinea
+Eritrea
+Estonia
+Ethiopia
+Falkland Islands (Malvinas)
+Faroe Islands
+Fiji
+Finland
+France
+French Guiana
+French Polynesia
+French Southern Territories
+Gabon
+Gambia
+Georgia
+Germany
+Ghana
+Gibraltar
+Greece
+Greenland
+Grenada
+Guadeloupe
+Guam
+Guatemala
+Guernsey
+Guinea
+Guinea-Bissau
+Guyana
+Haiti
+Heard Island and Mcdonald Islands
+Holy See (Vatican City State)
+Honduras
+Hong Kong
+Hungary
+Iceland
+India
+Indonesia
+Iran, Islamic Republic Of
+Iraq
+Ireland
+Isle of Man
+Israel
+Italy
+Jamaica
+Japan
+Jersey
+Jordan
+Kazakhstan
+Kenya
+Kiribati
+Korea, Democratic People'S Republic of
+Korea, Republic of
+Kuwait
+Kyrgyzstan
+Lao People\'S Democratic Republic
+Latvia
+Lebanon
+Lesotho
+Liberia
+Libyan Arab Jamahiriya
+Liechtenstein
+Lithuania
+Luxembourg
+Macao
+Macedonia, The Former Yugoslav Republic of
+Madagascar
+Malawi
+Malaysia
+Maldives
+Mali
+Malta
+Marshall Islands
+Martinique
+Mauritania
+Mauritius
+Mayotte
+Mexico
+Micronesia, Federated States of
+Moldova, Republic of
+Monaco
+Mongolia
+Montserrat
+Morocco
+Mozambique
+Myanmar
+Namibia
+Nauru
+Nepal
+Netherlands
+Netherlands Antilles
+New Caledonia
+New Zealand
+Nicaragua
+Niger
+Nigeria
+Niue
+Norfolk Island
+Northern Mariana Islands
+Norway
+Oman
+Pakistan
+Palau
+Palestinian Territory, Occupied
+Panama
+Papua New Guinea
+Paraguay
+Peru
+Philippines
+Pitcairn
+Poland
+Portugal
+Puerto Rico
+Qatar
+Reunion
+Romania
+Russian Federation
+RWANDA
+Saint Helena
+Saint Kitts and Nevis
+Saint Lucia
+Saint Pierre and Miquelon
+Saint Vincent and the Grenadines
+Samoa
+San Marino
+Sao Tome and Principe
+Saudi Arabia
+Senegal
+Serbia and Montenegro
+Seychelles
+Sierra Leone
+Singapore
+Slovakia
+Slovenia
+Solomon Islands
+Somalia
+South Africa
+South Georgia and the South Sandwich Islands
+Spain
+Sri Lanka
+Sudan
+Suriname
+Svalbard and Jan Mayen
+Swaziland
+Sweden
+Switzerland
+Syrian Arab Republic
+Taiwan, Province of China
+Tajikistan
+Tanzania, United Republic of
+Thailand
+Timor-Leste
+Togo
+Tokelau
+Tonga
+Trinidad and Tobago
+Tunisia
+Turkey
+Turkmenistan
+Turks and Caicos Islands
+Tuvalu
+Uganda
+Ukraine
+United Arab Emirates
+United Kingdom
+United States Minor Outlying Islands
+Uruguay
+Uzbekistan
+Vanuatu
+Venezuela
+Viet Nam
+Virgin Islands, British
+Virgin Islands, U.S.
+Wallis and Futuna
+Western Sahara
+Yemen
+Zambia
+Zimbabwe
+By checking this box, you agree to our
+privacy policy
+and to sign up for emails from Futurum.
+Subscribed
+Thank you, we received your request, a member of our team will be in contact with you.

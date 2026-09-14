@@ -1,0 +1,1808 @@
+
+=== page 1 ===
+ 
+Hewlett Packard Enterprise 
+2025 Security Analyst Meeting 
+Wednesday, October 15, 2025, 3:00 PM 
+Eastern 
+ 
+CORPORATE PARTICIPANTS 
+Antonio Neri - President, Chief Executive Officer 
+Rami Rahim - Executive Vice President, President, General Manager, HPE 
+Networking 
+Marie Myers - Executive Vice President, Chief Financial Officer 
+Shannon Cross - Chief Strategy Officer 
+Fidelma Russo - Executive Vice President, General Manager, Hybrid Cloud 
+business, Chief Technology Officer, HPE 
+Neil MacDonald - Executive Vice President, General Manager, Server 
+business 
+Maeve Culloty - President, Chief Executive Officer, HPE Financial Services 
+Paul Glaser - Head of Investor Relations 
+ 
+
+
+=== page 2 ===
+1 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+PRESENTATION 
+ 
+Paul Glaser 
+Good afternoon, welcome.  For those of you who don't know me, I'm Paul Glaser, I'm the Head 
+of Investor Relations and welcome to HPE 2025 Security Analyst Meeting.  Thank you for 
+joining us here in New York and thank you to those who are listening on the webcast.  In our 
+executive session today, you will hear from Antonio Neri, President, CEO and Rami Rahim, 
+EVP, President and General Manager of Networking and Marie Myers, EVP and Chief Financial 
+Officer.  Following the presentation, we will take questions from the live audience moderated by 
+Shannon Cross, our Chief Strategy Officer. 
+ 
+Before I pass it to Antonio, let me start with the disclosures.  This event may include forward-
+looking statements involving risks, uncertainties, estimates and assumptions.  If the risks and 
+uncertainties ever materialize and the estimates or assumptions prove incorrect, our results may 
+differ, perhaps materially from those expressed or implied by such forward-looking statements.  
+HPE assumes no obligation to update such statements.  Please find more information regarding 
+our forward-looking statements on our website at investor.hpe.com. 
+ 
+This presentation also includes presentation of certain non-GAAP financial information.  While 
+we believe that providing these non-GAAP financial measures alongside the corresponding 
+GAAP measures provides a supplemental view to understand our historical and prospective 
+operating performance, these non-GAAP financial measures may have limitations as analytical 
+tools.  Please note that these measures should not be considered in isolation or as a substitute 
+for analysis of HPE's results as reported under GAAP. 
+ 
+With that, let me turn it to Antonio. 
+ 
+Antonio Neri 
+Good afternoon, and welcome.  Welcome, and thank you for joining us today, whether you're 
+here at the New York Stock Exchange or watching us on our webcast.  This morning, I joined 
+my colleagues to ring the opening bell to celebrate the 10th anniversary of Hewlett Packard 
+Enterprise, which we mark on November 01.  Throughout the past decade, the IT industry has 
+experienced dramatic change driven by the on-ramp to digital, the growth in cloud and the 
+explosion in AI.  I am personally very incredibly proud of how we have transformed HPE and 
+how we took a disciplined approach to capitalize on the multiple industry disruptions and turn 
+them into value for our shareholders. 
+ 
+Today, HPE is a vastly different company than it was 10 years ago.  We are leaner, more 
+innovative with a differentiated portfolio, positioned to capitalize on the growing opportunities 
+ahead.  With the recent completion of our Juniper Networks acquisition, we move forward with a 
+new excitement.  In this new chapter, I am focused on accelerating value for our shareholders 
+through higher profitable growth and increased capital returns. 
+ 
+HPE was created with a bold vision to redefine and modernize enterprise IT for the area of 
+digital transformation and the new age of insights.  We architected a cohesive strategy aligned 
+to the IT megatrends and implemented a series of strategic initiatives to reposition the company 
+for the future. 
+ 
+We intentionally focus on what will differentiate us across networking, cloud and AI through 
+organic innovation and targeted strategic acquisitions.  We simplified our company, improving 
+our cost structure by reengineering our processes and incorporating automation.  And we never 
+
+
+=== page 3 ===
+2 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+lost focus on our culture, including recruiting and developing the best talent to compete and win 
+in the market.  As a result of these deliberate moves, we significantly increased the relevance of 
+HPE in the market, delivered solid shareholder value, and we set the foundation for what comes 
+next. 
+ 
+Now, we turn the page to HPE's next chapter, one that unleashes HPE as a leader in high-
+growth, high-margin networking market.  Our strength in networking will enable HPE to increase 
+our participation in the AI and cloud markets with a stronger and stickier value proposition.  HPE 
+strategic priorities over the next three years are clear.  We will build a new networking industry 
+leader, capture AI infrastructure growth profitably, with a focus on sovereign and enterprise 
+customers, accelerate our high-margin software and services growth through our HPE 
+GreenLake Cloud, capitalize on unstructured data market growth with our own IP through Alletra 
+MP Storage and drive customer transition to next-generation server platforms. 
+ 
+As we pursue these strategic opportunities, we will continue to focus on improving our operating 
+leverage.  And we are committed to delivering annual run rate synergies by 2028 of at least 
+$600 million through the Juniper integration and at least $350 million from our Catalyst 
+initiatives, which are designed to accelerate revenue growth, while driving structural cost 
+savings.  That will allow us to return to two times EBITDA leverage range by the end of fiscal 
+year '27, we will generate more than $3.5 billion in free cash flow by fiscal year '28 and we'll 
+accelerate capital returns through higher dividends and increased share buybacks.  I am 
+confident in our ability to deliver on these strategic and financial priorities, which position us for 
+success. 
+ 
+HPE is playing to win in three strategic IT markets: networking, cloud and AI, each one serves 
+as an essential building block for modern IT.  These markets are all growing at an accelerated 
+pace, driven by advancement in AI and the swift expansion in data center build-outs.  We 
+anticipate the overall total addressable market across our portfolio will increase to over $1.1 
+trillion by fiscal year 2028. 
+ 
+Our portfolio is well positioned to capitalize on all three growing markets.  I believe the 
+networking market will reach an significant inflection point becoming the core foundation of the 
+new AI technology stack.  This will require faster innovation to keep up with the disruptive 
+innovation already experienced…we've already seen in the server and storage markets.  
+Through the acquisition of Juniper Networks and our unique expertise in data center scale, the 
+rack scale solutions that we developed.  HPE is well-positioned to capitalize on the growth of 
+the AI infrastructure in service provider, sovereign and enterprise customer segments.  And let 
+me tell you how. 
+ 
+AI at the core requires vast amount of accelerated computing and data.  Our AI systems are 
+leading the market today with very strong solutions.  Today, HPE ProLiant servers and rack 
+scale solutions delivered sustainable accelerating computing for training and inferencing 
+deployed at scale across the market.  Our unique fanless direct liquid cooling innovation is a 
+point of differentiation for HPE.  Our global manufacturing services footprint provide us with a 
+unique ability to compete around the world.  And we complement this expertise with our market-
+leading supercomputing portfolio of HPE Cray EX solutions and systems, enabling the world to 
+solve some of the biggest challenges through simulation modeling and now the accelerated 
+adoption of AI.  These capabilities are particularly important for sovereign and neocloud 
+customers.  Data fuels the development of AI models and applications, unified, high-
+performance storage, accelerate access to insightful data, directly improving AI mobile 
+
+
+=== page 4 ===
+3 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+outcomes.  And as a result, organizations need scalable, integrated data solutions to expand AI 
+initiatives. 
+ 
+Our HPE Alletra MP Storage provide enterprise customers with a scalable cloud native and AI 
+ops-driven platform for structure and unstructured data, helping them reduce both CAPEX and 
+OPEX expenses.  And then there is cloud.  AI workloads are the true definition of hybrid.  Hybrid 
+and multi-cloud control are essential for flexible, cost-effective AI deployments.  Our GreenLake 
+Cloud enables enterprise customers to manage AI workloads across multi-cloud environments, 
+simplifying operations and ensuring compliance while reducing operating costs through a unique 
+agentic AI approach. 
+ 
+Lastly, our financing and asset lifecycle capabilities set us apart.  By providing enterprise 
+customers with financial capacity for AI investments through sustainable approaches, HPE 
+lowers the barriers to AI adoption. 
+ 
+And again, our recent acquisition of Juniper Networks position us to be the clear choice in 
+networking, offering the industry-leading secure AI native portfolio of networking spanning 
+campus and branch, data center switches, and wide area route and infrastructure.  There is a 
+clear advantage to such an expansive and integrated portfolio for our customers.  We had a 
+well-developed vision for the combined portfolios of Juniper Networks and HPE Aruba 
+networking where we announced the acquisition in January 2024. 
+ 
+Our market thesis has been further validated since then as customers ramp their AI 
+infrastructure investments further and faster.  Customers are attracted to HPE's open 
+architecture and distinctive approach across the entire IT stack.  Before the acquisition, we 
+already had a strong portfolio of server, storage, networking and cloud offerings, along with 
+global scale through our go-to-market reach.  And now we are combining all those strengths as 
+well our extensive partner ecosystem with Juniper to create an IT powerhouse. 
+ 
+I want to reaffirm our confidence in the success of this integration.  My confidence is grounded 
+not only in our rigorous governance and execution framework but also in our proven success in 
+integrating acquisitions that drove and continue to drive now strategic growth, whether it was 
+from Aruba to Cray to Silver Peak to Morpheus to OpsRamp.  We have consistently 
+demonstrated our ability to bring companies together, unlock both revenue and cost synergies 
+and accelerate portfolio innovation.  And let me be clear, Juniper will be no exception. 
+ 
+We are driving this integration forward with a dedicated program management office, which is 
+led by our Chief Operating and Legal Officer, John Schultz.  John and the integration team 
+offers support and oversight and track commitments and milestones around combining 
+functions, operations and go-to-market.  An executive steering committee oversees the program 
+management office and reports directly to the board of directors who established an integration 
+committee to ensure strategic oversight and accountability at the highest level of our company. 
+ 
+We have strong collaboration and cultural alignment across the teams with key talent from HPE 
+and Juniper, working as a one team, already delivering on integration decisions and jointly 
+engaging with customers.  These early signals reinforce our belief that we will deliver at least 
+$600 million in annual run rate synergies by 2028, as we have committed to shareholders, 
+which many are here in the room.  Together, HPE and Juniper will disrupt the status quo in the 
+networking market and unlock even greater value for our shareholders. 
+ 
+
+
+=== page 5 ===
+4 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+And now to speak more about how we will deliver on our networking vision, we will welcome 
+Rami Rahim, who leads our new HPE networking business.  But first, let's see what some of our 
+customers have to say. 
+ 
+[Video Presentation 13:29 to 15:04] 
+ 
+Rami Rahim 
+Thank you very much, and thank you, Antonio.  Good afternoon, everyone.  It is exciting to be a 
+part of HPE and to be here with all of you today.  I am privileged to lead the new HPE 
+networking business, and I'm here today to give you a clear view of our strategy for growing 
+revenue, securing market leadership and ultimately disrupting the networking industry. 
+ 
+Now as I share our plans, first, I will talk to you about the market opportunities we are pursuing.  
+In this new AI era, networking has become mission critical.  And as a result, we expect to 
+capture market share in key network product segments that are both large and growing.  Next, I 
+will walk through our strategy for building a highly competitive, highly profitable networking 
+business powered by the combination of HPE and Juniper Networks.  And third, I will highlight 
+the unique and competitive advantages of our secure AI native networking portfolio and how our 
+innovation and go-to-market scale can accelerate value to shareholders.  And finally, I will 
+discuss the results we intend to deliver and how we will track our progress over the next three 
+years, okay.  So, let's dive right in. 
+ 
+As Antonio mentioned, at HPE, we focus on three essential building blocks for modern IT: 
+networking, cloud and AI.  In the era of AI modern, high-performing and integrated infrastructure 
+is crucial, and the role of networking cannot be overstated.  Connecting infrastructure, 
+applications, users, data more securely and efficiently is at the core of cloud and AI 
+performance.  So, whether it's connecting people or scaling up and out to connect thousands of 
+GPUs, networking is the foundation to delivering the business outcomes our customers need.  
+But here's just thing, legacy networks lack the necessary scale, reliability, intelligence and 
+automation needed for the modern AI era. 
+ 
+Network performance is just no longer about speeds and feeds.  It is about delivering a best-in-
+class experience to network operators and end users, whether those end users are people or AI 
+agents.  And to achieve this kind of performance, organizations need a network that is purpose-
+built with AI and for AI.  So, when I say with AI, that means leveraging AIOps to simplify network 
+deployment, stay ahead of security threats and enable proactive troubleshooting to streamline 
+operations, lower cost and deliver an exceptional user experience. 
+ 
+When I say for AI, it means customers deploy and manage high-performing networks that 
+minimize AI training and inferencing times, maximize GPU utilization and secure sensitive AI 
+workloads and data.  30 years ago, I was fortunate enough to have a front row seat as the 
+internet exploded to what it is today.  But I am sincerely more excited today than I was about the 
+opportunity back then because cloud and now AI have changed everything, creating new and 
+even bigger growth opportunities for all of us.  So, we see that growth opportunity in our overall 
+networking TAM, which is…which will grow to $169 billion by the year 2028.  With HPE's 
+acquisition of Juniper Networks, we now have the entire networking technology stack.  We have 
+the talent, the go-to-market scale to win in this growing market segment. 
+ 
+Now our vision is to deliver unparalleled secure AI native networks that empower our customers 
+to meet their technical and their business objectives.  To fuel this vision, my key priorities for the 
+next three years are as follows.  First, we will drive increased adoption of our highly 
+
+
+=== page 6 ===
+5 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+differentiated AIOps solutions to capture share and enhanced profitability in AI for networks.  As 
+our leading AIOps platforms come together and become even smarter, we will realize this vision 
+of a self-driving network, which will increase our differentiation, drive both revenue growth as 
+well as margin expansion. 
+ 
+Second, we will tap into the large networks for AI investments that are happening in our 
+industry, to grow revenue and deliver shareholder value.  Here, our greater R&D scale will 
+enable us to innovate faster across networking, silicon, systems and software to not just 
+participate in the AI data center market opportunity but to be a leader in it.  By providing a 
+complete solution, including routers, data center switches, firewalls, servers, storage, you name 
+it and the services all around it, we will win with our customers, and we will grow our revenue. 
+ 
+Now third, we're going to claim market leadership in key areas where the network and security 
+are converging.  Our approach to integrated security means that we deliver best-in-class 
+efficacy, breadth and flexibility, giving customers supreme confidence in our solutions.  And as a 
+result, we're going to be able to grow mind share and market share.  Now, we plan to execute 
+these strategic priorities in alignment with four distinct areas of the market opportunity where we 
+have a competitive advantage that will accelerate value for our shareholders. 
+ 
+So let me address each of them.  I'm going to start with one that I know is top of mind, campus 
+and branch.  This area represents a significant market opportunity for us as both the largest 
+segment of the networking TAM and also the largest part of our business today.  We have 
+strong momentum and recognition from the market with 18% market share and a robust ARR 
+growth, now exceeding $1 billion.  Our track record of innovation in the campus and branch is 
+honestly second to none.  We were first with a virtual assistant that uses generative AI 
+conversation interface to solve problems using natural language queries.  We were the first 
+company with agentic digital twin technology that finds and fixes problems without users having 
+to be present.  We were among the first to introduce WiFi 7 access points and have seen triple-
+digit growth this year in that market, and we were the first to introduce the concept of a self-
+driving network, which is a game-changing approach to network performance measures focused 
+on agentic AI and auto remediation. 
+ 
+Now as we build on this track record of innovation, there are three powerful reasons why our 
+momentum is accelerating both with our customers and against the competition.  The first 
+reason is that we have two industry-leading network AIOps platforms, Juniper Mist and HPE 
+Aruba Networking Central, both with proven results, delivering up to 90% reduction in trouble 
+tickets and on-site service calls.  Each of these platforms has unique and compelling strengths 
+that actually complement each other. 
+ 
+For example, Mist was purpose-built for public cloud deployments, while central excels at 
+private cloud and on-prem deployment as well as virtual private cloud architectures.  Together, 
+they support every deployment option our customers want.  And over time, we will unify the 
+experience of these two platforms by cross-pollinating features and capabilities of each on to 
+the other.  And in so doing, we will protect our customers' investments while accelerating 
+innovation and all at greater levels of engineering efficiency.  So, we're already moving really 
+quickly to bring the best of both of these platforms together to all of our customers and I look 
+forward to showing exactly what that looks like at HPE Discover, Barcelona, in December. 
+ 
+The second reason for our momentum is that we have one of the industry's largest data lakes.  
+Our two platforms have been delivering powerful AIOps capabilities now for more than 10 years.  
+We've been collecting anonymized network user experience data from billions of connected 
+
+
+=== page 7 ===
+6 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+devices over that entire time frame.  This gives us a very rich pool of data, which grows by more 
+than 1 trillion telemetry points every single day, which means that our AIOps get smarter and 
+more effective every single day, creating more powerful competitive moats around our solutions. 
+ 
+And third, we have consistently embraced forward-looking AI strategies evolving from traditional 
+prediction engines to GenAI capabilities like optimized search and chatbots and now agentic AI 
+paving the way for a truly autonomous network.  This progression reflects our ability to 
+anticipate and lead industry shifts delivering cutting-edge solutions today while positioning 
+ourselves for future leadership.  Our momentum is only accelerating, and the market is taking 
+notice.  In the 2025 Gartner Magic Quadrant for wired and wireless, both HPE and Juniper 
+Networks were named leaders while the long-standing incumbent was not.  This milestone 
+signals a significant shift in the industry and validates our growing market leadership. 
+ 
+Now, the next strategic market growth opportunity we see is in routing infrastructure solution, 
+okay?  Some people might know what a wireless LAN or WAN.  AI adoption is driving 
+unprecedented traffic demand, not just within the data center, but between them.  This presents 
+a clear opportunity as we have innovative solutions that drive compelling scale, performance 
+and power efficiency advantage that our customers need. 
+ 
+So, the surge in AI traffic and AI training and inferencing is creating a massive data center 
+interconnect or DCI opportunity with bandwidth demand expected to grow up to six times in the 
+next five years, as enterprises and hyperscalers race to link GPU dense facilities with low-
+latency, high-capacity networks.  Furthermore, cloud providers are rapidly expanding their direct 
+connect offerings with some now delivering up to 400 gigabits per second of dedicated 
+bandwidth per link.  So, these cloud capabilities are enabling enterprises to move massive AI 
+workloads between on-prem infrastructure and the cloud with predictable performance and low 
+latency. 
+ 
+Our HPE networking routing solutions, such as PTX for DCI and MX for Direct Connect use our 
+proprietary silicon offerings and our Junos operating system, and our differentiated innovations 
+were custom built for scale and performance, uniquely positioning us to capture share as this 
+space evolves.  And in addition to the AI opportunity, of course, we will continue to take 
+advantage of technology upgrade and refresh cycles among service providers to drive revenue 
+at healthy margins in that customer segment as well. 
+ 
+Okay, third is the data center market.  And this, of course, represents one of HPE's networking 
+fastest-growing opportunities today.  Now, customers have varying data center needs on their 
+location, industry growth trajectory.  It depends on many different factors.  So, one size fits all 
+data center solutions are just not going to cut it.  We will win in this market by pursuing both 
+traditional enterprise data center opportunities and the fast-growing AI data center market.  For 
+traditional data centers, we will leverage our secure AI native networking platform for campus 
+and branch and cross-sell into the data center space. 
+ 
+In addition, we will integrate into HPE's hybrid and private cloud enterprise stacks to simplify 
+deployment and day-to-day operations across compute, storage and networking.  Now data 
+center builders and operators need efficient management solutions like Apstra to meet their 
+operational and regulatory requirements, their cost objectives as well as their security 
+imperatives.  Apstra is truly unique in that it is the only solution that supports multi-vendor data 
+center switching.  It offers deep, actionable insight into networking events, and its intent-based 
+approach, it just abstracts away complexity from operators while ensuring that data center is 
+always running as expected. 
+
+
+=== page 8 ===
+7 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+ 
+For the AI data center market, success requires intimacy with cloud builders, including neo 
+clouds and sovereign cloud providers.  Here, agility and speed of execution are absolutely key 
+to success.  And over the last couple of years, we have demonstrated an ability to do just that.  
+We were first to market with an 800 gigabit ethernet switch from our QFX series.  We've landed 
+meaningful front-end and back-end AI cluster wins from small to multi-hundred thousand GPU 
+cluster networks.  And as we look to the era of 1.6 terabits per second ethernet interfaces, we 
+expect to continue our leadership.  Liquid cooling is going to become critical for AI data center 
+networks in the near future.  And we will be able to incorporate our industry-leading direct liquid 
+cooling technology from HPE Slingshot products into our AI switching portfolio. 
+ 
+HPE's experience and market leadership in the AI data center deployments around the world 
+has already started opening doors for more networking opportunities.  Some cloud builders, 
+especially sovereign clouds prefer to work with a single technology provider for all aspects of 
+their AI data center builds.  HPE's ability to combine, compute and networking into end-to-end 
+data center solutions with expertise and services creates a big and growing opportunity for HPE 
+networking. 
+ 
+Network security, now network security cuts across all of these markets and presents our fourth 
+area of opportunity where we have a competitive advantage.  The philosophy around network 
+security is changing as customers demand security that's not bolt-on, it's built in.  So, our 
+objective in security is to strengthen our solutions, especially in the campus and branch, and in 
+the data center markets.  And as we execute our network, and security convergence strategy, 
+we will align ourselves to a growing trend of UZTNA, or Universal Zero Trust Network Access 
+that many enterprises are starting to embrace.  This advanced security framework applies zero 
+trust principles consistently across all environments, whether users are remote, on-prem, hybrid 
+or using unmanaged devices like IoT.  This is an emerging trend, and we have a distinct 
+advantage to lead in this space as we bring together our SASE, NAC, firewalls and AIOps to 
+create a complete end-to-end solution. 
+ 
+By integrating security directly into the network, we protect our strategic solutions from stand-
+alone security players that are entering into the networking space.  And we will tap into a nearly 
+$33 billion and fast-growing security market through an integrated approach and attach sales 
+motions.  So, look, we have a differentiated technology portfolio.  We have market momentum, 
+and we have the innovation prowess to bring this vision to life.  But perhaps more importantly, 
+we have the team we need to deliver on every promise we are making here today.  I have been 
+incredibly impressed with how well our two teams have come together over the last few months.  
+And I have immense confidence in how we will continue to serve our customers and drive 
+growth in our business as one networking team. 
+ 
+And speaking of customers, HPE Networking has some of the best customers in the world 
+across practically every industry, whether it's customers like Carnival Cruise Line, which deploys 
+solutions from across the full HPE Aruba Networking and HPE Juniper Networking portfolio, 
+institutions like University of Notre Dame, or convenience retailers like 7-Eleven, all our 
+customers have one thing in common, and that is that their networks are absolutely mission-
+critical to their organizations. 
+ 
+Now, I recently had the opportunity to see one of our customers' deployments in action at the 
+2025 Ryder Cup.  I also have to tell you that, I'm better technologist than I am a golfer, but I 
+found that both aspects of that event were actually pretty impressive.  With an integrated 
+solution, including HPE networking, HPE private cloud AI and a custom-built operational 
+
+
+=== page 9 ===
+8 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+intelligence dashboard, we created one of the world's largest temporary smart cities on Long 
+Island.  Our solutions powered the tournament connections for everything from digital media to 
+retail operations, to course management to the fan experience for more than 250,000 
+spectators.  Take a look. 
+ 
+[Video Presentation 35:57 to 37:26] 
+ 
+I love that video, too.  Look to help us deliver on this kind of customer success.  We have a 
+robust and engaged partner community through, which we do about 90% of our sales.  When 
+we closed this deal, there was only around a 10% overlap in partners between HPE Aruba 
+Networking and Juniper Networks.  We now have more than 47,000 partners around the world 
+selling our HPE Networking portfolio. 
+ 
+So harmonizing partner programs and driving our combined product portfolio through a broader 
+partner community represents a compelling source of revenue synergies for us.  Additionally, as 
+an accelerator to enable our partner community and capture new customer wins, we are 
+harnessing the power of HPE Financial Services to make it easier for our customers to choose 
+us.  HPE FS will help our networking customers and partners upgrade their technology at the 
+pace and with the investment structure that they desire.  Look, our networking segment is not 
+just a growth engine, but the most significant contributor to HPE's financial strength. 
+ 
+Over the next three years, we are committed to delivering strong results, which will translate to 
+enhanced returns for shareholders.  This means that we will accelerate the adoption of our AI-
+native networking solutions as we pursue customers across every major industry.  Accelerating 
+customer adoption will enable us to achieve global market leadership in key segments, including 
+wireless LAN and data center networking.  And we will deliver revenue growth with healthy 
+margin expansion.  Through this margin expansion, we will expect to increase networking's 
+contribution to HPE's non-GAAP operating profit to nearly 60% by fiscal year 2028. 
+ 
+HPE Networking was created to give the industry a new leader, a leader with a bold vision and a 
+clear path to success.  We have an immense opportunity to disrupt the status quo in networking 
+and deliver unprecedented value for our customers, our team members, our partners, and our 
+shareholders.  I'm excited to be leading this business.  I am confident we have the right strategy 
+and the right team in place to capture the opportunity ahead. 
+ 
+So, I want to thank you all for your time and I look forward to sharing updates on our success 
+with all of you as we move forward.  Thank you. 
+ 
+Antonio Neri 
+Thank you, Rami.  We are excited about the momentum we are building together within 
+networking and across the rest of the Hewlett Packard Enterprise.  So, thank you for joining us, 
+Rami. 
+ 
+Networking has become truly mission-critical, not just for connecting infrastructure, data and 
+users, but to powering the next wave of AI-driven innovation across every industry, but 
+networking alone is not enough.  The future of IT will be built on the seamless integration of 
+networking, cloud and AI.  So, let's discuss cloud and AI next. 
+ 
+Our cloud and AI strategy positions HPE to create value across several rapidly growing parts of 
+the market.  And our key priorities are: first, we will capture AI infrastructure growth profitably 
+with a focus on sovereign and enterprise customers.  In sovereign, we will leverage our 
+
+
+=== page 10 ===
+9 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+supercomputing customer base in the case of expertise to capture the incremental AI business.  
+With enterprise customers, we are pursuing market share gains with our industry-leading 
+turnkey AI factory solutions, including HPE Private Cloud AI and AI factories of scale with our AI 
+servers. 
+ 
+In addition, we will accelerate high-margin GreenLake software and services growth, including 
+virtualization with expanded offerings.  To grow our profitable HPE CloudOps software suite, we 
+are also scaling our go-to-market investment in Morpheus Enterprise, OpsRamp and Zerto.  
+And next, we will capitalize on the unstructured data market growth with our own IP through our 
+unique Alletra MP storage platform.  And finally, we will drive the enterprise transition to the 
+next-generation server platforms like HPE ProLiant Gen12 while balancing units and profitability 
+with higher services attach. 
+ 
+So, let's start with how HPE plans to profitably capture the tremendous growth opportunity that 
+AI presents today.  Our AI offering has positioned us competitively across customer segments, 
+including AI model builders and service providers, sovereign and enterprises.  Model builders 
+and service providers comprise a significant portion of the market today, but deals in this 
+customer segment are often very large, highly competitive with limited services attached and at 
+very low margin.  We continue to be very selective in pursuing these large-scale AI deals, 
+ensuring each of them meet our working capital and profitability criteria. 
+ 
+Our go-forward strategy in this market is to lead with networking as we continue to look for 
+opportunity for growth.  However, the halo effect that comes from these high-profile model 
+builders' sales help us drive enterprise server and private cloud business.  So, it continues to be 
+a very important part of our mix.  The sovereign AI market is growing at an accelerated pace 
+and diversifying. 
+ 
+For example, IDC Research reveals that more than 50% of organizations in Europe are either 
+already using sovereign clouds to build AI solutions or plan to do so within the next 12 months.  
+And HPE is uniquely positioned to capitalize on both the rapid expansion of sovereign and 
+neocloud AI data centers driven by regulatory mandates and national security priorities.  Our 
+decades of HPC leadership, trusted government relationships and our ability to deliver air-
+gapped private cloud solutions give us a unique competitive edge in enabling compliance, 
+secure national AI infrastructure.  Sovereign entities are responding to these advantages.  An 
+example of that is in Q3 fiscal 2025, sovereign AI orders grew 250% quarter-over-quarter 
+underscoring strong momentum in this emerging segment. 
+ 
+In recent months, we inaugurated the fastest AI system in the UK.  It's called Isambard-AI with 
+the University of Bristol and the UK government.  And with Orange and the French Armed 
+Forces Ministry, we inaugurated ASGARD, Europe's largest classified AI supercomputer.  In the 
+US, the University of Utah plans to invest $50 million in AI, which include NVIDIA AI computing 
+by HPE.  The build-out is forecast to increase the university's computing capacity by 350%.  We 
+are leveraging our competitive advantage to accelerate this momentum and our leadership. 
+ 
+HPE's clear supercomputing leadership and expertise give us a distinct advantage in AI.  Six of 
+the top 10 fastest supercomputers in the world has been built by HPE on HPE Cray EX 
+technology.  In fact, along with the US Department of Energy, we launched the world's top three 
+fastest supercomputers, El Capitan, at Lawrence Livermore National Laboratory, Frontier, at the 
+Oak Ridge National Laboratory, and Aurora at the Argonne National Laboratory.  In addition, the 
+supercomputer segment enabled us to pioneer new advanced technologies, such as industry 
+first 100% fanless direct liquid cooling architecture, which enables more efficient operations for 
+
+
+=== page 11 ===
+10 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+computing at scale.  One interesting factor is that we already have direct liquid cooling system 
+deployed in more than 20 countries around the world, and the adoption continues to increase. 
+ 
+HPE offers a compelling value proposition for enterprises accelerating their AI initiatives.  As AI 
+adoption scales, HPE is uniquely positioned to lead combining advanced infrastructure, 
+integrated services and strategic partnerships to meet this growing demand.  Many enterprises 
+are turning to HPE in response to the urgent need for scalable, easy to deploy AI infrastructure.  
+They do not want to take time, resources to custom build and integrate.  So, our private cloud AI 
+solution is redefining enterprise AI deployment.  This unique offer is different from the traditional 
+architecture offered by our competitors; it is a fully pre-integrated solution that's ready to run in 
+just a few steps.  It is available both as a cloud managed and air gap, making ideal for 
+enterprise customers with unique data compliance requirements, including sovereign use cases. 
+ 
+A key strength of our PC AI solution, it is the comprehensive integration of high-margin HPE 
+software and storage.  The platform comes equipped with NVIDIA accelerated compute with our 
+ProLiant servers.  The system also incorporates the HPE Cloud Ops software suite to simplify 
+operations and NVIDIA NIM Microservices to bring a true plug-and-play experience to users.  
+We launched this last year and it was already named by IDC for private…as a leader for private 
+AI infrastructure systems, our PCI has now doubled new customer acquisition every single 
+quarter to Q3 2025, building a pipeline that's bigger than $500 million in just the first year. 
+ 
+So, as we look ahead, we anticipate substantial growth driven primarily by more enterprise 
+adoption.  A great example is Carbon3.ai, a UK based sovereign AI platform provider is 
+adopting HPE's private cloud AI solution, which they are planning to operationalize now in less 
+than six weeks.  This will enable immediate revenue recognition and provide cost control and 
+data sovereignty, which were critical factors when Carbon3.ai made their decision.  For 
+customers that require AI infrastructure that offer greater scale than our private cloud AI does 
+today, we offer AI factories at scale.  These tailored solutions combine high-performance 
+compute with advisory and support services. 
+ 
+Customers include one of the top three retail banks in the US, several other financial services 
+firms and leading automotive manufacturers that rely on HPE AI servers to accelerate 
+development of driver assist systems.  We are leveraging our manufacturing and services 
+capability to win in global markets.  For example, we have deployed one of largest NVIDIA 
+GB200 clusters in the world with an AI model builder pursuing an extensive large language 
+model data center build-out.  In Japan, our customer, KDDI will open a major data center to 
+support start-ups and enterprises in developing AI applications and training large language 
+Japanese models. 
+ 
+Another example, TELUS, one of the Canada's most innovative communication technology 
+companies is leveraging our solutions and advanced computing infrastructure to launch 
+Canada's first fully sovereign AI factory.  This operational facility is delivering cutting-edge AI 
+compute capabilities, empowering organizations to build breakthrough AI solutions while 
+maintaining complete control over the data and innovations.  Sovereign and Enterprise AI 
+Customers segment now represent more than 50% of our cumulative AI orders book, while 
+Enterprise AI orders have grown year-over-year in every quarter since the beginning of fiscal 
+2024. 
+ 
+Now shifting from AI to cloud.  Over the last two years, we have expanded our market 
+leadership in the hybrid cloud segment by introducing GreenLake cloud-native innovations in 
+highly attractive growing markets.  We are focused on building a high-growth, high-margin 
+
+
+=== page 12 ===
+11 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+hybrid cloud business with an emphasis on leveraging our intellectual property and core 
+differentiators.  At the center of our strategy, GreenLake is the leading cloud delivering a unified 
+platform experience that allows enterprises to simplify IT, reduce cost and transform faster as 
+they incorporate their AI deployments.  Today, we have 44,000 GreenLake customers, an 
+increase of 7,000 new logos, up 20% from a year ago.  We help these customers manage more 
+than 5.8 million devices and over 8 exabytes of data, generating over $2 billion in ARR.  In 
+June, we introduced GreenLake Intelligence, our industry-first agentic AI ops framework, which 
+is multi-cloud and multi-vendor. 
+ 
+GreenLake Intelligence uses agentic AI to simplify the IT operators experience across storage, 
+networking, compute, run time and applications.  The power of AI for networks that Rami 
+discussed earlier will accelerate the vision of GreenLake, which is already powering tens of 
+thousands of HPE Aruba networking users with cloud-native and AI-driven networking and 
+observability services.  One of GreenLake's competitive advantages is its software.  In June 
+2025, we introduced HPE Cloud OpSuite, which is a software suite that includes cloud 
+management orchestration for Morpheus, observability from OpsRamp, continuous data 
+protection from Zerto and now run time from Morpheus VM essentials.  It is complemented by 
+our GreenLake Intelligent agentic framework which provide an integrated AI-driven experience.  
+We are the only vendor that provides these capabilities across multi-cloud and multi-vendor 
+environments. 
+ 
+Great example is the state of Vermont.  This proved to be a valuable differentiator unmatched 
+by our competitors.  OpsRamp provides the observability and automation backbone for 
+managing Vermont's hybrid cloud infrastructure, streamlining operations and reducing 
+complexity.  OpsRamp also supports intelligent monitoring and incident response, allowing the 
+Vermont's IT staff to shift from routine tasks to higher-value projects.  In addition, OpsRamp 
+natively integrates with leading ITSM platforms such as ServiceNow, for effective IT trouble 
+ticketing management.  And so, looking ahead, we will accelerate higher-margin GreenLake 
+software and services growth with expanded offerings and scale out our go-to-market 
+investment in Morpheus Enterprise, OpsRamp and Zerto. 
+ 
+In addition to deploying AI enterprise, customers around the world are also reevaluating their 
+virtualization needs driven by the recent Broadcom bundling and pricing changes.  In fact, 74% 
+of Gartner Peer Insights community members polled are actively looking to VMware 
+alternatives.  In response to these market conditions, we enhanced our private cloud offerings 
+by integrating Morpheus software as a standard component.  This addition not only enables 
+seamless multi-cloud orchestration between public and private clouds, but also support a 
+broader partner ecosystem, empowering customers with greater choice and flexibility. 
+ 
+HPE Morpheus VM Essentials were designed to help customers adopt as an alternative 
+virtualization solution without compromising on the enterprise-grade reliability.  Our solutions 
+deliver significant value by reducing customer licensing costs by up to 90% compared to 
+VMware.  Danfoss, a Danish manufacturing company is our first customer to implement this 
+offering.  With the company's existing hypervisor contract about to expire, HPE introduced VM 
+Essentials as an alternative helping Danfoss avoid costly renewals and also gaining at the same 
+time a self-service cloud experience.  And Danfoss can shift now from what we were doing 
+today to more an as-a-service model because of our standardized private cloud edge solution 
+using HPE VM Essentials is now being enrolled globally at their 65 remote sites. 
+ 
+And we plan to continue to increase customer value by integrating now intellectual property from 
+Juniper switches and the software-defined networking that Juniper brings to HPE with all our 
+
+
+=== page 13 ===
+12 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+HPE private cloud solutions.  And this tight integration exemplifies the power of uniting cloud, AI 
+and networking capabilities through our GreenLake cloud, reinforcing our better together value 
+proposition for our customers.  The growing adoption of AI application has made data 
+management a key focus for enterprises.  The effectiveness of AI is directly correlated to how 
+well customers can access and manage distributed data across their operations.  And as a 
+result, there is a growing demand for HPE's data fabric, HPE storage and data protection 
+solutions. 
+ 
+Our Alletra MP is the world's fastest-growing all-flash structured data platform.  It pioneered the 
+world's first disaggregated storage architecture and offers a true cloud-native experience 
+through GreenLake.  These unique features resonate with customers and have resulted in HPE 
+taking market share for four consecutive quarters.  In fact, we gained three points of market 
+share in block storage year-over-year in the second quarter of calendar year '25, growing seven 
+time faster than the market in all-flash block.  The Alletra MP platform now also supports 
+unstructured data and cyber resiliency use cases, broadening the presence in the rapidly 
+expanding AI market while complementing our networking and server offerings.  And our 
+customers are responding. 
+ 
+A great example is Qualitas, Mexico's largest auto insurer, knows that every second of 
+downtime threatened millions of customers and interactions and claims.  They work with us to 
+scale computer storage capacity to support the data analytics and ensure high availability for 
+their mission-critical workloads, helping reduce operating costs without sacrificing performance.  
+It also enabled them to build a flexible foundation for AI and hybrid cloud adoption.  The Alletra 
+MP architecture deliver unmatched performance, service levels agreements and total cost of 
+ownership for Qualitas. 
+ 
+With the Alletra MP success demonstrated to-date, we are now ready to take the next step in 
+the transition of our storage portfolio.  Historically, our storage portfolio sales rely on a 
+combination of both own IP offerings and third-party products.  Now, we are evolving our own 
+model to focus on HPE developed storage solutions, reduced independence on third-party 
+products, except where we collaborate on very specific differentiated customer solutions with a 
+very few curated strategic partnerships.  This shift demonstrates the maturity and the strength of 
+our storage offerings as well as the completeness of our portfolio.  And we are confident with 
+the investments we will continue to make in our own intellectual property we are better 
+positioned to support our customers through our unified architecture and customer experience. 
+ 
+In our core server segment, we are managing profitability in units in a balanced way with a focus 
+on volume growth and services attached to sustain profitability and cash flow generation long 
+term.  As we have demonstrated this year with the transition to our HPE ProLiant Gen 11, each 
+generation transition drives revenue growth through richer configuration and higher average unit 
+prices.  While we already began the ramp into Gen 12, the rest of the transition will provide a 
+further tailwind.  For our customers, the transition to our newest servers has delivered significant 
+better computing performance, along with real estate and power savings through rack 
+consolidation and improved energy efficiency. 
+ 
+And in fact, when you upgrade any Gen 10 server from any vendor to an HPE ProLiant Gen 12 
+server, that upgrade yields 65% annual power savings and a 7:1 reduction in the data center 
+footprint.  And through our HPE Financial Services, we are enabling customers to allow capacity 
+through financing and IT life cycle services to support capital required to modernize the 
+servers…the server infrastructure. 
+ 
+
+
+=== page 14 ===
+13 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+Finally, we will continue to expand our global manufacturing footprint, including new server 
+production capabilities already in place in India and Saudi Arabia.  This local manufacturing 
+strategy gives us a competitive advantage to serve high-growth emerging markets, including the 
+Middle East and Africa. 
+ 
+HPE NonStop…we have a lot of products.  HPE NonStop is where customers turn to run their 
+most mission-critical transaction workloads.  We recently introduced our next generation of HPE 
+NonStop servers, which is triggering now a refresh cycle for this very lucrative business.  
+NonStop is vital for payment processing and fraud detection.  NonStop is also categorized as an 
+AL4 with uptimes of 99.999% or even higher. 
+ 
+In the financial services vertical segment, six of the top 10 full-service global retail banks use 
+NonStop for high-volume payment processing, ATM functionality and core banking capabilities.  
+Our next generation of HPE NonStop solutions, we just introduced double the amount of 
+memory and bandwidth, providing our mission-critical customers with the latest technologies to 
+maintain their uptime and improve business resiliency. 
+ 
+Finally, quantum computing is an emerging opportunity that's rapidly gaining momentum.  Over 
+the last few quarters, interest in quantum computing has started to translate into real customer 
+demand, specific for systems that tightly integrate quantum capabilities with high-performance 
+networking and computing.  Our HPE Labs, networking now with an amazing team that we built 
+together with Rami and supercomputing organization have been at the forefront of innovation 
+critical to this space and their work has created opportunity for us. 
+ 
+By leveraging this expertise and by taking a vendor-agnostic approach to integrate in third-party 
+quantum technologies with our network and HPC software intellectual property, we will provide 
+customers with options they need to unlock the full potential of quantum.  HPE has generated 
+interest in these capabilities with several customers and engagement is ramping quickly.  And 
+with the acquisition of Juniper, we now have the ability to accelerate our role in delivering 
+quantum scale-out systems over time.  And over the next few quarters, you will see us 
+demonstrating some of these capabilities and the progress we are making together with our 
+customers and quantum partners. 
+ 
+One key aspect of our portfolio that has only become more relevant in the AI era is HPE 
+Financial Services, which accelerates adoption of AI through financing and IT life cycle services 
+as the captive finance arm for HPE and preferred financing vendor for HPE Inc., HPE Financial 
+Services help customers and partners transform their enterprises at the pace and investment 
+structure of their desire. 
+ 
+We will leverage the unique value proposition of our technology renewal centers to expand a 
+residual-based leasing portfolio to accelerate our customer adoption of the full stack of 
+networking, cloud and AI technologies.  HPE Financial Services' unique combination of financial 
+discipline, IT life cycle services and experienced team that we have enables the business to 
+deliver a consistent and steady return on equity of approximately 16%, operating profit of 10% 
+and predictable financing volume. 
+ 
+So, while financial services helping customers transform with flexible financing and life cycle 
+solutions, we're also taking bold steps internally to transform how HPE operates.  And this is 
+where Catalyst comes in.  Catalyst is a set of company-wide initiatives to make HPE faster, 
+smarter and more efficient.  It goes beyond cost savings.  Catalyst invests in AI and data 
+platforms, better data governance and smarter ways to manage information.  The goal is to 
+
+
+=== page 15 ===
+14 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+embed AI in everyday work, automate key processes and unlock insights from data, so HPE 
+can focus on high-growth areas, while remaining agile and competitive.  With Catalyst helping 
+us become more nimble and efficient, our differentiated portfolio and our talented team, I have 
+great confidence in HPE's next chapter. 
+ 
+Before I turn it over to Marie, I want to sum up what we have discussed today so far.  Our 
+priorities for the next three years are clear.  We will strengthen our market position in 
+establishing leadership in networking, expanding profitable opportunities for growth in AI, 
+boosting growth in hybrid cloud software and services through GreenLake, capitalizing on the 
+unstructured data market growth with Alletra MP and guiding our customers towards advanced 
+server technologies, and we are committed to driving operating leverage by delivering 
+approximately $1 billion in annualized structural cost savings to shareholders by fiscal year 
+2028.  And we will do this by realizing synergies from Juniper Networks integration and 
+execution of Catalyst initiatives, both designed to accelerate revenue growth and generate 
+substantial structural cost savings.  All these actions will enable us to generate more than $3.5 
+billion in free cash flow by 2028, and deliver greater shareholder returns through growing our 
+dividends and share buybacks. 
+ 
+As I look ahead to HPE's next chapter, our commitment to innovation and shareholder value 
+has never been stronger.  And to share how these strategies will shape our future and deliver a 
+lasting impact, I'm delighted to welcome Marie Myers to stage.  Marie will discuss how we are 
+building a modern company and provide more details, which all of you are waiting, I know that, 
+on how HPE will drive greater value for our shareholders through our financials. 
+ 
+Marie, the floor is yours. 
+ 
+Marie Myers 
+And thanks for joining us today.  I'm thrilled to speak with all of you during such a pivotal 
+moment in HPE's journey as we embark on the next chapter of our growth.  As many of you 
+know, I joined HPE, it's hard to believe it was only January last year.  And I joined the company, 
+as many of you also know, from HPQ because I believed in the vision of this company.  I saw 
+substantial opportunity for HPE then.  And now I see even more.  We have many new chapters 
+of growth ahead of us.  And I'm excited to speak with you today about how we intend to set 
+ourselves up to capture the significant opportunity available to us over the next few years. 
+ 
+Now that we have closed the Juniper acquisition, we are uniquely positioned to evolve HPE into 
+a modern AI-led networking company.  We are transforming not only the profit profile of the 
+company, but we are also fundamentally rethinking how we operate and how we work.  By 
+embedding AI across our operations, we are driving smarter, faster decision-making and 
+unlocking new levels of agility.  This transformation is about building a more responsive, 
+scalable organization, one that can adapt quickly and compete in what is an incredibly dynamic 
+market. 
+ 
+Moving forward, we will further simplify our operating model, helping us sharpen our focus to 
+deliver more profitable revenue growth.  And as you heard from Antonio, accelerate greater 
+capital returns to our shareholders.  However, we will continue to invest in our portfolio while 
+staying disciplined as you would imagine, with our cost structure to drive that profitable growth.  
+We will create the operating leverage that supports meaningful earnings expansion over the 
+next three years. 
+ 
+
+
+=== page 16 ===
+15 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+Today, I'm going to share our plan to achieve that acceleration of value.  First, I'll walk you 
+through a quick recap of our Q3 year-to-date '25’ results.  Then I will share our progress on the 
+transformation that we've been undertaking.  And then third, I will explain our go forward 
+shareholder financial framework that prioritizes generating more than $3.5 billion in free cash 
+flow by '28.  This will enable HPE to reduce our financial leverage and increase capital returns.  
+And then finally, I know you've all been waiting for it, I'll look up…I'll wrap up with forward 
+guidance.  So let me begin with a quick recap of what we have accomplished so far in fiscal '25. 
+ 
+We have momentum in AI, and you have seen a meaningful recovery in networking, which puts 
+us on track for strong revenue growth.  For Q3 alone, top line revenue is up 14% year-over-
+year.  And we've worked hard to increase operating profit with a disciplined focus on margin 
+recovery in the traditional server business.  And our results are further supported by four 
+consecutive quarters of operating margin expansion in hybrid cloud and a larger contribution 
+from networking.  We have also maintained strong non-GAAP earnings per share through 
+disciplined cost management and operational efficiency.  And today, we are reaffirming our FY 
+'25 non-GAAP outlook.  However, as previously noted, revenue may be impacted by lumpiness 
+and deal timing in AI. 
+ 
+And in addition, we are updating our Q4 GAAP diluted EPS guidance from what was a range of 
+$0.50 to $0.54 to $0.11 to $0.15 and for the full year, from $0.42 to $0.46 to $0.03 to $0.07.  
+This reduction is…in our expectations it's driven by certain unanticipated events that occurred 
+after we issued our Q4 guide, included losses on disposition of certain nonbusiness assets, 
+acquisition-related accounting adjustments updated to forecasted tax expense and other items. 
+ 
+Free cash flow guidance remains unchanged at approximately $700 million, impacted by 
+working capital dynamics and Juniper-related costs.  We anticipate strong free cash flow growth 
+over the next three years.  And I will talk shortly about a 10% increase we are announcing in our 
+dividend for common shareholders starting in Q1 '26.  You have heard us talk about our 
+Catalyst program and Juniper cost synergies throughout this year.  I'd like to take some time 
+now to describe why this is so critical to simplifying and transforming HPE, while improving our 
+operating leverage. 
+ 
+Our teams are hyper-focused on achieving structural cost savings through Juniper-related 
+synergies and Catalyst initiatives.  And our two targeted sets of actions are designed to increase 
+productivity, capture efficiencies, unlock operating leverage that will drive long-term sustained 
+profitability.  Together, they're expected to deliver approximately $1 billion in structural 
+annualized run rate cost savings by '28.  This includes at least $600 million from Juniper and 
+other $300 million from Catalyst.  We expect these initiatives will reshape us entirely, making 
+HPE a much more nimble, cost-efficient company.  Savings will benefit both the cost of sales 
+and operating expenses, while supporting investment is vital for long-term sustainable growth.  
+We established a strong Juniper integration framework and program management office. 
+ 
+Our integration plans are on track as we begin building the best-in-class networking business 
+with Rami, and we remain confident in achieving both near-term financial synergies and long-
+term targets.  We began our integration process with corporate function overlaps, streamlining 
+combined functions to eliminate duplicative roles and improve efficiency.  While workforce 
+reductions are always challenging, they are necessary to align resources and to drive 
+productivity.  Most integration-related reductions will occur in year one post close with some 
+extending into year two and year three, for more complex integration areas. 
+ 
+
+
+=== page 17 ===
+16 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+We will complete integrating our sales teams across regions by Q1 '26.  And we will continue to 
+align channel programs and sales tools through next year, so that we can enable partners to sell 
+the full portfolio and unlock further growth.  And in terms of product rationalization, we will take a 
+very measured approach to preserve our customer experience.  However, we will begin aligning 
+R&D spend to the strategic priorities that Rami referenced earlier, while converging product 
+road maps and eliminating duplicate R&D projects. 
+ 
+We are leveraging the combined scale of HPE and Juniper to unlock efficiencies in logistics, 
+materials pricing, warehousing and repair services.  We expect to begin realizing these 
+synergies in the first half of '26.  And then we are also deploying AI to further optimize material 
+costs and refine our manufacturing footprint, including aligning headcount to our go-forward 
+operational needs. 
+ 
+Additional synergy savings will come from areas like real estate consolidation, IT optimization, 
+including software, support services and actually reducing reliance on third-party contractors.  
+And these efforts combined will deliver meaningful structural savings while preserving critical 
+operational capabilities.  Overall, we expect to realize about $200 million of Juniper related cost 
+synergies in year one post close with the balance of $400 million split evenly between years two 
+and three.  These synergies will require approximately $800 million of investment to achieve 
+between '26 and '28.  Most of that is going to be tied to headcount, supply chain optimization 
+and portfolio rationalization.  The bulk of the integration expense will occur next year. 
+ 
+I haven't discussed Catalyst, our multiyear cost reduction and efficiency actions with you since 
+we launched it earlier this year.  Catalyst is about fundamentally reshaping how we operate, 
+reducing processes, creating capacity to reinvest in that growth that we've talked about, and 
+most importantly, transforming the company for long-term competitiveness.  And I've got to say, 
+I'm really encouraged by the progress we've made in just this year alone.  We are just at the 
+beginning of this journey to drive improved operating leverage for our company and frankly, 
+better experiences for our customers and all our team members.  Catalyst is anchored on four 
+strategic pillars: workforce transformation, portfolio optimization, operational excellence, and 
+finally, leveraging AI. 
+ 
+First, workforce transformation.  It's by far our greatest opportunity.  And frankly, we are 
+redesigning our work to deliver better results with fewer resources.  I shared earlier this year 
+that our efforts alone had reduced the head count at HPE to the lowest historical levels ever 
+pre-Juniper.  And frankly, we continue to proceed with simplification principles in mind, 
+streamlining, organizational spans and layers, centralizing roles and frankly, encouraging our 
+teams to concentrate innovation and high-value activities. 
+ 
+Second, portfolio optimization.  We're sharpening our focus on strategic assets.  For example, 
+we exited a noncore business at the start of this fiscal year, divesting our communications 
+technology group, and we will continue to evaluate our noncore assets in the future, including 
+pursuing smaller-sized divestitures to prune our portfolio.  We're also actively reducing SKUs, 
+continuing to trim our product offerings to improve speed and efficiency. 
+ 
+And third, with respect to operational efficiency, we are revisiting business operations and 
+instilling greater discipline across our businesses.  And a prime example of that is what we've 
+done with pricing.  We've actually embedded AI and advanced analytics to improve deal 
+visibility, reducing unnecessary discounts and maximizing margin capture across the entire 
+portfolio. 
+ 
+
+
+=== page 18 ===
+17 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+And I'd like to highlight one of the recent projects we're actually partnering with Deloitte, a big 
+shout out to the Deloitte team that are here today to co-source several processes in my own 
+organization that will greatly streamline operations and allow our finance team to move forward 
+in a much more agile AI scalable way.  We are also driving flexibility through vendor 
+optimization and real estate consolidation. 
+ 
+Finally, the category I'm most excited about, AI.  That's because it led our technology-minded 
+workforce operate smarter, faster and with precision.  We are using AI as a transformation lever 
+to free up resources across the company, making us much more agile in the market.  And we 
+are building a robust internal data foundation and adopting an AI-first approach across the 
+company. 
+ 
+Let me share a few examples of where we're taking a fresh look at the work we do.  Marketing 
+content creators at HPE today are using generative AI to accelerate how quickly they develop 
+smart campaigns and reduce production costs.  And in finance and sales, believe it or not, its 
+improving forecasting, reconciliations and opportunity management.  And to improve our 
+financial insights, we have also been partnering with Deloitte to develop an AI platform to 
+transform our financial operations.  It's something we are commercializing through our own 
+private cloud AI infrastructure and making it available to actually other CFOs and customers. 
+ 
+As you can tell, we are enthusiastic about streamlining how we operate, centralizing functions 
+using AI tools to drive speed, agility and competitiveness.  And finally, Catalyst will allow us to 
+target at least $350 million in annualized run rate cost savings by the end of '27.  And we're 
+executing well against our plan and expect to achieve our target of 20% of total savings by the 
+end of '25.  And as you know, that has a direct impact on both OPEX and cost of sales.  And as 
+we disclosed earlier this year, these things will require approximately $350 million in charges to 
+fund workforce reductions. 
+ 
+So, Catalyst is not only reshaping our cost structure and improved financial flexibility, but it's 
+reshaping the way we work.  And it will provide us with the capacity to reinvest in growth.  I'm 
+pleased to say we're on track to create a leaner, much more competitive company that will 
+continue to deliver proper growth to our shareholders. 
+ 
+Today, we are also announcing a framework for simplified segment reporting and disclosures, 
+starting in Q1 of next year.  Historical segments will, of course, be restated back to Q1 FY '24.  
+We will also provide visibility into each new segment going forward.  I believe you will gain a 
+clear line of sight into the growth trajectory of our portfolio, while having the ability to compare 
+much more easily across our peer set.  This new structure aligns with the main markets in which 
+we operate and where we see the greatest growth potential. 
+ 
+It's simple.  It consists of three segments.  The first segment, Networking includes Juniper 
+Networks, and Intelligent Edge.  The second segment includes Cloud and AI, and it 
+consolidates server, storage and financial services.  And finally, our third segment, Corporate 
+Investments and Other will be largely unchanged.  Networking will have a larger footprint within 
+our results.  And as you've heard, it now represents, on a pro forma basis, nearly 30% of our 
+total revenue and over 50% of our total operating profit.  Given our increased scale and 
+strategic objective to establish ourselves as the industry leader in networking, we want to 
+provide you with more detailed financials. 
+ 
+And in this segment, we will report quarterly revenue by customer group, enterprise and service 
+providers as well as by product line, campus and branch, data center networking, routing and 
+
+
+=== page 19 ===
+18 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+security.  This will provide important visibility into our traction with key customers.  It also allows 
+you to see product line highlights for what we consider are core strategic and market priorities.  
+And then annually, we will disclose our outlook for cumulative networking for AI orders.  And 
+then for cloud and AI, this segment signifies the importance and the rise of AI as customers 
+implement and scale these technologies. 
+ 
+Incorporating HPE Financial Services within this segment demonstrates how financing is playing 
+a key strategic role in helping enterprise customers adopt and consume these technologies.  
+This underscores that our focus is simply not just about hardware, it's also about recurring 
+revenue.  Here, we will report disaggregated revenue results as server, storage, financial 
+services and other.  And the other sub-segment will also include non-IP storage. 
+ 
+As you heard from Antonio, this is an area we are deemphasizing as we transform our storage 
+portfolio to focus on the success of our own Alletra MP products, and I will discuss more on that 
+later.  We will also share additional quarterly disclosures.  For server offerings, we will disclose 
+AI orders and revenue as well as AI customer mix.  And within the storage category, we will 
+provide Alletra MP orders growth.  And other financial services, we will provide return on equity 
+to show the profitability we generate on investments that we make for our enterprise customers. 
+ 
+And finally, we will continue to provide visibility into ARR, which is a key forward-looking metric 
+for our long-term recurring revenue.  ARR growth will moderate due to a combination of factors.  
+Going forward, given that we have built up such a large base of ARR, we will make it an annual 
+disclosure on a consolidated basis.  And this new structure streamlines our reporting framework 
+and aligns with how we operate our business on a day-to-day basis.  I believe it also gives you 
+all a much clearer picture of where we are driving growth and increasing value for our 
+shareholders. 
+ 
+Now I would like to walk you through our strategic framework for shareholder value creation.  At 
+the core of this strategy is our free cash flow growth.  It is the engine that powers everything we 
+do.  It enables us to reinvest in innovation, scale our business, strengthen our balance sheet 
+and return capital to shareholders.  As we enter our next chapter as a company, our portfolio 
+has been designed to win in networking, cloud and AI.  And the sustained profitable growth we 
+envisage is supported by cost discipline, structural improvements and capital efficiency.  And we 
+expect this operating model will deliver higher durable free cash flow over time. 
+ 
+And now, we are driving this free cash flow through three key levers.  The first lever is profitable 
+revenue growth.  We are scaling in high-growth areas like AI services and networking where we 
+will transform our portfolio to deliver differentiated value.  And then there's operating margin 
+expansion.  Through disciplined execution and cost reductions, especially those around Juniper 
+and Catalyst, we will deliver sustained margin improvement.  And finally, we have balance sheet 
+efficiency.  We are managing our balance sheet with rigor and unlocking liquidity through tighter 
+operational discipline. 
+ 
+As Antonio discussed, our strategy to generate free cash flow of $3.5 billion is core to us, and 
+we expect to achieve that by '28.  We expect annual free cash flow generation to improve in '26 
+and then continue to ramp over the next three years.  And we expect to generate approximately 
+$700 million in '25, rising to $1.5 billion to $2 billion in '26 and increasing further to $3.5 billion or 
+more than $3.5 billion in '28. 
+ 
+In FY '26, we will incur the bulk of the Juniper integration expenses, Catalyst related cash costs 
+and a higher interest and acquisition related debt.  Together, these levers are building a 
+
+
+=== page 20 ===
+19 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+stronger, more resilient free cash flow profile for our company, giving us the flexibility to execute 
+on three financial priorities.  First, we are accelerating repayment of Juniper-related debt to 
+ensure a strong financial foundation.  With our commitment to maintain an investment-grade 
+credit rating, our goal is to reduce net leverage to 2X by the end of '27 through both net 
+reduction…net debt reduction and EBITDA growth. 
+ 
+We've already made progress with a $1 billion repayment post Q3.  We expect our liquidity 
+position to strengthen further as we grow free cash flow, pay down our obligations and diligently 
+manage our balance sheet.  Starting in fiscal '26, we are increasing our annual dividend by 10% 
+to $0.57 per common share, reflecting our confidence in the outlook and commitment to deliver 
+reliable income to common shareholders.  And then lastly, we are managing dilution in the near 
+term through '27, and we expect to accelerate repurchases in the latter half of '28.  Today, we 
+are announcing a new $3 billion share repurchase authorization, bringing our total to $3.7 
+billion. 
+ 
+As we generate increasing levels of free cash flow over time, we intend to return a significant 
+amount to our shareholders.  With our focus on reducing debt through '27, we will return nearly 
+all of our free cash flow to debt and equity holders over the next three years.  Thereafter, we will 
+target returning at least 75% of our free cash flow to our shareholders in the form of both 
+dividends and share repurchases.  Our focus on these core financial priorities and our new 
+capital returns commitment will ensure we remain shareholder focused and committed to long-
+term value creation. 
+ 
+Now let me walk you through our three year financial outlook.  We expect consolidated revenue 
+to grow at 5% to 7% CAGR on a pro forma basis, including Juniper.  In networking, we project 
+revenue to grow at a 5% to 7% CAGR over the next three years on a pro forma basis, in line 
+with what Rami shared in terms of our estimate of the addressable networking market. 
+ 
+Our enhanced scale and competitive positioning gives us confidence that over time, we will 
+outpace market growth in our key focus areas.  While Juniper's current margins are below 
+historical HPE networking business, we expect to offset dilution through cost synergies and 
+scale efficiencies.  As a result, we expect networking margins to reach 25% to 28% by FY '28, 
+driven by Juniper-related cost synergies and operating leverage as we scale revenue and 
+absorb fixed costs over a broader base. 
+ 
+And in Cloud and AI, we expect revenue to grow at a 4% to 8% CAGR over the next three years 
+with margins in the 8% to 10% range.  And let me provide you some additional insight on the 
+strategic drivers for the segment.  First, AI systems, as Antonio mentioned, represents a 
+significant opportunity as adoption expands beyond service providers and model builders into 
+more profitable enterprise and sovereign segments.  We are differentiating ourselves by 
+maintaining our discipline in the pursuit of profitable growth, evaluating each opportunity to 
+ensure the right balance between revenue and margin and working capital.  As a result, AI 
+systems revenue growth may trail the broader market as we focus on free cash flow generation. 
+ 
+Next, GreenLake, it's central to our strategy and it's driving over 75% of our $3.1 billion ARR in 
+Q3 '25 coming from software and services.  And looking ahead, we expect ARR to grow 
+approximately to $3.5 billion by the end of '26.  And in storage, we are doubling down on our 
+Alletra MP product strategy, which is significantly more margin rich.  We are seeing strong 
+traction for our Alletra MP platform.  And this success enables us to pivot away from selling our 
+non-owned IP, which tends to dilute margins. 
+ 
+
+
+=== page 21 ===
+20 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+As a result, we expect margin improvement over time, positioning us for stronger long-term 
+profitability.  And in traditional service, we are balancing units and margin while expanding our 
+installed base and services attach opportunities to drive further profitability.  We expect 
+traditional server growth will be fueled by ongoing IT modernization and data center expansion.  
+And finally, our financial service business remains a key competitive advantage. 
+ 
+Our disciplined underwriting approach allows us to finance high-quality customers, which deliver 
+a strong return on equity of nearly 18% as of Q3.  Given these segment dynamics, we expect 
+the overall company non-GAAP operating profit CAGR to be 11% to 17% on a pro forma basis, 
+driven by a higher mix of networking, a favorable mix shift within cloud and AI, structural cost 
+reductions and enhanced operating leverage.  By FY '28, we expect non-GAAP diluted EPS to 
+grow to at least $3 and free cash flow to exceed $3.5 billion. 
+ 
+Turning to our '26’ outlook.  We anticipate revenue growth of 5% to 10% on a pro forma basis.  
+Our revenue growth reflects the lumpy nature of AI transactions.  Segment-wise, networking 
+revenue is expected to grow at a low to mid-single-digit rate on a pro forma basis, driven by 
+continued momentum in campus and branch, SASE and security and data center.  We also 
+expect networking for AI demand will improve during the year, with cumulative orders increasing 
+to $1.5 billion by the end of '26, up from $600 million of orders generated during this fiscal year. 
+ 
+Cloud and AI revenue is projected to grow at a mid-single to low double-digit rate, reflecting 
+solid execution in our server business as we capitalize on IT modernization and AI investments, 
+maintaining our focus on profitable server markets and offsetting revenue declines from exiting 
+our non-IP storage business.  It's important to note that historical seasonal trends will not be 
+indicative of future performance. 
+ 
+As synergies ramp throughout the year, we expect margin performance and net earnings to 
+strengthen significantly in the second half of '26, making the second half significantly stronger 
+than the first.  From a profitability standpoint, we expect non-GAAP operating margin to improve 
+year-over-year to a low double-digit rate.  This includes networking operating margin in the low 
+20% range, supported by top line growth and deal synergies. 
+ 
+And for cloud and AI, we expect stable margin of 7% to 9% for the year, driven by normalized 
+margins on traditional servers, a shift to owned IP and storage and continued investment to 
+scale our hybrid cloud business.  Margin variability from AI deal mix and near-term scaling costs 
+will be managed prudently.  And from a cost perspective, total costs will be up year-over-year 
+due to a full year of Juniper contributions.  But we expect and continue to expect that our cost 
+initiatives will deliver the projected savings accounted for in our non-GAAP diluted net EPS 
+guide. 
+ 
+We expect FY '26 non-GAAP diluted net EPS to be in the range of $2.20 to $2.40, up 
+approximately 20% at the midpoint of our outlook.  This reflects several items.  Growth in the 
+core business, eight months of incremental contributions from Juniper, Juniper related synergies 
+and Catalyst costs, offset partially by nonoperational headwinds, including approximately $650 
+million in OI&E, and lastly, a full year diluted net share count of 1.44 billion. 
+ 
+Additionally, we are revising our non-GAAP tax rate to 14%, down from 15% due to the benefits 
+from the Juniper acquisition.  GAAP diluted net EPS is expected to be in the range of $0.57 to 
+$0.77, and we expect FY '26 free cash flow of $1.5 billion to $2 billion, which includes $600 
+million worth of costs related to the Juniper and Catalyst programs. 
+ 
+
+
+=== page 22 ===
+21 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+In closing, we have built a portfolio designed to win in the next AI era, positioned at the 
+intersection of networking, cloud and AI.  I believe HPE stands out as an exciting and 
+compelling investment.  We believe our operational discipline and execution will drive profitable 
+growth and our cost initiatives will unlock meaningful operating leverage.  Our business will 
+enable us to realize robust free cash flow expansion expected to exceed $3.5 billion by '28.  
+This financial strength gives us the flexibility to invest in innovation, scale strategically and 
+deliver accelerated capital returns through consistent dividend growth and share repurchases. 
+ 
+With a clear commitment to shareholder value, we believe that HPE is well positioned for long 
+term success.  I appreciate this company's enthusiasm for the transformative steps we are 
+taking to build our next chapter of growth.  I'm privileged to work alongside Antonio and the rest 
+of our leadership team as we enter the next phase of this journey.  Thank you all. 
+ 
+Now, we're going to take a short 15-minute break.  Thank you. 
+ 
+QUESTION AND ANSWER 
+ 
+Shannon Cross 
+Okay, let's get started.  Thank you everyone for those…okay, we are not quite ready yet, I need 
+to  introduce people.  Thank you all.  As those of you don't know, I'm Shannon Cross, Chief 
+Strategy Officer here, and obviously, used to be one of all of you.  So very happy to have 
+everyone here for our Q&A session. 
+ 
+So today, we're obviously welcoming Antonio, Marie, and Rami back to the stage.  Joining them, 
+we have Fidelma Russo, who's our EVP and General Manager of the Hybrid Cloud business.  
+She's also our Chief Technology Officer.  We have Neil MacDonald, who is our EVP and 
+General Manager of the Server business.  And we have Maeve Culloty, who is President and 
+CEO of HPE Financial Services. 
+ 
+So, before we begin, please do review the risk statement that was referenced by Paul at the 
+beginning of today's meeting.  And additionally, since this session is being webcast, kindly state 
+your name and company before posing your question.  We will have mike runners, so we want 
+to make sure everyone can you're your questions.  And for those of you who are joining us to 
+via by the website, we do invite you to submit your questions on line.  And of course, we also 
+ask that you limit yourselves to one question only. 
+ 
+So, with that, let's go to Amit.  He was first to raise his hand. 
+ 
+Amit Daryanani 
+Thank you all.  Amit Daryanani, Evercore.  Obviously, I really appreciate the 90-minute 
+presentation, it's concise and appreciate it a lot.  I think one of the things that I think folks will 
+struggle with is the networking guide for next year of low to mid-single digits.  So, I was hoping if 
+you could just talk a little bit in terms of what's going into that assumption because from afar it 
+looks like Juniper's order momentum was very strong exiting last year that should give you a lot 
+of momentum on the growth.  So just talk about, what are you assuming this low to mid-single-
+digit revenue expectation on the networking side?  And then Marie, the free cash flow number 
+for '26? 
+ 
+Shannon Cross 
+That's two questions? 
+ 
+
+
+=== page 23 ===
+22 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+Amit Daryanani 
+I will stop with that. 
+ 
+Shannon Cross 
+Antonio, why don't you start with and then go to Rami for some insights. 
+ 
+Antonio Neri 
+Yes, I mean, we just started the integration of the business.  We believe we have tremendous 
+opportunity.  When I think about the campus and branch, definitely, we have momentum, 
+whether it was HPE Aruba or Juniper Mist.  Obviously, when you think about the AI, data center 
+switching it's going to take a little bit of time because as you go through, there is a footprint to be 
+won, which takes the sale  cycle because you have to win the technical reference.  As Rami 
+said, there is a process to become more intimate with some of these new cloud service 
+providers and the like.  Also, Rami is integrating the switches and any other assets with Fidelma 
+and Neil's portfolio. 
+ 
+So, we want to make sure we give the team the time to do that.  And also, we have a big sales 
+harmonization that's taking place at the beginning of fiscal year '26 because as you recall, we 
+are finishing our fiscal year October 31 for HPE, but Rami and team is still working all the way to 
+October 31.  And after that, there is a period of harmonization, which we have great plans.  So, 
+the reality is that I feel very good about the campus and branch, routing.  It's a cycle.  We know 
+that, and that will be a lot of attached to the AI deployments.  SASE and SSE and all of that is 
+already gaining momentum.  But ultimately, is the speed of that growth will be also dictated by 
+the growth in data center network.  And I don't know, Rami if you have any... 
+ 
+Rami Rahim 
+I think you covered it well.  I'll just, I mean you know our business pretty well.  When you're 
+looking at our revenue growth for next year, just keep in mind that the bulk of our business is 
+campus and branch and routing infrastructure.  These are great markets, but they're not the 
+fastest growing, right?  Data center is growing very fast right now.  We all know that.  That 
+doesn't represent a very big part of our total business.  But certainly, it is a massive opportunity 
+for us to go and pursue together and it happens to be the area where I'm most excited about 
+revenue synergies.  We did not bake revenue synergies into 2026 for a specific reason.  I have 
+a lot of work in 2026 to integrate two businesses together without disrupting any customers.  I 
+think I can do that.  So, we were a bit cautious about expecting too much in that time frame.  I 
+think over time, through both commercial and technical integrations, we can see revenue 
+synergies, but that's just going to take a little bit of time. 
+ 
+Antonio Neri 
+Consider prudent. 
+ 
+Rami Rahim 
+Yes. 
+ 
+Shannon Cross 
+Let's go to Wamsi. 
+ 
+Wamsi Mohan 
+Thank you for doing this.  Appreciated.  Wamsi Mohan, Bank of America.  I guess on free cash 
+flow, Marie, we're starting off '26 at $1.5 billion to $2 billion, and it's going fairly significantly to 
+$3.5 billion.  Can you talk about some of the puts and takes?  How much of restructuring is 
+
+
+=== page 24 ===
+23 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+embedded into your fiscal '26 numbers?  And is there any in the fiscal '28 numbers?  And you 
+made a comment about seasonality.  If you could just address if the fiscal '26 seasonality was a 
+comment about both revenue and earnings?  Or was that just an earnings comment and what 
+maybe some book ends for that might be? 
+ 
+Marie Myers 
+Sure.  Thanks, Wamsi.  Maybe I'll hit the second part of your question first.  So, the seasonality 
+comment was really in regard to EPS, because as you think about it, the synergies themselves 
+are going to materialize throughout '26.  So, it will take time, and they will be mostly back-end 
+loaded.  Revenue will follow our normal sort of seasonal path, but it will be much more in terms 
+of the EPS growth itself. 
+ 
+And then with respect to cash flow, as you bridge the puts and takes from '26 to '28.  I'll first of 
+all, start out by looking at the actual…just the earnings growth itself.  If you look at the sort of top 
+line, I mean, we're going to see single-digit revenue, but you're seeing more than 2x sort of 
+growth in terms of earnings power.  So, you're seeing the real…two companies coming 
+together, really unlocking that capability as we get into '28.  As you bridge down from that, I 
+think as I mentioned in my prepared remarks, most of the cost of both Juniper and Catalyst is 
+really anchored in '26.  So that's why you see the cash flow sort of walk from '26 to '27.  Then 
+by…largely by the end of '27, most of the restructuring costs are out, and we see '28 as a pretty 
+clean representation of what our cash flow should look like for both combined companies, plus 
+we've got some better working capital in there as well. 
+ 
+Antonio Neri 
+Actually, one way I'd like to explain in a different way.  If you look at the true generation of cash, 
+is actually it's close to $2.4 billion, $2.5 billion.  But then you have to pay for the $600 million 
+related to OI&E and the expenses of the Juniper synergies and then obviously Catalyst.  So, the 
+way, I think about this is more like $700 million this year because we closed the transaction, and 
+obviously, we had a lot of working capital tied to AI.  Next year is, think about that $2 billion on a 
+progression to more than $3.5 billion.  And obviously, as we go to '27, '28, the expenses start 
+going down, whether it's interest on the debt repayment, which we are committed to bring it 
+down to two times leverage in '27.  And obviously, as the expenses of the restructuring related 
+to Catalyst and the synergy on Juniper goes down, you have the extra lift as we continue to 
+expand our operating profit, which obviously is double-digits. 
+ 
+Wamsi Mohan 
+Thank you. 
+ 
+Shannon Cross 
+Let's go to Asiya since she's got the mike, and then we go over to the other side. 
+ 
+Asiya Merchant 
+Great.  Thank you, Asiya here from Citigroup.  As you look at…there's pretty significant TAM 
+that was shared as you think about what HPE…combined with Juniper, HPE's market share 
+could be across those various segments that you talked about.  If you can level set where are 
+you now, what does that revenue growth expectations that you've outlined?  What kind of share 
+aspirations that you have across networking and now your refined segment of cloud and AI 
+across that SAM?  Thank you. 
+ 
+ 
+ 
+
+
+=== page 25 ===
+24 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+Antonio Neri 
+Well, let's start with our traditional businesses, right?  So obviously, in the server business, we 
+have a large footprint, but there is profitable share growth, not share for the sake of share.  And 
+that has been our strategy for a longer period of time now.  But as I said in my prepared 
+remarks, is balancing units, growth or unit market share with the expansion in AUP to drive the 
+services attached that ultimately makes us in the traditional servers, probably the most 
+profitable business in the server category.  So there, that's the balance. 
+ 
+In storage, you saw that we gained three points of share this past quarter.  That's unheard of it.  
+Fidelma has been in the storage business much longer than I, and we've never seen three 
+points of share in just one quarter.  And that's because we are growing seven times faster than 
+the market.  And there, we expect to continue to gain share.  Our share combined is in the…call 
+it, 10% to 11%.  So, we expect to continue to grow that share. 
+ 
+And then in campus and branch, starting with networking, for example, obviously, we have a 
+now larger footprint.  Rami talked about being already 18% market share.  There is a large pool 
+of people they are competing today.  It's at least six to seven just here in the United States.  And 
+obviously, outside the United States, you have more players.  And our goal is to gain more 
+share also outside the United States because that's an opportunity, particularly with Chinese 
+vendors being dislocated. 
+ 
+So, with that in mind, our goal, and Rami can speak more about is to become the number one in 
+WiFi.  We already have market leadership and that also drives an opportunity in the campus 
+and branch switching, because every time you do this refresh from six to seven to eight, 
+eventually, there will be a campus branch switching refresh.  And now, we have a complete 
+portfolio.  And then through the convergence with security, obviously, we have an amazing, 
+converged security offering.  Now combining Juniper assets and HPE Aruba networking with our 
+Silver Peak acquisition we did with SASE and SSE.  So that's our aspiration. 
+ 
+And in AI, it's hard to define what the market share is because ultimately, every day, every 
+week, the market with announcements of investment and the like, it's hard to predict.  But there, 
+our goal is to gain share in the sovereign space, where we already have a large footprint with 
+our supercomputer, obviously, in enterprise, which is our main focus, through the offers 
+between Fidelma's offerings in private cloud, AI and Neil's offer in the AI and scaled servers.  
+And there, we have the right to play, not just because our infrastructure but because of our 
+GreenLake value proposition and the integration of the software that comes with it.  Anything 
+you want to add? 
+ 
+Shannon Cross 
+Okay.  Aaron? 
+ 
+Aaron Rakers 
+Yes.  Thank you.  Aaron Rakers with Wells Fargo.  Rami, I'm going to ask you a little bit more 
+deeper about networking.  If I guess, if I'm doing the pro forma numbers right from this last 
+quarter, Juniper grew like 20 some-odd percent.  It looks like a very strong quarter for you guys.  
+So, I'm curious, how would you help us understand your positioning in some of these cloud AI 
+opportunities?  Where exactly do you find a Juniper's position today?  And then do you have 
+any thoughts around, there's a lot of architectural stuff going on.  Where do you guys stand as 
+far as like co-packaged optics, scale-up opportunities, et cetera, anything that you'd like to talk 
+to?  Thank you. 
+ 
+
+
+=== page 26 ===
+25 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+Rami Rahim 
+Yes, certainly.  So, this is the network for AI opportunity.  Basically, the infrastructure that goes 
+into data centers, and there's really three distinct opportunities that are really interesting for us.  
+The first is in data center interconnect.  I talked about this earlier.  It's about connecting AI data 
+centers together.  Many of the big cloud builders, including hyperscalers are building out their 
+WANs, wide area networks to connect data centers together.  And you know this, we have 
+significant footprint in there that we can leverage to upgrade 400-gig, 800-gig. 
+ 
+The next is a direct cloud connect opportunity.  All the hyperscalers need sophisticated routing 
+infrastructure to offer direct connect services as on-ramps to their AI cloud data centers.  This is 
+right up our alley, especially with the MX product line because it's not just about speeds and 
+feeds, it's about logical scale.  We can have an offline discussion about what logical scale 
+means. 
+ 
+The third is in the data center, data center switching infrastructure.  Here, we are, as you know, 
+not in the hyperscalers, but anything other than the hyperscalers, we have significant wins from 
+small, medium and large, front end and back end.  And the opportunity there is immense 
+because there's massive investments that are happening there.  So, I mean, those are the three 
+opportunities that we have to pursue.  And I mean think about the relevance we just gained over 
+the last…since the close of the last few months.  Neil, Fidelma, all these…and Antonio pulling 
+me into conversations with cloud providers, whether they be neoclouds or sovereign clouds 
+around the world, that's pretty interesting.  It's just going to take us a little bit of time. 
+ 
+And as far as co-packaged optics, liquid cooling, these are absolutely going from a mode of 
+nice-to-have to…you will not be able to compete in the 1.6 terabit Ethernet generation without it.  
+And our position in being able to implement these technical capabilities in our switching has 
+gone from like where everybody else's, which is experimentation to years and years of actual 
+production products, which is game changing. 
+ 
+Samik 
+Thank you.  Samik [ph] from JP Morgan.  Maybe if I can change gears and ask you about the AI 
+compute business specifically, where you're outlining the focus on enterprise and sovereign 
+customers.  In the backdrop where we've seen a significant amount of announcements from 
+Tier 2 CSPs, how are you trying to balance?  What guardrails are you putting on that business 
+in terms of businesses that you go for margins on that AI server business to sort of balance 
+profitability and growth?  And how should we think about…as you sort of think…how should we 
+think about enterprise and sovereign mix tracking from here on?  Should we expect that mix to 
+increase or sort of stabilize at this sort of 50% level that you've outlined for the last quarter. 
+ 
+Marie Myers 
+Do you want to…Neil, you take it.  Then, Antonio... 
+ 
+Neil MacDonald 
+So, when you think about the structure of the market, there's a sizable volume involved in big 
+model builder and service provider buildouts.  And there's a very rapidly growing set of 
+opportunities in sovereign, which also includes some service provider space and in enterprise.  
+In Q3, we saw a 250% growth in our bookings in the sovereign space, and we're very excited 
+about the momentum that we've had in recent months, as Antonio mentioned. 
+ 
+We've commissioned the UK's sovereign AI infrastructure that we delivered.  We've 
+commissioned the French Ministère des Armées [ph] and their infrastructure for AI, which is the 
+
+
+=== page 27 ===
+26 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+largest classified AI system in Europe.  That's just two examples and there are many others in 
+which we're engaged.  Part of what enables us to create value there is the ability to shorten the 
+time to deployment.  With the work we do around modular data centers, with the integrated 
+direct liquid cooling, we can deliver these systems production much faster than these entities 
+can do on their own.  And that's been a driver for us. 
+ 
+We will continue to be very selective in model builder and hyperscaler opportunities in the 
+space, being careful to ensure that our requirements around working capital and profitability are 
+balanced with the need to participate in that space for the halo that it creates in the enterprise 
+market, where we are also seeing momentum and growth and where our reach and our services 
+delivery capability creates more value that sometimes isn't needed by the big model builders 
+and the hyperscalers. 
+ 
+Erik Woodring 
+Hey guys, thank you.  Erik Woodring, Morgan Stanley.  Rami, I wanted to kind of build on Amit's 
+question, which was you started the presentation about kind of 9% CAGR in the networking 
+market and how core it is to kind of the new found HPE.  Over that same period, you're guiding 
+your own networking business to 5% to 7% growth.  So inherently implying that you're losing 
+share.  Can you kind of maybe help us square together that dynamic of kind of guiding to losing 
+share versus your clear kind of optimism around what HPE…the combined Juniper and Aruba 
+networking business could do? 
+ 
+Rami Rahim 
+Yes, just again, keep in mind, you've got to look at the mix of our business, right?  The mix of 
+our business is not identical to the mix of the total TAM between data center, campus and 
+branch and routing infrastructure.  The bulk of our business is in routing infrastructure and 
+campus and branch, these two market opportunities are growing in the, like low to mid-single-
+digit range.  So, you're not going to see a total growth rate for HPE networking that's going to 
+look like the total growth rate of the total networking TAM that has a totally different mix shift.  
+So just keep that in mind. 
+ 
+And to be a bit more specific, we're going to take share in campus and branch, we're going to 
+take share in routing infrastructure.  I believe we can even take share in SASE and security.  
+We're being a bit prudent right now in data center as we go through the integration of our two 
+businesses.  There are a lot of dynamics happening in the data center space between white box 
+switching, Celestica coming into the mix, NVIDIA coming in with their products.  There are a lot 
+of dynamics.  But at the same time, I will reiterate, if there's one area I am most excited about 
+from a revenue synergy standpoint just because of the relevance that HPE brings to the table, 
+the ability to leverage liquid cooling…direct liquid cooling technology, the ability to open doors 
+for us internationally where Juniper had very little presence, the ability to give us more 
+relevance with the AMDs and NVIDIAs and the other GPU providers of the world, that is 
+something that's very exciting, but you know we haven't baked that into our numbers. 
+ 
+Antonio Neri 
+Yes.  Look Erik, in a different way to think about it.  We will grow faster than the market in 
+campus and branch and routing.  We believe we can do that, the same in the security in the 
+convergence space.  We have seen that in our own numbers when it comes down to SASE and 
+all of that.  And then in data center networking, right, obviously, we will see the benefits in the 
+enterprise data center because the work Rami is doing with his colleagues. 
+ 
+
+
+=== page 28 ===
+27 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+But in the AI space, just by winning one customer at some point, that simplifies the whole story.  
+And that may take a little bit of time because he needs to go build that intimacy now through the 
+door openers that we're driving with the rest of the team.  And there is continue to sell to the 
+ones we have and then get new logos.  But Rami is right, there is a lot of transitions that happen 
+next year in technology.  We want to be there first with the 1.6 terabits. 
+ 
+That will give us a footprint and the sale cycle is a little bit longer, and then after that time to 
+revenue is a little bit longer because it's a little bit lumpier as well.  But once you win one or two 
+customers, the whole thing becomes bigger.  And therefore, we have been prudent in baking 
+numbers that we don't have yet the whole story lineup from an integration, technology and then 
+go to market, which we are building as we speak. 
+ 
+Shannon Cross 
+Okay.  Now, let's go to Simon. 
+ 
+Simon Leopold 
+Thank you very much.  Simon Leopold with Raymond James.  First, just a quick clarification, if I 
+might.  The growth rate for fiscal '26, if you could clarify the baseline given that you acquired 
+Juniper midway through the year.  And the thing I wanted to ask about was your vision of how 
+enterprise adoption of AI initiatives affect spending in that, how much will your customers 
+employ on the public cloud versus investment in their own data centers, which is really your 
+served market.  How do you see that playing out?  What will they buy and when will they buy it?  
+Thank you. 
+ 
+Antonio Neri 
+So maybe you want to answer the baseline? 
+ 
+Marie Myers 
+Yes.  No, it's…so as I said, the '26 guide is low to mid, and that's off a pro forma basis, including 
+Juniper, and then we moved to 5% to 7% in the long-term guide.  So, this is all pro forma and 
+you should see that in the 8-K that came out in terms of the pro forma financials. 
+ 
+Shannon Cross 
+Yes.  We'll have the 8-K out, it should be out now.  You'll be able to…I apologize, rebuild your 
+models.  But... 
+ 
+Antonio Neri 
+Yes.  As you look at the reporting, it's going to be much higher because remember, we have 
+four months of Juniper in our numbers this year and 12 months next year.  So, it's going to be 
+very high double-digits by reported standards.  And then on the private cloud versus the public 
+cloud, maybe Fidelma you want to take that question about how enterprises are using, 
+combination of both? 
+ 
+Fidelma Russo 
+So, as we've gone through the last maybe two years with really engaging with enterprises of all 
+sizes, what we've started to see is within very, very large enterprises, they look like CSPs at the 
+top end.  But within their IT organizations where they don't have the skills and where they're 
+really trying to drive productivity across different functions like support, help desks, that's where 
+our turnkey system like private cloud AI is really beginning to play.  And so, we're seeing growth 
+quarter-over-quarter, and it's beginning to accelerate.  And so that gives us, you know, the 
+market in the enterprise is a lot slower, but we're also seeing people starting to experiment on 
+
+
+=== page 29 ===
+28 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+the public cloud.  And then when they go to deploy within the enterprise, they're making the 
+choice because of costs, security, compliance, to move it on-prem.  And so, we're starting to 
+see the acceleration of that motion through enterprise customers across the board. 
+ 
+Neill MacDonald 
+And if I can add, if you think about certain segments of enterprise, while their technical 
+requirements look a lot like the service providers as Fidelma rightly just said, that's not their core 
+business.  And so, there's a lot of opportunity for us to deliver infrastructure at scale that looks 
+like service providers scale, but with a much richer set of capabilities for delivery and service, 
+and we've been doing that with customers around the world all the way through FY '25. 
+ 
+Antonio Neri 
+And it's true in financial services.  Alright, I don't know... 
+ 
+Shannon Cross 
+We've got Tim over there. 
+ 
+Tim Long 
+Tim Long at Barclays over here.  A two-parter, if I could on…maybe we could touch on 
+GreenLake a little bit.  Curious on two aspects.  Number one, it's obviously been growing nicely 
+over the years.  What does the addition of Juniper mean to the pipeline for GreenLake.  And 
+number two, kind of related to that last question as enterprises evolve with their AI journey and 
+start to bring more on-premise, do you see that potentially as a catalyst to ignite some higher 
+growth in GreenLake?  Thank you. 
+ 
+Shannon Cross 
+Fidelma… 
+ 
+Fidelma Russo 
+So, thank you for the question and the acknowledgment that it's had nice growth over the years.  
+We actually, Rami and I see tremendous opportunity for Juniper within GreenLake.  In fact, 
+sometimes when we deploy a GreenLake solution, we actually already have Juniper switches.  
+So, we have customers who've been deploying GreenLake with Juniper.  And so, we're working 
+together to really figure out how to move that along, and we see that as an opportunity to really 
+start to grow more within the GreenLake business. 
+ 
+The second piece that you asked about on AI and the enterprise.  We have, for instance, on PC 
+AI, we have an offering through GreenLake, and we have an offering on normal CAPEX.  And 
+right now, what we see is probably about 30% of the number is coming through GreenLake and 
+the other 70% is coming as CAPEX.  They just want to buy it and own it outright.  And so again, 
+within GreenLake on AI, we're really following the…like do it profitably and make sure that the 
+deals really work for us and the customer.  And so…but we see, as enterprises pick up, 
+especially in their IT organizations and deploying AI and prem that that will provide a tailwind for 
+the business. 
+ 
+Antonio Neri 
+I think, Tim, there are other opportunities that the team are driving together.  For example, one 
+of the interesting assets that Juniper brought was the software defined networking.  So, Fidelma 
+has got in the resources and the IP to fully integrate into our Morpheus stack and our private 
+cloud stack.  So, that completes a very strong alternative to the current incumbency.  So, that's 
+
+
+=== page 30 ===
+29 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+an example.  Also in the next few months, we're going to integrate Juniper Mist as a launching 
+platform with GreenLake as Rami drives the convergence as he spoke about it. 
+ 
+Shannon Cross 
+Okay, Lou.  You're next. 
+ 
+Lou Miscioscia 
+Thank you.  Lou Miscioscia, Daiwa Capital Markets America.  So, maybe this is a good 
+summary question.  You explained networking really well, what's prohibiting growth there.  But 
+with such great assets that you have, AI private cloud, on-prem, server modernization, I guess, 
+what's holding back possibly having faster growth?  Is it really just what you had just mentioned 
+earlier that enterprise companies just aren't moving to AI fast enough that they're stuck in POCs 
+and just haven't really deployed that.  If that is the case, what visibility do you have?  Does it 
+start to hit late first half 2026, second half 2026 calendar year?  Anything to help us understand 
+you guys getting to faster growth would definitely be helpful.  Thank you. 
+ 
+Antonio Neri 
+Well, I can start.  I mean, Lou, I think as I think about the segmentation of the market for AI, 
+obviously, Neil spoke about the service provided to Simon's question in the model builders.  
+They are fewer their customers.  Think about tens, right, that drives millions of GPUs now, right?  
+We'll see when all of that gets built.  Then you have enterprises like us, right, which I hope you 
+got that we are very aggressive in deploying AI.  As you can see Marie is very enthusiastic 
+about that in her own organization.  But there, you're talking about very smaller number of AUP 
+call it, because ultimately, it's not in the hundreds of millions of billions.  We're talking about 
+single millions, right?  And so, you have to pile up all these transactions to start making a dent 
+into the overall numbers.  But the good news is that since we started with private cloud AI and 
+the enterprise focus, we have been growing every single quarter. 
+ 
+And one of the things I mentioned in my remarks is that we already have a $500 million pipeline 
+in the private cloud AI and that is something we are really focused on converting to.  And that 
+conversion happens through the POCs directly with our customers and through our channel 
+partners because we are enabling all the channel partners with our infrastructure so that they 
+can bring the customers to their offices, where they are doing proof of concept, when they 
+decide to do there versus the public cloud.  And then eventually, once they are ready to go 
+because they figured out the use case, the return on investment and all that, we actually help 
+deploy that with advanced professional services and our support services.  In addition to the fact 
+the one area that Maeve is triple focus is financing AI in enterprise, sometimes some neoclouds, 
+sometimes on sovereign governments, sometimes, but that's where our focus is.  And so, we 
+expect that to continue to grow very nicely in '26 as we go forward. 
+ 
+Shannon Cross 
+And maybe, Marie, you want to talk just a little bit.  You've been dealing with what she's been 
+doing in AI with Deloitte and others.  What you've heard from some of the CFOs and other 
+companies you've been engaged with? 
+ 
+Marie Myers 
+Yes.  Look, I'd say that folks, definitely having spoken with a lot of CFOs out there are in early 
+stages of trying to understand how enterprise AI will really transform the business.  But what I 
+would say is we've seen some pretty amazing dramatic transformations that have happened, 
+but we're probably at the early innings.  So, that's why you also see in our margin guide, we 
+actually increased our long-term margin rate from 26% to 27.28% because you start to see 
+
+
+=== page 31 ===
+30 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+enterprise and sovereign become more significant in those years.  But it's going to take time.  
+We're in the early innings. 
+ 
+Shannon Cross 
+Okay.  David? 
+ 
+David Vogt 
+Great.  Thank you.  David Vogt, UBS.  Maybe for Antonio and Rami.  Rami, in your prepared 
+remarks, you talked about meeting your customers' needs with both the Aruba portfolio and the 
+Juniper portfolio.  Can you expand on sort of the go-to-market for driving those businesses 
+discretely and then ultimately from a synergy perspective, how do we think about that in the 
+context of your longer-term guide in terms of…that part of the market, not on the data center 
+side, but on the campus and branch side? 
+ 
+Rami Rahim 
+So, first, there are two great platforms.  And honestly, now that I've had an opportunity to look 
+under the covers on the Aruba side, I'm like really impressed.  So, it's a bit of an embarrassment 
+of riches right now in terms of what we have under our portfolio.  Second, they both are AIOps 
+platforms, but they both have unique strengths and capabilities.  Mist is a public cloud-only 
+AIOps platform.  So, as great as Mist was in AIOps capabilities, we were shut out of any 
+opportunities that require different deployment models like private cloud or virtual private cloud 
+networking or even on-prem.  When I looked at Aruba, they've actually made more progress in 
+areas like security integration, agentic AI capabilities.  So, they really have unique strengths. 
+ 
+The second thing that's really important to understand about these platforms is that these are 
+not monolithic code bases.  They were developed using a micro services-based architecture, 
+and it is actually quite straightforward to take micro services from one and apply it to the other, 
+right?  And so that's the plan.  We can keep these platforms and their unique deployment 
+capabilities in place and start to cross-pollinate.  So, Mist has done amazing work in AIOps 
+space.  I can take that as a microservice and apply it to Aruba.  Aruba has done great work in 
+security integration.  That can be a microservice that can go and apply to Mist.  And so, doing 
+what have I done?  I've accelerated the overall pace of innovation on both platforms.  I've made 
+my engineering more efficient because I don't need to develop something twice, I can develop it 
+once and deploy it twice.  So, that's the grand plan that we're working on right now.  And some 
+of our…I think the industry is sort of a little bit tainted right now because our peers in the 
+industry have taken years to try to figure out how to integrate portfolios, and we're showing our 
+customers much to their amazement that we can do it in a much less period of time.  So, watch 
+the space. 
+ 
+Marie Myers 
+And I'll just add on the guide…in terms of the long-term guide, the portfolio simplification and 
+sort of R&D project overlap that we talked about earlier is included in the $800 million of 
+synergies as well. 
+ 
+Rami Rahim 
+Yes. 
+ 
+Antonio Neri 
+And one of the key differentiations also, why he can drive that convergence is GreenLake and 
+all the cloud…the common cloud platform and the common cloud services sitting underneath 
+that Fidelma and team provides to everybody here on the stage.  And so, as we go through that 
+
+
+=== page 32 ===
+31 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+journey, that Rami just described, cross pollinating and doing things once, that conversion 
+happens very naturally and the user interface will become one at some point.  But no customer 
+gets left behind.  They are very excited about that, and then they get more faster. 
+ 
+Shannon Cross 
+Okay.  And we'll take our last question here.  Mike? 
+ 
+Michael Ng 
+Thank you.  Mike Ng from Goldman Sachs.  I wanted to just ask one on networking and just 
+have a quick financial follow-up.  On automated WAN, I think when Juniper was a stand-alone 
+company, that was more of a flattish growing category.  Could you just bridge what's gotten 
+better so that we're growing at that 5% CAGR now?  Is it mostly DCI, direct cloud on-ramps?  
+Are there other elements that are getting better as well?  And then could you just talk a little bit 
+about the networking margin going from low-20s next year to 25% to 28%?  Is there a mix 
+element there with DC switching contributing more?  Or is it just cost saves?  Thank you. 
+ 
+Rami Rahim 
+So, I'm happy to address the WAN question and Marie, maybe you can talk about the margins. 
+ 
+Marie Myers 
+I will take the margin question. 
+ 
+Rami Rahim 
+On the WAN side, first, Juniper actually over the last year or so, even during this close period 
+has seen really good tailwinds in WAN, primarily because of what you just described, data 
+center interconnect.  Cloud providers need wide area networking to connect AI data centers 
+together and they need it for the on-ramps to the data center.  And we see we have some really 
+great solutions in that space.  The other trend that I expect will get better is routing for 
+enterprises.  Many large enterprises actually require routing at the edge or even run their own 
+wide area networks.  And we, Juniper, were always limited by just the scale we had in go-to-
+market.  And now all of a sudden, we've got a much bigger enterprise sales force that can sell 
+not just compute and storage, but we're going to teach them how to sell routing as well. 
+ 
+Marie Myers 
+Yes.  I'd just add that on the margins themselves, in the long-term guide, we expect to get to 
+25% to 28%, obviously, coming off the low to mid in '26.  And that's exactly you answered the 
+question very well.  It's a combination of the cost synergies, which will take some time and then 
+the scaling of revenue growth and the benefit you see in terms of just the model itself in the 
+outer years.  So, I think we're really pleased with those long-term targets. 
+ 
+Shannon Cross 
+Great.  Well, I think we've concluded Q&A.  Antonio, I think you had some closing remarks. 
+ 
+CONCLUSION 
+ 
+Antonio Neri 
+Yes.  So, well, as always, thank you for joining.  I'm going to stand up because I want to 
+address the webcast too, so you guys can stay.  So, thank you.  Thank you.  I know we are 
+going to spend some more time here together.  But I want to leave you today feeling confident 
+that the HPE is more than prepared for what is next.  In fact, we are actively shaping our future.  
+For our customers, we will continue to push the limit of innovation.  One of the areas I'm 
+
+
+=== page 33 ===
+32 
+Hewlett Packard Enterprise 
+Wednesday, October 15, 2025, 3:00 PM Eastern 
+incredibly proud as a company, we never stop innovating.  And if you think about the portfolio 
+that we have today is something that we could only dream 7.5 years ago.  So, very proud of 
+what I have done there.  For our partners, we are opening the door toward much opportunity for 
+collaboration, scale and our shared success.  We do a lot of business with our partners, and 
+they are coming along with us. 
+ 
+And for our team members, which is the core of our culture, we are committed to create 
+opportunities for career defining work with a culture that's consistently recognized both internally 
+and externally.  And for our shareholders, which many are here, we are offering a very 
+compelling investment opportunity, built on that profitable growth and strong returns, including, 
+as we announced today, growing our annual dividend and increasing our share repurchase as 
+we execute the strategy we just discussed.  And I believe the future is here, and I believe HPE 
+is leading the way.  And together, we will redefine what is possible in technology to deliver that 
+lasting value for all our shareholders. 
+ 
+So, thank you for joining us today on the webcast, and thank you for joining here in person.  I 
+know we're going to take a little bit of a break. 
+ 
+Shannon Cross 
+Yes, I think we're…okay.  Let's stop. 

@@ -1,0 +1,152 @@
+EX-99.1
+3
+ny20018436x1_ex99-1.htm
+EXHIBIT 99.1
+Exhibit 99.1
+Hewlett Packard Enterprise
+1701 E. Mossy Oaks Road
+Spring, TX 77389
+hpe.com
+News Release
+HPE to Acquire Juniper Networks to Accelerate AI-Driven Innovation
+Highly complementary combination enhances secure, unified, cloud and AI-native networking to drive innovation from edge to cloud
+to exascale
+Accelerates long-term revenue growth and expands gross and operating margin; Expected to be accretive to non-GAAP EPS and free
+cash flow in year 1, post close
+Advances HPE’s portfolio mix shift toward higher-growth solutions and strengthens high-margin networking business
+HOUSTON, Texas and SUNNYVALE, California
+–
+January 9, 2024
+– Hewlett Packard Enterprise
+(NYSE: HPE)
+and Juniper Networks, Inc. (NYSE: JNPR), a leader in AI-native networks, today announced
+that the companies have entered a definitive agreement under which HPE will acquire Juniper in an all-cash transaction for $40.00 per share, representing an equity value of approximately $14 billion.
+The combination of HPE and Juniper advances HPE’s portfolio mix shift toward higher-growth solutions and strengthens its high-margin networking business,
+accelerating HPE’s sustainable profitable growth strategy. The transaction is expected to be accretive to non-GAAP EPS and free cash flow in the first year post close.
+The acquisition is expected to double HPE’s networking business, creating a new networking leader with a comprehensive portfolio that presents customers and
+partners with a compelling new choice to drive business value. The explosion of AI and hybrid cloud-driven business is accelerating demand for secure, unified technology solutions that connect, protect, and analyze companies’ data from edge to cloud.
+These trends, and AI specifically, will continue to be the most disruptive workloads for companies, and HPE has been aligning its portfolio to capitalize on these substantial IT trends with networking as a critical connective component.
+Combining HPE and Juniper’s complementary portfolios supercharges HPE’s edge-to-cloud strategy with an ability to lead in an AI-native environment based on a
+foundational cloud-native architecture. Together, HPE and Juniper will provide customers of all sizes with a complete, secure portfolio that enables the networking architecture necessary to manage and simplify their expanding and increasingly complex
+connectivity needs. Leveraging industry-leading AI, the combined company is expected to create better user and operator experiences, benefitting customers’ high-performance networks and cloud data centers.
+Through its suite of cloud-delivered networking solutions, software, and services including the Mist AI and Cloud platform, Juniper helps organizations
+securely and efficiently access the mission-critical cloud infrastructure that serves as the foundation of digital and AI strategies. The combination with HPE Aruba Networking and purposely designed HPE AI interconnect fabric will bring together
+enterprise reach, and cloud-native and AI-native management and control, to create a premier industry player that will accelerate innovation to deliver further modernized networking optimized for hybrid cloud and AI.
+Upon completion of the transaction, Juniper CEO Rami Rahim will lead the combined HPE networking business, reporting to HPE President and CEO Antonio Neri.
+“HPE’s acquisition of Juniper represents an important inflection point in the industry and will change the dynamics in the networking market and provide
+customers and partners with a new alternative that meets their toughest demands,” said Neri. “This transaction will strengthen HPE’s position at the nexus of accelerating macro-AI trends, expand our total addressable market, and drive further
+innovation for customers as we help bridge the AI-native and cloud-native worlds, while also generating significant value for shareholders. I am excited to welcome Juniper’s talented employees to our team as we bring together two companies with
+complementary portfolios and proven track records of driving innovation within the industry.”
+“Our multi-year focus on innovative, secure AI-native solutions has driven Juniper Networks’ outstanding performance,” said Rami Rahim, CEO of Juniper
+Networks. “We have successfully delivered exceptional user experiences and simplified operations, and by joining HPE, I believe we can accelerate the next phase of our journey. In addition, this combination maximizes value for our shareholders
+through a meaningful all-cash premium. We look forward to working with the talented HPE team to drive innovation for enterprise, service provider and cloud customers across all domains, including campus, branch, data center and the wide area
+network.”
+Compelling Strategic Benefits
+• | Compelling pro forma financial profile. In addition to the
+expected non-GAAP accretion, the combined company is expected to have attractive top- and bottom-line growth opportunities immediately and
+in the long term.
+• | Positions HPE for long-term growth for shareholders and greater
+investment capacity. With Juniper, HPE’s portfolio will be weighted toward higher-growth, higher-margin businesses with large free cash flow potential, positioning HPE to enhance shareholder return and enabling additional
+investments in high-growth areas, such as AI and cloud. On a pro forma basis, the new networking segment will increase from approximately
+18% of total HPE revenue as of fiscal year 2023 to approximately 31% 1 and contribute more than 56% 1,2 of HPE’s total operating income.
+• | Complementary capabilities to deliver next-generation AI-native
+networking and enable new digital experiences through secure, intelligent connectivity. Networking will become the new core business and architecture foundation for HPE’s Hybrid Cloud and AI solutions delivered through our HPE
+GreenLake hybrid cloud platform. The combined company will offer secure, end-to-end AI-native solutions that are built on the foundation of cloud, high performance, and experience-first, and will also have the ability to collect, analyze, and
+act on aggregated telemetry across a broader installed base. This will drive even better end-user experiences and streamlined network operations for our customers.
+1
+Includes HPE Intelligent Edge / HPE financials for fiscal year 2023 and Juniper financials for LTM 09/30/23
+2
+Pro forma operating profit includes impact of run-rate cost synergies of $450 million (assumed 100% contribution to Intelligent Edge)
+• | Accelerates HPE’s strategic evolution and expands total addressable
+market. The acquisition increases the scope of HPE’s networking business and will create meaningful opportunities to provide even more comprehensive solutions to Juniper’s installed base of enterprise customers, communication service
+providers and tier-one cloud customers, as well as launches HPE into adjacent large segments, including data center networking, firewalls, and routers. It also grows Juniper’s footprint in data centers and cloud providers.
+Transaction Details and Approvals
+Under the terms of the agreement, which has been unanimously approved by the Boards of Directors of HPE and Juniper, Juniper shareholders will receive $40.00
+per share in cash upon the completion of the transaction. The purchase price represents a premium of approximately 32% to the unaffected closing price of Juniper’s common stock on January 8, 2024,
+the last full trading day prior to media reports regarding a possible transaction
+.
+The transaction is expected to be funded based on financing commitments for $14 billion in term loans. Such financing will ultimately be replaced, in part,
+with a combination of new debt, mandatory convertible preferred securities, and cash on the balance sheet.
+The transaction is currently expected to close in late
+calendar year 2024 or early calendar year 2025, subject to receipt of regulatory approvals, approval of the transaction by Juniper shareholders, and satisfaction of other customary closing conditions.
+The combination is expected to achieve operating efficiencies and run-rate annual cost synergies of $450 million within 36 months post close. Strong growth in
+free cash flow, along with maintenance of capital allocation policies, are expected to provide sufficient room to reduce leverage to approximately 2x in two years post close. Following the completion of the transaction, HPE will continue its
+innovation and go-to-market investments in its networking business, one of its growth engines.
+Advisors
+J.P. Morgan Securities LLC and Qatalyst Partners are serving as HPE’s financial advisors. Committed financing for the transaction has been provided by
+Citigroup Global Markets Inc., JPMorgan Chase Bank, N.A. and Mizuho Bank, Ltd. Wachtell, Lipton, Rosen & Katz, Covington & Burling LLP, and Freshfields Bruckhaus Deringer LLP are serving as legal counsel. Goldman Sachs & Co. LLC is
+serving as Juniper’s exclusive financial advisor and Skadden, Arps, Slate, Meagher & Flom is serving as legal counsel.
+Conference Call Details
+HPE and Juniper will host a conference call tomorrow at 7:30 a.m. CT (8:30 a.m. ET) to discuss the announcement. The call will include a slide presentation
+and participants are encouraged to view the presentation via webcast at www.hpe.com/investor/HPE-To-Acquire-Juniper-Conference-Call.
+About Hewlett Packard Enterprise
+Hewlett Packard Enterprise (NYSE: HPE) is the global edge-to-cloud company that helps organizations accelerate outcomes by unlocking value from all of their
+data, everywhere. Built on decades of reimagining the future and innovating to advance the way people live and work, HPE delivers unique, open and intelligent technology solutions as a service.  With offerings spanning Cloud Services, Compute, High
+Performance Computing & AI, Intelligent Edge, Software, and Storage, HPE provides a consistent experience across all clouds and edges, helping customers develop new business models, engage in new ways, and increase operational performance. For
+more information, visit: www.hpe.com.
+About Juniper Networks
+Juniper is dedicated to dramatically simplifying network operations and driving superior experiences for end users. Our solutions deliver industry-leading
+insight, automation, security and AI to drive real business results. We believe that powering connections will bring us closer together while empowering us all to solve the world’s greatest challenges of well-being, sustainability and equality.
+Additional information can be found at https://www.juniper.net/ or connect with Juniper on X (formerly Twitter), LinkedIn and Facebook.
+Media Contacts:
+HPE
+Laura Keller
+laura.keller@hpe.com
+Juniper
+Penny Still
++44 (0) 1372 385 692
+pstill@juniper.net
+Investor Contacts:
+HPE
+Jeff Kvaal
+investor.relations@hpe.com
+Juniper
+Jess Lubert
+(408) 936-3734
+jlubert@juniper.net
+Forward-Looking Statements
+This document contains “forward-looking statements” within the meaning of the federal securities laws, including safe harbor provisions of the Private
+Securities Litigation Reform Act of 1995, Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended. Such statements involve risks, uncertainties and assumptions and are based on
+Juniper’s and HPE’s current expectations, estimates, projections, beliefs and assumptions made by Juniper and HPE, all of which are subject to change. In this context, forward-looking statements often address expected future business, financial
+performance and financial condition, and often contain words such as “expect,” “anticipate,” “intend,” “plan,” “believe,” “could,” “seek,” “see,” “will,” “may,” “would,” “might,” “potentially,” “estimate,” “continue,” “expect,” “target,” and similar
+expressions or the negatives of these words or other comparable terminology that convey uncertainty of future events or outcomes. All forward-looking statements by their nature address matters that involve risks and uncertainties, many of which are
+beyond Juniper’s and HPE’s control, and are not guarantees of future results. These and other forward-looking statements are not guarantees of future results and are subject to risks, uncertainties and assumptions that could cause actual results to
+differ materially from those expressed in any forward-looking statements and you should not place undue reliance on any such statements, and caution must be exercised in relying on forward-looking statements. Important risk factors that may cause
+such a difference include, but are not limited to: (i) the completion of the proposed transaction on anticipated terms and timing or at all, including obtaining stockholder and regulatory approvals and other conditions to the completion of the
+transaction; (ii) the ability of HPE to integrate and implement its plans, forecasts and other expectations with respect to Juniper’s business after the completion of the proposed transaction and realize additional opportunities for growth and
+innovation; (iii) the occurrence of any event, change or other circumstance or condition that could give rise to the termination of the merger agreement; (iv) Juniper’s and HPE’s ability to implement their respective business strategies; (v)
+potential significant transaction costs associated with the proposed transaction; (vi) the risks related to HPE’s financing of the proposed transaction, (vii) potential litigation or regulatory actions relating to the proposed transaction; (viii) the
+risk that disruptions from the proposed transaction will harm Juniper’s or HPE’s business, including current plans and operations, and risks related to diverting management’s attention from Juniper’s and HPE’s ongoing business operations and
+relationships; (ix) the ability of Juniper and HPE to retain and hire key personnel; (x) potential adverse business uncertainty resulting from the announcement, pendency or completion of the proposed transaction, including restrictions during the
+pendency of the proposed transaction that may impact Juniper’s and HPE’s ability to pursue certain business opportunities or strategic transactions; (xi) legal, regulatory, tax and economic developments affecting Juniper’s and HPE’s business; (xii)
+the unpredictability and severity of catastrophic events, including, but not limited to, acts of terrorism, outbreak of war or hostilities or current or future pandemics or epidemics, as well as Juniper’s and HPE’s response to any of the
+aforementioned factors; and (xiii) other risks described in Juniper’s and HPE’s filings with the SEC, such risks and uncertainties described under the headings “Forward-Looking Statements,” “Risk Factors” and other sections of HPE’s Annual Report on
+Form 10-K for its fiscal year ended October 31, 2023, Juniper’s Annual Report on Form 10-K for its fiscal year ended December 31, 2022, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K and other filings made by HPE or Juniper from time to
+time with the SEC. These risks should not be considered a complete statement of all potential risks and uncertainty, and are discussed more fully, along with other risks associated with the proposed transaction, in the Proxy Statement (as defined
+below) to be filed with the SEC in connection with the proposed transaction. Unlisted factors may present significant additional obstacles to the realization of forward-looking statements. Juniper and HPE do not assume any obligation to publicly
+provide revisions or updates to any forward-looking statements, whether as a result of new information, future developments or otherwise, should circumstances change, except as otherwise required by securities and other applicable laws.
+Additional Information and Where to Find It
+In connection with the proposed transaction between Juniper and HPE, Juniper will file with the SEC a proxy statement (the “
+Proxy Statement
+”), the definitive version of which will be sent or provided to Juniper stockholders. Juniper may also file other documents with the SEC regarding the proposed transaction.
+This document is not a substitute for the Proxy Statement or any other document which Juniper may file with the SEC.
+INVESTORS AND SECURITY HOLDERS ARE
+URGED TO READ THE PROXY STATEMENT AND ANY OTHER RELEVANT DOCUMENTS THAT ARE FILED OR WILL BE FILED WITH THE SEC, AS WELL AS ANY AMENDMENTS OR SUPPLEMENTS TO THESE DOCUMENTS, CAREFULLY AND IN THEIR ENTIRETY BECAUSE THEY CONTAIN OR WILL CONTAIN
+IMPORTANT INFORMATION ABOUT THE PROPOSED TRANSACTION AND RELATED MATTERS.
+Investors and security holders may obtain free copies of the Proxy Statement (when it is available) and other documents that are filed or will be filed with the SEC by
+Juniper through the website maintained by the SEC at www.sec.gov, Juniper’s investor relations website at https://investor.Juniper.net or by contacting the Juniper investor relations department at the following:
+Jess Lubert
+Juniper Networks
+(408) 936-3734
+jlubert@juniper.net
+http://www.juniper.net/
+Participants in the Solicitation
+Juniper and certain of its directors, executive officers and other employees, under SEC rules, may be deemed to be participants in the solicitation of
+proxies from Juniper’s stockholders in connection with the proposed transaction. Information regarding Juniper’s directors and executive officers, including a description of their direct interests, by security holdings or otherwise, is contained in
+Juniper’s proxy statement for its 2023 annual meeting of stockholders (the “
+Annual Meeting Proxy Statement
+”), which was filed with the SEC on March 29, 2023,
+and will be set forth in the Proxy Statement and other materials to be filed with the SEC in connection with the proposed transaction (if and when they become available). To the extent holdings of Juniper’s securities by its directors or executive
+officers have changed since the amounts set forth in the Annual Meeting Proxy Statement, such changes have been or will be reflected on Initial Statements of Beneficial Ownership on Form 3 or Statements of Beneficial Ownership on Form 4 filed with
+the SEC. Additional information regarding the identity of potential participants, and their direct or indirect interests, by security holdings or otherwise,  will be included in the Proxy Statement relating to the proposed transaction when it is
+filed with the SEC. Investors and security holders may obtain free copies of these documents using the sources indicated above.

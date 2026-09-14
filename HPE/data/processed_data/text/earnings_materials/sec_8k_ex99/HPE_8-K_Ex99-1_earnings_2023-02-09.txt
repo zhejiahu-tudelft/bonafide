@@ -1,0 +1,114 @@
+EX-99.1
+2
+ex-991x02092023x8k.htm
+EX-99.1
+Document
+Exhibit 99.1
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+FISCAL 2022 SEGMENT INFORMATION (Revised)
+(Unaudited)
+(In millions)
+REVISED AMOUNTS | AMOUNTS AS PREVIOUSLY REPORTED | VARIANCE
+Three months ended | Twelve months ended | Three months ended | Twelve months ended | Three months ended | Twelve months ended
+Jan. 31, 2022 | Apr. 30, 2022 | July 31, 2022 | Oct. 31, 2022 | Oct. 31, 2022 | Jan. 31, 2022 | Apr. 30, 2022 | July 31, 2023 | Oct. 31, 2022 | Oct. 31, 2022 | Jan. 31, 2022 | Apr. 30, 2022 | July 31, 2023 | Oct. 31, 2022 | Oct. 31, 2022
+Net revenue: (a)
+Compute | $ | 3,044 | $ | 3,011 | $ | 3,027 | $ | 3,768 | $ | 12,850 | $ | 3,016 | $ | 2,985 | $ | 3,004 | $ | 3,737 | $ | 12,742 | $ | 28 | $ | 26 | $ | 23 | $ | 31 | $ | 108
+HPC & MCS | 790 | 710 | 830 | 862 | 3,192 | 790 | 710 | 830 | 862 | 3,192 | — | — | — | — | —
+Storage | 1,128 | 1,072 | 1,129 | 1,274 | 4,603 | 1,156 | 1,098 | 1,152 | 1,305 | 4,711 | (28) | (26) | (23) | (31) | (108)
+Intelligent Edge | 901 | 867 | 941 | 965 | 3,674 | 901 | 867 | 941 | 965 | 3,674 | — | — | — | — | —
+Financial Services | 842 | 823 | 817 | 857 | 3,339 | 842 | 823 | 817 | 857 | 3,339 | — | — | — | — | —
+Corporate Investments and Other | 325 | 327 | 300 | 303 | 1,255 | 325 | 327 | 300 | 303 | 1,255 | — | — | — | — | —
+Total segments | 7,030 | 6,810 | 7,044 | 8,029 | 28,913 | 7,030 | 6,810 | 7,044 | 8,029 | 28,913 | — | — | — | — | —
+Elimination of intersegment net revenue | (69) | (97) | (93) | (158) | (417) | (69) | (97) | (93) | (158) | (417) | — | — | — | — | —
+Total HPE consolidated net revenue | $ | 6,961 | $ | 6,713 | $ | 6,951 | $ | 7,871 | $ | 28,496 | $ | 6,961 | $ | 6,713 | $ | 6,951 | $ | 7,871 | $ | 28,496 | $ | — | $ | — | $ | — | $ | — | $ | —
+Earnings before taxes: (a)
+Compute | $ | 427 | $ | 426 | $ | 408 | $ | 560 | $ | 1,821 | $ | 416 | $ | 415 | $ | 400 | $ | 549 | $ | 1,780 | $ | 11 | $ | 11 | $ | 8 | $ | 11 | $ | 41
+HPC & MCS | (7) | (40) | 28 | 30 | 11 | (7) | (40) | 28 | 30 | 11 | — | — | — | — | —
+Storage | 157 | 127 | 161 | 196 | 641 | 168 | 138 | 169 | 207 | 682 | (11) | (11) | (8) | (11) | (41)
+Intelligent Edge | 157 | 109 | 155 | 128 | 549 | 157 | 109 | 155 | 128 | 549 | — | — | — | — | —
+Financial Services | 104 | 104 | 96 | 95 | 399 | 104 | 104 | 96 | 95 | 399 | — | — | — | — | —
+Corporate Investments and Other | (11) | (24) | (31) | (26) | (92) | (11) | (24) | (31) | (26) | (92) | — | — | — | — | —
+Total segment earnings from operations | 827 | 702 | 817 | 983 | 3,329 | 827 | 702 | 817 | 983 | 3,329 | — | — | — | — | —
+Unallocated corporate costs and eliminations | (59) | (75) | (88) | (81) | (303) | (59) | (75) | (88) | (81) | (303) | — | — | — | — | —
+Stock-based compensation expense | (128) | (114) | (64) | (85) | (391) | (128) | (114) | (64) | (85) | (391) | — | — | — | — | —
+Amortization of initial direct cost | (1) | (1) | (1) | (1) | (4) | (1) | (1) | (1) | (1) | (4) | — | — | — | — | —
+Amortization of intangible assets | (73) | (74) | (73) | (73) | (293) | (73) | (74) | (73) | (73) | (293) | — | — | — | — | —
+Impairment of goodwill | — | — | — | (905) | (905) | — | — | — | (905) | (905) | — | — | — | — | —
+Transformation costs | (111) | (98) | (80) | (184) | (473) | (111) | (98) | (80) | (184) | (473) | — | — | — | — | —
+Disaster recoveries (charges) | 1 | (125) | (36) | 1 | (159) | 1 | (125) | (36) | 1 | (159) | — | — | — | — | —
+Acquisition, disposition and other related charges | (8) | (8) | (9) | 6 | (19) | (8) | (8) | (9) | 6 | (19) | — | — | — | — | —
+Interest and other, net | (5) | — | (74) | (109) | (188) | (5) | — | (74) | (109) | (188) | — | — | — | — | —
+Tax indemnification adjustments | (17) | — | (30) | (20) | (67) | (17) | — | (30) | (20) | (67) | — | — | — | — | —
+Non-service net periodic benefit credit | 36 | 36 | 34 | 28 | 134 | 36 | 36 | 34 | 28 | 134 | — | — | — | — | —
+Earnings from equity interests | 31 | 33 | 68 | 83 | 215 | 31 | 33 | 68 | 83 | 215 | — | — | — | — | —
+Total HPE consolidated earnings (loss) before taxes | $ | 493 | $ | 276 | $ | 464 | $ | (357) | $ | 876 | $ | 493 | $ | 276 | $ | 464 | $ | (357) | $ | 876 | $ | — | $ | — | $ | — | $ | — | $ | —
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+FISCAL 2022 SEGMENT INFORMATION (Revised)
+(Unaudited)
+REVISED AMOUNTS | AMOUNTS AS PREVIOUSLY REPORTED | VARIANCE
+Three months ended | Twelve months ended | Three months ended | Twelve months ended | Three months ended | Twelve months ended
+Jan. 31, 2022 | Apr. 30, 2022 | July 31, 2022 | Oct. 31, 2022 | Oct. 31, 2022 | Jan. 31, 2022 | Apr. 30, 2022 | July 31, 2023 | Oct. 31, 2022 | Oct. 31, 2022 | Jan. 31, 2022 | Apr. 30, 2022 | July 31, 2023 | Oct. 31, 2022 | Oct. 31, 2022
+Segment operating margin: (a)
+Compute | 14.0 | % | 14.1 | % | 13.5 | % | 14.9 | % | 14.2 | % | 13.8 | % | 13.9 | % | 13.3 | % | 14.7 | % | 14.0 | % | 0.2 | pts | 0.2 | pts | 0.2 | pts | 0.2 | pts | 0.2 | pts
+HPC & MCS | (0.9) | % | (5.6) | % | 3.4 | % | 3.5 | % | 0.3 | % | (0.9) | % | (5.6) | % | 3.4 | % | 3.5 | % | 0.3 | % | — | pts | — | pts | — | pts | — | pts | — | pts
+Storage | 13.9 | % | 11.8 | % | 14.3 | % | 15.4 | % | 13.9 | % | 14.5 | % | 12.6 | % | 14.7 | % | 15.9 | % | 14.5 | % | (0.6 | pts) | (0.8 | pts) | (0.4 | pts) | (0.5 | pts) | (0.6 | pts)
+Intelligent Edge | 17.4 | % | 12.6 | % | 16.5 | % | 13.3 | % | 14.9 | % | 17.4 | % | 12.6 | % | 16.5 | % | 13.3 | % | 14.9 | % | — | pts | — | pts | — | pts | — | pts | — | pts
+Financial Services | 12.4 | % | 12.6 | % | 11.8 | % | 11.1 | % | 11.9 | % | 12.4 | % | 12.6 | % | 11.8 | % | 11.1 | % | 11.9 | % | — | pts | — | pts | — | pts | — | pts | — | pts
+Corporate Investments and Other | (3.4) | % | (7.3) | % | (10.3) | % | (8.6) | % | (7.3) | % | (3.4) | % | (7.3) | % | (10.3) | % | (8.6) | % | (7.3) | % | — | pts | — | pts | — | pts | — | pts | — | pts
+Total segment operating margin | 11.8 | % | 10.3 | % | 11.6 | % | 12.2 | % | 11.5 | % | 11.8 | % | 10.3 | % | 11.6 | % | 12.2 | % | 11.5 | % | — | pts | — | pts | — | pts | — | pts | — | pts
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+FISCAL 2021 SEGMENT INFORMATION (Revised)
+(Unaudited)
+(In millions)
+REVISED AMOUNTS | AMOUNTS AS PREVIOUSLY REPORTED | VARIANCE
+Three months ended | Twelve months ended | Three months ended | Twelve months ended | Three months ended | Twelve months ended
+Jan. 31, 2021 | Apr. 30, 2021 | July 31, 2021 | Oct. 31, 2021 | Oct. 31, 2021 | Jan. 31, 2021 | Apr. 30, 2021 | July 31, 2021 | Oct. 31, 2021 | Oct. 31, 2021 | Jan. 31, 2021 | Apr. 30, 2021 | July 31, 2021 | Oct. 31, 2021 | Oct. 31, 2021
+Net revenue: (a)
+Compute | $ | 3,018 | $ | 3,004 | $ | 3,133 | $ | 3,254 | $ | 12,409 | $ | 2,984 | $ | 2,974 | $ | 3,102 | $ | 3,224 | $ | 12,284 | $ | 34 | $ | 30 | $ | 31 | $ | 30 | $ | 125
+HPC & MCS | 761 | 684 | 740 | 999 | 3,184 | 761 | 684 | 740 | 999 | 3,184 | — | — | — | — | —
+Storage | 1,158 | 1,106 | 1,144 | 1,227 | 4,635 | 1,192 | 1,136 | 1,175 | 1,257 | 4,760 | (34) | (30) | (31) | (30) | (125)
+Intelligent Edge | 810 | 803 | 871 | 818 | 3,302 | 810 | 803 | 871 | 818 | 3,302 | — | — | — | — | —
+Financial Services | 860 | 839 | 844 | 858 | 3,401 | 860 | 839 | 844 | 858 | 3,401 | — | — | — | — | —
+Corporate Investments and Other | 321 | 350 | 332 | 353 | 1,356 | 321 | 350 | 332 | 353 | 1,356 | — | — | — | — | —
+Total Segments | 6,928 | 6,786 | 7,064 | 7,509 | 28,287 | 6,928 | 6,786 | 7,064 | 7,509 | 28,287 | — | — | — | — | —
+Elimination of intersegment net revenue | (95) | (86) | (167) | (155) | (503) | (95) | (86) | (167) | (155) | (503) | — | — | — | — | —
+Total HPE consolidated net revenue | $ | 6,833 | $ | 6,700 | $ | 6,897 | $ | 7,354 | $ | 27,784 | $ | 6,833 | $ | 6,700 | $ | 6,897 | $ | 7,354 | $ | 27,784 | $ | — | $ | — | $ | — | $ | — | $ | —
+Earnings before taxes: (a)
+Compute | $ | 358 | $ | 348 | $ | 361 | $ | 315 | $ | 1,382 | $ | 341 | $ | 334 | $ | 346 | $ | 302 | $ | 1,323 | $ | 17 | $ | 14 | $ | 15 | $ | 13 | $ | 59
+HPC & MCS | 43 | 18 | 28 | 142 | 231 | 43 | 18 | 28 | 142 | 231 | — | — | — | — | —
+Storage | 217 | 177 | 162 | 160 | 716 | 234 | 191 | 177 | 173 | 775 | (17) | (14) | (15) | (13) | (59)
+Intelligent Edge | 154 | 126 | 140 | 89 | 509 | 154 | 126 | 140 | 89 | 509 | — | — | — | — | —
+Financial Services | 84 | 91 | 94 | 121 | 390 | 84 | 91 | 94 | 121 | 390 | — | — | — | — | —
+Corporate Investments and Other | (31) | (25) | (28) | (11) | (95) | (31) | (25) | (28) | (11) | (95) | — | — | — | — | —
+Total segment earnings from operations | 825 | 735 | 757 | 816 | 3,133 | 825 | 735 | 757 | 816 | 3,133 | — | — | — | — | —
+Unallocated corporate costs and eliminations | (52) | (50) | (84) | (99) | (285) | (52) | (50) | (84) | (99) | (285) | — | — | — | — | —
+Stock-based compensation expense | (110) | (98) | (86) | (78) | (372) | (110) | (98) | (86) | (78) | (372) | — | — | — | — | —
+Amortization of initial direct costs | (2) | (2) | (2) | (2) | (8) | (2) | (2) | (2) | (2) | (8) | — | — | — | — | —
+Amortization of intangible assets | (110) | (84) | (82) | (78) | (354) | (110) | (84) | (82) | (78) | (354) | — | — | — | — | —
+Transformation costs | (311) | (209) | (213) | (197) | (930) | (311) | (209) | (213) | (197) | (930) | — | — | — | — | —
+Disaster charges | — | (1) | (5) | (10) | (16) | — | (1) | (5) | (10) | (16) | — | — | — | — | —
+Acquisition, disposition and other related charges | (18) | (13) | (3) | (2) | (36) | (18) | (13) | (3) | (2) | (36) | — | — | — | — | —
+Interest and other, net | (44) | (11) | (50) | (6) | (111) | (44) | (11) | (50) | (6) | (111) | — | — | — | — | —
+Tax indemnification adjustments | (16) | — | 76 | 5 | 65 | (16) | — | 76 | 5 | 65 | — | — | — | — | —
+Non-service net periodic benefit credit | 17 | 17 | 19 | 17 | 70 | 17 | 17 | 19 | 17 | 70 | — | — | — | — | —
+Litigation judgment | — | — | — | 2,351 | 2,351 | — | — | — | 2,351 | 2,351 | — | — | — | — | —
+Early debt redemption costs | — | — | — | (100) | (100) | — | — | — | (100) | (100) | — | — | — | — | —
+Earnings from equity interests | 26 | 4 | 79 | 71 | 180 | 26 | 4 | 79 | 71 | 180 | — | — | — | — | —
+Total HPE consolidated earnings before taxes | $ | 205 | $ | 288 | $ | 406 | $ | 2,688 | $ | 3,587 | $ | 205 | $ | 288 | $ | 406 | $ | 2,688 | $ | 3,587 | $ | — | $ | — | $ | — | $ | — | $ | —
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+FISCAL 2021 SEGMENT INFORMATION (Revised)
+(Unaudited)
+REVISED AMOUNTS | AMOUNTS AS PREVIOUSLY REPORTED | VARIANCE
+Three months ended | Twelve months ended | Three months ended | Twelve months ended | Three months ended | Twelve months ended
+Jan. 31, 2021 | Apr. 30, 2021 | July 31, 2021 | Oct. 31, 2021 | Oct. 31, 2021 | Jan. 31, 2021 | Apr. 30, 2021 | July 31, 2021 | Oct. 31, 2021 | Oct. 31, 2021 | Jan. 31, 2021 | Apr. 30, 2021 | July 31, 2021 | Oct. 31, 2021 | Oct. 31, 2021
+Segment operating margin: (a)
+Compute | 11.9 | % | 11.6 | % | 11.5 | % | 9.7 | % | 11.1 | % | 11.4 | % | 11.2 | % | 11.2 | % | 9.4 | % | 10.8 | % | 0.5 | pts | 0.4 | pts | 0.3 | pts | 0.3 | pts | 0.3 | pts
+HPC & MCS | 5.7 | % | 2.6 | % | 3.8 | % | 14.2 | % | 7.3 | % | 5.7 | % | 2.6 | % | 3.8 | % | 14.2 | % | 7.3 | % | — | pts | — | pts | — | pts | — | pts | — | pts
+Storage | 18.7 | % | 16.0 | % | 14.2 | % | 13.0 | % | 15.4 | % | 19.6 | % | 16.8 | % | 15.1 | % | 13.8 | % | 16.3 | % | (0.9 | pts) | (0.8 | pts) | (0.9 | pts) | (0.8 | pts) | (0.9 | pts)
+Intelligent Edge | 19.0 | % | 15.7 | % | 16.1 | % | 10.9 | % | 15.4 | % | 19.0 | % | 15.7 | % | 16.1 | % | 10.9 | % | 15.4 | % | — | pts | — | pts | — | pts | — | pts | — | pts
+Financial Services | 9.8 | % | 10.8 | % | 11.1 | % | 14.1 | % | 11.5 | % | 9.8 | % | 10.8 | % | 11.1 | % | 14.1 | % | 11.5 | % | — | pts | — | pts | — | pts | — | pts | — | pts
+Corporate Investments and Other | (9.7) | % | (7.1) | % | (8.4) | % | (3.1) | % | (7.0) | % | (9.7) | % | (7.1) | % | (8.4) | % | (3.1) | % | (7.0) | % | — | pts | — | pts | — | pts | — | pts | — | pts
+Total segment operating margin | 11.9 | % | 10.8 | % | 10.7 | % | 10.9 | % | 11.1 | % | 11.9 | % | 10.8 | % | 10.7 | % | 10.9 | % | 11.1 | % | — | pts | — | pts | — | pts | — | pts | — | pts
+(a) Effective at the beginning of the first quarter of fiscal 2023, in orde
+r to align its segment financial reporting more closely with its current business structure, the Company implemented an organizational change with the transfer of certain storage networking products, previously reported within the Storage reportable segment, to the Compute reportable segment.
+The Company reflected these changes to its segment information retrospectively to the fiscal 2021 and 2022 financial results, which primarily resulted in the realignment of net revenue and operating profit for each of the segments as described above. These changes had no impact on Hewlett Packard Enterprise’s previously reported consolidated net revenue, net earnings, net earnings per share ("EPS") or total assets.

@@ -1,0 +1,135 @@
+false
+0001645590
+0001645590
+2025-06-28
+2025-06-28
+0001645590
+us-gaap:ConvertiblePreferredStockMember
+2025-06-28
+2025-06-28
+0001645590
+us-gaap:CommonStockMember
+2025-06-28
+2025-06-28
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+WASHINGTON, D.C. 20549
+FORM
+8-K
+CURRENT REPORT
+PURSUANT TO SECTION 13 OR 15(d) OF
+THE SECURITIES EXCHANGE ACT OF 1934
+June 28, 2025
+Date of Report (Date of Earliest Event Reported)
+HEWLETT PACKARD ENTERPRISE COMPANY
+(Exact name of registrant as specified in its charter)
+Delaware | 001-37483 | 47-3298624
+(State or other jurisdiction of incorporation) | (Commission File Number) | (I.R.S. Employer Identification No.)
+1701 E Mossy Oaks Road , Spring , TX | 77389
+(Address of principal executive offices) | (Zip Code)
+(
+678
+)
+259-9860
+(Registrant’s telephone number, including area code)
+Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:
+☐ | Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+☐ | Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+☐ | Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+☐ | Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+Securities registered pursuant to Section 12(b) of the Exchange Act:
+Title of each class | Trading symbol(s) | Name of each exchange on which registered
+Common stock, par value $0.01 per share | HPE | NYSE
+7.625% Series C Mandatory Convertible Preferred Stock, par value $0.01 per share | HPEPrC | NYSE
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of
+the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).
+☐ | Emerging growth company
+☐ | If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the
+Exchange Act.
+Introductory Note
+On July 2, 2025, Hewlett Packard Enterprise Company (“
+HPE
+” or the “
+Company
+”), Juniper Networks, Inc., a Delaware corporation (“
+Juniper
+”)
+and Jasmine Acquisition Sub, Inc., a Delaware corporation and a wholly owned subsidiary of HPE (“
+Merger Sub
+”), completed the transactions contemplated by the previously announced Agreement and Plan of Merger, dated as of January 9, 2024 (as it
+may be amended, supplemented, or otherwise modified from time to time, the “
+Merger Agreement
+”) by and among the Company, Juniper and Merger Sub.  Pursuant to the Merger Agreement, at the effective time of the Merger (the “
+Effective Time
+”),
+Merger Sub merged with and into Juniper (the “
+Merger
+”), with Juniper surviving the Merger as a wholly owned subsidiary of HPE.  Capitalized terms used herein without definition have the meanings specified in the Merger Agreement.
+Item 2.01 | Completion of Acquisition or Disposition of Assets.
+The information set forth in the Introductory Note of this Current Report on Form 8-K is incorporated by reference into this Item 2.01.
+At the Effective Time, each share of common stock of Juniper, par value $0.00001 per share (“
+Juniper Common Stock
+”) issued and outstanding
+immediately prior to the Effective Time (excluding shares of Juniper Common Stock that were (i) owned by Juniper as treasury stock or by HPE or Merger Sub, which shares were canceled and ceased to exist, (ii) held by any subsidiary of Juniper or HPE
+(other than Merger Sub), which shares were converted into such number of shares of common stock of the Surviving Corporation so as to maintain relative ownership percentages, or (iii) held by any stockholder who did not vote in favor of the adoption
+of the Merger Agreement and who was entitled to demand and properly exercised appraisal rights in respect of such shares in accordance with the General Corporate Law of the State of Delaware), was converted into the right to receive $40.00 in cash,
+without interest, subject to any required withholding taxes (the “
+Merger Consideration
+”).
+In addition, pursuant to the Merger Agreement and in accordance with the terms set forth therein, at the Effective Time:
+i. | each option to purchase shares of Juniper Common Stock was converted into an option with substantially the same terms and conditions to purchase HPE common shares;
+ii. | each restricted stock unit award in respect of shares of Juniper Common Stock held by non-employee members of the Board of Directors of Juniper (the “ Juniper Board ”) was converted into the right to receive the Merger Consideration
+in respect of each such share;
+iii. | each restricted stock unit award in respect of shares of Juniper Common Stock held by individuals other than non-employee members of the Juniper Board was converted into a time-vesting restricted stock unit award in respect of HPE common
+shares with substantially the same terms and conditions, except that performance goals no longer applied (in the case of performance-vesting Juniper restricted stock unit awards, the number of shares was determined based on actual performance
+in respect of performance or measurement periods that had been completed and for which performance had been determined in the ordinary course of business, and otherwise based on target performance); and
+iv. | in each case of clauses (i), (ii) and (iii) above, the number of HPE common shares subject to the converted awards (and in the case of options, the exercise price) was determined based on an equity award exchange ratio intended to
+substantially preserve the value of the converted awards as of immediately prior to and immediately following the Effective Time.
+As a result of the completion of the Merger, Juniper became a wholly owned subsidiary of HPE.  The aggregate Merger Consideration paid to Juniper
+stockholders was approximately $13.4 billion.  HPE funded the aggregate Merger Consideration through a combination of cash from its balance sheet, commercial paper issuances, and borrowings pursuant to its three-year delayed-draw term loan credit
+facility and 364-day delayed-draw term loan credit facility, both previously disclosed in its Current Report on Form 8-K filed on September 12, 2024.
+1
+The foregoing description of the Merger, the Merger Agreement and the other transactions contemplated thereby does not purport to be complete and is
+qualified in its entirety by the full text of the Merger Agreement, a copy of which was filed as Exhibit 2.1 to the Current Report on Form 8-K filed by the Company with the U.S. Securities and Exchange Commission (the “
+SEC
+”) on January 10,
+2024, and which is incorporated herein by reference.
+Item 7.01 | Regulation FD Disclosure.
+On July 2, 2025, HPE issued a press release announcing the closing of the Merger. A copy of the press release is attached hereto as Exhibit 99.1 and is
+incorporated herein by reference. The information contained in Item 7.01 of this report, including Exhibit 99.1, shall not be deemed to be “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended, or otherwise subject to
+the liabilities of that section. The information contained in Item 7.01 of this report, including Exhibit 99.1, shall not be incorporated by reference into any filing of the registrant, whether made before, on, or after the date hereof, regardless of
+any general incorporation language in such filing, unless expressly incorporated by specific reference to such filing.
+Item 8.01 | Other Events.
+As previously disclosed, on January 30, 2025, the United States Department of Justice (the “
+DOJ
+”) filed a complaint in the United
+States District Court for the Northern District of California seeking to enjoin the Merger.
+On June 28, 2025, HPE and Juniper issued a joint release announcing that HPE and Juniper had reached a settlement with the DOJ. Subject to the terms
+set forth therein, the settlement requires the divestiture of HPE’s Instant On business and the undertaking of an auction for the non-exclusive licensing of Juniper’s Mist AIOps source code used in the Company’s WLAN products.
+A copy of the press release is attached hereto as Exhibit 99.2 and is incorporated herein by reference.
+Item 9.01 | Financial Statements and Exhibits.
+(a)
+Financial statements of businesses or funds acquired
+.
+To be filed by amendment not later than 71 calendar days after the date this Current Report on Form 8-K is required to be filed.
+(b)
+Pro forma financial information.
+To be filed by amendment not later than 71 calendar days after the date this Current Report on Form 8-K is required to be filed.
+(d) Exhibits
+Exhibit Number | Description
+2.1 | Agreement and Plan of Merger, dated as of January 9, 2024, by and among Hewlett Packard Enterprise Company, Juniper Networks, Inc. and Jasmine Acquisition Sub, Inc. (incorporated by reference to Exhibit 2.1 to the
+Company’s Current Report on Form 8-K filed on January 10, 2024).*
+99.1 | Press Release, dated July 2, 2025.
+99.2 | Press Release, dated June 28, 2025.
+104 | Cover Page Interactive Data File (embedded within the Inline XBRL document).
+* Certain schedules and exhibits omitted pursuant to Item 601(a)(5) of Regulation S-K promulgated by the SEC. HPE agrees to furnish supplementally a copy of any omitted
+schedule or exhibit to the SEC upon request.
+2
+SIGNATURE
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the
+undersigned hereunto duly authorized.
+HEWLETT PACKARD ENTERPRISE COMPANY
+Date:  July 2, 2025 | By: | /s/ David Antczak
+Name: | David Antczak
+Title: | Senior Vice President, General Counsel and Corporate Secretary
+3

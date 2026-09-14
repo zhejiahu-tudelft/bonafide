@@ -1,0 +1,245 @@
+Hyperscalers face higher capex scrutiny after Alphabet report panned
+Skip Navigation
+Markets
+Pre-Markets
+U.S. Markets
+Europe Markets
+China Markets
+Asia Markets
+World Markets
+Currencies
+Prediction Markets
+Cryptocurrency
+Futures & Commodities
+Bonds
+Funds & ETFs
+Business
+Economy
+Finance
+Health & Science
+Media
+Real Estate
+Energy
+Climate
+Transportation
+Investigations
+Industrials
+Retail
+Wealth
+Sports
+Life
+Small Business
+Investing
+Personal Finance
+Fintech
+Financial Advisors
+Options Action
+ETF Street
+Buffett Archive
+Earnings
+Trader Talk
+Tech
+Cybersecurity
+AI
+Enterprise
+Internet
+Media
+Mobile
+Social Media
+CNBC Disruptor 50
+Tech Guide
+Politics & Policy
+White House
+Policy
+Defense
+Congress
+Expanding Opportunity
+Europe Politics
+China Politics
+Asia Politics
+World Politics
+Video
+Latest Video
+Full Episodes
+Livestream
+Top Video
+Live Audio
+Europe TV
+Asia TV
+CNBC Podcasts
+CEO Interviews
+Digital Originals
+Watchlist
+Investing Club
+Trust Portfolio
+Analysis
+Trade Alerts
+Meeting Videos
+Homestretch
+Jim's Columns
+Education
+Subscribe
+PRO
+Pro News
+Josh Brown
+Mike Santoli
+Calls of the Day
+My Portfolio
+Livestream
+Full Episodes
+Stock Screener
+Market Forecast
+Options Investing
+Chart Investing
+Subscribe
+Livestream
+Menu
+Make It
+select
+USA
+INTL
+Livestream
+Search quotes, news & videos
+Livestream
+Watchlist
+SIGN IN
+Create free account
+Markets
+Business
+Investing
+Tech
+Politics & Policy
+Video
+Watchlist
+Investing Club
+PRO
+Livestream
+Menu
+Tech
+Amazon, Meta and Microsoft face skeptical investors this week after Google report sparked sell-off
+Published Tue, Jul 28 2026
+8:00 AM EDT
+Updated Tue, Jul 28 2026
+3:45 PM EDT
+Jordan Novet
+@in/jordannovet/
+Annie Palmer
+@in/annierpalmer/
+WATCH LIVE
+Key Points
+Shares of Amazon, Meta and Microsoft tumbled after Alphabet hiked its 2026 capital expenditure forecast, even as the search company reported accelerating cloud growth.
+The other three hyperscalers are all set to report results this week.
+Alphabet's move makes it more likely that Amazon and Microsoft will follow course, according to Evercore ISI's Mark Mahaney.
+In this article
+GOOGL
+AMZN
+META
+MSFT
+Follow your favorite stocks
+CREATE FREE ACCOUNT
+Andy Jassy, President and CEO of Amazon, Mark Zuckerberg, CEO of Meta and Satya Nadella, CEO of Microsoft.
+Noah Berger | Manuel Orbegozo | Reuters | Peerapon Boonyakiat | SOPA Images | Lightrocket | Getty Images
+Alphabet
+had long been Wall Street's favorite hyperscaler due to its expertise in converting high capital expenditures into revenue.
+But investors expressed displeasure with company's plans, announced on Wednesday along with
+second-quarter earnings
+, to boost its 2026 capex forecast, as the internet giant rushes to open new data centers for
+artificial intelligence
+.
+Shares of Google's parent slid 7% on Thursday, and
+Amazon
+,
+Meta
+and
+Microsoft
+all fell as well, underscoring increased scrutiny of infrastructure investments that are resulting in dwindling cash piles with uncertain returns. The three megacaps are set to report quarterly results this week.
+In recent quarters, investors cheered capital spending hikes, interpreting them as proof of healthy demand and a maturing revenue backlog. Alphabet received the best reception on Wall Street — the stock is up about 70% over the past year — because its cloud infrastructure business has been growing faster than rivals and its Gemini models and services have gained traction in a market dominated by OpenAI and Anthropic.
+But if last week's report is a guide, Google is no longer getting the benefit of the doubt. And Mark Mahaney, head of internet research at Evercore ISI, wrote in a note Wednesday that Alphabet's capex boost "increases the odds of similar behavior" from Amazon and Microsoft.
+VIDEO
+10:24
+10:24
+Watch CNBC's full interview with Google Cloud CEO Thomas Kurian
+Microsoft and Meta will be next in testing investor appetite, when they report after the close on Wednesday. Amazon follows on Thursday.
+In April, Microsoft projected
+$190 billion
+worth of capex and finance leases for the year, including $25 billion from higher component prices, as AI chip demand eats up memory supply.
+"If they raise capex again, based on what we saw in the reaction of Google [last week], it's probably going to lead to selling pressure in the stock," Cowen analyst Derrick Wood told CNBC in an interview. Analysts polled by Visible Alpha expect $190.1 billion from Microsoft.
+Following Alphabet's report, the consensus for Amazon crept up almost $2 billion to $207.4 billion, according to Visible Alpha.
+'Growing AI fatigue'
+Amazon in February guided to
+$200 billion
+in capex for 2026, the highest among the group until Alphabet lifted the top end of its forecast to $205 billion. The company maintained that forecast in April, with CEO Andy Jassy telling investors at the time that its "plan is largely the same."
+Several analysts wrote in research notes earlier this month that they expect Amazon to lift its capex guide for the year, as the company boosts investments in AI, custom chips and other costly bets like its nascent satellite internet service, and given higher memory prices.
+Jake Dollarhide, CEO of Longbow Asset Management, whose top holding is Amazon, wrote in an email that the online retailer could struggle to impress investors "in this environment of growing AI fatigue, the sudden questioning of meteoric capex budget increases and Silicon Valley and the Mag 7 taking on noticeable levels of debt in order to fund the massive data center buildout."
+Amazon's long-term debt shot up 81% to $119 billion from Dec. 31 to March 31. Alphabet's rose 111% to $98 billion during the first six months of 2026, while the company, long viewed as a money-printing machine, turned cash flow negative in the second quarter for the first time.
+Stock Chart Icon
+Stock chart icon
+Amazon, Meta, Microsoft stock chart
+Wedbush analysts wrote in a Thursday note that Alphabet's report suggested capacity remains constrained in the face of strong demand, and that there's a "willingness to spend." But they don't view a potential capex boost from Amazon as a complete negative.
+"We view the trade-off as worthwhile given AWS's re-acceleration and Amazon's expanding platform advantages across Bedrock, Alexa and its logistics network," wrote the analysts, who recommend buying Amazon stock.
+While Google's cloud has been growing faster, Amazon Web Services still leads the cloud infrastructure market, with Microsoft second. Google's cloud was 30% the size of AWS in 2020 and nearly 50% in the first quarter of 2026. Its cloud business recorded 82% expansion in the second quarter, the fastest growth since at least 2020, after increasing 63% in the prior period.
+AWS revenue rose 28% in the first quarter, and analysts surveyed by FactSet expect nearly 32% for the second quarter. Revenue from Microsoft's Azure and other cloud services grew 40% in the first quarter, with FactSet's second-quarter consensus at 39%.
+Read more CNBC tech news
+What Amodei's AI slowdown could mean for Anthropic's imminent IPO
+AI models are becoming the 'most potent cyber weapon' ever created, Cohere CEO says
+China says AI CEOs' call for a slowdown is 'fear mongering'
+Anthropic's Amodei says China presents 'toughest dilemma' for his proposed AI slowdown
+Mahaney wrote that cloud "demand appears relentless," but he noted that it's "hard to see anyone matching" Google's cloud growth rate during the quarter.
+Meta, the lone hyperscaler that doesn't have an established cloud business, is expected to record capex this year of $138.9 billion and told investors in April that the number could reach $145 billion. The company is now looking to
+sell computing power
+to third parties.
+For now, Meta is still throwing off cash. Analysts surveyed by FactSet expect Microsoft's free cash flow to go negative in the fourth quarter for the first time since at least 2001.
+Amazon's free cash flow flipped into the red in the first quarter, and analysts surveyed by FactSet forecast it will stay there for the full year. The company last had negative free cash flow in 2021 and 2022 as it
+doubled
+its warehouse footprint in response to a pandemic-driven surge in e-commerce demand.
+"I think that patience is required for these names because I do think that these will be AI winners over sort of the medium and longer term," said Tiffany Wade, a fund manager at Columbia Threadneedle, which held positions in Alphabet, Amazon and Microsoft at the end of June.
+On Alphabet's earnings call, CEO
+Sundar Pichai
+contended that his company's strategy of calling in outside vendors for extra computing power to meet cloud demand will yield attractive margins within years, despite the cost.
+"I think that's probably the right thing to do," Wade said. "You don't want to be turning away customers because you don't have capacity."
+WATCH:
+Investors punish heavy AI spenders, while rewarding the capex-lite business models
+watch now
+VIDEO
+5:24
+05:24
+Investors punish heavy AI spenders, while rewarding the capex-lite business models
+TechCheck
+Choose CNBC as your preferred source on Google and never miss a moment from the most trusted name in business news.
+Subscribe to CNBC PRO
+Subscribe to Investing Club
+Licensing & Reprints
+CNBC Councils
+Join the CNBC Panel
+Digital Products
+News Releases
+Closed Captioning
+Corrections
+About CNBC
+Internships
+Site Map
+Careers
+Help
+Contact
+News Tips
+Got a confidential news tip? We want to hear from you.
+Get In Touch
+CNBC Newsletters
+Sign up for free newsletters and get more CNBC delivered to your inbox
+Sign Up Now
+Get this delivered to your inbox, and more info about our products and services.
+Advertise With Us
+Please Contact Us
+Ad Choices
+Privacy Policy
+Your Privacy Choices
+CA Notice
+Terms of Service
+©
+2026
+Versant Media, LLC. All Rights Reserved. A Versant Media Company.
+Data is a real-time snapshot *Data is delayed at least 15 minutes.
+Global Business and Financial News, Stock Quotes, and Market Data
+and Analysis.
+Market Data Terms of Use and Disclaimers
+Data also provided by

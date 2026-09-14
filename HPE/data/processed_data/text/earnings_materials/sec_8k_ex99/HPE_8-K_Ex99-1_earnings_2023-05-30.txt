@@ -1,0 +1,601 @@
+EX-99.1
+2
+ex-991x5302023x8k.htm
+EX-99.1
+Document
+Exhibit 99.1
+Hewlett Packard Enterprise
+1701 E. Mossy Oaks Road
+Spring, TX 77389-1767
+hpe.com
+News Release Hewlett Packard Enterprise reports fiscal 2023 second quarter results Portfolio mix shift drives revenue, margin and ARR growth; raising operating profit and EPS guidance for the full year
+Second Quarter Fiscal 2023 Financial Results
+•
+Revenue
+: $7.0 billion, up 4% from the prior-year period and 9% in constant currency
+(1)
+•
+Annualized revenue run-rate (“ARR”)
+(2)
+: $1.1 billion, up 35% from the prior-year period and 38% in constant currency
+(1)
+•
+Gross margins
+:
+◦
+GAAP of 36.0%, an all-time record for the company, up 360 basis points from the prior-year period and up 200 basis points sequentially
+◦
+Non-GAAP of 36.2%, also an all-time record, up 200 basis points from the prior-year period and sequentially
+•
+Diluted net earnings per share (“EPS”)
+:
+◦
+GAAP of $0.32, up 68% from the prior-year period and down 16% sequentially, above the midpoint of our guidance range of $0.27 to $0.35
+◦
+Non-GAAP of $0.52, up 18% from the prior-year period and down 17% sequentially, at the top of our guidance range of $0.44-$0.52
+•
+Cash flow from operations
+: $889 million, an increase of $510 million from the prior-year period
+•
+Free cash flow
+(3)
+: $288 million, up $499 million from the prior-year period
+•
+Capital returns to shareholders:
+$261 million in the form of dividends and share repurchases
+Outlook
+•
+Revenue
+:
+Estimates Q3 fiscal 2023 revenue to be in the range of $6.7 billion to $7.2 billion, and fiscal 2023 revenue growth to be in the range of 4%-6% in constant currency
+(1)
+•
+ARR
+(2)
+:
+Reiterates our 2022 HPE Securities Analyst Meeting ARR guidance of 35%-45% Compounded Annual Growth Rate from fiscal 2022 to fiscal 2025
+•
+Diluted net EPS
+:
+◦
+Estimates Q3 fiscal 2023 GAAP diluted net EPS to be in the range of $0.34 to $0.38 and non-GAAP diluted net EPS to be in the range of $0.44 to $0.48
+◦
+Raises guidance for fiscal 2023 GAAP diluted net EPS to be in the range of $1.42 to $1.50 and non-GAAP diluted net EPS to be in the range of $2.06 to $2.14
+•
+GAAP operating profit
+: Targets fiscal 2023 GAAP operating profit growth to be in the range of 180%-184%
+•
+Non-GAAP operating profit
+(4)
+: Raises fiscal 2023 non-GAAP operating profit growth to be in the range of 6%-7%
+•
+Free cash flow
+(3)(5)
+: Reiterates guidance of $1.9 billion to $2.1 billion
+HOUSTON
+–
+May 30, 2023
+– Hewlett Packard Enterprise (NYSE: HPE) today announced financial results for the second quarter ended April 30, 2023.
+“Building on a great start to the fiscal year, HPE grew revenue, increased the contribution of recurring revenue through the HPE GreenLake edge-to-cloud platform, and delivered exceptional profitability to generate a strong second quarter performance,” said Antonio Neri, president and CEO of Hewlett Packard Enterprise. “Our shift to a higher-margin portfolio mix led by the Intelligent Edge segment, and the strong demand for our AI offering, further strengthen the investment opportunity for our shareholders.”
+“We are very pleased that the progress we are making against our strategy continues to deliver on both the top and bottom lines,” said Tarek Robbiati, executive vice president and CFO of Hewlett Packard Enterprise. “These results demonstrate that our strategy to pivot our portfolio to higher-growth, higher-margin areas is working – and that we are operating with discipline.”
+Second Quarter Fiscal 2023 Segment Results
+•
+Intelligent Edge revenue was $1.3 billion, up 50% from the prior-year period in actual dollars and 56% in constant currency
+(1)
+, with 26.9% operating profit margin, compared to 12.6% in the prior-year period. The business exceeded the Rule of 40 for a second consecutive quarter.
+•
+High Performance Computing & Artificial Intelligence (“HPC & AI”) revenue was $840 million, up 18% from the prior-year period in actual dollars and 22% in constant currency
+(1)
+, with (0.2)% operating profit margin, compared to (5.6)% from the prior-year period.
+•
+Compute revenue was $2.8 billion, down 8% from the prior-year period in actual dollars and 3% in constant currency
+(1)
+, with 15.2% operating profit margin, compared to 14.1% from the prior-year period.
+•
+Storage revenue was $1.0 billion, down 3% from the prior-year period in actual dollars and up 2% in constant currency
+(1)
+, with 7.9% operating profit margin, compared to 11.8% from the prior-year period. HPE Alletra revenue grew triple digits from the prior-year period.
+•
+Financial Services revenue was $858 million, up 4% from the prior-year period in actual dollars and up 7% in constant currency
+(1)
+, with 9.8% operating profit margin, compared to 12.6% from the prior-year period. Net portfolio assets of
+$13.3 billion, up 5% from the prior-year period in actual dollars and in constant currency
+(1)
+. The business delivered return on equity of 16.5%, down 3.9 points
+from the prior-year period.
+Dividend
+The HPE Board of Directors declared a regular cash dividend of $0.12 per share on the company’s common stock, payable on July 14, 2023, to stockholders of record as of the close of business on June 15, 2023.
+Fiscal 2023 Third Quarter Outlook
+HPE estimates revenue to be in the range of $6.7 billion to $7.2 billion. HPE estimates GAAP diluted net EPS to be in the range of $0.34 to $0.38 and non-GAAP diluted net EPS to be in the range of $0.44 to $0.48. Fiscal 2023 third quarter non-GAAP diluted net EPS estimates exclude after-tax adjustments of $0.10 per diluted share, primarily related to, stock-based compensation expense, transformation costs and amortization of intangible assets.
+Fiscal 2023 Outlook
+HPE estimates fiscal 2023 revenue growth to be in the range of 4%-6% in constant currency
+(1)
+, and targets fiscal 2023 GAAP operating profit growth to be in the range of 180%-184% and non-GAAP operating profit
+(4)
+growth to be in the range of 6%-7%. HPE raises GAAP diluted net EPS to be in the range of $1.42 and $1.50 and non-GAAP diluted net EPS to be in the range of $2.06 and $2.14. Fiscal 2023 non-GAAP diluted net EPS estimates exclude after-tax adjustments of $0.64 per diluted share, primarily related to
+stock-based compensation expense, amortization of intangible assets, and transformation costs.
+Fiscal 2023 Free Cash Flow
+(3)(5)
+Reiterates guidance of $1.9 billion to $2.1 billion.
+Fiscal 2023 Capital Returns to Shareholders
+Returning approximately 60% of free cash flow to shareholders in dividends and share repurchases.
+H3C Technologies Co., Limited Update
+HPE, through its relevant subsidiaries, has entered into a Put Share Purchase Agreement with Unisplendour International Technology Limited (“UNIS”) governing the sale of shares of H3C Technologies Co., Limited (“H3C”) held by HPE, through its relevant subsidiaries, which represent 49% of the total issued share capital of H3C.  This follows HPE’s decision in December 2022 to exercise an option to put its holdings in H3C to UNIS. Under the Put Share Purchase Agreement, UNIS will purchase all of HPE’s shares in H3C for a total of U.S. $3.5 billion in cash. The disposition remains subject to obtaining required regulatory approvals and completion of certain conditions necessary for closing. The parties anticipate that the transaction will close in the next 6 months to 12 months, however this timeline could be extended pursuant to the terms of the Put Share Purchase Agreement.
+In addition, HPE has negotiated the terms of a new go-forward Strategic Sales Agreement to be entered into with H3C that covers direct sales, service and reseller arrangements between the companies. HPE is firmly committed to serving customers and continuing to do business in China through both direct sales and our partner H3C.
+1
+A description of HPE’s use of non-GAAP financial information is provided below under “Use of non-GAAP financial information and key performance metrics.”
+2
+Annualized Revenue Run-Rate (“ARR”) is a financial metric used to assess the growth of the Consumption Services (“CS”) offerings. ARR represents the annualized revenue of all net HPE GreenLake edge-to-cloud platform services revenue, related financial services revenue (which includes rental income from operating leases and interest income from finance leases), and software-as-a-Service, software consumption revenue, and other as-a-Service offerings, recognized during a quarter and multiplied by four. We use ARR as a performance metric. ARR should be viewed independently of net revenue and is not intended to be combined with it.
+3
+Free cash flow represents cash flow from operations, less net capital expenditures (investments in property, plant & equipment (“PP&E”) less proceeds from the sale of PP&E) and adjusted for the effect of exchange rate fluctuations on cash, cash equivalents, and restricted cash.
+4
+Non-GAAP operating profit excludes costs of approximately $1.0 billion primarily related to stock-based compensation, amortization of intangible assets and transformation costs.
+5
+Hewlett Packard Enterprise provides certain guidance on a non-GAAP basis, as the Company cannot predict some elements that are included in reported GAAP results. Refer to the discussion of non-GAAP financial measures below for more information.
+About Hewlett Packard Enterprise
+Hewlett Packard Enterprise (NYSE: HPE) is
+the
+global edge-to-cloud company that helps organizations accelerate outcomes by unlocking value from
+all of
+their data, everywhere. Built on decades of reimagining the future and innovating to advance the way people live and work, HPE delivers unique, open and intelligent technology solutions as a service.  With offerings spanning Cloud Services, Compute, High Performance Computing &
+AI
+, Intelligent Edge, Software, and Storage, HPE
+provides
+a consistent experience across all clouds and edges, helping customers develop new business models, engage in new ways, and increase operational performance. For more information, visit:
+www.hpe.com
+.
+Media Contact:
+Laura Keller
+Laura.Keller@hpe.com
+Investor Contact:
+Jeff Kvaal
+investor.relations@hpe.com
+Use of non-GAAP financial information and key performance metrics
+To supplement Hewlett Packard Enterprise’s condensed consolidated financial statement information presented on a generally accepted accounting principles (“GAAP”) basis, Hewlett Packard Enterprise provides financial measures, including revenue on a constant currency basis (including at the business segment level), non-GAAP gross profit, non-GAAP gross profit margin, non-GAAP operating profit (non-GAAP earnings from operations), non-GAAP operating profit margin (non-GAAP earnings from operations as a percentage of net revenue), non-GAAP income tax rate, non-GAAP net earnings, non-GAAP diluted net earnings per share and free cash flow. Hewlett Packard Enterprise also provides forecasts of revenue growth on a constant currency basis, non-GAAP diluted net earnings per share, non-GAAP operating profit growth, and free cash flow. Reconciliations of each of these non-GAAP financial measures to their most directly comparable GAAP measures for this quarter and prior periods are included in the tables below or elsewhere in the materials accompanying this news release. In addition an explanation of the ways in which Hewlett Packard Enterprise’s management uses these non-GAAP measures to evaluate its business, the substance behind Hewlett Packard Enterprise’s decision to use these non-GAAP measures, the material limitations associated with the use of these non-GAAP measures, the manner in which Hewlett Packard Enterprise’s management compensates for those limitations, and the substantive reasons why Hewlett Packard Enterprise’s management believes that these non-GAAP measures provide supplemental useful information to investors is included further below. This additional non-GAAP financial information is not meant to be considered in isolation or as a substitute for revenue, gross profit, gross profit margin, operating profit (earnings from operations), operating profit margin (earnings from operations as a percentage of net revenue), net earnings, diluted net earnings per share, and cash flow from operations prepared in accordance with GAAP.
+In addition to the supplemental non-GAAP financial information, Hewlett Packard Enterprise also presents annualized revenue run-rate ("ARR") and as-a-Service ("AAS") orders as performance metrics. ARR is a financial metric used to assess the growth of the Consumption Services offerings. ARR represents the annualized revenue of all net HPE GreenLake edge-to-cloud platform services revenue, related financial services revenue (which includes rental income for operating leases and interest income from finance leases), and Software-as-a-Service ("SaaS"), software consumption revenue, and other as-a-Service offerings recognized during a quarter and multiplied by four. AAS orders are an overlay across all business segments contributing to HPE's consumption-based services (both recurring and non-recurring revenues), and includes hardware, as well as HPE GreenLake as-a-Service, Aruba SaaS, Storage SaaS, and other Software assets. ARR & AAS orders should be viewed independently of net revenue and deferred revenue and are not intended to be combined with any of these items.
+Forward-looking statements
+This press release contains forward-looking statements within the meaning of the safe harbor provisions of the Private Securities Litigation Reform Act of 1995. Such statements involve risks, uncertainties, and assumptions. If the risks or uncertainties ever materialize or the assumptions prove incorrect, the results of Hewlett Packard Enterprise Company and its consolidated subsidiaries ("Hewlett Packard Enterprise") may differ materially from those expressed or implied by such forward-looking statements and assumptions. The words "believe", "expect", "anticipate", "optimistic", "intend", "guides", "will", "estimates", "may", "could", "should", and similar expressions are intended to identify such forward-looking statements. All statements other than statements of historical fact are statements that could be deemed forward-looking statements, including but not limited to any projections or expectations of revenue, margins, expenses, investments, net earnings, net earnings per share, cash flows, liquidity and capital resources, inventory, order book, share repurchases, currency exchange rates, amortization of intangible assets, or other financial items; any projections of the amount, execution, timing, and results of any transformation or impact of cost savings or restructuring plans, including estimates and assumptions related to the anticipated benefits, cost savings, or charges of implementing such transformation and restructuring plans; any statements of the plans, strategies, and objectives of management for future operations, as well as the execution and consummation of corporate transactions or contemplated acquisitions and dispositions (including but not limited to the disposition of H3C shares and the receipt of proceeds therefrom), research and development expenditures, and any resulting benefit, cost savings, charges, or revenue or profitability improvements; any statements concerning the expected development, performance, market share, or competitive performance relating to products or services; any statements concerning technological and market trends, the pace of technological innovation, and adoption of new technologies, including products and services offered by Hewlett Packard Enterprise; any statements regarding current or future macroeconomic trends or events and the impact of those trends and events on Hewlett Packard Enterprise and our financial performance, including but not limited to demand for our products and services; any statements of expectation or belief, including those relating to future guidance and the financial performance of Hewlett Packard Enterprise; and any statements of assumptions underlying any of the foregoing.
+Risks, uncertainties and assumptions include the need to address the many challenges facing Hewlett Packard Enterprise's businesses; the competitive pressures faced by Hewlett Packard Enterprise's businesses; risks associated with executing Hewlett Packard Enterprise's strategy; the impact of macroeconomic and geopolitical trends and events, including but not limited to financial sector volatility, supply chain constraints, the inflationary environment, the ongoing conflict between Russia and Ukraine, and the relationship between China and the U.S.; the need to effectively manage third-party suppliers and distribute Hewlett Packard Enterprise's products and services; the protection of Hewlett Packard Enterprise's intellectual property assets, including intellectual property licensed from third parties and intellectual property shared with its former parent; risks associated with Hewlett Packard Enterprise's international operations (including public health problems and geopolitical events, such as those mentioned above); the development of and transition to new products and services and the enhancement of existing products and services to meet customer needs and respond to emerging technological trends; the execution and performance of contracts by Hewlett Packard Enterprise and its suppliers, customers, clients, and partners, including any impact thereon resulting from macroeconomic or geopolitical events, such as those mentioned above; the hiring and retention of key employees; the execution, integration, and other risks associated with business combination and investment transactions; the impact of changes to privacy, cybersecurity, environmental, global trade, and other governmental regulations; changes in our product, lease, intellectual property, or real estate portfolio; the payment or non-payment of a dividend for any period; the efficacy of using non-GAAP, rather than GAAP, financial measures in business projections and planning; the judgments required in connection with determining revenue recognition; impact of company policies and related compliance; utility of segment realignments; allowances for recovery of receivables and warranty obligations; provisions for, and resolution of, pending investigations, claims, and disputes; the impacts of the Inflation Reduction Act of 2022 and related guidance or regulations; and other risks that are described herein, including but not limited to the risks described in Hewlett Packard Enterprise’s Annual Report on Form 10-K for the fiscal year ended October 31, 2022, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K, and in other filings made by Hewlett Packard Enterprise from time to time with the Securities and Exchange Commission.
+As in prior periods, the financial information set forth in this press release, including tax-related items, reflects estimates based on information available at this time. While Hewlett Packard Enterprise believes these estimates to be reasonable, these amounts could differ materially from reported amounts in the Hewlett Packard Enterprise Quarterly Report on Form 10-Q for the fiscal quarter ended April 30, 2023. Hewlett Packard Enterprise assumes no obligation and does not intend to update these forward-looking statements, except as required by applicable law.
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES Condensed Consolidated Statements of Earnings (Unaudited)
+For the three months ended
+April 30, 2023 | January 31, 2023 | April 30, 2022
+In millions, except per share amounts
+Net revenue | $ | 6,973 | $ | 7,809 | $ | 6,713
+Costs and expenses:
+Cost of sales (1) | 4,461 | 5,151 | 4,540
+Research and development | 570 | 623 | 517
+Selling, general and administrative | 1,269 | 1,257 | 1,249
+Amortization of intangible assets | 71 | 73 | 74
+Transformation costs | 60 | 102 | 98
+Disaster charges | 3 | 1 | 20
+Acquisition, disposition and other related charges | 19 | 11 | 8
+Total costs and expenses | 6,453 | 7,218 | 6,506
+Earnings from operations | 520 | 591 | 207
+Interest and other, net | (54) | (25) | —
+Tax indemnification and related adjustments | 6 | (1) | —
+Non-service net periodic benefit credit | 1 | — | 36
+Earnings from equity interests | 49 | 58 | 33
+Earnings before provision for taxes | 522 | 623 | 276
+Provision  for taxes | (104) | (122) | (26)
+Net earnings | $ | 418 | $ | 501 | $ | 250
+Net earnings per share:
+Basic | $ | 0.32 | $ | 0.39 | $ | 0.19
+Diluted | $ | 0.32 | $ | 0.38 | $ | 0.19
+Cash dividends declared per share | $ | 0.12 | $ | 0.12 | $ | 0.12
+Weighted-average shares used to compute net earnings per share:
+Basic | 1,304 | 1,298 | 1,307
+Diluted | 1,318 | 1,315 | 1,329
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES Condensed Consolidated Statements of Earnings (Unaudited)
+For the six months ended
+April 30, 2023 | April 30, 2022
+In millions, except per share amounts
+Net revenue | $ | 14,782 | $ | 13,674
+Costs and expenses:
+Cost of sales (1) | 9,612 | 9,157
+Research and development | 1,193 | 1,021
+Selling, general and administrative | 2,526 | 2,450
+Amortization of intangible assets | 144 | 147
+Transformation costs | 162 | 209
+Disaster charges | 4 | 19
+Acquisition, disposition and other related charges | 30 | 16
+Total costs and expenses | 13,671 | 13,019
+Earnings from operations | 1,111 | 655
+Interest and other, net | (79) | (5)
+Tax indemnification and related adjustments | 5 | (17)
+Non-service net periodic benefit credit | 1 | 72
+Earnings from equity interests | 107 | 64
+Earnings before provision for taxes | 1,145 | 769
+Provision for taxes | (226) | (6)
+Net earnings | $ | 919 | $ | 763
+Net earnings per share:
+Basic | $ | 0.71 | $ | 0.58
+Diluted | $ | 0.70 | $ | 0.57
+Cash dividends declared per share | $ | 0.24 | $ | 0.24
+Weighted-average shares used to compute net earnings per share:
+Basic | 1,301 | 1,306
+Diluted | 1,317 | 1,327
+(1) The three and six months ended April 30, 2022 include amounts for expected credit loss reserves of $105 million due to the Company's exit from its Russia and Belarus businesses.
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES Reconciliation of GAAP to Non-GAAP measures (Unaudited)
+For the three months ended
+April 30, 2023 | January 31, 2023 | April 30, 2022
+Dollars in millions
+GAAP net revenue | $ | 6,973 | $ | 7,809 | $ | 6,713
+GAAP cost of sales | 4,461 | 5,151 | 4,540
+GAAP gross profit | 2,512 | 2,658 | 2,173
+Non-GAAP adjustments
+Amortization of initial direct costs | — | — | 1
+Stock-based compensation expense | 13 | 16 | 14
+Disaster charges (1) | — | — | 105
+Non-GAAP gross profit | $ | 2,525 | $ | 2,674 | $ | 2,293
+GAAP gross profit margin | 36.0 | % | 34.0 | % | 32.4 | %
+Non-GAAP adjustments | 0.2 | % | 0.2 | % | 1.8 | %
+Non-GAAP gross profit margin | 36.2 | % | 34.2 | % | 34.2 | %
+For the six months ended
+April 30, 2023 | April 30, 2022
+Dollars in millions
+GAAP net revenue | $ | 14,782 | $ | 13,674
+GAAP cost of sales | 9,612 | 9,157
+GAAP gross profit | $ | 5,170 | $ | 4,517
+Non-GAAP adjustments
+Amortization of initial direct costs | $ | — | $ | 2
+Stock-based compensation expense | 29 | 29
+Disaster charges (1) | — | 105
+Non-GAAP gross profit | $ | 5,199 | $ | 4,653
+GAAP gross profit margin | 35.0 | % | 33.0 | %
+Non-GAAP adjustments | 0.2 | % | 1.0 | %
+Non-GAAP gross profit margin | 35.2 | % | 34.0 | %
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES Reconciliation of GAAP to Non-GAAP measures (Unaudited)
+For the three months ended
+April 30, 2023 | January 31, 2023 | April 30, 2022
+Dollars in millions
+GAAP earnings from operations | $ | 520 | $ | 591 | $ | 207
+Non-GAAP adjustments
+Amortization of initial direct costs | — | — | 1
+Amortization of intangible assets | 71 | 73 | 74
+Transformation costs | 60 | 102 | 98
+Disaster charges (1) | 3 | 1 | 125
+Stock-based compensation expense | 126 | 140 | 114
+Acquisition, disposition and other related charges | 19 | 11 | 8
+Non-GAAP earnings from operations | $ | 799 | $ | 918 | $ | 627
+GAAP operating profit  margin | 7.5 | % | 7.6 | % | 3.1 | %
+Non-GAAP adjustments | 4.0 | % | 4.2 | % | 6.2 | %
+Non-GAAP operating profit margin | 11.5 | % | 11.8 | % | 9.3 | %
+For the six months ended
+April 30, 2023 | April 30, 2022
+Dollars in millions
+GAAP earnings from operations | $ | 1,111 | $ | 655
+Non-GAAP adjustments
+Amortization of initial direct costs | — | 2
+Amortization of intangible assets | 144 | 147
+Transformation costs | 162 | 209
+Disaster charges (1) | 4 | 124
+Stock-based compensation expense | 266 | 242
+Acquisition, disposition and other related charges | 30 | 16
+Non-GAAP earnings from operations | $ | 1,717 | $ | 1,395
+GAAP operating profit  margin | 7.5 | % | 4.8 | %
+Non-GAAP adjustments | 4.1 | % | 5.4 | %
+Non-GAAP operating profit margin | 11.6 | % | 10.2 | %
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES Reconciliation of GAAP to Non-GAAP measures (Unaudited)
+For the three months ended
+April 30, 2023 | Diluted net  earnings per share | January 31, 2023 | Diluted net earnings per share | April 30, 2022 | Diluted net earnings per share
+Dollars in millions, except per share amounts
+GAAP net earnings | $ | 418 | $ | 0.32 | $ | 501 | $ | 0.38 | $ | 250 | $ | 0.19
+Non-GAAP adjustments:
+Amortization of initial direct costs | — | — | — | — | 1 | —
+Amortization of intangible assets | 71 | 0.05 | 73 | 0.06 | 74 | 0.06
+Transformation costs | 60 | 0.05 | 102 | 0.07 | 98 | 0.07
+Disaster charges (1) | 3 | — | 1 | — | 125 | 0.09
+Stock-based compensation expense | 126 | 0.10 | 140 | 0.11 | 114 | 0.09
+Acquisition, disposition and other related charges | 19 | 0.01 | 11 | 0.01 | 8 | 0.01
+Tax indemnification and related adjustments | (6) | — | 1 | — | — | —
+Non-service net periodic benefit credit | (1) | — | — | — | (36) | (0.03)
+Earnings from equity interests (2) | 2 | — | 12 | 0.01 | 17 | 0.01
+Adjustments for taxes | (7) | (0.01) | (13) | (0.01) | (68) | (0.05)
+Non-GAAP net earnings | $ | 685 | $ | 0.52 | $ | 828 | $ | 0.63 | $ | 583 | $ | 0.44
+For the six months ended
+April 30, 2023 | Diluted net earnings per share | April 30, 2022 | Diluted net earnings per share
+Dollars in millions, except per share amounts
+GAAP net earnings | $ | 919 | $ | 0.70 | $ | 763 | $ | 0.57
+Non-GAAP adjustments:
+Amortization of initial direct costs | — | — | 2 | —
+Amortization of intangible assets | 144 | 0.11 | 147 | 0.11
+Transformation costs | 162 | 0.12 | 209 | 0.16
+Disaster charges (1) | 4 | — | 124 | 0.09
+Stock-based compensation expense | 266 | 0.21 | 242 | 0.18
+Acquisition, disposition and other related charges | 30 | 0.02 | 16 | 0.01
+Tax indemnification and related adjustments | (5) | — | 17 | 0.01
+Non-service net periodic benefit credit | (1) | — | (72) | (0.05)
+Earnings from equity interests (2) | 14 | 0.01 | 34 | 0.03
+Adjustments for taxes | (20) | (0.02) | (202) | (0.15)
+Non-GAAP net earnings | $ | 1,513 | $ | 1.15 | $ | 1,280 | $ | 0.96
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES Reconciliation of GAAP to Non-GAAP measures (Unaudited)
+For the three months ended
+April 30, 2023 | January 31, 2023 | April 30, 2022
+In millions
+Net cash provided by (used in) operating activities | $ | 889 | $ | (829) | $ | 379
+Investment in property, plant and equipment | (688) | (794) | (725)
+Proceeds from sale of property, plant and equipment | 86 | 159 | 135
+Effect of exchange rate changes on cash, cash equivalents, and restricted cash | 1 | 138 | —
+Free cash flow | $ | 288 | $ | (1,326) | $ | (211)
+For the six months ended
+April 30, 2023 | April 30, 2022
+In millions
+Net cash provided by operating activities | $ | 60 | $ | 303
+Investment in property, plant and equipment | (1,482) | (1,349)
+Proceeds from sale of property, plant and equipment | $ | 245 | $ | 258
+Effect of exchange rate changes on cash, cash equivalents, and restricted cash | 139 | —
+Free cash flow | $ | (1,038) | $ | (788)
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES Condensed Consolidated Balance Sheets
+As of
+April 30, 2023 | October 31, 2022
+(Unaudited) | (Audited)
+In millions, except par value
+ASSETS
+Current assets:
+Cash and cash equivalents | $ | 2,781 | $ | 4,163
+Accounts receivable, net of allowances | 3,711 | 4,101
+Financing receivables, net of allowances | 3,716 | 3,522
+Inventory | 4,317 | 5,161
+Other current assets | 3,035 | 3,559
+Total current assets | 17,560 | 20,506
+Property, plant and equipment | 6,013 | 5,784
+Long-term financing receivables and other assets | 11,287 | 10,537
+Investments in equity interests | 2,281 | 2,160
+Goodwill and intangible assets | 18,408 | 18,136
+Total assets | $ | 55,549 | $ | 57,123
+LIABILITIES AND STOCKHOLDERS’ EQUITY
+Current liabilities:
+Notes payable and short-term borrowings | $ | 5,004 | $ | 4,612
+Accounts payable | 5,501 | 8,717
+Employee compensation and benefits | 1,439 | 1,401
+Taxes on earnings | 198 | 176
+Deferred revenue | 3,621 | 3,451
+Accrued restructuring | 166 | 192
+Other accrued liabilities | 4,322 | 4,625
+Total current liabilities | 20,251 | 23,174
+Long-term debt | 8,372 | 7,853
+Other non-current liabilities | 6,505 | 6,187
+Stockholders’ equity
+Common stock, $0.01 par value (9,600 shares authorized; 1,292  and 1,281 shares issued and outstanding at April 30, 2023 and October 31, 2022, respectively) | 13 | 13
+Additional paid-in capital | 28,274 | 28,299
+Accumulated deficit | (3,178) | (5,350)
+Accumulated other comprehensive loss | (4,743) | (3,098)
+Total HPE stockholders’ equity | 20,366 | 19,864
+Non-controlling interests | 55 | 45
+Total stockholders’ equity | 20,421 | 19,909
+Total liabilities and stockholders’ equity | $ | 55,549 | $ | 57,123
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES Condensed Consolidated Statements of Cash Flows (Unaudited)
+For the six months ended
+April 30, 2023 | April 30, 2022
+In millions
+Cash flows from operating activities:
+Net earnings | $ | 919 | $ | 763
+Adjustments to reconcile net earnings to net cash used in operating activities:
+Depreciation and amortization | 1,307 | 1,242
+Stock-based compensation expense | 266 | 242
+Provision for inventory and credit losses | 97 | 213
+Restructuring charges | 95 | 68
+Deferred taxes on earnings | 69 | (54)
+Earnings from equity interests | (107) | (64)
+Other, net | (11) | (46)
+Changes in operating assets and liabilities, net of acquisitions:
+Accounts receivable | 370 | 817
+Financing receivables | (666) | 470
+Inventory | 782 | (861)
+Accounts payable | (3,220) | (1,323)
+Taxes on earnings | (1) | 35
+Restructuring | (147) | (197)
+Other assets and liabilities | 307 | (1,002)
+Net cash provided by operating activities | 60 | 303
+Cash flows from investing activities:
+Investment in property, plant and equipment | (1,482) | (1,349)
+Proceeds from sale of property, plant and equipment | 245 | 258
+Purchases of investments | (5) | (40)
+Proceeds from maturities and sales of investments | 4 | 72
+Financial collateral posted | (1,009) | (40)
+Financial collateral received | 483 | 272
+Payments made in connection with business acquisitions, net of cash acquired | (406) | —
+Net cash used in investing activities | (2,170) | (827)
+Cash flows from financing activities:
+Short-term borrowings with original maturities less than 90 days, net | 344 | 56
+Proceeds from debt, net of issuance costs | 2,845 | 1,582
+Payment of debt | (2,428) | (1,340)
+Settlement of cash flow hedge | (2) | —
+Net payments related to stock-based award activities | (106) | (60)
+Repurchase of common stock | (179) | (187)
+Cash dividends paid to shareholders | (311) | (311)
+Net cash provided by (used in) financing activities | 163 | (260)
+Effect of exchange rate changes on cash, cash equivalents, and restricted cash | 139 | —
+Decrease in cash, cash equivalents and restricted cash | (1,808) | (784)
+Cash, cash equivalents and restricted cash at beginning of period | 4,763 | 4,332
+Cash, cash equivalents and restricted cash at end of period | $ | 2,955 | $ | 3,548
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES Segment Information (Unaudited)
+For the three months ended
+April 30, 2023 | January 31, 2023 | April 30, 2022
+In millions
+Net revenue:
+Compute (3) | $ | 2,761 | $ | 3,456 | $ | 3,011
+High Performance Computing & Artificial Intelligence | 840 | 1,056 | 710
+Storage (3) | 1,043 | 1,187 | 1,072
+Intelligent Edge | 1,304 | 1,127 | 867
+Financial Services | 858 | 873 | 823
+Corporate Investments and other | 296 | 293 | 327
+Total segment net revenue | 7,102 | 7,992 | 6,810
+Elimination of intersegment net revenue | (129) | (183) | (97)
+Total consolidated net revenue | $ | 6,973 | $ | 7,809 | $ | 6,713
+Earnings before taxes:
+Compute (3) | $ | 420 | $ | 609 | $ | 426
+High Performance Computing & Artificial Intelligence | (2) | 1 | (40)
+Storage (3) | 82 | 142 | 127
+Intelligent Edge | 351 | 247 | 109
+Financial Services | 84 | 82 | 104
+Corporate Investments and other | (47) | (55) | (24)
+Total segment earnings from operations | 888 | 1,026 | 702
+Unallocated corporate costs and eliminations | (89) | (108) | (75)
+Stock-based compensation expense | (126) | (140) | (114)
+Amortization of initial direct costs | — | — | (1)
+Amortization of intangible assets | (71) | (73) | (74)
+Transformation costs | (60) | (102) | (98)
+Disaster charges (1) | (3) | (1) | (125)
+Acquisition, disposition and other related charges | (19) | (11) | (8)
+Interest and other, net | (54) | (25) | —
+Tax indemnification and related adjustments | 6 | (1) | —
+Non-service net periodic benefit credit | 1 | — | 36
+Earnings from equity interests (2) | 49 | 58 | 33
+Total pretax earnings (loss) | $ | 522 | $ | 623 | $ | 276
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES Segment Information (Unaudited)
+For the six months ended
+April 30, 2023 | April 30, 2022
+In millions
+Net revenue:
+Compute (3) | $ | 6,217 | $ | 6,055
+High Performance Computing & Artificial Intelligence | 1,896 | 1,500
+Storage (3) | 2,230 | 2,200
+Intelligent Edge | 2,431 | 1,768
+Financial Services | 1,731 | 1,665
+Corporate Investments and other | 589 | 652
+Total segment net revenue | 15,094 | 13,840
+Elimination of intersegment net revenue | (312) | (166)
+Total consolidated net revenue | $ | 14,782 | $ | 13,674
+Earnings before taxes:
+Compute (3) | $ | 1,029 | $ | 853
+High Performance Computing & Artificial Intelligence | (1) | (47)
+Storage (3) | 224 | 284
+Intelligent Edge | 598 | 266
+Financial Services | 166 | 208
+Corporate Investments and other | (102) | (35)
+Total segment earnings from operations | 1,914 | 1,529
+Unallocated corporate costs and eliminations | (197) | (134)
+Stock-based compensation expense | (266) | (242)
+Amortization of initial direct costs | — | (2)
+Amortization of intangible assets | (144) | (147)
+Transformation costs | (162) | (209)
+Disaster charges (1) | (4) | (124)
+Acquisition, disposition and other related charges | (30) | (16)
+Interest and other, net | (79) | (5)
+Tax indemnification and related adjustments | 5 | (17)
+Non-service net periodic benefit credit | 1 | 72
+Earnings from equity interests (2) | 107 | 64
+Total consolidated earnings before taxes | $ | 1,145 | $ | 769
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES Segment Information (Unaudited)
+For the three months ended | Change (%)
+April 30, 2023 | January 31, 2023 | April 30, 2022 | Q/Q | Y/Y
+Dollars in millions
+Net revenue:
+Compute (3) | $ | 2,761 | $ | 3,456 | $ | 3,011 | (20%) | (8%)
+High Performance Computing & Artificial Intelligence | 840 | 1,056 | 710 | (20) | 18
+Storage (3) | 1,043 | 1,187 | 1,072 | (12) | (3)
+Intelligent Edge | 1,304 | 1,127 | 867 | 16 | 50
+Financial Services | 858 | 873 | 823 | (2) | 4
+Corporate Investments and other | 296 | 293 | 327 | 1 | (9)
+Total segment net revenue | 7,102 | 7,992 | 6,810 | (11) | 4
+Elimination of intersegment net revenue | (129) | (183) | (97) | (30) | 33
+Total consolidated net revenue | $ | 6,973 | $ | 7,809 | $ | 6,713 | (11%) | 4%
+For the six months ended
+April 30, 2023 | April 30, 2022 | Y/Y
+Dollars in millions
+Net revenue:
+Compute (3) | $ | 6,217 | $ | 6,055 | 3 | %
+High Performance Computing & Artificial Intelligence | 1,896 | 1,500 | 26
+Storage (3) | 2,230 | 2,200 | 1
+Intelligent Edge | 2,431 | 1,768 | 38
+Financial Services | 1,731 | 1,665 | 4
+Corporate Investments and other | 589 | 652 | (10)
+Total segment net revenue | 15,094 | 13,840 | 9
+Elimination of intersegment net revenue | (312) | (166) | 88
+Total consolidated net revenue | $ | 14,782 | $ | 13,674 | 8 | %
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES Segment Operating Margin Summary Data (Unaudited)
+For the three months ended | Change in Operating Profit Margin (pts)
+April 30, 2023 | January 31, 2023 | April 30, 2022 | Q/Q | Y/Y
+Segment operating profit margin:
+Compute (3) | 15.2 | % | 17.6 | % | 14.1 | % | (2.4) | 1.1
+High Performance Computing & Artificial Intelligence | (0.2 | %) | 0.1 | % | (5.6 | %) | (0.3) | 5.4
+Storage (3) | 7.9 | % | 12.0 | % | 11.8 | % | (4.1) | (3.9)
+Intelligent Edge | 26.9 | % | 21.9 | % | 12.6 | % | 5.0 | 14.3
+Financial Services | 9.8 | % | 9.4 | % | 12.6 | % | 0.4 | (2.8)
+Corporate Investments and other | (15.9 | %) | (18.8 | %) | (7.3 | %) | 2.9 | (8.6)
+Total segment operating profit margin | 12.5 | % | 12.8 | % | 10.3 | % | (0.3) | 2.2
+For the six months ended | Change in Operating Profit Margin (pts)
+April 30, 2023 | April 30, 2022 | Y/Y
+Segment operating profit margin:
+Compute (3) | 16.6 | % | 14.1 | % | 2.5
+High Performance Computing & Artificial Intelligence | (0.1 | %) | (3.1 | %) | 3.0
+Storage (3) | 10.0 | % | 12.9 | % | (2.9)
+Intelligent Edge | 24.6 | % | 15.0 | % | 9.6
+Financial Services | 9.6 | % | 12.5 | % | (2.9)
+Corporate Investments and other | (17.3 | %) | (5.4 | %) | (11.9)
+Total segment operating profit margin | 12.7 | % | 11.0 | % | 1.7
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES Calculation of Diluted Net Earnings Per Share (Unaudited)
+For the three months ended
+April 30, 2023 | January 31, 2023 | April 30, 2022
+In millions, except per share amounts
+Numerator:
+GAAP net earnings | $ | 418 | $ | 501 | $ | 250
+Non-GAAP net earnings | $ | 685 | $ | 828 | $ | 583
+Denominator:
+Weighted-average shares used to compute basic net earnings  per share | 1,304 | 1,298 | 1,307
+Dilutive effect of employee stock plans | 14 | 17 | 22
+Weighted-average shares used to compute diluted net earnings per share | 1,318 | 1,315 | 1,329
+GAAP net earnings per share
+Basic | $ | 0.32 | $ | 0.39 | $ | 0.19
+Diluted | $ | 0.32 | $ | 0.38 | $ | 0.19
+Non-GAAP net earnings per share
+Basic | $ | 0.53 | $ | 0.64 | $ | 0.45
+Diluted | $ | 0.52 | $ | 0.63 | $ | 0.44
+For the six months ended
+April 30, 2023 | April 30, 2022
+In millions, except per share amounts
+Numerator:
+GAAP net earnings | $ | 919 | $ | 763
+Non-GAAP net earnings | $ | 1,513 | $ | 1,280
+Denominator:
+Weighted-average shares used to compute basic net earnings  per share | 1,301 | 1,306
+Dilutive effect of employee stock plans | 16 | 21
+Weighted-average shares used to compute diluted net earnings per share | 1,317 | 1,327
+GAAP net earnings per share
+Basic | $ | 0.71 | $ | 0.58
+Diluted | $ | 0.70 | $ | 0.57
+Non-GAAP net earnings per share
+Basic | $ | 1.16 | $ | 0.98
+Diluted | $ | 1.15 | $ | 0.96
+(1)     The three and six months ended April 30, 2022 include amounts primarily for expected credit loss reserves of $126 million, due to the Company’s exit from its Russia and Belarus businesses, $105 million of which is in Cost of sales and $21 million in Disaster charges in the Condensed Consolidated Statements of Earnings. During the three and six months ended April 30, 2022, Disaster charges also included a recovery of $1 million and $2 million, respectively, related to COVID-19.
+(2)    Represents the amortization of basis difference adjustments related to H3C. The six months ended April 30, 2023 also includes the Company's portion of intangible asset impairment charges from H3C of $8 million.
+(3)    Effective at the beginning of the first quarter of fiscal 2023, the Company implemented certain organizational changes to align its segment financial reporting more closely with its current business structure. This resulted in the transfer of certain storage networking products, previously reported within the Storage reportable segment, to the Compute reportable segment. The Company reflected these changes to its segment information retrospectively to the earliest period presented, which primarily resulted in the transfer of net revenue and operating profit for each of the businesses as described above. These changes had no impact on the Company's previously reported consolidated results.
+Use of non-GAAP financial measures
+To supplement Hewlett Packard Enterprise’s condensed consolidated financial statement information presented on a GAAP basis, Hewlett Packard Enterprise provides financial measures including revenue on a constant currency basis (including at the business segment level), non-GAAP gross profit, non-GAAP gross profit margin, non-GAAP operating profit (non-GAAP earnings from operations), non-GAAP operating profit margin (non-GAAP earnings from operations as a percentage of net revenue), non-GAAP income tax rate, non-GAAP net earnings, non-GAAP diluted net earnings per share and free cash flow. Hewlett Packard Enterprise also provides forecasts of revenue growth on a constant currency basis, non-GAAP diluted net earnings per share, non-GAAP operating profit growth, and free cash flow.
+These non-GAAP financial measures are not computed in accordance with, or as an alternative to, GAAP in the United States. The GAAP measure most directly comparable to revenue on a constant currency basis is revenue. The GAAP measure most directly comparable to non-GAAP gross profit is gross profit. The GAAP measure most directly comparable to non-GAAP gross profit margin is gross profit margin. The GAAP measure most directly comparable to non-GAAP operating profit (non-GAAP earnings from operations) is earnings from operations. The GAAP measure most directly comparable to non-GAAP operating profit margin (non-GAAP earnings from operations as a percentage of net revenue) is operating profit margin. The GAAP measure most directly comparable to non-GAAP income tax rate is income tax rate. The GAAP measure most directly comparable to non-GAAP net earnings is net earnings. The GAAP measure most directly comparable to non-GAAP diluted net earnings per share is diluted net earnings per share. The GAAP measure most directly comparable to free cash flow is cash flow from operations. Reconciliations of each of these non-GAAP financial measures to their most directly comparable GAAP measures for this quarter and prior periods are included in the tables above or elsewhere in the materials accompanying this news release.
+Usefulness of non-GAAP financial measures to investors
+Hewlett Packard Enterprise believes that providing the non-GAAP financial measures stated above in addition to the related GAAP measures provides investors with greater transparency to the information used by Hewlett Packard Enterprise’s management in its financial and operational decision making and allows investors to see Hewlett Packard Enterprise’s results “through the eyes” of management. Hewlett Packard Enterprise further believes that providing this information provides Hewlett Packard Enterprise’s investors with a supplemental view to understand Hewlett Packard Enterprise’s historical and prospective operating performance and to evaluate the efficacy of the methodology and information used by Hewlett Packard Enterprise’s management to evaluate and measure such performance. Disclosure of these non-GAAP financial measures also facilitates the comparisons of Hewlett Packard Enterprise’s operating performance with the performance of other companies in Hewlett Packard Enterprise’s industry that supplement their GAAP results with non-GAAP financial measures that may be calculated in a similar manner.
+Economic substance of and material limitations associated with non-GAAP financial measures used by Hewlett Packard Enterprise
+Net revenue on a constant currency basis assumes no change to the foreign exchange rate utilized in the comparable prior-year period. This measure assists investors with evaluating the past and future performance of the Company, without the impact of foreign exchange rates. Non-GAAP gross profit and non-GAAP gross profit margin are defined to exclude charges relating to the amortization of initial direct costs, stock-based compensation expense and disaster charges. Non-GAAP operating profit (non-GAAP earnings from operations) and non-GAAP operating profit margin (non-GAAP earnings from operations as a percentage of net revenue) consist of earnings from operations or earnings from operations as a percentage of net revenue excluding those same charges above and charges relating to the amortization of intangible assets, transformation costs, and acquisition, disposition and other related charges. Non-GAAP net earnings and non-GAAP diluted net earnings per share consist of net earnings or diluted net earnings per share excluding the charges previously stated, as well as tax indemnification and related adjustments, non-service net periodic benefit credit, earnings from equity interests, and adjustments for taxes. The Adjustments for taxes line item includes certain income tax valuation allowances and separation taxes, the impact of tax reform, structural rate adjustment, excess tax benefit from stock-based compensation, and adjustments for additional taxes or tax benefits associated with each non-GAAP item.
+Hewlett Packard Enterprise believes that excluding the items mentioned above from these non-GAAP financial measures provides a supplemental view to management and investors of the consolidated financial performance of the Company without costs that Hewlett Packard Enterprise’s management does not believe are reflective of ongoing operating results. Exclusion of these items can have a material impact on the equivalent GAAP measure and cash flows thus limiting their use as analytical
+tools.
+These limitations are discussed below or elsewhere in the materials accompanying this news release. More specifically, Hewlett Packard Enterprise’s management excludes each of those items mentioned above for the following reasons:
+•
+Amortization of initial direct costs represents the portion of lease origination costs incurred in prior fiscal years that do not qualify for capitalization under the new leasing standard. Hewlett Packard Enterprise excludes these costs as the Company elected the practical expedient under the new leasing standard. As a result, the Company did not adjust these historical costs to accumulated deficit. Hewlett Packard Enterprise believes that most financing companies did not elect this practical expedient and therefore the Company excludes these costs. Exclusion of these costs can have an impact on the equivalent GAAP earnings measure and HPE Financial Services segment results.
+•
+Hewlett Packard Enterprise incurs charges relating to the amortization of intangible assets and excludes these charges for purposes of calculating these non-GAAP measures. Such charges are significantly impacted by the timing and magnitude of Hewlett Packard Enterprise’s acquisitions. Consequently, Hewlett Packard Enterprise excludes these charges for purposes of calculating these non-GAAP measures, primarily because they are non-cash expenses and the Company’s internal benchmarking analyses evidence that many industry participants and peers present non-GAAP financial measures excluding intangible asset amortization. Amortization of intangible assets, though not directly affecting Hewlett Packard Enterprise’s cash position, represents the loss in value of intangible assets over time and can have a material impact on the equivalent GAAP earnings measure.
+•
+Transformation costs represent net costs related to the (i) HPE Next Plan and (ii) Cost Optimization and Prioritization Plan and include restructuring charges, program design and execution costs, costs incurred to transform the Company’s IT infrastructure, net gains from the sale of real estate and any impairment charges on real-estate identified as part of the initiatives. Hewlett Packard Enterprise excludes these costs as they are discrete costs related to two specific transformation programs that were announced in 2017 and 2020, respectively, as multi-year programs necessary to transform the business and IT infrastructure following material divestiture transactions in 2017 and in response to COVID-19 and an evolving product portfolio in fiscal 2020. The HPE Next Plan is substantially complete, and the Company expects the Cost Optimization and Prioritization Plan to be substantially complete by October 31, 2023. The exclusion of the transformation program costs from the non-GAAP measures, as stated above, is to provide a supplemental measure of the Company’s operating results that do not include material HPE Next Plan and Cost Optimization and Prioritization Plan costs as the Company’s management does not believe such costs to be reflective of the ongoing operating cost structure. Further, the transformation costs for these plans have materially fluctuated since 2017, have been materially declining since 2021 and are not expected to be material beyond fiscal 2023. Hewlett Packard Enterprises management believes that non-GAAP measures excluding these costs are useful to management and investors for comparing operating performance across multiple periods.
+•
+Disaster charges
+are primarily related to the exit of the Company’s businesses in Russia and Belarus and include credit losses of financing receivables and trade receivables, employee severance and abandoned assets. Disaster charges also include direct costs or recovery of these costs related to COVID-19 as a result of Hewlett Packard Enterprise-hosted, co-hosted, or sponsored event cancellations and subsequent shift to a virtual format. Hewlett Packard Enterprise excludes Disaster charges from these non-GAAP measures as the specific charges are non-recurring charges and not indicative of the operational performance of the Company’s business.
+•
+Stock-based compensation expense consists of equity awards granted based on the estimated fair value of those awards at grant date. Although stock-based compensation is a key incentive offered to employees, Hewlett Packard Enterprise excludes these charges for the purpose of calculating these non-GAAP measures, primarily because they are non-cash expenses, and internal benchmarking analyses evidence that many industry participants and competitors present non-GAAP financial measures excluding stock-based compensation expense.
+•
+Hewlett Packard Enterprise incurs costs related to its acquisition, disposition and other related charges. The charges are direct expenses, such as professional fees and retention costs, most of which are treated as non-cash or non-capitalized expenses. Charges may also include expenses associated with disposal activities including legal and arbitration settlements in connection with certain dispositions. Hewlett Packard Enterprise excludes these costs as these expenses are inconsistent in amount and frequency and are significantly impacted by the timing and nature of
+acquisitions and divestitures, and internal benchmarking analyses evidence that many industry participants and peers present non-GAAP financial measures excluding stock-based compensation expense.
+•
+Tax indemnification and related adjustments are primarily related to changes to certain pre-separation and pre-divestiture tax liabilities and tax receivables for which Hewlett Packard Enterprise remains liable on behalf of the separated or divested business, but which may not be subject to indemnification. Hewlett Packard Enterprise excludes these income or charges and the associated tax impact for the purpose of calculating non-GAAP measures to facilitate an evaluation of Hewlett Packard Enterprise’s current operating performance and comparisons to operating performance in prior periods.
+•
+Non-service net periodic benefit credit includes certain market-related factors such as (i) interest cost, (ii) expected return on plan assets, (iii) amortization of prior plan amendments, (iv) amortized actuarial gains or losses, (v) the impacts of any plan settlements/curtailments and (vi) impacts from other market-related factors associated with Hewlett Packard Enterprise's defined benefit pension and post-retirement benefit plans. These market-driven retirement-related adjustments are primarily due to the change in pension plan assets and liabilities which are tied to financial market performance. Hewlett Packard Enterprise excludes these adjustments for purposes of calculating non-GAAP measures and considers them to be outside the operational performance of the business.
+•
+Adjustment to earnings from equity interests includes the amortization of the basis difference in relation to the H3C divestiture and the resulting equity method investment in H3C. In the first fiscal quarter of 2023, this adjustment also included the Company's portion of intangible asset impairment charges from H3C. Hewlett Packard Enterprise believes that eliminating this amount for purposes of calculating non-GAAP measures facilitates the evaluation of Hewlett Packard Enterprise’s current operating performance and comparisons to operating performance in prior periods.
+•
+Hewlett Packard Enterprise utilizes a structural long-term projected non-GAAP income tax rate in order to provide consistency across the interim reporting periods and to eliminate the effects of items not directly related to the Company’s operating structure that can vary in size and frequency. When projecting this long-term rate, Hewlett Packard Enterprise evaluated a three-year financial projection. The projected rate assumes no incremental acquisitions in the three-year projection period and considers other factors including Hewlett Packard Enterprise’s expected tax structure, its tax positions in various jurisdictions and current impacts from key legislation implemented in major jurisdictions where Hewlett Packard Enterprise operates. For fiscal 2023, the Company will use a projected non-GAAP income tax rate of 14%, which reflects currently available information as well as other factors and assumptions. The non-GAAP income tax rate could be subject to change for a variety of reasons, including the rapidly evolving global tax environment, significant changes in Hewlett Packard Enterprise’s geographic earnings mix including due to acquisition activity, or other changes to the Company’s strategy or business operations. The Company will re-evaluate its long-term rate as appropriate. For fiscal 2022, the Company had a non-GAAP tax rate of 14%. Hewlett Packard Enterprise believes that making these adjustments for purposes of calculating non-GAAP measures, facilitates a supplemental evaluation of the Company’s current operating performance and comparisons to past operating results.
+•
+Free cash flow (“FCF”) is a non-GAAP measure that is defined as cash flow from operations, less net capital expenditures (investments in property, plant & equipment (“PP&E”) less proceeds from the sale of PP&E) and adjusted for the effect of exchange rate fluctuations on cash, cash equivalents, and restricted cash. FCF does not represent the total increase or decrease in cash for the period. Hewlett Packard Enterprise’s management and investors can use FCF for the purpose of determining the amount of cash available for investment in the Company’s businesses, repurchasing stock and other purposes as well as evaluating historical and prospective liquidity.
+Compensation for material limitations with use of non-GAAP financial measures
+These non-GAAP financial measures have limitations as analytical tools, and these measures should not be considered in isolation or as a substitute for analysis of Hewlett Packard Enterprise’s results as reported under GAAP. Some of the limitations in relying on these non-GAAP financial measures are that they can have a material impact on the equivalent GAAP earnings measures and cash flows, they may be calculated differently by other companies, limiting the usefulness of those measures for comparative purposes and may not reflect the full economic effect of the loss in value of certain assets. Hewlett Packard Enterprise compensates for the limitations on its use of non-GAAP financial measures by relying primarily on its GAAP results
+and using non-GAAP financial measures only as a supplement. Hewlett Packard Enterprise also provides a reconciliation of each non-GAAP financial measure to its most directly comparable GAAP financial measure for this quarter and prior periods within this news release and in other written materials that include these non-GAAP financial measures, and Hewlett Packard Enterprise encourages investors to review those reconciliations carefully.

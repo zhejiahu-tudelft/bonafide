@@ -1,0 +1,1934 @@
+
+=== page 1 ===
+ 
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Condensed Consolidated Statements of Earnings
+(Unaudited)
+ 
+For the three months ended
+ 
+October 31, 2025
+July 31, 2025
+October 31, 2024
+In millions, except per share amounts
+Net revenue
+$ 
+9,679 $ 
+9,136 $ 
+8,458 
+Costs and Expenses:
+Cost of sales (exclusive of amortization shown separately below)
+ 
+6,438  
+6,464  
+5,852 
+Research and development
+ 
+881  
+622  
+527 
+Selling, general and administrative
+ 
+1,642  
+1,496  
+1,211 
+Amortization of intangible assets
+ 
+310  
+126  
+69 
+Impairment charges
+ 
+260  
+—  
+— 
+Transformation costs
+ 
+—  
+—  
+26 
+Acquisition, disposition and other charges
+ 
+156  
+181  
+80 
+Total costs and expenses
+ 
+9,687  
+8,889  
+7,765 
+(Loss) earnings from operations
+ 
+(8)  
+247  
+693 
+Interest and other, net(1)
+ 
+(261)  
+8  
+5 
+Gain on sale of a business
+ 
+3  
+1  
+— 
+Gain on sale of equity interest
+ 
+—  
+—  
+733 
+Earnings from equity interests
+ 
+5  
+32  
+(14) 
+(Loss) earnings before provision for taxes
+ 
+(261)  
+288  
+1,417 
+Benefit (provision) for taxes
+ 
+436  
+17  
+(51) 
+Net earnings attributable to HPE
+ 
+175  
+305 $ 
+1,366 
+Preferred stock dividends
+ 
+(29)  
+(29)  
+(25) 
+Net earnings attributable to common stockholders
+$ 
+146 $ 
+276 $ 
+1,341 
+Net Earnings Per Share Attributable to Common Stockholders: 
+Basic
+$ 
+0.11 $ 
+0.21 $ 
+1.02 
+Diluted
+ 
+0.11  
+0.21  
+0.99 
+Cash dividends declared per share
+ 
+0.13  
+0.13  
+0.13 
+Cash dividends accrued per preferred share
+$ 
+0.95 $ 
+0.95 $ 
+0.83 
+Weighted-average Shares Used to Compute Net Earnings Per Share: 
+Basic
+ 
+1,332  
+1,325  
+1,312 
+Diluted
+ 
+1,361  
+1,421  
+1,375 
+
+
+=== page 2 ===
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Condensed Consolidated Statements of Earnings
+(Unaudited)
+ 
+Year Ended
+October 31, 2025
+October 31, 2024
+In millions, except per share amounts
+Net revenue
+$ 
+34,296 $ 
+30,127 
+Costs and Expenses:
+Cost of sales (exclusive of amortization shown separately below)
+ 
+23,919  
+20,249 
+Research and development
+ 
+2,518  
+2,246 
+Selling, general and administrative
+ 
+5,704  
+4,871 
+Amortization of intangible assets
+ 
+511  
+267 
+Impairment charges
+ 
+1,621  
+— 
+Transformation costs
+ 
+2  
+93 
+Acquisition, disposition and other charges
+ 
+458  
+211 
+Total costs and expenses
+ 
+34,733  
+27,937 
+(Loss) earnings from operations
+ 
+(437)  
+2,190 
+Interest and other, net(1)
+ 
+(175)  
+(117) 
+Gain on sale of a business
+ 
+248  
+— 
+Gain on sale of equity interest
+ 
+—  
+733 
+Earnings from equity interests
+ 
+79  
+147 
+(Loss) earnings before provision for taxes
+ 
+(285)  
+2,953 
+Benefit (provision) for taxes
+ 
+342  
+(374) 
+Net earnings attributable to HPE
+ 
+57  
+2,579 
+Preferred stock dividends
+ 
+(116)  
+(25) 
+Net (loss) earnings attributable to common stockholders
+$ 
+(59) $ 
+2,554 
+Net (Loss) Earnings Per Share Attributable to Common Stockholders: 
+Basic
+$ 
+(0.04) $ 
+1.95 
+Diluted
+ 
+(0.04)  
+1.93 
+Cash dividends declared per share
+ 
+0.52  
+0.52 
+Cash dividends accrued per preferred share
+$ 
+3.81 $ 
+0.83 
+Weighted-average Shares Used to Compute Net (Loss) Earnings Per Share: 
+Basic
+ 
+1,324  
+1,309 
+Diluted
+ 
+1,324  
+1,337 
+
+
+=== page 3 ===
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Reconciliation of GAAP to Non-GAAP measures
+(Unaudited)
+For the three months ended
+October 31, 2025
+July 31, 2025
+October 31, 2024
+ Dollars in millions
+GAAP net revenue
+$ 
+9,679 
+$ 
+9,136 
+$ 
+8,458 
+GAAP cost of sales
+ 
+6,438 
+ 
+6,464 
+ 
+5,852 
+GAAP gross profit
+ 
+3,241 
+ 
+2,672 
+ 
+2,606 
+Non-GAAP Adjustments
+Stock-based compensation expense
+ 
+9 
+ 
+10 
+ 
+10 
+Acquisition, disposition and other charges(2)
+ 
+189 
+ 
+50 
+ 
+(4) 
+Cost reduction program
+ 
+80 
+ 
+— 
+ 
+— 
+Non-GAAP gross profit
+$ 
+3,519 
+$ 
+2,732 
+$ 
+2,612 
+GAAP gross profit margin
+ 33.5 %
+ 29.2 %
+ 30.8 %
+Non-GAAP adjustments
+ 2.9 %
+ 0.7 %
+ 0.1 %
+Non-GAAP gross profit margin
+ 36.4 %
+ 29.9 %
+ 30.9 %
+Year Ended
+October 31, 2025
+October 31, 2024
+Dollars in millions
+GAAP net revenue
+$ 
+34,296 
+$ 
+30,127 
+GAAP cost of sales
+ 
+23,919 
+ 
+20,249 
+GAAP gross profit
+ 
+10,377 
+ 
+9,878 
+Non-GAAP Adjustments
+Stock-based compensation expense
+ 
+49 
+ 
+49 
+Acquisition, disposition and other charges(2)
+ 
+236 
+ 
+(34) 
+Cost reduction program
+ 
+126 
+ 
+— 
+H3C divestiture related severance costs
+ 
+17 
+ 
+— 
+Non-GAAP gross profit
+$ 
+10,805 
+$ 
+9,893 
+GAAP gross profit margin
+ 30.3 %
+ 32.8 %
+Non-GAAP adjustments
+ 1.2 %
+ — %
+Non-GAAP gross profit margin
+ 31.5 %
+ 32.8 %
+
+
+=== page 4 ===
+For the three months ended
+October 31, 2025
+July 31, 2025
+October 31, 2024
+Dollars in millions
+GAAP (loss) earnings from operations
+$ 
+(8) 
+$ 
+247 
+$ 
+693 
+Non-GAAP Adjustments
+Amortization of intangible assets
+ 
+310 
+ 
+126 
+ 
+69 
+Impairment charges
+ 
+260 
+ 
+— 
+ 
+— 
+Transformation costs
+ 
+— 
+ 
+— 
+ 
+26 
+Stock-based compensation expense
+ 
+196 
+ 
+177 
+ 
+89 
+Cost reduction program
+ 
+127 
+ 
+2 
+ 
+— 
+Acquisition, disposition and other charges(2)
+ 
+298 
+ 
+225 
+ 
+61 
+Non-GAAP earnings from operations
+$ 
+1,183 
+$ 
+777 
+$ 
+938 
+GAAP operating profit margin
+ (0.1) %
+ 2.7% 
+ 8.2 %
+Non-GAAP adjustments
+ 12.3 %
+ 5.8 %
+ 2.9 %
+Non-GAAP operating profit margin
+ 12.2 %
+ 8.5 %
+ 11.1 %
+Year Ended
+October 31, 2025
+October 31, 2024
+Dollars in millions
+GAAP (loss) earnings from operations
+$ 
+(437) 
+$ 
+2,190 
+Non-GAAP Adjustments
+Amortization of intangible assets
+ 
+511 
+ 
+267 
+Impairment charges
+ 
+1,621 
+ 
+— 
+Transformation costs
+ 
+2 
+ 
+93 
+Stock-based compensation expense
+ 
+643 
+ 
+430 
+H3C divestiture related severance costs
+ 
+97 
+ 
+— 
+Cost reduction program
+ 
+275 
+ 
+— 
+Acquisition, disposition and other charges(2)
+ 
+641 
+ 
+188 
+Non-GAAP earnings from operations
+$ 
+3,353 
+$ 
+3,168 
+GAAP operating profit margin
+ (1.3) %
+ 7.3 %
+Non-GAAP adjustments
+ 11.1 %
+ 3.2 %
+Non-GAAP operating profit margin
+ 9.8 %
+ 10.5 %
+
+
+=== page 5 ===
+October 31, 
+2025
+Diluted Net 
+EPS7
+July 31, 
+2025
+Diluted Net 
+EPS
+October 31, 
+2024
+Diluted Net 
+EPS
+Dollars in millions, except per share amounts
+GAAP net earnings attributable to common 
+stockholders
+$ 
+146 $ 
+0.11 $ 
+276 $ 
+0.21 $ 
+1,341 $ 
+0.99 
+Preferred stock dividends
+ 
+29 
+ 
+29 
+ 
+25 
+GAAP net earnings attributable to HPE
+$ 
+175 $ 
+0.11 $ 
+305 $ 
+0.21 $ 
+1,366 $ 
+0.99 
+Non-GAAP Adjustments:
+Amortization of intangible assets
+ 
+310  
+0.23  
+126  
+0.09  
+69  
+0.05 
+Impairment charges
+ 
+260  
+0.19  
+—  
+—  
+—  
+— 
+Transformation  costs
+ 
+—  
+—  
+—  
+—  
+26  
+0.02 
+Stock-based compensation expense
+ 
+196  
+0.14  
+177  
+0.12  
+89  
+0.06 
+Gain on sale of a business
+ 
+(3)  
+—  
+(1)  
+—  
+—  
+— 
+Cost reduction program
+ 
+127  
+0.09  
+2  
+—  
+—  
+— 
+Acquisition, disposition and other charges(2)
+ 
+298  
+0.22  
+225  
+0.17  
+61  
+0.04 
+Gain on sale of equity interest
+ 
+—  
+—  
+—  
+—  
+(733)  
+(0.53) 
+Adjustments for equity interests
+ 
+—  
+—  
+—  
+—  
+25  
+0.02 
+Litigation judgment
+ 
+—  
+—  
+(52)  
+(0.04)  
+—  
+— 
+Loss (gain) on equity investments, net
+ 
+148  
+0.10  
+1  
+—  
+(34)  
+(0.02) 
+Adjustments for taxes
+ 
+(594)  
+(0.44)  
+(128)  
+(0.09)  
+(89)  
+(0.06) 
+Other adjustments(3)(8)
+ 
+(24)  
+(0.02)  
+(24)  
+(0.02)  
+15  
+0.01 
+Non-GAAP net earnings attributable to HPE(4)
+ 
+893 $ 
+0.62  
+631 $ 
+0.44  
+795 $ 
+0.58 
+Preferred stock dividends
+ 
+(29) 
+ 
+(29) 
+ 
+(25) 
+Non-GAAP net earnings attributable to common 
+stockholders
+$ 
+864 
+$ 
+602 
+$ 
+770 
+For the three months ended
+
+
+=== page 6 ===
+Year Ended
+October 31, 
+2025
+Diluted Net EPS7
+October 31, 
+2024
+Diluted Net EPS
+Dollars in millions, except per share amounts
+GAAP net (loss) earnings attributable to common 
+stockholders
+$ 
+(59) $ 
+(0.04) $ 
+2,554 $ 
+1.93 
+Preferred stock dividends
+116
+25
+GAAP net earnings attributable to HPE
+$ 
+57 $ 
+(0.04) $ 
+2,579 $ 
+1.93 
+Non-GAAP Adjustments:
+Amortization of intangible assets
+ 
+511  
+0.39  
+267  
+0.20 
+Impairment charges
+ 
+1,621  
+1.22  
+—  
+— 
+Transformation costs
+ 
+2  
+—  
+93  
+0.07 
+Stock-based compensation expense
+ 
+643  
+0.49  
+430  
+0.32 
+Gain on sale of a business
+ 
+(248)  
+(0.19)  
+—  
+— 
+H3C divestiture related severance costs
+ 
+97  
+0.07  
+—  
+— 
+Cost reduction program
+ 
+275  
+0.21  
+—  
+— 
+Acquisition, disposition and other charges(2)
+ 
+641  
+0.49  
+188  
+0.15 
+Gain on sale of equity interest
+ 
+—  
+—  
+(733)  
+(0.55) 
+Litigation judgment
+ 
+(52)  
+(0.04)  
+—  
+— 
+Loss on equity investments, net
+ 
+140  
+0.10  
+(94)  
+(0.07) 
+Adjustments for taxes
+ 
+(828)  
+(0.64)  
+(95)  
+(0.07) 
+Other adjustments(3)(8)
+ 
+(106)  
+(0.12)  
+20  
+0.01 
+Non-GAAP net earnings attributable to HPE(4)
+ 
+2,753  
+1.94  
+2,655  
+1.99 
+Preferred stock dividends
+ 
+(116) 
+ 
+(25) 
+Non-GAAP net earnings attributable to common 
+stockholders
+$ 
+2,637 
+$ 
+2,630 
+For the three months ended
+October 31, 2025
+July 31, 2025
+October 31, 2024
+In millions
+Net cash provided by operating activities
+$ 
+2,465 $ 
+1,305 $ 
+2,030 
+Investment in property, plant and equipment and software assets
+ 
+(641)  
+(576)  
+(608) 
+Proceeds from sale of property, plant and equipment
+ 
+126  
+90  
+90 
+Effect of exchange rate changes on cash, cash equivalents, and restricted 
+cash
+ 
+(30)  
+(29)  
+(12) 
+Free cash flow
+$ 
+1,920 $ 
+790 $ 
+1,500 
+Year Ended
+October 31, 2025
+October 31, 2024
+In millions
+Net cash provided by operating activities
+$ 
+2,919 $ 
+4,341 
+Investment in property, plant and equipment and software assets
+ 
+(2,292)  
+(2,367) 
+Proceeds from sale of property, plant and equipment
+ 
+380  
+370 
+Effect of exchange rate changes on cash, cash equivalents, and restricted cash
+ 
+(21)  
+(47) 
+Free cash flow
+$ 
+986 $ 
+2,297 
+
+
+=== page 7 ===
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Condensed Consolidated Balance Sheets
+ 
+As of
+ 
+October 31, 2025
+October 31, 2024
+(Unaudited)
+(Audited)
+In millions, except par value
+ASSETS
+Current Assets:
+Cash and cash equivalents
+$ 
+5,773 $ 
+14,846 
+Accounts receivable, net of allowances
+ 
+5,290  
+3,550 
+Financing receivables, net of allowances
+ 
+3,826  
+3,870 
+Inventory
+ 
+6,352  
+7,810 
+Assets held for sale
+ 
+—  
+1 
+Other current assets
+ 
+3,753  
+3,380 
+Total current assets
+ 
+24,994  
+33,457 
+Property, plant and equipment, net
+ 
+6,002  
+5,664 
+Long-term financing receivables and other assets
+ 
+13,817  
+12,616 
+Investments in equity interests
+ 
+955  
+929 
+Goodwill and intangible assets
+ 
+30,138  
+18,596 
+Total assets 
+$ 
+75,906 $ 
+71,262 
+LIABILITIES AND STOCKHOLDERS’ EQUITY
+Current Liabilities:
+Notes payable and short-term borrowings
+$ 
+4,609 $ 
+4,742 
+Accounts payable
+ 
+7,731  
+11,064 
+Employee compensation and benefits
+ 
+1,871  
+1,356 
+Taxes on earnings
+ 
+319  
+284 
+Deferred revenue
+ 
+5,358  
+3,904 
+Liabilities held for sale
+ 
+—  
+32 
+Other accrued liabilities
+ 
+4,755  
+4,591 
+Total current liabilities 
+ 
+24,643  
+25,973 
+Long-term debt
+ 
+17,756  
+13,504 
+Other non-current liabilities
+ 
+8,753  
+6,905 
+Commitments and Contingencies
+HPE stockholders' Equity:
+7.625% Series C mandatory convertible preferred stock, $0.01 par value (30 shares issued 
+and outstanding as of October 31, 2025 and October 31, 2024)
+ 
+—  
+— 
+Common stock, $0.01 par value (9,600 shares authorized; 1,319 and 1,297 shares issued 
+and outstanding as of October 31, 2025 and October 31, 2024, respectively)
+ 
+13  
+13 
+Additional paid-in capital
+ 
+30,234  
+29,848 
+Accumulated deficit
+ 
+(2,811)  
+(2,068) 
+Accumulated other comprehensive loss
+ 
+(2,748)  
+(2,977) 
+Total HPE stockholders’ equity
+ 
+24,688  
+24,816 
+Non-controlling interests
+ 
+66  
+64 
+Total stockholders’ equity
+ 
+24,754  
+24,880 
+Total liabilities and stockholders’ equity 
+$ 
+75,906 $ 
+71,262 
+
+
+=== page 8 ===
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Condensed Consolidated Statements of Cash Flows
+(Unaudited)
+Year Ended
+October 31, 2025
+October 31, 2024
+In millions
+Cash Flows from Operating Activities:
+Net earnings attributable to HPE
+$ 
+57 $ 
+2,579 
+Adjustments to Reconcile Net Earnings Attributable to HPE to Net Cash Provided by 
+Operating Activities:
+Depreciation and amortization
+ 
+2,737  
+2,564 
+Impairment charges
+ 
+1,621  
+— 
+Stock-based compensation expense
+ 
+643  
+430 
+Provision for inventory and credit losses
+ 
+511  
+175 
+Restructuring (credits) charges
+ 
+(13)  
+33 
+Cost reduction program
+ 
+275  
+— 
+Deferred taxes on earnings
+ 
+(565)  
+(64) 
+Earnings from equity interests
+ 
+(90)  
+(147) 
+Gain on sale of a business
+ 
+(248)  
+— 
+Gain on sale of equity interest
+ 
+—  
+(733) 
+Dividends received from equity investees
+ 
+29  
+43 
+H3C divestiture related severance costs
+ 
+97  
+— 
+Amortization of inventory fair value adjustment
+ 
+244  
+— 
+Loss on equity investments, net
+ 
+147  
+13 
+Other, net
+ 
+181  
+136 
+Changes in Operating Assets and Liabilities, Net of Acquisitions: 
+Accounts receivable
+ 
+(700)  
+(83) 
+Financing receivables
+ 
+(153)  
+(909) 
+Inventory
+ 
+1,783  
+(3,358) 
+Accounts payable
+ 
+(3,468)  
+3,927 
+Taxes on earnings
+ 
+(200)  
+190 
+Restructuring
+ 
+(58)  
+(164) 
+Other assets and liabilities
+ 
+89  
+(291) 
+Net cash provided by operating activities
+ 
+2,919  
+4,341 
+Cash Flows from Investing Activities:
+Investment in property, plant and equipment and software assets
+ 
+(2,292)  
+(2,367) 
+Proceeds from sale of property, plant and equipment
+ 
+380  
+370 
+Purchases of equity investments
+ 
+(9)  
+(16) 
+Proceeds from sale of available-for-sale securities
+ 
+934  
+6 
+Proceeds from maturities and redemptions of available-for-sale securities
+ 
+48  
+— 
+Proceeds from sale of equity interest
+ 
+—  
+2,143 
+Financial collateral posted
+ 
+(764)  
+(1,020) 
+Financial collateral received
+ 
+581  
+978 
+Payments made in connection with business acquisitions, net of cash acquired
+ 
+(12,278)  
+(147) 
+Proceeds from sale of a business
+ 
+210  
+— 
+Net cash used in investing activities
+ 
+(13,190)  
+(53) 
+Cash Flows from Financing Activities:
+Short-term borrowings with original maturities less than 90 days, net
+ 
+(8)  
+(31) 
+Proceeds from debt, net of issuance costs
+ 
+9,188  
+11,245 
+Payments of debt
+ 
+(6,837)  
+(5,475) 
+
+
+=== page 9 ===
+Net payments related to stock-based award activities
+ 
+(289)  
+(84) 
+Proceeds from issuance of 7.625% Series C mandatory convertible preferred stock, net 
+of issuance costs
+ 
+—  
+1,462 
+Repurchases of common stock
+ 
+(202)  
+(150) 
+Cash dividends paid to preferred stockholders
+ 
+(112)  
+— 
+Cash dividends paid to common stockholders
+ 
+(684)  
+(676) 
+Other
+ 
+(10)  
+(8) 
+Net cash provided by financing activities
+ 
+1,046  
+6,283 
+Effect of exchange rate changes on cash, cash equivalents, and restricted cash
+ 
+(21)  
+(47) 
+Change in cash, cash equivalents and restricted cash
+ 
+(9,246)  
+10,524 
+Cash, cash equivalents and restricted cash at beginning of period
+ 
+15,105  
+4,581 
+Cash, cash equivalents and restricted cash at end of period
+$ 
+5,859 $ 
+15,105 
+
+
+=== page 10 ===
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Segment Information
+(Unaudited)
+ 
+For the three months ended
+ 
+October 31, 2025
+July 31, 2025
+October 31, 2024
+In millions
+Net Revenue:
+Server(4)
+$ 
+4,457 $ 
+4,940 $ 
+4,681 
+Hybrid Cloud(4)
+ 
+1,412  
+1,484  
+1,607 
+Networking6)
+ 
+2,812  
+1,730  
+1,124 
+Financial Services
+ 
+889  
+886  
+893 
+Corporate Investments and other
+ 
+191  
+194  
+262 
+Total segment net revenue
+ 
+9,761  
+9,234  
+8,567 
+Elimination of intersegment net revenue
+ 
+(82)  
+(98)  
+(109) 
+Total consolidated net revenue
+$ 
+9,679 $ 
+9,136 $ 
+8,458 
+Earnings Before Taxes:
+Server(5)
+$ 
+437 $ 
+317 $ 
+541 
+Hybrid Cloud(5)
+ 
+71  
+87  
+126 
+Networking(6)
+ 
+648  
+360  
+274 
+Financial Services
+ 
+102  
+88  
+82 
+Corporate Investments and other
+ 
+(6)  
+(14)  
+(2) 
+Total segment earnings from operations
+ 
+1,252  
+838  
+1,021 
+Unallocated corporate costs and eliminations
+ 
+(69)  
+(61)  
+(83) 
+Stock-based compensation expense
+ 
+(196)  
+(177)  
+(89) 
+Amortization of intangible assets
+ 
+(310)  
+(126)  
+(69) 
+Impairment charges
+ 
+(260)  
+—  
+— 
+Transformation costs
+ 
+—  
+—  
+(26) 
+Gain on sale of a business
+ 
+3  
+1  
+— 
+H3C divestiture related severance costs
+ 
+—  
+—  
+— 
+Cost reduction program
+ 
+(127)  
+(2)  
+— 
+Acquisition, disposition and other charges(2)
+ 
+(298)  
+(225)  
+(61) 
+Interest and other, net(1)
+ 
+(261)  
+8  
+5 
+Gain on sale of equity interest
+ 
+—  
+—  
+733 
+ Earnings (loss) from equity interests
+ 
+5  
+32  
+(14) 
+Total pretax (loss) earnings 
+$ 
+(261) $ 
+288 $ 
+1,417 
+ 
+
+
+=== page 11 ===
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Segment Information
+(Unaudited)
+ 
+Year Ended
+ 
+October 31, 2025
+October 31, 2024
+In millions
+Net Revenue:
+Server(5)
+$ 
+17,745 $ 
+16,104 
+Hybrid Cloud(5)
+ 
+5,754  
+5,487 
+Networking(6)
+ 
+6,850  
+4,532 
+Financial Services
+ 
+3,504  
+3,512 
+Corporate Investments and other
+ 
+776  
+1,014 
+Total segment net revenue
+ 
+34,629  
+30,649 
+Elimination of intersegment net revenue
+ 
+(333)  
+(522) 
+Total consolidated net revenue
+$ 
+34,296 $ 
+30,127 
+Earnings Before Taxes:
+Server(5)
+$ 
+1,343 $ 
+1,804 
+Hybrid Cloud(5)
+ 
+335  
+259 
+Networking(6)
+ 
+1,596  
+1,115 
+Financial Services
+ 
+361  
+316 
+Corporate Investments and other
+ 
+(32)  
+(25) 
+Total segment earnings from operations
+ 
+3,603  
+3,469 
+Unallocated corporate costs and eliminations
+ 
+(250)  
+(301) 
+Stock-based compensation expense
+ 
+(643)  
+(430) 
+Amortization of intangible assets
+ 
+(511)  
+(267) 
+Impairment charges
+ 
+(1,621)  
+— 
+Transformation costs
+ 
+(2)  
+(93) 
+Gain on sale of a business
+ 
+248  
+— 
+H3C divestiture related severance costs
+ 
+(97)  
+— 
+Cost reduction program
+ 
+(275)  
+— 
+Acquisition, disposition and other charges(2)
+ 
+(641)  
+(188) 
+Interest and other, net(1)
+ 
+(175)  
+(117) 
+Gain on sale of equity interest
+ 
+—  
+733 
+Earnings from equity interests
+ 
+79  
+147 
+Total pretax (loss) earnings
+$ 
+(285) $ 
+2,953 
+
+
+=== page 12 ===
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Segment Information
+(Unaudited)
+ 
+For the three months ended
+Change (%)
+ 
+October 31, 2025
+July 31, 2025
+October 31, 2024
+Q/Q
+Y/Y
+Dollars in millions
+Net Revenue:
+Server(5)
+$ 
+4,457 $ 
+4,940 $ 
+4,681 
+(10%)
+(5%)
+Hybrid Cloud(5)
+ 
+1,412  
+1,484  
+1,607 
+(5)
+(12)
+Networking(6)
+ 
+2,812  
+1,730  
+1,124 
+63
+150
+Financial Services
+ 
+889  
+886  
+893 
+—
+—
+Corporate Investments and other
+ 
+191  
+194  
+262 
+(2)
+(27)
+Total segment net revenue
+ 
+9,761  
+9,234  
+8,567 
+6
+14
+Elimination of intersegment net revenue
+ 
+(82)  
+(98)  
+(109) 
+(16)
+(25)
+Total consolidated net revenue
+$ 
+9,679 $ 
+9,136 $ 
+8,458 
+6%
+14%
+ 
+Year Ended
+ 
+October 31, 
+2025
+October 31, 
+2024
+Y/Y
+Dollars in millions
+Net Revenue:
+Server(5)
+$ 
+17,745 $ 
+16,104 
+10%
+Hybrid Cloud(5)
+ 
+5,754  
+5,487 
+5
+Networking(6)
+ 
+6,850  
+4,532 
+51
+Financial Services
+ 
+3,504  
+3,512 
+—
+Corporate Investments and other
+ 
+776  
+1,014 
+(24)
+Total segment net revenue
+ 
+34,629  
+30,649 
+13
+Elimination of intersegment net revenue
+ 
+(333)  
+(522) 
+(36)
+Total consolidated net revenue
+$ 
+34,296 $ 
+30,127 
+14%
+
+
+=== page 13 ===
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Segment Operating Margin Summary Data
+(Unaudited)
+ 
+For the three months ended
+Change in operating 
+profit margin (pts)
+ 
+October 31, 
+2025
+July 31, 2025
+October 31, 
+2024
+Q/Q
+Y/Y
+Segment Operating Profit Margin:
+Server(5)
+ 9.8 %
+ 6.4 %
+ 11.6 %
+3.4
+(1.8)
+Hybrid Cloud(5)
+ 5.0 %
+ 5.9 %
+ 7.8 %
+(0.9)
+(2.8)
+Networking(6)
+ 23.0 %
+ 20.8 %
+ 24.4 %
+2.2
+(1.4)
+Financial Services
+ 11.5 %
+ 9.9 %
+ 9.2 %
+1.6
+2.3
+Corporate Investments and other
+ (3.1%) 
+ (7.2%) 
+ (0.8%) 
+4.1
+(2.3)
+Total segment operating profit margin
+ 12.8 %
+ 9.1 %
+ 11.9 %
+3.7
+0.9
+Year Ended
+Change in operating 
+profit margin (pts)
+October 31, 
+2025
+October 31, 
+2024
+Y/Y
+Segment Operating Profit Margin:
+Server(5)
+ 7.6 %
+ 11.2 %
+(3.6)
+Hybrid Cloud(5)
+ 5.8 %
+ 4.7 %
+1.1
+Networking(6)
+ 23.3 %
+ 24.6 %
+(1.3)
+Financial Services
+ 10.3% 
+ 9.0% 
+1.3
+Corporate Investments and other
+ (4.1 %) 
+ (2.5 %) 
+(1.6)
+Total segment operating profit margin
+ 10.4 %
+ 11.3 %
+(0.9)
+
+
+=== page 14 ===
+HEWLETT PACKARD ENTERPRISE COMPANY AND SUBSIDIARIES
+Calculation of Diluted Net Earnings Per Share
+(Unaudited)
+ 
+For the three months ended
+ 
+October 31, 2025
+July 31, 2025
+October 31, 2024
+In millions, except per share amounts
+Numerator:
+GAAP net earnings attributable to common stockholders - Basic
+$ 
+146 $ 
+276 $ 
+1,341 
+Plus: 7.625% Series C mandatory convertible preferred stock 
+dividends
+ 
+—  
+29  
+25 
+GAAP net earnings attributable to HPE - Diluted
+$ 
+146 $ 
+305 $ 
+1,366 
+Non-GAAP net earnings attributable to common stockholders - Basic
+$ 
+864 $ 
+602 $ 
+770 
+Plus: 7.625% Series C mandatory convertible preferred stock 
+dividends
+ 
+29  
+29  
+25 
+Non-GAAP net earnings attributable to HPE - Diluted
+$ 
+893 $ 
+631 $ 
+795 
+Denominator:
+GAAP Weighted-average shares used to compute basic net EPS
+ 
+1,332  
+1,325  
+1,312 
+Dilutive effect of employee stock plans(7)
+ 
+29  
+16  
+22 
+Dilutive effect of 7.625% Series C mandatory convertible preferred 
+stock(7)
+ 
+—  
+80  
+41 
+GAAP Weighted-average shares used to compute diluted net EPS
+ 
+1,361  
+1,421  
+1,375 
+Non-GAAP Weighted-average shares used to compute basic net EPS
+ 
+1,332  
+1,325  
+1,312 
+Dilutive effect of employee stock plans(7)
+ 
+29  
+16  
+22 
+Dilutive effect of 7.625% Series C mandatory convertible preferred 
+stock(7)
+ 
+76  
+80  
+41 
+Non-GAAP Weighted-average shares used to compute diluted net 
+EPS
+ 
+1,437  
+1,421  
+1,375 
+GAAP Net EPS
+Basic
+$ 
+0.11 $ 
+0.21 $ 
+1.02 
+Diluted
+$ 
+0.11 $ 
+0.21 $ 
+0.99 
+Non-GAAP Net EPS
+Basic
+$ 
+0.65 $ 
+0.45 $ 
+0.59 
+Diluted(4)
+$ 
+0.62 $ 
+0.44 $ 
+0.58 
+
+
+=== page 15 ===
+ 
+Year Ended
+ 
+October 31, 2025
+October 31, 2024
+In millions, except per share amounts
+Numerator:
+GAAP net (loss) earnings attributable to common stockholders - Basic
+$ 
+(59) $ 
+2,554 
+Plus: 7.625% Series C mandatory convertible preferred stock dividends
+ 
+—  
+25 
+GAAP net (loss) earnings attributable to HPE - Diluted
+$ 
+(59) $ 
+2,579 
+Non-GAAP net earnings attributable to common stockholders - Basic
+$ 
+2,637 $ 
+2,630 
+Plus: 7.625% Series C mandatory convertible preferred stock dividends
+ 
+116  
+25 
+Non-GAAP net earnings attributable to HPE - Diluted
+$ 
+2,753 $ 
+2,655 
+Denominator: 
+Weighted-average shares used to compute basic net EPS
+ 
+1,324  
+1,309 
+Dilutive effect of employee stock plans(7)
+ 
+—  
+18 
+Dilutive effect of 7.625% Series C mandatory convertible preferred stock(7)
+ 
+—  
+10 
+Weighted-average shares used to compute diluted net EPS
+ 
+1,324  
+1,337 
+Denominator(Non-GAAP):
+Weighted-average shares used to compute basic net EPS
+ 
+1,324  
+1,309 
+Dilutive effect of employee stock plans(7)
+ 
+18  
+18 
+Dilutive effect of 7.625% Series C mandatory convertible preferred stock(7)
+ 
+76  
+10 
+Weighted-average shares used to compute diluted net EPS
+ 
+1,418  
+1,337 
+GAAP Net EPS
+Basic
+$ 
+(0.04) $ 
+1.95 
+Diluted
+$ 
+(0.04) $ 
+1.93 
+Non-GAAP Net EPS
+Basic
+$ 
+1.99 $ 
+2.01 
+Diluted(4)
+$ 
+1.94 $ 
+1.99 
+(1) Interest and other, net includes tax indemnification and other adjustments, non-service net periodic benefit credit, and interest and 
+other, net. The three and twelve months ended October 31, 2025, includes $135 million loss on investments, net and a $52 million 
+litigation settlement which HPE received in the third quarter of fiscal 2025. 
+(2) Includes disaster recovery and divestiture related exit costs. For the three and twelve months ended October 31, 2025, Acquisition, 
+disposition and other charges include non-cash amortization of fair value adjustment for inventory in connection with the acquisition of 
+Juniper Networks, which was recorded in cost of sales.
+(3) Other adjustments includes non-service net periodic benefit credit and tax indemnification and other adjustments.
+(4) For purposes of calculating diluted net EPS, the preferred stock dividends are added back to the net earnings attributable to common 
+stockholders and the diluted weighted average share calculation assumes the preferred stock was converted at issuance or as of the 
+beginning of the reporting period.
+(5) Effective at the beginning of the first quarter of fiscal 2025, in order to align its segment financial reporting more closely with its 
+current business structure, HPE implemented an organizational change with the transfer of certain managed services, previously 
+reported within the Server reportable segment, to the Hybrid Cloud reportable segment.
+(6) During the third quarter of fiscal 2025, the Intelligent Edge segment was renamed to Networking. The segment name change did not 
+result in any change to the composition of the Company’s segments and therefore no prior information was recast; further, the 
+designation change did not impact the Company’s condensed consolidated financial statements. 
+
+
+=== page 16 ===
+(7) The impact of dilutive effect of employee stock plans is calculated under the treasury stock method, and the impact of dilutive effect of 
+the preferred stock is calculated under the if-converted method. For the three months ended October 31, 2025, the effect of preferred 
+stock is excluded as it would be anti-dilutive. For the twelve months ended October 31, 2025, the effect of employee stock plans and 
+preferred stock is excluded when calculating diluted net loss per share as it would be anti-dilutive. 
+(8) For the three months ended October 31, 2025, the diluted net EPS adjustment includes the impact to Non-GAAP net earnings 
+attributable to HPE for the dilutive effect of preferred stock. For fiscal 2025, the diluted net EPS adjustment includes the impact to Non-
+GAAP net earnings attributable to HPE for the dilutive effect of preferred stock and the employee stock plans.

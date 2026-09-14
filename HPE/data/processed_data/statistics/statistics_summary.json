@@ -1,0 +1,203 @@
+{
+  "regressions": {
+    "R1": {
+      "stats": {
+        "n": 34,
+        "r2": 0.6041708139797384,
+        "adj_r2": 0.5495736848734953,
+        "durbin_watson": 1.0045734001833553,
+        "sample": "2018Q1 to 2026Q2"
+      },
+      "coefficients": {
+        "const": {
+          "coef": -0.0441,
+          "std_err_hac": 0.0308,
+          "t": -1.4318,
+          "p_value": 0.1522,
+          "ci_low": -0.1044,
+          "ci_high": 0.0163
+        },
+        "capex_yoy_lag0": {
+          "coef": 0.098,
+          "std_err_hac": 0.0654,
+          "t": 1.498,
+          "p_value": 0.1341,
+          "ci_low": -0.0302,
+          "ci_high": 0.2263
+        },
+        "capex_yoy_lag1": {
+          "coef": 0.1191,
+          "std_err_hac": 0.0686,
+          "t": 1.7368,
+          "p_value": 0.0824,
+          "ci_low": -0.0153,
+          "ci_high": 0.2535
+        },
+        "capex_yoy_lag2": {
+          "coef": -0.0263,
+          "std_err_hac": 0.0364,
+          "t": -0.724,
+          "p_value": 0.4691,
+          "ci_low": -0.0977,
+          "ci_high": 0.045
+        },
+        "juniper_dummy": {
+          "coef": 0.1543,
+          "std_err_hac": 0.0444,
+          "t": 3.4744,
+          "p_value": 0.0005,
+          "ci_low": 0.0672,
+          "ci_high": 0.2413
+        }
+      }
+    },
+    "R1_pre_juniper": {
+      "stats": {
+        "n": 29,
+        "r2": 0.267261881836816,
+        "adj_r2": 0.17933330765723388,
+        "durbin_watson": 0.9484119882204356,
+        "sample": "2018Q1 to 2025Q1"
+      },
+      "coefficients": {
+        "const": {
+          "coef": -0.0419,
+          "std_err_hac": 0.0304,
+          "t": -1.3771,
+          "p_value": 0.1685,
+          "ci_low": -0.1015,
+          "ci_high": 0.0177
+        },
+        "capex_yoy_lag0": {
+          "coef": 0.0838,
+          "std_err_hac": 0.0653,
+          "t": 1.284,
+          "p_value": 0.1991,
+          "ci_low": -0.0441,
+          "ci_high": 0.2118
+        },
+        "capex_yoy_lag1": {
+          "coef": 0.1257,
+          "std_err_hac": 0.0696,
+          "t": 1.8073,
+          "p_value": 0.0707,
+          "ci_low": -0.0106,
+          "ci_high": 0.262
+        },
+        "capex_yoy_lag2": {
+          "coef": -0.0265,
+          "std_err_hac": 0.0374,
+          "t": -0.708,
+          "p_value": 0.479,
+          "ci_low": -0.0997,
+          "ci_high": 0.0468
+        }
+      }
+    },
+    "R2": {
+      "stats": {
+        "n": 31,
+        "r2": 0.4109759929667537,
+        "adj_r2": 0.320356914961639,
+        "durbin_watson": 0.6204220427550711,
+        "sample": "2018Q4 to 2026Q2"
+      },
+      "coefficients": {
+        "const": {
+          "coef": -0.2349,
+          "std_err_hac": 0.7304,
+          "t": -0.3216,
+          "p_value": 0.7477,
+          "ci_low": -1.6665,
+          "ci_high": 1.1966
+        },
+        "micron_gm_change_lag0": {
+          "coef": -0.0459,
+          "std_err_hac": 0.0149,
+          "t": -3.0883,
+          "p_value": 0.002,
+          "ci_low": -0.0751,
+          "ci_high": -0.0168
+        },
+        "micron_gm_change_lag1": {
+          "coef": 0.0091,
+          "std_err_hac": 0.0253,
+          "t": 0.3606,
+          "p_value": 0.7184,
+          "ci_low": -0.0405,
+          "ci_high": 0.0587
+        },
+        "micron_gm_change_lag2": {
+          "coef": -0.0231,
+          "std_err_hac": 0.031,
+          "t": -0.747,
+          "p_value": 0.4551,
+          "ci_low": -0.0838,
+          "ci_high": 0.0376
+        },
+        "juniper_dummy": {
+          "coef": 6.8131,
+          "std_err_hac": 2.0223,
+          "t": 3.369,
+          "p_value": 0.0008,
+          "ci_low": 2.8495,
+          "ci_high": 10.7768
+        }
+      },
+      "chart_lag": 0
+    }
+  },
+  "arima": {
+    "order": [
+      0,
+      0,
+      1
+    ],
+    "seasonal": [
+      0,
+      0,
+      0
+    ],
+    "n_fit": 30,
+    "fit_sample": "2017Q4\u20132025Q1 (calendar-aligned)",
+    "aicc": -80.76052032075344,
+    "backtest_mape": {
+      "arima": 0.04779489234298767,
+      "random_walk": 0.05786348034052759,
+      "seasonal_naive": 0.08552759454186624
+    },
+    "quarters_outside_95": 5,
+    "quarters_with_actuals": 5,
+    "decomposition": {
+      "fy26_arima_counterfactual": 29055.666769741998,
+      "fy26_guidance_mid": 46500,
+      "fy26_excess_over_trend": 17444.333230258002,
+      "juniper_pre_close_8m_estimate": 3795.049180327871,
+      "fy26_juniper_estimate": 5692.5737704918065,
+      "fy26_residual_ai_pricing_estimate": 11751.759459766196,
+      "fy27_arima_counterfactual": 29055.666769741998,
+      "fy27_base_case": 53475.0,
+      "ttm_q3fy26_actual": 41871.00000000001,
+      "ttm_q3fy26_counterfactual": 29055.666769741998,
+      "ttm_excess_pct": 0.4410614057428428
+    },
+    "ljung_box_resid_p_lag8": 0.517456466373559
+  },
+  "returns": {
+    "n_days": 2729,
+    "daily_sigma": 0.02411917485451849,
+    "skew": -0.07089818892186892,
+    "excess_kurtosis": 6.953825529208393,
+    "share_3sigma_days": 0.01832172957127153,
+    "normal_expected_3sigma": 0.002699796063260207,
+    "tail_ratio": 6.786338353700191,
+    "adf_price_p": 0.973081412654689,
+    "adf_returns_p": 2.023593038964183e-30,
+    "ljung_box_returns_p_lag10": 0.061676044136758604,
+    "ljung_box_sq_returns_p_lag10": 1.49801657682419e-113,
+    "arch_lm_p": 3.678250573790924e-52,
+    "jarque_bera_p": 0.0,
+    "acf_lag1_returns": 0.002318960803360596,
+    "acf_lag1_squared": 0.19664269558666808
+  }
+}

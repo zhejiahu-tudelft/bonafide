@@ -1,0 +1,219 @@
+false
+10-31
+0001645590
+0001645590
+2024-09-09
+2024-09-09
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+WASHINGTON, D.C. 20549
+FORM
+8-K
+CURRENT REPORT
+PURSUANT TO SECTION 13 OR 15(d) OF THE
+SECURITIES EXCHANGE ACT OF 1934
+September 9, 2024
+Date of Report (Date of earliest event reported)
+HEWLETT PACKARD ENTERPRISE COMPANY
+(Exact name of registrant as specified in its charter)
+Delaware | 001-37483 | 47-3298624
+(State or other jurisdiction of incorporation) | (Commission File Number) | (IRS Employer Identification No.)
+1701 East Mossy Oaks Road , Spring , TX | 77389
+(Address of principal executive offices) | (Zip code)
+(
+678
+)
+259-9860
+(Registrant’s telephone number, including area code)
+Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions
+:
+☐ | Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+☐ | Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+☐ | Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+☐ | Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+Securities registered pursuant to Section 12(b) of the Exchange Act:
+Title of each class | Trading Symbol(s) | Name of each exchange on which registered
+Common stock, par value $0.01 per share | HPE | NYSE
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2
+of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).
+☐ | Emerging growth company
+☐ | If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards
+provided pursuant to Section 13(a) of the Exchange Act.
+Item 1.01 | Entry into a Material Definitive Agreement.
+Preferred Stock Offering
+On September 10, 2024, Hewlett Packard Enterprise Company (the “Company”) entered into an underwriting agreement (the “Preferred Stock Underwriting
+Agreement”) with Citigroup Global Markets Inc., J.P. Morgan Securities LLC and Mizuho Securities USA LLC, as representatives of the several underwriters listed on Schedule 1 thereto (the “Preferred Stock Underwriters”), pursuant to which the
+Company issued and sold to the Preferred Stock Underwriters an aggregate of 30,000,000 shares, or $1.5 billion aggregate liquidation preference, of its 7.625% Series C Mandatory Convertible Preferred Stock (the “Mandatory Convertible Preferred
+Stock”) (including 3,000,000 shares, or $150 million aggregate liquidation preference, of the Mandatory Convertible Preferred Stock issued pursuant to the Preferred Stock Underwriters’ over-allotment option, which was exercised in full on September
+11, 2024).
+The offering of Mandatory Convertible Preferred Stock (the “Preferred Stock Offering”) has been registered under the Securities Act of 1933, as
+amended (the “Act”), pursuant to a registration statement (the “Registration Statement”) on Form S-3 (No. 333-276221), filed with the Securities and Exchange Commission (the “SEC”) and automatically effective on December 22, 2023.  The terms of the
+Mandatory Convertible Preferred Stock are further described in the Company’s preliminary prospectus supplement dated September 9, 2024, as filed with the SEC on September 9, 2024 and final prospectus supplement dated September 10, 2024, as filed
+with the SEC on September 12, 2024 (the “Preferred Stock Prospectus”).  The Preferred Stock Offering closed on September 13, 2024.
+The net proceeds from the sale of the Mandatory Convertible Preferred
+Stock, after deducting the Preferred Stock Underwriters’ discounts and estimated offering expenses, are expected to be approximately $
+1.46
+billion.  The Company intends to use
+these
+net proceeds to fund all or a portion of the consideration for the Company’s pending acquisition of Juniper Networks, Inc.
+(the “Juniper Acquisition”), to pay related fees and expenses and, if any proceeds remain thereafter, for other general corporate purposes, which may include, among other uses, repaying certain indebtedness of the Company, Juniper Networks,
+Inc. and their respective subsidiaries.
+The Preferred Stock Underwriting Agreement includes
+customary
+representations, warranties and covenants by the Company.  It also provides for customary indemnification by each of the Company and the
+respective Preferred Stock Underwriters against certain liabilities arising out of or in connection with sale of the Mandatory Convertible Preferred Stock and for customary contribution provisions in respect of those liabilities.
+As more fully described under the caption “Underwriting” in the Preferred Stock Prospectus, some of the Preferred Stock Underwriters
+and their affiliates have engaged in, and may in the future engage in, investment banking and other commercial dealings in the ordinary course of business with the Company or its affiliates.  They have received, or may in the future receive,
+customary fees and commissions for these transactions.  Specifically, certain Preferred Stock Underwriters and/or their affiliates serve in various roles under the Company’s term loan facilities and in connection with the Juniper Acquisition.
+The foregoing description of the
+Preferred Stock
+Underwriting Agreement is not complete and is qualified in its entirety by reference to the full
+text
+of the
+Preferred Stock
+Underwriting Agreement, which is filed as Exhibit 1.1 to this Current Report on Form 8-K and incorporated herein by
+reference.
+Senior Unsecured Notes Offering
+On September 12, 2024, the Company entered into an underwriting agreement (the “Notes Underwriting Agreement”) with Citigroup Global Markets Inc.,
+J.P. Morgan Securities LLC and Mizuho Securities USA LLC, as representatives of the several underwriters listed on Schedule 1 thereto (the “Notes Underwriters”), providing for the issuance and sale of $1,250,000,000 in aggregate principal amount of
+the Company’s 4.450% Notes due 2026 (the “2026 Notes”), $1,250,000,000 in aggregate principal amount of the Company’s 4.400% Notes due 2027 (the “2027 Notes”), $1,750,000,000 in aggregate principal amount of the Company’s 4.550% Notes due 2029 (the
+“2029 Notes”), $1,250,000,000 in aggregate principal amount of the Company’s 4.850% Notes due 2031 (the “2031 Notes”), $2,000,000,000 in aggregate principal amount of the Company’s 5.000% Notes due 2034 (the “2034 Notes”) and $1,500,000,000 in
+aggregate principal amount of the Company’s 5.600% Notes due 2054 (the “2054 Notes” and, together with the 2026 Notes, the 2027 Notes, the 2029 Notes, the 2031 Notes and the 2034 Notes, the “Notes”).
+The price to the public was 99.996% of the principal amount for the 2026 Notes, 99.953% of the principal amount for the 2027 Notes, 99.894% of the
+principal amount for the 2029 Notes, 99.908% of the principal amount for the 2031 Notes, 99.078% of the principal amount for the 2034 Notes and 98.086% of the principal amount for the 2054 Notes.
+The offering of each series of Notes has been registered under the Act pursuant to the Registration Statement.  The terms of the Notes are further
+described in the Company’s preliminary prospectus supplement dated September 10, 2024, as filed with the SEC on September 10, 2024 and final prospectus supplement dated September 12, 2024, to be filed with the SEC on or prior to September 16, 2024
+(the “Notes Prospectus”).  The closing of the sale of the Notes is expected to occur on September 26, 2024, subject to customary closing conditions.
+Each series of Notes will be the Company’s senior unsecured obligations and will rank equally in right of payment with all of the Company’s existing
+and future senior unsecured indebtedness, including the Company’s outstanding senior notes and all of its obligations under its (a) revolving credit agreement, dated as of September 12, 2024, among the Company, the borrowing subsidiaries party
+thereto from time to time, JPMorgan Chase Bank, N.A. (“JPMorgan”), as co-administrative agent and administrative processing agent, and Citibank, N.A. (“Citibank”), as co-administrative agent, and the lenders party thereto, (b) 364-day delayed draw
+term loan credit agreement, dated as of September 12, 2024, among the Company, JPMorgan, as co-administrative agent and administrative processing agent, Citibank, as co-administrative agent, and the lenders party thereto and (c) three-year delayed
+draw term loan credit agreement, dated as of September 12, 2024, among the Company, JPMorgan, as co-administrative agent and administrative processing agent, Citibank, as co-administrative agent, and the lenders party thereto, and senior in right
+of payment to any of the Company’s future indebtedness that is expressly subordinated in right of payment to the Notes.
+The net proceeds from the sale of the Notes, after deducting the
+Notes Underwriters’ discounts and estimated offering expenses, are expected to be approximately $
+8.90
+billion.  The Company intends to use
+these net proceeds to fund all or a portion of the consideration for the Juniper Acquisition, to pay related fees and expenses and, if any proceeds remain thereafter, for other general corporate purposes, which may include, among other uses,
+repaying certain indebtedness of the Company, Juniper Networks, Inc. and their respective subsidiaries.
+The Notes Underwriting Agreement includes
+customary
+representations, warranties and covenants by the Company.  It also provides for customary indemnification by each of the Company and the
+respective Notes Underwriters against certain liabilities arising out of or in connection with sale of the Notes and for customary contribution provisions in respect of those liabilities.
+As more fully described under the caption “Underwriting” in the Notes Prospectus, some of the Notes Underwriters and their
+affiliates have engaged in, and may in the future engage in, investment banking and other commercial dealings in the ordinary course of business with the Company or its affiliates. They have received, or may in the future receive, customary fees
+and commissions for these transactions. Specifically, certain Notes Underwriters and/or their affiliates serve in various roles under the Company’s term loan facilities and in connection with the Juniper Acquisition.
+The foregoing description of the Notes Underwriting Agreement is not
+complete and is qualified in its entirety by reference to the full
+text
+of the Notes Underwriting Agreement, which is filed as Exhibit 1.2
+to this Current Report on Form 8-K and incorporated herein by reference.
+Item 3.03 | Material Modification of Rights of Security Holders.
+In connection with the Preferred Stock Offering, the Company filed a Certificate of Designations (the “Certificate of Designations”) with the
+Secretary of State of the State of Delaware on September 12, 2024 to establish the designations, powers, preferences and rights of the Mandatory Convertible Preferred Stock and the qualifications, limitations and restrictions thereof, including the
+dividend rate, the amount payable with respect thereto in the event of the Company’s voluntary or involuntary liquidation, winding-up or dissolution, the restrictions on the issuance of shares of the same series or of any other class or series, the
+terms and conditions of conversion of the Mandatory Convertible Preferred Stock and the voting rights of the Mandatory Convertible Preferred Stock.  The Certificate of Designations became effective upon such filing.
+Unless converted earlier in accordance with the terms of the Certificate of Designations, each share of the Mandatory Convertible Preferred Stock
+will automatically convert on the mandatory conversion date, which is expected to be September 1, 2027, into between 2.5352 shares and 3.1056 shares of the Company’s common stock, par value $0.01 per share (the “Common Stock”), in each case subject
+to customary anti-dilution adjustments as described in the Certificate of Designations.  The number of shares of Common Stock issuable upon conversion of the Mandatory Convertible Preferred Stock will be determined based on the average volume
+weighted average price per share of Common Stock over the 20 consecutive trading day period beginning on, and including, the 21st scheduled trading day immediately prior to September 1, 2027.
+Dividends on the Mandatory Convertible Preferred Stock will be payable on a cumulative basis when, as and if declared by the Company’s board of
+directors, or an authorized committee thereof, at an annual rate of 7.625% on the liquidation preference of $50.00 per share of Mandatory Convertible Preferred Stock, and may be paid in cash or, subject to certain limitations, in shares of Common
+Stock or any combination of cash and shares of Common Stock.  If declared, dividends on the Mandatory Convertible Preferred Stock will be payable quarterly on March 1, June 1, September 1 and December 1 of each year,  commencing on December 1,
+2024, and ending on, and including, September 1, 2027.
+Holders of the Mandatory Convertible Preferred Stock will have the option to convert their shares of Mandatory Convertible Preferred Stock, in whole
+or in part, at any time prior to the mandatory conversion date (an “Early Conversion”).  Early Conversions that are not in connection with a Fundamental Change (as defined in the Certificate of Designations) will be settled at the minimum
+conversion rate of 2.5352 shares of Common Stock per share of the Mandatory Convertible Preferred Stock (subject to anti-dilution adjustments).  In addition, the conversion rate applicable to any such Early Conversion may in certain circumstances
+be increased to compensate holders of the Mandatory Convertible Preferred Stock for certain unpaid accumulated dividends.
+If a Fundamental Change occurs on or prior to September 1, 2027, holders of the Mandatory Convertible Preferred Stock will have the right to convert
+their shares of Mandatory Convertible Preferred Stock, in whole or in part, into shares of Common Stock at the Fundamental Change Conversion Rate (as defined in the Certificate of Designations) for a specified period of time.  Holders of the
+Mandatory Convertible Preferred Stock will also have the right to receive an amount, payable in cash or, subject to certain limitations, in shares of Common Stock or any combination of cash and shares of Common Stock, to compensate them for certain
+unpaid accumulated dividends and any remaining future scheduled dividend payments.
+Shares of Common Stock will rank junior to the Mandatory Convertible Preferred Stock with respect to the payment of dividends and amounts payable in
+the event of the Company’s liquidation, dissolution or winding up of its affairs.  Subject to certain exceptions, so long as any share of Mandatory Convertible Preferred Stock remains outstanding, no dividends or distributions will be declared or
+paid on shares of Common Stock or any other class or series of stock ranking junior to the Mandatory Convertible Preferred Stock, and no Common Stock or any other class or series of stock ranking junior to or on parity with the Mandatory
+Convertible Preferred Stock will be, directly or indirectly, purchased, redeemed, or otherwise acquired for consideration by the Company or any of its subsidiaries unless, in each case, all accumulated and unpaid dividends for all preceding
+dividend periods have been declared and paid in full, in cash, shares of our Common Stock or a combination thereof, or a sufficient sum of cash or number of shares of Common Stock has been set apart for the payment of such dividends on all
+outstanding shares of Mandatory Convertible Preferred Stock.
+When dividends on shares of the Mandatory Convertible Preferred Stock (i) have not been declared and paid in full on any dividend payment date, or
+(ii) have been declared, but a sum of cash or number of shares of Common Stock sufficient for payment thereof has not been set aside for the benefit of the holders thereof, no dividends may be declared or paid on any shares of stock ranking on
+parity with the Mandatory Convertible Preferred Stock unless dividends are declared on the Mandatory Convertible Preferred Stock such that the respective amounts of such dividends declared on the shares of the Mandatory Convertible Preferred Stock
+and such shares of parity stock are allocated pro rata among the holders of the Mandatory Convertible Preferred Stock and the holders of any shares of parity stock then outstanding.
+Whenever dividends on any shares of the Mandatory Convertible Preferred Stock have not been declared and paid for the equivalent of six or more
+dividend periods, whether or not consecutive, the authorized number of directors on the Company’s board of directors will, at the next annual meeting of stockholders or at a special meeting of stockholders, automatically be increased by two, and
+the holders of the Mandatory Convertible Preferred Stock, voting together as a single class with the holders of any and all classes or series of voting parity stock then outstanding, will be entitled to vote for the election of a total of two
+additional directors to fill such two new directorships at the Company’s next annual meeting of stockholders or at a special meeting of stockholders, subject to certain limitations.
+In addition, upon the Company’s voluntary or involuntary liquidation, winding-up or dissolution, each holder of the Mandatory Convertible Preferred
+Stock will be entitled to receive a liquidation preference in the amount of $50.00 per share of Mandatory Convertible Preferred Stock, plus an amount equal to accumulated and unpaid dividends on such shares, whether or not declared, to, but
+excluding, the date fixed for liquidation, winding-up or dissolution, to be paid out of the Company’s assets legally available for distribution to its stockholders after satisfaction of indebtedness and other liabilities owed to the Company’s
+creditors and holders of shares of its stock ranking senior to the Mandatory Convertible Preferred Stock and before any payment or distribution is made to holders of any stock ranking junior to the Mandatory Convertible Preferred Stock, including,
+without limitation, Common Stock.
+In addition, if (x) the Juniper Acquisition is not consummated on or before the later of (i) five business days after October 9, 2025 and (ii) five
+business days after any later date to which Juniper Networks, Inc. and the Company may agree to extend the ‘‘End Date’’ in the merger agreement for the Juniper Acquisition or (y) the Company notifies holders of the Mandatory Convertible Preferred
+Stock in writing that the Company will not pursue the consummation of the Juniper Acquisition, the Company may, within 75 calendar days, at its option, give notice of a redemption to the holders of the Mandatory Convertible Preferred Stock to
+redeem all, but not less than all, of the Mandatory Convertible Preferred Stock at a redemption amount equal to the Acquisition Termination Make-Whole Amount (as defined in the Certificate of Designations).
+The foregoing description of the terms of the Mandatory Convertible Preferred Stock and the Certificate of Designations in this Item 3.03 is
+qualified in its entirety by reference to the Certificate of Designations, which is attached hereto as Exhibit 3.1 and is incorporated herein by reference.
+Item 5.03 | Amendments to Articles of Incorporation or Bylaws; Change in Fiscal Year.
+The information set forth above under Item 3.03 of this Current Report on Form 8-K is hereby incorporated by reference into this Item 5.03.
+Item 8.01 | Other Events.
+On September 9, 2024, the Company issued a press release announcing the launch of the Preferred Stock Offering.  A copy of the press release is
+attached hereto as Exhibit 99.1 and incorporated herein by reference.
+On September 10, 2024, the Company issued a press release announcing the pricing of the Preferred Stock Offering.  A copy of the press release is
+attached hereto as Exhibit 99.2 and incorporated herein by reference.
+On September 13, 2024, the Company closed the Preferred Stock Offering.  The legal opinion of Wachtell, Lipton, Rosen & Katz, issued in
+connection with the Preferred Stock Offering, is attached hereto as Exhibit 5.1 and is incorporated herein by reference.
+Item 9.01 | Financial Statements and Exhibits.
+(d) Exhibits.
+Exhibit No. | Description
+1.1 | Underwriting Agreement, dated September 10,
+2024 , by and among Hewlett Packard Enterprise Company and Citigroup Global Markets Inc., J.P. Morgan Securities LLC and Mizuho Securities USA LLC , as representatives of the several underwriters named therein
+1.2 | Underwriting Agreement, dated September 12,
+2024 , by and among Hewlett Packard Enterprise Company and Citigroup Global Markets Inc., J.P. Morgan Securities LLC and Mizuho Securities USA LLC , as representatives of the several underwriters named therein
+3.1 | Certificate of Designations of 7.625% Series C Mandatory Convertible Preferred Stock of Hewlett Packard Enterprise Company
+4.1 | Form of Global Security of 7.625% Series C Mandatory Convertible Preferred Stock Certificate (included within Exhibit 3.1)
+5.1 | Opinion of Wachtell, Lipton, Rosen & Katz
+23.1 | Consent of Wachtell, Lipton, Rosen & Katz (included in Exhibit 5.1)
+99.1 | Press Release, dated September 9, 2024
+99.2 | Press Release, dated September 10, 2024
+104 | Cover Page Interactive Data File (embedded within the Inline XBRL document)
+Forward-Looking Statements
+This Current Report on Form 8-K contains forward-looking statements within the meaning of the safe harbor provisions of the Private Securities Litigation Reform Act of
+1995. Such statements involve risks, uncertainties and assumptions.  If the risks or uncertainties ever materialize or the assumptions prove incorrect, the results of the Company and its consolidated subsidiaries may differ materially from those
+expressed or implied by such forward-looking statements and assumptions.  The words “believe”, “expect”, “anticipate”, “guide”, “optimistic”, “intend”, “aim”, “will”, “estimates”, “may”, “could”, “should” and similar expressions are intended to
+identify such forward-looking statements.  All statements other than statements of historical fact are statements that could be deemed forward-looking statements, including but not limited to any anticipated financial or operational benefits
+associated with the segment realignment that became effective as of the beginning of the first quarter of fiscal 2024;  any projections, estimations or expectations of addressable markets and their sizes, revenue (including annualized revenue
+run-rate), margins, expenses (including stock-based compensation expenses), investments, effective tax rates, interest rates, the impact of tax law changes and related guidance and regulations, net earnings, net earnings per share, cash flows,
+liquidity and capital resources, inventory, goodwill, impairment charges, hedges and derivatives and related offsets, order backlog, benefit plan funding, deferred tax assets, share repurchases, currency exchange rates, repayments of debts
+including our asset-backed debt securities, or other financial items; recent amendments to accounting guidance and any potential impacts on our financial reporting therefrom; any projections or estimations of future orders, including as-a-service
+orders; any statements of the plans, strategies, and objectives of management for future operations, as well as the execution and consummation of corporate transactions or contemplated acquisitions (including but not limited to our proposed
+acquisition of Juniper Networks, Inc.) and dispositions (including but not limited to the disposition of H3C shares and the receipt of proceeds therefrom), research and development expenditures, and any resulting benefit, cost savings, charges,
+or revenue or profitability improvements; any statements concerning the expected development, performance, market share, or competitive performance relating to products or services; any statements concerning technological and market trends, the
+pace of technological innovation, and adoption of new technologies, including artificial intelligence-related and other products and services offered by the Company; any statements regarding current or future macroeconomic trends or events and
+the impacts of those trends and events on the Company and our financial performance, including but not limited to supply chain, demand for our products and services, and access to liquidity, and our actions to mitigate such impacts on our
+business; the scope and duration of outbreaks, epidemics, pandemics, or public health crises, the ongoing conflicts between Russia and Ukraine and in the Middle East, and the relationship between China and the U.S., and our actions in response
+thereto, and their impacts on our business, operations, liquidity and capital resources, employees, customers, partners, supply chain, financial results, and the world economy; any statements regarding future regulatory trends and the resulting
+legal and reputational exposure, including but not limited to those relating to environmental, social, governance, cybersecurity, data privacy, and artificial intelligence issues, among others; any statements regarding pending investigations,
+claims, or disputes; any statements of expectation or belief, including those relating to future guidance and the financial performance of the Company; and any statements of assumptions underlying any of the foregoing.  Risks, uncertainties, and
+assumptions include the need to address the many challenges facing the Company’s businesses; the competitive pressures faced by the Company’s businesses; risks associated with executing the Company’s strategy; the impact of macroeconomic and
+geopolitical trends and events, including but not limited to supply chain constraints, the use and development of artificial intelligence, the inflationary environment (though easing), the ongoing conflicts between Russia and Ukraine and in the
+Middle East, and the relationship between China and the U.S.; the need to effectively manage third-party suppliers and distribute the Company’s products and services; the protection of the Company’s intellectual property assets, including
+intellectual property licensed from third parties and intellectual property shared with its former parent; risks associated with the Company’s international operations (including from public health crises, such as pandemics or epidemics, and
+geopolitical events, such as those mentioned above); the development and transition of new products and services and the enhancement of existing products and services to meet customer needs and respond to emerging technological trends; the
+execution of the Company’s transformation and mix shift of its portfolio of offerings; the execution and performance of contracts by the Company and its suppliers, customers, clients, and partners, including any impact thereon resulting from
+macroeconomic or geopolitical events, such as those mentioned above; the prospect of a shutdown of the U.S. federal government; the hiring and retention of key employees; the execution, integration, consummation and other risks associated with
+business combination, disposition and investment transactions, including but not limited to the risks associated with the disposition of H3C shares and the receipt of proceeds therefrom and completion of our proposed acquisition of Juniper
+Networks, Inc. and our ability to integrate and implement our plans, forecasts, and other expectations with respect to the consolidated business; the impact of changes to privacy, cybersecurity, environmental, global trade, and other governmental
+regulations; changes in our product, lease, intellectual property, or real estate portfolio; the payment or non-payment of a dividend for any period; the efficacy of using non-GAAP, rather than GAAP, financial measures in business projections and
+planning; the judgments required in connection with determining revenue recognition; impact of company policies and related compliance; utility of segment realignments; allowances for recovery of receivables and warranty obligations; provisions
+for, and resolution of, pending investigations, claims, and disputes; the impacts of tax law changes and related guidance or regulations; and other risks that are described herein, including but not limited to the risks described in the Company’s
+Annual Report on Form 10-K for the fiscal year ended October 31, 2023, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K, and in other filings made by the Company from time to time with the SEC.  The Company assumes no obligation and
+does not intend to update these forward-looking statements, except as required by applicable law.
+SIGNATURE
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has caused this report to be signed on its behalf by the undersigned hereunto duly
+authorized.
+HEWLETT PACKARD ENTERPRISE COMPANY
+By: | /s/ David Antczak
+Name: | David Antczak
+Title: | Senior Vice President, General Counsel and Corporate Secretary
+DATE:   September 13, 2024

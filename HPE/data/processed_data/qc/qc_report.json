@@ -1,0 +1,112 @@
+[
+  {
+    "check": "Price data ends on valuation date",
+    "passed": true,
+    "detail": "2026-09-11"
+  },
+  {
+    "check": "Valuation price equals 11-Sep-2026 close",
+    "passed": true,
+    "detail": "62.09000015258789"
+  },
+  {
+    "check": "Financial reconciliation checks",
+    "passed": true,
+    "detail": "40/40 passed"
+  },
+  {
+    "check": "EV\u2192equity bridge (Bear)",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Equity\u2192per share (Bear)",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "EV\u2192equity bridge (Base)",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Equity\u2192per share (Base)",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "EV\u2192equity bridge (Bull)",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Equity\u2192per share (Bull)",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Sensitivity grid centre equals base case",
+    "passed": true,
+    "detail": "38.80"
+  },
+  {
+    "check": "No formula errors in HPE_Damodaran_fcffsimpleginzu.xlsx",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Damodaran Ginzu computes a value per share",
+    "passed": true,
+    "detail": "31.5684719085642"
+  },
+  {
+    "check": "No formula errors in HPE_financial_analysis.xlsx",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "No formula errors in HPE_valuation_model.xlsx",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Excel DCF_Bear reconciles to valuation.py",
+    "passed": true,
+    "detail": "Excel 22.1913579161298 vs Python 22.1913585841286"
+  },
+  {
+    "check": "Excel DCF_Base reconciles to valuation.py",
+    "passed": true,
+    "detail": "Excel 38.7967395173751 vs Python 38.7967406320463"
+  },
+  {
+    "check": "Excel DCF_Bull reconciles to valuation.py",
+    "passed": true,
+    "detail": "Excel 53.9349346925662 vs Python 53.9349362807955"
+  },
+  {
+    "check": "/final holds exactly the two deliverables",
+    "passed": true,
+    "detail": "['HPE_Investment_Presentation.pptx', 'HPE_Investment_Research.html']"
+  },
+  {
+    "check": "Key figures present in report",
+    "passed": true,
+    "detail": "['62.09', '38.80', '38.43', '22.19', '53.93']"
+  },
+  {
+    "check": "Report has no rating/price-target language",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Key figures present in deck",
+    "passed": true,
+    "detail": "['62.09', '38.80', '38.43', '22.19', '53.93']"
+  },
+  {
+    "check": "Source log local files exist",
+    "passed": true,
+    "detail": "213 sources; missing []"
+  }
+]

@@ -1,0 +1,202 @@
+false
+0001645590
+0001645590
+2024-09-12
+2024-09-12
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+WASHINGTON, D.C. 20549
+FORM
+8-K
+CURRENT REPORT
+PURSUANT TO SECTION 13 OR 15(d) OF THE
+SECURITIES EXCHANGE ACT OF 1934
+September 12, 2024
+Date of Report (Date of earliest event reported)
+HEWLETT PACKARD ENTERPRISE COMPANY
+(Exact name of registrant as specified in its charter)
+Delaware | 001-37483 | 47-3298624
+(State or other jurisdiction of incorporation) | (Commission File Number) | (IRS Employer Identification No.)
+1701 East Mossy Oaks Road , Spring , TX (Address of principal executive offices) | 77389 (Zip code)
+(
+678
+)
+259-9860
+(Registrant’s telephone number, including area code)
+Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions
+:
+☐ | Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+☐ | Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+☐ | Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+☐ | Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+Securities registered pursuant to Section 12(b) of the Exchange Act:
+Title of each class | Trading Symbol(s) | Name of each exchange on which registered
+Common stock, par value $0.01 per share | HPE | NYSE
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2
+of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).
+☐ | Emerging growth company
+☐ | If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards
+provided pursuant to Section 13(a) of the Exchange Act.
+Item 1.01 | Entry into a Material Definitive Agreement.
+Revolving Credit Agreement
+On September 12, 2024, Hewlett Packard Enterprise Company (“HPE” or “we”) entered into a revolving credit facility (the “Revolving Credit Agreement”), together with
+the lenders named therein, the borrowing subsidiaries from time to time party thereto, JPMorgan Chase Bank, N.A. (“JPMorgan”),
+as co-administrative agent and administrative
+processing agent, and Citibank, N.A. (“Citibank”), as co-administrative agent, providing for a senior, unsecured revolving credit facility with aggregate lending commitments of $5,250,000,000, comprised of (i) $4,750,000,000 of commitments
+available from and after September 12, 2024 and (ii) $500,000,000 of commitments available from and subject to, among other things, (1) the consummation of HPE’s acquisition of
+Juniper Networks, Inc., a Delaware corporation (“Juniper”),
+pursuant to that certain Agreement and Plan of Merger (as amended or supplemented from time to time, the “Merger Agreement”), by and among Juniper, HPE and Jasmine Acquisition Sub, Inc., a Delaware corporation and a wholly owned subsidiary of HPE
+(the “Juniper Acquisition”)
+and (2) the refinancing of Juniper’s credit agreement in connection with the closing of the Juniper Acquisition (such refinancing, the “Juniper
+Refinancing”)
+. Loans pursuant to the Revolving Credit Agreement may be used for general corporate purposes.
+HPE may, from time to time after the effectiveness of (or, if earlier, the termination of) the above and certain other conditions, request an increase in the
+commitments under the Revolving Credit Agreement, in an aggregate amount not to exceed $500,000,000. Commitments under the Revolving Credit Agreement will be
+available for a period
+of five years, which period may be extended, subject to the satisfaction of certain conditions, by up to two one-year periods.
+Revolving loan borrowings under the Revolving Credit Agreement will bear interest at rates per annum, determined, at HPE’s option, by reference to
+(a) in the case of borrowings in U.S. Dollars, (i) an alternate base rate (“ABR”) or (ii) Term SOFR, (b) in the case of borrowings in Euros, EURIBOR, or (c) in the case of borrowings in Sterling, SONIA. ABR borrowings will bear interest at (a)
+the highest of (i) the prime rate last quoted by the
+Wall Street Journal
+, (ii) the Federal Reserve Bank of New York rate plus one-half of 1% and (iii) one-month Term SOFR
+plus 1%, plus (b) a margin of between zero and 62.5 basis points, depending on the rating of HPE’s long-term senior unsecured debt. Term SOFR borrowings will bear interest at (a) the Term SOFR rate for the interest period for such borrowing, plus
+(b) a spread adjustment of 10.0 basis points, plus (c) a margin of between 100.0 and 162.5 basis points, depending on the rating of HPE’s long-term senior unsecured debt. EURIBOR borrowings will bear interest at (a) the EURIBOR rate for the
+interest period for such borrowing, adjusted by (b) the statutory reserve requirements for eurocurrency liabilities, plus (c)  a margin of between 100.0 and 162.5 basis points, depending on the rating of HPE’s long-term senior unsecured debt.
+SONIA borrowings will bear interest at (a) the Daily Simple SONIA rate, plus (b) a margin of between 100.0 and 162.5 basis points, depending on the rating of HPE’s long-term senior unsecured debt.
+Swingline loan borrowings under the Revolving Credit Agreement will bear interest at rates per annum, determined by reference to (a) in the case of
+borrowings in U.S. Dollars, ABR (bearing interest at the aforementioned rate), (b) in the case of borrowings in Euros, Daily Simple ESTR (bearing interest at (i) the Daily Simple ESTR rate, plus (ii) a margin of between 100.0 and 162.5 basis
+points, depending on the rating of HPE’s long-term senior unsecured debt), or (c) in the case of borrowings in Sterling, SONIA (bearing interest at the aforementioned rate).
+In addition, HPE will pay a commitment fee on unused commitments between 7.5 and 22.5 basis points, depending on the rating of HPE’s long-term senior
+unsecured debt.
+The Revolving Credit Agreement contains various customary covenants that limit, among other things, the incurrence of indebtedness by subsidiaries of
+HPE, the grant or incurrence of liens by HPE and its subsidiaries, and the entry into certain fundamental change transactions by HPE and its significant subsidiaries. The Revolving Credit Agreement contains financial covenants pursuant to which
+HPE will not permit (a) in certain circumstances, the ratio of consolidated total debt to consolidated EBITDA on the last day of any fiscal quarter to exceed 4.0 to 1.0 and (b) the ratio of consolidated EBITDA to consolidated net interest expense
+for any period of four consecutive fiscal quarters to be less than 3.0 to 1.0.
+The Revolving Credit Agreement includes customary events of default, including events of default relating to non-payment of amounts due under the
+Revolving Credit Agreement, material inaccuracy of representations and warranties, violation of covenants, non-payment or acceleration of other material indebtedness, bankruptcy and insolvency, unsatisfied material judgments and change of
+control.
+The foregoing description does not purport to be complete and is qualified in its entirety by reference to the full text of the Revolving Credit
+Agreement, a copy of which is attached hereto as Exhibit 10.1 and is incorporated herein by reference.
+364-Day Credit Agreement
+On September 12, 2024, HPE entered into a delayed-draw term loan credit agreement (the “364-Day Credit Agreement”) with the lenders named therein, JPMorgan,
+as co-administrative agent and administrative processing agent, and Citibank, as co-administrative agent, with aggregate lending commitments of $8,988,140,158 for senior, unsecured
+delayed draw term loans in connection with the pending Juniper Acquisition.
+The availability of the term loans under the 364-Day Credit Agreement is subject to the satisfaction (or waiver) of certain conditions set forth therein, including the
+substantially concurrent closing of the Juniper Acquisition and the Juniper Refinancing. The term loans will be funded in a single borrowing on the date of the closing of the Juniper Acquisition and will be
+used to finance all or a portion of the consideration payable by HPE pursuant to the Merger Agreement and to pay certain related fees and expenses.
+The commitments and/or borrowings under the 364-Day Credit Agreement will be
+automatically and permanently reduced or prepaid, as applicable, upon receipt of the net cash proceeds in respect of certain debt incurrences, equity issuances and sales or other dispositions of certain assets of HPE or any of its subsidiaries,
+in each case subject to certain exceptions and as more fully described in the 364-Day Credit Agreement.
+HPE anticipates that commitments under the 364-Day Credit Agreement will be reduced on a
+dollar-for-dollar basis by the net cash proceeds from the issuance of at least $1.5 billion of mandatory convertible preferred stock and/or the issuance of one or more series of senior unsecured notes through one or more public offerings.
+Unless previously terminated, commitments under the 364-Day Credit Agreement will terminate upon the earliest of (i) five business days after the Juniper Outside Date
+(as defined therein), (ii) the occurrence of the closing of the Juniper Acquisition without the funding of any term loans under the 364-Day Credit Agreement and (iii) the termination of the Merger Agreement by HPE in writing in accordance with its
+terms. Borrowings under the 364-Day Credit Agreement will mature 364 days from the date of funding, and are not subject to amortization
+.
+Borrowings under the 364-Day Credit Agreement will be made in U.S. Dollars and bear interest at rates per annum, determined, at HPE’s option, by
+reference to (a) an ABR or (b) Term SOFR. ABR borrowings will bear interest at (a) the highest of (i) the prime rate last quoted by the
+Wall Street Journal
+, (ii) the
+Federal Reserve Bank of New York rate plus one-half of 1% and (iii) one-month Term SOFR plus 1%, plus (b) (i) from the date of funding through 179 days thereafter, a margin of between zero and 37.5 basis points and (ii) from the 180th day after
+the date of funding, a margin of between zero and 50.0 basis points, in each case depending on the rating of HPE’s long-term senior unsecured debt. Term SOFR borrowings will bear interest at (a) the Term SOFR rate for the interest period for such
+borrowing, plus (b) a spread adjustment of 10.0 basis points, plus (c) (i) from the date of funding through 179 days thereafter, a margin of between 87.5 and 137.5 basis points and (ii) from the 180th day after the date of funding, a margin of
+between 100.0 and 150.0 basis points, in each case depending on the rating of HPE’s long-term senior unsecured debt. In addition, HPE will pay a ticking fee on aggregate commitments between 7.5 and 22.5 basis points, depending on the rating of
+HPE’s long-term senior unsecured debt, payable on the earlier of the date of the funding of the term loans and the termination of the commitments. HPE will also pay an extension fee equal to 17.5 basis points of the aggregate principal amount, if
+any, of the unfunded commitments on July 9, 2025.
+The 364-Day Credit Agreement contains various customary covenants that limit, among other things, the incurrence of indebtedness by subsidiaries of
+HPE, the grant or incurrence of liens by HPE and its subsidiaries, and the entry into certain fundamental change transactions by HPE and its significant subsidiaries. The 364-Day Credit Agreement contains financial covenants pursuant to which HPE
+will not permit (a) in certain circumstances, the ratio of consolidated total debt to consolidated EBITDA on the last day of any fiscal quarter to exceed 4.0 to 1.0 and (b) the ratio of consolidated EBITDA to consolidated net interest expense for
+any period of four consecutive fiscal quarters to be less than 3.0 to 1.0.
+The 364-Day Credit Agreement includes customary events of default, including events of default relating to non-payment of amounts due under the
+364-Day Credit Agreement, material inaccuracy of representations and warranties, violation of covenants, non-payment or acceleration of other material indebtedness, bankruptcy and insolvency, unsatisfied material judgments and change of control.
+The foregoing description does not purport to be complete and is qualified in its entirety by reference to the full text of the 364-Day Credit Agreement,
+a copy of which is attached hereto as Exhibit 10.2 and is incorporated herein by reference.
+Three-Year Credit Agreement
+On September 12, 2024, HPE entered into a delayed-draw term loan credit facility (the “Three-Year Credit Agreement”), with the lenders named therein, JPMorgan,
+as co-administrative agent and administrative processing agent, and Citibank, as co-administrative agent, with aggregate lending commitments of $3 billion for senior, unsecured
+delayed-draw term loans in connection with the pending Juniper Acquisition.
+The availability of the term loans under the Three-Year Credit Agreement is subject to the satisfaction (or waiver) of certain conditions set forth therein, including
+the substantially concurrent closing of the Juniper Acquisition and the Juniper Refinancing. The term loans will be funded in a single borrowing on the date of the closing of the Juniper Acquisition and will be
+used to finance all or a portion of the consideration payable by HPE pursuant to the Merger Agreement and to pay certain related fees and expenses.
+Unless previously terminated, commitments under the Three-Year Credit Agreement will terminate upon the earliest of (i) five business days after the Juniper Outside
+Date (as defined therein), (ii) the occurrence of the closing of the Juniper Acquisition without the funding of any borrowings under the Three-Year Credit Agreement and (iii) the termination of the Merger Agreement by HPE in writing in accordance
+with its terms. Borrowings under the Three-Year Credit Agreement will mature three years from the date of funding, and will amortize on a quarterly basis in an amount equal to 1.25% of the original principal amount of the borrowings made on the
+date of funding
+. The Three-Year Credit Agreement does not provide for mandatory commitment reductions or prepayments.
+Borrowings under the Three-Year Credit Agreement will be made in U.S. Dollars and bear interest at rates per annum, determined, at HPE’s option, by
+reference to (a) an ABR or (b) Term SOFR. ABR borrowings will bear interest at (a) the highest of (i) the prime rate last quoted by the
+Wall Street Journal
+, (ii) the
+Federal Reserve Bank of New York rate plus one-half of 1% and (iii) one-month Term SOFR plus 1%, plus (b) a margin of between zero and 62.5 basis points, depending on the rating of HPE’s long-term senior unsecured debt. Term SOFR borrowings will
+bear interest at (a) the Term SOFR rate for the interest period for such borrowing, plus (b) a spread adjustment of 10.0 basis points, plus (c) a margin of between 100.0 and 162.5 basis points, depending on the rating of HPE’s long-term senior
+unsecured debt. In addition, HPE will pay a ticking fee on aggregate commitments between 7.5 and 22.5 basis points, depending on the rating of HPE’s long-term senior unsecured debt, payable on the earlier of the date of the funding of the term
+loans and the termination of the commitments. HPE will also pay an extension fee equal to 17.5 basis points of the aggregate principal amount, if any, of the unfunded commitments on July 9, 2025.
+The Three-Year Credit Agreement contains various customary covenants that limit, among other things, the incurrence of indebtedness by subsidiaries
+of HPE, the grant or incurrence of liens by HPE and its subsidiaries, and the entry into certain fundamental change transactions by HPE and its significant subsidiaries. The Three-Year Credit Agreement contains financial covenants pursuant to
+which HPE will not permit (a) in certain circumstances, the ratio of consolidated total debt to consolidated EBITDA on the last day of any fiscal quarter to exceed 4.0 to 1.0 and (b) the ratio of consolidated EBITDA to consolidated net interest
+expense for any period of four consecutive fiscal quarters to be less than 3.0 to 1.0.
+The Three-Year Credit Agreement includes customary events of default, including events of default relating to non-payment of amounts due under the
+Three-Year Credit Agreement, material inaccuracy of representations and warranties, violation of covenants, non-payment or acceleration of other material indebtedness, bankruptcy and insolvency, unsatisfied material judgments and change of
+control.
+The foregoing description does not purport to be complete and is qualified in its entirety by reference to the full text of the Three-Year Credit
+Agreement, a copy of which is attached hereto as Exhibit 10.3 and is incorporated herein by reference.
+Item 1.02. | Termination of a Material Definitive Agreement.
+In connection with its entry into the Revolving Credit Agreement described in Item 1.01 above, HPE terminated its Five-Year Credit Agreement, dated
+as of December 10, 2021, as amended by the Amendment Agreement, dated as of June 18, 2024, among HPE, the borrowing subsidiaries from time to time party thereto, the lenders party thereto, JPMorgan, as administrative processing agent and
+co-administrative agent, and Citibank, as co-administrative agent, as amended or supplemented from time to time.
+Item 2.03. | Creation of a Direct Financial Obligation or an Obligation under an Off-Balance Sheet Arrangement of a Registrant.
+The information in Item 1.01 of this Current Report on Form 8-K is incorporated into this Item 2.03 by reference.
+Item 8.01. | Other Events.
+As previously disclosed in our Form 8-K filed on January 10, 2024, on January 9, 2024, in connection with our entry into the Merger Agreement, we obtained a commitment
+letter (the “Term Loan Commitment Letter”) from Citigroup Global Markets Inc., JPMorgan Chase Bank, N.A., Mizuho Bank, Ltd. and certain other financial institutions (collectively, the “Commitment Parties”), pursuant to which the Commitment Parties
+agreed to provide, subject to customary conditions including the consummation of the Juniper Acquisition, up to $14.0 billion of senior, unsecured delayed-draw term loan facilities, comprised of an $11.0 billion 364-day tranche and a $3.0 billion
+three-year tranche.
+In connection with its entry into the 364-Day Credit Agreement and Three-Year Credit Agreement, on September 12, 2024, HPE terminated the Term Loan Commitment Letter and
+the commitments thereunder.
+Item 9.01. | Financial Statements and Exhibits.
+(d)  Exhibits.
+The following exhibits are filed as part of this Current Report on Form 8-K:
+Exhibit No. | Exhibit Description
+10.1 | Five-Year Credit Agreement, dated as of September 12, 2024, among Hewlett Packard Enterprise Company, the Borrowing Subsidiaries from time to time party thereto, the Lenders party
+thereto, JPMorgan Chase Bank, N.A., as Administrative Processing Agent and Co-Administrative Agent, and Citibank, N.A., as Co-Administrative Agent.
+10.2 | 364-Day Term Loan Credit Agreement, dated as of September 12, 2024, among Hewlett Packard Enterprise Company, the Lenders party thereto, JPMorgan Chase Bank, N.A., as
+Administrative Processing Agent and Co-Administrative Agent, and Citibank, N.A., as Co-Administrative Agent.
+10.3 | Three-Year Term Loan Credit Agreement, dated as of September 12, 2024, among Hewlett Packard Enterprise Company, the Lenders party thereto, JPMorgan Chase Bank, N.A., as
+Administrative Processing Agent and Co-Administrative Agent, and Citibank, N.A., as Co-Administrative Agent.
+104 | Cover Page Interactive Data File - the cover page XBRL tags are embedded within the Inline XBRL document.
+Forward-Looking Statements
+This Current Report on Form 8-K contains forward-looking statements within the meaning of the safe harbor provisions of the Private Securities Litigation Reform Act of
+1995. Such statements involve risks, uncertainties, and assumptions. If the risks or uncertainties ever materialize or the assumptions prove incorrect, the results of HPE may differ materially from those expressed or implied by such forward-looking
+statements and assumptions. The words “believe”, “expect”, “anticipate”, “optimistic”, “intend”, “guide”, “will”, “estimate”, “may”, “could”, “aim”, “should”, and similar expressions are intended to identify such forward-looking statements. All
+statements other than statements of historical fact are statements that could be deemed forward-looking statements, including but not limited to any anticipated financial or operational benefits associated with the segment realignment that became
+effective as of the beginning of the first quarter of fiscal 2024; any projections, estimations, or expectations of addressable markets and their sizes, revenue (including annualized revenue run rate), margins, expenses (including stock-based
+compensation expenses), investments, effective tax rates, interest rates, investments, net earnings, net earnings per share, cash flows, liquidity and capital resources, inventory, order backlog, share repurchases, dividends, currency exchange
+rates, repayments of debts, amortization of intangible assets, or other financial items; any projections or estimations of future orders, including as-a-service orders; any statements of the plans, strategies, and objectives of management for
+future operations, as well as the execution and consummation of corporate transactions or contemplated acquisitions (including but not limited to the Juniper Acquisition) and dispositions (including but not limited to the disposition of our H3C
+shares and the receipt of proceeds therefrom), research and development expenditures, and any resulting benefit, cost savings, charges, or revenue or profitability improvements; any statements concerning the expected development, performance,
+market share, or competitive performance relating to products or services; any statements concerning technological and market trends, the pace of technological innovation, and adoption of new technologies, including artificial intelligence-related
+and other products and services offered by HPE; any statements regarding current or future macroeconomic trends or events and the impact of those trends and events on HPE and our financial performance, including but not limited to supply chain,
+demand for our products and services, and access to liquidity, and our actions to mitigate such impacts on our business; any statements concerning the relationship between China and the U.S., and our actions in response thereto; any statements of
+expectation or belief, including those relating to future guidance and the financial performance of HPE; and any statements of assumptions underlying any of the foregoing.
+Risks, uncertainties and assumptions include the need to address the many challenges facing HPE’s businesses; the competitive pressures faced by HPE’s businesses;
+risks associated with executing HPE’s strategy; the impact of macroeconomic and geopolitical trends and events, including but not limited to supply chain constraints, the use and development of artificial intelligence, the inflationary environment,
+the ongoing conflicts between Russia and Ukraine and in the Middle East, and the relationship between China and the U.S.; the need to effectively manage third-party suppliers and distribute HPE’s products and services; the protection of HPE’s
+intellectual property assets, including intellectual property licensed from third parties and intellectual property shared with its former parent; risks associated with HPE’s international operations (including public health crises, such as
+pandemics or epidemics, and geopolitical events, such as, but not limited to, those mentioned above); the development of and transition to new products and services and the enhancement of existing products and services to meet customer needs and
+respond to emerging technological trends; the execution of HPE’s transformation and mix shift of its portfolio of offerings; the execution and performance of contracts by HPE and its suppliers, customers, clients, and partners, including any impact
+thereon resulting from macroeconomic or geopolitical events, such as, but not limited to, those mentioned above; the prospect of a shutdown of the U.S. federal government; the hiring and retention of key employees; the execution, integration,
+consummation, and other risks associated with business combination, disposition, and investment transactions, including but not limited to the risks associated with the disposition of H3C shares and the receipt of proceeds therefrom and completion
+of the Merger and our ability to integrate and implement our plans, forecasts, and other expectations with respect to the consolidated business; the impact of changes to privacy, cybersecurity, environmental, global trade, and other governmental
+regulations; changes in our product, lease, intellectual property, or real estate portfolio; the payment or non-payment of a dividend for any period; the efficacy of using non-GAAP, rather than GAAP, financial measures in business projections and
+planning; the judgments required in connection with determining revenue recognition; impact of company policies and related compliance; utility of segment realignments; allowances for recovery of receivables and warranty obligations; provisions
+for, and resolution of, pending investigations, claims, and disputes; the impacts of tax law changes and related guidance or regulations; and other risks that are described herein, including but not limited to the risks described in HPE’s Annual
+Report on Form 10-K for the fiscal year ended October 31, 2023, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K, and in other filings made by HPE from time to time with the Securities and Exchange Commission. HPE assumes no obligation
+and does not intend to update these forward-looking statements, except as required by applicable law.
+SIGNATURE
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has caused this report to be signed on its behalf by the undersigned hereunto duly
+authorized.
+HEWLETT PACKARD ENTERPRISE COMPANY
+By: | /s/ David Antczak
+Name: | David Antczak
+Title: | Senior Vice President, General Counsel and Corporate Secretary
+DATE:  September 12, 2024

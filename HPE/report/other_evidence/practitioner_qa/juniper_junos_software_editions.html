@@ -1,0 +1,1365 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0" />
+<meta name="description" content="You receive a Juniper Networks device with the Junos® OS preinstalled. When you power on the device, it uses the installed software to start (boot). As new features and software fixes become available, you must upgrade your software for better user experience. Before the upgrade, back up the configuration files. Read this topic to understand what you’ll gain when you upgrade Junos OS." /><meta name="topicid" content="xi260170" /><meta name="branchId" content="1" /><meta name="jdoc-content-type" content="dita-topic" /><meta name="parentFeature" content="[1252]" /><meta name="release" content="junos current" /><script type="application/ld+json">{"@context": "http://schema.org","@type": "WebPage","name": "Junos OS Installation and Upgrade Overview | Junos OS | Juniper Networks","@id": "https://www.juniper.net/documentation/us/en/software/junos/junos-install-upgrade/topics/topic-map/software-install-and-upgrade-overview.html#WebPage","url": "https://www.juniper.net/documentation/us/en/software/junos/junos-install-upgrade/topics/topic-map/software-install-and-upgrade-overview.html"}</script><title>Junos OS Installation and Upgrade Overview | Junos OS | Juniper Networks</title><link rel="modulepreload" crossorigin href="/documentation/webstatic/js/vue-core-CpJPVP49.js"><link rel="modulepreload" crossorigin href="/documentation/webstatic/js/state-P4uO3MmX.js"><link rel="modulepreload" crossorigin href="/documentation/webstatic/js/vendor-QbGKFtLE.js"><link rel="modulepreload" crossorigin href="/documentation/webstatic/js/http-DNwu3bhQ.js"><link rel="modulepreload" crossorigin href="/documentation/webstatic/js/utils-BrjAfiP7.js"><link rel="modulepreload" crossorigin href="/documentation/webstatic/js/common-CS1GkDpV.js"><link rel="stylesheet" crossorigin="" href="/documentation/webstatic/css/common-XYqID4_t.css"><link rel="stylesheet" crossorigin="" href="/documentation/webstatic/css/dita-yXMc-UTb.css"><script src="https://www.juniper.net/etc.clientlibs/clientlibs/granite/jquery.min.js"></script><link href="https://www.juniper.net/assets/styles/custom/juniper-survey.css" rel="stylesheet" type="text/css"><!--IXF: JavaScript begin-->
+<script class="trustecm" trackertype="functional">
+    /*
+    --LICENSE--
+    Access to and use of BrightEdge Link Equity Manager is governed by the 
+    Infrastructure Product Terms located at: www.brightedge.com/infrastructure-product-terms. 
+    Customer acknowledges and agrees it has read, understands and agrees to be bound by the 
+    Infrastructure Product Terms.
+    */
+
+    function startBESDK() {
+        var be_sdk_options = {
+            'api.endpoint': 'https://ixf2-api.bc0a.com',
+            'sdk.account': 'f00000000063367',
+            'requestparameters.caseinsensitive': true,
+            'whitelist.parameter.list': 'ixf'
+        };
+        BEJSSDK.construct(be_sdk_options);
+    }
+    (function () {
+        var sdkjs = document.createElement('script');
+        sdkjs.type = 'text/javascript';
+        sdkjs.async = true;
+        sdkjs.src = document.location.protocol + '//cdn.bc0a.com/be_ixf_js_sdk.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(sdkjs, s);
+        if (document.addEventListener) {
+            sdkjs.addEventListener('load', startBESDK);
+        } else {
+            sdkjs.onreadystatechange = startBESDK;
+        }
+    })();
+</script>
+<!--IXF: JavaScript end-->
+<script>
+    function insertcanonical() {
+        var canonicalexists = !!document.querySelector("link[rel='canonical']");
+        if (!canonicalexists) {
+            var tag = document.createElement("link");
+            var pathname = location.pathname;
+            var pattern = /\/$/;
+            if(pattern.test(pathname)){
+                pathname = pathname.replace(pattern,"/index.html");
+            }
+            // check if last character is slash else add / to be consistent
+            var href = "https://www.juniper.net" + pathname;
+            tag.setAttribute("rel", "canonical");
+            tag.setAttribute("href", href);
+            document.head.appendChild(tag);
+        }
+    }
+    insertcanonical();
+</script><link rel="preload" href="/documentation/webstatic/fonts/swmaterialicon.woff" as="font" type="font/woff" crossorigin="anonymous"><link rel="preload" href="/documentation/webstatic/fonts/Lato-Black.woff2" as="font" type="font/woff2" crossorigin="anonymous"><link rel="preload" href="https://www.juniper.net/etc.clientlibs/juniper/clientlibs/clientlib-global-navigation.css" as="style" /><script src="https://assets.adobedtm.com/998b2d6d4944658536fe36266a249b07e626b86d/satelliteLib-6d05b7c7a99e1cbbdcac4fcfe7005e6bee80a0e9.js"></script><script type="text/javascript" src="../../__toc.js?v+20260912T092304" basepath="../../" id="tocscript"></script></head>
+<body id="software-installation-and-upgrade-overview" style="visibility:hidden;">
+<!--[if lte IE 9]>
+	<div class="message-warning"> You are using unsupported version of Internet Explorer. Please upgrade your browser to latest version.</div>
+<![endif]-->
+<!-- Start survey script MaritzCX -->
+<script type="text/javascript" class="trustecm" trackertype="functional"
+	src="https://siteintercept.allegiancetech.com/dist/jn1si001/MCX_Juniper2.js" async></script>
+<script type="text/javascript" class="trustecm" trackertype="functional"
+	src="https://siteintercept.allegiancetech.com/InterceptScripts/mcxSiteIntercept-1.9.1.js" async></script>
+<div id="mcxInvitationModal">
+	<div id="mcxFloating">
+		<div id="mcxInfo2">
+			<div id="mcxNoButton">
+				<button id="mcxNo" onclick="McxSiteInterceptOnExit.declineSurvey();mcxDisplay();">X</button>
+			</div>
+			<div id="mcxLogos">
+				<img src="https://junipernetworks.allegiancetech.com/surveys/images/MRVCXM/juniper_logo.jpg">
+			</div>
+			<div class="clearfix">
+				<p id="mcxHeading">Help us improve your experience.</p>
+				<p id="mcxText1">Let us know what you think. </p>
+				<p id="mcxText2">Do you have time for a two-minute survey?</p>
+			</div>
+			<div id="mcxYesButton" onClick="McxSiteInterceptOnExit.acceptSurvey();mcxDisplay();" class="clearfix">
+				<button id="mcxYes">Yes</button>
+			</div>
+			<div>
+				<button id="noLater" onclick="McxSiteInterceptOnExit.declineSurvey();mcxDisplay();">Maybe Later</button>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+	window.addEventListener('message', function (e) {
+		var key = e.message ? 'message' : 'data';
+		var data = e[key];
+		if (data === 'MaritzCX Survey Close') {
+			McxSiteInterceptOnExit.closeSurveyModal(); //close iframe
+		}
+	}, false);
+</script>
+<!-- End survey script MaritzCX --><script type="application/ld+json">
+  {
+"@context": "http://schema.org",
+"@type": "Organization",
+"name": "Juniper Networks",
+"url": "https://www.juniper.net/us/en/",
+"logo": "https://www.juniper.net/assets/svg/jnpr-logo.svg",
+"sameAs": ["https://en.wikipedia.org/wiki/Juniper_Networks",
+  "https://www.facebook.com/JuniperNetworks/",
+  "https://twitter.com/JuniperNetworks/",
+  "https://www.linkedin.com/company/juniper-networks",
+  "https://www.youtube.com/junipernetworks",
+  "https://www.instagram.com/junipernetworks/"
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+"@context": "http://schema.org",
+"@id": "https://www.juniper.net/us/en/#website",
+"@type": "WebSite",
+"url": "https://www.juniper.net/us/en/",
+"name": "Juniper Networks",
+"alternateName": "Juniper, Juniper Networks Inc.",
+"publisher": {
+  "@type": "Corporation",
+  "name": "Juniper Networks"
+  }
+}
+</script><div id="app"><sw-app inline-template=""><div><sw-header></sw-header><sw-change-widget></sw-change-widget><div class="main wrapper"><sw-leftnav> </sw-leftnav><sw-rightnav><div class="minitoc desktop-only"><h5>ON THIS PAGE</h5><ul v-scrollspy=""><li><p><a href="#id-software-installation-and-upgrade-overview">How You Can Get Started</a></p></li><li><p><a href="#id-best-practices">Best Practices for Upgrading Junos OS</a></p></li><li><p><a href="#id-junos-os-installation-package-names">Junos OS Installation Package Names</a></p></li><li><p><a href="#id-boot-sequence-on-devices-with-routing-engines">Boot Sequence on Devices with Routing Engines (Junos OS)</a></p></li></ul></div></sw-rightnav><div class="l-body"><div class="page-options clearfix"><sw-breadcrumb> </sw-breadcrumb></div><div class="topicBody"><div id="topic-content">
+
+
+<h1 class="title topictitle1" id="ariaid-title1">Junos OS Installation and Upgrade Overview</h1>
+<sw-topic-details date="2026-02-10"></sw-topic-details><div class="body conbody tmbody"><p class="shortdesc shortdesc-title">You receive a Juniper Networks device with the Junos® OS preinstalled. When you power on the device, it uses the installed software to start (boot). As new features and software fixes become available, you must upgrade your software for better user experience. Before the upgrade, back up the configuration files. Read this topic to understand what you’ll gain when you upgrade Junos OS.</p>
+<p class="p">In the rapidly changing era of mobile, cloud, and the Internet of Things (IoT) technologies, network and security challenges are commonplace. A legacy operating system (OS) for network infrastructure is insufficient to address these challenges. An outdated version of software on your devices increases risks, such as cyber attacks, to both your users and the network environment. In addition, the complexity of maintaining an outdated OS can lower your team’s operational efficiency and cost valuable resources such as time and money. You also run the risk of incurring business loss due to noncompliance with government and other organizational regulations because of an outdated OS on your devices.</p>
+<p class="p">We understand that you might have concerns about upgrading to the latest Junos OS, including:</p>
+<ul class="ul"><li class="li">Network downtime and maintenance disrupting business continuity</li>
+<li class="li">Higher operational cost and lower employee productivity because of learning curves and training</li>
+<li class="li">Configuration compatibility between releases</li>
+</ul>
+<p class="p">However, the benefits of upgrading to the latest supported Junos OS often outweigh the potential risks of using an outdated OS. A newer version of the Junos OS includes new features, enhancements, and bug fixes; many customers find the value of upgrading to a new version beneficial to their organization with immediate returns from an upgrade. Here are the top benefits of keeping your software up to date:</p>
+<div class="fig fignone" id="software-installation-and-upgrade-overview__upgrade-benefits"><span class="figcap"><span class="fig--title-label">Figure 1: </span>Benefits of an Upgrade</span><span><img loading="lazy" data-width="2100px" data-height="872px" class="image" id="software-installation-and-upgrade-overview__image-benefits" src="../../Other/jn-000843.png" alt="Benefits of software upgrades: Increased efficiency and compatibility, customer engagement, business growth and compliance, and better security, each with a green icon." /></span></div>
+</div>
+<div class="topic concept nested1" aria-labelledby="ariaid-title2" xml:lang="en-US" lang="en-US" id="id-software-installation-and-upgrade-overview"><h2 class="title topictitle2" id="ariaid-title2">How You Can Get Started</h2>
+<div class="body conbody"><p class="p">A Juniper Networks device is delivered with Junos OS preinstalled. When you power on the device, it starts (boots) using the installed software. As new features and software fixes become available, you must upgrade your software to use these features and fixes. </p>
+<p class="p">When you upgrade (or downgrade) a Junos OS version, you must first copy a software installation package to your device or other system on your local network. Then you use the CLI to install the new software on the device. You then reboot the device, which boots from the newly installed software.</p>
+<p class="p">The first step is to determine the required software version. For more information about software versions, see <a class="xref" href="https://supportportal.juniper.net/s/article/Junos-Software-Versions-Suggested-Releases-to-Consider-and-Evaluate?language=en_US" target="_blank">Junos Software Versions - Suggested Releases to Consider and Evaluate</a>. </p>
+<sw-admonition name=""><div class="note"><span class="notetitle">Note:</span> <p class="p">Before you install software on a device that is configured with custom YANG data models, back up and remove the configuration data corresponding to these data models from the active configuration. For more information, see <a class="xref" href="../task/netconf-yang-packages-managing-when-upgrading-downgrading-junos.html">Managing YANG Packages and Configurations During a Software Upgrade or Downgrade</a>.</p>
+</div>
+</sw-admonition><p class="p"> We understand that upgrading on an infrastructure device might require a scheduled downtime as well as tasks before and after the upgrade. Additionally, you might need to create plans and document the upgrade steps to ensure a successful outcome. </p>
+<p class="p">When you plan for an upgrade, we recommend that you review:</p>
+<ul class="ul"><li class="li"><p class="p">Product Data Sheets accessible from <a class="xref" href="https://www.juniper.net/us/en/products-services/" target="_blank">Products &amp; Services</a> or contact your Juniper Account Team or your Juniper Partner.</p>
+</li>
+<li class="li"><p class="p">Knowledge Base (KB) articles that are related to Junos OS upgrade on our <a class="xref" href="https://support.juniper.net/support/" target="_blank">Support</a> site.</p>
+</li>
+<li class="li"><p class="p">The <a class="xref" href="https://www.juniper.net/documentation/us/en/software/license/juniper-licensing-user-guide/index.html" target="_blank">Juniper Licensing User Guide</a> to learn about Junos OS software licensing and which software licenses you might need for your device. The following <a class="xref" href="#id-software-installation-and-upgrade-overview__table-licensing">Table 1</a> provides a quick reference taking you to the licensing information for your particular platform. </p>
+</li>
+</ul>
+<sw-table>
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="id-software-installation-and-upgrade-overview__table-licensing" class="table"><caption><span class="tablecap"><span class="table--title-label">Table 1: </span>Junos OS Licensing References</span></caption><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cellrowborder" style="vertical-align:top;" id="d39596e127"><p class="p">Junos OS Devices</p>
+</th>
+<th class="entry cellrowborder" style="vertical-align:top;" id="d39596e130"><p class="p">Reference Topics</p>
+</th>
+</tr>
+</thead>
+<tbody class="tbody"><tr class="row"><td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e127 "><p class="p">Juniper Networks® EX Series Switches</p>
+</td>
+<td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e130 "><p class="p"><a class="xref" href="https://www.juniper.net/documentation/us/en/software/license/juniper-licensing-user-guide/topics/concept/licenses-for-ex.html" target="_blank">Software Licenses for EX Series Switches </a></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e127 "><p class="p">Juniper Networks® MX Series Universal Routers </p>
+</td>
+<td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e130 "><p class="p"><a class="xref" href="https://www.juniper.net/documentation/us/en/software/license/juniper-licensing-user-guide/topics/concept/licenses-for-mx.html" target="_blank">Software Licenses for MX Series Routers and MPC Service Cards</a></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e127 "><p class="p">Juniper Networks® QFX Series Switches</p>
+</td>
+<td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e130 "><p class="p"><a class="xref" href="https://www.juniper.net/documentation/us/en/software/license/juniper-licensing-user-guide/topics/concept/licenses-for-qfx.html" target="_blank">Software Licenses for QFX Series Switches</a></p>
+</td>
+</tr>
+<tr class="row"><td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e127 "><p class="p">Juniper Networks® SRX Series Firewalls</p>
+</td>
+<td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e130 "><p class="p"><a class="xref" href="https://www.juniper.net/documentation/us/en/software/license/juniper-licensing-user-guide/topics/concept/licenses-for-srx.html" target="_blank">Software Licenses for SRX Series Firewalls</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</sw-table><p class="p">We provide a simple upgrade path that enables you to quickly and easily upgrade your Junos OS software and start using the new capabilities on your device. You can perform the upgrade as shown in the following illustration:</p>
+<div class="fig fignone" id="id-software-installation-and-upgrade-overview__fig-upgrade"><span><img loading="lazy" data-width="2101px" data-height="901px" class="image" id="id-software-installation-and-upgrade-overview__image_t5h_whr_bdc" src="../../images/why-upgrade.png" alt="Step-by-step process for upgrading software: Determine Upgrade Path, Take a Backup, Download Software, Install Software, Verify Configuration, Start Using New Features." /></span></div>
+<ul class="ul"><li class="li"><p class="p">To determine your upgrade path, see the KB article at <a class="xref" href="https://supportportal.juniper.net/s/article/Junos-Software-Versions-Suggested-Releases-to-Consider-and-Evaluate?language=en_US" target="_blank">Junos Software Versions - Suggested Releases to Consider and Evaluate</a> and talk to support at <a class="xref" href="https://support.juniper.net/support/requesting-support/" target="_blank">Contact Support</a>.</p>
+</li>
+<li class="li"><p class="p">To take a backup, see <a class="xref" href="#id-software-installation-and-upgrade-overview__subsection-backing-up-files">Back Up the Current System’s Files</a>.</p>
+</li>
+<li class="li"><p class="p">To download the software, see <a class="xref" href="https://support.juniper.net/support/downloads/" target="_blank">Downloads</a>. You can find the related KB articles at the <a class="xref" href="https://support.juniper.net/support/" target="_blank">Support</a> site.</p>
+</li>
+<li class="li"><p class="p">To install and to verify the software, see: </p>
+<ul class="ul"><li class="li"><p class="p"><a class="xref" href="https://www.juniper.net/documentation/us/en/software/junos/junos-install-upgrade/topics/topic-map/upgrading-and-downgrading-to-upgraded-bsd.html" target="_blank">Upgrade and Downgrade for Junos OS with Upgraded FreeBSD</a></p>
+</li>
+<li class="li"><p class="p"><a class="xref" href="https://www.juniper.net/documentation/us/en/software/junos/junos-install-upgrade/topics/concept/installation-upgrade-vmhost.html" target="_blank">Installing, Upgrading, Backing Up, and Recovery of VM Host</a></p>
+</li>
+<li class="li"><p class="p"> <a class="xref" href="https://www.juniper.net/documentation/us/en/software/junos/junos-install-upgrade/topics/topic-map/install-software-on-routing-engines.html" target="_blank">Installing Software on Routing Devices (Junos OS)</a> for routers.</p>
+</li>
+<li class="li"><p class="p"> <a class="xref" href="https://www.juniper.net/documentation/us/en/software/junos/junos-install-upgrade/topics/topic-map/install-software-on-ex.html" target="_blank">Installing Software on Switches</a> for switches.</p>
+</li>
+<li class="li"><p class="p"> <a class="xref" href="https://www.juniper.net/documentation/us/en/software/junos/junos-install-upgrade/topics/concept/overview-junos-os-upgrade.html" target="_blank">Upgrades for SRX Series Firewalls</a> for firewalls.</p>
+</li>
+<li class="li"><p class="p"><a class="xref" href="https://www.juniper.net/documentation/us/en/software/junos/cli-reference/topics/ref/command/request-system-software-add.html" target="_blank">request system software add (Junos OS)</a></p>
+</li>
+</ul>
+</li>
+</ul>
+<div class="section" id="id-software-installation-and-upgrade-overview__section-considerations"><h3 class="title sectiontitle">Considerations for Junos OS Installation</h3><p class="p">The following subsections introduce the overall considerations in installing the software:</p>
+<ul class="ul mini-toc"><li class="li"><a class="xref" href="#id-software-installation-and-upgrade-overview__subsection-installation-types"><span class="undefined_element">Select the Junos OS Installation Type</span></a></li>
+<li class="li"><a class="xref" href="#id-software-installation-and-upgrade-overview__subsection-backing-up-files"><span class="undefined_element">Back Up the Current System’s Files</span></a></li>
+<li class="li"><a class="xref" href="#id-software-installation-and-upgrade-overview__subsection-determine-package"><span class="undefined_element">Determine Which Software Installation Package to Install</span></a></li>
+<li class="li"><a class="xref" href="#id-software-installation-and-upgrade-overview__subsection-console"><span class="undefined_element">Upgrade Using an Out-of-Band Interface</span></a></li>
+<li class="li"><a class="xref" href="#id-software-installation-and-upgrade-overview__subsection-validating"><span class="undefined_element">Validate the Installation Package with the Current Configuration</span></a></li>
+</ul>
+<div class="subsection" id="id-software-installation-and-upgrade-overview__subsection-installation-types"><h4 class="sectiontitle">Select the Junos OS Installation Type</h4><p class="p">The three types of installations that you can use to upgrade or downgrade the Junos OS running on your device are standard installation, category change installation, and recovery installation. Before you select the installation type, see <a class="xref" href="software-install-and-upgrade-overview.html#id-junos-os-installation-package-names">Junos OS Installation Package Names</a> to understand the different Junos OS installation packages. To understand which installation type best fits your need, see the following table.</p>
+<sw-table><table class="dl"><tbody><tr><td class="dt dlterm"><strong class="ph b">Standard Installation</strong></td>
+<td class="dd"><p class="p">The standard installation type is the typical method you use to upgrade or downgrade software on the server. With this method, you can use an installation package that matches the installation package already installed on your device. </p>
+</td>
+</tr><tr><td class="dt dlterm"><strong class="ph b">Category Change Installation</strong></td>
+<td class="dd"><p class="p">The category change installation type is the process you use to move from one edition of Junos OS to another on the same device. For example, moving from a Junos OS standard installation to a Junos-FIPS installation on a router.</p>
+<p class="p">When you move from one installation category to another, you must be aware of the restrictions regarding this change. </p>
+<p class="p">Juniper Networks does not support using the <code class="ph codeph">request system software rollback</code> command to restore a different installation category on the device. When you install a different Junos OS category on a device, immediately after the installation is complete, you must run the <code class="ph codeph">request system snapshot</code> command to delete the backup installation from the system. </p>
+<sw-admonition name=""><div class="note" id="id-software-installation-and-upgrade-overview__note_wqp_rnq_s1c"><span class="notetitle">Note:</span> <p class="p"> We have a simple edition scheme—<em class="ph i">Junos</em> and <em class="ph i">Junos Limited</em> editions. The <em class="ph i">Junos</em> edition has full cryptography support. The <em class="ph i">Junos Limited </em> edition has limited cryptography support. You cannot change between editions.</p>
+</div>
+</sw-admonition></td>
+</tr><tr><td class="dt dlterm"><strong class="ph b">Recovery Installation</strong></td>
+<td class="dd"><p class="p">The recovery installation type is the process you use to repair a device with damaged software or a condition that prevents the upgrade, downgrade, or change in installation category of the software. </p>
+</td>
+</tr></tbody></table></sw-table>
+</div><div class="subsection" id="id-software-installation-and-upgrade-overview__subsection-backing-up-files"><h4 class="sectiontitle">Back Up the Current System’s Files</h4><p class="p">We recommend that you create a backup of your device before you start an upgrade. Your device can: </p>
+<ul class="ul" id="id-software-installation-and-upgrade-overview__ul_jdf_gmg_f1c"><li class="li"><p class="p">Boot from a backup and come back online in case of an upgrade failure or corruption of the primary boot device because of a power failure during the upgrade. </p>
+</li>
+<li class="li"><p class="p">Retrieve the active configuration files and log files from the backup.</p>
+</li>
+<li class="li"><p class="p">Recover from a known, stable environment in case of an unsuccessful upgrade. </p>
+</li>
+</ul>
+<p class="p">During a successful upgrade, the upgrade package completely reinstalls the existing OS. Although the upgrade process removes all stored files, it retains only the <span class="ph filepath">juniper.conf</span> and SSH files. Other information is removed. The <span class="ph filepath">juniper.conf</span> file stores the operational device configuration. Therefore, you must back up your existing configuration in case you need to return to it after running the installation program. </p>
+<p class="p">To take a backup, you use the system snapshot feature to take a snapshot of the files currently used to run the device. The snapshot captures the complete contents of the <span class="ph filepath">/config</span> and <span class="ph filepath">/var</span> directories, which include the software that runs on your device, the active configuration, and the rescue configuration. The device copies these files into an alternative (an internal flash or an external USB flash) memory source. You can then use this snapshot to boot the device at the next boot up or as a back-up boot option. When you complete the backup, the existing and backup software installations are identical. </p>
+<sw-admonition name=""><div class="note"><span class="notetitle">Note:</span> <p class="p">Snapshots taken with the <code class="ph codeph">request system snapshot</code> command in a system with Junos OS with upgraded FreeBSD are not the same as snapshots taken with the <code class="ph codeph">request system snapshot</code> command in a legacy Junos OS system. To back up your Junos OS with upgraded FreeBSD system devices, use the <code class="ph codeph">request system snapshot recovery</code> command.</p>
+<p class="p">To determine if your system uses Junos OS with upgraded FreeBSD, see: <a class="xref" href="https://apps.juniper.net/feature-explorer/feature-info.html?fKey=6880&amp;fn=Junos%20kernel%20upgrade%20to%20FreeBSD%2010%2B" target="_blank">Junos kernel upgrade to FreeBSD 10+</a>.</p>
+</div>
+</sw-admonition><p class="p">When you issue the correct snapshot command, the <span class="ph filepath">/root</span> file system is backed up to the <span class="ph filepath">/altroot</span> file system and the <span class="ph filepath">/config</span> file system is backed up to the <span class="ph filepath">/altconfig</span> file system. The <span class="ph filepath">/root</span> and <span class="ph filepath">/config</span> file systems are on the device’s flash memory device. The <span class="ph filepath">/altroot</span> and <span class="ph filepath">/altconfig</span> file systems are on the device’s hard disk or solid-state drive (SSD). See <a class="xref" href="https://www.juniper.net/documentation/us/en/software/junos/junos-install-upgrade/topics/topic-map/backing-up-install-using-snapshot.html" target="_blank">Backing Up an Installation Using Snapshots (Junos OS)</a> for more details.</p>
+<p class="p">We recommend that you understand the boot sequence on your device before you use the backup. See <a class="xref" href="https://www.juniper.net/documentation/us/en/software/junos/junos-install-upgrade/topics/topic-map/software-install-and-upgrade-overview.html#id-boot-sequence-on-devices-with-routing-engines" target="_blank">Boot Sequence on Devices with Routing Engines (Junos OS)</a> for more details.</p>
+</div><div class="subsection" id="id-software-installation-and-upgrade-overview__subsection-determine-package"><h4 class="sectiontitle">Determine Which Software Installation Package to Install</h4><p class="p">We deliver all software releases in signed packages that contain digital signatures to ensure that you download the official Juniper Networks software. You can either download software to the <span class="ph filepath">/var/tmp</span> directory of your device, or install it directly from the Downloads page at <a class="xref" href="https://support.juniper.net/support/downloads/" target="_blank">https://support.juniper.net/support/downloads/</a>. </p>
+<p class="p">To learn about the software packages currently running on a device, enter the <code class="ph codeph">show version</code> operational mode command at the top level of the CLI. The output of the <code class="ph codeph">show version</code> command displays the release number of the installed software but not the installed software edition.</p>
+<p class="p">For more information about signed software packages, see the <a class="xref" href="software-install-and-upgrade-overview.html#id-junos-os-installation-package-names">Junos OS Installation Package Names</a>. For information on software
+                        images signed with post-quantum cryptography (PQC), see <a class="xref" href="../../../pki/topics/concept/image-signing-pqc.html">PQC Signatures for Software
+                        Images</a>.</p>
+</div><div class="subsection" id="id-software-installation-and-upgrade-overview__subsection-console"><h4 class="sectiontitle">Upgrade Using an Out-of-Band Interface</h4><p class="p">We recommend that you upgrade all individual software packages using an out-of-band connection from the console or the management Ethernet interface. When you upgrade your Junos OS software by connecting to the console port on your Junos OS device, you can:</p>
+<ul class="ul" id="id-software-installation-and-upgrade-overview__ul_q2r_fjx_qbc"><li class="li"><p class="p">Connect to the Junos OS device without using the network to which the device might or might not be connected. This connection creates a secondary path to the Junos OS device without relying on the network. </p>
+</li>
+<li class="li"><p class="p">Experience seamless connectivity (you might lose connectivity when you use in-band connections during an upgrade process).</p>
+</li>
+<li class="li"><p class="p">Have root access to the Junos OS device through a terminal or laptop interface, regardless of the state of the Junos OS device, unless it is completely powered off. </p>
+</li>
+<li class="li"><p class="p">Restore a Junos OS device or securely configure a minimum configuration through the terminal interface. A network operations technician located far away can perform these tasks securely on a terminal interface by using a modem, even if the primary network fails. Without a connection to the console port, a technician would have to visit the site to perform these tasks. A remote connection to the Junos OS device through a modem requires:</p>
+<ul class="ul"><li class="li"><p class="p">A cable and a connector, which are provided in the device accessory box.</p>
+</li>
+<li class="li"><p class="p">A DB-9 to DB-25 (or similar) adapter for your modem, which you must purchase separately.</p>
+</li>
+</ul>
+</li>
+</ul>
+<p class="p">To configure the device initially, you must connect a terminal or laptop computer to the device through the console port, as shown in <a class="xref" href="#id-software-installation-and-upgrade-overview__fig-junos-console-connection">Figure 2</a>.</p>
+</div><div class="fig fignone" id="id-software-installation-and-upgrade-overview__fig-junos-console-connection"><span class="figcap"><span class="fig--title-label">Figure 2: </span>Connect to the Console Port on a Juniper Networks Device</span><span><img loading="lazy" data-width="1656px" data-height="780px" class="image" id="id-software-installation-and-upgrade-overview__image_btd_h3t_41c" src="../../Other/g102536.png" alt="Connecting a laptop to a Juniper Networks device using a cable for configuration or troubleshooting." /></span></div>
+<div class="subsection" id="id-software-installation-and-upgrade-overview__subsection-validating"><h4 class="sectiontitle">Validate the Installation Package with the Current Configuration</h4><p class="p">When you upgrade or downgrade software, we recommend that you include the <code class="ph codeph">validate</code> option with the <code class="ph codeph">request system software add</code> command to check whether the candidate software is compatible or not with the current configuration. When you add a package with a different release number, Junos OS validates compatibility between the software and the current configuration by default.</p>
+<p class="p">Direct validation of the running configuration does not work when you upgrade to a release that is based on Junos OS with upgraded FreeBSD from a Junos OS release that is based on older versions of the FreeBSD kernel. Therefore, when you upgrade or downgrade between older Junos OS and Junos OS with upgraded FreeBSD, you might have to validate on a different host. For details, see <a class="xref" href="https://www.juniper.net/documentation/us/en/software/junos/junos-install-upgrade/topics/topic-map/upgrading-and-downgrading-to-upgraded-bsd.html" target="_blank">Upgrading and Downgrading to Junos with Upgraded FreeBSD</a>.</p>
+<p class="p">If you do not want to validate during the upgrade, you must specify the <code class="ph codeph">no-validate</code> option.</p>
+</div></div>
+</div>
+</div>
+<div class="topic concept nested1" aria-labelledby="ariaid-title3" xml:lang="en-US" lang="en-US" id="id-best-practices"><h2 class="title topictitle2" id="ariaid-title3">Best Practices for Upgrading Junos OS</h2>
+<div class="body conbody"><p class="p">We suggest that you start with the following best practices to optimize your upgrade experience:</p>
+<ul class="ul" id="id-best-practices__ul_vyg_yy1_h1c"><li class="li"><p class="p">Read the <a class="xref" href="https://www.juniper.net/documentation/product/us/en/junos-os/#cat=release_notes" target="_blank">Junos OS Release Notes</a> for the release to which you are upgrading.</p>
+</li>
+<li class="li"><p class="p">Plan and document the upgrade steps to ensure a successful outcome.</p>
+</li>
+<li class="li"><p class="p">Connect your laptop or computer to the Junos OS device through the console port when you use the CLI to upgrade software (recommended). </p>
+</li>
+<li class="li"><p class="p">Connect your device to the Internet.</p>
+</li>
+<li class="li"><p class="p">Back up the current configuration and software.</p>
+</li>
+<li class="li"><p class="p">Delete or commit all uncommitted configuration changes.</p>
+</li>
+<li class="li"><p class="p">Clear files and erase unwanted or unused configurations using the <code class="ph codeph">request system storage cleanup</code> command.</p>
+</li>
+<li class="li"><p class="p">(Only for Juniper Networks® SRX Series Firewalls) Ensure that both nodes of the firewall pair in
+                                                  a chassis cluster are online and have the same
+                                                  Junos OS version.</p>
+</li>
+<li class="li"><p class="p">Plan for an extended maintenance window, preferably during non-business hours, for the upgrade, troubleshooting, and any post-configuration procedures to minimize impact.</p>
+</li>
+<li class="li"><p class="p">Identify business contacts who will help verify application and network functionality after the upgrade.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="topic concept topic-map nested1" aria-labelledby="ariaid-title4" xml:lang="en-US" lang="en-US" id="id-junos-os-installation-package-names">
+
+
+<h2 class="title topictitle2" id="ariaid-title4">Junos OS Installation Package Names</h2>
+<div class="body conbody tmbody">
+        <p class="p">The installation package is used to upgrade or downgrade from one release to another.
+            When installed, the installation package completely reinstalls the software, rebuilds
+            the Junos OS file system, and can erase system logs and other auxiliary information from
+            the previous installation. The installation package does, however, retain the
+            configuration files from the previous installation. </p>
+
+        <p class="p">A Junos OS installation package can have one of the following general patterns: </p>
+
+        <ul class="ul">
+            <li class="li">
+                <p class="p"><span class="ph filepath"><var class="keyword varname">prefix</var>-<var class="keyword varname">platform</var>-<var class="keyword varname">product</var>-<var class="keyword varname">architecture</var>-<var class="keyword varname">application-binary-interface</var>-<var class="keyword varname">release</var>-<var class="keyword varname">edition</var>.<var class="keyword varname">extension</var></span>
+                    (for installing with the <code class="ph codeph">request system software add</code>
+                    command)</p>
+
+            </li>
+
+            <li class="li">
+                <p class="p"><span class="ph filepath"><var class="keyword varname">prefix</var>-media-<var class="keyword varname">media-keyword</var>-<var class="keyword varname">platform</var>-<var class="keyword varname">architecture</var>-<var class="keyword varname">application-binary-interface</var>-<var class="keyword varname">release</var>-<var class="keyword varname">edition</var>.<var class="keyword varname">extension</var></span>
+                    (for images installed from the USB drive or the loader prompt)</p>
+
+            </li>
+
+            <li class="li">
+                <p class="p"><span class="ph filepath"><var class="keyword varname">prefix</var>-flex-<var class="keyword varname">release</var>-<var class="keyword varname">edition</var>.<var class="keyword varname">extension</var></span>
+                    (for enhanced automation variants of Junos OS)</p>
+
+            </li>
+
+        </ul>
+
+        
+        <sw-table>
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="id-junos-os-installation-package-names__d123e115" class="table"><caption><span class="tablecap"><span class="table--title-label">Table 2: </span>Descriptions of Junos OS Package Name Fields</span></caption><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;">
+                    <tr class="row">
+                        <th class="entry cellrowborder" style="vertical-align:top;" id="d39596e692">Field Name</th>
+
+                        <th class="entry cellrowborder" style="vertical-align:top;" id="d39596e695">Description</th>
+
+                    </tr>
+
+                </thead>
+<tbody class="tbody">
+                    <tr class="row">
+                        <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e692 "><var class="keyword varname">prefix</var></td>
+
+                        <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e695 ">Package name prefix. Different products use different prefixes. These
+                            prefixes are explained later in this chapter.</td>
+
+                    </tr>
+
+                    <tr class="row">
+                        <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e692 ">host</td>
+
+                        <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e695 ">Host is included in the package name when the platform is Linux
+                            based; this prefix indicates the image includes the host software as
+                            well as Junos OS.</td>
+
+                    </tr>
+
+                    <tr class="row">
+                        <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e692 ">media <var class="keyword varname">media-keyword</var></td>
+
+                        <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e695 ">A media keyword is included in the package name when the software
+                            image cannot be installed using the <code class="ph codeph">request system software
+                                add</code> command. Values for the media keyword include the
+                                following:<ul class="ul" id="id-junos-os-installation-package-names__d123e171">
+                                <li class="li">
+                                    <p class="p"><code class="ph codeph">usb</code> for images you install from a USB
+                                        drive</p>
+
+                                </li>
+
+                                <li class="li">
+                                    <p class="p"><code class="ph codeph">net</code> for images you install from the loader
+                                        prompt</p>
+
+                                </li>
+
+                            </ul>
+</td>
+
+                    </tr>
+
+                    <tr class="row">
+                        <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e692 "><var class="keyword varname">platform</var></td>
+
+                        <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e695 ">(Optional) Name of the product series, such as <code class="ph codeph">mx</code> or
+                                <code class="ph codeph">ptx</code>.</td>
+
+                    </tr>
+
+                    <tr class="row">
+                        <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e692 "><var class="keyword varname">product</var></td>
+
+                        <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e695 ">(Optional) Model number or product variant, such as
+                                <code class="ph codeph">5e</code> for the QFX Series switches.</td>
+
+                    </tr>
+
+                    <tr class="row">
+                        <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e692 "><var class="keyword varname">architecture</var></td>
+
+                        <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e695 ">(Optional) CPU architecture of the platform. For example,
+                                <code class="ph codeph">x86</code> for Intel CPUs or <code class="ph codeph">arm</code> for
+                            Advanced RISC Machines CPUs.</td>
+
+                    </tr>
+
+                    <tr class="row">
+                        <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e692 "><var class="keyword varname">application-binary-interface</var></td>
+
+                        <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e695 ">(Included when <var class="keyword varname">architecture</var> is part of the name.)
+                            Indicates the “word length” of the CPU architecture. Values include 32
+                            for 32-bit architectures and 64 for 64-bit architectures.</td>
+
+                    </tr>
+
+                    <tr class="row">
+                        <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e692 "><var class="keyword varname">release</var></td>
+
+                        <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e695 ">Release number. The format of the release number is explained later
+                            in this chapter.</td>
+
+                    </tr>
+
+                    <tr class="row">
+                        <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e692 "><var class="keyword varname">edition</var></td>
+
+                        <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e695 ">Edition of the software package. Software editions are explained
+                            later in this chapter.</td>
+
+                    </tr>
+
+                </tbody>
+</table>
+</div>
+</sw-table>
+        <p class="p">The software is delivered in signed packages that contain digital signatures, Secure Hash
+            Algorithm (SHA-1), and Message Digest 5 (MD5) checksums. A package is installed only if
+            the checksum within it matches the hash recorded in its corresponding file. Which
+            checksum is used depends on the software version:</p>
+
+        <ul class="ul">
+            <li class="li">
+                <p class="p">Digital signatures are used when you upgrade or downgrade between Junos OS
+                    Release 7.0 and a later version.</p>
+
+            </li>
+
+            <li class="li">
+                <p class="p">The SHA-1 checksum is used when you upgrade or downgrade between Junos OS Release
+                    6.4 and a later version. </p>
+
+            </li>
+
+            <li class="li">
+                <p class="p">The MD5 checksum is used when you upgrade or downgrade between Junos OS
+                    Release 6.3 or earlier and a later version.</p>
+
+            </li>
+
+        </ul>
+
+        <p class="p">Starting in 2015, the word <span class="ph filepath">signed</span> appears less frequently after the
+            edition in the filename. But you might still see it in software installation packages.
+            Whether <span class="ph filepath">signed</span> appears or not, all Junos OS images from Junos OS
+            Release 15.1 on are signed for validation. </p>
+
+        <p class="p">Extensions are <span class="ph filepath">tgz</span>, <span class="ph filepath">gz</span>,
+                <span class="ph filepath">img</span>, <span class="ph filepath">iso</span>, etc.</p>
+
+    </div>
+<ul class="ul mini-toc"><li class="li"><a class="xref" href="#id-junos-os-installation-packages-prefixes"><span class="undefined_element">Junos OS Installation Packages Prefixes</span></a></li>
+<li class="li"><a class="xref" href="#id-junos-os-release-numbers"><span class="undefined_element">Junos OS Release Numbers</span></a></li>
+<li class="li"><a class="xref" href="#id-junos-os-editions"><span class="undefined_element">Junos OS Editions</span></a></li>
+</ul>
+<div class="topic concept nested2" aria-labelledby="ariaid-title5" xml:lang="en-US" lang="en-US" id="id-junos-os-installation-packages-prefixes">
+
+
+<h3 class="title topictitle3" id="ariaid-title5">Junos OS Installation Packages Prefixes</h3>
+<div class="body conbody"><p class="p">The first part of the installation package filename is a combination of a standard prefix and
+      product designation. <a class="xref" href="#id-junos-os-installation-package-names__d124e40">Table 3</a> lists a variety
+      of Junos OS package name prefixes.</p>
+<p class="p">Certain hardware platforms run a Junos OS based on an upgraded FreeBSD kernel, greater than
+      FreeBSD 10.x (hereafter called Junos OS with upgraded FreeBSD). To determine if your system
+      uses Junos OS with upgraded FreeBSD, see: <a class="xref" href="https://apps.juniper.net/feature-explorer/feature-info.html?fKey=6880&amp;fn=Junos%20kernel%20upgrade%20to%20FreeBSD%2010%2B" target="_blank">Junos kernel upgrade to FreeBSD 10+</a>. <a class="xref" href="#id-junos-os-installation-package-names__d124e40">Table 3</a> also indicates
+      the prefixes used for the different platforms running Junos OS with upgraded FreesBSD. For
+      more information about upgrading or downgrading to Junos OS with upgraded FreeBSD, see <a class="xref" href="upgrading-and-downgrading-to-upgraded-bsd.html" title="You can upgrade or downgrade Junos OS with upgraded FreeBSD. You can upgrade Junos OS with upgraded FreeBSD from Junos OS based on FreeBSD 6.1 and upgrade between different releases of Junos OS with upgraded FreeBSD. Before you stage an upgrade between different releases of Junos OS with upgraded FreeBSD, you should install the os-package software to help the upgrade go more smoothly.">Upgrade and Downgrade for Junos OS with Upgraded FreeBSD</a>.</p>
+<p class="p">Except where indicated in the table, you install these packages using the <code class="ph codeph">request
+        system software add</code> CLI command.</p>
+<sw-table>
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="id-junos-os-installation-packages-prefixes__d124e40" class="table" frame="hsides" border="1"><caption><span class="tablecap"><span class="table--title-label">Table 3: </span>Installation Package Prefixes</span></caption><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;"><tr class="row"><th class="entry cellrowborder" style="vertical-align:top;" id="d39596e950"><strong class="ph b">Installation Package Prefix</strong></th>
+<th class="entry row-nocellborder" style="vertical-align:top;" id="d39596e953"><strong class="ph b">Description</strong></th>
+</tr>
+</thead>
+<tbody class="tbody">
+          <tr class="row">
+            <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e950 ">
+              <p class="p"><span class="ph filepath">jinstall*</span></p>
+
+            </td>
+
+            <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e953 ">
+              <p class="p">Junos OS for M Series, MX Series, T Series, TX Matrix, and TX Matrix Plus
+                routers.</p>
+
+            </td>
+
+          </tr>
+
+          <tr class="row">
+            <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e950 ">
+              <p class="p"><span class="ph filepath">jinstall64*</span></p>
+
+            </td>
+
+            <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e953 ">
+              <p class="p">64-bit Junos OS for the JCS1200 Route Reflector, TX Matrix Plus routers with 3D
+                SIBs, and PTX Series Packet Transport Routers.</p>
+
+              
+            </td>
+
+          </tr>
+
+          <tr class="row">
+            <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e950 ">
+              <p class="p"><span class="ph filepath">jinstall-ex*</span></p>
+
+            </td>
+
+            <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e953 ">
+              <p class="p">Junos OS for the EX Series Ethernet Switch portfolio.</p>
+
+            </td>
+
+          </tr>
+
+          <tr class="row">
+            <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e950 ">
+              <p class="p"><span class="ph filepath">jinstall-host-acx5k*</span></p>
+
+            </td>
+
+            <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e953 ">
+              <p class="p">Junos OS with upgraded FreeBSD for the ACX5000 Series routers, which are Linux
+                based; this prefix indicates the image includes the host as well as Junos OS. For
+                example,
+                <span class="ph filepath">jinstall-host-acx5k-17.2R1.13-signed.tgz</span>.</p>
+
+            </td>
+
+          </tr>
+
+          <tr class="row">
+            <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e950 ">
+              <p class="p"><span class="ph filepath">jinstall-host-ex*</span></p>
+
+            </td>
+
+            <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e953 ">
+              <p class="p">Junos OS with upgraded FreeBSD for EX4600, which is Linux based; this prefix
+                indicates the image includes the host as well as Junos OS. For example,
+                  <span class="ph filepath">jinstall-host-ex-4600-17.2R1.13-signed.tgz</span>.</p>
+
+            </td>
+
+          </tr>
+
+          <tr class="row">
+            <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e950 ">
+              <p class="p"><span class="ph filepath">jinstall-host-nfx-2*</span></p>
+
+            </td>
+
+            <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e953 ">
+              <p class="p">Junos OS with upgraded FreeBSD for NFX2xx platforms that are Linux based; this
+                prefix indicates the image includes the host software and Junos OS.</p>
+
+              <p class="p">For example,
+                  <span class="ph filepath">jinstall-host-nfx-2-flex-x86-32-17.2R1.13-secure-signed.tgz</span>.
+                See <a class="xref" href="https://www.juniper.net/documentation/us/en/hardware/nfx350/topics/concept/nfx350-hardware-overview.html#nfx350-hardware-overview__d8905e73" target="_blank"><strong class="ph b">Junos OS Releases Supported on NFX Series Hardware</strong></a>
+                for a list of which platforms use the nfx-2 package.
+                </p>
+
+            </td>
+
+          </tr>
+
+          <tr class="row">
+            <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e950 ">
+              <p class="p"><span class="ph filepath">jinstall-host-nfx-3*</span></p>
+
+            </td>
+
+            <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e953 ">
+              <p class="p">Junos OS with upgraded FreeBSD for NFX platforms that are Linux based; this prefix
+                indicates the image includes the host software and Junos OS.</p>
+
+              <p class="p">For example,
+                  <span class="ph filepath">jinstall-host-nfx-3-x86-64-22.4R1.10-secure-signed.tgz</span>. See
+                  <a class="xref" href="https://www.juniper.net/documentation/us/en/hardware/nfx350/topics/concept/nfx350-hardware-overview.html#nfx350-hardware-overview__d8905e73" target="_blank"><strong class="ph b">Junos OS Releases Supported on NFX Series Hardware</strong></a>
+                for a list of which platforms use the nfx-3 package.
+                </p>
+
+            </td>
+
+          </tr>
+
+          <tr class="row">
+            <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e950 ">
+              <p class="p"><span class="ph filepath">jinstall-host-ocx*</span></p>
+
+            </td>
+
+            <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e953 ">Junos OS with upgraded FreeBSD for OCX platforms that are
+              Linux based; this prefix indicates the image includes the host software as well as
+              Junos OS.</td>
+
+          </tr>
+
+          <tr class="row">
+            <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e950 ">
+              <p class="p"><span class="ph filepath">jinstall-host-ptx*</span></p>
+
+            </td>
+
+            <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e953 ">Junos OS with upgraded FreeBSD for PTX platforms that are
+              Linux based; this prefix indicates the image includes the host software as well as
+              Junos OS.</td>
+
+          </tr>
+
+          <tr class="row">
+            <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e950 ">
+              <p class="p"><span class="ph filepath">jinstall-host-qfx*</span></p>
+
+            </td>
+
+            <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e953 ">
+              <p class="p">Junos OS with upgraded FreeBSD for QFX platforms that are Linux based; this prefix
+                indicates the image includes the host software as well as Junos OS. For example,
+                  <span class="ph filepath">jinstall-host-qfx-5e-x86-64-17.2R1.13.tgz</span> is a package name
+                for Junos OS on the QFX5100. Starting in Junos OS Release 24.2R1, the package prefix
+                for all models of the QFX5110 is <span class="ph filepath">jinstall-host-qfx-5x*</span>. For
+                releases before Release 24.2R1, the package prefix for all models of the QFX5110 is
+                  <span class="ph filepath">jinstall-host-qfx-5e*</span>.
+                </p>
+
+            </td>
+
+          </tr>
+
+          <tr class="row">
+            <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e950 ">
+              <p class="p"><span class="ph filepath">jinstall-ocx-flex*</span></p>
+
+            </td>
+
+            <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e953 ">
+              <p class="p">OCX Series switches.</p>
+
+            </td>
+
+          </tr>
+
+          <tr class="row">
+            <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e950 ">
+              <p class="p"><span class="ph filepath">jinstall-ppc*</span></p>
+
+            </td>
+
+            <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e953 ">
+              <p class="p">Junos OS for the ACX Series, MX5, MX10, MX40, MX80, and MX104 routers.</p>
+
+            </td>
+
+          </tr>
+
+          <tr class="row">
+            <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e950 ">
+              <p class="p"><span class="ph filepath">junos-arm*</span></p>
+
+            </td>
+
+            <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e953 ">
+              <p class="p">Junos OS with Upgraded FreeBSD for EX2300 and EX3400 switches. For example,
+                  <span class="ph filepath">junos-arm-32-15.1X53-D50.2.tgz</span>.</p>
+
+            </td>
+
+          </tr>
+
+          <tr class="row">
+            <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e950 ">
+              <p class="p"><span class="ph filepath">junos-arm-media-<var class="keyword varname">media-keyword</var>*</span></p>
+
+            </td>
+
+            <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e953 ">
+              <p class="p">Junos OS with Upgraded FreeBSD for EX2300 and EX3400 switches. You install these
+                images using a method other than the <code class="ph codeph">request system software add</code>
+                command at the CLI prompt, such as installing from a USB drive or a loader prompt.
+                The media keyword can be one of the following:</p>
+
+              <ul class="ul" id="id-junos-os-installation-packages-prefixes__d124e318">
+                <li class="li">
+                  <p class="p"><code class="ph codeph">usb</code> for images you install from a USB drive</p>
+
+                </li>
+
+                <li class="li">
+                  <p class="p"><code class="ph codeph">net</code> for images you install from the loader prompt</p>
+
+                </li>
+
+              </ul>
+
+              <p class="p">For example, <span class="ph filepath">junos-install-media-usb-arm-32-15.1X53-D50.2.img</span>
+                or <span class="ph filepath">junos-install-media-net-arm-32-15.1X53-D50.2.tgz</span>.</p>
+
+            </td>
+
+          </tr>
+
+          <tr class="row">
+            <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e950 ">
+              <p class="p"><span class="ph filepath">junos-install*</span></p>
+
+            </td>
+
+            <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e953 ">
+              <p class="p">Junos OS with upgraded FreeBSD for EX4100, EX9200, MX Series routers, and SRX
+                Series Firewalls that support Junos OS with upgraded FreeBSD. For example,
+                  <span class="ph filepath">junos-install-ex-arm-64-22.2R1.3.tgz</span> for EX4100,
+                  <span class="ph filepath">junos-install-ex92xx-x86-64-17.2R1.13.tgz</span> for EX9200,
+                  <span class="ph filepath">junos-install-mx-x86-32-15.1R1.9.tgz</span> for MX Series routers,
+                  <span class="ph filepath">junos-install-srxsme-mips-64-24.4R1.1.tgz</span> for SRX300, SRX320,
+                SRX340, SRX345, and SRX380, and
+                  <span class="ph filepath">junos-install-srx5000-x86-64-17.3R1.9.tgz</span> for SRX5400,
+                SRX5600, or SRX5800.</p>
+
+              
+              
+            </td>
+
+          </tr>
+
+          <tr class="row">
+            <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e950 ">
+              <p class="p"><span class="ph filepath">junos-install-media-<var class="keyword varname">media-keyword</var>*</span></p>
+
+            </td>
+
+            <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e953 ">
+              <p class="p">Junos OS with upgraded FreeBSD for EX4100, EX9200, MX Series routers, and SRX
+                Series Firewalls that support Junos OS with upgraded FreeBSD. You install these
+                images using a method other than the <code class="ph codeph">request system software add</code>
+                command at the CLI prompt, such as installing from a USB drive or a loader prompt.
+                The media keyword can be one of the following:</p>
+
+              <ul class="ul" id="id-junos-os-installation-packages-prefixes__d124e399">
+                <li class="li">
+                  <p class="p"><code class="ph codeph">usb</code> for images you install from a USB drive</p>
+
+                </li>
+
+                <li class="li">
+                  <p class="p"><code class="ph codeph">net</code> for images you install from the loader prompt</p>
+
+                </li>
+
+                <li class="li">
+                  <p class="p"><code class="ph codeph">pxe</code> for images you install using the Preboot Execution
+                    Environment (PXE) on the SRX1500, SRX4600, SRX5400, SRX5600, and SRX5800</p>
+
+                </li>
+
+              </ul>
+
+              
+              <p class="p">For example, <span class="ph filepath">junos-install-media-usb-mx-x86-32-15.1R1.9.tgz</span>
+                for an MX Series router,
+                  <span class="ph filepath">junos-install-media-usb-ex-arm-64-22.2R1.3.tgz</span> for EX4100,
+                  <span class="ph filepath">junos-install-media-usb-ex92xx-17.2R1.13.img.gz</span> for EX9200,
+                  <span class="ph filepath">junos-install-media-usb-srxsme-mips-64-24.4R1.1.img.gz</span> for
+                SRX300, SRX320, SRX340, SRX345, and SRX380, and
+                  <span class="ph filepath">junos-install-media-usb-srx5000-x86-64-17.3R1.9.img.gz</span> for
+                SRX5400, SRX5600, and SRX5800.</p>
+
+              
+            </td>
+
+          </tr>
+
+          <tr class="row">
+            <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e950 ">
+              <p class="p"><span class="ph filepath">junos-srx1k3k* </span></p>
+
+            </td>
+
+            <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e953 ">
+              <p class="p">Junos OS for SRX1400, SRX3400 and SRX3600.</p>
+
+            </td>
+
+          </tr>
+
+          <tr class="row">
+            <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e950 ">
+              <p class="p"><span class="ph filepath">junos-srx5000* </span></p>
+
+              
+              
+            </td>
+
+            <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e953 ">
+              <p class="p">Junos OS for SRX5400, SRX5600, and SRX5800.</p>
+
+            </td>
+
+          </tr>
+
+          <tr class="row">
+            <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e950 ">
+              <p class="p"><span class="ph filepath">junos-srxentedge* </span></p>
+
+            </td>
+
+            <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e953 ">
+              <p class="p">Junos OS for SRX1500.</p>
+
+            </td>
+
+          </tr>
+
+          <tr class="row">
+            <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e950 ">
+              <p class="p"><span class="ph filepath">junos-srxhe-x86*</span></p>
+
+            </td>
+
+            <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e953 ">
+              <p class="p">Junos OS for SRX4600.</p>
+
+            </td>
+
+          </tr>
+
+          <tr class="row">
+            <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e950 ">
+              <p class="p"><span class="ph filepath">junos-srxmr*</span></p>
+
+            </td>
+
+            <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e953 ">
+              <p class="p">Junos OS for SRX4100 and SRX4200.</p>
+
+            </td>
+
+          </tr>
+
+          <tr class="row">
+            <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e950 ">
+              <p class="p"><span class="ph filepath">junos-srxsme*</span></p>
+
+            </td>
+
+            <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e953 ">
+              <p class="p">Junos OS for SRX300, SRX320, SRX340, SRX345, SRX380, and SRX550M.</p>
+
+            </td>
+
+          </tr>
+
+          <tr class="row">
+            <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e950 ">
+              <p class="p"><span class="ph filepath">junos-vmhost-install*</span></p>
+
+            </td>
+
+            <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e953 ">
+              <p class="p">Junos OS with upgraded FreeBSD for devices that use VM Host. You use the
+                  <code class="ph codeph">request vmhost software add</code> CLI command to install these images.
+                For more information about VM Host installation, see <a class="xref" href="../concept/installation-upgrade-vmhost.html">Installing, Upgrading, Backing Up, and Recovery of VM Host</a>.</p>
+
+            </td>
+
+          </tr>
+
+          <tr class="row">
+            <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e950 ">
+              <p class="p"><span class="ph filepath">junos-vmhost-install-media-<var class="keyword varname">media-keyword</var>*</span></p>
+
+            </td>
+
+            <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e953 ">
+              <p class="p">Junos OS with upgraded FreeBSD for devices that use VM Host. You install these
+                images using the Preboot Execution Environment (PXE) boot server or the USB drive,
+                and not the <code class="ph codeph">request vmhost software add</code> CLI command. The media
+                keyword can be one of the following:</p>
+
+              <ul class="ul" id="id-junos-os-installation-packages-prefixes__d124e585">
+                <li class="li">
+                  <p class="p"><code class="ph codeph">usb</code> for images you install from a USB drive</p>
+
+                </li>
+
+                <li class="li">
+                  <p class="p"><code class="ph codeph">net</code> for images you install from the Preboot Execution
+                    Environment (PXE) boot server</p>
+
+                </li>
+
+              </ul>
+
+              <p class="p">For more information about this installation method, see <a class="xref" href="../task/pxe-boot-copying.html">Copying VM Host Installation Package to the PXE Boot Server</a> or <a class="xref" href="../task/junos-x6-x8-routing-engine-creating-emergency-boot-device.html">Creating an Emergency Boot Device for Routing Engines with VM Host
+                Support</a>.</p>
+
+            </td>
+
+          </tr>
+
+        </tbody>
+</table>
+</div>
+</sw-table></div>
+<div class="l-aside-box see-also"><h3 class="related-links-title">See Also</h3><div class="related-links-body"><ul><li><span class="broken-link unresolved-keys">
+      show version (Junos OS)
+    </span></li></ul></div></div></div>
+<div class="topic concept nested2" aria-labelledby="ariaid-title6" xml:lang="en-US" lang="en-US" id="id-junos-os-release-numbers">
+
+
+<h3 class="title topictitle3" id="ariaid-title6">Junos OS Release Numbers</h3>
+<div class="body conbody">
+        
+        
+        <p class="p">The release number represents a particular revision of the software that runs on a
+            Juniper Networks routing platform, for example, Junos OS Release
+            24.2
+            or
+            24.4.
+            Each release has certain new features that complement the software processes that
+            support Internet routing protocols, control the device’s interfaces and the device
+            chassis itself, and allow device system management. On the Juniper Networks Support web
+            page, you download software for a particular release number.</p>
+
+        <p class="p">In this example, we dissect the format of the software release number to show what it
+            indicates. The generalized format is as follows:</p>
+
+        <p class="p">Given the format of </p>
+
+        <ol class="ol">
+            <li class="li">
+                <p class="p"><code class="ph codeph"><kbd class="ph userinput"><var class="keyword varname">m.nZb.s</var></kbd></code></p>
+
+            </li>
+
+        </ol>
+
+        <p class="p">The software release number
+            24.2R1.13,
+            for example, maps to this format as follows:</p>
+
+        <ul class="ul">
+            <li class="li">
+                <p class="p"><var class="keyword varname">m</var> is the main release number of the product, for example,
+                    24.</p>
+
+            </li>
+
+            <li class="li">
+                <p class="p"><var class="keyword varname">n</var> is the minor release number of the product, for example,
+                    2.</p>
+
+            </li>
+
+            <li class="li">
+                <p class="p"><var class="keyword varname">Z</var> is the type of software release, for example, R for FRS or
+                    maintenance release.</p>
+
+                <p class="p">For types of software releases, see <a class="xref" href="#id-junos-os-installation-package-names__d125e120">Table 4</a>.</p>
+
+            </li>
+
+            <li class="li">
+                <p class="p"><var class="keyword varname">b</var> is the build number of the product, for example, 1,
+                    indicating the FRS rather than a maintenance
+                    release.</p>
+
+            </li>
+
+            <li class="li">
+                <p class="p"><var class="keyword varname">s</var> is the spin number of the product, for example, 13.</p>
+
+            </li>
+
+        </ul>
+
+        
+        <sw-table>
+<div class="tablenoborder"><table cellpadding="4" cellspacing="0" summary="" id="id-junos-os-release-numbers__d125e120" class="table" frame="hsides" border="1"><caption><span class="tablecap"><span class="table--title-label">Table 4: </span>Software Release Types</span></caption><colgroup><col /><col /></colgroup><thead class="thead" style="text-align:left;">
+                    <tr class="row">
+                        <th class="entry cellrowborder" style="vertical-align:top;" id="d39596e1636">
+                            <p class="p">Release Type</p>
+
+                        </th>
+
+                        <th class="entry row-nocellborder" style="vertical-align:top;" id="d39596e1642">
+                            <p class="p">Description</p>
+
+                        </th>
+
+                    </tr>
+
+                </thead>
+<tbody class="tbody">
+                    <tr class="row">
+                        <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e1636 ">
+                            <p class="p">R</p>
+
+                        </td>
+
+                        <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e1642 ">
+                            <p class="p">First revenue ship (FRS) or maintenance release software. R1 is FRS.
+                                R2 onward are maintenance releases.</p>
+
+                        </td>
+
+                    </tr>
+
+                    <tr class="row">
+                        <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e1636 ">
+                            <p class="p">B</p>
+
+                        </td>
+
+                        <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e1642 ">
+                            <p class="p">Beta release software.</p>
+
+                        </td>
+
+                    </tr>
+
+                    <tr class="row">
+                        <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e1636 ">
+                            <p class="p">I</p>
+
+                        </td>
+
+                        <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e1642 ">
+                            <p class="p">Internal release software. These are private software releases for
+                                verifying fixes.</p>
+
+                        </td>
+
+                    </tr>
+
+                    <tr class="row">
+                        <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e1636 ">
+                            <p class="p">S</p>
+
+                        </td>
+
+                        <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e1642 ">
+                            <p class="p">Service release software, which are released to customers to solve a
+                                specific problem—this release will be maintained along with the life
+                                span of the underlying release. The service release number is added
+                                after the R number, for example,
+                                24.2R2-S1.4.
+                                Here
+                                S1
+                                represents the
+                                1st
+                                service release on top of
+                                24.2R2
+                                and is the 4th re-spin.</p>
+
+                        </td>
+
+                    </tr>
+
+                    <tr class="row">
+                        <td class="entry cellrowborder" style="vertical-align:top;" headers="d39596e1636 ">
+                            <p class="p">X</p>
+
+                        </td>
+
+                        <td class="entry row-nocellborder" style="vertical-align:top;" headers="d39596e1642 ">
+                            <p class="p">Special (eXception) release software. X releases follow a numbering
+                                system that differs from the standard release numbering.</p>
+
+                            <p class="p">
+                                SRX
+                                Series Firewalls follow a special naming convention for Junos OS
+                                releases. For more information, refer to the Knowledge Base article
+                                KB30092 at <a class="xref" href="https://kb.juniper.net/InfoCenter/index?page=content&amp;id=KB30092" target="_blank">https://kb.juniper.net/InfoCenter/index?page=home</a>.</p>
+
+                        </td>
+
+                    </tr>
+
+                </tbody>
+</table>
+</div>
+</sw-table>
+        
+        
+        
+        
+        
+    </div>
+</div>
+<div class="topic concept nested2" aria-labelledby="ariaid-title7" xml:lang="en-US" lang="en-US" id="id-junos-os-editions">
+
+
+<h3 class="title topictitle3" id="ariaid-title7">Junos OS Editions</h3>
+<div class="body conbody"><p class="p">Editions show up in the installation package name after the release number string and
+            before <em class="ph i">signed</em>.</p>
+<p class="p">In releases earlier than Junos OS Release 15.1, installation packages came in several
+            major software package categories or editions, such as domestic, worldwide, or Federal
+            Information Processing Standard (FIPS). For those still using packages with names
+            including these terms, here is what they indicate:</p>
+<ul class="ul"><li class="li">
+                <p class="p"><span class="ph filepath">domestic</span>—Junos OS for customers in the United States and
+                    Canada and for all other customers with a valid encryption agreement. This
+                    edition includes high-encryption capabilities such as IPsec and SSH for data
+                    leaving the router or switch. Later images use a null, or empty, edition field
+                    for this category.</p>
+
+            </li>
+<li class="li">
+                <p class="p"><span class="ph filepath">limited</span>—Junos OS for all other customers. This edition does
+                    not include any high-encryption capabilities for data leaving the router or
+                    switch. Sometimes referred to as the <em class="ph i">Export</em> edition, starting in Junos OS
+                    Release 15.1R1, this category is is renamed to the limited edition.</p>
+
+            </li>
+<li class="li">
+                <p class="p"><span class="ph filepath">fips</span>—Junos OS that provides advanced network security for
+                    customers who need software tools to configure a network of Juniper Networks
+                    routers and switches in a Federal Information Processing Standards (FIPS) 140-2
+                    environment. For more information about Junos-FIPS, see FIPS 140-2 Security
+                    Compliance. In later images, FIPS, instead of being a separate edition, is an
+                    option you select on installation.</p>
+
+            </li>
+</ul>
+<p class="p">Starting with Junos OS 15.1, a simplified edition scheme was started:</p>
+<ul class="ul"><li class="li">
+                <p class="p">Junos OS with a null (empty) edition field is the standard image for Junos OS.
+                </p>
+
+            </li>
+<li class="li">
+                <p class="p"><span class="ph filepath">limited</span>—Version has no cryptographic support and is intended
+                    for countries in the Eurasian Customs Union (EACU). These countries have import
+                    restrictions on software containing data-plane encryption. </p>
+
+            </li>
+</ul>
+</div>
+</div>
+</div>
+<div class="topic concept nested1" aria-labelledby="ariaid-title8" xml:lang="en-US" lang="en-US" id="id-boot-sequence-on-devices-with-routing-engines">
+
+
+<h2 class="title topictitle2" id="ariaid-title8">Boot Sequence on Devices with Routing Engines (Junos OS)</h2>
+<div class="body conbody"><p class="p">Juniper Networks devices start using the installed Junos OS. Bootable copies of Junos OS are
+      stored in various locations: the internal flash disk, the hard drive, the removable media. The
+      following subsections discuss the order of locations checked for a valid bootable operating
+      system.</p>
+<ul class="ul mini-toc"><li class="li"><a class="xref" href="#id-boot-sequence-on-devices-with-routing-engines__d37520e1839"><span class="undefined_element">Boot Order for Devices</span></a></li>
+<li class="li"><a class="xref" href="#id-boot-sequence-on-devices-with-routing-engines__d37520e2008"><span class="undefined_element">Booting from an Alternate Boot Device</span></a></li>
+</ul>
+<div class="section" id="id-boot-sequence-on-devices-with-routing-engines__d37520e1839"><h3 class="title sectiontitle">Boot Order for Devices</h3>
+      
+      <p class="p">Information about the boot order for the various devices with Routing Engines is given in
+        this section in alphabetical order of the device families.</p>
+
+      
+      
+      
+      
+      
+      <p class="p">The ACX Series routers attempt to boot from the storage media in the following order:</p>
+
+      <ol class="ol">
+        <li class="li">
+          <p class="p">USB storage media device</p>
+
+        </li>
+
+        <li class="li">
+          <p class="p">Dual, internal NAND flash device (first da0s1, then da0s2)</p>
+
+        </li>
+
+      </ol>
+
+      <p class="p">The router attempts to boot from the storage media in the following order:</p>
+
+      <p class="p">MX80 routers attempt to boot from the storage media in the following order:</p>
+
+      <ol class="ol">
+        <li class="li">
+          <p class="p">USB media emergency boot device</p>
+
+        </li>
+
+        <li class="li">
+          <p class="p">Dual, internal NAND flash device (first da0, then da1)</p>
+
+        </li>
+
+      </ol>
+
+      <p class="p">MX104 routers attempt to boot from the storage media in the following order:</p>
+
+      <ol class="ol">
+        <li class="li">
+          <p class="p">USB storage media device</p>
+
+        </li>
+
+        <li class="li">
+          <p class="p">Internal NAND flash device (<span class="ph uicontrol">da0</span>)</p>
+
+        </li>
+
+      </ol>
+
+      <p class="p">The MX
+        Series
+        routers with a Routing Engine that has a solid-state drive (SSD) attempt
+        to boot from the storage media in the following order:</p>
+
+      <ol class="ol">
+        <li class="li">
+          <p class="p">USB media emergency boot device (if present)</p>
+
+        </li>
+
+        <li class="li">
+          <p class="p">CompactFlash card</p>
+
+        </li>
+
+        <li class="li">
+          <p class="p">Solid-state drive (SSD) in the SSD slot 1 or SSD slot 2 (if present)</p>
+
+        </li>
+
+      </ol>
+
+      <p class="p">The MX
+        Series (except for the MX80 routers and the MX104 routers) routers with a Routing Engine
+        that has a hard disk attempt to boot from the storage media in the following order:</p>
+
+      <ol class="ol">
+        <li class="li">
+          <p class="p">Removable media emergency boot device, such as a PC Card (if present)</p>
+
+        </li>
+
+        <li class="li">
+          <p class="p">CompactFlash card (if present)</p>
+
+        </li>
+
+        <li class="li">
+          <p class="p">Hard disk</p>
+
+        </li>
+
+      </ol>
+
+      <p class="p">The PTX Series Packet Transport Routers attempt to boot from the storage media in the
+        following order:</p>
+
+      <ol class="ol">
+        <li class="li">
+          <p class="p">USB media emergency boot device</p>
+
+        </li>
+
+        <li class="li">
+          <p class="p">CompactFlash card</p>
+
+        </li>
+
+        <li class="li">
+          <p class="p">Solid-state drive (SSD) in the Disk 1 slot (if present) </p>
+
+        </li>
+
+        <li class="li">
+          <p class="p">Storage media available on the LAN</p>
+
+        </li>
+
+      </ol>
+
+      
+      
+      
+      
+    </div>
+<div class="section" id="id-boot-sequence-on-devices-with-routing-engines__d37520e2008"><h3 class="title sectiontitle">Booting from an Alternate Boot Device</h3>
+      
+      <sw-admonition name=""><div class="note"><span class="notetitle">Note:</span> 
+        <p class="p">Do not insert an emergency boot device during normal operations. The router does not
+          operate normally when it is booted from an emergency boot device.</p>
+
+      </div>
+</sw-admonition>
+      <p class="p">If the router boots from an alternate boot device, Junos OS displays a message indicating
+        this when you log in to the router. For example, the following message shows that the
+        software booted from the hard disk (/<span class="ph filepath">dev/ad1s1a</span>): </p>
+
+      <sw-code><template v-pre=""><pre>login: <var class="keyword varname">username</var> 
+Password: <var class="keyword varname">password</var>  
+Last login: date on <var class="keyword varname">terminal</var>  
+
+--- Junos 8.0 R1 built <var class="keyword varname">date</var> 
+---
+--- NOTICE: System is running on alternate media device (/dev/ad2s1a). 
+</pre></template></sw-code>
+      
+      <p class="p">This situation results when the router detects a problem with the primary boot
+        device—usually the CompactFlash card—that prevents it from booting, and consequently boots
+        from the alternate boot device (the hard disk drive). When this happens, the primary boot
+        device is removed from the list of candidate boot devices. The problem is usually a serious
+        hardware error. We recommend you contact the Juniper Networks Technical Assistance Center
+        (JTAC).</p>
+
+      <sw-admonition name=""><div class="note"><span class="notetitle">Note:</span> 
+        <p class="p">On MX104 routers, if the router boots from an alternate boot device, Junos OS does not
+          display any message indicating this when you log in to the router.</p>
+
+      </div>
+</sw-admonition>
+      <p class="p">When the router boots from the alternate boot device, the software and configuration are
+        only as current as the most recent <code class="ph codeph">request system snapshot</code> command.
+        However, if the <code class="ph codeph">mirror-flash-on-disk</code> command was enabled, then the hard
+        disk drive contains a synchronized, mirror image of the compact flash drive and therefore
+        the current software and configuration.</p>
+
+    </div>
+</div>
+</div>
+<div class="l-aside-box related-links"><h3 class="related-links-title">Related Documentation</h3><div class="related-links-body"><ul><li><div><a class="link" href="https://www.juniper.net/documentation/us/en/software/junos/junos-install-upgrade/topics/topic-map/upgrading-and-downgrading-to-upgraded-bsd.html" target="_blank">Upgrading and Downgrading to Junos with Upgraded FreeBSD</a></div>
+</li><li><div><a class="link" href="storage-media-and-routing-engines.html">Storage Media and Routing Engines (Junos OS)</a></div>
+</li><li><div><a class="link" href="https://supportportal.juniper.net/s/article/Junos-Software-Versions-Suggested-Releases-to-Consider-and-Evaluate?language=en_US" target="_blank">Junos Software Versions - Suggested Releases to Consider and Evaluate</a></div>
+</li></ul></div></div></div><sw-prev-next> </sw-prev-next></div><sw-comments> </sw-comments></div></div><sw-pop-over></sw-pop-over><sw-footer></sw-footer></div></sw-app></div><script type="module" crossorigin="" src="/documentation/webstatic/js/dita-B14dSoXD.js"></script><script type="text/javascript" src="/assets/scripts/custom/cookie-consent.js"></script><script type="text/javascript">_satellite.pageBottom();</script></body>
+</html>

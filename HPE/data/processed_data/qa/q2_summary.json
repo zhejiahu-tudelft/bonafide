@@ -1,0 +1,1625 @@
+{
+  "valuation_date": "2026-09-11",
+  "profile": {
+    "DLR": {
+      "group": "Landlords",
+      "revenue": 6771.118,
+      "operating_income": 977.8,
+      "d_and_a": 1997.077,
+      "capex": 3473.782,
+      "cfo": 2967.041,
+      "interest": 460.427,
+      "assets": 54517.914,
+      "current_assets": null,
+      "cash": 1864.796,
+      "ppe_net": 32857.401,
+      "rou": 1093.015,
+      "rpo": null,
+      "noncurrent_basis": "assets less cash (unclassified)",
+      "noncurrent_share": 0.9657948028,
+      "long_lived_share": 0.6227387203,
+      "asset_turnover": 0.1241998731,
+      "capex_to_revenue": 0.5130293107,
+      "da_to_revenue": 0.2949405106,
+      "interest_to_revenue": 0.0679986673,
+      "committed_cost_ratio": 0.3629391778,
+      "operating_margin": 0.1444074671,
+      "ebitda_margin": 0.4393479777,
+      "fcf_margin": -0.0748386012,
+      "contracted": 35551.5838,
+      "contract_basis": "estimate: (TTM revenue + backlog rent) x 4.1-yr WALT",
+      "contract_coverage": 5.2504747074
+    },
+    "KEEL": {
+      "group": "Landlords",
+      "revenue": 188.139,
+      "operating_income": -364.73,
+      "d_and_a": 170.496,
+      "capex": 91.647,
+      "cfo": -250.487,
+      "interest": 12.57,
+      "assets": 1415.766,
+      "current_assets": 896.466,
+      "cash": null,
+      "ppe_net": 287.055,
+      "rou": 10.219,
+      "rpo": null,
+      "noncurrent_basis": "classified",
+      "noncurrent_share": 0.366797903,
+      "long_lived_share": 0.2099739646,
+      "asset_turnover": 0.1328884858,
+      "capex_to_revenue": 0.4871238818,
+      "da_to_revenue": 0.90622359,
+      "interest_to_revenue": 0.0668123037,
+      "committed_cost_ratio": 0.9730358937,
+      "operating_margin": -1.9386198502,
+      "ebitda_margin": -1.0323962602,
+      "fcf_margin": -1.8185171602,
+      "contracted": 0.0,
+      "contract_basis": "no lease signed",
+      "contract_coverage": 0.0
+    },
+    "IREN": {
+      "group": "Neoclouds",
+      "revenue": 707.007,
+      "operating_income": -1046.714,
+      "d_and_a": 417.729,
+      "capex": 2998.006,
+      "cfo": 2100.418,
+      "interest": 59.251,
+      "assets": 15790.039,
+      "current_assets": 7886.176,
+      "cash": 5895.591,
+      "ppe_net": 6753.183,
+      "rou": 2.72,
+      "rpo": 5100.0,
+      "noncurrent_basis": "classified",
+      "noncurrent_share": 0.5005600683,
+      "long_lived_share": 0.4278585379,
+      "asset_turnover": 0.0447755069,
+      "capex_to_revenue": 4.2404191189,
+      "da_to_revenue": 0.590841392,
+      "interest_to_revenue": 0.0838053937,
+      "committed_cost_ratio": 0.6746467857,
+      "operating_margin": -1.4804860489,
+      "ebitda_margin": -0.889644657,
+      "fcf_margin": -1.2695602731,
+      "contracted": 16500.0,
+      "contract_basis": "RPO + contracted lease value",
+      "contract_coverage": 23.337817023
+    },
+    "CRWV": {
+      "group": "Neoclouds",
+      "revenue": 7590.0,
+      "operating_income": -231.0,
+      "d_and_a": 3991.0,
+      "capex": 20566.0,
+      "cfo": 6911.0,
+      "interest": 1619.0,
+      "assets": 77070.0,
+      "current_assets": 9520.0,
+      "cash": 5524.0,
+      "ppe_net": 46736.0,
+      "rou": 16595.0,
+      "rpo": 103700.0,
+      "noncurrent_basis": "classified",
+      "noncurrent_share": 0.876475931,
+      "long_lived_share": 0.821733489,
+      "asset_turnover": 0.0984818996,
+      "capex_to_revenue": 2.7096179183,
+      "da_to_revenue": 0.5258234519,
+      "interest_to_revenue": 0.2133069829,
+      "committed_cost_ratio": 0.7391304348,
+      "operating_margin": -0.0304347826,
+      "ebitda_margin": 0.4953886693,
+      "fcf_margin": -1.7990777339,
+      "contracted": 103700.0,
+      "contract_basis": "RPO",
+      "contract_coverage": 13.6627140975
+    },
+    "NBIS": {
+      "group": "Neoclouds",
+      "revenue": 1355.1,
+      "operating_income": -684.1,
+      "d_and_a": 765.3,
+      "capex": 11141.8,
+      "cfo": 5240.9,
+      "interest": 239.5,
+      "assets": 27961.5,
+      "current_assets": 9615.6,
+      "cash": null,
+      "ppe_net": 13045.2,
+      "rou": 1855.1,
+      "rpo": 37490.6,
+      "noncurrent_basis": "classified",
+      "noncurrent_share": 0.6561128695,
+      "long_lived_share": 0.5328862901,
+      "asset_turnover": 0.0484630653,
+      "capex_to_revenue": 8.2221238285,
+      "da_to_revenue": 0.5647553686,
+      "interest_to_revenue": 0.176739724,
+      "committed_cost_ratio": 0.7414950926,
+      "operating_margin": -0.5048335916,
+      "ebitda_margin": 0.059921777,
+      "fcf_margin": -4.3545863774,
+      "contracted": 37490.6,
+      "contract_basis": "RPO (6-K)",
+      "contract_coverage": 27.6662976902
+    },
+    "HPE": {
+      "group": "Server providers",
+      "revenue": 41871.0,
+      "operating_income": 2602.0,
+      "d_and_a": 3490.0,
+      "capex": 2538.0,
+      "cfo": 6694.0,
+      "interest": 599.0,
+      "assets": 83596.0,
+      "current_assets": 33865.0,
+      "cash": 6216.0,
+      "ppe_net": 5645.0,
+      "rou": 1535.0,
+      "rpo": 10900.0,
+      "noncurrent_basis": "classified",
+      "noncurrent_share": 0.594896885,
+      "long_lived_share": 0.085889277,
+      "asset_turnover": 0.5008732475,
+      "capex_to_revenue": 0.0606147453,
+      "da_to_revenue": 0.0833512455,
+      "interest_to_revenue": 0.0143058441,
+      "committed_cost_ratio": 0.0976570896,
+      "operating_margin": 0.0621432495,
+      "ebitda_margin": 0.145494495,
+      "fcf_margin": 0.0992572425,
+      "contracted": 10900.0,
+      "contract_basis": "RPO",
+      "contract_coverage": 0.2603233742
+    },
+    "DELL": {
+      "group": "Server providers",
+      "revenue": 151197.0,
+      "operating_income": 14252.0,
+      "d_and_a": 3041.0,
+      "capex": 3592.0,
+      "cfo": 12152.0,
+      "interest": 1598.0,
+      "assets": 127393.0,
+      "current_assets": 80547.0,
+      "cash": 11569.0,
+      "ppe_net": 7417.0,
+      "rou": 729.0,
+      "rpo": 132000.0,
+      "noncurrent_basis": "classified",
+      "noncurrent_share": 0.3677282111,
+      "long_lived_share": 0.0639438588,
+      "asset_turnover": 1.1868548507,
+      "capex_to_revenue": 0.0237570851,
+      "da_to_revenue": 0.0201128329,
+      "interest_to_revenue": 0.0105689928,
+      "committed_cost_ratio": 0.0306818257,
+      "operating_margin": 0.0942611295,
+      "ebitda_margin": 0.1143739624,
+      "fcf_margin": 0.0566148799,
+      "contracted": 132000.0,
+      "contract_basis": "RPO",
+      "contract_coverage": 0.8730331951
+    }
+  },
+  "ttm_end": {
+    "DLR": "2026-06-30",
+    "KEEL": "2026-06-30",
+    "IREN": "2026-06-30",
+    "CRWV": "2026-06-30",
+    "NBIS": "2026-06-30",
+    "HPE": "2026-07-31",
+    "DELL": "2026-07-31"
+  },
+  "group_medians": {
+    "Landlords": {
+      "noncurrent_share": 0.6662963529,
+      "long_lived_share": 0.4163563425,
+      "asset_turnover": 0.1285441795,
+      "capex_to_revenue": 0.5000765962,
+      "da_to_revenue": 0.6005820503,
+      "interest_to_revenue": 0.0674054855,
+      "committed_cost_ratio": 0.6679875358,
+      "operating_margin": -0.8971061915,
+      "ebitda_margin": -0.2965241413,
+      "fcf_margin": -0.9466778807,
+      "contract_coverage": 2.6252373537
+    },
+    "Neoclouds": {
+      "noncurrent_share": 0.6561128695,
+      "long_lived_share": 0.5328862901,
+      "asset_turnover": 0.0484630653,
+      "capex_to_revenue": 4.2404191189,
+      "da_to_revenue": 0.5647553686,
+      "interest_to_revenue": 0.176739724,
+      "committed_cost_ratio": 0.7391304348,
+      "operating_margin": -0.5048335916,
+      "ebitda_margin": 0.059921777,
+      "fcf_margin": -1.7990777339,
+      "contract_coverage": 23.337817023
+    },
+    "Server providers": {
+      "noncurrent_share": 0.4813125481,
+      "long_lived_share": 0.0749165679,
+      "asset_turnover": 0.8438640491,
+      "capex_to_revenue": 0.0421859152,
+      "da_to_revenue": 0.0517320392,
+      "interest_to_revenue": 0.0124374185,
+      "committed_cost_ratio": 0.0641694577,
+      "operating_margin": 0.0782021895,
+      "ebitda_margin": 0.1299342287,
+      "fcf_margin": 0.0779360612,
+      "contract_coverage": 0.5666782846
+    }
+  },
+  "revenue_stability": {
+    "DLR": {
+      "first": "2018-09-30",
+      "last": "2026-06-30",
+      "n": 32,
+      "growth_sd": 0.0792113753,
+      "worst_yoy": 0.0142242345,
+      "best_yoy": 0.3023466637,
+      "share_quarters_declining": 0.0
+    },
+    "HPE": {
+      "first": "2018-10-31",
+      "last": "2026-07-31",
+      "n": 32,
+      "growth_sd": 0.0872811476,
+      "worst_yoy": -0.0993982836,
+      "best_yoy": 0.2659410431,
+      "share_quarters_declining": 0.3125
+    },
+    "DELL": {
+      "first": "2019-02-01",
+      "last": "2026-07-31",
+      "n": 31,
+      "growth_sd": 0.1426544628,
+      "worst_yoy": -0.1356389478,
+      "best_yoy": 0.4903450927,
+      "share_quarters_declining": 0.3225806452
+    }
+  },
+  "useful_life": [
+    {
+      "ticker": "CRWV",
+      "reported_life": 6,
+      "life": 6,
+      "gpu_share_of_da": 0.8899774587,
+      "operating_income": -231.0,
+      "operating_margin": -0.0304347826
+    },
+    {
+      "ticker": "CRWV",
+      "reported_life": 6,
+      "life": 5,
+      "gpu_share_of_da": 0.8899774587,
+      "operating_income": -941.380007543,
+      "operating_margin": -0.1240289865
+    },
+    {
+      "ticker": "CRWV",
+      "reported_life": 6,
+      "life": 4,
+      "gpu_share_of_da": 0.8899774587,
+      "operating_income": -2006.9500188575,
+      "operating_margin": -0.2644202923
+    },
+    {
+      "ticker": "CRWV",
+      "reported_life": 6,
+      "life": 3,
+      "gpu_share_of_da": 0.8899774587,
+      "operating_income": -3782.900037715,
+      "operating_margin": -0.4984058021
+    },
+    {
+      "ticker": "NBIS",
+      "reported_life": 5,
+      "life": 6,
+      "gpu_share_of_da": 0.949082908,
+      "operating_income": -563.0444750801,
+      "operating_margin": -0.4155003137
+    },
+    {
+      "ticker": "NBIS",
+      "reported_life": 5,
+      "life": 5,
+      "gpu_share_of_da": 0.949082908,
+      "operating_income": -684.1,
+      "operating_margin": -0.5048335916
+    },
+    {
+      "ticker": "NBIS",
+      "reported_life": 5,
+      "life": 4,
+      "gpu_share_of_da": 0.949082908,
+      "operating_income": -865.6832873798,
+      "operating_margin": -0.6388335085
+    },
+    {
+      "ticker": "NBIS",
+      "reported_life": 5,
+      "life": 3,
+      "gpu_share_of_da": 0.949082908,
+      "operating_income": -1168.3220996795,
+      "operating_margin": -0.8621667033
+    }
+  ],
+  "dlr_lag": {
+    "peak_lag": 0,
+    "peak_corr": 0.6696781014954817,
+    "most_negative_lag": 6,
+    "min_corr": -0.5099294885592565
+  },
+  "stylised": {
+    "landlord": {
+      "capital": 1750.0,
+      "trough_quarter": 5,
+      "payback_quarter": 46,
+      "first_profit_quarter": 6,
+      "cum_cash_x_year12": 0.04999999999999987,
+      "cum_profit_x_year12": 0.63
+    },
+    "neocloud": {
+      "capital": 2654.9999999999995,
+      "trough_quarter": 5,
+      "payback_quarter": 13,
+      "first_profit_quarter": 6,
+      "cum_cash_x_year12": 2.9500000000000006,
+      "cum_profit_x_year12": 3.2000000000000006,
+      "cum_profit_x_year12_4yr_life": 2.9500000000000006
+    },
+    "server": {
+      "capital": 2256.7499999999995,
+      "trough_quarter": 4,
+      "payback_quarter": 6,
+      "first_profit_quarter": 5,
+      "cum_cash_x_year12": 0.3529411764705883,
+      "cum_profit_x_year12": 0.35294117647058826
+    }
+  },
+  "stylised_parameters": {
+    "IREN_lease_contracted": 11400.0,
+    "DLR_backlog_annual_rent": 1900.0,
+    "DLR_walt_years": 4.1,
+    "DLR_commencement_lag_months": 9,
+    "DLR_stabilised_yield": 0.1,
+    "HPE_ai_backlog": 7600.0,
+    "DELL_ai_backlog": 95000.0,
+    "DELL_isg_margin": 0.15,
+    "ai_facility_cost_per_mw": 17.5,
+    "facility_life_years": 25,
+    "build_quarters": 6,
+    "neocloud_acv_per_mw": 22.5,
+    "neocloud_payback_years": 2.0,
+    "neocloud_ebitda_margin": 0.59,
+    "contract_years": 5,
+    "gpu_life_years": 6,
+    "rerent_price": 0.4
+  },
+  "fundamental_elasticity": {
+    "DLR": {
+      "n": 33.0,
+      "sample": "2018Q2\u20132026Q2",
+      "sum_of_lags": 0.0588301994,
+      "sum_p": 0.5546036276,
+      "r2": 0.0894795768,
+      "best_single_lag": 1.0,
+      "best_lag_coef": 0.1037593426,
+      "best_lag_p": 0.0834102729,
+      "best_lag_r2": 0.0756246966,
+      "revenue_growth": null,
+      "growth_basis": null,
+      "hyperscaler_ttm_capex_growth": null
+    },
+    "HPE": {
+      "n": 33.0,
+      "sample": "2018Q2\u20132026Q2",
+      "sum_of_lags": 0.4082248322,
+      "sum_p": 0.0151352001,
+      "r2": 0.4451560605,
+      "best_single_lag": 0.0,
+      "best_lag_coef": 0.2875193225,
+      "best_lag_p": 0.0063482796,
+      "best_lag_r2": 0.3684002393,
+      "revenue_growth": null,
+      "growth_basis": null,
+      "hyperscaler_ttm_capex_growth": null
+    },
+    "DELL": {
+      "n": 33.0,
+      "sample": "2018Q2\u20132026Q2",
+      "sum_of_lags": 0.8430410443,
+      "sum_p": 6.5023e-06,
+      "r2": 0.5489871372,
+      "best_single_lag": 0.0,
+      "best_lag_coef": 0.5277458007,
+      "best_lag_p": 0.0006695065,
+      "best_lag_r2": 0.427768663,
+      "revenue_growth": null,
+      "growth_basis": null,
+      "hyperscaler_ttm_capex_growth": null
+    },
+    "KEEL": {
+      "n": null,
+      "sample": "descriptive",
+      "sum_of_lags": null,
+      "sum_p": null,
+      "r2": null,
+      "best_single_lag": null,
+      "best_lag_coef": null,
+      "best_lag_p": null,
+      "best_lag_r2": null,
+      "revenue_growth": null,
+      "growth_basis": "TTM YoY",
+      "hyperscaler_ttm_capex_growth": 0.8120001024
+    },
+    "IREN": {
+      "n": null,
+      "sample": "descriptive",
+      "sum_of_lags": null,
+      "sum_p": null,
+      "r2": null,
+      "best_single_lag": null,
+      "best_lag_coef": null,
+      "best_lag_p": null,
+      "best_lag_r2": null,
+      "revenue_growth": 0.4111268345,
+      "growth_basis": "TTM YoY",
+      "hyperscaler_ttm_capex_growth": 0.8120001024
+    },
+    "CRWV": {
+      "n": null,
+      "sample": "descriptive",
+      "sum_of_lags": null,
+      "sum_p": null,
+      "r2": null,
+      "best_single_lag": null,
+      "best_lag_coef": null,
+      "best_lag_p": null,
+      "best_lag_r2": null,
+      "revenue_growth": 1.1532250858,
+      "growth_basis": "TTM YoY",
+      "hyperscaler_ttm_capex_growth": 0.8120001024
+    },
+    "NBIS": {
+      "n": null,
+      "sample": "descriptive",
+      "sum_of_lags": null,
+      "sum_p": null,
+      "r2": null,
+      "best_single_lag": null,
+      "best_lag_coef": null,
+      "best_lag_p": null,
+      "best_lag_r2": null,
+      "revenue_growth": 5.2903846154,
+      "growth_basis": "H1 YoY",
+      "hyperscaler_ttm_capex_growth": 0.8120001024
+    }
+  },
+  "market_elasticity": [
+    {
+      "ticker": "DLR",
+      "group": "Landlords",
+      "window": "own",
+      "start": "2023-01-03",
+      "n": 926,
+      "factor": "market",
+      "beta": 0.8947293482,
+      "ci_low": 0.771260556,
+      "ci_high": 1.0181981404,
+      "p": 8.767108729e-46,
+      "r2": 0.2583545304
+    },
+    {
+      "ticker": "DLR",
+      "group": "Landlords",
+      "window": "own",
+      "start": "2023-01-03",
+      "n": 926,
+      "factor": "ai",
+      "beta": 0.0493815839,
+      "ci_low": -0.0143710962,
+      "ci_high": 0.1131342639,
+      "p": 0.1289766102,
+      "r2": 0.2583545304
+    },
+    {
+      "ticker": "DLR",
+      "group": "Landlords",
+      "window": "own",
+      "start": "2023-01-03",
+      "n": 926,
+      "factor": "bitcoin",
+      "beta": 0.0231591173,
+      "ci_low": -0.0052908729,
+      "ci_high": 0.0516091075,
+      "p": 0.1106077235,
+      "r2": 0.2583545304
+    },
+    {
+      "ticker": "DLR",
+      "group": "Landlords",
+      "window": "own",
+      "start": "2023-01-03",
+      "n": 926,
+      "factor": "rates_10bp",
+      "beta": -0.004844162,
+      "ci_low": -0.006626505,
+      "ci_high": -0.003061819,
+      "p": 9.99e-08,
+      "r2": 0.2583545304
+    },
+    {
+      "ticker": "DLR",
+      "group": "Landlords",
+      "window": "common",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "market",
+      "beta": 0.6924805162,
+      "ci_low": 0.5802851654,
+      "ci_high": 0.8046758669,
+      "p": 1.094261632e-33,
+      "r2": 0.242062861
+    },
+    {
+      "ticker": "DLR",
+      "group": "Landlords",
+      "window": "common",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "ai",
+      "beta": 0.0307303632,
+      "ci_low": -0.0645134658,
+      "ci_high": 0.1259741922,
+      "p": 0.5271378276,
+      "r2": 0.242062861
+    },
+    {
+      "ticker": "DLR",
+      "group": "Landlords",
+      "window": "common",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "bitcoin",
+      "beta": -0.0035487564,
+      "ci_low": -0.0543203203,
+      "ci_high": 0.0472228074,
+      "p": 0.8910349904,
+      "r2": 0.242062861
+    },
+    {
+      "ticker": "DLR",
+      "group": "Landlords",
+      "window": "common",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "rates_10bp",
+      "beta": -0.0058188146,
+      "ci_low": -0.0090345736,
+      "ci_high": -0.0026030556,
+      "p": 0.000390395,
+      "r2": 0.242062861
+    },
+    {
+      "ticker": "KEEL",
+      "group": "Landlords",
+      "window": "own",
+      "start": "2023-01-03",
+      "n": 926,
+      "factor": "market",
+      "beta": 2.9399822526,
+      "ci_low": 2.474799402,
+      "ci_high": 3.4051651032,
+      "p": 3.070024887e-35,
+      "r2": 0.2040932518
+    },
+    {
+      "ticker": "KEEL",
+      "group": "Landlords",
+      "window": "own",
+      "start": "2023-01-03",
+      "n": 926,
+      "factor": "ai",
+      "beta": 0.1814749262,
+      "ci_low": -0.0025848274,
+      "ci_high": 0.3655346799,
+      "p": 0.0533052952,
+      "r2": 0.2040932518
+    },
+    {
+      "ticker": "KEEL",
+      "group": "Landlords",
+      "window": "own",
+      "start": "2023-01-03",
+      "n": 926,
+      "factor": "bitcoin",
+      "beta": 0.2965592052,
+      "ci_low": 0.1311060066,
+      "ci_high": 0.4620124037,
+      "p": 0.0004429941,
+      "r2": 0.2040932518
+    },
+    {
+      "ticker": "KEEL",
+      "group": "Landlords",
+      "window": "own",
+      "start": "2023-01-03",
+      "n": 926,
+      "factor": "rates_10bp",
+      "beta": -0.0070967268,
+      "ci_low": -0.0138649509,
+      "ci_high": -0.0003285027,
+      "p": 0.0398700378,
+      "r2": 0.2040932518
+    },
+    {
+      "ticker": "KEEL",
+      "group": "Landlords",
+      "window": "common",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "market",
+      "beta": 2.9047188982,
+      "ci_low": 2.1151596602,
+      "ci_high": 3.6942781362,
+      "p": 0.0,
+      "r2": 0.2070831254
+    },
+    {
+      "ticker": "KEEL",
+      "group": "Landlords",
+      "window": "common",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "ai",
+      "beta": 0.3063744772,
+      "ci_low": -0.0720683986,
+      "ci_high": 0.6848173529,
+      "p": 0.1125760379,
+      "r2": 0.2070831254
+    },
+    {
+      "ticker": "KEEL",
+      "group": "Landlords",
+      "window": "common",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "bitcoin",
+      "beta": 0.049998792,
+      "ci_low": -0.1676046078,
+      "ci_high": 0.2676021917,
+      "p": 0.6524642526,
+      "r2": 0.2070831254
+    },
+    {
+      "ticker": "KEEL",
+      "group": "Landlords",
+      "window": "common",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "rates_10bp",
+      "beta": -0.0032306985,
+      "ci_low": -0.0167038026,
+      "ci_high": 0.0102424057,
+      "p": 0.6383712623,
+      "r2": 0.2070831254
+    },
+    {
+      "ticker": "IREN",
+      "group": "Neoclouds",
+      "window": "own",
+      "start": "2023-01-03",
+      "n": 926,
+      "factor": "market",
+      "beta": 2.8916512154,
+      "ci_low": 2.1640568589,
+      "ci_high": 3.6192455719,
+      "p": 0.0,
+      "r2": 0.1474897608
+    },
+    {
+      "ticker": "IREN",
+      "group": "Neoclouds",
+      "window": "own",
+      "start": "2023-01-03",
+      "n": 926,
+      "factor": "ai",
+      "beta": 0.1037714802,
+      "ci_low": -0.098226622,
+      "ci_high": 0.3057695823,
+      "p": 0.3139912195,
+      "r2": 0.1474897608
+    },
+    {
+      "ticker": "IREN",
+      "group": "Neoclouds",
+      "window": "own",
+      "start": "2023-01-03",
+      "n": 926,
+      "factor": "bitcoin",
+      "beta": 0.2416038158,
+      "ci_low": 0.0749067215,
+      "ci_high": 0.4083009101,
+      "p": 0.0045016041,
+      "r2": 0.1474897608
+    },
+    {
+      "ticker": "IREN",
+      "group": "Neoclouds",
+      "window": "own",
+      "start": "2023-01-03",
+      "n": 926,
+      "factor": "rates_10bp",
+      "beta": -0.000780687,
+      "ci_low": -0.0091219186,
+      "ci_high": 0.0075605446,
+      "p": 0.8544525236,
+      "r2": 0.1474897608
+    },
+    {
+      "ticker": "IREN",
+      "group": "Neoclouds",
+      "window": "common",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "market",
+      "beta": 2.4994048229,
+      "ci_low": 1.5525500592,
+      "ci_high": 3.4462595866,
+      "p": 2.295e-07,
+      "r2": 0.1723486191
+    },
+    {
+      "ticker": "IREN",
+      "group": "Neoclouds",
+      "window": "common",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "ai",
+      "beta": 0.399784771,
+      "ci_low": 0.0742025751,
+      "ci_high": 0.7253669669,
+      "p": 0.0160994067,
+      "r2": 0.1723486191
+    },
+    {
+      "ticker": "IREN",
+      "group": "Neoclouds",
+      "window": "common",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "bitcoin",
+      "beta": 0.1171603512,
+      "ci_low": -0.1196454418,
+      "ci_high": 0.3539661441,
+      "p": 0.3321971216,
+      "r2": 0.1723486191
+    },
+    {
+      "ticker": "IREN",
+      "group": "Neoclouds",
+      "window": "common",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "rates_10bp",
+      "beta": 0.0002782235,
+      "ci_low": -0.0143332575,
+      "ci_high": 0.0148897046,
+      "p": 0.9702294432,
+      "r2": 0.1723486191
+    },
+    {
+      "ticker": "CRWV",
+      "group": "Neoclouds",
+      "window": "own",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "market",
+      "beta": 2.8283008583,
+      "ci_low": 2.0243718397,
+      "ci_high": 3.632229877,
+      "p": 0.0,
+      "r2": 0.1977443847
+    },
+    {
+      "ticker": "CRWV",
+      "group": "Neoclouds",
+      "window": "own",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "ai",
+      "beta": 0.8490125217,
+      "ci_low": 0.4799814071,
+      "ci_high": 1.2180436363,
+      "p": 6.5073e-06,
+      "r2": 0.1977443847
+    },
+    {
+      "ticker": "CRWV",
+      "group": "Neoclouds",
+      "window": "own",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "bitcoin",
+      "beta": -0.0250448437,
+      "ci_low": -0.2891908244,
+      "ci_high": 0.239101137,
+      "p": 0.8525758687,
+      "r2": 0.1977443847
+    },
+    {
+      "ticker": "CRWV",
+      "group": "Neoclouds",
+      "window": "own",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "rates_10bp",
+      "beta": -0.000418477,
+      "ci_low": -0.0145590156,
+      "ci_high": 0.0137220615,
+      "p": 0.9537458875,
+      "r2": 0.1977443847
+    },
+    {
+      "ticker": "CRWV",
+      "group": "Neoclouds",
+      "window": "common",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "market",
+      "beta": 2.8283008583,
+      "ci_low": 2.0243718397,
+      "ci_high": 3.632229877,
+      "p": 0.0,
+      "r2": 0.1977443847
+    },
+    {
+      "ticker": "CRWV",
+      "group": "Neoclouds",
+      "window": "common",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "ai",
+      "beta": 0.8490125217,
+      "ci_low": 0.4799814071,
+      "ci_high": 1.2180436363,
+      "p": 6.5073e-06,
+      "r2": 0.1977443847
+    },
+    {
+      "ticker": "CRWV",
+      "group": "Neoclouds",
+      "window": "common",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "bitcoin",
+      "beta": -0.0250448437,
+      "ci_low": -0.2891908244,
+      "ci_high": 0.239101137,
+      "p": 0.8525758687,
+      "r2": 0.1977443847
+    },
+    {
+      "ticker": "CRWV",
+      "group": "Neoclouds",
+      "window": "common",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "rates_10bp",
+      "beta": -0.000418477,
+      "ci_low": -0.0145590156,
+      "ci_high": 0.0137220615,
+      "p": 0.9537458875,
+      "r2": 0.1977443847
+    },
+    {
+      "ticker": "NBIS",
+      "group": "Neoclouds",
+      "window": "own",
+      "start": "2024-10-22",
+      "n": 473,
+      "factor": "market",
+      "beta": 3.0006752973,
+      "ci_low": 2.2765197556,
+      "ci_high": 3.7248308391,
+      "p": 4.605287299e-16,
+      "r2": 0.248308127
+    },
+    {
+      "ticker": "NBIS",
+      "group": "Neoclouds",
+      "window": "own",
+      "start": "2024-10-22",
+      "n": 473,
+      "factor": "ai",
+      "beta": 0.9288854824,
+      "ci_low": 0.5653060178,
+      "ci_high": 1.2924649469,
+      "p": 5.517e-07,
+      "r2": 0.248308127
+    },
+    {
+      "ticker": "NBIS",
+      "group": "Neoclouds",
+      "window": "own",
+      "start": "2024-10-22",
+      "n": 473,
+      "factor": "bitcoin",
+      "beta": 0.1604622425,
+      "ci_low": -0.0672737795,
+      "ci_high": 0.3881982644,
+      "p": 0.1672833219,
+      "r2": 0.248308127
+    },
+    {
+      "ticker": "NBIS",
+      "group": "Neoclouds",
+      "window": "own",
+      "start": "2024-10-22",
+      "n": 473,
+      "factor": "rates_10bp",
+      "beta": 0.0115075905,
+      "ci_low": 0.0005238218,
+      "ci_high": 0.0224913592,
+      "p": 0.0400303386,
+      "r2": 0.248308127
+    },
+    {
+      "ticker": "NBIS",
+      "group": "Neoclouds",
+      "window": "common",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "market",
+      "beta": 2.8609254086,
+      "ci_low": 2.0574855013,
+      "ci_high": 3.6643653159,
+      "p": 0.0,
+      "r2": 0.2110432524
+    },
+    {
+      "ticker": "NBIS",
+      "group": "Neoclouds",
+      "window": "common",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "ai",
+      "beta": 0.8080132479,
+      "ci_low": 0.4925889029,
+      "ci_high": 1.123437593,
+      "p": 5.146e-07,
+      "r2": 0.2110432524
+    },
+    {
+      "ticker": "NBIS",
+      "group": "Neoclouds",
+      "window": "common",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "bitcoin",
+      "beta": 0.0455130972,
+      "ci_low": -0.1820084537,
+      "ci_high": 0.2730346481,
+      "p": 0.6950076075,
+      "r2": 0.2110432524
+    },
+    {
+      "ticker": "NBIS",
+      "group": "Neoclouds",
+      "window": "common",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "rates_10bp",
+      "beta": 0.0109121051,
+      "ci_low": -0.0011688097,
+      "ci_high": 0.0229930199,
+      "p": 0.0766704321,
+      "r2": 0.2110432524
+    },
+    {
+      "ticker": "HPE",
+      "group": "Server providers",
+      "window": "own",
+      "start": "2023-01-03",
+      "n": 926,
+      "factor": "market",
+      "beta": 1.5580093189,
+      "ci_low": 1.4149139326,
+      "ci_high": 1.7011047052,
+      "p": 4.839140972e-101,
+      "r2": 0.2916485672
+    },
+    {
+      "ticker": "HPE",
+      "group": "Server providers",
+      "window": "own",
+      "start": "2023-01-03",
+      "n": 926,
+      "factor": "ai",
+      "beta": 0.0349429143,
+      "ci_low": -0.0240770788,
+      "ci_high": 0.0939629075,
+      "p": 0.2458856176,
+      "r2": 0.2916485672
+    },
+    {
+      "ticker": "HPE",
+      "group": "Server providers",
+      "window": "own",
+      "start": "2023-01-03",
+      "n": 926,
+      "factor": "bitcoin",
+      "beta": -0.040738868,
+      "ci_low": -0.0986284265,
+      "ci_high": 0.0171506906,
+      "p": 0.1678041619,
+      "r2": 0.2916485672
+    },
+    {
+      "ticker": "HPE",
+      "group": "Server providers",
+      "window": "own",
+      "start": "2023-01-03",
+      "n": 926,
+      "factor": "rates_10bp",
+      "beta": 0.0034249912,
+      "ci_low": 0.0014404152,
+      "ci_high": 0.0054095672,
+      "p": 0.0007182518,
+      "r2": 0.2916485672
+    },
+    {
+      "ticker": "HPE",
+      "group": "Server providers",
+      "window": "common",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "market",
+      "beta": 1.7386921812,
+      "ci_low": 1.4550208979,
+      "ci_high": 2.0223634645,
+      "p": 3.032267817e-33,
+      "r2": 0.3270640141
+    },
+    {
+      "ticker": "HPE",
+      "group": "Server providers",
+      "window": "common",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "ai",
+      "beta": 0.0244413776,
+      "ci_low": -0.1134510886,
+      "ci_high": 0.1623338438,
+      "p": 0.7282887791,
+      "r2": 0.3270640141
+    },
+    {
+      "ticker": "HPE",
+      "group": "Server providers",
+      "window": "common",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "bitcoin",
+      "beta": -0.1268903061,
+      "ci_low": -0.2611764692,
+      "ci_high": 0.0073958571,
+      "p": 0.0640231969,
+      "r2": 0.3270640141
+    },
+    {
+      "ticker": "HPE",
+      "group": "Server providers",
+      "window": "common",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "rates_10bp",
+      "beta": 0.0032914348,
+      "ci_low": -0.0019644851,
+      "ci_high": 0.0085473546,
+      "p": 0.2196738856,
+      "r2": 0.3270640141
+    },
+    {
+      "ticker": "DELL",
+      "group": "Server providers",
+      "window": "own",
+      "start": "2023-01-03",
+      "n": 926,
+      "factor": "market",
+      "beta": 1.7876612636,
+      "ci_low": 1.5828517226,
+      "ci_high": 1.9924708045,
+      "p": 1.307822726e-65,
+      "r2": 0.2333957804
+    },
+    {
+      "ticker": "DELL",
+      "group": "Server providers",
+      "window": "own",
+      "start": "2023-01-03",
+      "n": 926,
+      "factor": "ai",
+      "beta": 0.1990543649,
+      "ci_low": 0.1150242577,
+      "ci_high": 0.2830844722,
+      "p": 3.4363e-06,
+      "r2": 0.2333957804
+    },
+    {
+      "ticker": "DELL",
+      "group": "Server providers",
+      "window": "own",
+      "start": "2023-01-03",
+      "n": 926,
+      "factor": "bitcoin",
+      "beta": -0.0408090062,
+      "ci_low": -0.100310096,
+      "ci_high": 0.0186920836,
+      "p": 0.1788684142,
+      "r2": 0.2333957804
+    },
+    {
+      "ticker": "DELL",
+      "group": "Server providers",
+      "window": "own",
+      "start": "2023-01-03",
+      "n": 926,
+      "factor": "rates_10bp",
+      "beta": 0.0039795206,
+      "ci_low": 0.0005252644,
+      "ci_high": 0.0074337768,
+      "p": 0.0239455393,
+      "r2": 0.2333957804
+    },
+    {
+      "ticker": "DELL",
+      "group": "Server providers",
+      "window": "common",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "market",
+      "beta": 1.9872008966,
+      "ci_low": 1.6091124064,
+      "ci_high": 2.3652893869,
+      "p": 6.944050411e-25,
+      "r2": 0.2395163533
+    },
+    {
+      "ticker": "DELL",
+      "group": "Server providers",
+      "window": "common",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "ai",
+      "beta": 0.1792911983,
+      "ci_low": -0.0599620087,
+      "ci_high": 0.4185444052,
+      "p": 0.1418993133,
+      "r2": 0.2395163533
+    },
+    {
+      "ticker": "DELL",
+      "group": "Server providers",
+      "window": "common",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "bitcoin",
+      "beta": -0.0343186645,
+      "ci_low": -0.1777560123,
+      "ci_high": 0.1091186833,
+      "p": 0.6391133383,
+      "r2": 0.2395163533
+    },
+    {
+      "ticker": "DELL",
+      "group": "Server providers",
+      "window": "common",
+      "start": "2025-03-31",
+      "n": 365,
+      "factor": "rates_10bp",
+      "beta": -0.0003955767,
+      "ci_low": -0.0080636551,
+      "ci_high": 0.0072725016,
+      "p": 0.9194634742,
+      "r2": 0.2395163533
+    }
+  ],
+  "portfolio": {
+    "main": {
+      "members": {
+        "Landlords": [
+          "DLR",
+          "KEEL"
+        ],
+        "Neoclouds": [
+          "IREN",
+          "CRWV",
+          "NBIS"
+        ],
+        "Server providers": [
+          "HPE",
+          "DELL"
+        ]
+      },
+      "start": "2025-03-31",
+      "end": "2026-09-11",
+      "n_days": 365,
+      "rf": 0.03840661157024793,
+      "stats": {
+        "Landlords": {
+          "ann_return": 0.9113024687217985,
+          "ann_vol": 0.6022720158463528,
+          "sharpe": 1.449338229545497,
+          "max_drawdown": -0.479560159480104
+        },
+        "Neoclouds": {
+          "ann_return": 1.739281696569547,
+          "ann_vol": 0.9130372998823051,
+          "sharpe": 1.8628757940322374,
+          "max_drawdown": -0.49241560152654684
+        },
+        "Server providers": {
+          "ann_return": 1.3051347813243692,
+          "ann_vol": 0.5642733072877787,
+          "sharpe": 2.244884089667016,
+          "max_drawdown": -0.26459769740312944
+        }
+      },
+      "corr": {
+        "Landlords": {
+          "Landlords": 1.0,
+          "Neoclouds": 0.659,
+          "Server providers": 0.388
+        },
+        "Neoclouds": {
+          "Landlords": 0.659,
+          "Neoclouds": 1.0,
+          "Server providers": 0.401
+        },
+        "Server providers": {
+          "Landlords": 0.388,
+          "Neoclouds": 0.401,
+          "Server providers": 1.0
+        }
+      },
+      "min_variance": {
+        "Landlords": 0.44690482671034726,
+        "Neoclouds": 1.7780915628762273e-17,
+        "Server providers": 0.5530951732896527
+      },
+      "tangency": {
+        "Landlords": 0.0008573333583535509,
+        "Neoclouds": 0.28381075749696427,
+        "Server providers": 0.7153319091446823
+      },
+      "pairs": [
+        {
+          "low_vol": "Landlords",
+          "high_vol": "Neoclouds",
+          "rho": 0.65881490147267,
+          "vol_ratio": 0.6596357190708294,
+          "corner": false,
+          "w_low_analytic": 0.9990433296289372,
+          "w_low_optimiser": 0.9990433326948878
+        },
+        {
+          "low_vol": "Server providers",
+          "high_vol": "Landlords",
+          "rho": 0.3879760479938891,
+          "vol_ratio": 0.9369077301305859,
+          "corner": false,
+          "w_low_analytic": 0.5530951702558664,
+          "w_low_optimiser": 0.5530951707438597
+        },
+        {
+          "low_vol": "Server providers",
+          "high_vol": "Neoclouds",
+          "rho": 0.40115117592606914,
+          "vol_ratio": 0.6180178042677076,
+          "corner": false,
+          "w_low_analytic": 0.8487460827615245,
+          "w_low_optimiser": 0.8487460937301715
+        }
+      ],
+      "min_variance_vol": 0.4848022941227173,
+      "tangency_sharpe": 2.4785504860381296
+    },
+    "bootstrap_main": {
+      "mv": {
+        "Landlords": {
+          "zero_weight_share": 0.0,
+          "p5": 0.2671422154001758,
+          "median": 0.4389532034532656,
+          "p95": 0.6129768936678714
+        },
+        "Neoclouds": {
+          "zero_weight_share": 0.968,
+          "p5": 0.0,
+          "median": 1.734723475976807e-18,
+          "p95": 8.529418490943456e-17
+        },
+        "Server providers": {
+          "zero_weight_share": 0.0,
+          "p5": 0.3870231063321288,
+          "median": 0.5602608223396981,
+          "p95": 0.7309305414577232
+        }
+      },
+      "tan": {
+        "Landlords": {
+          "zero_weight_share": 0.508,
+          "p5": 0.0,
+          "median": 8.311618101341853e-15,
+          "p95": 0.44731422931093384
+        },
+        "Neoclouds": {
+          "zero_weight_share": 0.1755,
+          "p5": 0.0,
+          "median": 0.21141291208049856,
+          "p95": 0.6487121218900187
+        },
+        "Server providers": {
+          "zero_weight_share": 0.018,
+          "p5": 0.24469086517988292,
+          "median": 0.6319582323218321,
+          "p95": 0.9999999999999998
+        }
+      },
+      "all_positive_mv_share": 0.032,
+      "all_positive_tan_share": 0.3805,
+      "draws": 2000,
+      "mean_block_days": 20
+    },
+    "robust": {
+      "members": {
+        "Landlords": [
+          "DLR",
+          "KEEL"
+        ],
+        "Neoclouds": [
+          "IREN",
+          "CRWV",
+          "NBIS"
+        ],
+        "Server providers": [
+          "HPE",
+          "DELL"
+        ]
+      },
+      "start": "2024-10-22",
+      "end": "2026-09-11",
+      "n_days": 473,
+      "rf": 0.039410191082802554,
+      "stats": {
+        "Landlords": {
+          "ann_return": 0.47625160917043025,
+          "ann_vol": 0.5941043685238235,
+          "sharpe": 0.735294068234259,
+          "max_drawdown": -0.5462989771718847
+        },
+        "Neoclouds": {
+          "ann_return": 1.429272997825143,
+          "ann_vol": 0.954059549160634,
+          "sharpe": 1.4567883188896533,
+          "max_drawdown": -0.5658205428597955
+        },
+        "Server providers": {
+          "ann_return": 0.8932572966383914,
+          "ann_vol": 0.5355530747862409,
+          "sharpe": 1.5943277067289565,
+          "max_drawdown": -0.45789024658860933
+        }
+      },
+      "corr": {
+        "Landlords": {
+          "Landlords": 1.0,
+          "Neoclouds": 0.685,
+          "Server providers": 0.397
+        },
+        "Neoclouds": {
+          "Landlords": 0.685,
+          "Neoclouds": 1.0,
+          "Server providers": 0.406
+        },
+        "Server providers": {
+          "Landlords": 0.397,
+          "Neoclouds": 0.406,
+          "Server providers": 1.0
+        }
+      },
+      "min_variance": {
+        "Landlords": 0.414568951822165,
+        "Neoclouds": 0.0,
+        "Server providers": 0.585431048177835
+      },
+      "tangency": {
+        "Landlords": 5.178132189341063e-17,
+        "Neoclouds": 0.31177929804501997,
+        "Server providers": 0.68822070195498
+      },
+      "pairs": [
+        {
+          "low_vol": "Landlords",
+          "high_vol": "Neoclouds",
+          "rho": 0.6851806662894323,
+          "vol_ratio": 0.6227120404030407,
+          "corner": true,
+          "w_low_analytic": 1.0,
+          "w_low_optimiser": 1.0
+        },
+        {
+          "low_vol": "Server providers",
+          "high_vol": "Landlords",
+          "rho": 0.3970530989743682,
+          "vol_ratio": 0.9014461147911342,
+          "corner": false,
+          "w_low_analytic": 0.5854310448346836,
+          "w_low_optimiser": 0.5854310491226644
+        },
+        {
+          "low_vol": "Server providers",
+          "high_vol": "Neoclouds",
+          "rho": 0.4064378805924579,
+          "vol_ratio": 0.5613413494549808,
+          "corner": false,
+          "w_low_analytic": 0.8987501342674404,
+          "w_low_optimiser": 0.898750139470221
+        }
+      ],
+      "min_variance_vol": 0.46934530509851524,
+      "tangency_sharpe": 1.8235870101788962
+    },
+    "dlr_only": {
+      "members": {
+        "Landlords": [
+          "DLR"
+        ],
+        "Neoclouds": [
+          "IREN",
+          "CRWV",
+          "NBIS"
+        ],
+        "Server providers": [
+          "HPE",
+          "DELL"
+        ]
+      },
+      "start": "2025-03-31",
+      "end": "2026-09-11",
+      "n_days": 365,
+      "rf": 0.03840661157024793,
+      "stats": {
+        "Landlords": {
+          "ann_return": 0.25331583504997335,
+          "ann_vol": 0.26001810800480896,
+          "sharpe": 0.8265163727587416,
+          "max_drawdown": -0.16826122232910623
+        },
+        "Neoclouds": {
+          "ann_return": 1.739281696569547,
+          "ann_vol": 0.9130372998823051,
+          "sharpe": 1.8628757940322374,
+          "max_drawdown": -0.49241560152654684
+        },
+        "Server providers": {
+          "ann_return": 1.3051347813243692,
+          "ann_vol": 0.5642733072877787,
+          "sharpe": 2.244884089667016,
+          "max_drawdown": -0.26459769740312944
+        }
+      },
+      "corr": {
+        "Landlords": {
+          "Landlords": 1.0,
+          "Neoclouds": 0.368,
+          "Server providers": 0.312
+        },
+        "Neoclouds": {
+          "Landlords": 0.368,
+          "Neoclouds": 1.0,
+          "Server providers": 0.401
+        },
+        "Server providers": {
+          "Landlords": 0.312,
+          "Neoclouds": 0.401,
+          "Server providers": 1.0
+        }
+      },
+      "min_variance": {
+        "Landlords": 0.9260257430830737,
+        "Neoclouds": 0.0,
+        "Server providers": 0.07397425691692627
+      },
+      "tangency": {
+        "Landlords": 2.995239731232211e-17,
+        "Neoclouds": 0.2842541654267354,
+        "Server providers": 0.7157458345732646
+      },
+      "pairs": [
+        {
+          "low_vol": "Landlords",
+          "high_vol": "Neoclouds",
+          "rho": 0.3676871723614092,
+          "vol_ratio": 0.2847836644114392,
+          "corner": true,
+          "w_low_analytic": 1.0,
+          "w_low_optimiser": 1.0
+        },
+        {
+          "low_vol": "Landlords",
+          "high_vol": "Server providers",
+          "rho": 0.3124703016050038,
+          "vol_ratio": 0.4608017154924538,
+          "corner": false,
+          "w_low_analytic": 0.9260558269181445,
+          "w_low_optimiser": 0.9260558311785103
+        },
+        {
+          "low_vol": "Server providers",
+          "high_vol": "Neoclouds",
+          "rho": 0.40115117592606914,
+          "vol_ratio": 0.6180178042677076,
+          "corner": false,
+          "w_low_analytic": 0.8487460827615245,
+          "w_low_optimiser": 0.8487460937301715
+        }
+      ],
+      "min_variance_vol": 0.25690492797956044,
+      "tangency_sharpe": 2.4785498808388033
+    },
+    "bootstrap_dlr_only": {
+      "mv": {
+        "Landlords": {
+          "zero_weight_share": 0.0,
+          "p5": 0.8366583346747435,
+          "median": 0.9233156136927979,
+          "p95": 1.0
+        },
+        "Neoclouds": {
+          "zero_weight_share": 0.9995,
+          "p5": 0.0,
+          "median": 0.0,
+          "p95": 2.2562247209423337e-17
+        },
+        "Server providers": {
+          "zero_weight_share": 0.126,
+          "p5": 8.326672684688674e-17,
+          "median": 0.07668438630720212,
+          "p95": 0.16334166532525654
+        }
+      },
+      "tan": {
+        "Landlords": {
+          "zero_weight_share": 0.601,
+          "p5": 0.0,
+          "median": 3.623563431643297e-17,
+          "p95": 0.5383734445156545
+        },
+        "Neoclouds": {
+          "zero_weight_share": 0.106,
+          "p5": 0.0,
+          "median": 0.24455155220724967,
+          "p95": 0.625294600277498
+        },
+        "Server providers": {
+          "zero_weight_share": 0.018,
+          "p5": 0.19619186613201975,
+          "median": 0.6240488724986932,
+          "p95": 0.9999999999999998
+        }
+      },
+      "all_positive_mv_share": 0.0005,
+      "all_positive_tan_share": 0.344,
+      "draws": 2000,
+      "mean_block_days": 20
+    }
+  }
+}

@@ -1,0 +1,60 @@
+hpe-20250130
+0001645590
+false
+0001645590
+2025-01-30
+2025-01-30
+0001645590
+us-gaap:CommonStockMember
+2025-01-30
+2025-01-30
+0001645590
+us-gaap:PreferredStockMember
+2025-01-30
+2025-01-30
+UNITED STATES SECURITIES AND EXCHANGE COMMISSION WASHINGTON, D.C. 20549
+FORM | 8-K
+CURRENT REPORT
+PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934
+January 30, 2025
+Date of Report (Date of Earliest Event Reported)
+HEWLETT PACKARD ENTERPRISE COMPANY
+(Exact name of registrant as specified in its charter)
+Delaware | 001-37483 | 47-3298624
+(State or other jurisdiction of incorporation) | (Commission File Number) | (I.R.S. Employer Identification No.)
+1701 East Mossy Oaks Road, | Spring, | TX | 77389
+(Address of principal executive offices) | (Zip code)
+(678) | 259-9860
+(Registrant’s telephone number, including area code)
+Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:
+☐
+Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+☐
+Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+☐
+Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+☐
+Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+Securities registered pursuant to Section 12(b) of the Exchange Act:
+Title of each class | Trading Symbol(s) | Name of each exchange on which registered
+Common stock, par value $0.01 per share | HPE | NYSE
+7.625% Series C Mandatory Convertible Preferred Stock, par value $0.01 per share | HPEPrC | NYSE
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).
+☐ | Emerging growth company
+☐ | If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.
+Item 7.01 | Regulation FD Disclosure.
+The information reported in this Item 7.01 and the accompanying Exhibit 99.1 shall not be deemed “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended (the "Exchange Act") or incorporated by reference in any filing under the Exchange Act or the Securities Act of 1933, as amended, except as shall be expressly set forth by specific reference in such filing.
+On January 30, 2025, Hewlett Packard Enterprise Company ("HPE" or the "Company") and Juniper Networks, Inc. ("Juniper") issued a joint press release discussing recent developments regarding the pending acquisition of Juniper by HPE. A copy of the press release is furnished as Exhibit 99.1 and is incorporated herein by reference.
+Forward Looking Statements
+This Current Report on Form 8-K contains forward-looking statements within the meaning of the safe harbor provisions of the Private Securities Litigation Reform Act of 1995. Such statements involve risks, uncertainties and assumptions. If such risks or uncertainties materialize or such assumptions prove incorrect, the results of HPE and its consolidated subsidiaries could differ materially from those expressed or implied by such forward-looking statements and assumptions. The words “believe”, “expect”, “anticipate”, “guide”, “optimistic”, “intend”, “aim”, “will”, “estimates”, “may”, “could”, “should” and similar expressions are intended to identify such forward-looking statements. All statements other than statements of historical fact are statements that could be deemed forward-looking statements, including, but not limited to, any statements regarding the outcome of the litigation; ability of HPE to integrate and implement its plans, forecasts and other expectations with respect to Juniper’s business after the completion of the transaction, and to realize additional opportunities for growth and innovation; any statements regarding the expected benefits of the transaction contemplated by this document, including enhanced opportunities for growth, the delivery of customer benefits and the realization and timing of economic benefits; any statements concerning the expected development, performance, market share or competitive performance relating to products or services; any statements of expectation or belief; and any statements of assumptions underlying any of the foregoing. Risks, uncertainties and assumptions include the inability of HPE and Juniper to prevail in the litigation prior to the termination of the merger agreement or at all; the possibility that the expected benefits of the consummated transaction may not materialize as expected; that the parties are unable to successfully implement integration strategies; potential adverse business uncertainty resulting from the completion of the transaction; and other risks that are described in HPE’s and Juniper’s SEC reports, including but not limited to the risks described in HPE’s Annual Report on Form 10-K for its fiscal year ended October 31, 2024 and Juniper’s Quarterly Report on Form 10-Q for its fiscal quarter ended September 30, 2024, both filed with the Securities and Exchange Commission. HPE and Juniper assume no obligation and do not intend to update these forward-looking statements, except as required by applicable law.
+Item 9.01 | Financial Statements and Exhibits.
+(d) Exhibits.
+Exhibit Number | Description
+99.1 | Press Release, dated January 30, 2025 (furnished herewith).
+104 | Cover Page Interactive Data File (embedded within the Inline XBRL document)
+SIGNATURE
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has caused this report to be signed on its behalf by the undersigned hereunto duly authorized.
+HEWLETT PACKARD ENTERPRISE COMPANY
+DATE:  January 30, 2025 | By: | /s/ David Antczak
+Name: | David Antczak
+Title: | Senior Vice President, General Counsel and Corporate Secretary

@@ -1,0 +1,25 @@
+{
+  "ttm_quarters": [
+    "Q4 FY25",
+    "Q1 FY26",
+    "Q2 FY26",
+    "Q3 FY26"
+  ],
+  "ttm_revenue_by_segment": {
+    "Cloud & AI": 29759,
+    "Corporate Investments and Other": 1101,
+    "Networking": 11011
+  },
+  "ttm_margin_by_segment": {
+    "Cloud & AI": 0.1263,
+    "Corporate Investments and Other": -0.0754,
+    "Networking": 0.2267
+  },
+  "networking_share_of_revenue": 0.263,
+  "networking_share_of_segment_profit": 0.4045,
+  "q3fy26_yoy_by_segment": {
+    "Cloud & AI": 0.2537,
+    "Corporate Investments and Other": 0.0296,
+    "Networking": 0.7491
+  }
+}

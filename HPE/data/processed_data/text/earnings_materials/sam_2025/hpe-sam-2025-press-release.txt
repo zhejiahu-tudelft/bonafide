@@ -1,0 +1,379 @@
+
+=== page 1 ===
+ 
+ 
+ 
+ 
+ 
+HPE 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1701 E. Mossy Oaks Road 
+Spring, TX 77389 
+ 
+hpe.com 
+ 
+News Release  
+HPE details strategic and execution priorities to drive enhanced 
+shareholder value at HPE Securities Analyst Meeting 2025 
+ 
+• Strengthened networking capabilities will be a major contributor to HPE’s financial 
+performance and strategic growth  
+• HPE intends to profitably capture explosive AI infrastructure growth with a focus on 
+enterprise and sovereign customer segments, and anticipates expansion of its leadership in 
+the hybrid cloud market 
+• HPE to increase its annual dividend for fiscal year 2026 by 10% and share repurchase 
+capacity by an additional $3 billion, bringing the total repurchase authorization to 
+approximately $3.7 billion 
+• By fiscal year 2028, HPE expects to generate more than $3.5 billion in free cash flow, with 
+GAAP diluted net EPS of approximately $1.93 and non-GAAP diluted net EPS of at least 
+$3.00 
+ 
+NEW YORK – October 15, 2025 – HPE (NYSE: HPE) today hosted its Securities Analyst Meeting at the New 
+York Stock Exchange, where Antonio Neri, HPE president and CEO; Marie Myers, executive vice president 
+and CFO; and Rami Rahim, executive vice president, president and general manager of HPE Networking, 
+discussed the company’s strategic priorities and financial outlook through fiscal year 2028. They illustrated 
+how HPE’s leadership position in the high-growth, high-margin networking market and differentiated 
+offering across cloud and AI will strengthen the company’s ability to generate stronger returns for investors. 
+ 
+Neri highlighted the company’s differentiated strategy and financial progress as HPE enters a new chapter 
+driven by expanded networking capabilities and enhanced participation in the cloud and AI markets with 
+a stronger value proposition.  
+ 
+“By aligning our investments and innovation to address the IT industry’s most promising opportunities in 
+networking, cloud, and AI, we’re poised to gain share in the markets that matter most to our customers,” 
+said Antonio Neri, president and CEO. “In HPE’s new chapter, our strengthened portfolio will create more 
+
+
+=== page 2 ===
+ 
+ 
+profitable growth, increasing capital return opportunities that deliver even greater value to our 
+shareholders.” 
+ 
+HPE is shifting its portfolio to higher-growth, higher-margin businesses, giving the company greater 
+potential to enhance long-term profit. The company discussed its intent to achieve greater profitability and 
+improve free cash flow generation in the coming years, in order to provide higher capital return to 
+shareholders.   
+ 
+To support its shareholder capital return goals, the company announced a 10% increase to its annual 
+dividend for fiscal year 20261, reflecting confidence in its outlook. Its Board of Directors authorized an 
+additional $3 billion in capacity for share repurchases, bringing HPE’s total repurchase authorization to 
+approximately $3.7 billion. Long-term, HPE plans to return significant free cash flow to shareholders via 
+dividends and buybacks. 
+ 
+Neri noted the company’s strategic priorities for the company’s next chapter: build a new  networking  
+industry leader; capture profitable growth in the AI infrastructure market with a focus on sovereign and 
+enterprise customers; accelerate high-margin software and services growth through GreenLake; capitalize 
+on unstructured data market growth; and transition customers to next-generation server platforms. The 
+company will pursue these market opportunities while optimizing the company’s cost structure to enhance 
+long-term profitability.   
+ 
+Creating a new networking industry leader 
+ 
+Networking has become a foundational pillar of HPE’s business. With the acquisition of Juniper Networks, 
+Inc., HPE has created an opportunity to disrupt the status quo in the networking industry. HPE is uniquely 
+positioned to lead in this market, offering an industry-leading, AI-native networking portfolio across 
+campus and branch, data center switching, and wide-area routing infrastructure. With expanded portfolio 
+breadth and go-to-market scale, HPE is set to fuel networking innovation with AI and for AI. 
+ 
+Capturing profitable growth in the AI infrastructure market 
+ 
+HPE’s portfolio of AI offerings positions the company competitively across customer segments, including 
+AI model builders and service providers, sovereigns, and enterprises. The company intends to leverage its 
+unique strengths to focus on the sovereign and enterprise segments, enabling HPE to capture explosive AI 
+infrastructure growth profitably. 
+ 
+Accelerating high-margin GreenLake software and services growth 
+ 
+HPE expects to continue to attract new customers and grow share of wallet with GreenLake, the cloud that 
+delivers a unified platform experience to enable enterprises to simplify IT, reduce costs and transform 
+
+
+=== page 3 ===
+ 
+ 
+faster. GreenLake creates cross-sell opportunities for software and services across the installed base. HPE’s 
+growing portfolio of high-margin software offerings is also expanding the company’s ability to accelerate 
+growth and margin. HPE plans to capitalize on unstructured data market growth with proprietary 
+technology. 
+ 
+Capitalizing on unstructured data market growth with our own IP through Alletra MP 
+ 
+AI has made data management an even more important priority for enterprises, and HPE Alletra MP is 
+uniquely positioned for growing unstructured data management needs. HPE is building on the momentum 
+of Alletra MP to drive a transition to HPE-developed storage solutions, reducing reliance on third-party 
+products and enhancing profitability.  
+ 
+Driving customer transition to next-generation server platforms 
+ 
+In its core server segment, HPE will balance profitability and unit growth, focusing on volume and service 
+attachment to sustain long-term cash flow. Transitioning customers to HPE ProLiant Gen 11 and Gen 12 
+servers drives revenue growth through richer configurations and higher average prices. 
+ 
+Optimizing cost structure to sustain long-term profitability  
+ 
+HPE will focus on operational execution and cost structure optimization to increase free cash flow and 
+reduce its net debt leverage ratio, creating the ability to accelerate greater capital return to shareholders.  
+ 
+The company announced updates to Catalyst, a set of initiatives to enhance growth opportunities while 
+driving structural cost savings. Designed to make the company faster, smarter, and more efficient, these 
+cost-reduction and efficiency actions position HPE for improved operating leverage and higher long-term 
+profitability. The company anticipates that by fiscal year 2028, Catalyst will deliver at least $350 million in 
+gross savings. The company also still expects to achieve at least $600 million in cost savings from Juniper-
+related synergies during that time. These savings will impact both cost of sales and operating expenses, 
+improving non-GAAP gross profit, enhancing non-GAAP operating profit, while supporting investments 
+vital for long-term sustainable growth. 
+ 
+
+
+=== page 4 ===
+ 
+ 
+Long-Term Financial Outlook 
+ 
+HPE provided its long-term financial model for fiscal year 2025 through fiscal year 2028. HPE projects a 
+compounded revenue growth rate of 5% to 7% and non-GAAP operating profit growth of 11% to 17%, both 
+on a pro forma2,3 basis, driving non-GAAP diluted net earnings per share ("EPS") of at least $3.00 per share 
+by fiscal year 2028. GAAP diluted net EPS is estimated to be approximately $1.93 per diluted share by fiscal 
+year 2028. Non-GAAP diluted net EPS excludes net after-tax adjustments of approximately $1.07 per 
+diluted share, primarily related to amortization of intangible assets and stock-based compensation 
+expense. GAAP diluted net EPS guidance does not reflect any potential gains or losses from the disposition 
+of its remaining interest in H3C. In addition, HPE expects to generate more than $3.5 billion in free cash 
+flow3,4 by fiscal year 2028. 
+ 
+The company will continue to follow a strategic financial framework for value creation, focused on driving 
+free cash flow generation, a commitment to reducing net leverage, and delivering capital returns through 
+consistent dividend growth and share repurchases.  
+ 
+FY26 Outlook 
+ 
+For fiscal year 2026, HPE expects sustained momentum across its business and provided the following 
+forecast: year over year revenue growth between 5% to 10%, non-GAAP operating profit growth between 
+10% to 18%, both on a pro forma2 basis, and GAAP operating profit growth estimate without the pro forma 
+treatment is expected to be 435% to 445%. FY26 non-GAAP operating profit excludes costs of 
+approximately $2.9 billion primarily related to amortization of intangible assets, stock-based compensation 
+expense, acquisition, disposition and other charges, and cost reduction program. 
+ 
+The company expects headwinds of approximately $650 million in interest and other, net for the full year. 
+The company expects a structural non-GAAP tax rate of 14%3 based on current tax laws due to the benefits 
+from the Juniper acquisition. 
+ 
+HPE is expecting fiscal year 2026 GAAP diluted net EPS to be in the range of $0.57 to $0.77 and non-GAAP 
+diluted net EPS of between $2.20 and $2.40. The non-GAAP diluted net EPS outlook excludes after-tax costs 
+of approximately $1.63 per diluted share, primarily related to amortization of intangible assets, stock-
+based compensation expense, and acquisition, disposition and other charges. GAAP diluted net EPS 
+guidance does not reflect any potential gains or losses from the disposition of its remaining interest in H3C. 
+HPE expects fiscal year 2026 free cash flow to be $1.5 billion to $2.0 billion.3,4 
+ 
+The company announced a 10% increase in its annual dividend per share1.     
+ 
+Webcast Details  
+ 
+
+
+=== page 5 ===
+ 
+ 
+A recording of today’s SAM webcast event, along with executives’ presentations and related materials, will 
+be available on the HPE Investor Relations website at https://www.hpe.com/investor/SAM2025. 
+ 
+This press release contains only a summary of some of the information presented at today’s event and 
+should be read in conjunction with the management presentations and related materials made available 
+on that website.  
+ 
+1 Subject to HPE Board of Directors approval  
+ 
+2 Growth rates include FY25 results normalized to include 8 months of Juniper results pre-acquisition close. 
+Revenue growth outlook without such treatment is expected to be 17 to 22% for FY26 and 8 to 11% long-
+term. 
+ 
+3 Hewlett Packard Enterprise provides certain guidance on a non-GAAP basis. The Company is unable to 
+provide a reconciliation to the most directly comparable GAAP financial measure without unreasonable 
+efforts, as it cannot predict some elements that are included in such directly comparable GAAP financial 
+measure or, in the case of non-GAAP operating profit growth CAGR, GAAP operating profit CAGR is not 
+derivable because GAAP operating profit for FY25 is expected to be negative. These elements could have 
+a material impact on the Company’s reported GAAP results for the guidance period.   
+ 
+4 Free cash flow represents cash flow from operations, less net capital expenditures (investments in 
+property, plant & equipment (“PP&E”) and software assets less proceeds from the sale of PP&E), and 
+adjusted for the effect of exchange rate fluctuations on cash, cash equivalents, and restricted cash.   
+ 
+About HPE  
+HPE (NYSE: HPE) is a leader in essential enterprise technology, bringing together the power of AI, cloud, 
+and networking to help organizations achieve more. As pioneers of possibility, our innovation and expertise 
+advance the way people live and work. We empower our customers across industries to optimize 
+operational performance, transform data into foresight, and maximize their impact. Unlock your boldest 
+ambitions with HPE. Discover more at https://www.hpe.com/us/en/home.html. 
+ 
+Media Contact: 
+Laura Keller 
+laura.keller@hpe.com 
+ 
+Investor Contact: 
+Paul Glaser 
+investor.relations@hpe.com 
+ 
+Use of non-GAAP financial information and key performance metrics 
+
+
+=== page 6 ===
+ 
+ 
+To supplement Hewlett Packard Enterprise’s condensed consolidated financial statement information 
+presented on a generally accepted accounting principles (“GAAP”) basis, Hewlett Packard Enterprise 
+provides financial measures, including non-GAAP gross profit, non-GAAP gross profit margin, non-GAAP 
+operating profit (non-GAAP earnings from operations), non-GAAP operating profit margin (non-GAAP 
+earnings from operations as a percentage of net revenue), non-GAAP income tax rate, non-GAAP net 
+earnings attributable to HPE and non-GAAP net earnings attributable to common stockholders, non-GAAP 
+diluted net earnings per share attributable to common stockholders, and free cash flow (“FCF”). Hewlett 
+Packard Enterprise also provides forecasts of non-GAAP operating profit growth, non-GAAP diluted net 
+earnings per share, and FCF. Reconciliations of each of these non-GAAP financial measures to their most 
+directly comparable GAAP measures for this quarter and prior periods are included in the tables below or 
+elsewhere in the materials accompanying this news release. In addition an explanation of the ways in which 
+Hewlett Packard Enterprise’s management uses these non-GAAP measures to evaluate its business, the 
+substance behind Hewlett Packard Enterprise’s decision to use these non-GAAP measures, the material 
+limitations associated with the use of these non-GAAP measures, the manner in which Hewlett Packard 
+Enterprise’s management compensates for those limitations, and the substantive reasons why Hewlett 
+Packard Enterprise’s management believes that these non-GAAP measures provide supplemental useful 
+information to investors is included further below. This additional non-GAAP financial information is not 
+meant to be considered in isolation or as a substitute for revenue, gross profit, gross profit margin, 
+operating profit (earnings from operations), operating profit margin (earnings from operations as a 
+percentage of net revenue), net earnings, diluted net earnings per share, and cash flow from operations 
+prepared in accordance with GAAP. 
+ 
+Use and economic substance of non-GAAP financial measures used by Hewlett Packard Enterprise  
+Hewlett Packard Enterprise’s management uses these non-GAAP financial measures for purposes of 
+evaluating Hewlett Packard Enterprise’s historical and prospective financial performance, as well as 
+Hewlett Packard Enterprise’s performance relative to its competitors. Hewlett Packard Enterprise’s 
+management also uses these non-GAAP measures to further its own understanding of Hewlett Packard 
+Enterprise’s segment operating performance. Hewlett Packard Enterprise believes that excluding certain 
+items - from these non-GAAP financial measures allows Hewlett Packard Enterprise’s management to 
+better understand Hewlett Packard Enterprise’s consolidated financial performance in relation to the 
+operating results of Hewlett Packard Enterprise’s segments, as Hewlett Packard Enterprise’s management 
+does not believe that the excluded items are reflective of ongoing operating results.  
+ 
+Material limitations associated with use of non-GAAP financial measures 
+These non-GAAP financial measures may have limitations as analytical tools, and these measures should 
+not be considered in isolation or as a substitute for analysis of Hewlett Packard Enterprise’s results as 
+reported under GAAP.  
+ 
+Compensation for limitations associated with use of non-GAAP financial measures   
+
+
+=== page 7 ===
+ 
+ 
+Hewlett Packard Enterprise compensates for the limitations on its use of non-GAAP financial measures by 
+relying primarily on its GAAP results and using non-GAAP financial measures only as supplement. Hewlett 
+Packard Enterprise also provides a reconciliation of each non-GAAP financial measures to its most directly 
+comparable GAAP measure in this release or in other written materials that include these non-GAAP 
+financial measures, and Hewlett Packard Enterprise encourages investors to review those reconciliations 
+carefully.  
+ 
+Usefulness of non-GAAP financial measures to investors   
+Hewlett Packard Enterprise believes that providing forecasts of non-GAAP operating profit, non-GAAP 
+operating profit growth, non-GAAP measure of other income and expenses, non-GAAP income tax rate, 
+non-GAAP diluted net earnings per share, and free cash flow financial measures to investors, in addition 
+to certain related GAAP measures, provides investors with greater transparency to the information used 
+by Hewlett Packard Enterprise’s management in its financial and operational decision making and allows 
+investors to see Hewlett Packard Enterprise’s results “through the eyes” of management. Hewlett Packard 
+Enterprise further believes that providing this information better enables Hewlett Packard Enterprise’s 
+investors to understand Hewlett Packard Enterprise’s operating performance and financial condition and 
+to evaluate the efficacy of the methodology and information used by Hewlett Packard Enterprise’s 
+management to evaluate and measure such performance and financial condition. Disclosure of these non-
+GAAP financial measures also facilitates comparisons of Hewlett Packard Enterprise’s operating 
+performance with the performance of other companies in Hewlett Packard Enterprise’s industry that 
+supplement their GAAP results with non-GAAP financial measures that may be calculated in a similar 
+manner. 
+ 
+Forward-looking statements 
+This press release contains forward-looking statements within the meaning of the safe harbor provisions 
+of the Private Securities Litigation Reform Act of 1995. Such statements involve risks, uncertainties, and 
+assumptions. If the risks or uncertainties ever materialize or the assumptions prove incorrect, the results 
+of Hewlett Packard Enterprise Company and its consolidated subsidiaries (“Hewlett Packard Enterprise”) 
+may differ materially from those expressed or implied by such forward-looking statements and 
+assumptions. The words “believe”, “expect”, “anticipate”, “guide”, “optimistic”, “intend”, “aim”, “will”, 
+“estimates”, “may”, “could”, “should” and similar expressions are intended to identify such forward-looking 
+statements. All statements other than statements of historical fact are statements that could be deemed 
+forward-looking statements, including but not limited to any statements regarding anticipated financial or 
+operational benefits associated with the forthcoming segment realignment; any statements regarding the 
+ongoing integration of Juniper Networks, Inc., and any projections, estimates, or expectations of savings 
+or synergy realizations in connection therewith; any projections, estimations, or expectations of 
+addressable markets and their sizes and our ability to capture market opportunities, revenue (including 
+annualized revenue run-rate), margins, expenses, investments, effective tax rates, interest rates, the 
+impact of changes in trade policies and restrictions and the uncertainty created thereby, net earnings, net 
+earnings per share, cash flows, liquidity and capital resources, inventory, goodwill, impairment charges, 
+
+
+=== page 8 ===
+ 
+ 
+dividends, share repurchases, currency exchange rates, repayments of debts, or other financial items; any 
+projections or estimations of orders; any projections of the amount, timing, or impact of cost savings or 
+costs incurred to realize such savings; any statements of the plans, strategies, and objectives of 
+management for future operations, as well as the execution and consummation of cost saving efforts, 
+corporate transactions or contemplated acquisitions and dispositions, research and development 
+expenditures, and any resulting benefit, cost savings, charges, or revenue or profitability improvements; 
+any statements concerning the expected development, performance, market share, or competitive 
+performance relating to our products or services; any statements concerning technological and market 
+trends, the pace of technological innovation, and adoption of new technologies, including products and 
+services offered by Hewlett Packard Enterprise; any statements regarding current or future macroeconomic 
+trends or events and the impacts of those trends and events on Hewlett Packard Enterprise and our 
+financial performance, including but not limited to supply chain dynamics, uncertain global trade policies 
+and/or restrictions, and demand for our products and services, and our actions to mitigate such impacts 
+on our business; any statements of expectation or belief, including those relating to future guidance and 
+the financial performance of Hewlett Packard Enterprise; and any statements of assumptions underlying 
+any of the foregoing. 
+ 
+Risks, uncertainties, and assumptions include the need to address the many challenges facing Hewlett 
+Packard Enterprise’s businesses; the competitive pressures faced by Hewlett Packard Enterprise’s 
+businesses; risks associated with executing Hewlett Packard Enterprise’s strategy; the impact of 
+macroeconomic and geopolitical trends and events, including but not limited to those mentioned above; 
+the need to effectively manage third-party suppliers and distribute Hewlett Packard Enterprise's products 
+and services; the protection of Hewlett Packard Enterprise's intellectual property assets, including 
+intellectual property licensed from third parties and intellectual property shared with its former parent; 
+risks associated with Hewlett Packard Enterprise's international operations (including from geopolitical 
+events, such as those mentioned above); the development and transition of new products and services 
+and the enhancement of existing products and services to meet customer needs and respond to emerging 
+technological trends; the execution of Hewlett Packard Enterprise’s transformation and mix shift of its 
+portfolio of offerings; the execution and performance of contracts by Hewlett Packard Enterprise and its 
+suppliers, customers, clients, and partners, including any impact thereon resulting from macroeconomic 
+or geopolitical events, such as those mentioned above; the hiring and retention of key employees; the 
+execution, integration, consummation, and other risks associated with business combination, disposition, 
+and investment transactions, including but not limited to the integration of Juniper Networks, Inc., 
+including our ability to implement our plans and forecasts and realize our anticipated financial, 
+technological and operational benefits with respect to the consolidated business; the execution, timing, 
+and results of any cost saving actions, including estimates and assumptions related to the costs and 
+anticipated benefits of implementing such actions; the impact of changes to privacy, cybersecurity, 
+environmental, global trade, and other governmental regulations; changes in our product, lease, 
+intellectual property, or real estate portfolio; the payment or non-payment of a dividend for any period; 
+the efficacy of using non-GAAP, rather than GAAP, financial measures in business projections and planning; 
+
+
+=== page 9 ===
+ 
+ 
+the judgments required in connection with determining revenue recognition; impact of company policies 
+and related compliance; utility of segment realignments; allowances for recovery of receivables and 
+warranty obligations; provisions for, and resolution of, pending investigations, claims, and disputes; the 
+impacts of legal and regulatory changes and related guidance; and other risks that are described in Hewlett 
+Packard Enterprise’s Annual Report on Form 10-K for the fiscal year ended October 31, 2024, subsequent 
+Quarterly Reports on Form 10-Q, Current Reports on Form 8-K, and in other filings made by Hewlett 
+Packard Enterprise from time to time with the Securities and Exchange Commission.  
+ 
+As in prior periods, the financial information set forth in this press release, including tax-related items, 
+reflects estimates based on information available at this time. While Hewlett Packard Enterprise believes 
+these estimates to be reasonable, these amounts could differ materially from reported amounts in the 
+filings made by Hewlett Packard Enterprise from time to time with the Securities and Exchange 
+Commission. Hewlett Packard Enterprise assumes no obligation and does not intend to update these 
+forward-looking statements, except as required by applicable law. 

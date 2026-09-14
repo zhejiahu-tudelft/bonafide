@@ -1,0 +1,136 @@
+false
+Hewlett Packard Enterprise Co
+0001645590
+0001645590
+2024-01-09
+2024-01-09
+UNITED STATES
+SECURITIES AND EXCHANGE COMMISSION
+WASHINGTON, D.C. 20549
+FORM
+8-K
+CURRENT REPORT
+PURSUANT TO SECTION 13 OR 15(d) OF
+THE SECURITIES EXCHANGE ACT OF 1934
+January 9, 2024
+Date of Report (Date of Earliest Event Reported)
+HEWLETT PACKARD ENTERPRISE COMPANY
+(Exact name of registrant as specified in its charter)
+Delaware | 001-37483 | 47-3298624
+(State or other jurisdiction of incorporation) | (Commission File Number) | (I.R.S. Employer Identification No.)
+1701 E Mossy Oaks Road , Spring , TX | 77389
+(Address of principal executive offices) | (Zip Code)
+(
+678
+)
+259-9860
+(Registrant’s telephone number, including area code)
+Check the appropriate box below if the Form 8-K filing is intended to simultaneously satisfy the filing obligation of the registrant under any of the following provisions:
+☐ | Written communications pursuant to Rule 425 under the Securities Act (17 CFR 230.425)
+☐ | Soliciting material pursuant to Rule 14a-12 under the Exchange Act (17 CFR 240.14a-12)
+☐ | Pre-commencement communications pursuant to Rule 14d-2(b) under the Exchange Act (17 CFR 240.14d-2(b))
+☐ | Pre-commencement communications pursuant to Rule 13e-4(c) under the Exchange Act (17 CFR 240.13e-4(c))
+Securities registered pursuant to Section 12(b) of the Exchange Act:
+Title of each class | Trading symbol(s) | Name of each exchange on which registered
+Common stock, par value $0.01 per share | HPE | NYSE
+Indicate by check mark whether the registrant is an emerging growth company as defined in Rule 405 of the Securities Act of 1933 (§230.405 of this chapter) or
+Rule 12b-2 of the Securities Exchange Act of 1934 (§240.12b-2 of this chapter).
+☐ | Emerging growth company
+☐ | If an emerging growth company, indicate by check mark if the registrant has elected not to use the extended transition period for complying with any new or revised
+financial accounting standards provided pursuant to Section 13(a) of the Exchange Act.
+Item 1.01 | Entry into a Material Definitive Agreement.
+On January 9, 2024, Hewlett Packard Enterprise Company (“HPE”)  entered into a definitive Agreement and Plan of Merger (the “Merger Agreement”), by and among
+Juniper Networks, Inc., a Delaware corporation (“Juniper”), HPE and Jasmine Acquisition Sub, Inc., a Delaware corporation and a wholly owned subsidiary of HPE (“Merger Sub”). The Merger Agreement provides that, subject to the terms and conditions
+set forth therein, Merger Sub will merge with and into Juniper (the “Merger”), with Juniper surviving the Merger and becoming a wholly owned subsidiary of HPE (the “Surviving Corporation”). Capitalized terms used herein without definition have the
+meanings specified in the Merger Agreement.
+Pursuant to and subject to the terms and conditions of the Merger Agreement, at the effective time of the Merger (the “Effective Time”), each share of common
+stock, par value $0.00001 per share, of Juniper (“Juniper Common Stock”) issued and outstanding immediately prior to the Effective Time (excluding shares of Juniper Common Stock that are (i) owned by Juniper as treasury stock or by HPE or Merger
+Sub, which shares will be canceled and will cease to exist, (ii) held by any subsidiary of Juniper or HPE (other than Merger Sub), which shares will be converted into such number of shares of common stock of the Surviving Corporation so as to
+maintain relative ownership percentages, or (iii) held by any stockholder who did not vote in favor of the adoption of the Merger Agreement and who is entitled to demand and has properly exercised appraisal rights in respect of such shares in
+accordance with the General Corporate Law of the State of Delaware), will be converted into the right to receive $40.00 per share in cash, without interest, subject to any required withholding taxes (the “Merger Consideration”).
+Pursuant to and subject to the terms and conditions of the Merger Agreement, at the Effective Time, equity awards granted under the Juniper equity incentive
+plans and outstanding immediately prior to the Effective Time will be treated as follows:  (i) each option to purchase shares of Juniper Common Stock will be converted into an option with substantially the same terms and conditions to purchase HPE
+common shares; (ii) each restricted stock unit award in respect of shares of Juniper Common Stock held by non-employee members of the Board of Directors of Juniper will be converted into the right to receive the Merger Consideration in respect of
+each such share; and (iii) each restricted stock unit award in respect of shares of Juniper Common Stock held by individuals other than non-employee members of the Board of Directors of Juniper will be converted into a time-vesting restricted stock
+unit award with substantially the same terms and conditions (except that no performance goals shall apply) in respect of HPE common shares (in the case of performance-vesting Juniper restricted stock unit awards, with the number of shares
+determined based on actual performance in respect of performance or measurement periods that have been completed and for which performance has been determined in the ordinary course of business, and otherwise based on target performance).  The
+number of HPE common shares subject to the converted awards (and in the case of options, the exercise price) will be determined based on an equity award exchange ratio intended to substantially preserve the value of the converted awards as of
+immediately prior to and immediately following the Effective Time.
+Each of the Board of Directors of HPE and the Board of Directors of Juniper has by unanimous vote of the directors approved the Merger Agreement and the
+transactions contemplated thereby, including the Merger.
+Pursuant to and subject to the terms and conditions of the Merger Agreement, Juniper has agreed to various customary covenants and agreements, among other
+things, (i) to use commercially reasonable efforts to conduct its business in the ordinary course during the period between the execution of the Merger Agreement and the consummation of the Merger; (ii) subject to certain customary exceptions set
+forth in the Merger Agreement to permit Juniper’s board of directors to comply with its fiduciary duties, to recommend that Juniper’s stockholders adopt the Merger Agreement; (iii) not to solicit alternative acquisition proposals; and (iv) to
+certain restrictions on its ability to respond to any unsolicited acquisition proposals. The Merger Agreement also contains other customary representations, warranties and covenants of each of Juniper, HPE and Merger Sub.
+The obligations of HPE and Merger Sub, on the one hand, and Juniper, on the other hand, to effect the Merger are subject to satisfaction or waiver of certain
+conditions, including: (i) the adoption of the Merger Agreement by Juniper’s stockholders; (ii) the absence of any injunction, order or law preventing, prohibiting or making illegal the consummation of the Merger; (iii) the expiration or
+termination of the waiting period (or extension thereof) under the Hart-Scott-Rodino Antitrust Improvements Act of 1976, as amended, and the receipt of all other required approvals, consents or clearances under specified foreign antitrust laws and
+foreign investment laws without imposition of a Burdensome Condition (as defined in the Merger Agreement); (iv) the accuracy of the other party’s representations and warranties, subject to specified materiality qualifications; (v) compliance by the
+other party with its covenants in the Merger Agreement in all material respects; and (vi) in the case of the obligations of HPE and Merger Sub to effect the Merger, the absence of a material adverse effect with respect to Juniper that is continuing
+as of the closing.  HPE’s obligation to consummate the Merger is not subject to a financing condition. The transaction is currently expected to close in late calendar year 2024 or early calendar year 2025, subject to the satisfaction or waiver of
+the closing conditions.
+The Merger Agreement contains certain customary termination rights for both HPE and Juniper, including, among others, by either HPE or Juniper upon the
+failure of the Effective Time to have occurred on or before the date that is twelve months following the date of the Merger Agreement, subject to automatic extension for up to three periods each of three months if all conditions to the Merger other
+than the conditions relating to regulatory approvals have been satisfied as of that date (such date, as applicable, the “End Date”).
+If the Merger Agreement is terminated (i) by Juniper to enter into an acquisition agreement that constitutes a “Superior Proposal” or (ii) by HPE because
+Juniper’s board of directors changes its recommendation in favor of the adoption of the Merger Agreement, Juniper is required to pay HPE a termination fee of $407,500,000 (the “Juniper Termination Fee”).  Juniper is also required to pay HPE the
+Juniper Termination Fee if (i) the Merger Agreement is terminated by either HPE or Juniper due to a failure to obtain the approval of the Merger Agreement by Juniper’s stockholders, (ii) after the date of the Merger Agreement and prior to such
+termination an “Acquisition Proposal” was publicly announced and not publicly withdrawn at least two business days prior to the date of Juniper’s stockholder meeting and (iii) within 12 months following termination of the Merger Agreement, Juniper
+consummates or enters into a definitive acquisition agreement in respect of an Acquisition Proposal that is subsequently consummated.
+If the Merger Agreement is terminated (i) by either HPE or Juniper upon the failure of the Effective Time to have occurred on or before the applicable End
+Date or (ii) by either HPE or Juniper in the event of a final and non-appealable governmental order, decree, ruling or other action relating to specified regulatory approvals that permanently restrains, enjoins or otherwise prohibits the
+consummation of the Merger, and, in each case, at the time of such termination the closing conditions relating to obtaining specified regulatory approvals or the absence of any injunction, order or law relating to specified regulatory approvals
+preventing, prohibiting or making illegal the consummation of the Merger have not been satisfied, but all other conditions to closing have been satisfied or waived (except for those conditions which by their nature are to be satisfied at closing,
+provided that such conditions would be satisfied if the closing were to take place on such date), HPE is required to pay Juniper a termination fee of $815,000,000 (the “HPE Termination Fee”).  HPE is also required to pay Juniper the HPE Termination
+Fee if the Merger Agreement is terminated by Juniper due to an uncured material breach by HPE of its covenants in the Merger Agreement to use reasonable best efforts to obtain required regulatory approvals.
+The Merger Consideration is expected to be funded based on financing commitments for $14 billion in term loans. In connection with its entry into the Merger
+Agreement, HPE obtained a commitment from Citigroup Global Markets Inc., JPMorgan Chase Bank, N.A. and Mizuho Bank, Ltd. for a $14 billion senior unsecured delayed draw term loan facility, comprised of an $11 billion 364-day tranche and a $3
+billion three-year tranche, subject to customary conditions. Such financing will ultimately be replaced, in part, with a combination of new debt, mandatory convertible preferred securities, and cash on the balance sheet.
+The foregoing description of the Merger Agreement does not purport to be complete and is qualified in its entirety by reference to the actual terms of the
+Merger Agreement, a copy of which is attached hereto as Exhibit 2.1 and incorporated herein by reference. The Merger Agreement has been included to provide investors with information regarding its terms and is not intended to provide any financial
+or other factual information about HPE, Juniper or Merger Sub. In particular, the representations, warranties and covenants contained in the Merger Agreement (i) were made only for purposes of that agreement and as of specific dates, (ii) were made
+solely for the benefit of the parties to the Merger Agreement, (iii) may be subject to limitations agreed upon by the parties, including being qualified by confidential disclosures made for the purposes of allocating contractual risk between the
+parties to the Merger Agreement rather than establishing those matters as facts and (iv) may be subject to standards of materiality applicable to the contracting parties that differ from those applicable to investors. Moreover, information
+concerning the subject matter of the representations, warranties and covenants may change after the date of the Merger Agreement, which subsequent information may or may not be fully reflected in public disclosures by HPE or Juniper. Accordingly,
+investors should read the representations and warranties in the Merger Agreement not in isolation but only in conjunction with the other information about HPE or Juniper and their respective subsidiaries that the respective companies include in
+reports, statements and other filings they make with the U.S. Securities and Exchange Commission (the “SEC”).
+Item 7.01 | Regulation FD Disclosure.
+On January 9, 2024, HPE issued a press release announcing its entry into the Merger Agreement. On January 10, 2024, HPE made available an investor
+presentation regarding the proposed transaction. Copies of the press release and investor presentation are attached hereto as Exhibit 99.1 and Exhibit 99.2, respectively, and incorporated herein by reference. The information contained in Item 7.01
+of this report, including Exhibit 99.1 and Exhibit 99.2, shall not be deemed to be “filed” for purposes of Section 18 of the Securities Exchange Act of 1934, as amended, or otherwise subject to the liabilities of that section. The information
+contained in Item 7.01 of this report, including Exhibit 99.1 and Exhibit 99.2, shall not be incorporated by reference into any filing of the registrant, whether made before, on, or after the date hereof, regardless of any general incorporation
+language in such filing, unless expressly incorporated by specific reference to such filing.
+Forward-looking statements
+This document contains “forward-looking statements” within the meaning of the federal securities laws, including safe harbor provisions of the Private
+Securities Litigation Reform Act of 1995, Section 27A of the Securities Act of 1933, as amended, and Section 21E of the Securities Exchange Act of 1934, as amended. Such statements involve risks, uncertainties and assumptions and are based on
+HPE’s current expectations, estimates, projections, beliefs and assumptions made by HPE, all of which are subject to change. In this context, forward-looking statements often address expected future business, financial performance and financial
+condition, and often contain words such as “expect,” “anticipate,” “intend,” “plan,” “believe,” “could,” “seek,” “see,” “will,” “may,” “would,” “might,” “potentially,” “estimate,” “continue,” “expect,” “target,” and similar expressions or the
+negatives of these words or other comparable terminology that convey uncertainty of future events or outcomes. All forward-looking statements by their nature address matters that involve risks and uncertainties, many of which are beyond HPE’s
+control, and are not guarantees of future results. These and other forward-looking statements are not guarantees of future results and are subject to risks, uncertainties and assumptions that could cause actual results to differ materially from
+those expressed in any forward-looking statements and you should not place undue reliance on any such statements, and caution must be exercised in relying on forward-looking statements. Important risk factors that may cause such a difference
+include, but are not limited to: (i) the completion of the proposed transaction on anticipated terms and timing or at all, including obtaining stockholder and regulatory approvals and other conditions to the completion of the transaction; (ii)
+the ability of HPE to integrate and implement its plans, forecasts and other expectations with respect to Juniper’s business after the completion of the proposed transaction and realize additional opportunities for growth and innovation; (iii)
+the occurrence of any event, change or other circumstance or condition that could give rise to the termination of the merger agreement; (iv) HPE’s ability to implement its business strategies; (v) potential significant transaction costs
+associated with the proposed transaction; (vi) the risks related to HPE’s financing of the proposed transaction, (vii) potential litigation or regulatory actions relating to the proposed transaction; (viii) the risk that disruptions from the
+proposed transaction will harm HPE’s business, including current plans and operations, and risks related to diverting management’s attention from HPE’s ongoing business operations and relationships; (ix) the ability of HPE to retain and hire
+key personnel; (x) potential adverse business uncertainty resulting from the announcement, pendency or completion of the proposed transaction, including restrictions during the pendency of the proposed transaction that may impact HPE’s ability
+to pursue certain business opportunities or strategic transactions; (xi) legal, regulatory, tax and economic developments affecting HPE’s business; (xii) the unpredictability and severity of catastrophic events, including, but not limited to,
+acts of terrorism, outbreak of war or hostilities or current or future pandemics or epidemics, as well as HPE’s response to any of the aforementioned factors; and (xiii) other risks described in HPE’s filings with the SEC, such risks and
+uncertainties described under the headings “Forward-Looking Statements,” “Risk Factors” and other sections of HPE’s Annual Report on Form 10-K for its fiscal year ended October 31, 2023, Quarterly Reports on Form 10-Q, Current Reports on Form
+8-K and other filings made by HPE from time to time with the SEC. Unlisted factors may present significant additional obstacles to the realization of forward-looking statements. HPE does not assume any obligation to publicly provide revisions
+or updates to any forward-looking statements, whether as a result of new information, future developments or otherwise, should circumstances change, except as otherwise required by securities and other applicable laws.
+Item 9.01 | Financial Statements and Exhibits. (d) Exhibits
+Exhibit Number | Description
+2.1 | Agreement and Plan of Merger, dated as of January 9, 2024, by and among Juniper, HPE and Jasmine Acquisition Sub, Inc.*
+99.1 | Press Release, dated January 9, 2024.
+99.2 | Investor Presentation, dated January 10, 2024.
+104 | Cover Page Interactive Data File (embedded within the Inline XBRL document).
+* Certain schedules and exhibits omitted pursuant to Item 601(a)(5) of Regulation S-K promulgated by the SEC. HPE agrees to furnish supplementally a copy of
+any omitted schedule or exhibit to the SEC upon request.
+SIGNATURE
+Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed on its behalf by the undersigned
+hereunto duly authorized.
+HEWLETT PACKARD ENTERPRISE COMPANY
+Date:  January 10, 2024 | By: | /s/ Rishi Varma
+Name: | Rishi Varma
+Title: | Senior Vice President, General Counsel and Corporate Secretary

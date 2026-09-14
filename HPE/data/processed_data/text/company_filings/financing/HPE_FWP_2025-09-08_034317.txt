@@ -1,0 +1,52 @@
+FWP
+1
+ny20055172x3_fwp.htm
+FWP
+Pricing Term Sheet | Free Writing Prospectus
+dated as of September 8, 2025 | Filed Pursuant to Rule 433
+Supplementing the
+Preliminary Prospectus Supplement dated September 8, 2025 to the
+Prospectus dated December 22, 2023
+Registration No. 333-276221
+Pricing Term Sheet
+Hewlett Packard Enterprise Company
+$900,000,000 4.050% Notes due 2027 (the “2027 Notes”)
+$300,000,000 Floating Rate Notes due 2028 (the “Floating Rate Notes”)
+$850,000,000 4.150% Notes due 2028 (the “2028 Notes”)
+$850,000,000 4.400% Notes due 2030 (the “2030 Notes”)
+The information in this pricing term sheet should be read together with Hewlett Packard Enterprise Company’s preliminary prospectus supplement dated September 8, 2025 (the “Preliminary Prospectus
+Supplement”), including the documents incorporated by reference therein and the related base prospectus dated December 22, 2023, each filed pursuant to Rule 424(b) under the Securities Act of 1933, as amended, Registration No. 333-276221.
+Capitalized terms not defined in this pricing term sheet have the meanings given to such terms in the Preliminary Prospectus Supplement. The information in this pricing term sheet supersedes the information in the Preliminary Prospectus Supplement
+and the accompanying prospectus to the extent it is inconsistent with the information in the Preliminary Prospectus Supplement or the accompanying prospectus. All references to dollar amounts are references to U.S. dollars.
+Issuer: | Hewlett Packard Enterprise Company
+Ratings (Moody’s / S&P / Fitch)*: | Baa2/BBB/BBB+
+Trade Date: | September 8, 2025
+Settlement Date**: | September 15, 2025 (T+5)
+Maturity Date: | 2027 Notes:  September 15, 2027 Floating Rate Notes:  September 15, 2028 2028 Notes:  September 15, 2028 2030 Notes:  October 15, 2030
+Principal Amount Offered: | 2027 Notes:  $900,000,000 Floating Rate Notes:  $300,000,000 2028 Notes:  $850,000,000 2030 Notes:  $850,000,000
+Price to Public (Issue Price): | 2027 Notes:  99.949% of the principal amount Floating Rate Notes: 100.000% of the principal amount 2028 Notes:  99.964% of the principal amount 2030 Notes:  99.905% of the principal amount
+Interest Rate: | 2027 Notes:  4.050% Floating Rate Notes: Compounded SOFR plus 96 basis points 2028 Notes:  4.150% 2030 Notes:  4.400%
+Interest Payment Dates: | 2027 Notes:  Semi-annually in arrears on March 15 and September 15, beginning on March 15, 2026 Floating Rate Notes:  Quarterly on March 15, June 15, September 15 and December 15 of each year, beginning on December 15, 2025 2028 Notes:  Semi-annually in arrears on March 15 and September 15, beginning on March 15, 2026 2030 Notes:  Semi-annually in arrears on April 15 and October 15, beginning on April 15, 2026
+Benchmark Treasury: | 2027 Notes:  3.625% UST due August 31, 2027 Floating Rate Notes:  N/A 2028 Notes:  3.625% UST due August 15, 2028 2030 Notes:  3.625% UST due August 31, 2030
+Benchmark Treasury Price and Yield: | 2027 Notes:  100-07 3/4 ; 3.497% Floating Rate Notes:  N/A 2028 Notes:  100-14 1/4 ; 3.463% 2030 Notes:  100-08; 3.570%
+Spread to Benchmark Treasury: | 2027 Notes:  +58 basis points Floating Rate Notes:  N/A 2028 Notes:  +70 basis points 2030 Notes:  +85 basis points
+Re-offer Yield: | 2027 Notes:  4.077% Floating Rate Notes:  N/A 2028 Notes:  4.163% 2030 Notes:  4.420%
+Day Count Convention: | Floating Rate Notes:  Actual/360 Fixed Rate Notes:  30/360
+Make-whole Call: | 2027 Notes:  Treasury Rate + 10 basis points at any time prior to September 15, 2027 (the maturity date of the 2027 Notes) Floating Rate Notes:  N/A 2028 Notes:  Treasury Rate + 15 basis points at any time prior to August 15, 2028 (the Par Call Date of the 2028 Notes) 2030 Notes:  Treasury Rate + 15 basis points at any time prior to September 15, 2030 (the Par Call Date of the 2030 Notes)
+Par Call: | 2027 Notes:  N/A Floating Rate Notes:  N/A 2028 Notes:  At any time on or after August 15, 2028 2030 Notes:  At any time on or after September 15, 2030
+CUSIP / ISIN: | 2027 Notes:  42824C CB3 / US42824CCB37 Floating Rate Notes:  42824C BY4 / US42824CBY49 2028 Notes:  42824C BZ1 / US42824CBZ14 2030 Notes:  42824C CA5 / US42824CCA53
+Denominations: | $2,000 × $1,000
+Joint Book-Running Managers: | Citigroup Global Markets Inc. Deutsche Bank Securities Inc. HSBC Securities (USA) Inc. NatWest Markets Securities Inc.
+Co-Managers: | BNP Paribas Securities Corp. BofA Securities, Inc. J.P. Morgan Securities LLC Mizuho Securities USA LLC Wells Fargo Securities, LLC Barclays Capital Inc. Santander US Capital Markets LLC SG Americas Securities, LLC TD Securities (USA) LLC Goldman Sachs & Co. LLC ING Financials Markets LLC Loop Capital Markets LLC U.S. Bancorp Investments, Inc. ANZ Securities, Inc. CIBC World Markets Corp. Credit Agricole Securities (USA) Inc. Oversea-Chinese Banking Corporation Limited Standard Chartered Bank
+*A securities rating is not a recommendation to buy, sell or hold securities and may be subject to revision or withdrawal at any time.
+**We expect that delivery of the notes will be made against payment therefor on or about the settlement date specified in this pricing term sheet, which will be the fifth business day following the date of the pricing
+of the notes, or “T+5.”  Under Rule 15c6‑1 of the Securities Exchange Act of 1934, as amended, trades in the secondary market generally are required to settle in one business day, unless the parties to any such trade expressly agree otherwise.
+Accordingly, purchasers who wish to trade the notes on any date prior to the first business day before delivery will be required, by virtue of the fact that the notes initially will settle in T+5, to specify alternative settlement arrangements to
+prevent a failed settlement and should consult their own advisors.
+*****
+The Issuer has filed a registration statement (including a prospectus) with the Securities and Exchange Commission (the “SEC”) for the offering to which this pricing term sheet relates. Before you invest, you should
+read the prospectus in that registration statement, the related preliminary prospectus supplement and other documents the Issuer has filed with the SEC for more complete information about the Issuer and this offering.  You may get these documents
+for free by visiting EDGAR on the SEC website at www.sec.gov. Interested parties may also obtain the prospectus and the related preliminary prospectus supplement by requesting it from Citigroup Global Markets Inc. toll free at 1-800-831-9146,
+Deutsche Bank Securities Inc. toll free at 1-800-503-4611, HSBC Securities (USA) Inc. toll free at 1-866-811-8049 or NatWest Markets Securities Inc. toll free at 1-800-231-5830.
+ANY DISCLAIMERS OR OTHER NOTICES THAT MAY APPEAR BELOW ARE NOT APPLICABLE TO THIS PRICING TERM SHEET AND SHOULD BE DISREGARDED.  SUCH DISCLAIMERS OR OTHER NOTICES WERE AUTOMATICALLY GENERATED AS A RESULT OF THIS PRICING TERM SHEET BEING SENT VIA
+BLOOMBERG OR ANOTHER MAIL SYSTEM.
