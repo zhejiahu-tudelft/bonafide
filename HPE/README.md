@@ -11,8 +11,8 @@ Fundamental research on **Hewlett Packard Enterprise Company (NYSE: HPE, CIK 000
 | File | What it is |
 |---|---|
 | `final/HPE_Investment_Research.html` | Full research report; self-contained page, also published as a private Artifact. Section 12 holds the Practitioner Q&A |
-| `final/HPE_Investment_Presentation.pptx` | 25-minute investment pitch on `../Template.pptx`: 20 main slides in four parts (business model → structure vs cycle → what the price assumes → market, risks and decision), each with an "investor logic / pattern" line; 8 appendix slides (moat, capital structure, technicals, catalysts, Practitioner Q&A). Speaker notes in every slide's notes pane |
-| `final/HPE_Pitch_Speaker_Notes.md` | Speaker script for one presenter: timing plan (23:50), per-slide script, numbers to say, reasoning pattern and transition; appendix guidance; 13 prepared Q&A answers; pattern toolkit |
+| `final/HPE_Investment_Presentation.pptx` | 25-minute investment pitch on `../Template.pptx`: 20 main slides in four parts (business model → structure vs cycle → what the price assumes → market, risks and decision), each with a takeaway line under the title (a "Conclusion" or "Pattern" headline plus the evidence behind it), including two Q3 FY26 slides (scorecard vs guidance and consensus; margin-led beat and guidance ratchet); 10 appendix slides (industry, macro, moat, capital structure, technicals, catalysts, Practitioner Q&A). Body text in the template's embedded Helvetica Neue; deck charts re-rendered in Liberation Sans. Speaker notes in every slide's notes pane |
+| `final/HPE_Pitch_Speaker_Notes.md` | Speaker script for one presenter: timing plan (24:10), per-slide script, numbers to say, reasoning pattern and transition; appendix guidance; 13 prepared Q&A answers; pattern toolkit |
 
 The report, deck and Excel workbooks were generated from the analysis outputs by builder scripts. Those scripts and the QC script were removed from `/code` after delivery, at the user's request, so `/code` holds only data analysis. Nothing is lost:
 - The Excel models keep live formulas.
@@ -78,6 +78,7 @@ HPE/
 | `statistical_analysis.py` | Driver regressions, SARIMA baseline and backtest, return diagnostics |
 | `valuation.py` | WACC, three-scenario DCF, sensitivities, reverse DCF, comps, M&A, football field |
 | `security_exposure_analysis.py` | Practitioner Q&A 1: CISA Known Exploited Vulnerabilities entries for Juniper vs other network and security vendors |
+| `earnings_analysis.py` | Latest earnings: quarterly scorecard Q2 FY25–Q3 FY26, beats vs guidance and consensus, Q3 operating-profit bridge (volume vs margin), FY26 guidance ladder; every keyed figure verified against its PDF |
 | `business_model_analysis.py` | Practitioner Q&A 2: landlords (DLR, KEEL) vs neoclouds (IREN, CRWV, NBIS) vs server providers (HPE, DELL) — financial profile, stylised phase-shift model, AI elasticity regressions, efficient frontier with bootstrap |
 
 Rerun the analysis from cached data:
