@@ -11,7 +11,7 @@ Fundamental research on **Hewlett Packard Enterprise Company (NYSE: HPE, CIK 000
 | File | What it is |
 |---|---|
 | `final/HPE_Investment_Research.html` | Full research report; self-contained page, also published as a private Artifact. Section 12 holds the Practitioner Q&A |
-| `final/HPE_Investment_Presentation.pptx` | 25-minute investment pitch on `../Template.pptx`: 20 main slides in four parts (business model → structure vs cycle → what the price assumes → market, risks and decision), each with a takeaway line under the title (a "Conclusion" or "Pattern" headline plus the evidence behind it), including two Q3 FY26 slides (scorecard vs guidance and consensus; margin-led beat and guidance ratchet); 10 appendix slides (industry, macro, moat, capital structure, technicals, catalysts, Practitioner Q&A). Body text in the template's embedded Helvetica Neue; deck charts re-rendered in Liberation Sans. Speaker notes in every slide's notes pane |
+| `final/HPE_Investment_Presentation.pptx` | 25-minute investment pitch on `../Template.pptx`: 20 main slides in four parts (business model → structure vs cycle → what the price assumes → market, risks and decision), each with a labelled takeaway line under the title (Result / Decomposition / Conclusion, plus the quantitative evidence) and, under every chart, a note giving the x-axis variable and the observed behaviour, including two Q3 FY26 slides (scorecard vs guidance and consensus; margin-led beat and guidance ratchet); 10 appendix slides (industry, macro, moat, capital structure, technicals, catalysts, Practitioner Q&A). Body text in the template's embedded Helvetica Neue; deck charts re-rendered in Liberation Sans. Speaker notes in every slide's notes pane |
 | `final/HPE_Pitch_Speaker_Notes.md` | Speaker script for one presenter: timing plan (24:10), per-slide script, numbers to say, reasoning pattern and transition; appendix guidance; 13 prepared Q&A answers; pattern toolkit |
 
 The report, deck and Excel workbooks were generated from the analysis outputs by builder scripts. Those scripts and the QC script were removed from `/code` after delivery, at the user's request, so `/code` holds only data analysis. Nothing is lost:
@@ -27,21 +27,27 @@ The report, deck and Excel workbooks were generated from the analysis outputs by
 - **Reverse DCF:** $62.09 requires an 18.4% long-term non-GAAP margin, a 10.8% FY27–36 revenue CAGR, or a 7.0% WACC.
 - **Relative value:** peer multiples imply $67–106. That depends on today's AI-hardware sector multiples persisting.
 
-**Statistics** (`code/statistical_analysis.py`, statsmodels)
+**Statistics** (`code/statistical_analysis.py`, statsmodels; quarterly regressions use Newey-West errors with t-distribution p-values)
 - **ARIMA baseline** — a SARIMA fitted to FY2018–Q2 FY25 revenue:
-  - backtest error 4.8%, vs 5.8% for a random walk and 8.6% for seasonal naive;
+  - backtest error 4.8%, vs 5.8% for a random walk and 8.6% for seasonal naive; over 8 quarters neither gap is significant (Diebold-Mariano p = 0.44 and 0.08), so it is a baseline, not a forecaster;
   - all 5 quarters since the Juniper close sit above its 95% band;
-  - TTM revenue is +44% vs this no-structural-change counterfactual.
-- **R1 — revenue growth vs cloud capex growth** (HAC OLS, n = 34):
-  - capex coefficients sum to 0.19 across lags, with no lag significant at 5%;
-  - Juniper quarters +15pp (p < 0.001).
+  - TTM revenue is +44% vs this no-structural-change counterfactual;
+  - across eight alternative baselines, FY26 no-change revenue is $29.0–31.6bn and Juniper's share of the excess 32–38%.
+- **R1 — revenue growth vs cloud capex growth** (n = 34):
+  - no single capex lag is significant, but lags 0–2 jointly sum to 0.19 (p = 0.03); with lags 0–4 the sum is 0.09 (p = 0.45), so the link is small and fragile;
+  - Juniper quarters +15pp (p = 0.002).
 - **R2 — gross-margin change vs Micron gross-margin change** (n = 31):
-  - −0.046 (p = 0.002): memory-price spikes dent HPE margins only modestly;
-  - Juniper quarters +6.8pp.
+  - −0.046 (p = 0.005) with the Juniper dummy, but −0.007 (p = 0.88) without it: no robust memory link;
+  - Juniper quarters +6.8pp (p = 0.002);
+  - Q3 FY26: +10.9pp actual vs +4.4pp predicted, so +6.5pp is unexplained, consistent with pricing ahead of memory costs.
 - **Returns:**
   - no significant autocorrelation (Ljung-Box p = 0.06);
   - strong volatility clustering (ARCH-LM p < 0.001);
   - excess kurtosis 7.0; 3σ days occur 6.8x as often as under a normal distribution.
+- **Descriptive claims tested:**
+  - earnings days moved 6.7% on average vs 2.0% on the other days since March 2024 (permutation test, p < 0.001);
+  - one-year correlation with Dell 0.66 vs the S&P 500 0.47: gap 0.19, 95% bootstrap interval 0.09–0.28 (over three years the gap is not significant).
+- **Revenue elasticity to hyperscaler capex** (`code/business_model_analysis.py`, lags 0–4 summed): HPE 0.41 (p = 0.02), Dell 0.84 (p < 0.001), gap significant (p = 0.004); HPE with a Juniper dummy 0.09 (p = 0.45).
 
 ## Repository map
 
@@ -75,7 +81,7 @@ HPE/
 | `insider_ownership.py` | Form 4 insider transactions |
 | `peers.py` | Peer TTM fundamentals and multiples |
 | `macro_industry_analysis.py` | Hyperscaler capex and Micron margin series from cached XBRL; macro and industry charts |
-| `statistical_analysis.py` | Driver regressions, SARIMA baseline and backtest, return diagnostics |
+| `statistical_analysis.py` | Driver regressions with joint lag tests and robustness variants, SARIMA baseline with backtest tests and alternative baselines, return diagnostics, tests of descriptive claims (earnings-day permutation test, correlation-gap bootstrap) |
 | `valuation.py` | WACC, three-scenario DCF, sensitivities, reverse DCF, comps, M&A, football field |
 | `security_exposure_analysis.py` | Practitioner Q&A 1: CISA Known Exploited Vulnerabilities entries for Juniper vs other network and security vendors |
 | `earnings_analysis.py` | Latest earnings: quarterly scorecard Q2 FY25–Q3 FY26, beats vs guidance and consensus, Q3 operating-profit bridge (volume vs margin), FY26 guidance ladder; every keyed figure verified against its PDF |
@@ -135,7 +141,9 @@ Sections can be selected individually: `--sec --form4 --xbrl --prices --estimate
 - **Statistics:**
   - quarterly series are aligned to the calendar quarter each fiscal quarter mostly covers;
   - FY2016 quarterly XBRL revenue is excluded because it straddles the spin-off restatements;
-  - regressions use Newey-West errors, and samples are short (29–34 quarters), so coefficients are indicative.
+  - regressions use Newey-West errors with t-distribution p-values and report joint tests of summed lags plus robustness variants; samples are short (29–34 quarters), so coefficients are indicative.
+- **Our experiments are numbered:** ten experiments are numbered in report order and carry the same number in the deck. Each is introduced by an `Experiment n` note stating hypothesis, method and data, so readers can tell our own tests from sourced findings; the report appendix holds the index.
+- **Every chart is annotated:** each figure states what the x-axis variable is, its unit and what movement along it means, followed by a description of the observed behaviour and, where the analysis supports one, its mechanism.
 - **Evidence labels** in the report: Reported / Calculated / Estimate / Assumption / Interpretation.
 
 ## Known limitations

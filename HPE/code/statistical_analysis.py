@@ -1,22 +1,31 @@
-"""Statistical analysis for HPE: macro driver regressions, an ARIMA revenue baseline and return diagnostics.
+"""Statistical analysis for HPE: macro driver regressions, an ARIMA revenue baseline, return diagnostics and tests of the
+descriptive claims the pitch relies on.
 
-Each model answers an investment question in the report; none of them is the forecast.
+Each model tests one of our hypotheses; none of them is the forecast. Quarterly regressions report small-sample
+(t-distribution) p-values because the samples are only 29–34 quarters.
 
 A. Macro driver regressions (OLS with Newey-West HAC standard errors, because year-over-year observations overlap)
    R1  HPE revenue growth (YoY, log) on cloud-capex growth (MSFT, GOOGL, AMZN, META, ORCL; YoY, log), lags 0–2,
-       with a dummy for quarters that include Juniper (from Q3 FY25). Robustness: pre-Juniper sample only.
+       with a dummy for quarters that include Juniper (from Q3 FY25); joint test of the summed lags.
+       Robustness: pre-Juniper sample only (R1b); lags 0–4 (R1c).
    R2  Change in HPE GAAP gross margin (YoY, pp) on the change in Micron gross margin (YoY, pp), lags 0–2, with the
        Juniper dummy. Micron's margin proxies memory contract pricing, a large server input cost.
+       Robustness: without the Juniper dummy (R2b); latest quarters split into memory, Juniper and unexplained parts.
    Fiscal quarters are aligned to the calendar quarter they mostly cover (HPE Nov–Jan → prior-year Q4, etc.).
 B. ARIMA revenue baseline
    SARIMA on log quarterly revenue FY2018 Q1–FY2025 Q2 (post spin-offs, pre-Juniper); order chosen by AICc from a small
    grid (≤4 parameters); one-step rolling backtest over the last 8 quarters vs random-walk and seasonal-naive
-   benchmarks; forecast from Q3 FY25 used as a no-structural-change counterfactual for FY26–FY27.
+   benchmarks with Diebold-Mariano tests; forecast from Q3 FY25 used as a no-structural-change counterfactual for
+   FY26–FY27; FY26 attribution recomputed under eight alternative baselines.
 C. Return diagnostics (daily, since regular-way listing)
    ADF unit-root tests, Ljung-Box on returns and squared returns, Engle ARCH-LM, skewness/kurtosis/Jarque-Bera,
    frequency of 3-sigma days vs a normal distribution.
+D. Tests of descriptive claims
+   Earnings-day moves vs other days in the same period (permutation test); gap between HPE's daily-return correlation
+   with Dell and with the S&P 500 (stationary block bootstrap).
 
-Inputs: data/financial_data (XBRL facts, parsed statements, industry series), data/market_data (prices).
+Inputs: data/financial_data (XBRL facts, parsed statements, industry series), data/market_data (prices),
+data/processed_data/events/event_returns.csv (event_analysis.py).
 Outputs: data/processed_data/statistics/*.csv, *.txt model summaries, statistics_summary.json; charts.
 """
 from __future__ import annotations
@@ -45,12 +54,20 @@ FY26_GUIDANCE_MID = 46_500                               # FY26 revenue guidance
 FY26_NORMALISED_GROWTH_MID = 0.22                        # company-normalised FY26 growth, midpoint of 21–23%
 FY26_REPORTED_GROWTH_MID = 0.355                         # reported FY26 growth guidance, midpoint of 34–37%
 FY25_REVENUE = 34_296
+SEED = 20260911
 
 
 # ------------------------------------------------------------------------------------------ data
 def fiscal_calendar_quarter(end: pd.Timestamp) -> pd.Period:
     """Calendar quarter with the most overlap for a quarter ending on `end` (three-month period)."""
     return (end - pd.Timedelta(days=45)).to_period("Q")
+
+
+def fiscal_label(p: pd.Period) -> str:
+    """HPE fiscal quarter for a calendar quarter (inverse of fiscal_calendar_quarter; fiscal years end 31 October)."""
+    fiscal_q = {4: 1, 1: 2, 2: 3, 3: 4}[p.quarter]
+    fy = p.year + 1 if p.quarter == 4 else p.year
+    return f"Q{fiscal_q} FY{fy % 100:02d}"
 
 
 def hpe_quarterly_revenue() -> pd.Series:
@@ -112,17 +129,24 @@ def micron_margin() -> pd.Series:
 
 
 # ------------------------------------------------------------------------------------------ A. regressions
-def hac_ols(y: pd.Series, X: pd.DataFrame, name: str) -> tuple[dict, pd.DataFrame]:
+def hac_ols(y: pd.Series, X: pd.DataFrame, name: str, lag_cols: list[str] | None = None):
+    """OLS with Newey-West errors and t-distribution p-values; optional joint test that the lag coefficients sum to zero."""
     data = pd.concat([y, X], axis=1).dropna()
-    model = sm.OLS(data.iloc[:, 0], sm.add_constant(data.iloc[:, 1:])).fit(cov_type="HAC", cov_kwds={"maxlags": 4})
+    model = sm.OLS(data.iloc[:, 0], sm.add_constant(data.iloc[:, 1:])).fit(cov_type="HAC", cov_kwds={"maxlags": 4}, use_t=True)
     (OUT / f"{name}_summary.txt").write_text(model.summary().as_text())
     ci = model.conf_int()
     table = pd.DataFrame({"coef": model.params, "std_err_hac": model.bse, "t": model.tvalues, "p_value": model.pvalues,
                           "ci_low": ci[0], "ci_high": ci[1]})
     table.to_csv(OUT / f"{name}_coefficients.csv")
-    stats_ = dict(n=int(model.nobs), r2=float(model.rsquared), adj_r2=float(model.rsquared_adj),
+    stats_ = dict(n=int(model.nobs), df_resid=int(model.df_resid), r2=float(model.rsquared), adj_r2=float(model.rsquared_adj),
                   durbin_watson=float(sm.stats.durbin_watson(model.resid)), sample=f"{data.index[0]} to {data.index[-1]}")
-    return stats_, table
+    if lag_cols:
+        w = model.t_test(" + ".join(lag_cols) + " = 0")
+        lo, hi = np.squeeze(w.conf_int())
+        stats_["sum_of_lags"] = dict(lags=lag_cols, coef=float(np.squeeze(w.effect)), std_err=float(np.squeeze(w.sd)),
+                                     t=float(np.squeeze(w.tvalue)), p_value=float(np.squeeze(w.pvalue)),
+                                     ci_low=float(lo), ci_high=float(hi))
+    return stats_, table, model
 
 
 def regressions() -> dict:
@@ -133,11 +157,13 @@ def regressions() -> dict:
     cg = capex_growth()
     juniper = pd.Series([1.0 if p >= fiscal_calendar_quarter(JUNIPER_FIRST_QUARTER) else 0.0 for p in growth.index],
                         index=growth.index, name="juniper_dummy")
-    X1 = pd.concat({"capex_yoy_lag0": cg, "capex_yoy_lag1": cg.shift(1), "capex_yoy_lag2": cg.shift(2)}, axis=1)
-    X1 = X1.reindex(growth.index).join(juniper)
-    r1_stats, r1 = hac_ols(growth, X1, "R1_revenue_on_capex")
+    capex_lags = pd.concat({f"capex_yoy_lag{k}": cg.shift(k) for k in range(5)}, axis=1).reindex(growth.index)
+    lags02, lags04 = [f"capex_yoy_lag{k}" for k in range(3)], [f"capex_yoy_lag{k}" for k in range(5)]
+    X1 = capex_lags[lags02].join(juniper)
+    r1_stats, r1, _ = hac_ols(growth, X1, "R1_revenue_on_capex", lags02)
     pre = juniper == 0
-    r1b_stats, r1b = hac_ols(growth[pre], X1.loc[pre, ["capex_yoy_lag0", "capex_yoy_lag1", "capex_yoy_lag2"]], "R1b_revenue_on_capex_pre_juniper")
+    r1b_stats, r1b, _ = hac_ols(growth[pre], capex_lags.loc[pre, lags02], "R1b_revenue_on_capex_pre_juniper", lags02)
+    r1c_stats, r1c, _ = hac_ols(growth, capex_lags[lags04].join(juniper), "R1c_revenue_on_capex_lags0to4", lags04)
 
     gm = hpe_quarterly_gross_margin()
     gm_s = gm["gross_margin"].astype(float)
@@ -146,10 +172,28 @@ def regressions() -> dict:
     d_gm = (gm_s - gm_s.shift(4)).rename("hpe_gm_yoy_change_pp") * 100
     mu = micron_margin()
     d_mu = (mu - mu.shift(4)) * 100
-    X2 = pd.concat({"micron_gm_change_lag0": d_mu, "micron_gm_change_lag1": d_mu.shift(1), "micron_gm_change_lag2": d_mu.shift(2)}, axis=1)
+    mem_lags = [f"micron_gm_change_lag{k}" for k in range(3)]
+    X2 = pd.concat({c: d_mu.shift(k) for k, c in enumerate(mem_lags)}, axis=1)
     j2 = pd.Series([1.0 if p >= fiscal_calendar_quarter(JUNIPER_FIRST_QUARTER) else 0.0 for p in d_gm.index], index=d_gm.index, name="juniper_dummy")
     X2 = X2.reindex(d_gm.index).join(j2)
-    r2_stats, r2 = hac_ols(d_gm, X2, "R2_gross_margin_on_memory")
+    r2_stats, r2, m2 = hac_ols(d_gm, X2, "R2_gross_margin_on_memory", mem_lags)
+    r2b_stats, r2b, _ = hac_ols(d_gm, X2[mem_lags], "R2b_gross_margin_on_memory_no_juniper_dummy", mem_lags)
+
+    # latest quarters: what R2 attributes to memory and Juniper, and what it cannot explain
+    d2 = pd.concat([d_gm, X2], axis=1).dropna()
+    latest = pd.DataFrame({
+        "fiscal_quarter": [fiscal_label(p) for p in d2.index],
+        "hpe_gross_margin": gm_s.reindex(d2.index), "micron_gross_margin": mu.reindex(d2.index),
+        "hpe_gm_yoy_change_pp": d2["hpe_gm_yoy_change_pp"], "micron_gm_change_pp": d2["micron_gm_change_lag0"],
+        "memory_part_pp": sum(m2.params[c] * d2[c] for c in mem_lags),
+        "juniper_part_pp": m2.params["juniper_dummy"] * d2["juniper_dummy"], "constant_pp": m2.params["const"],
+        "fitted_pp": m2.fittedvalues, "unexplained_pp": m2.resid}, index=d2.index).tail(6)
+    latest.to_csv(OUT / "R2_latest_quarters.csv")
+
+    specs = (("R1", r1_stats), ("R1b", r1b_stats), ("R1c", r1c_stats), ("R2", r2_stats), ("R2b", r2b_stats))
+    joint = pd.DataFrame([dict(model=m, n=s["n"], **s["sum_of_lags"]) for m, s in specs])
+    joint["lags"] = joint["lags"].map(", ".join)
+    joint.to_csv(OUT / "joint_lag_tests.csv", index=False)
 
     pd.DataFrame({"hpe_revenue_yoy": growth, "capex_yoy": cg.reindex(growth.index), "juniper": juniper}).to_csv(OUT / "R1_data.csv")
     pd.DataFrame({"hpe_gross_margin": gm_s, "hpe_gm_yoy_change_pp": d_gm, "micron_gm_change_pp": d_mu.reindex(d_gm.index)}).to_csv(OUT / "R2_data.csv")
@@ -172,24 +216,28 @@ def regressions() -> dict:
     ax.set_xlabel("Cloud capex growth, YoY (log)")
     ax.set_ylabel("HPE revenue growth, YoY (log)")
     ax.legend(loc="upper left")
-    lag0 = r1.loc["capex_yoy_lag0"]
-    sig = r1.drop(["const", "juniper_dummy"])
-    r1_title = ("HPE revenue growth moves with cloud capex growth" if ((sig.coef > 0) & (sig.p_value < 0.05)).any()
-                else "Cloud capex growth explains little of HPE's revenue growth; Juniper and pricing do")
+    s02, s04 = r1_stats["sum_of_lags"], r1c_stats["sum_of_lags"]
+    if s02["coef"] > 0 and s02["p_value"] < 0.05 and s04["p_value"] < 0.05:
+        r1_title = "HPE revenue growth moves with cloud capex growth"
+    elif s02["coef"] > 0 and s02["p_value"] < 0.05:
+        r1_title = "Cloud capex adds a small, fragile lift to HPE's growth; Juniper quarters dominate"
+    else:
+        r1_title = "Cloud capex growth explains little of HPE's revenue growth; Juniper and pricing do"
     viz.titles(ax, r1_title,
-               f"Quarterly YoY growth FY2018–Q3 FY26; R1 capex coefficients sum {sig.coef.sum():.2f} (lags 0–2, best HAC p={sig.p_value.min():.2f}), n={r1_stats['n']}")
-    viz.source(fig, "SEC XBRL (HPE, MSFT, GOOGL, AMZN, META, ORCL); Bona Fide regression (statsmodels, Newey-West errors).")
+               f"Quarterly YoY growth FY2018–Q3 FY26, n={r1_stats['n']}; capex lags 0–2 sum {s02['coef']:.2f} "
+               f"(joint p={s02['p_value']:.2f}); lags 0–4 sum {s04['coef']:.2f} (p={s04['p_value']:.2f})")
+    viz.source(fig, "SEC XBRL (HPE, MSFT, GOOGL, AMZN, META, ORCL); Bona Fide regression (statsmodels, Newey-West errors, t p-values).")
     viz.save(fig, "stat_capex_revenue")
 
     best = r2.drop(["const", "juniper_dummy"]).t.abs().idxmax()
     lag = int(best[-1])
-    d2 = pd.concat([d_gm, d_mu.shift(lag).reindex(d_gm.index).rename("mu"), j2], axis=1).dropna()
+    d2c = pd.concat([d_gm, d_mu.shift(lag).reindex(d_gm.index).rename("mu"), j2], axis=1).dropna()
     fig, ax = viz.figure(8, 3.4)
     for flag, col, lab in ((0, viz.GREEN, "Pre-Juniper quarters"), (1, viz.GOLD, "Quarters including Juniper")):
-        s = d2[d2["juniper_dummy"] == flag]
+        s = d2c[d2c["juniper_dummy"] == flag]
         ax.scatter(s["mu"], s["hpe_gm_yoy_change_pp"], s=48, color=col, edgecolor=viz.SURFACE, linewidth=1.5, zorder=3, label=lab)
-    b2 = np.polyfit(d2["mu"], d2["hpe_gm_yoy_change_pp"], 1)
-    xs = np.linspace(d2["mu"].min(), d2["mu"].max(), 50)
+    b2 = np.polyfit(d2c["mu"], d2c["hpe_gm_yoy_change_pp"], 1)
+    xs = np.linspace(d2c["mu"].min(), d2c["mu"].max(), 50)
     ax.plot(xs, np.polyval(b2, xs), color=viz.INK2, lw=1.2, zorder=2, label="Fit, all quarters")
     ax.axhline(0, color=viz.AXIS, lw=0.8, zorder=1)
     ax.axvline(0, color=viz.AXIS, lw=0.8, zorder=1)
@@ -197,17 +245,25 @@ def regressions() -> dict:
     ax.set_xlabel(f"Change in Micron gross margin, YoY (pp), lag {lag}")
     ax.set_ylabel("Change in HPE gross margin, YoY (pp)")
     ax.legend(loc="upper left")
-    row = r2.loc[best]
-    r2_title = ("Memory-price spikes dent HPE's gross margin only modestly; the Juniper mix shift dominates"
-                if row["coef"] < 0 and row["p_value"] < 0.05 else "Memory price swings show no reliable link to HPE's gross margin")
+    row, rob = r2.loc[best], r2b.loc[best]
+    if row["coef"] < 0 and row["p_value"] < 0.05 and rob["coef"] < 0 and rob["p_value"] < 0.05:
+        r2_title = "Memory-price spikes dent HPE's gross margin"
+    elif row["coef"] < 0 and row["p_value"] < 0.05:
+        r2_title = "Memory spikes line up with lower HPE margins only after controlling for Juniper"
+    else:
+        r2_title = "Memory price swings show no reliable link to HPE's gross margin"
     viz.titles(ax, r2_title,
-               f"R2 coefficient on Micron margin change (lag {lag}) {row['coef']:.2f} (HAC p={row['p_value']:.2f}), n={r2_stats['n']}")
-    viz.source(fig, "HPE 10-Q/10-K statements; Micron XBRL; Bona Fide regression (statsmodels, Newey-West errors).")
+               f"R2 Micron margin change (lag {lag}) {row['coef']:.3f} (HAC p={row['p_value']:.3f}); "
+               f"without the Juniper dummy {rob['coef']:.3f} (p={rob['p_value']:.2f}); n={r2_stats['n']}")
+    viz.source(fig, "HPE 10-Q/10-K statements; Micron XBRL; Bona Fide regression (statsmodels, Newey-West errors, t p-values).")
     viz.save(fig, "stat_memory_margin")
 
     return dict(R1=dict(stats=r1_stats, coefficients=r1.round(4).to_dict("index")),
                 R1_pre_juniper=dict(stats=r1b_stats, coefficients=r1b.round(4).to_dict("index")),
-                R2=dict(stats=r2_stats, coefficients=r2.round(4).to_dict("index"), chart_lag=lag))
+                R1_lags0to4=dict(stats=r1c_stats, coefficients=r1c.round(4).to_dict("index")),
+                R2=dict(stats=r2_stats, coefficients=r2.round(4).to_dict("index"), chart_lag=lag),
+                R2_no_juniper_dummy=dict(stats=r2b_stats, coefficients=r2b.round(4).to_dict("index")),
+                R2_latest_quarters=latest.assign(calendar_quarter=latest.index.astype(str)).round(4).to_dict("records"))
 
 
 # ------------------------------------------------------------------------------------------ B. ARIMA baseline
@@ -219,6 +275,37 @@ def aicc(res, n: int) -> float:
 def fit_sarima(y: pd.Series, order, seasonal):
     trend = "c" if order[1] + seasonal[1] == 0 else "n"
     return SARIMAX(y, order=order, seasonal_order=(*seasonal, 4), trend=trend).fit(disp=False)
+
+
+def diebold_mariano(e_model: pd.Series, e_bench: pd.Series) -> dict:
+    """Diebold-Mariano test of equal one-step accuracy on absolute errors; t-distribution for a short backtest."""
+    d = (e_model.abs() - e_bench.abs()).values
+    n = len(d)
+    stat = d.mean() / np.sqrt(d.var(ddof=1) / n)
+    return dict(stat=float(stat), p_value=float(2 * stats.t.sf(abs(stat), n - 1)), n=n,
+                model_better_quarters=int((e_model.abs() < e_bench.abs()).sum()))
+
+
+def baseline_sensitivity(pre: pd.Series, sel: pd.DataFrame, actual_post: np.ndarray, juniper_fy26: float, steps: int) -> pd.DataFrame:
+    """FY26 counterfactual and the implied Juniper share of the excess under alternative no-structural-change baselines."""
+    h = np.arange(1, steps + 1)
+    paths = {}
+    for _, row in sel.head(5).iterrows():
+        fc = fit_sarima(pre, tuple(row["order"]), tuple(row["seasonal"])).get_forecast(steps)
+        name = "SARIMA(" + ",".join(map(str, row["order"])) + ")(" + ",".join(map(str, row["seasonal"])) + ")[4]"
+        paths[name] = (np.exp(fc.predicted_mean.values), np.exp(fc.conf_int(alpha=0.05).iloc[:, 1].values), f"AICc {row['aicc']:.1f}")
+    paths["Random walk with drift"] = (np.exp(pre.iloc[-1] + pre.diff().mean() * h), None, "last level plus mean quarterly change")
+    b = np.polyfit(np.arange(len(pre)), pre.values, 1)
+    paths["Linear trend in log revenue"] = (np.exp(np.polyval(b, len(pre) - 1 + h)), None, "OLS trend on the fit sample")
+    paths["Seasonal naive"] = (np.tile(np.exp(pre.iloc[-4:].values), 3)[:steps], None, "same quarter a year earlier")
+    rows = []
+    for name, (levels, hi95, note) in paths.items():
+        fy26 = float(levels[2:6].sum())
+        rows.append(dict(baseline=name, note=note, fy26_counterfactual=fy26, fy26_excess=FY26_GUIDANCE_MID - fy26,
+                         juniper_share_of_excess=juniper_fy26 / (FY26_GUIDANCE_MID - fy26),
+                         quarters_above_95=None if hi95 is None else int((actual_post > hi95[:len(actual_post)]).sum()),
+                         quarters_with_actuals=len(actual_post)))
+    return pd.DataFrame(rows)
 
 
 def arima_baseline() -> dict:
@@ -253,6 +340,7 @@ def arima_baseline() -> dict:
                        seasonal_naive=np.exp(pre.iloc[i - 4])))
     bt = pd.DataFrame(bt)
     mape = {m: float((bt[m] / bt["actual"] - 1).abs().mean()) for m in ("arima", "random_walk", "seasonal_naive")}
+    dm = {bench: diebold_mariano(bt["arima"] / bt["actual"] - 1, bt[bench] / bt["actual"] - 1) for bench in ("random_walk", "seasonal_naive")}
     bt.to_csv(OUT / "arima_backtest.csv", index=False)
 
     res = fit_sarima(pre, order, seasonal)
@@ -285,6 +373,8 @@ def arima_baseline() -> dict:
                          fy26_juniper_estimate=juniper_fy26, fy26_residual_ai_pricing_estimate=excess_fy26 - juniper_fy26,
                          fy27_arima_counterfactual=fy27_cf, fy27_base_case=53_475.0,
                          ttm_q3fy26_actual=ttm_actual, ttm_q3fy26_counterfactual=ttm_cf, ttm_excess_pct=ttm_actual / ttm_cf - 1)
+    sens = baseline_sensitivity(pre, sel, actual_post.values, juniper_fy26, steps)
+    sens.to_csv(OUT / "arima_baseline_sensitivity.csv", index=False)
 
     # chart
     hist = np.exp(y_all)
@@ -300,14 +390,17 @@ def arima_baseline() -> dict:
     ax.text(pd.Timestamp("2025-07-02"), ax.get_ylim()[1] * 0.97, " Juniper closes", fontsize=7.5, color=viz.INK2, va="top")
     ax.set_ylabel("$bn per quarter")
     ax.legend(loc="upper left", fontsize=7.5)
-    viz.titles(ax, f"Actual revenue broke far above the pre-Juniper trend: TTM {decomposition['ttm_excess_pct']:+.0%} vs ARIMA baseline",
+    viz.titles(ax, f"Actual revenue broke far above its pre-Juniper level: TTM {decomposition['ttm_excess_pct']:+.0%} vs the ARIMA baseline",
                "Quarterly revenue FY2018–Q3 FY26 and a SARIMA counterfactual fitted to FY2018–Q2 FY25 only")
     viz.source(fig, "HPE XBRL revenue; Bona Fide SARIMA (statsmodels). Counterfactual, not a forecast.")
     viz.save(fig, "stat_arima_counterfactual")
 
     return dict(order=list(order), seasonal=list(seasonal), n_fit=n, fit_sample=f"{pre.index[0]}–{pre.index[-1]} (calendar-aligned)",
-                aicc=float(sel.iloc[0]["aicc"]), backtest_mape=mape, quarters_outside_95=int(cf["outside_95"].sum()),
-                quarters_with_actuals=int(cf["actual"].notna().sum()), decomposition=decomposition,
+                aicc=float(sel.iloc[0]["aicc"]), backtest_mape=mape, backtest_diebold_mariano=dm,
+                quarters_outside_95=int(cf["outside_95"].sum()), quarters_with_actuals=int(cf["actual"].notna().sum()),
+                decomposition=decomposition, baseline_sensitivity=sens.round(4).to_dict("records"),
+                juniper_share_range=[float(sens["juniper_share_of_excess"].min()), float(sens["juniper_share_of_excess"].max())],
+                fy26_counterfactual_range=[float(sens["fy26_counterfactual"].min()), float(sens["fy26_counterfactual"].max())],
                 ljung_box_resid_p_lag8=float(acorr_ljungbox(res.resid.iloc[max(order[1], 1):], lags=[8]).lb_pvalue.iloc[0]))
 
 
@@ -360,8 +453,74 @@ def return_diagnostics() -> dict:
                 acf_lag1_returns=float(a_r[0]), acf_lag1_squared=float(a_r2[0]))
 
 
+# ------------------------------------------------------------------------------------------ D. descriptive claims
+def stationary_bootstrap_index(n: int, mean_block: int, rng: np.random.Generator) -> np.ndarray:
+    """Politis-Romano stationary bootstrap: blocks of geometric length (mean `mean_block`) that wrap around the sample."""
+    idx = np.empty(n, dtype=int)
+    idx[0] = rng.integers(n)
+    jumps, draws = rng.random(n) < 1 / mean_block, rng.integers(n, size=n)
+    for t in range(1, n):
+        idx[t] = draws[t] if jumps[t] else (idx[t - 1] + 1) % n
+    return idx
+
+
+def earnings_day_test(draws: int = 20_000) -> dict:
+    """Are earnings reaction days larger than other days in the same period? Permutation test on absolute returns."""
+    ev = pd.read_csv(PROC / "events" / "event_returns.csv", parse_dates=["reaction_day"])
+    earn = ev.loc[ev["category"] == "Earnings", ["reaction_day", "day0"]]
+    px = pd.read_csv(MKT_DATA / "HPE_daily.csv", parse_dates=["date"]).set_index("date")["adj_close"].sort_index()
+    r = px.pct_change().loc[:VALUATION_DATE].dropna()
+    window = r[r.index >= earn["reaction_day"].min()]
+    other = window.drop(earn["reaction_day"], errors="ignore").abs()
+    observed = float(earn["day0"].abs().mean())
+    rng = np.random.default_rng(SEED)
+    sims = np.array([rng.choice(other.values, len(earn), replace=False).mean() for _ in range(draws)])
+    return dict(n_events=int(len(earn)), window_start=str(window.index[0].date()), n_other_days=int(len(other)),
+                mean_abs_earnings_day=observed, mean_abs_other_days=float(other.mean()),
+                mean_abs_all_days_since_listing=float(r[r.index >= LISTING_DATE].abs().mean()), ratio=observed / float(other.mean()),
+                permutation_draws=draws, permutation_p=float((1 + (sims >= observed).sum()) / (1 + draws)),
+                mann_whitney_p=float(stats.mannwhitneyu(earn["day0"].abs(), other, alternative="greater").pvalue))
+
+
+def correlation_gap_test(draws: int = 5_000, block: int = 20) -> list[dict]:
+    """Is HPE's return correlation with Dell really higher than with the S&P 500? Stationary block bootstrap of the gap."""
+    px = pd.DataFrame({tk: pd.read_csv(MKT_DATA / f"{tk}_daily.csv", parse_dates=["date"]).set_index("date")["adj_close"]
+                       for tk in ("HPE", "DELL", "SPY")}).sort_index()
+    rets = px[px.index <= VALUATION_DATE].pct_change()
+    end, rows = pd.Timestamp(VALUATION_DATE), []
+    for label, years in (("1Y", 1), ("3Y", 3)):
+        w = rets[rets.index > end - pd.DateOffset(years=years)].dropna()
+        x = w[["HPE", "DELL", "SPY"]].values
+        c = np.corrcoef(x, rowvar=False)
+        rng = np.random.default_rng(SEED)
+        gaps = np.empty(draws)
+        for i in range(draws):
+            cb = np.corrcoef(x[stationary_bootstrap_index(len(x), block, rng)], rowvar=False)
+            gaps[i] = cb[0, 1] - cb[0, 2]
+        far_side = min((gaps <= 0).sum(), (gaps >= 0).sum())
+        rows.append(dict(window=label, start=str(w.index[0].date()), n_days=int(len(w)), corr_dell=float(c[0, 1]), corr_spy=float(c[0, 2]),
+                         gap=float(c[0, 1] - c[0, 2]), ci_low=float(np.quantile(gaps, 0.025)), ci_high=float(np.quantile(gaps, 0.975)),
+                         bootstrap_p=float(min(1.0, 2 * (1 + far_side) / (1 + draws))), draws=draws, mean_block_days=block))
+    return rows
+
+
+def descriptive_claim_tests() -> dict:
+    earn, corr = earnings_day_test(), correlation_gap_test()
+    rows = [dict(claim="Earnings days move the stock more than other days", window=f"{earn['window_start']} to {VALUATION_DATE}",
+                 test=f"Permutation test on mean absolute day-0 return ({earn['permutation_draws']:,} draws); Mann-Whitney p={earn['mann_whitney_p']:.4f}",
+                 n=earn["n_events"], estimate=earn["mean_abs_earnings_day"], comparison=earn["mean_abs_other_days"],
+                 ci_low=np.nan, ci_high=np.nan, p_value=earn["permutation_p"])]
+    rows += [dict(claim="HPE's returns correlate more with Dell than with the S&P 500", window=f"{c['window']}: {c['start']} to {VALUATION_DATE}",
+                  test=f"Stationary block bootstrap of the correlation gap ({c['draws']:,} draws, {c['mean_block_days']}-day blocks)",
+                  n=c["n_days"], estimate=c["corr_dell"], comparison=c["corr_spy"], ci_low=c["ci_low"], ci_high=c["ci_high"],
+                  p_value=c["bootstrap_p"]) for c in corr]
+    pd.DataFrame(rows).to_csv(OUT / "descriptive_claim_tests.csv", index=False)
+    return dict(earnings_days=earn, correlation_gap=corr)
+
+
 def main() -> None:
-    summary = dict(regressions=regressions(), arima=arima_baseline(), returns=return_diagnostics())
+    summary = dict(regressions=regressions(), arima=arima_baseline(), returns=return_diagnostics(),
+                   descriptive_tests=descriptive_claim_tests())
     (OUT / "statistics_summary.json").write_text(json.dumps(summary, indent=2, default=lambda o: o.item() if hasattr(o, "item") else str(o)))
     print(json.dumps(summary, indent=1, default=str)[:6000])
 

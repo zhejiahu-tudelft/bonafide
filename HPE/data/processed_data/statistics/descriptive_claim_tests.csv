@@ -1,0 +1,4 @@
+claim,window,test,n,estimate,comparison,ci_low,ci_high,p_value
+Earnings days move the stock more than other days,2024-03-01 to 2026-09-11,"Permutation test on mean absolute day-0 return (20,000 draws); Mann-Whitney p=0.0003",11,0.06676201928743118,0.019912923604646526,,,4.999750012499375e-05
+HPE's returns correlate more with Dell than with the S&P 500,1Y: 2025-09-12 to 2026-09-11,"Stationary block bootstrap of the correlation gap (5,000 draws, 20-day blocks)",251,0.6557101051629635,0.4678005860720897,0.08897653719529466,0.2842767214731474,0.0007998400319936012
+HPE's returns correlate more with Dell than with the S&P 500,3Y: 2023-09-12 to 2026-09-11,"Stationary block bootstrap of the correlation gap (5,000 draws, 20-day blocks)",753,0.5940910542364788,0.5331344397940082,-0.03528888037073118,0.15467375464344768,0.20595880823835233

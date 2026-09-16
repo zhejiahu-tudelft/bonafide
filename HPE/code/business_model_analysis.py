@@ -35,7 +35,7 @@ from scipy import optimize
 import viz
 from common import CHARTS, FIN_DATA, MKT_DATA, OTHER, PROC, VALUATION_DATE
 from macro_industry_analysis import combined_quarters
-from statistical_analysis import capex_growth, fiscal_calendar_quarter
+from statistical_analysis import JUNIPER_FIRST_QUARTER, capex_growth, fiscal_calendar_quarter, stationary_bootstrap_index
 
 warnings.filterwarnings("ignore")
 OUT = PROC / "qa"
@@ -368,15 +368,17 @@ def calendar(s: pd.Series) -> pd.Series:
 
 def fundamental_elasticity(series: dict) -> pd.DataFrame:
     cap = capex_growth()
-    rows, coefs = [], []
+    rows, coefs, growth = [], [], {}
+    X = pd.concat({f"capex_lag{k}": cap.shift(k) for k in range(5)}, axis=1)
+    lag_sum = " + ".join(X.columns) + " = 0"
     for tk in ("DLR", "HPE", "DELL"):
         rev = series[tk]["revenue"]
-        g = np.log(calendar(rev[(rev.index >= "2016-11-01") & (rev.index <= ASOF)])).diff(4).rename("growth")
-        X = pd.concat({f"capex_lag{k}": cap.shift(k) for k in range(5)}, axis=1)
+        g = growth[tk] = np.log(calendar(rev[(rev.index >= "2016-11-01") & (rev.index <= ASOF)])).diff(4).rename("growth")
         d = pd.concat([g, X], axis=1).dropna()
-        m = sm.OLS(d["growth"], sm.add_constant(d.drop(columns="growth"))).fit(cov_type="HAC", cov_kwds={"maxlags": 4})
-        wald = m.t_test(" + ".join(X.columns) + " = 0")
-        single = {c: sm.OLS(d["growth"], sm.add_constant(d[[c]])).fit(cov_type="HAC", cov_kwds={"maxlags": 4})
+        # quarterly samples of ~33: Newey-West errors with small-sample t p-values
+        m = sm.OLS(d["growth"], sm.add_constant(d.drop(columns="growth"))).fit(cov_type="HAC", cov_kwds={"maxlags": 4}, use_t=True)
+        wald = m.t_test(lag_sum)
+        single = {c: sm.OLS(d["growth"], sm.add_constant(d[[c]])).fit(cov_type="HAC", cov_kwds={"maxlags": 4}, use_t=True)
                   for c in X.columns}
         best = max(single, key=lambda c: single[c].tvalues[c])
         rows.append(dict(ticker=tk, n=int(m.nobs), sample=f"{d.index[0]}–{d.index[-1]}", sum_of_lags=float(wald.effect[0]),
@@ -384,6 +386,20 @@ def fundamental_elasticity(series: dict) -> pd.DataFrame:
                          best_lag_coef=float(single[best].params[best]), best_lag_p=float(single[best].pvalues[best]),
                          best_lag_r2=float(single[best].rsquared)))
         coefs.append(pd.DataFrame({"ticker": tk, "coef": m.params, "p": m.pvalues}))
+    # HPE with a Juniper dummy (same lags); Dell minus HPE growth on the same lags tests whether the elasticities differ
+    by_ticker = {r["ticker"]: r for r in rows}
+    hpe = growth["HPE"]
+    juniper = pd.Series([1.0 if p >= fiscal_calendar_quarter(JUNIPER_FIRST_QUARTER) else 0.0 for p in hpe.index],
+                        index=hpe.index, name="juniper")
+    for key, y, extra, target in (("juniper_controlled", hpe, [juniper], "HPE"),
+                                  ("gap_vs_hpe", (growth["DELL"] - hpe).rename("growth"), [], "DELL")):
+        d = pd.concat([y, X, *extra], axis=1).dropna()
+        m = sm.OLS(d["growth"], sm.add_constant(d.drop(columns="growth"))).fit(cov_type="HAC", cov_kwds={"maxlags": 4}, use_t=True)
+        wald = m.t_test(lag_sum)
+        by_ticker[target].update({f"{key}_sum": float(np.squeeze(wald.effect)), f"{key}_p": float(np.squeeze(wald.pvalue)),
+                                  f"{key}_n": int(m.nobs)})
+        if extra:
+            by_ticker[target].update(juniper_dummy_coef=float(m.params["juniper"]), juniper_dummy_p=float(m.pvalues["juniper"]))
     # neoclouds and Keel: too short for regression; TTM revenue growth against hyperscaler TTM capex growth
     capq = pd.read_csv(FIN_DATA / "industry" / "hyperscaler_capex_quarterly.csv", index_col=0)
     capex_ttm_growth = float(capq["ttm_yoy"].dropna().iloc[-1])
@@ -471,15 +487,6 @@ def frontier(mu: np.ndarray, cov: np.ndarray, names: list) -> pd.DataFrame:
         if res.success:
             pts.append(dict(ret=target, vol=float(np.sqrt(res.x @ cov @ res.x)), **dict(zip(names, res.x))))
     return pd.DataFrame(pts)
-
-
-def stationary_bootstrap_index(n: int, mean_block: int, rng: np.random.Generator) -> np.ndarray:
-    idx = np.empty(n, dtype=int)
-    idx[0] = rng.integers(n)
-    jumps, draws = rng.random(n) < 1 / mean_block, rng.integers(n, size=n)
-    for t in range(1, n):
-        idx[t] = draws[t] if jumps[t] else (idx[t - 1] + 1) % n
-    return idx
 
 
 def bootstrap_weights(b: pd.DataFrame, rf: float, draws: int = 2000, block: int = 20) -> tuple[pd.DataFrame, dict]:

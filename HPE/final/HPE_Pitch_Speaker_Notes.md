@@ -14,8 +14,8 @@
 1. **Better business.** Networking is 26% of revenue but 40% of segment profit, and ROIC (11.2%) now exceeds the WACC (9.3%).
 2. **Mostly cycle.**
    - Q3 FY26 beat mainly on margin: EPS was 18% above consensus, revenue 1%.
-   - Of the $17.4bn by which FY26 revenue exceeds trend, about $5.7bn is Juniper and about $11.8bn is AI and pricing.
-3. **Late-cycle cash.** HPE is paid at shipment, and its cash flow has a late-cycle fingerprint: inventory +$5.5bn funded by payables +$6.0bn.
+   - Of the $17.4bn by which FY26 revenue exceeds its pre-Juniper baseline, about $5.7bn is Juniper (32–38% on eight alternative baselines) and about $11.8bn is AI and pricing.
+3. **Late-cycle cash.** HPE is paid at shipment, and its cash flow shows the late-cycle pattern: inventory +$5.5bn funded by payables +$6.0bn.
 4. **Price extrapolates.** $62.09 requires an 18.4% long-term margin, or a 10.8% revenue CAGR for ten years, or a 7.0% WACC.
 5. **Decision.** Intrinsic value is $35–43 (bear $22, bull $54). The price is a bet that peer multiples persist; signposts will decide it.
 
@@ -23,25 +23,25 @@
 | Slide | Title | Time | Cumulative |
 |---|---|---|---|
 | 1 | Title | 0:20 | 0:20 |
-| 2 | A better business is not yet a better investment | 1:30 | 1:50 |
-| 3 | Five questions, one decision | 0:40 | 2:30 |
-| 4 | Networking is 26% of revenue but 40% of segment profit | 1:00 | 3:30 |
-| 5 | HPE sits in the layer that is paid at shipment | 1:30 | 5:00 |
-| 6 | Servers bring the revenue; networking brings the returns | 1:30 | 6:30 |
-| 7 | Four flat years, then a step change in scale and margins | 1:10 | 7:40 |
-| 8 | Q3 FY26: a record beat-and-raise quarter | 1:30 | 9:10 |
-| 9 | Inside the beat: margin, not volume | 1:15 | 10:25 |
-| 10 | Only a third of FY26's jump above trend is Juniper | 1:30 | 11:55 |
-| 11 | Seven late-cycle signals, three structural offsets | 1:30 | 13:25 |
-| 12 | Record free cash flow, but suppliers fund the AI backlog | 1:15 | 14:40 |
-| 13 | Steelman: at peer multiples, HPE is worth $67–106 | 1:00 | 15:40 |
-| 14 | The price needs an 18% margin or 11% growth for a decade | 1:30 | 17:10 |
-| 15 | Intrinsic value sits below the price; peer multiples sit above | 1:15 | 18:25 |
-| 16 | Asymmetry: even our bull case falls short of today's price | 1:15 | 19:40 |
-| 17 | The market is pricing a regime change, not a cycle | 1:00 | 20:40 |
-| 18 | The biggest risks are the forces that created the rally | 1:15 | 21:55 |
-| 19 | Price vs range: what must be true, and what to watch | 1:30 | 23:25 |
-| 20 | Five patterns to take away | 0:45 | 24:10 |
+| 2 | Improved business mix, but the price exceeds our valuation range | 1:30 | 1:50 |
+| 3 | Five test questions and the decision rule | 0:40 | 2:30 |
+| 4 | Networking: 26% of revenue, 40% of segment operating profit | 1:00 | 3:30 |
+| 5 | HPE recognises AI revenue at shipment, with under a year of backlog | 1:30 | 5:00 |
+| 6 | Servers supply the revenue; networking supplies the return on capital | 1:30 | 6:30 |
+| 7 | Four flat years, then a step change in revenue and margin | 1:10 | 7:40 |
+| 8 | Q3 FY26: record revenue, margin and EPS against guidance | 1:30 | 9:10 |
+| 9 | Decomposition of the beat: margin contributed about 78% | 1:15 | 10:25 |
+| 10 | Juniper accounts for 32–38% of FY26 revenue above baseline | 1:30 | 11:55 |
+| 11 | Six of seven late-cycle indicators present; three structural offsets | 1:30 | 13:25 |
+| 12 | Record free cash flow with inventory financed by payables | 1:15 | 14:40 |
+| 13 | At peer multiples HPE would be valued at $67–106 per share | 1:00 | 15:40 |
+| 14 | The price implies an 18.4% long-term margin or 10.8% growth | 1:30 | 17:10 |
+| 15 | Cash-flow methods give $31–43; peer-multiple methods give $35–106 | 1:15 | 18:25 |
+| 16 | The bull-case DCF value of $53.93 remains below the market price | 1:15 | 19:40 |
+| 17 | Return correlation has shifted to AI hardware; volatility clusters | 1:00 | 20:40 |
+| 18 | The variables that produced the re-rating can reverse it | 1:15 | 21:55 |
+| 19 | Conditions required for $62.09 to equal fair value | 1:30 | 23:25 |
+| 20 | Five transferable analytical methods | 0:45 | 24:10 |
 
 **If you are running long** (saves about 1:15):
 - Cut slide 10 to 0:45: skip the regressions and keep the $17.4bn / $5.7bn / $11.8bn split.
@@ -58,14 +58,14 @@ Slides 22 and 23 (industry and macro levers) are backup only; their key sentence
 
 **Transition:** Let me start with the answer.
 
-## Slide 2 · A better business is not yet a better investment
+## Slide 2 · Improved business mix, but the price exceeds our valuation range
 **Time:** 1:30 (cumulative 1:50)
 
 **Goal:** Give the conclusion and the four-step argument up front.
 
 **Script:** Here is the whole pitch on one slide.
 - **Step one:** HPE is a genuinely better business than a year ago. After buying Juniper, networking is 26% of revenue but 40% of segment profit, and return on invested capital is above the cost of capital for the first time in the six years we reviewed.
-- **Step two:** most of this year's jump is cyclical. Gross margin hit a record 40.4% on memory-driven pricing, and last quarter's EPS beat the top of guidance by 19%, mostly on margin. Management itself says margins will moderate.
+- **Step two:** most of this year's jump is cyclical. Gross margin hit a record 40.4% on pricing amid memory shortages, and last quarter's EPS beat the top of guidance by 19%, mostly on margin. Management itself says margins will moderate.
 - **Step three:** the cash flow looks great, a record $4.5 billion, but suppliers are funding a $5.5 billion inventory build.
 - **Step four:** the price. At $62.09 the market pays 13.5 times next year's earnings against a 4-to-10-times history, and our reverse DCF says it needs an 18% long-term margin or 11% growth for a decade.
 
@@ -81,11 +81,11 @@ Our fundamental range is $35 to $43, and even our bull case is $54. So we are no
 - 18% margin / 11% growth;
 - range $35–43, bull $54.
 
-**Slide takeaway:** Conclusion: A better business, priced for a cycle that never turns — intrinsic value $35–43 against a $62.09 share price.
+**Slide takeaway:** Conclusion: Business improved; price above our range — intrinsic value $35–43 against the $62.09 close; ROIC 11.2% now exceeds the 9.3% WACC.
 
 **Transition:** How did we get there? Five questions.
 
-## Slide 3 · Five questions, one decision
+## Slide 3 · Five test questions and the decision rule
 **Time:** 0:40 (cumulative 2:30)
 
 **Goal:** Show the reasoning map.
@@ -94,16 +94,16 @@ Our fundamental range is $35 to $43, and even our bull case is $54. So we are no
 1. what HPE really sells: its profit mix and place in the value chain;
 2. structure or cycle: a counterfactual and a decomposition of the latest quarter;
 3. is the cash real: working capital;
-4. what the price assumes: a reverse DCF and a steelman of the bull case;
+4. what the price assumes: a reverse DCF and the strongest opposing case;
 5. what would change our mind: scenarios and signposts.
 
 The rest of the deck answers them in order.
 
-**Slide takeaway:** Method: Test the thesis, don't tell it — five questions, each with a tool that could have proved us wrong.
+**Slide takeaway:** Method: Every question has a falsifiable test — five questions, each answered with a measurement whose outcome could contradict the thesis.
 
 **Transition:** Question one: what does HPE sell?
 
-## Slide 4 · Networking is 26% of revenue but 40% of segment profit
+## Slide 4 · Networking: 26% of revenue, 40% of segment operating profit
 **Time:** 1:00 (cumulative 3:30)
 
 **Goal:** Establish the first pattern: profit mix, not revenue mix.
@@ -118,11 +118,11 @@ So the smaller segment now decides the valuation. About two-thirds of revenue is
 
 **Numbers to say:** $89.7bn; $103.8bn; $41.9bn +31%; 71% at 12.6%; 26% at 22.7% = 40% of profit; ARR $3.15bn.
 
-**Slide takeaway:** Pattern: Follow the profit, not the revenue — Networking is 26% of revenue but 40% of segment profit, so it sets the multiple.
+**Slide takeaway:** Result: Segment profit concentrated in networking — 26% of revenue at a 22.7% segment margin produces 40% of segment operating profit.
 
 **Transition:** What kind of revenue is the 71%? That depends on where HPE sits in the AI stack.
 
-## Slide 5 · HPE sits in the layer that is paid at shipment
+## Slide 5 · HPE recognises AI revenue at shipment, with under a year of backlog
 **Time:** 1:30 (cumulative 5:00)
 
 **Goal:** Place HPE in the AI value chain and explain why its revenue is cyclical.
@@ -132,22 +132,22 @@ So the smaller segment now decides the valuation. About two-thirds of revenue is
 - **neoclouds** like CoreWeave own GPUs and rent compute on multi-year contracts;
 - **server providers** like HPE and Dell sell the equipment.
 
-Same capex dollar, three different financial fingerprints.
-- **The chart** is a stylised 100-megawatt build. The landlord pays first and gets its cash back over about eleven and a half years. The neocloud needs about three years, if its GPUs stay contracted. The server provider is paid at shipment, within two quarters, but earns a thin margin once and needs a new order for every future dollar.
-- **The table** shows the consequence. Server providers have almost no capex and less than a year of revenue in contracted backlog, so their revenue is the most elastic to AI spending: 0.84 at Dell and 0.41 at HPE per point of cloud-capex growth. Digital Realty is the opposite; its revenue hasn't fallen year on year since 2018.
+The same capex dollar produces three different financial profiles.
+- **The chart** is our stylised 100-megawatt model, built from company disclosures. The landlord pays first and gets its cash back over about eleven and a half years. The neocloud needs about three years, if its GPUs stay contracted. The server provider is paid at shipment, within two quarters, but earns a thin margin once and needs a new order for every future dollar.
+- **The table** shows the consequence, and its elasticity rows are our own regressions. Server providers have almost no capex and less than a year of revenue in contracted backlog, so their revenue is the most elastic to AI spending: 0.84 at Dell and 0.41 at HPE per point of cloud-capex growth, summed over five quarters. Digital Realty is the opposite; its revenue hasn't fallen year on year since 2018, and its link to capex isn't significant.
 
-**The investing implication:** you can't value a shipment-paid business on its best year; you value it on through-cycle margins. HPE's elasticity is half Dell's, because networking and services dampen the swing. Once you control for Juniper, the link to cloud capex is weaker still.
+**The investing implication:** you can't value a shipment-paid business on its best year; you value it on through-cycle margins. HPE's elasticity is half Dell's, a statistically significant gap, because networking and services dampen the swing. Once you control for Juniper, HPE's link to cloud capex shrinks further and isn't robust.
 
 **Numbers to say:**
 - cash payback ~11.5 years (landlord), ~3 years (neocloud), 2 quarters (server provider);
-- revenue elasticity: Dell 0.84, HPE 0.41 (Digital Realty 0.06, not significant);
-- controlling for Juniper, HPE's link is 0.19 and not significant.
+- revenue elasticity: Dell 0.84, HPE 0.41, gap significant (p = 0.004); Digital Realty 0.06, not significant;
+- controlling for Juniper, HPE's link shrinks to 0.09–0.19 depending on the lags and isn't robust; share-price AI beta for HPE and Dell isn't significant.
 
-**Slide takeaway:** Pattern: Paid at shipment, first to feel the cycle — server revenue is the most capex-elastic (0.41–0.84) with under a year of backlog.
+**Slide takeaway:** Result: Highest measured revenue elasticity — server providers 0.41–0.84 per point of hyperscaler capex growth, with backlog of 0.3–0.9x revenue.
 
 **Transition:** So inside HPE, where are the switching costs?
 
-## Slide 6 · Servers bring the revenue; networking brings the returns
+## Slide 6 · Servers supply the revenue; networking supplies the return on capital
 **Time:** 1:30 (cumulative 6:30)
 
 **Goal:** Moat reasoning: returns, not stories.
@@ -165,11 +165,11 @@ The test that matters most is returns. HPE's adjusted after-tax ROIC averaged 8.
 
 **Numbers to say:** ROIC 8.1% average FY20–25; 11.2% TTM; WACC 9.3%; HPE +46% vs market +52% and Dell +165%; impairments $1.6bn.
 
-**Slide takeaway:** Pattern: Moats show up in returns, not revenue — adjusted ROIC averaged 8.1% in FY20–25, below WACC; only now 11.2%, led by networking.
+**Slide takeaway:** Result: Returns, not revenue, locate the moat — adjusted ROIC averaged 8.1% in FY20–25, below WACC; 11.2% TTM, led by networking.
 
 **Transition:** Question two: structure or cycle?
 
-## Slide 7 · Four flat years, then a step change in scale and margins
+## Slide 7 · Four flat years, then a step change in revenue and margin
 **Time:** 1:10 (cumulative 7:40)
 
 **Goal:** Read both charts and frame the structure-versus-cycle question.
@@ -182,11 +182,11 @@ When a company that was flat for four years suddenly steps up, the job isn't to 
 
 **Numbers to say:** 2.8% CAGR FY20–24 ($27.0bn → $30.1bn); +13.8% FY25; +30.8% TTM to $41.9bn; non-GAAP margin 8.5–10.8% → 13.8% TTM, 16.2% Q3; GAAP gross margin 36.7% vs 30.3%; GAAP operating margin 6.2%, gap 7.6pp.
 
-**Slide takeaway:** Pattern: Explain a break before you extrapolate it — revenue +30.8% TTM after a 2.8% CAGR in FY20–24: structure or cycle?
+**Slide takeaway:** Result: Level shift, not trend extension — revenue +30.8% TTM after a 2.8% CAGR in FY20–24; non-GAAP margin 8.5–10.8% to 13.8%.
 
 **Transition:** Here is the latest quarter.
 
-## Slide 8 · Q3 FY26: a record beat-and-raise quarter
+## Slide 8 · Q3 FY26: record revenue, margin and EPS against guidance
 **Time:** 1:30 (cumulative 9:10)
 
 **Goal:** Give the latest results precisely: actual vs guidance vs consensus, segments and the raised outlook.
@@ -214,75 +214,74 @@ The chart shows how far FY26 EPS guidance has moved since last October, already 
 - Networking +75% (+10% normalised) at 22.0%; Cloud & AI +25% at 17.0%;
 - Q4 guide $13.9–14.8bn (+44–53%); FY26 EPS $3.75–3.85; FY27 +13–17%, free cash flow ≥$5.0bn.
 
-**Slide takeaway:** Conclusion: A record quarter proves the cycle, not the run-rate — EPS beat consensus by 18%, revenue by only 1%.
+**Slide takeaway:** Result: Margin-led beat — non-GAAP EPS exceeded consensus by 18% while revenue exceeded it by 1%.
 
 **Transition:** So what actually drove that beat?
 
-## Slide 9 · Inside the beat: margin, not volume
+## Slide 9 · Decomposition of the beat: margin contributed about 78%
 **Time:** 1:15 (cumulative 10:25)
 
 **Goal:** Decompose the beat and judge its repeatability.
 
 **Script:** Let's decompose the beat.
-- **Left chart:** green bars are EPS, grey bars revenue, each against the top of the guidance range. Over six quarters EPS beat the top of guidance five times, by 44% and 19% in the last two, while revenue beats stayed in single digits. That is the signature of a margin-led beat.
+- **Left chart:** green bars are EPS, grey bars revenue, each against the top of the guidance range. Over six quarters EPS beat the top of guidance five times, by 44% and 19% in the last two, while revenue beats stayed in single digits. That combination identifies a margin-led beat.
 - **Operating-profit bridge (our estimate):** non-GAAP operating profit rose about $1.2 billion year on year, and roughly 78% of that came from margin rather than volume.
 - **Where the margin came from: price.** Server revenue rose 35% on higher average selling prices while supply was constrained, as memory prices spiked and HPE passed them on. Management itself expects gross margin to moderate back toward historical levels. Cloud capex and memory prices, the two macro levers, lifted both volume and price, and both can reverse.
 - **Networking's 75% is mostly acquired:** organic growth was 10%, although orders grew 36%.
 - **Cash:** free cash flow was 48% of operating profit, with $11.8 billion of inventory on the balance sheet.
 - **Guidance has ratcheted:** the FY26 EPS guide already exceeds the target HPE set for FY28 only last October.
 
-The pattern: margin-led beats with rising guidance are the least repeatable part of a cycle.
+Interpretation: margin-led beats with rising guidance are the least repeatable component of a cycle.
 
 **Numbers to say:** EPS beat the top of guidance in 5 of 6 quarters (+44%, +19%); ~78% of the $1.2bn profit rise from margin; server +35%; Networking +10% normalised, orders +36%; free cash flow 48% of operating profit; FY28 EPS target ≥$3.00 vs FY26 guide $3.75–3.85.
 
-**Slide takeaway:** Pattern: The source of a beat matters more than its size — ~78% of the profit rise came from margin, and management guides gross margin lower.
+**Slide takeaway:** Decomposition: Margin contributed about 78% — of the $1.2bn rise in non-GAAP operating profit; management guides gross margin lower.
 
 **Transition:** Now step back from one quarter: how much of the whole jump is structural?
 
-## Slide 10 · Only a third of FY26's jump above trend is Juniper
+## Slide 10 · Juniper accounts for 32–38% of FY26 revenue above baseline
 **Time:** 1:30 (cumulative 11:55)
 
-**Goal:** Quantify structure versus cycle with a counterfactual.
+**Goal:** Quantify structure versus cycle with our own counterfactual and regressions.
 
-**Script:** The tool here is a counterfactual.
-- **The model:** we fitted an ARIMA model, a statistical trend model, to HPE's quarterly revenue from FY2018 to mid-FY2025, before Juniper. In a rolling backtest it missed by 4.8% on average, better than a random walk at 5.8%.
-- **The question:** what would FY26 look like with no structural change? About $29 billion, against guidance of $46.5 billion. That is $17.4 billion above trend. All five quarters since the Juniper close sit above the model's 95% band, so this is a genuine break.
-- **The attribution:** using the company's own normalised growth, Juniper explains about $5.7 billion, roughly a third. The remaining $11.8 billion is AI systems, pricing and refresh: the cyclical part.
-- **Two regressions back this up:**
-  - once you account for Juniper quarters, revenue growth has only a weak link to cloud capex;
-  - memory-price spikes compress HPE's gross margin only modestly, because HPE passes costs through in price, which works in reverse when memory prices fall.
+**Script:** This slide is our own test of structure versus cycle.
+- **The baseline:** we fitted an ARIMA model, a statistical baseline, to HPE's quarterly revenue from FY2018 to mid-FY2025, before Juniper. With no structural change FY26 would be about $29 billion, against guidance of $46.5 billion: $17.4 billion above the baseline. All five quarters since the Juniper close sit above the model's 95% band, so this is a genuine break.
+- **The attribution:** using the company's own normalised growth, Juniper explains about $5.7 billion, roughly a third. The other $11.8 billion is AI systems, pricing and refresh: the cyclical part. On eight alternative baselines Juniper's share stays between 32% and 38%.
+- **Two regressions test the drivers:**
+  - once Juniper quarters are accounted for, cloud capex adds only a small lift to revenue growth, and it disappears when we allow longer lags;
+  - past memory spikes came with slightly lower HPE margins, yet Q3 FY26 margin was 6.5 points above what that model predicts. HPE priced ahead of memory costs, and that is the part most likely to reverse.
 
-The pattern: separate the tide from the boat. The boat got bigger with Juniper, but two-thirds of the rise is tide.
+Interpretation: the acquisition raised the level of revenue, but 32–38% of the excess is Juniper and the remainder is cyclical demand and pricing.
 
-**Numbers to say:** backtest error 4.8% vs 5.8%; trend $29.1bn vs guide $46.5bn; excess $17.4bn; Juniper ≈ $5.7bn; AI and pricing ≈ $11.8bn.
+**Numbers to say:** baseline $29.1bn vs guide $46.5bn; excess $17.4bn; Juniper ≈ $5.7bn (32–38% on eight baselines); AI and pricing ≈ $11.8bn; Q3 FY26 margin 6.5pp above the model.
 
-**Slide takeaway:** Pattern: Separate the tide from the boat — of FY26's $17.4bn above trend, about two-thirds is AI and pricing, one-third Juniper.
+**Slide takeaway:** Decomposition: Acquisition 32–38%, cycle the remainder — $17.4bn above the pre-Juniper baseline: $5.7bn Juniper consolidation, $11.8bn AI demand and pricing.
 
-**Transition:** If most of the jump is tide, does HPE look like a company at a cycle high? We checked.
+**Transition:** If most of the increase is cyclical, does HPE show the indicators of a cycle high? We checked.
 
-## Slide 11 · Seven late-cycle signals, three structural offsets
+## Slide 11 · Six of seven late-cycle indicators present; three structural offsets
 **Time:** 1:30 (cumulative 13:25)
 
-**Goal:** Pattern recognition, with the counter-evidence shown.
+**Goal:** Indicator checklist, with the counter-evidence shown.
 
-**Script:** No single indicator calls a cycle peak, but cycles leave a recognisable cluster of fingerprints. We checked HPE against seven:
+**Script:** No single indicator identifies a cycle peak; the evidence is the cluster of indicators. We checked HPE against seven:
 1. **Growth led by price rather than units:** present; the latest quarter proved it.
 2. **Record margins that management guides lower:** present, at 40.4%.
 3. **Inventory financed by suppliers:** present. Inventory is up $5.5 billion and payables up $6 billion.
 4. **Record backlog while supply is the constraint:** present, at $7.6 billion. Long lead times inflate orders, and slippage tends to follow when supply eases.
 5. **Customers' capex at records, partly debt-funded:** present, up 81%.
 6. **A multiple above its own history:** present, 13.5 times against 4 to 10.
-7. **Momentum with insiders selling:** only partly. The stock is up 155% in a year with a blow-off day on 2 June, and insiders made 31 sales and no purchases, though most of those sales came before the re-rating.
+7. **Momentum with insiders selling:** only partly. The stock is up 155% in a year with a +19.5% single-day move on 2 June, and insiders made 31 sales and no purchases, though most of those sales came before the re-rating.
 
 The discipline is to also list what doesn't fit a pure cycle story: networking earns 40% of profit, ROIC is above WACC, and ARR grew 63%. So our conclusion isn't "HPE is at a cyclical peak". It is "HPE is a better business at a cyclical high", and the price has to tell the two apart.
 
 **Numbers to say:** gross margin 40.4%; inventory +$5.5bn, payables +$6.0bn; backlog $7.6bn; capex +81%; 13.5x vs 4–10x; +155% in a year; 31 insider sales, no purchases.
 
-**Slide takeaway:** Pattern: One signal is noise; six is a pattern — six of seven late-cycle signals are present; networking profit and ROIC are the offsets.
+**Slide takeaway:** Result: Six of seven indicators present — pricing-led growth, record margin guided lower, supplier-funded inventory; networking profit and ROIC are the offsets.
 
 **Transition:** Signal three deserves a closer look: is the cash real?
 
-## Slide 12 · Record free cash flow, but suppliers fund the AI backlog
+## Slide 12 · Record free cash flow with inventory financed by payables
 **Time:** 1:15 (cumulative 14:40)
 
 **Goal:** Cash quality, and why the balance sheet is not the issue.
@@ -290,7 +289,7 @@ The discipline is to also list what doesn't fit a pure cycle story: networking e
 **Script:** Question three: is the cash real?
 - **The headline:** trailing free cash flow is a record $4.5 billion, a 10.7% margin, against about $1 billion in FY2025.
 - **Working capital (right chart):** since October, inventory rose $5.5 billion and payables rose $6 billion. Suppliers are financing the AI backlog.
-- **The pattern:** at cycle peaks, when orders grow, payables can grow faster than inventory, so free cash flow looks best. When orders slow the financing unwinds, and free cash flow can swing by billions.
+- **Mechanism:** when orders grow, payables can grow faster than inventory, so free cash flow peaks before the cycle does. When orders slow the financing unwinds, and free cash flow can swing by billions.
 - **The balance sheet (bottom row)** can absorb that:
   - gross debt is $20.2 billion against $6.2 billion of cash, but about $11.5 billion of the debt funds Financial Services receivables;
   - liquidity is $11.5 billion;
@@ -300,16 +299,16 @@ So the balance sheet isn't the risk; the quality of this year's cash is.
 
 **Numbers to say:** free cash flow $4.5bn (10.7%) vs $986m in FY2025; inventory +$5.5bn; payables +$6.0bn; debt $20.2bn, cash $6.2bn; ~$11.5bn funds FS; dilution 8.8%.
 
-**Slide takeaway:** Pattern: Peak cash flow is often borrowed from suppliers — payables +$6.0bn funded a $5.5bn inventory build.
+**Slide takeaway:** Result: Free cash flow supported by payables — payables +$6.0bn financed a $5.5bn inventory build; FCF margin 10.7% TTM.
 
 **Transition:** Part three: what does the price assume? First, the best case for the bulls.
 
-## Slide 13 · Steelman: at peer multiples, HPE is worth $67–106
+## Slide 13 · At peer multiples HPE would be valued at $67–106 per share
 **Time:** 1:00 (cumulative 15:40)
 
-**Goal:** Steelman the bull case before testing it.
+**Goal:** State the strongest opposing case before testing it.
 
-**Script:** Before attacking the price, steelman it. The best bull argument is relative:
+**Script:** Before testing the price, state the strongest opposing case. The best bull argument is relative:
 - HPE has about twice Dell's gross margin and a networking business that looks more like Cisco;
 - yet it trades at 13.5 times next year's earnings, against Dell at 23 and Cisco at 20;
 - apply the core peers' multiples and you get $67 to $106, and a sum of the parts using Cisco's multiple for networking gives $67 to $94.
@@ -318,11 +317,11 @@ Our response: those multiples aren't independent evidence. Dell at 23 times alre
 
 **Numbers to say:** gross margin 37% vs Dell 20%; P/E 13.5x vs Dell 23.0x, Cisco 20.0x; peers imply $67–106; sum of the parts $67–94.
 
-**Slide takeaway:** Steelman: Cheaper than peers is not the same as cheap — peer multiples ($67–106) embed the same AI-cycle assumptions we are testing.
+**Slide takeaway:** Opposing case: Peer multiples embed the same cycle — relative value of $67–106 assumes sector multiples persist, so it cannot test that assumption.
 
 **Transition:** So we value the cash flows directly, and then run the valuation backwards.
 
-## Slide 14 · The price needs an 18% margin or 11% growth for a decade
+## Slide 14 · The price implies an 18.4% long-term margin or 10.8% growth
 **Time:** 1:30 (cumulative 17:10)
 
 **Goal:** Expectations investing with a reverse DCF.
@@ -339,11 +338,11 @@ The logic: we don't have to be right about next quarter. We only have to ask whe
 
 **Numbers to say:** WACC 9.3%; implied margin 18.4% vs history 8.5–10.8% and guide 14–15%; implied CAGR 10.8% vs 5.0%; implied WACC 7.0%; +3.5pp growth even at a 14.5% margin.
 
-**Slide takeaway:** Conclusion: Read the price as a forecast — $62.09 needs an 18.4% long-term margin, above the record 16.2% quarter and the 14–15% FY27 guide.
+**Slide takeaway:** Reverse DCF: Price implies peak-level margin — $62.09 requires an 18.4% long-term margin against the 16.2% record quarter and the 14–15% FY27 guide.
 
 **Transition:** Here is every method on one scale.
 
-## Slide 15 · Intrinsic value sits below the price; peer multiples sit above
+## Slide 15 · Cash-flow methods give $31–43; peer-multiple methods give $35–106
 **Time:** 1:15 (cumulative 18:25)
 
 **Goal:** Show where the methods cluster and why they disagree.
@@ -356,15 +355,15 @@ The logic: we don't have to be right about next quarter. We only have to ask whe
 - **HPE's own forward P/E history** gives $20 to $46.
 - **Only methods that borrow today's peer multiples** reach the price: comparables and sum of the parts. An M&A value of $69–74 needs a buyer, which is improbable at an enterprise value above $100 billion.
 
-The pattern: when intrinsic methods agree with each other and disagree with the price, relative multiples are setting the price, and relative multiples are the most fragile input in a sector cycle.
+Interpretation: the intrinsic methods agree with each other and disagree with the price, so the price is being set by relative multiples, which are the least stable input in a sector cycle.
 
 **Numbers to say:** DCF $38.80 ($35–43); probability-weighted $38.43; Ginzu $31.57; own history $20–46; M&A $69–74.
 
-**Slide takeaway:** Conclusion: Cash flows say $31–43; only borrowed multiples reach $62 — DCF, scenarios and Ginzu all sit below the price.
+**Slide takeaway:** Conclusion: Methods disagree by construction — DCF $38.80, scenarios $22–54 and Ginzu $31.57 sit below $62.09; only peer multiples exceed it.
 
 **Transition:** How lopsided is the risk-reward? Scenarios.
 
-## Slide 16 · Asymmetry: even our bull case falls short of today's price
+## Slide 16 · The bull-case DCF value of $53.93 remains below the market price
 **Time:** 1:15 (cumulative 19:40)
 
 **Goal:** Make the asymmetry explicit.
@@ -379,30 +378,30 @@ The key point: even the bull case sits below today's price, so upside from here 
 
 **Numbers to say:** $22 / $38.80 / $54; probability-weighted $38.43; WACC ±1pp $33–47; growth ±2pp $33–46; margin ±1.5pp $33–45.
 
-**Slide takeaway:** Conclusion: No margin of safety, even in the bull case — bull $54 and probability-weighted $38 both sit below $62.09.
+**Slide takeaway:** Sensitivity: No margin of safety in any case — bull $53.93 and probability-weighted $38.43 both below $62.09; WACC and long-term margin dominate.
 
 **Transition:** Part four: what the market is doing, the risks, and the decision.
 
-## Slide 17 · The market is pricing a regime change, not a cycle
+## Slide 17 · Return correlation has shifted to AI hardware; volatility clusters
 **Time:** 1:00 (cumulative 20:40)
 
 **Goal:** Read the market's behaviour and draw the position-sizing lesson.
 
 **Script:** For a decade the stock traded between about $8 and $26, as an ex-growth hardware company. In April 2026 it broke out, and it is up 155% in a year.
 
-Two patterns matter for how you act:
-- **HPE now trades as an AI-hardware name.** Its correlation with Dell (0.66) exceeds its correlation with the S&P 500 (0.47).
-- **Returns show no significant autocorrelation,** so past prices don't predict direction, but three-sigma days happen 6.8 times as often as a normal distribution implies.
+Two patterns matter for how you act, and we tested both:
+- **HPE now trades as an AI-hardware name.** Over the last year its correlation with Dell (0.66) exceeds its correlation with the S&P 500 (0.47). A bootstrap puts the gap at 0.09–0.28, so it is real; over three years it isn't significant, so this is a recent re-rating.
+- **Returns show no significant autocorrelation,** so past prices don't predict direction, but volatility clusters and three-sigma days happen 6.8 times as often as a normal distribution implies.
 
-So think in ranges and size positions for fat tails. Next catalysts: the Networking Investor Day on 30 September and full FY27 guidance in early December.
+So use valuation ranges and size positions for the measured tail frequency. Next catalysts: the Networking Investor Day on 30 September and full FY27 guidance in early December.
 
-**Numbers to say:** range $7.83–26.25 for a decade; +155% in a year; correlation with Dell 0.66 vs S&P 500 0.47; 3σ days 6.8x normal.
+**Numbers to say:** range $7.83–26.25 for a decade; +155% in a year; correlation with Dell 0.66 vs S&P 500 0.47 (gap 0.19, significant over one year); 3σ days 6.8x normal.
 
-**Slide takeaway:** Pattern: Re-rated as AI hardware: size for turbulence — correlation with Dell (0.66) exceeds the S&P 500 (0.47); 3σ days are 6.8x normal.
+**Slide takeaway:** Result: Correlation regime change — one-year correlation with Dell 0.66 against 0.47 with the S&P 500 (gap 0.19, CI 0.09–0.28); 3σ days at 6.8x normal frequency.
 
 **Transition:** What could go wrong for anyone owning it at $62?
 
-## Slide 18 · The biggest risks are the forces that created the rally
+## Slide 18 · The variables that produced the re-rating can reverse it
 **Time:** 1:15 (cumulative 21:55)
 
 **Goal:** Trace each risk through the statements to valuation.
@@ -423,11 +422,11 @@ Notice the asymmetry: most of these risks push value down from $38, and almost n
 
 **Numbers to say:** peers at 18–23x P/E; ±1pp WACC ≈ ±$6–8 per share.
 
-**Slide takeaway:** Pattern: The rally's engines are its risks — memory prices, AI capex and sector multiples can all run in reverse.
+**Slide takeaway:** Risk map: Same variables, opposite sign — memory pricing, AI capex and sector multiples each transmit to revenue, margin and multiple.
 
 **Transition:** Which brings us to the decision.
 
-## Slide 19 · Price vs range: what must be true, and what to watch
+## Slide 19 · Conditions required for $62.09 to equal fair value
 **Time:** 1:30 (cumulative 23:25)
 
 **Goal:** Close on the decision logic without a rating.
@@ -447,23 +446,23 @@ That is the conclusion: a better business, priced as if the cycle never turns, w
 
 **Numbers to say:** $35–43 vs $62.09; peer multiples $67–106; 18% vs 14–15%; 11% vs 5%; 7% WACC. Upward signposts: 13%, 25%, $5bn → $55–60. Downward: gross margin below 33%.
 
-**Slide takeaway:** Conclusion: $62 is fair only if peak economics persist — watch Cloud & AI margin through a memory downturn, networking growth and AI backlog.
+**Slide takeaway:** Conclusion: $62.09 requires peak economics to persist — an 18% long-term margin, or 11% growth for a decade, or a 7.0% cost of capital.
 
 **Transition:** Let me leave you with what carries over to the next company.
 
-## Slide 20 · Five patterns to take away
+## Slide 20 · Five transferable analytical methods
 **Time:** 0:45 (cumulative 24:10)
 
 **Goal:** Make the reasoning reusable.
 
-**Slide takeaway:** Bottom line: A better business, priced as if the cycle never turns — five patterns that travel beyond HPE.
+**Slide takeaway:** Summary: Five methods that transfer to other companies — profit concentration, break decomposition, revenue timing, working capital, inverted valuation.
 
-**Script:** Five patterns outlive this stock:
-1. Follow profit, not revenue.
-2. Separate the tide from the boat.
-3. Your place in the value chain sets your cycle.
-4. Working capital narrates the cycle.
-5. Treat the price as a forecast: reverse it, and think in ranges, because the tails are fat.
+**Script:** Five methods transfer to other companies:
+1. Measure profit concentration, not revenue share.
+2. Decompose a break into acquisition and cycle.
+3. Revenue-recognition timing sets cyclicality.
+4. Working capital locates the cycle position.
+5. Invert the valuation and report ranges, because the return distribution has fat tails.
 
 Thank you. I'm happy to take questions; the appendix has backup on industry, macro, moat, capital structure, price action, catalysts and our two practitioner questions.
 
@@ -474,80 +473,80 @@ Thank you. I'm happy to take questions; the appendix has backup on industry, mac
 ## Slide 21 · Appendix divider
 **When to use:** Jump here when a question needs detail. Slides 22–30 are not timed.
 
-## Slide 22 · Appendix: industry and market size
+## Slide 22 · AI infrastructure spending is rising faster than HPE's server share
 **When to use:** Questions about market growth, market share or the profit pool.
 
-**Slide takeaway:** Pattern: Market growth is not market power — HPE's servers grew 46% vs the market's 52%; suppliers and hyperscale buyers hold the profit pool.
+**Slide takeaway:** Result: Growth without share gain — HPE servers +46% against the market's +52% in 2Q26; ODM-direct holds 53.9% of the market.
 - **Market size:** IDC puts AI infrastructure at $497bn in 2026; the server market grew 52% in 2Q26; the five big cloud spenders' capex is $566bn over twelve months, up 81%.
 - **Share:** HPE grew 46% against the market's 52% and Dell's 165%. It has 3.5% of all servers and about 7.7% of the OEM market it competes in, because more than half of servers go ODM-direct to hyperscalers.
-- **Profit pool:** it goes to whoever has bargaining power, here NVIDIA, the memory makers and giant buyers ordering in competitive lots. A rising tide is not a moat.
+- **Profit pool:** it goes to whoever has bargaining power, here NVIDIA, the memory makers and giant buyers ordering in competitive lots. Market growth does not by itself create pricing power.
 
-## Slide 23 · Appendix: macro levers
+## Slide 23 · Cloud capex and memory pricing are the two external drivers
 **When to use:** Questions about cloud capex, memory prices or rates.
 
-**Slide takeaway:** Pattern: Borrowed tailwinds reverse — cloud capex +81% and DRAM +13–18% QoQ lift results, but HPE controls neither.
+**Slide takeaway:** Result: Both drivers are outside HPE's control — hyperscaler capex +81% TTM and DRAM contract prices +13–18% QoQ set volume and price.
 - **Cloud capex:** quarterly capex at Microsoft, Alphabet, Amazon, Meta and Oracle is at a record run-rate. It feeds AI orders and backlog, but AI systems dilute margin and swell inventory.
-- **Memory prices:** Micron's gross margin rose from 38% to 85% in a year, and DRAM contract prices rose 13–18% quarter on quarter in Q3. HPE passed the costs on, so Q3 server revenue grew 35% largely on price while units were supply-constrained.
+- **Memory prices:** Micron's gross margin rose from 38% to 85% in a year, and DRAM contract prices rose 13–18% quarter on quarter in Q3. HPE priced ahead of the cost increase, so Q3 server revenue grew 35% largely on price while units were supply-constrained, and gross margin rose rather than falling as it did in earlier memory spikes.
 - **Reversibility:** both levers are external and at records, and both can reverse. When memory prices fall, server revenue can shrink even if unit demand is flat. Rates (10-year at 4.95%) set the WACC.
 
-## Slide 24 · Appendix: competitive position and moat
+## Slide 24 · Moat is narrow and confined to networking
 **When to use:** Questions about competition or pricing power.
 
-**Slide takeaway:** Conclusion: Narrow moat, and only in networking — rivalry and supplier power are high; servers and financing compete on scale and price.
+**Slide takeaway:** Conclusion: Narrow moat, networking only — rivalry and supplier power are high; servers and financing compete on scale and price.
 - **Porter:** rivalry and supplier power are high (NVIDIA, the memory makers, Broadcom); buyers medium-to-high; substitutes medium (public cloud vs on-premises inference); new entrants low-to-medium.
 - **Moat by business:** narrow in networking and storage/GreenLake; none in servers and AI systems or in Financial Services.
 - **Returns test:** adjusted ROIC averaged 8.1% over FY20–25 and is 11.2% TTM. Technology edge: Express 5 routing silicon, liquid cooling (Cray heritage), on-premises inference.
 
-## Slide 25 · Appendix: balance sheet, capital structure and dilution
+## Slide 25 · Net leverage 1.75x; the preferred drives 5.7pp of the 8.8% dilution
 **When to use:** Questions about leverage, the preferred, buybacks or refinancing.
 
-**Slide takeaway:** Conclusion: Leverage is manageable; dilution is the real cost — 1.75x net leverage and $11.5bn liquidity, but 8.8% more shares than basic.
+**Slide takeaway:** Result: Leverage manageable, dilution measurable — 1.75x net leverage and $11.5bn liquidity, with a fully diluted count 8.8% above basic.
 - **Debt and cash:** gross debt $20.2bn and cash $6.2bn; about $11.5bn funds Financial Services receivables (estimate); net debt 1.75x adjusted EBITDA; S&P rating BBB, stable.
 - **Share count:** 1,445m fully diluted shares (+8.8%). Mostly the 7.625% mandatory convertible preferred (76.1m shares at the minimum conversion rate, around 1-Sep-2027), plus RSUs and the Oracle warrant (up to 4.2m).
 - **Capital returns:** $3.2bn buyback authorisation remaining; management intends to return at least 75% of free cash flow from Q4 FY26.
 
-## Slide 26 · Appendix: price action and technicals
+## Slide 26 · Price consolidating below $63–64 after the 2-June +19.5% move
 **When to use:** Questions about timing or the chart.
 
-**Slide takeaway:** Pattern: Strong trend, stretched price — a tightening $41–64 range since the June blow-off; 83% above the 200-day average.
+**Slide takeaway:** Result: Trend intact, price extended — a $41–64 range since June; 83% above the 200-day average; bandwidth 85% to 18%.
 - **Breakout:** first close above the $26.25 decade high on 17-Apr-2026, after a golden cross on 15-Apr.
-- **Blow-off:** on 2-Jun the stock opened +34% and closed +19.5% on 7.4x volume, then drew down 26% into July.
+- **Single-day move:** on 2-Jun the stock opened +34% and closed +19.5% on 7.4x average volume, then drew down 26% into July.
 - **Range:** highs $64.25 / $63.44, lows $40.72 / $45.70, with Bollinger bandwidth compressing from 85% to 18%. Support is at the ~$51 50-day average and $41–46; resistance at $63–64.
 
-## Slide 27 · Appendix: major stock moves and catalysts
+## Slide 27 · Earnings days produce the largest price reactions
 **When to use:** Questions about what moves the stock, or upcoming dates.
 
-**Slide takeaway:** Pattern: Earnings days carry the risk — average earnings-day move 6.7% vs 1.6% on a normal day; insiders sold, none bought.
-- **What moves it:** earnings and guidance, not deals. The average earnings-day move is 6.7%, against 1.6% on a normal day; the largest was +19.5% on the Q2 FY26 results.
+**Slide takeaway:** Result: Earnings-day moves are 3.4x other days — 6.7% average absolute move against 2.0% (permutation p < 0.001); 31 insider sales, no purchases.
+- **What moves it:** earnings and guidance, not deals. We tested it: across 11 earnings days since March 2024 the average move was 6.7%, against 2.0% on the other 624 trading days (permutation test, p < 0.001); the largest was +19.5% on the Q2 FY26 results.
 - **Catalysts:** 30-Sep-2026 Networking Investor Day; early December Q4 FY26 and FY27 guidance; Oracle warrant milestones and the Helios ramp; ~1-Sep-2027 preferred conversion.
 - **Ownership:** 31 insider open-market sales ($49m) and no purchases in 12 months, mostly at $24–30. Elliott raised its stake 18% in Q2 to 2.4% and holds a board seat.
 
-## Slide 28 · Appendix: Q&A 1, Juniper equipment and security
+## Slide 28 · Juniper's exploited-vulnerability count is below the vendor median
 **When to use:** Questions about Juniper's security history or reputation.
 
-**Slide takeaway:** Conclusion: A named SOP step signals governance, not a flaw — Juniper has 8 CISA known-exploited entries, 8th of 13 vendors (Cisco 97).
+**Slide takeaway:** Conclusion: Count indicates governance, not defect — 8 KEV entries, 8th of 13 vendors (Cisco 97); counts are not normalised for installed base.
 
 **Revised question:** our data-centre SOP requires notifying designated personnel whenever Juniper equipment is installed. Does that imply Juniper devices have technical, security or compliance characteristics that other network equipment lacks?
 - **Why SOPs single out Juniper:** mainly governance, not unique hardware. Core-router role, security history (ScreenOS 2015, J-Web 2023, backdoors on end-of-life MX routers in 2025), cloud management and the ownership change.
-- **Not an outlier:** Juniper has 8 entries in CISA's Known Exploited Vulnerabilities catalogue, 8th of 13 vendors (Cisco 97).
+- **Not an outlier:** we counted CISA Known Exploited Vulnerabilities entries for 13 network and security vendors. Juniper has 8, 8th of 13 (Cisco 97); the counts aren't normalised for installed base.
 - **For HPE:** the risk is event-driven (a new implant-style incident during cross-selling), and replacing end-of-life routers is also Networking revenue.
 
-## Slide 29 · Appendix: Q&A 2, three business models
+## Slide 29 · Three business models with measurably different financial structures
 **When to use:** Questions about landlords, neoclouds or how HPE compares.
 
-**Slide takeaway:** Pattern: Same AI dollar, three risk profiles — neoclouds carry capex and depreciation, landlords duration, server providers the order cycle.
+**Slide takeaway:** Result: Structure differs by business model — neoclouds carry capex and depreciation, landlords duration, server providers order timing.
 
 **Revised question:** how do data-centre landlords, neoclouds and server providers differ financially, which gains most from AI spending, and should an investor own one model or several?
 - **Landlords (Digital Realty):** property and leases are 62% of assets; depreciation cuts a 44% EBITDA margin to 14%; revenue has not fallen year on year since 2018.
 - **Neoclouds:** capex 2.7–8.2x revenue; depreciation plus interest 67–74% of revenue; backlog 14–28x revenue; deeply negative free cash flow.
 - **Server providers:** capex at most 0.06x revenue; operating margins 6–9%; positive free cash flow; backlog under a year of revenue. CoreWeave's operating margin would be −26% on a 4-year GPU life instead of −3% on 6 years.
 
-## Slide 30 · Appendix: Q&A 2, AI elasticity and portfolio mix
+## Slide 30 · Revenue elasticity is highest for servers; AI beta highest for neoclouds
 **When to use:** Questions about which layer benefits most from AI, or whether to own several.
 
-**Slide takeaway:** Conclusion: Servers move revenue; neoclouds move share prices — lowest risk: 45% landlords + 55% servers; best Sharpe: 72% servers + 28% neoclouds.
-- **Revenue elasticity** is highest at server providers (Dell 0.84, HPE 0.41). **Share-price AI beta** is highest at neoclouds (0.81–0.85 at Nebius and CoreWeave).
-- **Only the neocloud basket touches the efficient frontier,** and only at its riskiest end. The lowest-risk mix was landlords 45% plus servers 55%; neoclouds got no weight in 97% of bootstraps.
+**Slide takeaway:** Conclusion: Exposure differs by layer — minimum-variance mix 45% landlords and 55% servers; maximum-Sharpe 72% servers and 28% neoclouds.
+- **Revenue elasticity** (our regressions on 33 quarters) is highest at server providers: Dell 0.84 and HPE 0.41, a significant gap; Digital Realty's isn't significant. **Share-price AI beta** (our daily four-factor model) is highest at neoclouds (0.81–0.85 at Nebius and CoreWeave); HPE's and Dell's aren't significant.
+- **Only the neocloud basket touches the efficient frontier,** and only at its riskiest end. The lowest-risk mix was landlords 45% plus servers 55%; neoclouds got no weight in 97% of 2,000 bootstraps.
 - **Best Sharpe:** servers 72% plus neoclouds 28%. This rests on 17 months of AI-boom returns, so trust the covariance more than the averages.
 
 ---
@@ -568,7 +567,7 @@ Thank you. I'm happy to take questions; the appendix has backup on industry, mac
 
 **4. What if memory prices stay high for longer?**
 - FY27 would benefit; that is inside the bull case.
-- HPE passes costs through (the Micron-margin regression coefficient is small), so the asymmetry appears when prices fall: server revenue drops even with flat units, and inventory bought at peak cost must be sold lower. TrendForce expects increases to continue only at a moderating pace into 2027.
+- Our regression found that past memory spikes came with slightly lower HPE margins, and only once Juniper is controlled for, so there is no evidence of clean pass-through. Q3 FY26 margin was 6.5 points above that model: HPE priced ahead of costs. That non-recurring gain is the asymmetry: when prices fall, server revenue drops even with flat units, and inventory bought at peak cost must be sold lower. TrendForce expects increases to continue only at a moderating pace into 2027.
 
 **5. Do Juniper synergies close the gap?**
 - Juniper added about $1.3bn of annualised segment profit, roughly an 8% after-tax return on $13.6bn, rising toward 12% if the $600m synergy target is met.
@@ -583,8 +582,8 @@ Thank you. I'm happy to take questions; the appendix has backup on industry, mac
 - That moves the long-term margin toward 15% and the range toward $55–60.
 
 **8. How reliable is the ARIMA counterfactual?**
-- It is a simple model: SARIMA(0,0,1) on 30 quarters, backtest error 4.8% vs 5.8% for a random walk. We use it for attribution, not forecasting.
-- The Juniper share is an estimate from company-normalised growth. Even if Juniper were twice as large, AI and pricing would still be more than a third of the excess.
+- It is a simple baseline: SARIMA(0,0,1) on 30 pre-Juniper quarters, essentially HPE's flat pre-deal revenue level. Backtest error was 4.8% vs 5.8% for a random walk, a difference that isn't significant over eight quarters, so we use it for attribution, not forecasting.
+- The split survives other baselines: across eight (other ARIMA orders, random walk with drift, linear trend, seasonal naive) FY26 baseline revenue is $29.0–31.6bn and Juniper's share of the excess 32–38%. The Juniper figure itself is an estimate from company-normalised growth; even if Juniper were twice as large, AI and pricing would still be more than a third of the excess.
 
 **9. Why use non-GAAP margins?**
 - Non-GAAP removes Juniper amortisation (non-cash) and one-offs.
@@ -634,14 +633,14 @@ Thank you. I'm happy to take questions; the appendix has backup on industry, mac
 1. **Follow profit, not revenue.**
    - Rebuild segment profit shares from the segment note.
    - Value the segment that earns the profit, and ask whether the multiple reflects it.
-2. **Separate the tide from the boat.**
+2. **Decompose a break into acquisition and cycle.**
    - Fit a simple trend or ARIMA on the pre-change period and compare actuals.
    - Attribute the gap to acquisitions (company-normalised growth), price and volume.
    - In the latest quarter, split profit growth into volume and margin.
 3. **Your place in the value chain sets your cycle.**
    - Classify revenue as paid at shipment, contracted, or leased.
    - Check capex/revenue, backlog/revenue and revenue elasticity to the customers' capex.
-4. **Working capital narrates the cycle.**
+4. **Working capital locates the cycle position.**
    - Compare changes in inventory, receivables and payables with free cash flow.
    - A record free cash flow funded by payables growth is a late-cycle flag, not a quality signal.
 5. **The price is a forecast; think in ranges.**

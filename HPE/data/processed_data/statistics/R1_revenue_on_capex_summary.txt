@@ -4,19 +4,19 @@ Dep. Variable:        hpe_revenue_yoy   R-squared:                       0.604
 Model:                            OLS   Adj. R-squared:                  0.550
 Method:                 Least Squares   F-statistic:                     12.96
 Date:                Tue, 15 Sep 2026   Prob (F-statistic):           3.60e-06
-Time:                        11:26:13   Log-Likelihood:                 43.003
+Time:                        22:47:32   Log-Likelihood:                 43.003
 No. Observations:                  34   AIC:                            -76.01
 Df Residuals:                      29   BIC:                            -68.37
 Df Model:                           4                                         
 Covariance Type:                  HAC                                         
 ==================================================================================
-                     coef    std err          z      P>|z|      [0.025      0.975]
+                     coef    std err          t      P>|t|      [0.025      0.975]
 ----------------------------------------------------------------------------------
-const             -0.0441      0.031     -1.432      0.152      -0.104       0.016
-capex_yoy_lag0     0.0980      0.065      1.498      0.134      -0.030       0.226
-capex_yoy_lag1     0.1191      0.069      1.737      0.082      -0.015       0.254
-capex_yoy_lag2    -0.0263      0.036     -0.724      0.469      -0.098       0.045
-juniper_dummy      0.1543      0.044      3.474      0.001       0.067       0.241
+const             -0.0441      0.031     -1.432      0.163      -0.107       0.019
+capex_yoy_lag0     0.0980      0.065      1.498      0.145      -0.036       0.232
+capex_yoy_lag1     0.1191      0.069      1.737      0.093      -0.021       0.259
+capex_yoy_lag2    -0.0263      0.036     -0.724      0.475      -0.101       0.048
+juniper_dummy      0.1543      0.044      3.474      0.002       0.063       0.245
 ==============================================================================
 Omnibus:                        0.514   Durbin-Watson:                   1.005
 Prob(Omnibus):                  0.773   Jarque-Bera (JB):                0.610

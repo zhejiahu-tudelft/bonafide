@@ -3,7 +3,7 @@
 Dep. Variable:                revenue   No. Observations:                   30
 Model:               SARIMAX(0, 0, 1)   Log Likelihood                  43.842
 Date:                Tue, 15 Sep 2026   AIC                            -81.684
-Time:                        11:26:19   BIC                            -77.480
+Time:                        22:47:35   BIC                            -77.480
 Sample:                    12-31-2017   HQIC                           -80.339
                          - 03-31-2025                                         
 Covariance Type:                  opg                                         
