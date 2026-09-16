@@ -1,0 +1,54 @@
+{
+  "arr": {
+    "first": {
+      "quarter": "Q4 FY21",
+      "arr_m": 796.0
+    },
+    "q4_fy24_m": 1900.0,
+    "q2_fy25_m": 2200.0,
+    "q3_fy25_m": 3100.0,
+    "q4_fy25_m": 3200.0,
+    "fy25_exact_m": 3151.0,
+    "cagr_q4fy21_q4fy24": 0.33643193357433065,
+    "yoy_q2_fy25": 0.46,
+    "yoy_q3_fy25": 0.77,
+    "step_q2_to_q3_fy25_m": 900.0,
+    "fy26_target_m": 3500.0,
+    "fy26_implied_growth": 0.11075848936845456,
+    "greenlake_arr_floor_m": 2000.0,
+    "arr_to_ttm_revenue": 0.07525494972654104
+  },
+  "customers": {
+    "latest": 52000,
+    "year_ago": 44000,
+    "growth": 0.18181818181818188,
+    "systems_managed_m_q2_fy26": 6.7,
+    "systems_growth": 0.2641509433962266,
+    "net_retention_q2_fy26": 1.1,
+    "greenlake_arr_per_customer_floor": 45454.545454545456,
+    "systems_per_customer_q2_fy26": 134.0
+  },
+  "segments": {
+    "hybrid_cloud_margin": {
+      "2023": 0.04420186113099499,
+      "2024": 0.04720247858574813,
+      "2025": 0.05822036843934654
+    },
+    "networking_margin": {
+      "2023": 0.2496746607176055,
+      "2024": 0.24602824360105913,
+      "2025": 0.232992700729927
+    },
+    "server_margin": {
+      "2023": 0.12722557128837797,
+      "2024": 0.11202185792349727,
+      "2025": 0.07568329106790646
+    },
+    "hybrid_cloud_revenue_share_fy25": 0.1699701651256905,
+    "hybrid_cloud_profit_share_fy25": 0.0921595598349381,
+    "networking_profit_share_fy25": 0.4390646492434663,
+    "revenue_needed_at_hc_margin_to_match_networking_profit_m": 27413.08656716418,
+    "margin_needed_at_hc_revenue_to_match_networking_profit": 0.2773722627737226,
+    "margin_gap_fy25_pp": 17.477233229058047
+  }
+}

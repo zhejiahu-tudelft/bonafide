@@ -1,0 +1,7 @@
+fiscal_quarter,period_end,customers,systems_managed_m,net_retention,source,basis
+Q3 FY24,2024-07-31,37000.0,,,sam_2025/hpe-sam-2025-transcript.pdf p.12,"derived: 44,000 less 7,000 new logos in the year"
+Q2 FY25,2025-04-30,,5.3,,FY2026Q2/HPE_Q2FY26_transcript.pdf p.5,reported (prior-year comparison)
+Q3 FY25,2025-07-31,44000.0,5.8,,sam_2025/hpe-sam-2025-transcript.pdf p.12,"reported at SAM, Oct-2025"
+Q4 FY25,2025-10-31,46000.0,,,FY2025Q4/HPE_Q4FY25_earnings-presentation.pdf p.6,"reported, approximate"
+Q2 FY26,2026-04-30,50000.0,6.7,1.1,FY2026Q2/HPE_Q2FY26_transcript.pdf p.5,"reported, approximate; net retention 'near 110%'"
+Q3 FY26,2026-07-31,52000.0,,,FY2026Q3/HPE_Q3FY26_transcript.pdf p.5,reported

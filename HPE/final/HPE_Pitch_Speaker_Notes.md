@@ -1,6 +1,6 @@
 # HPE: 25-minute investment pitch, speaker notes
 
-- **Deck:** `final/HPE_Investment_Presentation.pptx`. Slides 1–20 are the pitch; slides 21–30 are the appendix.
+- **Deck:** `final/HPE_Investment_Presentation.pptx`. Slides 1–20 are the pitch; slides 21–31 are the appendix.
 - **Presenter:** one person.
 - **Timing:** 24:10 of content plus a buffer of just under a minute.
 - **Pricing and stance:** prices at the 11-Sep-2026 close ($62.09); latest results are Q3 FY26, reported 2-Sep-2026. No rating or price target; the pitch closes on the price against our value range, what must be true, and the signposts.
@@ -114,9 +114,9 @@ The table holds the first pattern: follow profit, not revenue.
 - Cloud & AI (servers, storage and financing) is 71% of revenue at a 12.6% segment margin.
 - Networking is only 26% of revenue, but at a 22.7% margin it earns 40% of segment profit.
 
-So the smaller segment now decides the valuation. About two-thirds of revenue is transactional hardware, and recurring ARR is $3.15 billion. We'll come back to the latest quarter in part two.
+So the smaller segment now decides the valuation. About two-thirds of revenue is transactional hardware. GreenLake has 52,000 customers, up 18%, but earns a far lower margin than networking; slide 31 has the detail. We'll come back to the latest quarter in part two.
 
-**Numbers to say:** $89.7bn; $103.8bn; $41.9bn +31%; 71% at 12.6%; 26% at 22.7% = 40% of profit; ARR $3.15bn.
+**Numbers to say:** $89.7bn; $103.8bn; $41.9bn +31%; 71% at 12.6%; 26% at 22.7% = 40% of profit; GreenLake 52,000 customers (+18%).
 
 **Slide takeaway:** Result: Segment profit concentrated in networking — 26% of revenue at a 22.7% segment margin produces 40% of segment operating profit.
 
@@ -471,7 +471,7 @@ Thank you. I'm happy to take questions; the appendix has backup on industry, mac
 ---
 
 ## Slide 21 · Appendix divider
-**When to use:** Jump here when a question needs detail. Slides 22–30 are not timed.
+**When to use:** Jump here when a question needs detail. Slides 22–31 are not timed.
 
 ## Slide 22 · AI infrastructure spending is rising faster than HPE's server share
 **When to use:** Questions about market growth, market share or the profit pool.
@@ -548,6 +548,17 @@ Thank you. I'm happy to take questions; the appendix has backup on industry, mac
 - **Revenue elasticity** (our regressions on 33 quarters) is highest at server providers: Dell 0.84 and HPE 0.41, a significant gap; Digital Realty's isn't significant. **Share-price AI beta** (our daily four-factor model) is highest at neoclouds (0.81–0.85 at Nebius and CoreWeave); HPE's and Dell's aren't significant.
 - **Only the neocloud basket touches the efficient frontier,** and only at its riskiest end. The lowest-risk mix was landlords 45% plus servers 55%; neoclouds got no weight in 97% of 2,000 bootstraps.
 - **Best Sharpe:** servers 72% plus neoclouds 28%. This rests on 17 months of AI-boom returns, so trust the covariance more than the averages.
+
+## Slide 31 · GreenLake adds customers and retention, not yet networking-level profit
+**When to use:** Questions about GreenLake, recurring revenue or IT-operations software.
+
+**Slide takeaway:** Conclusion: Growing platform, not yet a second Juniper — 52,000 customers (+18%) and net retention near 110%, but a 5.8% FY25 segment margin against networking's 23.3%.
+
+**Revised question:** GreenLake's customer count grew 18% in a year. Could GreenLake become a second structural profit driver for HPE, as the Juniper acquisition has, and does it reduce the effort of running data-centre IT?
+- **Scale:** 52,000 customers (+18%) managing 6.7 million systems, with net retention near 110%. ARR was $3.15bn at FY25, but it also counts Financial Services lease income and, from Q3 FY25, software support and maintenance; HPE has not disclosed GreenLake's own size. The ~$3.5bn FY26 target implies 11% growth.
+- **Profitability:** Hybrid Cloud, the segment that held GreenLake until FY25, earned 4.4–5.8% operating margins in FY2023–FY2025 against 23–25% for networking. At its FY25 margin it would need about $27bn of revenue to earn networking's operating profit, so it is not yet a second Juniper.
+- **IT operations:** one console plus OpsRamp observability, Morpheus orchestration and the VM Essentials hypervisor target tool sprawl and VMware licence cost. Users rate it 4.3 out of 5 on 14 PeerSpot reviews, but there is no independent evidence yet of fewer incidents or faster resolution.
+- **For investors:** today it supports retention and hardware attach; it matters to valuation only if HPE discloses a software line with margins well above 5.8%.
 
 ---
 

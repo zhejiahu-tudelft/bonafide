@@ -11,7 +11,7 @@ Fundamental research on **Hewlett Packard Enterprise Company (NYSE: HPE, CIK 000
 | File | What it is |
 |---|---|
 | `final/HPE_Investment_Research.html` | Full research report; self-contained page, also published as a private Artifact. Section 12 holds the Practitioner Q&A |
-| `final/HPE_Investment_Presentation.pptx` | 25-minute investment pitch on `../Template.pptx`: 20 main slides in four parts (business model → structure vs cycle → what the price assumes → market, risks and decision), each with a labelled takeaway line under the title (Result / Decomposition / Conclusion, plus the quantitative evidence) and, under every chart, a note giving the x-axis variable and the observed behaviour, including two Q3 FY26 slides (scorecard vs guidance and consensus; margin-led beat and guidance ratchet); 10 appendix slides (industry, macro, moat, capital structure, technicals, catalysts, Practitioner Q&A). Body text in the template's embedded Helvetica Neue; deck charts re-rendered in Liberation Sans. Speaker notes in every slide's notes pane |
+| `final/HPE_Investment_Presentation.pptx` | 25-minute investment pitch on `../Template.pptx`: 20 main slides in four parts (business model → structure vs cycle → what the price assumes → market, risks and decision), each with a labelled takeaway line under the title (Result / Decomposition / Conclusion, plus the quantitative evidence) and, under every chart, a note giving the x-axis variable and the observed behaviour, including two Q3 FY26 slides (scorecard vs guidance and consensus; margin-led beat and guidance ratchet); 11 appendix slides (industry, macro, moat, capital structure, technicals, catalysts, Practitioner Q&A 1–3). Body text in the template's embedded Helvetica Neue; deck charts re-rendered in Liberation Sans. Speaker notes in every slide's notes pane |
 | `final/HPE_Pitch_Speaker_Notes.md` | Speaker script for one presenter: timing plan (24:10), per-slide script, numbers to say, reasoning pattern and transition; appendix guidance; 13 prepared Q&A answers; pattern toolkit |
 
 The report, deck and Excel workbooks were generated from the analysis outputs by builder scripts. Those scripts and the QC script were removed from `/code` after delivery, at the user's request, so `/code` holds only data analysis. Nothing is lost:
@@ -48,6 +48,7 @@ The report, deck and Excel workbooks were generated from the analysis outputs by
   - earnings days moved 6.7% on average vs 2.0% on the other days since March 2024 (permutation test, p < 0.001);
   - one-year correlation with Dell 0.66 vs the S&P 500 0.47: gap 0.19, 95% bootstrap interval 0.09–0.28 (over three years the gap is not significant).
 - **Revenue elasticity to hyperscaler capex** (`code/business_model_analysis.py`, lags 0–4 summed): HPE 0.41 (p = 0.02), Dell 0.84 (p < 0.001), gap significant (p = 0.004); HPE with a Juniper dummy 0.09 (p = 0.45).
+- **GreenLake is not yet a second Juniper** (`code/greenlake_analysis.py`, Practitioner Q&A 3): 52,000 customers (+18%) and net retention near 110%, but Hybrid Cloud earned 4.4–5.8% operating margins in FY2023–FY2025 against 23–25% for Networking; at 5.8% it would need about $27bn of revenue to match Networking's FY2025 operating profit. ARR compounded 34% a year to Q4 FY24, stepped up $0.9bn with Juniper, and the ~$3.5bn FY26 target implies 11%.
 
 ## Repository map
 
@@ -85,6 +86,7 @@ HPE/
 | `valuation.py` | WACC, three-scenario DCF, sensitivities, reverse DCF, comps, M&A, football field |
 | `security_exposure_analysis.py` | Practitioner Q&A 1: CISA Known Exploited Vulnerabilities entries for Juniper vs other network and security vendors |
 | `earnings_analysis.py` | Latest earnings: quarterly scorecard Q2 FY25–Q3 FY26, beats vs guidance and consensus, Q3 operating-profit bridge (volume vs margin), FY26 guidance ladder; every keyed figure verified against its PDF |
+| `greenlake_analysis.py` | Practitioner Q&A 3: ARR from 17 earnings releases, GreenLake customers, systems and retention verified against source pages, Server / Hybrid Cloud / Networking margins FY2023–FY2025 and the scale needed to match Networking's profit |
 | `business_model_analysis.py` | Practitioner Q&A 2: landlords (DLR, KEEL) vs neoclouds (IREN, CRWV, NBIS) vs server providers (HPE, DELL) — financial profile, stylised phase-shift model, AI elasticity regressions, efficient frontier with bootstrap |
 
 Rerun the analysis from cached data:
@@ -142,7 +144,7 @@ Sections can be selected individually: `--sec --form4 --xbrl --prices --estimate
   - quarterly series are aligned to the calendar quarter each fiscal quarter mostly covers;
   - FY2016 quarterly XBRL revenue is excluded because it straddles the spin-off restatements;
   - regressions use Newey-West errors with t-distribution p-values and report joint tests of summed lags plus robustness variants; samples are short (29–34 quarters), so coefficients are indicative.
-- **Our experiments are numbered:** ten experiments are numbered in report order and carry the same number in the deck. Each is introduced by an `Experiment n` note stating hypothesis, method and data, so readers can tell our own tests from sourced findings; the report appendix holds the index.
+- **Our experiments are numbered:** eleven experiments are numbered in report order and carry the same number in the deck. Each is introduced by an `Experiment n` note stating hypothesis, method and data, so readers can tell our own tests from sourced findings; the report appendix holds the index.
 - **Every chart is annotated:** each figure states what the x-axis variable is, its unit and what movement along it means, followed by a description of the observed behaviour and, where the analysis supports one, its mechanism.
 - **Evidence labels** in the report: Reported / Calculated / Estimate / Assumption / Interpretation.
 

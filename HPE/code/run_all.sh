@@ -28,4 +28,5 @@ echo "== 11. Valuation";                $PY valuation.py
 echo "== 12. Practitioner Q&A 1";       $PY security_exposure_analysis.py
 echo "== 13. Practitioner Q&A 2";       $PY business_model_analysis.py
 echo "== 14. Latest earnings";          $PY earnings_analysis.py
+echo "== 15. Practitioner Q&A 3";       $PY greenlake_analysis.py
 echo "done: outputs in data/processed_data"
