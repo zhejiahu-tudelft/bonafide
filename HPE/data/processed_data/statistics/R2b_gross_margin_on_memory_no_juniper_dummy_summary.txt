@@ -3,8 +3,8 @@
 Dep. Variable:     hpe_gm_yoy_change_pp   R-squared:                       0.044
 Model:                              OLS   Adj. R-squared:                 -0.062
 Method:                   Least Squares   F-statistic:                    0.5230
-Date:                  Tue, 15 Sep 2026   Prob (F-statistic):              0.670
-Time:                          22:47:32   Log-Likelihood:                -84.491
+Date:                  Thu, 17 Sep 2026   Prob (F-statistic):              0.670
+Time:                          23:55:22   Log-Likelihood:                -84.491
 No. Observations:                    31   AIC:                             177.0
 Df Residuals:                        27   BIC:                             182.7
 Df Model:                             3                                         

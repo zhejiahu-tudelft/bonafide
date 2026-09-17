@@ -1,0 +1,2 @@
+# per-run pipeline logs from code/run_experiments.sh (the latest summary is kept)
+data/processed_data/experiments/run_*/

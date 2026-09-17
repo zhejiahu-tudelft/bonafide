@@ -88,6 +88,8 @@ HPE/
 | `earnings_analysis.py` | Latest earnings: quarterly scorecard Q2 FY25–Q3 FY26, beats vs guidance and consensus, Q3 operating-profit bridge (volume vs margin), FY26 guidance ladder; every keyed figure verified against its PDF |
 | `greenlake_analysis.py` | Practitioner Q&A 3: ARR from 17 earnings releases, GreenLake customers, systems and retention verified against source pages, Server / Hybrid Cloud / Networking margins FY2023–FY2025 and the scale needed to match Networking's profit |
 | `business_model_analysis.py` | Practitioner Q&A 2: landlords (DLR, KEEL) vs neoclouds (IREN, CRWV, NBIS) vs server providers (HPE, DELL) — financial profile, stylised phase-shift model, AI elasticity regressions, efficient frontier with bootstrap |
+| `run_experiments.sh` | Annotated pipeline: runs every experiment and the valuation in order and prints purpose, variables, data sources, method, results, significance verdict and valuation link for each, then a summary |
+| `experiment_report.py` | Registry behind `run_experiments.sh`: the static metadata and predefined thresholds per experiment; every statistic it prints is read from `data/processed_data`, never hardcoded |
 
 Rerun the analysis from cached data:
 
@@ -96,6 +98,29 @@ uv venv .venv && uv pip install --python .venv/bin/python -r code/requirements.t
 bash code/run_all.sh                 # analysis only, no network
 FETCH=1 bash code/run_all.sh         # refresh raw data first (set SEC_USER_AGENT="Name email@domain")
 ```
+
+## Run the experiment and valuation pipeline
+
+`run_all.sh` reproduces the outputs; `run_experiments.sh` explains them. It runs the same analyses in report order and prints, for every experiment, what it tests and its hypotheses, the dependent, independent and control variables with the configuration, the data sources, the specification, the results, whether the main result clears its predefined significance threshold, and what it changes in the valuation. It ends with a summary of which stages completed and which results were significant.
+
+```bash
+bash code/run_experiments.sh                 # full pipeline, ~50 seconds, no network
+bash code/run_experiments.sh --cached        # narrate existing outputs without re-running (seconds)
+bash code/run_experiments.sh --only 1,5,V    # a subset: ids 1-11, V valuation, E latest-quarter evaluation
+bash code/run_experiments.sh --from 8        # from experiment 8 onwards
+bash code/run_experiments.sh --fail-fast     # stop at the first failing stage instead of continuing
+bash code/run_experiments.sh --verbose       # also show each analysis script's own output
+```
+
+**Requirements:** the venv at `.venv` from `code/requirements.txt`, the cached data in `data/` and `report/` (use `FETCH=1 bash code/run_all.sh` once to populate it), and a terminal at least 98 columns wide. No network access. `PY=/path/to/python bash code/run_experiments.sh` overrides the interpreter.
+
+**Stages:** prerequisites (the nine shared processing scripts), Experiments 1-6 (`statistical_analysis.py`), 7 (`security_exposure_analysis.py`), 8-10 (`business_model_analysis.py`), 11 (`greenlake_analysis.py`), the valuation (`valuation.py`) and the latest-quarter evaluation (`earnings_analysis.py`). Each script runs at most once per invocation and every experiment it covers is reported separately.
+
+**Thresholds:** alpha = 0.05 unless the experiment states another rule — Experiment 2 also requires robustness to dropping the Juniper dummy, Experiment 3 uses the 95% forecast interval, Experiments 5 and 10 use bootstrap intervals. Experiments 7, 8 and 11, the valuation and the evaluation are counts, deterministic models or estimates: they print their predefined decision rule and are reported as `NOT APPLICABLE` rather than as "not significant".
+
+**Failures:** a failing stage prints the last lines of its script's output, marks the experiments it covers unavailable and continues (`--fail-fast` stops instead); the script exits 1 if any stage failed, 2 on a missing venv or missing cached data, 0 otherwise.
+
+**Outputs:** the terminal transcript, per-script logs and a machine-readable `experiment_summary.json` under `data/processed_data/experiments/run_<timestamp>/`, with the latest summary copied to `data/processed_data/experiments/experiment_summary.json`.
 
 ## Reusing for another ticker
 
@@ -144,7 +169,7 @@ Sections can be selected individually: `--sec --form4 --xbrl --prices --estimate
   - quarterly series are aligned to the calendar quarter each fiscal quarter mostly covers;
   - FY2016 quarterly XBRL revenue is excluded because it straddles the spin-off restatements;
   - regressions use Newey-West errors with t-distribution p-values and report joint tests of summed lags plus robustness variants; samples are short (29–34 quarters), so coefficients are indicative.
-- **Our experiments are numbered:** eleven experiments are numbered in report order and carry the same number in the deck. Each is introduced by an `Experiment n` note stating hypothesis, method and data, so readers can tell our own tests from sourced findings; the report appendix holds the index.
+- **Our experiments are numbered:** eleven experiments are numbered in report order and carry the same number in the deck. Each is introduced by an `Experiment n` note stating hypothesis, method and data, so readers can tell our own tests from sourced findings; the report appendix holds the index, and `bash code/run_experiments.sh` runs them in that order and prints each one's variables, method, results and significance verdict in the terminal.
 - **Every chart is annotated:** each figure states what the x-axis variable is, its unit and what movement along it means, followed by a description of the observed behaviour and, where the analysis supports one, its mechanism.
 - **Evidence labels** in the report: Reported / Calculated / Estimate / Assumption / Interpretation.
 

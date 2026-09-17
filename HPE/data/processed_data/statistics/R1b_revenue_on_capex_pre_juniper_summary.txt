@@ -3,8 +3,8 @@
 Dep. Variable:        hpe_revenue_yoy   R-squared:                       0.267
 Model:                            OLS   Adj. R-squared:                  0.179
 Method:                 Least Squares   F-statistic:                     3.372
-Date:                Tue, 15 Sep 2026   Prob (F-statistic):             0.0342
-Time:                        22:47:32   Log-Likelihood:                 37.047
+Date:                Thu, 17 Sep 2026   Prob (F-statistic):             0.0342
+Time:                        23:55:22   Log-Likelihood:                 37.047
 No. Observations:                  29   AIC:                            -66.09
 Df Residuals:                      25   BIC:                            -60.62
 Df Model:                           3                                         

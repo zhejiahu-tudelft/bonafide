@@ -1,0 +1,131 @@
+{
+  "stages": [
+    {
+      "id": "1",
+      "title": "Revenue-capex regression",
+      "script": "statistical_analysis.py",
+      "run": "cached",
+      "seconds": 0.0,
+      "verdict": "SIGNIFICANT",
+      "headline": "joint p = 0.0290"
+    },
+    {
+      "id": "2",
+      "title": "Gross margin-memory regression",
+      "script": "statistical_analysis.py",
+      "run": "cached",
+      "seconds": 0.0,
+      "verdict": "MIXED",
+      "headline": "p 0.0136 / no dummy p 0.5992"
+    },
+    {
+      "id": "3",
+      "title": "Pre-Juniper revenue baseline",
+      "script": "statistical_analysis.py",
+      "run": "cached",
+      "seconds": 0.0,
+      "verdict": "SIGNIFICANT",
+      "headline": "5/5 outside the 95% band"
+    },
+    {
+      "id": "4",
+      "title": "Return diagnostics",
+      "script": "statistical_analysis.py",
+      "run": "cached",
+      "seconds": 0.0,
+      "verdict": "SIGNIFICANT",
+      "headline": "ARCH-LM p = < 0.0001"
+    },
+    {
+      "id": "5",
+      "title": "Correlation-gap bootstrap",
+      "script": "statistical_analysis.py",
+      "run": "cached",
+      "seconds": 0.0,
+      "verdict": "SIGNIFICANT",
+      "headline": "1Y gap +0.188, p = 0.0008"
+    },
+    {
+      "id": "6",
+      "title": "Earnings-day permutation test",
+      "script": "statistical_analysis.py",
+      "run": "cached",
+      "seconds": 0.0,
+      "verdict": "SIGNIFICANT",
+      "headline": "permutation p = < 0.0001"
+    },
+    {
+      "id": "7",
+      "title": "Exploited-vulnerability counts",
+      "script": "security_exposure_analysis.py",
+      "run": "cached",
+      "seconds": 0.0,
+      "verdict": "NOT APPLICABLE",
+      "headline": "8 entries, rank 8/13"
+    },
+    {
+      "id": "8",
+      "title": "Stylised 100 MW unit economics",
+      "script": "business_model_analysis.py",
+      "run": "cached",
+      "seconds": 0.0,
+      "verdict": "NOT APPLICABLE",
+      "headline": "payback server Q6 vs landlord Q46"
+    },
+    {
+      "id": "9",
+      "title": "AI elasticity: revenue and price",
+      "script": "business_model_analysis.py",
+      "run": "cached",
+      "seconds": 0.0,
+      "verdict": "SIGNIFICANT",
+      "headline": "Dell-HPE gap p = 0.0038"
+    },
+    {
+      "id": "10",
+      "title": "Portfolio construction",
+      "script": "business_model_analysis.py",
+      "run": "cached",
+      "seconds": 0.0,
+      "verdict": "SIGNIFICANT",
+      "headline": "neoclouds zero in 96.8% of draws"
+    },
+    {
+      "id": "11",
+      "title": "GreenLake scale and profitability",
+      "script": "greenlake_analysis.py",
+      "run": "cached",
+      "seconds": 0.0,
+      "verdict": "NOT APPLICABLE",
+      "headline": "margin gap 17.5pp (5.8% vs 23.3%)"
+    },
+    {
+      "id": "V",
+      "title": "Valuation pipeline",
+      "script": "valuation.py",
+      "run": "cached",
+      "seconds": 0.0,
+      "verdict": "NOT APPLICABLE",
+      "headline": "base $38.80 vs price $62.09"
+    },
+    {
+      "id": "E",
+      "title": "Latest-quarter evaluation",
+      "script": "earnings_analysis.py",
+      "run": "cached",
+      "seconds": 0.0,
+      "verdict": "NOT APPLICABLE",
+      "headline": "EPS $1.11 vs guide high $0.93"
+    }
+  ],
+  "completed": 13,
+  "total": 13,
+  "counts": {
+    "SIGNIFICANT": 7,
+    "NOT SIGNIFICANT": 0,
+    "MIXED": 1,
+    "NOT APPLICABLE": 5,
+    "UNAVAILABLE": 0
+  },
+  "log": "data/processed_data/experiments/run_20260917_215636/pipeline.log"
+}
