@@ -1,0 +1,52 @@
+ticker,fit,specification,variable,n,r2_on_other_predictors,vif,note
+MTRN,initial,core,revenue_growth,84,0.13922655526780836,1.1617458764787119,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+MTRN,initial,core,operating_margin,84,0.1590718826329588,1.189162283134277,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+MTRN,initial,core,earnings_yield,84,0.20051380720520073,1.2508033397102905,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+MTRN,initial,core,market_return,84,0.3098435148894433,1.4489467556619557,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+MTRN,initial,core,industry_relative,84,0.13468225129548184,1.155644850110976,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+MTRN,initial,core,driver_return,84,0.2524544440103378,1.3377111160484632,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+MTRN,final,core,revenue_growth,127,0.10981553751635764,1.1233626761019495,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+MTRN,final,core,operating_margin,127,0.18596236917806064,1.228444438115586,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+MTRN,final,core,earnings_yield,127,0.22553137857993089,1.2912078970564302,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+MTRN,final,core,market_return,127,0.22179456561330413,1.285007731651348,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+MTRN,final,core,industry_relative,127,0.15047434807571414,1.1771274919537393,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+MTRN,final,core,driver_return,127,0.15457004682499342,1.182830104663913,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+ENTG,initial,core,revenue_growth,84,0.73646459829603,3.7945566080844895,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+ENTG,initial,core,operating_margin,84,0.6350786803240787,2.7403167370108115,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+ENTG,initial,core,earnings_yield,84,0.5606262202931689,2.2759664918267144,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+ENTG,initial,core,market_return,84,0.12467362206826582,1.142431012261793,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+ENTG,initial,core,industry_relative,84,0.17525555516807567,1.2124967997860128,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+ENTG,initial,core,driver_return,84,0.070507511528478,1.0758559239617118,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+ENTG,final,core,revenue_growth,127,0.06170010406101811,1.0657573387016879,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+ENTG,final,core,operating_margin,127,0.0761215645773764,1.0823934856132398,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+ENTG,final,core,earnings_yield,127,0.034911343562701536,1.0361742346983742,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+ENTG,final,core,market_return,127,0.14879725448076764,1.1748082407675995,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+ENTG,final,core,industry_relative,127,0.17277498872131392,1.2088609342870889,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+ENTG,final,core,driver_return,127,0.009461599041220792,1.0095519760082623,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+CRS,initial,core,revenue_growth,84,0.24192256841360382,1.3191264616694138,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+CRS,initial,core,operating_margin,84,0.8770152787676254,8.13109132564964,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+CRS,initial,core,earnings_yield,84,0.8862966744700979,8.794817524813872,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+CRS,initial,core,market_return,84,0.033903123733696194,1.0350928820562202,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+CRS,initial,core,industry_relative,84,0.12383675416950235,1.1413398185313286,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+CRS,initial,core,driver_return,84,0.10622024156063692,1.1188438656813051,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+CRS,initial,core,operating_margin missing,84,0.46947866804626215,1.8849383422855488,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+CRS,final,core,revenue_growth,127,0.12983265502153496,1.149204237289263,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+CRS,final,core,operating_margin,127,0.6622182442993634,2.9604914508356774,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+CRS,final,core,earnings_yield,127,0.6903197152257176,3.2291367877321377,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+CRS,final,core,market_return,127,0.03027652467619213,1.031221812657554,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+CRS,final,core,industry_relative,127,0.08646955681041468,1.0946542695484858,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+CRS,final,core,driver_return,127,0.06240085705733389,1.066553875957574,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+CRS,final,core,revenue_growth missing,127,0.025387040126055083,1.0260483301282375,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+CRS,final,core,operating_margin missing,127,0.271600754120628,1.372873469676281,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+ATI,initial,core,revenue_growth,84,0.23923094592267713,1.3144593548338024,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+ATI,initial,core,operating_margin,84,0.9120600220334002,11.371392432913808,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+ATI,initial,core,earnings_yield,84,0.9180935494839901,12.209050614451114,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+ATI,initial,core,market_return,84,0.049735724903055,1.0523388347920173,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+ATI,initial,core,industry_relative,84,0.1478460934003092,1.1734969378832663,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+ATI,initial,core,driver_return,84,0.10342942401434385,1.1153611626174966,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+ATI,final,core,revenue_growth,127,0.23817829624199593,1.3126430962350928,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+ATI,final,core,operating_margin,127,0.9072527519296378,10.781991065021744,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+ATI,final,core,earnings_yield,127,0.9125692730398888,11.437626504652453,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+ATI,final,core,market_return,127,0.01632766483104564,1.0165986825564646,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+ATI,final,core,industry_relative,127,0.09691254880594447,1.1073124741992677,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.
+ATI,final,core,driver_return,127,0.07621446034596258,1.0825023309787956,Training-window VIF for the compact unpenalised design; regularised models are not ranked by it.

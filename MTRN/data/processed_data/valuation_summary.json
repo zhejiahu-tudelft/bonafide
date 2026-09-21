@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-18",
+  "price": 251.53,
+  "basic_shares": 20.834,
+  "dcf_diluted_shares": 21.15,
+  "market_cap": 5240.37602,
+  "ev_standard": 5676.02102,
+  "ev_including_retirement": 5699.17602,
+  "net_claims_dcf": 458.8,
+  "pe_ttm_gaap": 58.63170163170163,
+  "pe_2026_guidance_mid": 35.932857142857145,
+  "ps": 2.497448410421429,
+  "pb": 5.2674136542874574,
+  "ev_revenue": 2.705067273763614,
+  "ev_va_sales": 5.217621652130429,
+  "ev_ebitda": 28.360252922953936,
+  "ev_operating_ebitda": 28.622104997756026,
+  "ev_adjusted_ebitda": 23.92926231028668,
+  "fcf_yield": 0.006190204648711448,
+  "dividend_yield": 0.0023058879656502203,
+  "claims": {
+    "debt_principal": 442.332,
+    "finance_leases": 13.3,
+    "retirement": 23.155,
+    "cash": 19.987
+  },
+  "reverse_dcf_constant_va_growth": 0.32509802681124034
+}

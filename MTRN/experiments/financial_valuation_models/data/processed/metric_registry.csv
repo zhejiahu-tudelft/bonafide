@@ -1,0 +1,11 @@
+metric,formula,preferred_direction,interpretation
+RMSE,sqrt(mean((actual-forecast)^2)),lower,Target units; emphasizes large errors.
+MAE,mean(abs(actual-forecast)),lower,Target units; checks typical absolute errors.
+R2_OOS,1 - sum(error_model^2)/sum(error_realtime_baseline^2),higher,Negative means worse than the specified origin-available benchmark.
+Direction,mean(sign(actual)==sign(forecast)),higher relative to directional baselines,Exact zero is a separate sign; magnitudes are ignored.
+Forecast correlation,"Pearson correlation(forecast,actual)","higher, jointly with calibration/loss",Undefined for a constant series; high correlation alone does not ensure small errors.
+QLIKE,mean(actual_variance/predicted_variance - log(actual_variance/predicted_variance) - 1),lower,Positive variance forecasts required; main variance ranking score.
+Volatility RMSE,sqrt(mean((sqrt(actual_variance)-sqrt(predicted_variance))^2)),lower,Daily-volatility units; distinct from variance RMSE.
+AIC/BIC,-2 log-likelihood + 2k / -2 log-likelihood + k log(n),lower on compatible training likelihoods,"Recorded for dynamic/volatility fits, not the OOS selection score."
+Loss reduction,mean(loss_reduced_model - loss_expanded_model),positive favors expanded,Paired same-origin MSE for returns; paired QLIKE for variance.
+Rolling stability,"12-month RMSE, MAE, bias and OOS R2",interpret jointly,Overlapping windows are not independent evidence.

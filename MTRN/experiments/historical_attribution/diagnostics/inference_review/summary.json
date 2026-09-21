@@ -1,0 +1,26 @@
+{
+  "status": "Post-protocol exploratory diagnostics; no new significance claims",
+  "cutoff": "2026-09-18",
+  "n_events": 92,
+  "calendar_quarters": 23,
+  "event_within_company_covariate_correlation": 0.9810856427175545,
+  "two_covariate_vif_after_company_intercepts": 26.68733215997004,
+  "event_partial_r2_over_company_intercepts": 0.042091536889302006,
+  "ATI_within_earnings_variation_share": 0.9701955760750147,
+  "ATI_within_margin_variation_share": 0.919685066719168,
+  "largest_event_leverage": 0.5876868630239263,
+  "established_monthly_observations": 127,
+  "factor_sample_end": "2026-07-31",
+  "checks": "Reproduced original pooled coefficients; shares sum to one; leverage trace equals parameter count; dates respect cutoff; all baseline and protected hashes preserved",
+  "baseline_files_preserved": 171,
+  "input_and_protected_sha256": {
+    "MTRN/experiments/historical_attribution/data/processed/event_cars.csv": "69689c10e85154c4b42ceb6dc7d961308146247822dfdf029e339fb93043bc8c",
+    "MTRN/experiments/historical_attribution/data/processed/event_regression.csv": "f9e76f8c3117acc1f9bd8004e2804738cdbce15734ca73e5fb0764901917768a",
+    "MTRN/experiments/historical_attribution/data/processed/models.csv": "352ab8f2fb9d98aa20fb48adc32176b50c75b6e80be5b6573e3d437ebb49e50d",
+    "MTRN/experiments/historical_attribution/data/processed/paired_comparisons.csv": "e5fa9e2e91dde6439633d5583f7f7abc795cb65e27a2bd6e183fe023a459e9a9",
+    "MTRN/experiments/historical_attribution/data/processed/financial_snapshots.csv": "4ab3bfe56157546b307dc6add63c7d3a41d3ca92b8dd0a83a7aac45805424af7",
+    "MTRN/experiments/historical_attribution/data/processed/primary_alpha_family.csv": "d1672b0bf2ec933c44df09d2c48d91c2f38deac863b303ea19ffb47586a9bae2",
+    "MTRN/experiments/historical_attribution/final/Historical_Attribution.html": "3239d86f87e1ad4e967e1e78692c7a19c7d1c4e92d79cc97df61e59b779e588c",
+    "MTRN/experiments/prompt.md": "9d8177d3fecb733ad732acae73a5fc71ef85cbcd2468c6542934f7842339a922"
+  }
+}

@@ -1,0 +1,16 @@
+ticker,date,return_value,corporate_action,verification
+MTRN,2026-08-05,0.3081460756872234,No study-period split recorded,Earnings release and original study secondary price-source review; genuine jump retained
+MTRN,2023-02-16,0.2412275145319811,No study-period split recorded,Retained; second-provider price verification incomplete
+MTRN,2022-11-02,-0.215133927408218,No study-period split recorded,Retained; second-provider price verification incomplete
+ENTG,2025-04-09,0.2472982390409306,No study-period split recorded,Retained; second-provider price verification incomplete
+ENTG,2022-11-02,-0.2096814632137429,No study-period split recorded,Retained; second-provider price verification incomplete
+ENTG,2023-05-11,0.1961337451796392,No study-period split recorded,Retained; second-provider price verification incomplete
+CRS,2020-03-18,-0.2412340557847806,No study-period split recorded,Retained; second-provider price verification incomplete
+CRS,2025-10-23,0.2266432929695501,No study-period split recorded,Retained; second-provider price verification incomplete
+CRS,2020-03-13,0.1805310726814626,No study-period split recorded,Retained; second-provider price verification incomplete
+ATI,2017-01-24,0.3113596813885768,No study-period split recorded,Retained; second-provider price verification incomplete
+ATI,2020-03-25,0.3053571548693037,No study-period split recorded,Retained; second-provider price verification incomplete
+ATI,2020-03-16,-0.1989999771118163,No study-period split recorded,Retained; second-provider price verification incomplete
+ELMT,2026-09-14,0.32798019090686,No study-period split recorded,Close reconciled to archived Stock Analysis table
+ELMT,2026-06-01,0.2401833176769716,No study-period split recorded,Retained; second-provider price verification incomplete
+ELMT,2026-08-21,0.1931613256519169,No study-period split recorded,Close reconciled to archived Stock Analysis table

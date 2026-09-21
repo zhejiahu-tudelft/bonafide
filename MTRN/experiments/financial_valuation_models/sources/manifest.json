@@ -1,0 +1,92 @@
+[
+  {
+    "series": "^VIX",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/%5EVIX",
+    "status": "archived",
+    "error": "",
+    "path": "data/raw/VIX_daily.csv",
+    "sha256": "004fa8a58d9be2d533d32d69564688ac6237782a5b57e09fc5d1352d481e20eb",
+    "retrieved": "2026-09-20T21:21:28.422688+00:00"
+  },
+  {
+    "series": "HG=F",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/HG%3DF",
+    "status": "archived",
+    "error": "",
+    "path": "data/raw/HG_F_daily.csv",
+    "sha256": "6838ee3cd88492f2240ced1512e4aacc78abd3bf0020569d095b457fad8ef184",
+    "retrieved": "2026-09-20T21:21:29.060938+00:00"
+  },
+  {
+    "series": "GC=F",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/GC%3DF",
+    "status": "archived",
+    "error": "",
+    "path": "data/raw/GC_F_daily.csv",
+    "sha256": "221aad0ed8221bac9886cb93296e90fa87782e8e06459075b225c6f428052a17",
+    "retrieved": "2026-09-20T21:21:29.675781+00:00"
+  },
+  {
+    "series": "SI=F",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/SI%3DF",
+    "status": "archived",
+    "error": "",
+    "path": "data/raw/SI_F_daily.csv",
+    "sha256": "ac38ff32204abfbb617379d53f41a320f3623830b12ab80a4ac5b3226c081237",
+    "retrieved": "2026-09-20T21:21:30.309818+00:00"
+  },
+  {
+    "series": "CL=F",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/CL%3DF",
+    "status": "archived",
+    "error": "",
+    "path": "data/raw/CL_F_daily.csv",
+    "sha256": "b78d7cbf7faaa345337ccfab1b18088b9f98a1248fc290ed312b29f6e25d1d20",
+    "retrieved": "2026-09-20T21:21:30.934964+00:00"
+  },
+  {
+    "series": "NG=F",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/NG%3DF",
+    "status": "archived",
+    "error": "",
+    "path": "data/raw/NG_F_daily.csv",
+    "sha256": "52159d0296142f3e6890872ebef14c8b5e308b7f6a5b53422772a60a7c71a7b3",
+    "retrieved": "2026-09-20T21:21:31.958205+00:00"
+  },
+  {
+    "series": "EURUSD=X",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/EURUSD%3DX",
+    "status": "archived",
+    "error": "",
+    "path": "data/raw/EURUSD_X_daily.csv",
+    "sha256": "502abd2c75ad77d57c28891e69d5d563ed5390b46065b78ce56da4f5d355b547",
+    "retrieved": "2026-09-20T21:21:32.938834+00:00"
+  },
+  {
+    "series": "DX-Y.NYB",
+    "url": "https://query2.finance.yahoo.com/v8/finance/chart/DX-Y.NYB",
+    "status": "archived",
+    "error": "",
+    "path": "data/raw/DX-Y.NYB_daily.csv",
+    "sha256": "b316193b768f57efe62ad56018b6bc6e83b6fb2399ec330d10479a3edf9d095a",
+    "retrieved": "2026-09-20T21:21:33.603321+00:00"
+  },
+  {
+    "series": "BAMLH0A0HYM2",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2&cosd=2013-01-01&coed=2026-09-18",
+    "status": "archived",
+    "error": "",
+    "path": "data/raw/BAMLH0A0HYM2.csv",
+    "sha256": "4ea75cf4394e50a5f127d89ead67b1a5356b968ec5529b01c0b5a561df7b0dad",
+    "retrieved": "2026-09-20T21:21:34.177573+00:00"
+  },
+  {
+    "series": "DFII10",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFII10&cosd=2013-01-01&coed=2026-09-18",
+    "status": "archived",
+    "error": "",
+    "path": "data/raw/DFII10.csv",
+    "sha256": "989a6d5690f6effdd9156f18d7e5254d30e2ed28a7cf497690a4b956378bc937",
+    "retrieved": "2026-09-20T21:21:35.209769+00:00"
+  }
+]

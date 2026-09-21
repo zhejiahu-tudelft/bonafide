@@ -1,0 +1,13 @@
+panel,ticker,model,reason
+recent,MTRN,M2,Insufficient sample: 67 < 70
+recent,ENTG,M2,Insufficient sample: 67 < 70
+recent,CRS,M2,Insufficient sample: 67 < 70
+recent,ATI,M2,Insufficient sample: 67 < 70
+recent,MTRN,M2_nominal,Insufficient sample: 67 < 80
+recent,ENTG,M2_nominal,Insufficient sample: 67 < 80
+recent,CRS,M2_nominal,Insufficient sample: 67 < 80
+recent,ATI,M2_nominal,Insufficient sample: 67 < 80
+recent,MTRN,FF5_MOM,Insufficient sample: 67 < 70
+recent,ENTG,FF5_MOM,Insufficient sample: 67 < 70
+recent,CRS,FF5_MOM,Insufficient sample: 67 < 70
+recent,ATI,FF5_MOM,Insufficient sample: 67 < 70

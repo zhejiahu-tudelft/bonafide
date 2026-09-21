@@ -1,0 +1,26 @@
+filename,url,status,fallback
+FY2025_release.htm,https://www.sec.gov/Archives/edgar/data/1104657/000110465726000006/q42025pressrelease.htm,archived,
+Q1_2026_release.htm,https://www.sec.gov/Archives/edgar/data/1104657/000110465726000026/q12026pressrelease.htm,archived,
+Q2_2026_release.htm,https://www.sec.gov/Archives/edgar/data/1104657/000110465726000042/q22026pressrelease.htm,archived,
+Q4_2025_presentation.pdf,https://s203.q4cdn.com/782025361/files/doc_financials/2025/q4/Materion-Corporation-Q4-2025-Earnings-Presentation.pdf,archived,
+Q1_2026_presentation.pdf,https://s203.q4cdn.com/782025361/files/doc_financials/2026/q1/Materion-Corporation-Q1-2026-Earnings-Presentation.pdf,archived,
+Q2_2026_presentation.pdf,https://s203.q4cdn.com/782025361/files/doc_financials/2026/q2/Materion-Corporation-Q2-2026-Earnings-Presentation.pdf,archived,
+May_2026_investor.pdf,https://s203.q4cdn.com/782025361/files/doc_presentation/2026/Materion-Corporation-May-2026.pdf,archived,
+USGS_mcs2026.pdf,https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf,archived,
+SIA_July_2026.html,https://www.semiconductors.org/global-semiconductor-sales-increase-6-4-month-to-month-in-july/,archived,
+Materion_CFS_agreement.html,https://www.materion.com/en/about-materion/news/performance-alloys/materion-supply-agreement-with-commonwealth-fusion,archived,
+FOMC_20260916.html,https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm,archived,
+CPI_202608.html,https://www.bls.gov/news.release/archives/cpi_09112026.htm,direct download unavailable,BLS_Treasury_web_extract.txt
+DGS10.csv,https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10,direct download unavailable,TNX_daily.csv yield proxy used
+ENTG_Q2_2026.htm,https://www.sec.gov/Archives/edgar/data/1101302/000110130226000146/entgq22026ex991.htm,archived,
+ENTG_Q2_2026_presentation.htm,https://www.sec.gov/Archives/edgar/data/1101302/000110130226000146/entgq22026ex992.htm,archived,
+CRS_FY2026.htm,https://www.sec.gov/Archives/edgar/data/17843/000001784326000030/a4thqtr2026resultspressrel.htm,archived,
+VNP_Q2_2026.html,https://www.5nplus.com/en/news/5n-plus-inc-reports-second-quarter-2026-financial/,archived,
+stockanalysis_history.html,https://stockanalysis.com/stocks/mtrn/history/,archived,
+chartexchange_options.html,https://chartexchange.com/symbol/nyse-mtrn/optionchain/,archived,
+marketbeat_options.html,https://www.marketbeat.com/stocks/NYSE/MTRN/options/,archived,
+cboe_methodology.html,https://www.cboe.com/delayed_quotes/mtrn/quote_table,archived,
+CPI_202608.pdf,https://www.dol.gov/newsroom/economicdata/cpi_09112026.pdf,direct download unavailable,BLS_Treasury_web_extract.txt
+Treasury_yields_2026.html,https://home.treasury.gov/resource-center-data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026,direct download unavailable,BLS_Treasury_web_extract.txt
+Investor_2023.htm,https://www.sec.gov/Archives/edgar/data/1104657/000110465723000047/materioncorporationinves.htm,archived,
+Q4_2023_presentation.pdf,https://s203.q4cdn.com/782025361/files/doc_presentations/2024/02/1/Materion-Corporation-Q4-2023-Earnings-Presentation.pdf,archived,

@@ -1,0 +1,184 @@
+{
+  "Q26": {
+    "title": "Materion 10-Q \u2014 2026-07-03",
+    "publisher": "Materion / SEC",
+    "date": "2026-08-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465726000044/mtrn-20260703.htm",
+    "local": "report/company_filings/10-Q_2026-08-05_mtrn-20260703.htm"
+  },
+  "PROXY": {
+    "title": "Materion DEF 14A \u2014 2026-05-07",
+    "publisher": "Materion / SEC",
+    "date": "2026-03-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465726000022/mtrn-20260326.htm",
+    "local": "report/company_filings/DEF14A_2026-03-26_mtrn-20260326.htm"
+  },
+  "K25": {
+    "title": "Materion 10-K \u2014 2025-12-31",
+    "publisher": "Materion / SEC",
+    "date": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465726000011/mtrn-20251231.htm",
+    "local": "report/company_filings/10-K_2026-02-12_mtrn-20251231.htm"
+  },
+  "K24": {
+    "title": "Materion 10-K \u2014 2024-12-31",
+    "publisher": "Materion / SEC",
+    "date": "2025-02-19",
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465725000024/mtrn-20241231.htm",
+    "local": "report/company_filings/10-K_2025-02-19_mtrn-20241231.htm"
+  },
+  "K23": {
+    "title": "Materion 10-K \u2014 2023-12-31",
+    "publisher": "Materion / SEC",
+    "date": "2024-02-15",
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465724000019/mtrn-20231231.htm",
+    "local": "report/company_filings/10-K_2024-02-15_mtrn-20231231.htm"
+  },
+  "K22": {
+    "title": "Materion 10-K \u2014 2022-12-31",
+    "publisher": "Materion / SEC",
+    "date": "2023-02-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465723000019/mtrn-20221231.htm",
+    "local": "report/company_filings/10-K_2023-02-16_mtrn-20221231.htm"
+  },
+  "K21": {
+    "title": "Materion 10-K \u2014 2021-12-31",
+    "publisher": "Materion / SEC",
+    "date": "2022-02-17",
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465722000021/mtrn-20211231.htm",
+    "local": "report/company_filings/10-K_2022-02-17_mtrn-20211231.htm"
+  },
+  "E25": {
+    "title": "FY2025 results",
+    "publisher": "Materion",
+    "date": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465726000006/q42025pressrelease.htm",
+    "local": "report/earnings_materials/FY2025_release.htm"
+  },
+  "E26": {
+    "title": "Q2 2026 results",
+    "publisher": "Materion",
+    "date": "2026-08-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465726000042/q22026pressrelease.htm",
+    "local": "report/earnings_materials/Q2_2026_release.htm"
+  },
+  "DECK26": {
+    "title": "Q2 2026 investor presentation",
+    "publisher": "Materion",
+    "date": "",
+    "url": "https://s203.q4cdn.com/782025361/files/doc_financials/2026/q2/Materion-Corporation-Q2-2026-Earnings-Presentation.pdf",
+    "local": "report/earnings_materials/Q2_2026_presentation.pdf"
+  },
+  "HISTDECK": {
+    "title": "2023 investor presentation, recast financial history",
+    "publisher": "Materion",
+    "date": "2023",
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465723000047/materioncorporationinves.htm",
+    "local": "report/earnings_materials/Investor_2023.htm"
+  },
+  "DECK23": {
+    "title": "Q4 2023 earnings presentation",
+    "publisher": "Materion",
+    "date": "2024-02-15",
+    "url": "https://s203.q4cdn.com/782025361/files/doc_presentations/2024/02/1/Materion-Corporation-Q4-2023-Earnings-Presentation.pdf",
+    "local": "report/earnings_materials/Q4_2023_presentation.pdf"
+  },
+  "USGS": {
+    "title": "Mineral Commodity Summaries 2026",
+    "publisher": "USGS",
+    "date": "2026-02-06",
+    "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026.pdf",
+    "local": "report/industry_research/USGS_mcs2026.pdf"
+  },
+  "SIA": {
+    "title": "July 2026 global semiconductor sales",
+    "publisher": "SIA",
+    "date": "2026-09-04",
+    "url": "https://www.semiconductors.org/global-semiconductor-sales-increase-6-4-month-to-month-in-july/",
+    "local": "report/industry_research/SIA_July_2026.html"
+  },
+  "CFS": {
+    "title": "Beryllium fluoride supply agreement with Commonwealth Fusion Systems",
+    "publisher": "Materion",
+    "date": "",
+    "url": "https://www.materion.com/en/about-materion/news/performance-alloys/materion-supply-agreement-with-commonwealth-fusion",
+    "local": "report/industry_research/Materion_CFS_agreement.html"
+  },
+  "FED": {
+    "title": "September 2026 FOMC statement",
+    "publisher": "Federal Reserve",
+    "date": "2026-09-16",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+    "local": "report/macro_research/FOMC_20260916.html"
+  },
+  "ENTG": {
+    "title": "Entegris Q2 2026 results",
+    "publisher": "Entegris",
+    "date": "2026-08-04",
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130226000146/entgq22026ex991.htm",
+    "local": "report/competitor_research/ENTG_Q2_2026.htm"
+  },
+  "CRS": {
+    "title": "Carpenter FY2026 results",
+    "publisher": "Carpenter Technology",
+    "date": "2026-07-30",
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000030/a4thqtr2026resultspressrel.htm",
+    "local": "report/competitor_research/CRS_FY2026.htm"
+  },
+  "VNP": {
+    "title": "5N Plus Q2 2026 results",
+    "publisher": "5N Plus",
+    "date": "2026-08-03",
+    "url": "https://www.5nplus.com/en/news/5n-plus-inc-reports-second-quarter-2026-financial/",
+    "local": "report/competitor_research/VNP_Q2_2026.html"
+  },
+  "PRICE": {
+    "title": "MTRN price cross-check",
+    "publisher": "Stock Analysis",
+    "date": "2026-09-18",
+    "url": "https://stockanalysis.com/stocks/mtrn/history/",
+    "local": "report/other_evidence/stockanalysis_history.html"
+  },
+  "CBOE": {
+    "title": "Cboe delayed MTRN option chain",
+    "publisher": "Cboe",
+    "date": "2026-09-19 01:47:18",
+    "url": "https://cdn.cboe.com/api/global/delayed_quotes/options/MTRN.json",
+    "local": "data/options_data/cboe_raw.json"
+  },
+  "CPI": {
+    "title": "August 2026 CPI",
+    "publisher": "BLS",
+    "date": "2026-09-11",
+    "url": "https://www.bls.gov/news.release/archives/cpi_09112026.htm",
+    "local": "report/macro_research/BLS_Treasury_web_extract.txt"
+  },
+  "RATE": {
+    "title": "Daily Treasury yields, September 18, 2026",
+    "publisher": "US Treasury",
+    "date": "2026-09-18",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value=2026",
+    "local": "report/macro_research/BLS_Treasury_web_extract.txt"
+  },
+  "E22EVENT": {
+    "title": "Q3 2022 results",
+    "publisher": "Materion",
+    "date": "2022-11-02",
+    "url": "https://investor.materion.com/news/news-details/2022/Materion-Corporation-Reports-Record-Third-Quarter-Results-and-Updates-Full-Year-2022-Outlook/default.aspx",
+    "local": "report/other_evidence/event_and_historical_research_web.txt"
+  },
+  "E23EVENT": {
+    "title": "FY2022 earnings 8-K",
+    "publisher": "Materion / SEC",
+    "date": "2023-02-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465723000015/mtrn-20230216.htm",
+    "local": "report/other_evidence/event_and_historical_research_web.txt"
+  },
+  "EVENT25": {
+    "title": "Q3 2025 earnings event calendar",
+    "publisher": "Materion",
+    "date": "2025-10-29",
+    "url": "https://investor.materion.com/events-and-presentations/event-details/2025/Materion-Corporation-Third-Quarter-2025/default.aspx",
+    "local": "report/other_evidence/event_and_historical_research_web.txt"
+  }
+}

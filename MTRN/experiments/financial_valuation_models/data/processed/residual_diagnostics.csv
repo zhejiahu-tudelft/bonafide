@@ -1,0 +1,17 @@
+ticker,fit,origin,n,lag,lb_stat,diagnostic_pvalue,note
+MTRN,initial,2022-12-31,84,3,3.5048989610976284,0.32012729760130165,Unadjusted descriptive residual serial-dependence diagnostic; no model selected using final-fit p-values.
+MTRN,initial,2022-12-31,84,6,4.70436643471322,0.5822499619073787,Unadjusted descriptive residual serial-dependence diagnostic; no model selected using final-fit p-values.
+MTRN,final,2026-07-31,127,3,5.579509675903104,0.1339596481979303,Unadjusted descriptive residual serial-dependence diagnostic; no model selected using final-fit p-values.
+MTRN,final,2026-07-31,127,6,7.069580472375759,0.3144603749976541,Unadjusted descriptive residual serial-dependence diagnostic; no model selected using final-fit p-values.
+ENTG,initial,2022-12-31,84,3,1.505155498206026,0.6810809562363516,Unadjusted descriptive residual serial-dependence diagnostic; no model selected using final-fit p-values.
+ENTG,initial,2022-12-31,84,6,4.248641197682257,0.6430684836001297,Unadjusted descriptive residual serial-dependence diagnostic; no model selected using final-fit p-values.
+ENTG,final,2026-07-31,127,3,0.6017124887367216,0.8960402264874665,Unadjusted descriptive residual serial-dependence diagnostic; no model selected using final-fit p-values.
+ENTG,final,2026-07-31,127,6,2.1185202302625337,0.9084818066238622,Unadjusted descriptive residual serial-dependence diagnostic; no model selected using final-fit p-values.
+CRS,initial,2022-12-31,84,3,0.904738345723776,0.8242841891216744,Unadjusted descriptive residual serial-dependence diagnostic; no model selected using final-fit p-values.
+CRS,initial,2022-12-31,84,6,5.459452267690019,0.4863709343332847,Unadjusted descriptive residual serial-dependence diagnostic; no model selected using final-fit p-values.
+CRS,final,2026-07-31,127,3,3.0667204167441615,0.3814521613815719,Unadjusted descriptive residual serial-dependence diagnostic; no model selected using final-fit p-values.
+CRS,final,2026-07-31,127,6,4.546944184011343,0.6030854899583804,Unadjusted descriptive residual serial-dependence diagnostic; no model selected using final-fit p-values.
+ATI,initial,2022-12-31,84,3,6.473323275254271,0.09072052591544529,Unadjusted descriptive residual serial-dependence diagnostic; no model selected using final-fit p-values.
+ATI,initial,2022-12-31,84,6,7.210126599794329,0.30185135692438597,Unadjusted descriptive residual serial-dependence diagnostic; no model selected using final-fit p-values.
+ATI,final,2026-07-31,127,3,10.0082586620688,0.018496064098982926,Unadjusted descriptive residual serial-dependence diagnostic; no model selected using final-fit p-values.
+ATI,final,2026-07-31,127,6,11.00747178144179,0.08814578223410663,Unadjusted descriptive residual serial-dependence diagnostic; no model selected using final-fit p-values.

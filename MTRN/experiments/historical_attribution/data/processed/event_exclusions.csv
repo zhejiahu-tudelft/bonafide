@@ -1,0 +1,28 @@
+ticker,accession,filed,report_date,acceptance,filing_path,release_path,reason
+MTRN,0001104657-26-000002,2026-01-23,2026-01-23,2026-01-23T11:45:27.000Z,sources/earnings/MTRN_0001104657-26-000002.html,,No earnings-release exhibit; often duplicate presentation or other update
+MTRN,0001104657-24-000007,2024-01-19,2024-01-19,2024-01-19T11:47:41.000Z,sources/earnings/MTRN_0001104657-24-000007.html,,No earnings-release exhibit; often duplicate presentation or other update
+MTRN,0001104657-22-000059,2022-04-21,2022-04-21,2022-04-21T21:12:59.000Z,sources/earnings/MTRN_0001104657-22-000059.html,sources/earnings/MTRN_0001104657-22-000059_release.html,Not a quarterly results release
+CRS,0000017843-26-000028,2026-07-30,2026-07-30,2026-07-30T20:15:48.000Z,sources/earnings/CRS_0000017843-26-000028.html,,No earnings-release exhibit; often duplicate presentation or other update
+CRS,0000017843-26-000016,2026-04-29,2026-04-29,2026-04-29T20:14:58.000Z,sources/earnings/CRS_0000017843-26-000016.html,,No earnings-release exhibit; often duplicate presentation or other update
+CRS,0000017843-26-000005,2026-01-29,2026-01-29,2026-01-29T21:11:31.000Z,sources/earnings/CRS_0000017843-26-000005.html,,No earnings-release exhibit; often duplicate presentation or other update
+CRS,0000017843-25-000034,2025-10-23,2025-10-23,2025-10-23T21:15:06.000Z,sources/earnings/CRS_0000017843-25-000034.html,,No earnings-release exhibit; often duplicate presentation or other update
+CRS,0001193125-25-174452,2025-08-06,2025-07-31,2025-08-06T20:06:12.000Z,sources/earnings/CRS_0001193125-25-174452.html,sources/earnings/CRS_0001193125-25-174452_release.html,Not a quarterly results release
+CRS,0001193125-25-103787,2025-04-29,2025-04-24,2025-04-29T20:10:17.000Z,sources/earnings/CRS_0001193125-25-103787.html,sources/earnings/CRS_0001193125-25-103787_release.html,Not a quarterly results release
+CRS,0001193125-25-019378,2025-02-03,2025-01-30,2025-02-03T22:19:44.000Z,sources/earnings/CRS_0001193125-25-019378.html,sources/earnings/CRS_0001193125-25-019378_release.html,Not a quarterly results release
+CRS,0001193125-24-246616,2024-10-29,2024-10-24,2024-10-29T20:51:04.000Z,sources/earnings/CRS_0001193125-24-246616.html,sources/earnings/CRS_0001193125-24-246616_release.html,Not a quarterly results release
+CRS,0001193125-24-187545,2024-07-29,2024-07-25,2024-07-29T20:03:32.000Z,sources/earnings/CRS_0001193125-24-187545.html,sources/earnings/CRS_0001193125-24-187545_release.html,Not a quarterly results release
+CRS,0001193125-24-130676,2024-05-03,2024-05-01,2024-05-03T20:04:03.000Z,sources/earnings/CRS_0001193125-24-130676.html,sources/earnings/CRS_0001193125-24-130676_release.html,Not a quarterly results release
+CRS,0001193125-24-018118,2024-01-29,2024-01-25,2024-01-29T21:11:08.000Z,sources/earnings/CRS_0001193125-24-018118.html,sources/earnings/CRS_0001193125-24-018118_release.html,Not a quarterly results release
+CRS,0001193125-23-267221,2023-10-31,2023-10-26,2023-10-31T20:23:05.000Z,sources/earnings/CRS_0001193125-23-267221.html,sources/earnings/CRS_0001193125-23-267221_release.html,Not a quarterly results release
+CRS,0001193125-23-199107,2023-07-31,2023-07-27,2023-07-31T20:04:54.000Z,sources/earnings/CRS_0001193125-23-199107.html,sources/earnings/CRS_0001193125-23-199107_release.html,Not a quarterly results release
+CRS,0001193125-23-130466,2023-05-01,2023-04-27,2023-05-01T20:16:11.000Z,sources/earnings/CRS_0001193125-23-130466.html,sources/earnings/CRS_0001193125-23-130466_release.html,Not a quarterly results release
+CRS,0001193125-23-017580,2023-01-27,2023-01-26,2023-01-27T21:21:14.000Z,sources/earnings/CRS_0001193125-23-017580.html,sources/earnings/CRS_0001193125-23-017580_release.html,Not a quarterly results release
+CRS,0001193125-22-275047,2022-11-01,2022-10-27,2022-11-01T21:12:10.000Z,sources/earnings/CRS_0001193125-22-275047.html,sources/earnings/CRS_0001193125-22-275047_release.html,Not a quarterly results release
+CRS,0001193125-22-262260,2022-10-13,2022-10-13,2022-10-13T21:18:05.000Z,sources/earnings/CRS_0001193125-22-262260.html,sources/earnings/CRS_0001193125-22-262260_release.html,Not a quarterly results release
+CRS,0001193125-22-209829,2022-08-02,2022-07-28,2022-08-02T17:15:24.000Z,sources/earnings/CRS_0001193125-22-209829.html,sources/earnings/CRS_0001193125-22-209829_release.html,Not a quarterly results release
+CRS,0001193125-22-132928,2022-04-29,2022-04-28,2022-04-29T18:32:10.000Z,sources/earnings/CRS_0001193125-22-132928.html,sources/earnings/CRS_0001193125-22-132928_release.html,Not a quarterly results release
+CRS,0001193125-22-026962,2022-02-03,2022-02-02,2022-02-03T20:54:12.000Z,sources/earnings/CRS_0001193125-22-026962.html,sources/earnings/CRS_0001193125-22-026962_release.html,Not a quarterly results release
+CRS,0001193125-21-311250,2021-10-28,2021-10-28,2021-10-28T19:55:54.000Z,sources/earnings/CRS_0001193125-21-311250.html,sources/earnings/CRS_0001193125-21-311250_release.html,Not a quarterly results release
+CRS,0001193125-21-230653,2021-07-30,2021-07-30,2021-07-30T17:02:39.000Z,sources/earnings/CRS_0001193125-21-230653.html,sources/earnings/CRS_0001193125-21-230653_release.html,Not a quarterly results release
+CRS,0001193125-21-143444,2021-04-30,2021-04-29,2021-04-30T15:19:18.000Z,sources/earnings/CRS_0001193125-21-143444.html,sources/earnings/CRS_0001193125-21-143444_release.html,Not a quarterly results release
+CRS,0001193125-21-022699,2021-01-29,2021-01-28,2021-01-29T21:35:12.000Z,sources/earnings/CRS_0001193125-21-022699.html,sources/earnings/CRS_0001193125-21-022699_release.html,Not a quarterly results release

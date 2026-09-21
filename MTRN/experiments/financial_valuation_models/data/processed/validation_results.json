@@ -1,0 +1,220 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "Original study, protocol and frozen inputs preserved",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "No price observation beyond the cutoff",
+      "passed": true,
+      "detail": "2026-09-18 00:00:00"
+    },
+    {
+      "check": "No feature origin beyond the last complete month",
+      "passed": true,
+      "detail": "2026-08-31"
+    },
+    {
+      "check": "Every target month follows its origin by exactly one month",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No target extends past the last complete month",
+      "passed": true,
+      "detail": "2026-08-31"
+    },
+    {
+      "check": "Return and variance targets reproduce from raw adjusted closes",
+      "passed": true,
+      "detail": "1.4155343563970746e-15"
+    },
+    {
+      "check": "Every selected SEC fact was public at its assigned date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Every selected fact carries vintage metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Materion mine-inclusive free cash flow matches the preserved study",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Consolidated-equity fallback never used where noncontrolling interest is material",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Every consolidated-equity substitution records its measured tolerance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "First difference equals level minus its own one-month lag",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "A one-month lag is the previous level, not a change",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No exactly duplicated predictor columns inside the modelled set",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Block removal also removes derivatives, lags and interactions",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "No outcome column reaches any modelled feature set",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Enterprise-value proxy reconciles to its stated components",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Equipment free cash flow equals operating cash flow minus equipment capex",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No NaN or infinite value in the forecast ledger",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No duplicated forecast record",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No forecast target ends after the cutoff",
+      "passed": true,
+      "detail": "2026-08-31"
+    },
+    {
+      "check": "Every forecast origin precedes its target end",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All one-month return models share an identical number of origins",
+      "passed": true,
+      "detail": "[44]"
+    },
+    {
+      "check": "Primary out-of-sample gate met (at least 36 matured targets)",
+      "passed": true,
+      "detail": "44"
+    },
+    {
+      "check": "Every training label had matured by its fitting origin",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Initial training window meets the 84-month gate",
+      "passed": true,
+      "detail": "84"
+    },
+    {
+      "check": "Every RMSE and out-of-sample R\u00b2 recomputes from the saved ledger",
+      "passed": true,
+      "detail": "9.985502008591496e-17"
+    },
+    {
+      "check": "Out-of-sample R\u00b2 uses the real-time benchmark, not the test-sample mean",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Historical-mean benchmark scores exactly zero against itself",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Both sides of every ablation use identical sample sizes",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Frozen family holds four contrasts for each eligible issuer",
+      "passed": true,
+      "detail": "16"
+    },
+    {
+      "check": "Holm adjustment never reduces a raw p-value",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ARIMAX order is recorded for every origin and may vary",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Dynamic fits below ten observations per parameter are flagged, not hidden",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No variance forecast is nonpositive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Every manifest figure exists as PNG, SVG and source data",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Figure numbers are sequential with no gaps or duplicates",
+      "passed": true,
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]"
+    },
+    {
+      "check": "Every figure is referred to in the narrative",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All figures embed and all five issuers appear",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Every local link in the report resolves",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Report states the out-of-sample month count consistently",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No placeholder text remains in the report",
+      "passed": true,
+      "detail": "[]"
+    }
+  ],
+  "cutoff": "2026-09-18",
+  "seed": 20260918,
+  "out_of_sample_months": 44,
+  "figures": 18,
+  "generated": "offline rebuild via code/run_experiments.py"
+}

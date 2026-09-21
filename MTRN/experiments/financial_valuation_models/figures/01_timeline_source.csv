@@ -1,0 +1,5 @@
+period,start,end
+Initial fitting targets,2016-01-01,2022-12-31
+First inner validation block,2021-01-01,2021-12-31
+Second inner validation block,2022-01-01,2022-12-31
+One-month out-of-sample targets,2023-01-01,2026-08-31

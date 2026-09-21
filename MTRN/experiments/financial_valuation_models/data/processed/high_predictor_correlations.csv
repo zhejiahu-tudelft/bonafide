@@ -1,0 +1,301 @@
+ticker,fit,first,second,correlation
+MTRN,initial,eurusd_return,dollar_return,-0.9537762344954263
+MTRN,initial,revenue_growth,revenue_growth_lag1,0.9446331573971071
+MTRN,initial,loss_transition,eps_growth missing,1.0
+MTRN,initial,net_margin,roa,0.9600553665667187
+MTRN,initial,net_margin,roe,0.9816774816054712
+MTRN,initial,net_margin,payout,-0.9175092171910285
+MTRN,initial,net_margin,earnings_yield_relative,0.9249753261847096
+MTRN,initial,net_margin,earnings_yield_percentile,0.9059760320365068
+MTRN,initial,net_margin,pe_percentile,-0.905976032036507
+MTRN,initial,roa,roe,0.9563499399699269
+MTRN,initial,roa,payout,-0.9300762612507248
+MTRN,initial,fcf_equipment_assets,fcf_equipment_yield_relative,0.9359116516843768
+MTRN,initial,book_yield,sales_yield,0.9655819337720601
+MTRN,initial,book_yield,dividend_yield,0.9912352237347845
+MTRN,initial,sales_yield,dividend_yield,0.96491542963975
+MTRN,initial,earnings_yield_relative,earnings_yield_percentile,0.971366987439926
+MTRN,initial,earnings_yield_relative,pe_percentile,-0.9713669874399261
+MTRN,initial,earnings_yield_percentile,pe_percentile,-1.0
+MTRN,initial,momentum_3,relative_momentum,0.9110706749843213
+MTRN,initial,vol_252,idio_vol,0.968359279067491
+MTRN,initial,earnings_yield_relative missing,earnings_yield_percentile missing,1.0
+MTRN,initial,earnings_yield_relative missing,fcf_equipment_yield_relative missing,1.0
+MTRN,initial,earnings_yield_relative missing,pe_percentile missing,1.0
+MTRN,initial,earnings_yield_percentile missing,fcf_equipment_yield_relative missing,1.0
+MTRN,initial,earnings_yield_percentile missing,pe_percentile missing,1.0
+MTRN,initial,fcf_equipment_yield_relative missing,pe_percentile missing,1.0
+MTRN,final,yield_10y,yield_short,0.9112645546233538
+MTRN,final,yield_10y,real_yield,0.9572586648116166
+MTRN,final,yield_short,real_yield,0.9056342427184214
+MTRN,final,eurusd_return,dollar_return,-0.9628209684633255
+MTRN,final,revenue_growth,revenue_growth_lag1,0.9271907397354022
+MTRN,final,loss_transition,eps_growth missing,1.0
+MTRN,final,operating_margin,ebitda_margin,0.96070719522339
+MTRN,final,net_margin,roa,0.9377569258445078
+MTRN,final,net_margin,roe,0.9846317461478561
+MTRN,final,roa,roe,0.9551596713901696
+MTRN,final,fcf_equipment_assets,fcf_equipment_yield,0.9091587538610308
+MTRN,final,book_yield,sales_yield,0.9727801365103619
+MTRN,final,book_yield,dividend_yield,0.9851425746733823
+MTRN,final,sales_yield,dividend_yield,0.975423799760939
+MTRN,final,earnings_yield_relative,earnings_yield_percentile,0.9601103896878561
+MTRN,final,earnings_yield_relative,pe_percentile,-0.9601103896878562
+MTRN,final,earnings_yield_percentile,pe_percentile,-1.0
+MTRN,final,momentum_3,relative_momentum,0.9400068595649244
+MTRN,final,vol_252,idio_vol,0.9411528443056221
+MTRN,final,earnings_yield_diff,pe_pct_change,-0.9125448982050711
+MTRN,final,earnings_yield_relative missing,earnings_yield_percentile missing,1.0
+MTRN,final,earnings_yield_relative missing,fcf_equipment_yield_relative missing,1.0
+MTRN,final,earnings_yield_relative missing,pe_percentile missing,1.0
+MTRN,final,earnings_yield_percentile missing,fcf_equipment_yield_relative missing,1.0
+MTRN,final,earnings_yield_percentile missing,pe_percentile missing,1.0
+MTRN,final,fcf_equipment_yield_relative missing,pe_percentile missing,1.0
+ENTG,initial,eurusd_return,dollar_return,-0.9537762344954263
+ENTG,initial,revenue_growth,revenue_growth_lag1,0.9297478122066852
+ENTG,initial,loss_transition,eps_growth missing,1.0
+ENTG,initial,operating_margin,ebitda_margin,0.9901783345511985
+ENTG,initial,operating_margin,interest_coverage,0.9387152207274302
+ENTG,initial,net_margin,roa,0.9711058762569841
+ENTG,initial,net_margin,roe,0.9968419342768498
+ENTG,initial,ebitda_margin,interest_coverage,0.9195459235071622
+ENTG,initial,roa,roe,0.9736057886631325
+ENTG,initial,cfo_assets,fcf_equipment_assets,0.941201663703337
+ENTG,initial,debt_assets,debt_equity,0.9801812387242169
+ENTG,initial,current_ratio,quick_ratio,0.9779771690601561
+ENTG,initial,earnings_yield,earnings_yield_z,0.967828134089903
+ENTG,initial,book_yield,sales_yield,0.9895328571825023
+ENTG,initial,book_yield,log_dollar_volume,-0.9057327074626875
+ENTG,initial,sales_yield,log_dollar_volume,-0.9031940252412511
+ENTG,initial,fcf_equipment_yield,fcf_equipment_yield_relative,0.9333695753808559
+ENTG,initial,earnings_yield_relative,earnings_yield_percentile,0.9862313307444172
+ENTG,initial,earnings_yield_relative,pe_percentile,-0.9862313307444172
+ENTG,initial,earnings_yield_relative,earnings_yield_z,0.9013649119633013
+ENTG,initial,earnings_yield_percentile,pe_percentile,-0.9999999999999998
+ENTG,initial,vol_63,downside_deviation,0.9652112279659609
+ENTG,initial,earnings_yield_diff,pe_pct_change,-0.9555496654829454
+ENTG,initial,debt_assets missing,debt_equity missing,1.0
+ENTG,initial,earnings_yield_relative missing,earnings_yield_percentile missing,1.0
+ENTG,initial,earnings_yield_relative missing,fcf_equipment_yield_relative missing,1.0
+ENTG,initial,earnings_yield_relative missing,pe_percentile missing,1.0
+ENTG,initial,earnings_yield_percentile missing,fcf_equipment_yield_relative missing,1.0
+ENTG,initial,earnings_yield_percentile missing,pe_percentile missing,1.0
+ENTG,initial,fcf_equipment_yield_relative missing,pe_percentile missing,1.0
+ENTG,final,yield_10y,yield_short,0.9112645546233538
+ENTG,final,yield_10y,real_yield,0.9572586648116166
+ENTG,final,yield_short,real_yield,0.9056342427184214
+ENTG,final,eurusd_return,dollar_return,-0.9628209684633255
+ENTG,final,revenue_growth,revenue_growth_lag1,0.9213377587793024
+ENTG,final,loss_transition,eps_growth missing,0.9999999999999992
+ENTG,final,net_margin,roa,0.949601396542359
+ENTG,final,net_margin,roe,0.9746178820772943
+ENTG,final,roa,roe,0.9843682433463293
+ENTG,final,cfo_assets,fcf_equipment_assets,0.9742656470041133
+ENTG,final,debt_assets,debt_equity,0.9695749560860745
+ENTG,final,current_ratio,quick_ratio,0.97752521343241
+ENTG,final,earnings_yield,earnings_yield_lag1,0.9201719049689978
+ENTG,final,earnings_yield_relative,earnings_yield_percentile,0.9495247494253004
+ENTG,final,earnings_yield_relative,earnings_yield_z,0.9197473264047946
+ENTG,final,earnings_yield_percentile,pe_percentile,-0.9802339003910631
+ENTG,final,momentum_3,relative_momentum,0.9290198917620984
+ENTG,final,vol_63,downside_deviation,0.941246039471838
+ENTG,final,debt_assets missing,debt_equity missing,1.0
+ENTG,final,payout missing,dividend_yield missing,0.9326958104902753
+ENTG,final,earnings_yield_relative missing,earnings_yield_percentile missing,1.0
+ENTG,final,earnings_yield_relative missing,fcf_equipment_yield_relative missing,1.0
+ENTG,final,earnings_yield_percentile missing,fcf_equipment_yield_relative missing,1.0
+CRS,initial,eurusd_return,dollar_return,-0.9537762344954263
+CRS,initial,revenue_growth,revenue_growth_lag1,0.9473811990579079
+CRS,initial,gross_margin,operating_margin,0.9617447447795965
+CRS,initial,gross_margin,ebitda_margin,0.9519172508498619
+CRS,initial,operating_margin,ebitda_margin,0.9987612588381408
+CRS,initial,operating_margin,interest_coverage,0.9381760311803149
+CRS,initial,ebitda_margin,interest_coverage,0.933854574938902
+CRS,initial,ebitda_margin,quick_ratio,-0.9017663344416749
+CRS,initial,roa,roe,0.9995638414200588
+CRS,initial,roa,interest_coverage,0.9649772875868705
+CRS,initial,roa,earnings_yield,0.9546889214331659
+CRS,initial,roa,earnings_yield_relative,0.943663774277086
+CRS,initial,roa,peer_earnings_yield_gap,0.9448415800531491
+CRS,initial,roa,earnings_yield_lag1,0.9130750386075206
+CRS,initial,roe,interest_coverage,0.9629072762068298
+CRS,initial,roe,earnings_yield,0.9521964814582122
+CRS,initial,roe,earnings_yield_relative,0.9406227680526552
+CRS,initial,roe,peer_earnings_yield_gap,0.9437148441287807
+CRS,initial,roe,earnings_yield_lag1,0.9110101972276704
+CRS,initial,cfo_assets,fcf_equipment_assets,0.9039205065221332
+CRS,initial,fcf_equipment_assets,fcf_equipment_yield,0.9527481233839439
+CRS,initial,debt_assets,debt_equity,0.9640595438011912
+CRS,initial,interest_coverage,earnings_yield,0.9550579380419525
+CRS,initial,interest_coverage,earnings_yield_relative,0.9510542168609344
+CRS,initial,interest_coverage,peer_earnings_yield_gap,0.9498314816873494
+CRS,initial,interest_coverage,earnings_yield_lag1,0.9076620435763936
+CRS,initial,earnings_yield,earnings_yield_relative,0.9935355761129607
+CRS,initial,earnings_yield,peer_earnings_yield_gap,0.9940713403275827
+CRS,initial,earnings_yield,earnings_yield_lag1,0.943675032022607
+CRS,initial,book_yield,sales_yield,0.946971490411148
+CRS,initial,book_yield,dividend_yield,0.9658735760176567
+CRS,initial,sales_yield,dividend_yield,0.9026148531606418
+CRS,initial,earnings_yield_relative,peer_earnings_yield_gap,0.9883905630511294
+CRS,initial,earnings_yield_relative,earnings_yield_lag1,0.9301294711495739
+CRS,initial,earnings_yield_percentile,earnings_yield_z,0.9064491374263064
+CRS,initial,peer_earnings_yield_gap,earnings_yield_lag1,0.9398236320018735
+CRS,initial,momentum_3,relative_momentum,0.961129166751966
+CRS,initial,momentum_3,industry_momentum_relative,0.9363702092074716
+CRS,initial,relative_momentum,industry_momentum_relative,0.9562089045314066
+CRS,initial,vol_63,downside_deviation,0.9235061273310358
+CRS,initial,vol_252,idio_vol,0.933284732720518
+CRS,initial,gross_margin missing,operating_margin missing,1.0
+CRS,initial,gross_margin missing,ebitda_margin missing,1.0
+CRS,initial,gross_margin missing,sales_yield missing,0.9004503377814962
+CRS,initial,gross_margin missing,operating_margin_diff missing,0.9540735874430287
+CRS,initial,operating_margin missing,ebitda_margin missing,1.0
+CRS,initial,operating_margin missing,sales_yield missing,0.9004503377814962
+CRS,initial,operating_margin missing,operating_margin_diff missing,0.9540735874430287
+CRS,initial,ebitda_margin missing,sales_yield missing,0.9004503377814962
+CRS,initial,ebitda_margin missing,operating_margin_diff missing,0.9540735874430287
+CRS,initial,fcf_equipment_assets missing,fcf_equipment_yield missing,1.0
+CRS,initial,earnings_yield_relative missing,earnings_yield_percentile missing,1.0
+CRS,final,yield_10y,yield_short,0.9112645546233538
+CRS,final,yield_10y,real_yield,0.9572586648116166
+CRS,final,yield_short,real_yield,0.9056342427184214
+CRS,final,eurusd_return,dollar_return,-0.9628209684633255
+CRS,final,revenue_growth,revenue_growth_lag1,0.9420247363486695
+CRS,final,gross_margin,operating_margin,0.9664979174177415
+CRS,final,gross_margin,ebitda_margin,0.963170710812222
+CRS,final,gross_margin,roa,0.9453503375097057
+CRS,final,gross_margin,roe,0.9404822834788497
+CRS,final,gross_margin,interest_coverage,0.916600730846164
+CRS,final,operating_margin,ebitda_margin,0.9985081662642018
+CRS,final,operating_margin,roa,0.9474802570118
+CRS,final,operating_margin,roe,0.9519765947513137
+CRS,final,operating_margin,interest_coverage,0.9510566340804988
+CRS,final,ebitda_margin,roa,0.9500200088895062
+CRS,final,ebitda_margin,roe,0.9539416582241159
+CRS,final,ebitda_margin,interest_coverage,0.9549111610210606
+CRS,final,roa,roe,0.9966312931241141
+CRS,final,roa,interest_coverage,0.9486931098153937
+CRS,final,roe,interest_coverage,0.9555747130724032
+CRS,final,cfo_assets,fcf_equipment_assets,0.9568629541225139
+CRS,final,debt_assets,debt_equity,0.9521932714667869
+CRS,final,earnings_yield,earnings_yield_relative,0.972929324369131
+CRS,final,earnings_yield,peer_earnings_yield_gap,0.9910014179021291
+CRS,final,earnings_yield,earnings_yield_lag1,0.9440239115561381
+CRS,final,book_yield,sales_yield,0.9647796081274675
+CRS,final,book_yield,dividend_yield,0.9832778048784607
+CRS,final,sales_yield,dividend_yield,0.9483782556989331
+CRS,final,earnings_yield_relative,peer_earnings_yield_gap,0.9613394698664569
+CRS,final,earnings_yield_relative,earnings_yield_lag1,0.912705296488659
+CRS,final,peer_earnings_yield_gap,earnings_yield_lag1,0.937544880653542
+CRS,final,momentum_3,relative_momentum,0.964959140599292
+CRS,final,momentum_3,industry_momentum_relative,0.9342466882835899
+CRS,final,relative_momentum,industry_momentum_relative,0.9503226953577082
+CRS,final,vol_252,idio_vol,0.9159532054687591
+CRS,final,gross_margin missing,operating_margin missing,1.0
+CRS,final,gross_margin missing,ebitda_margin missing,1.0
+CRS,final,gross_margin missing,sales_yield missing,0.9050349822456142
+CRS,final,gross_margin missing,operating_margin_diff missing,0.9565825459541274
+CRS,final,operating_margin missing,ebitda_margin missing,1.0
+CRS,final,operating_margin missing,sales_yield missing,0.9050349822456142
+CRS,final,operating_margin missing,operating_margin_diff missing,0.9565825459541274
+CRS,final,ebitda_margin missing,sales_yield missing,0.9050349822456142
+CRS,final,ebitda_margin missing,operating_margin_diff missing,0.9565825459541274
+CRS,final,fcf_equipment_assets missing,fcf_equipment_yield missing,1.0
+CRS,final,debt_assets missing,debt_equity missing,1.0
+CRS,final,earnings_yield_relative missing,earnings_yield_percentile missing,1.0
+ATI,initial,eurusd_return,dollar_return,-0.9537762344954263
+ATI,initial,revenue_growth,revenue_growth_lag1,0.9435661074058704
+ATI,initial,operating_margin,net_margin,0.9878009000515675
+ATI,initial,operating_margin,ebitda_margin,0.9996535213080746
+ATI,initial,operating_margin,roa,0.9832395347520791
+ATI,initial,operating_margin,roe,0.96761535655304
+ATI,initial,operating_margin,earnings_yield,0.9500276794957966
+ATI,initial,operating_margin,peer_earnings_yield_gap,0.9493929746824901
+ATI,initial,net_margin,ebitda_margin,0.9897013696411163
+ATI,initial,net_margin,roa,0.9979322568729755
+ATI,initial,net_margin,roe,0.9910685667699191
+ATI,initial,net_margin,earnings_yield,0.9386530785766124
+ATI,initial,net_margin,earnings_yield_relative,0.9145891970939104
+ATI,initial,net_margin,peer_earnings_yield_gap,0.9345183372415427
+ATI,initial,ebitda_margin,roa,0.9847770079079429
+ATI,initial,ebitda_margin,roe,0.9711769618826652
+ATI,initial,ebitda_margin,earnings_yield,0.9468407747181226
+ATI,initial,ebitda_margin,peer_earnings_yield_gap,0.9460912416236466
+ATI,initial,roa,roe,0.9893975507556522
+ATI,initial,roa,earnings_yield,0.9458690431906163
+ATI,initial,roa,earnings_yield_relative,0.9236548150874078
+ATI,initial,roa,peer_earnings_yield_gap,0.9405810150346228
+ATI,initial,roe,earnings_yield,0.9089952385668918
+ATI,initial,roe,earnings_yield_relative,0.9160597557181172
+ATI,initial,roe,peer_earnings_yield_gap,0.90310892665503
+ATI,initial,cfo_assets,fcf_equipment_assets,0.9853267807906583
+ATI,initial,cfo_assets,fcf_equipment_yield,0.9162860153276327
+ATI,initial,fcf_equipment_assets,fcf_equipment_yield,0.9301707167380823
+ATI,initial,earnings_yield,earnings_yield_relative,0.9125627848036301
+ATI,initial,earnings_yield,peer_earnings_yield_gap,0.9990987384351164
+ATI,initial,earnings_yield,earnings_yield_lag1,0.9087543820865728
+ATI,initial,book_yield,sales_yield,0.9590235933875112
+ATI,initial,earnings_yield_relative,earnings_yield_percentile,0.930053939024415
+ATI,initial,earnings_yield_relative,peer_earnings_yield_gap,0.9051305485582842
+ATI,initial,peer_earnings_yield_gap,earnings_yield_lag1,0.9075768638425304
+ATI,initial,momentum_3,relative_momentum,0.9740469169984154
+ATI,initial,momentum_3,industry_momentum_relative,0.9528463738769769
+ATI,initial,relative_momentum,industry_momentum_relative,0.9761178300838125
+ATI,initial,vol_63,downside_deviation,0.910369629126287
+ATI,initial,vol_252,idio_vol,0.9798150312152112
+ATI,initial,operating_margin_diff,roe_diff,0.9519110897923917
+ATI,initial,gross_margin missing,earnings_yield_relative missing,0.912870929175277
+ATI,initial,gross_margin missing,earnings_yield_percentile missing,0.912870929175277
+ATI,initial,gross_margin missing,fcf_equipment_yield_relative missing,0.912870929175277
+ATI,initial,earnings_yield_relative missing,earnings_yield_percentile missing,1.0
+ATI,initial,earnings_yield_relative missing,fcf_equipment_yield_relative missing,1.0
+ATI,initial,earnings_yield_percentile missing,fcf_equipment_yield_relative missing,1.0
+ATI,final,yield_10y,yield_short,0.9112645546233538
+ATI,final,yield_10y,real_yield,0.9572586648116166
+ATI,final,yield_short,real_yield,0.9056342427184214
+ATI,final,eurusd_return,dollar_return,-0.9628209684633255
+ATI,final,revenue_growth,revenue_growth_lag1,0.9469699865231794
+ATI,final,operating_margin,net_margin,0.989854913035151
+ATI,final,operating_margin,ebitda_margin,0.9996574095123063
+ATI,final,operating_margin,roa,0.9841052441383671
+ATI,final,operating_margin,roe,0.9720889126811759
+ATI,final,operating_margin,earnings_yield,0.9489579008089357
+ATI,final,operating_margin,peer_earnings_yield_gap,0.9519326544180424
+ATI,final,operating_margin,earnings_yield_lag1,0.9039285113508106
+ATI,final,net_margin,ebitda_margin,0.9912430342370601
+ATI,final,net_margin,roa,0.9938999877854278
+ATI,final,net_margin,roe,0.9900813003024398
+ATI,final,net_margin,earnings_yield,0.9436906576508283
+ATI,final,net_margin,peer_earnings_yield_gap,0.9432700208601361
+ATI,final,ebitda_margin,roa,0.9839945682885239
+ATI,final,ebitda_margin,roe,0.9734471538487289
+ATI,final,ebitda_margin,earnings_yield,0.9475110803023283
+ATI,final,ebitda_margin,peer_earnings_yield_gap,0.9501171989376535
+ATI,final,ebitda_margin,earnings_yield_lag1,0.9001376478754818
+ATI,final,roa,roe,0.9904126280830048
+ATI,final,roa,earnings_yield,0.9352411436845238
+ATI,final,roa,peer_earnings_yield_gap,0.9360363799683397
+ATI,final,roe,earnings_yield,0.9150463764859416
+ATI,final,roe,peer_earnings_yield_gap,0.9149300681785532
+ATI,final,cfo_assets,fcf_equipment_assets,0.980761187068671
+ATI,final,earnings_yield,earnings_yield_relative,0.9040644771099029
+ATI,final,earnings_yield,peer_earnings_yield_gap,0.9987453336842602
+ATI,final,earnings_yield,earnings_yield_lag1,0.9245301092551816
+ATI,final,book_yield,sales_yield,0.964599755731693
+ATI,final,dividend_yield,earnings_yield_relative missing,0.9041682972395215
+ATI,final,dividend_yield,earnings_yield_percentile missing,0.9041682972395215
+ATI,final,dividend_yield,fcf_equipment_yield_relative missing,0.9041682972395215
+ATI,final,earnings_yield_relative,earnings_yield_percentile,0.9101891329420481
+ATI,final,peer_earnings_yield_gap,earnings_yield_lag1,0.9239666490904476
+ATI,final,momentum_3,relative_momentum,0.971425892493852
+ATI,final,momentum_3,industry_momentum_relative,0.9477170541771753
+ATI,final,relative_momentum,industry_momentum_relative,0.9685192210383242
+ATI,final,vol_63,downside_deviation,0.9045194467821488
+ATI,final,vol_252,idio_vol,0.9770290096320315
+ATI,final,operating_margin_diff,roe_diff,0.906364760369009
+ATI,final,gross_margin missing,earnings_yield_relative missing,0.9177341798389779
+ATI,final,gross_margin missing,earnings_yield_percentile missing,0.9177341798389779
+ATI,final,gross_margin missing,fcf_equipment_yield_relative missing,0.9177341798389779
+ATI,final,earnings_yield_relative missing,earnings_yield_percentile missing,1.0
+ATI,final,earnings_yield_relative missing,fcf_equipment_yield_relative missing,1.0
+ATI,final,earnings_yield_percentile missing,fcf_equipment_yield_relative missing,1.0

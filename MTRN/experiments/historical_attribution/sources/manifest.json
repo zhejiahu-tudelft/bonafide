@@ -1,0 +1,2576 @@
+[
+  {
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_Factors_CSV.zip",
+    "path": "data/raw/F-F_Research_Data_Factors_CSV.zip",
+    "kind": "factor returns",
+    "published": "",
+    "retrieved": "2026-09-20T10:32:09.236121+00:00",
+    "status": "unavailable",
+    "sha256": ""
+  },
+  {
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_Factors_daily_CSV.zip",
+    "path": "data/raw/F-F_Research_Data_Factors_daily_CSV.zip",
+    "kind": "factor returns",
+    "published": "",
+    "retrieved": "2026-09-20T10:32:09.236884+00:00",
+    "status": "unavailable",
+    "sha256": ""
+  },
+  {
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Momentum_Factor_CSV.zip",
+    "path": "data/raw/F-F_Momentum_Factor_CSV.zip",
+    "kind": "factor returns",
+    "published": "",
+    "retrieved": "2026-09-20T10:32:09.237425+00:00",
+    "status": "unavailable",
+    "sha256": ""
+  },
+  {
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_5_Factors_2x3_CSV.zip",
+    "path": "data/raw/F-F_Research_Data_5_Factors_2x3_CSV.zip",
+    "kind": "factor returns",
+    "published": "",
+    "retrieved": "2026-09-20T10:32:09.238925+00:00",
+    "status": "unavailable",
+    "sha256": ""
+  },
+  {
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html",
+    "path": "sources/french_methodology.html",
+    "kind": "factor methodology",
+    "published": "",
+    "retrieved": "2026-09-20T10:32:09.239797+00:00",
+    "status": "unavailable",
+    "sha256": ""
+  },
+  {
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFII10&cosd=2014-01-01&coed=2026-09-18",
+    "path": "data/raw/DFII10.csv",
+    "kind": "macro series",
+    "published": "",
+    "retrieved": "2026-09-20T10:32:09.240379+00:00",
+    "status": "unavailable",
+    "sha256": ""
+  },
+  {
+    "url": "https://fred.stlouisfed.org/data/DFII10.txt",
+    "path": "data/raw/DFII10.txt",
+    "kind": "macro series alternative",
+    "published": "",
+    "retrieved": "2026-09-20T10:32:09.241250+00:00",
+    "status": "unavailable",
+    "sha256": ""
+  },
+  {
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2&cosd=2014-01-01&coed=2026-09-18",
+    "path": "data/raw/BAMLH0A0HYM2.csv",
+    "kind": "macro series",
+    "published": "",
+    "retrieved": "2026-09-20T10:32:09.242011+00:00",
+    "status": "unavailable",
+    "sha256": ""
+  },
+  {
+    "url": "https://fred.stlouisfed.org/data/BAMLH0A0HYM2.txt",
+    "path": "data/raw/BAMLH0A0HYM2.txt",
+    "kind": "macro series alternative",
+    "published": "",
+    "retrieved": "2026-09-20T10:32:09.242554+00:00",
+    "status": "unavailable",
+    "sha256": ""
+  },
+  {
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10&cosd=2014-01-01&coed=2026-09-18",
+    "path": "data/raw/DGS10.csv",
+    "kind": "macro series",
+    "published": "",
+    "retrieved": "2026-09-20T10:32:09.243062+00:00",
+    "status": "unavailable",
+    "sha256": ""
+  },
+  {
+    "url": "https://fred.stlouisfed.org/data/DGS10.txt",
+    "path": "data/raw/DGS10.txt",
+    "kind": "macro series alternative",
+    "published": "",
+    "retrieved": "2026-09-20T10:32:09.243561+00:00",
+    "status": "unavailable",
+    "sha256": ""
+  },
+  {
+    "url": "https://fred.stlouisfed.org/series/DFII10",
+    "path": "sources/DFII10_methodology.html",
+    "kind": "macro methodology",
+    "published": "",
+    "retrieved": "2026-09-20T10:32:09.244897+00:00",
+    "status": "unavailable",
+    "sha256": ""
+  },
+  {
+    "url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+    "path": "sources/BAMLH0A0HYM2_methodology.html",
+    "kind": "macro methodology",
+    "published": "",
+    "retrieved": "2026-09-20T10:32:09.245422+00:00",
+    "status": "unavailable",
+    "sha256": ""
+  },
+  {
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0002101698.json",
+    "path": "data/raw/companyfacts_ELMT.json",
+    "kind": "SEC company facts",
+    "published": "",
+    "retrieved": "2026-09-20T10:32:09.246250+00:00",
+    "status": "unavailable",
+    "sha256": ""
+  },
+  {
+    "url": "https://data.sec.gov/submissions/CIK0001104657.json",
+    "path": "data/raw/submissions_MTRN.json",
+    "kind": "SEC submissions",
+    "published": "",
+    "retrieved": "2026-09-20T10:32:09.246978+00:00",
+    "status": "unavailable",
+    "sha256": ""
+  },
+  {
+    "url": "https://data.sec.gov/submissions/CIK0001101302.json",
+    "path": "data/raw/submissions_ENTG.json",
+    "kind": "SEC submissions",
+    "published": "",
+    "retrieved": "2026-09-20T10:32:09.248251+00:00",
+    "status": "unavailable",
+    "sha256": ""
+  },
+  {
+    "url": "https://data.sec.gov/submissions/CIK0000017843.json",
+    "path": "data/raw/submissions_CRS.json",
+    "kind": "SEC submissions",
+    "published": "",
+    "retrieved": "2026-09-20T10:32:09.248730+00:00",
+    "status": "unavailable",
+    "sha256": ""
+  },
+  {
+    "url": "https://data.sec.gov/submissions/CIK0001018963.json",
+    "path": "data/raw/submissions_ATI.json",
+    "kind": "SEC submissions",
+    "published": "",
+    "retrieved": "2026-09-20T10:32:09.249415+00:00",
+    "status": "unavailable",
+    "sha256": ""
+  },
+  {
+    "url": "https://data.sec.gov/submissions/CIK0002101698.json",
+    "path": "data/raw/submissions_ELMT.json",
+    "kind": "SEC submissions",
+    "published": "",
+    "retrieved": "2026-09-20T10:32:09.250118+00:00",
+    "status": "unavailable",
+    "sha256": ""
+  },
+  {
+    "url": "https://investors.theelmetgroup.com/news-events/press-releases/detail/157/the-elmet-group-co-announces-closing-of-upsized-initial-public-offering-and-full-exercise-of-underwriters-option-to-purchase-additional-shares",
+    "path": "sources/ELMT_IPO.html",
+    "kind": "company/benchmark evidence",
+    "published": "",
+    "retrieved": "2026-09-20T10:32:09.250929+00:00",
+    "status": "unavailable",
+    "sha256": ""
+  },
+  {
+    "url": "https://investors.theelmetgroup.com/news-events/press-releases/detail/168/department-of-war-makes-landmark-450-million-committed-investment-in-the-elmet-group-to-secure-americas-tungsten-supply-chain",
+    "path": "sources/ELMT_financing.html",
+    "kind": "company/benchmark evidence",
+    "published": "",
+    "retrieved": "2026-09-20T10:32:09.251548+00:00",
+    "status": "unavailable",
+    "sha256": ""
+  },
+  {
+    "url": "https://investors.theelmetgroup.com/sec-filings/content/0001213900-26-099734/ea0304682-8k_elmet.htm",
+    "path": "sources/ELMT_financing_8K.html",
+    "kind": "company/benchmark evidence",
+    "published": "",
+    "retrieved": "2026-09-20T10:32:09.252185+00:00",
+    "status": "unavailable",
+    "sha256": ""
+  },
+  {
+    "url": "https://stockanalysis.com/stocks/elmt/history/",
+    "path": "sources/ELMT_history.html",
+    "kind": "company/benchmark evidence",
+    "published": "",
+    "retrieved": "2026-09-20T10:32:09.252722+00:00",
+    "status": "unavailable",
+    "sha256": ""
+  },
+  {
+    "url": "https://www.ishares.com/us/products/239705/ishares-phlx-semiconductor-etf",
+    "path": "sources/SOXX.html",
+    "kind": "company/benchmark evidence",
+    "published": "",
+    "retrieved": "2026-09-20T10:32:09.254385+00:00",
+    "status": "unavailable",
+    "sha256": ""
+  },
+  {
+    "url": "https://www.ishares.com/us/products/239502/ishares-us-aerospace-defense-etf",
+    "path": "sources/ITA.html",
+    "kind": "company/benchmark evidence",
+    "published": "",
+    "retrieved": "2026-09-20T10:32:09.254966+00:00",
+    "status": "unavailable",
+    "sha256": ""
+  },
+  {
+    "url": "https://finance.yahoo.com/quote/ELMT/history",
+    "path": "data/raw/ELMT_daily.csv",
+    "kind": "market data",
+    "published": "2026-09-18",
+    "retrieved": "2026-09-20T10:34:11.462944+00:00",
+    "status": "cached",
+    "sha256": "f2d7cb7b3538e61046673e65385d63a43b4b77cf838cd8c4e08fa6c3c040a854"
+  },
+  {
+    "url": "https://finance.yahoo.com/quote/SOXX/history",
+    "path": "data/raw/SOXX_daily.csv",
+    "kind": "market data",
+    "published": "2026-09-18",
+    "retrieved": "2026-09-20T10:34:12.126586+00:00",
+    "status": "cached",
+    "sha256": "7be2b6c7ed349f23e75f2dba49726a03afd960c816c78b298852de1689594d71"
+  },
+  {
+    "url": "https://finance.yahoo.com/quote/ITA/history",
+    "path": "data/raw/ITA_daily.csv",
+    "kind": "market data",
+    "published": "2026-09-18",
+    "retrieved": "2026-09-20T10:34:12.754851+00:00",
+    "status": "cached",
+    "sha256": "d5b1dbea07e30203b57d0edae758580038843631f8e8e1718b2c95b3c4993cc0"
+  },
+  {
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_Factors_CSV.zip",
+    "path": "data/raw/F-F_Research_Data_Factors_CSV.zip",
+    "kind": "factor returns",
+    "published": "",
+    "retrieved": "2026-09-20T10:34:13.467524+00:00",
+    "status": "cached",
+    "sha256": "b840dba55d319f4818fc7300e65c52eff5f64870c8d495fa58ff5d4cd749f5eb"
+  },
+  {
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_Factors_daily_CSV.zip",
+    "path": "data/raw/F-F_Research_Data_Factors_daily_CSV.zip",
+    "kind": "factor returns",
+    "published": "",
+    "retrieved": "2026-09-20T10:34:13.905490+00:00",
+    "status": "cached",
+    "sha256": "1916d331c2c51d2aee3d00215897d2b8e5995cb387f1f4569ba46bff5fb049a8"
+  },
+  {
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Momentum_Factor_CSV.zip",
+    "path": "data/raw/F-F_Momentum_Factor_CSV.zip",
+    "kind": "factor returns",
+    "published": "",
+    "retrieved": "2026-09-20T10:34:14.161504+00:00",
+    "status": "cached",
+    "sha256": "7ee14e892b0f7044902fdbc4e25cfaf175b73d4eda0ae6f4a0354a4433afe065"
+  },
+  {
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_5_Factors_2x3_CSV.zip",
+    "path": "data/raw/F-F_Research_Data_5_Factors_2x3_CSV.zip",
+    "kind": "factor returns",
+    "published": "",
+    "retrieved": "2026-09-20T10:34:14.408345+00:00",
+    "status": "cached",
+    "sha256": "b8653b411cc5e28917e7ef643bb42f6d2d3703f84bc170eb6ae38d5267c65807"
+  },
+  {
+    "url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html",
+    "path": "sources/french_methodology.html",
+    "kind": "factor methodology",
+    "published": "",
+    "retrieved": "2026-09-20T10:34:14.659466+00:00",
+    "status": "cached",
+    "sha256": "d185344d23ee3084bc6f445f53312221bf5b1ecb811e1b821a2fb30626c31437"
+  },
+  {
+    "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0002101698.json",
+    "path": "data/raw/companyfacts_ELMT.json",
+    "kind": "SEC company facts",
+    "published": "",
+    "retrieved": "2026-09-20T10:37:39.601234+00:00",
+    "status": "cached",
+    "sha256": "35c0e0f847d606710a44fc3bc61af83f20d89dffad11f971723b98d025bf7ddc"
+  },
+  {
+    "url": "https://data.sec.gov/submissions/CIK0001104657.json",
+    "path": "data/raw/submissions_MTRN.json",
+    "kind": "SEC submissions",
+    "published": "",
+    "retrieved": "2026-09-20T10:37:39.880098+00:00",
+    "status": "cached",
+    "sha256": "ab55efa94654c4036d48994915368b706062035aec9820d0d6919064b99d66fd"
+  },
+  {
+    "url": "https://data.sec.gov/submissions/CIK0001101302.json",
+    "path": "data/raw/submissions_ENTG.json",
+    "kind": "SEC submissions",
+    "published": "",
+    "retrieved": "2026-09-20T10:37:40.727135+00:00",
+    "status": "cached",
+    "sha256": "33fdd6dc4d3cb8f51f488daad333275a2ecf6abf5845ff4d9e87fbaa6743355a"
+  },
+  {
+    "url": "https://data.sec.gov/submissions/CIK0000017843.json",
+    "path": "data/raw/submissions_CRS.json",
+    "kind": "SEC submissions",
+    "published": "",
+    "retrieved": "2026-09-20T10:37:41.005408+00:00",
+    "status": "cached",
+    "sha256": "1447b4262098c5163523063c3bf3157e31216e2959981b7746987e1d5eeeb6c1"
+  },
+  {
+    "url": "https://data.sec.gov/submissions/CIK0001018963.json",
+    "path": "data/raw/submissions_ATI.json",
+    "kind": "SEC submissions",
+    "published": "",
+    "retrieved": "2026-09-20T10:37:41.387861+00:00",
+    "status": "cached",
+    "sha256": "43232e7dd79a1527b8450f29c1b74bd9d49650d6c905b86fb559a429d7fd1bcd"
+  },
+  {
+    "url": "https://data.sec.gov/submissions/CIK0002101698.json",
+    "path": "data/raw/submissions_ELMT.json",
+    "kind": "SEC submissions",
+    "published": "",
+    "retrieved": "2026-09-20T10:37:41.651487+00:00",
+    "status": "cached",
+    "sha256": "b86d26cfc79b6c163ca3ed464611256e838881287a6bdcc9298a01efd5f8d667"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/2101698/000121390026099734/ea0304682-8k_elmet.htm",
+    "path": "sources/ELMT_2026-09-14_8-K.html",
+    "kind": "ELMT filing",
+    "published": "2026-09-14",
+    "retrieved": "2026-09-20T10:37:41.904618+00:00",
+    "status": "cached",
+    "sha256": "bb538ad62113671143efa71823e1ef14494597c2b86f8a42ee03edd69b9fb020"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/2101698/000121390026097862/ea0304152-8k_elmet.htm",
+    "path": "sources/ELMT_2026-09-08_8-K.html",
+    "kind": "ELMT filing",
+    "published": "2026-09-08",
+    "retrieved": "2026-09-20T10:37:42.097481+00:00",
+    "status": "cached",
+    "sha256": "ef9ace6579960a34b62c5669fec7c3cddc7eb1c7cb1a522a6f6e4de8c1948e15"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/2101698/000121390026088714/ea0301662-8k_elmet.htm",
+    "path": "sources/ELMT_2026-08-13_8-K.html",
+    "kind": "ELMT filing",
+    "published": "2026-08-13",
+    "retrieved": "2026-09-20T10:37:42.284307+00:00",
+    "status": "cached",
+    "sha256": "380c20408d4e8bdeeb5857f6be58aafc963f0c4cfc05a4954c59ef09b74404f5"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/2101698/000162828026056460/elmt-20260703.htm",
+    "path": "sources/ELMT_2026-08-13_10-Q.html",
+    "kind": "ELMT filing",
+    "published": "2026-08-13",
+    "retrieved": "2026-09-20T10:37:42.529521+00:00",
+    "status": "cached",
+    "sha256": "3b77d19a21e57a75073a90b904250be42f42192557e443dbf74550af82ef343e"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/2101698/000121390026062434/ea0292205-8k_elmet.htm",
+    "path": "sources/ELMT_2026-05-29_8-K.html",
+    "kind": "ELMT filing",
+    "published": "2026-05-29",
+    "retrieved": "2026-09-20T10:37:42.793693+00:00",
+    "status": "cached",
+    "sha256": "fefc607cfdf4908eb7acfbb27826508659adfa4d8931295da43f90fbfd62f99f"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/2101698/000121390026062433/ea0291959-10q_elmet.htm",
+    "path": "sources/ELMT_2026-05-29_10-Q.html",
+    "kind": "ELMT filing",
+    "published": "2026-05-29",
+    "retrieved": "2026-09-20T10:37:43.025200+00:00",
+    "status": "cached",
+    "sha256": "ccca5313d9ea091bd9a3fef258641e701dcedad154b660b8c35e7c0bcc084f4e"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/2101698/000121390026060728/ea0291413-8k_elmet.htm",
+    "path": "sources/ELMT_2026-05-26_8-K.html",
+    "kind": "ELMT filing",
+    "published": "2026-05-26",
+    "retrieved": "2026-09-20T10:37:43.314363+00:00",
+    "status": "cached",
+    "sha256": "69ee3246f20cee4b099544d6652fa6f27ef17dcecce562eb3b5d0e072f4a873e"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/2101698/000121390026047521/ea0287495-8k_elmet.htm",
+    "path": "sources/ELMT_2026-04-24_8-K.html",
+    "kind": "ELMT filing",
+    "published": "2026-04-24",
+    "retrieved": "2026-09-20T10:37:43.497106+00:00",
+    "status": "cached",
+    "sha256": "fdf464db0fe855ab10a26ce64da0b04b49cfa3f14f327baeb9bb1171f64deef5"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/2101698/000121390026047144/ea0270360-06.htm",
+    "path": "sources/ELMT_2026-04-23_424B4.html",
+    "kind": "ELMT filing",
+    "published": "2026-04-23",
+    "retrieved": "2026-09-20T10:37:43.867949+00:00",
+    "status": "cached",
+    "sha256": "c019205ea82c3885abc71319c7effa65e772d7792789fe3b88c08de02d03c78d"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465726000042/mtrn-20260805.htm",
+    "path": "sources/earnings/MTRN_0001104657-26-000042.html",
+    "kind": "earnings 8-K",
+    "published": "2026-08-05",
+    "retrieved": "2026-09-20T10:37:44.056786+00:00",
+    "status": "cached",
+    "sha256": "0920d20e9b49c836fabc80ec1021e4b1540cc7460eb4b85af9c437e6aafd292c"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465726000042/q22026pressrelease.htm",
+    "path": "sources/earnings/MTRN_0001104657-26-000042_release.html",
+    "kind": "earnings release",
+    "published": "2026-08-05",
+    "retrieved": "2026-09-20T10:37:44.257379+00:00",
+    "status": "cached",
+    "sha256": "6255b8a27033ae063a8b3d98c0ac324b48219261e006373bd7696c11ffe5831a"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465726000026/mtrn-20260429.htm",
+    "path": "sources/earnings/MTRN_0001104657-26-000026.html",
+    "kind": "earnings 8-K",
+    "published": "2026-04-29",
+    "retrieved": "2026-09-20T10:37:44.443164+00:00",
+    "status": "cached",
+    "sha256": "ac47095346188ea5a50b4b5dfc229527a685ec4906b5d6ad45e4dcc9a308cee5"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465726000026/q12026pressrelease.htm",
+    "path": "sources/earnings/MTRN_0001104657-26-000026_release.html",
+    "kind": "earnings release",
+    "published": "2026-04-29",
+    "retrieved": "2026-09-20T10:37:44.633990+00:00",
+    "status": "cached",
+    "sha256": "c20f5cf95984a6d192dee1f72968dbbec0359a8aa1bba37367d097365ea3ca38"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465726000006/mtrn-20260212.htm",
+    "path": "sources/earnings/MTRN_0001104657-26-000006.html",
+    "kind": "earnings 8-K",
+    "published": "2026-02-12",
+    "retrieved": "2026-09-20T10:37:44.921092+00:00",
+    "status": "cached",
+    "sha256": "b2351b5225feff14c42d2e9382b480f509d5c901987a4a29f826483fc3fec35d"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465726000006/q42025pressrelease.htm",
+    "path": "sources/earnings/MTRN_0001104657-26-000006_release.html",
+    "kind": "earnings release",
+    "published": "2026-02-12",
+    "retrieved": "2026-09-20T10:37:45.109153+00:00",
+    "status": "cached",
+    "sha256": "a4417dd01fb67a368e1fa46de3a2a66bd5af59c2810c50698a3c760aa3286745"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465726000002/mtrn-20260123.htm",
+    "path": "sources/earnings/MTRN_0001104657-26-000002.html",
+    "kind": "earnings 8-K",
+    "published": "2026-01-23",
+    "retrieved": "2026-09-20T10:37:45.372988+00:00",
+    "status": "cached",
+    "sha256": "e96e17dfa65748720617af1fd4d0874d4cdc309f660da57a6c5da98b66d8b86c"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465725000186/mtrn-20251029.htm",
+    "path": "sources/earnings/MTRN_0001104657-25-000186.html",
+    "kind": "earnings 8-K",
+    "published": "2025-10-29",
+    "retrieved": "2026-09-20T10:37:45.636274+00:00",
+    "status": "cached",
+    "sha256": "6d01407dd9fa1b9a9b9e7a3e9b9899158b7b5572c588a7763032c052bdd662f1"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465725000186/q32025pressrelease.htm",
+    "path": "sources/earnings/MTRN_0001104657-25-000186_release.html",
+    "kind": "earnings release",
+    "published": "2025-10-29",
+    "retrieved": "2026-09-20T10:37:45.935859+00:00",
+    "status": "cached",
+    "sha256": "e58eeaae2119e635d6e92c4e688c62e1549b36ed3be407dc19901e07f5f3342e"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465725000140/mtrn-20250730.htm",
+    "path": "sources/earnings/MTRN_0001104657-25-000140.html",
+    "kind": "earnings 8-K",
+    "published": "2025-07-30",
+    "retrieved": "2026-09-20T10:37:46.192203+00:00",
+    "status": "cached",
+    "sha256": "cd2ac4dbb65ba608d83a055d3329ce4757f731a5472622222e76c1980e8a944e"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465725000140/q22025pressrelease.htm",
+    "path": "sources/earnings/MTRN_0001104657-25-000140_release.html",
+    "kind": "earnings release",
+    "published": "2025-07-30",
+    "retrieved": "2026-09-20T10:37:46.481733+00:00",
+    "status": "cached",
+    "sha256": "9b123084219c327b500974beb9e1664fb3b96a42df3fb48e8b3276544fa96708"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465725000056/mtrn-20250501.htm",
+    "path": "sources/earnings/MTRN_0001104657-25-000056.html",
+    "kind": "earnings 8-K",
+    "published": "2025-05-01",
+    "retrieved": "2026-09-20T10:37:46.739353+00:00",
+    "status": "cached",
+    "sha256": "09b8a4cd834ec7d76e5d29b887a728f0521abbeafa2b34c2d26c555690aff1f0"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465725000056/q12025pressrelease.htm",
+    "path": "sources/earnings/MTRN_0001104657-25-000056_release.html",
+    "kind": "earnings release",
+    "published": "2025-05-01",
+    "retrieved": "2026-09-20T10:37:47.033395+00:00",
+    "status": "cached",
+    "sha256": "9cabe8d5883cc4bfdfdb15b16c4ef1a55512445d986d9ebc4e0e4606f7c52362"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465725000019/mtrn-20250219.htm",
+    "path": "sources/earnings/MTRN_0001104657-25-000019.html",
+    "kind": "earnings 8-K",
+    "published": "2025-02-19",
+    "retrieved": "2026-09-20T10:37:47.292858+00:00",
+    "status": "cached",
+    "sha256": "4a969b21b28caeec8e575456c17425ea8a687b5d13af8e096325bc0dd728a724"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465725000019/q42024pressrelease.htm",
+    "path": "sources/earnings/MTRN_0001104657-25-000019_release.html",
+    "kind": "earnings release",
+    "published": "2025-02-19",
+    "retrieved": "2026-09-20T10:37:47.595650+00:00",
+    "status": "cached",
+    "sha256": "ecd3cfa521e881bff64ee1468cbefb59fbd6cebf27c8dc2a4168be069e4ed3bc"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465724000143/mtrn-20241030.htm",
+    "path": "sources/earnings/MTRN_0001104657-24-000143.html",
+    "kind": "earnings 8-K",
+    "published": "2024-10-30",
+    "retrieved": "2026-09-20T10:37:47.861756+00:00",
+    "status": "cached",
+    "sha256": "7cfefbc016e2c7e78321b0df273d4429d58664e4c6b8bf3ccbc8565caacff374"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465724000143/q32024pressrelease.htm",
+    "path": "sources/earnings/MTRN_0001104657-24-000143_release.html",
+    "kind": "earnings release",
+    "published": "2024-10-30",
+    "retrieved": "2026-09-20T10:37:48.248184+00:00",
+    "status": "cached",
+    "sha256": "b619914bec3764955a5a7ca22a6dff26c77b11dd6a4964a7ff5ed930cface4c8"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465724000112/mtrn-20240805.htm",
+    "path": "sources/earnings/MTRN_0001104657-24-000112.html",
+    "kind": "earnings 8-K",
+    "published": "2024-08-05",
+    "retrieved": "2026-09-20T10:37:48.516530+00:00",
+    "status": "cached",
+    "sha256": "0b515e6c9c86a5d135b834c982a5aa76b05f6dcb82c4ceb568d95033f66b9f13"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465724000112/q22024pressrelease.htm",
+    "path": "sources/earnings/MTRN_0001104657-24-000112_release.html",
+    "kind": "earnings release",
+    "published": "2024-08-05",
+    "retrieved": "2026-09-20T10:37:48.819100+00:00",
+    "status": "cached",
+    "sha256": "f12100cc69eb904341d0a941d38cd04791285de0f5cf73d22ea29db2cba76467"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465724000063/mtrn-20240501.htm",
+    "path": "sources/earnings/MTRN_0001104657-24-000063.html",
+    "kind": "earnings 8-K",
+    "published": "2024-05-02",
+    "retrieved": "2026-09-20T10:37:49.081697+00:00",
+    "status": "cached",
+    "sha256": "6425b427180da576792fb43a67ae729da79b5f9a70afbc2f334a9ef9fb7f6f7a"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465724000063/q12024pressrelease.htm",
+    "path": "sources/earnings/MTRN_0001104657-24-000063_release.html",
+    "kind": "earnings release",
+    "published": "2024-05-02",
+    "retrieved": "2026-09-20T10:37:49.268300+00:00",
+    "status": "cached",
+    "sha256": "0794eaeb6d8a33fd6ddc02b1a6d0c073f1e0de81c4d20c072cac8739289d2194"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465724000015/mtrn-20240215.htm",
+    "path": "sources/earnings/MTRN_0001104657-24-000015.html",
+    "kind": "earnings 8-K",
+    "published": "2024-02-15",
+    "retrieved": "2026-09-20T10:37:49.528166+00:00",
+    "status": "cached",
+    "sha256": "5d801cbb5712ed6e43327c9953acb046dcb1279a03885d19b392731cf087330c"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465724000015/q42023pressrelease.htm",
+    "path": "sources/earnings/MTRN_0001104657-24-000015_release.html",
+    "kind": "earnings release",
+    "published": "2024-02-15",
+    "retrieved": "2026-09-20T10:37:49.929509+00:00",
+    "status": "cached",
+    "sha256": "1a5484d5c7ca11ab7f0c18f6e4996072bcf8323b0738f1c069109022742857fd"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465724000007/mtrn-20240119.htm",
+    "path": "sources/earnings/MTRN_0001104657-24-000007.html",
+    "kind": "earnings 8-K",
+    "published": "2024-01-19",
+    "retrieved": "2026-09-20T10:37:50.216646+00:00",
+    "status": "cached",
+    "sha256": "1095866e4f0881151c4480e203831c512e74e1c13fbc2aa77bc61c67e0b0cfab"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465723000149/mtrn-20231101.htm",
+    "path": "sources/earnings/MTRN_0001104657-23-000149.html",
+    "kind": "earnings 8-K",
+    "published": "2023-11-01",
+    "retrieved": "2026-09-20T10:37:50.487159+00:00",
+    "status": "cached",
+    "sha256": "0f94008f251d737783770a8febf1b5e8f2e884af1b1fcd35c122b0620104c2a2"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465723000149/q32023pressrelease.htm",
+    "path": "sources/earnings/MTRN_0001104657-23-000149_release.html",
+    "kind": "earnings release",
+    "published": "2023-11-01",
+    "retrieved": "2026-09-20T10:37:50.936328+00:00",
+    "status": "cached",
+    "sha256": "3c8ec42e072004119f04675278e13b14f43a9484d47be90db700a6b56d397622"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465723000121/mtrn-20230802.htm",
+    "path": "sources/earnings/MTRN_0001104657-23-000121.html",
+    "kind": "earnings 8-K",
+    "published": "2023-08-02",
+    "retrieved": "2026-09-20T10:37:51.327124+00:00",
+    "status": "cached",
+    "sha256": "a454bb823facc45d01fb910e059735444fb84a49845a50d4d9cf8fdc0e468fa6"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465723000121/q22023pressrelease.htm",
+    "path": "sources/earnings/MTRN_0001104657-23-000121_release.html",
+    "kind": "earnings release",
+    "published": "2023-08-02",
+    "retrieved": "2026-09-20T10:37:51.613992+00:00",
+    "status": "cached",
+    "sha256": "fc034bf7bd19859c34d08deb162b7878373fb50c9d950aaa9a1b0f0a59c5d933"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465723000062/mtrn-20230503.htm",
+    "path": "sources/earnings/MTRN_0001104657-23-000062.html",
+    "kind": "earnings 8-K",
+    "published": "2023-05-03",
+    "retrieved": "2026-09-20T10:37:51.908083+00:00",
+    "status": "cached",
+    "sha256": "e5c0214cc6fb4c68b360a785c56cbff2dec5ea8a885de8004eee449ec39f70db"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465723000062/q12023pressrelease.htm",
+    "path": "sources/earnings/MTRN_0001104657-23-000062_release.html",
+    "kind": "earnings release",
+    "published": "2023-05-03",
+    "retrieved": "2026-09-20T10:37:52.209021+00:00",
+    "status": "cached",
+    "sha256": "e8918548c73c6e7cea13cbd65defb7474e20820b1654bfcc7f2f8b99bcefb70b"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465723000015/mtrn-20230216.htm",
+    "path": "sources/earnings/MTRN_0001104657-23-000015.html",
+    "kind": "earnings 8-K",
+    "published": "2023-02-16",
+    "retrieved": "2026-09-20T10:37:52.477845+00:00",
+    "status": "cached",
+    "sha256": "f07cd953cdffe333f71d3c1cfc548517d956b90d5443c313bf099971004d576e"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465723000015/q42022pressrelease.htm",
+    "path": "sources/earnings/MTRN_0001104657-23-000015_release.html",
+    "kind": "earnings release",
+    "published": "2023-02-16",
+    "retrieved": "2026-09-20T10:37:52.763036+00:00",
+    "status": "cached",
+    "sha256": "a460c5201341dca300756b9f668c06e959a01be90586173568306856a53cd70f"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465722000154/mtrn-20221102.htm",
+    "path": "sources/earnings/MTRN_0001104657-22-000154.html",
+    "kind": "earnings 8-K",
+    "published": "2022-11-02",
+    "retrieved": "2026-09-20T10:37:53.114151+00:00",
+    "status": "cached",
+    "sha256": "9411c046f728ee766008c84d2240fd87af97e46cb4b416c0155456aafea1d94a"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465722000154/q32022pressrelease.htm",
+    "path": "sources/earnings/MTRN_0001104657-22-000154_release.html",
+    "kind": "earnings release",
+    "published": "2022-11-02",
+    "retrieved": "2026-09-20T10:37:53.400744+00:00",
+    "status": "cached",
+    "sha256": "cbd447e6d0c78d444d10d89d9a130167ae6e8c4ee60ded1fa7a0aee18c2f536f"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465722000123/mtrn-20220803.htm",
+    "path": "sources/earnings/MTRN_0001104657-22-000123.html",
+    "kind": "earnings 8-K",
+    "published": "2022-08-03",
+    "retrieved": "2026-09-20T10:37:53.687607+00:00",
+    "status": "cached",
+    "sha256": "8f6e8e7b116e003bb9350d08d3180539ddd387246108255b26da35b576203a9b"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465722000123/q22022pressrelease.htm",
+    "path": "sources/earnings/MTRN_0001104657-22-000123_release.html",
+    "kind": "earnings release",
+    "published": "2022-08-03",
+    "retrieved": "2026-09-20T10:37:53.990919+00:00",
+    "status": "cached",
+    "sha256": "06037e80eee23a96d75f6b512ddfb9df86ac87d771cfd9b5ffc44d9981d5039d"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465722000070/mtrn-20220428.htm",
+    "path": "sources/earnings/MTRN_0001104657-22-000070.html",
+    "kind": "earnings 8-K",
+    "published": "2022-04-28",
+    "retrieved": "2026-09-20T10:37:54.267551+00:00",
+    "status": "cached",
+    "sha256": "0ff2fae280acf303793ff80593461f1036b9e1f7d22207ccf130edea7905202d"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465722000070/q12022pressrelease.htm",
+    "path": "sources/earnings/MTRN_0001104657-22-000070_release.html",
+    "kind": "earnings release",
+    "published": "2022-04-28",
+    "retrieved": "2026-09-20T10:37:54.574679+00:00",
+    "status": "cached",
+    "sha256": "85390cabebf9f617bf53daeb4fe7ab0b17ceecea3509bf009053b44a81364bb7"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465722000059/mtrn-20220421.htm",
+    "path": "sources/earnings/MTRN_0001104657-22-000059.html",
+    "kind": "earnings 8-K",
+    "published": "2022-04-21",
+    "retrieved": "2026-09-20T10:37:55.007939+00:00",
+    "status": "cached",
+    "sha256": "f9bc9432a227ffcc87bab72a2ab5ba1ec9d324e39e7fae8b8d064292721821d0"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465722000059/exhibit991.htm",
+    "path": "sources/earnings/MTRN_0001104657-22-000059_release.html",
+    "kind": "earnings release",
+    "published": "2022-04-21",
+    "retrieved": "2026-09-20T10:37:55.311795+00:00",
+    "status": "cached",
+    "sha256": "a0c7313e71038fbaa57b71a78e34201a810ce47b1616cfd2219f9b07d5697ee6"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465722000015/mtrn-20220217.htm",
+    "path": "sources/earnings/MTRN_0001104657-22-000015.html",
+    "kind": "earnings 8-K",
+    "published": "2022-02-17",
+    "retrieved": "2026-09-20T10:37:55.736917+00:00",
+    "status": "cached",
+    "sha256": "735ea940636559f9153791fbb3bc0c00d8b5fc260eb194deaeb97e7b734f76f6"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465722000015/q42021pressrelease.htm",
+    "path": "sources/earnings/MTRN_0001104657-22-000015_release.html",
+    "kind": "earnings release",
+    "published": "2022-02-17",
+    "retrieved": "2026-09-20T10:37:56.019777+00:00",
+    "status": "cached",
+    "sha256": "0f3ff9307ed9fe29dffbbe0dc49eb3c135ff9c2de6d86fcafb21ab762e7d8c80"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465721000104/mtrn-20211102.htm",
+    "path": "sources/earnings/MTRN_0001104657-21-000104.html",
+    "kind": "earnings 8-K",
+    "published": "2021-11-02",
+    "retrieved": "2026-09-20T10:37:56.286441+00:00",
+    "status": "cached",
+    "sha256": "0bba2a9c8da73c3483aaaebd89d7f0cc01e273289924c5fd1d0e843bd44504d6"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465721000104/q32021pressrelease.htm",
+    "path": "sources/earnings/MTRN_0001104657-21-000104_release.html",
+    "kind": "earnings release",
+    "published": "2021-11-02",
+    "retrieved": "2026-09-20T10:37:56.592071+00:00",
+    "status": "cached",
+    "sha256": "66953703a26d57903c69f15a07fc3061c5e313701c29e76d63e76172ddf973c9"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465721000076/mtrn-20210803.htm",
+    "path": "sources/earnings/MTRN_0001104657-21-000076.html",
+    "kind": "earnings 8-K",
+    "published": "2021-08-03",
+    "retrieved": "2026-09-20T10:37:56.882796+00:00",
+    "status": "cached",
+    "sha256": "dc64d1d2ecc53f15db1691f867c785b857a887ce30a16b62d9443f6598cb1b6f"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465721000076/q22021pressrelease.htm",
+    "path": "sources/earnings/MTRN_0001104657-21-000076_release.html",
+    "kind": "earnings release",
+    "published": "2021-08-03",
+    "retrieved": "2026-09-20T10:37:57.172568+00:00",
+    "status": "cached",
+    "sha256": "7f2f23add36b21a7684e73751683a171386eab61daa2dbb641853620a632a061"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465721000042/mtrn-20210429.htm",
+    "path": "sources/earnings/MTRN_0001104657-21-000042.html",
+    "kind": "earnings 8-K",
+    "published": "2021-04-29",
+    "retrieved": "2026-09-20T10:37:57.437802+00:00",
+    "status": "cached",
+    "sha256": "87a731910075536dcdf7ed747b02e37630c63e55461ecbfad53468f701706562"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465721000042/q12021pressrelease.htm",
+    "path": "sources/earnings/MTRN_0001104657-21-000042_release.html",
+    "kind": "earnings release",
+    "published": "2021-04-29",
+    "retrieved": "2026-09-20T10:37:57.713278+00:00",
+    "status": "cached",
+    "sha256": "159cd04d4e567da05b8f6a9d788046b26d6f51fb478ad86888f72e3400f93b10"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465721000008/mtrn-20210218.htm",
+    "path": "sources/earnings/MTRN_0001104657-21-000008.html",
+    "kind": "earnings 8-K",
+    "published": "2021-02-18",
+    "retrieved": "2026-09-20T10:37:57.978839+00:00",
+    "status": "cached",
+    "sha256": "f23d86c32e96f438e19fcb5d4cff84084fa3ebe89c34dc225af6a11daed7745b"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465721000008/q4pressrelease.htm",
+    "path": "sources/earnings/MTRN_0001104657-21-000008_release.html",
+    "kind": "earnings release",
+    "published": "2021-02-18",
+    "retrieved": "2026-09-20T10:37:58.270020+00:00",
+    "status": "cached",
+    "sha256": "be337a20a1d28eb5cb73d100f8c3f1c13dbd3936a07e32053820aff2b4948eb2"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130226000146/entg-20260804.htm",
+    "path": "sources/earnings/ENTG_0001101302-26-000146.html",
+    "kind": "earnings 8-K",
+    "published": "2026-08-04",
+    "retrieved": "2026-09-20T10:37:58.536362+00:00",
+    "status": "cached",
+    "sha256": "d23d95b2a706d5b5fe7a35ceefbdd4542fe1d5a95395bb791f4a18b1a000d39d"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130226000146/entgq22026ex991.htm",
+    "path": "sources/earnings/ENTG_0001101302-26-000146_release.html",
+    "kind": "earnings release",
+    "published": "2026-08-04",
+    "retrieved": "2026-09-20T10:37:58.720430+00:00",
+    "status": "cached",
+    "sha256": "1408a99c806ab034b66370fd842dfed6dec81a09aba897e986f33098af81d85e"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130226000099/entg-20260430.htm",
+    "path": "sources/earnings/ENTG_0001101302-26-000099.html",
+    "kind": "earnings 8-K",
+    "published": "2026-04-30",
+    "retrieved": "2026-09-20T10:37:59.002015+00:00",
+    "status": "cached",
+    "sha256": "ab883d3db762d38640ec1c18eeeeb51ec80e81dc0f84dbe9033690aa0fbc1ea6"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130226000099/entgq12026ex991.htm",
+    "path": "sources/earnings/ENTG_0001101302-26-000099_release.html",
+    "kind": "earnings release",
+    "published": "2026-04-30",
+    "retrieved": "2026-09-20T10:37:59.285143+00:00",
+    "status": "cached",
+    "sha256": "07d179fbf457ac75f31a8aea596d4ebb1cab9014f0942be52f1ddb1d94c52821"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130226000009/entg-20260210.htm",
+    "path": "sources/earnings/ENTG_0001101302-26-000009.html",
+    "kind": "earnings 8-K",
+    "published": "2026-02-10",
+    "retrieved": "2026-09-20T10:37:59.552806+00:00",
+    "status": "cached",
+    "sha256": "131d2a264db680ae3fd86e1eff9adeb44c1bee67e00910d0ee2796d40e0b0087"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130226000009/entgq42025ex991.htm",
+    "path": "sources/earnings/ENTG_0001101302-26-000009_release.html",
+    "kind": "earnings release",
+    "published": "2026-02-10",
+    "retrieved": "2026-09-20T10:37:59.842917+00:00",
+    "status": "cached",
+    "sha256": "563d2722f5a6099b00ffc9c90af57ccb0faa3d5531abb5de95162e7e398de782"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130225000099/entg-20251030.htm",
+    "path": "sources/earnings/ENTG_0001101302-25-000099.html",
+    "kind": "earnings 8-K",
+    "published": "2025-10-30",
+    "retrieved": "2026-09-20T10:38:00.109675+00:00",
+    "status": "cached",
+    "sha256": "6b883510080d6f4a8c0425476e4f3bc6d5c7589137e7ee8eb47f45513f0dc26c"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130225000099/entgq32025ex991.htm",
+    "path": "sources/earnings/ENTG_0001101302-25-000099_release.html",
+    "kind": "earnings release",
+    "published": "2025-10-30",
+    "retrieved": "2026-09-20T10:38:00.391881+00:00",
+    "status": "cached",
+    "sha256": "d7f0963d012d63935d3b713978c4611f06c2d3cdcb240fd159231087b6b859e4"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130225000075/entg-20250730.htm",
+    "path": "sources/earnings/ENTG_0001101302-25-000075.html",
+    "kind": "earnings 8-K",
+    "published": "2025-07-30",
+    "retrieved": "2026-09-20T10:38:00.650895+00:00",
+    "status": "cached",
+    "sha256": "008c23bcbdea73c10c0d0b16445a58c62458e74f83479cafde32fa8291264193"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130225000075/entgq22025ex991.htm",
+    "path": "sources/earnings/ENTG_0001101302-25-000075_release.html",
+    "kind": "earnings release",
+    "published": "2025-07-30",
+    "retrieved": "2026-09-20T10:38:00.832864+00:00",
+    "status": "cached",
+    "sha256": "5c1a3b72df8e6414c756438283fcd9741d8c84f306ef2e73b18fcf5f73d50b31"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130225000056/entg-20250507.htm",
+    "path": "sources/earnings/ENTG_0001101302-25-000056.html",
+    "kind": "earnings 8-K",
+    "published": "2025-05-07",
+    "retrieved": "2026-09-20T10:38:01.113714+00:00",
+    "status": "cached",
+    "sha256": "1b1d33f9532e5afe74365e9762e1261c5181ad545c9194e662745c3831e1d504"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130225000056/entgq12025ex991.htm",
+    "path": "sources/earnings/ENTG_0001101302-25-000056_release.html",
+    "kind": "earnings release",
+    "published": "2025-05-07",
+    "retrieved": "2026-09-20T10:38:01.410703+00:00",
+    "status": "cached",
+    "sha256": "766b43862da80956bdacdff0762c0be1b0d452137fe9291d78125f9721882c91"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130225000010/entg-20250206.htm",
+    "path": "sources/earnings/ENTG_0001101302-25-000010.html",
+    "kind": "earnings 8-K",
+    "published": "2025-02-06",
+    "retrieved": "2026-09-20T10:38:01.697617+00:00",
+    "status": "cached",
+    "sha256": "7c927f71b8814e367d0999ba582b4c4a83985228932d8e5dd201a0335ca938e2"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130225000010/entgq42024ex991.htm",
+    "path": "sources/earnings/ENTG_0001101302-25-000010_release.html",
+    "kind": "earnings release",
+    "published": "2025-02-06",
+    "retrieved": "2026-09-20T10:38:02.025160+00:00",
+    "status": "cached",
+    "sha256": "bbba03390c9e741063a36dc26fd4a53a1f871ce0e6cb88c0f7297fac72247feb"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130224000071/entg-20241104.htm",
+    "path": "sources/earnings/ENTG_0001101302-24-000071.html",
+    "kind": "earnings 8-K",
+    "published": "2024-11-04",
+    "retrieved": "2026-09-20T10:38:02.375101+00:00",
+    "status": "cached",
+    "sha256": "408846f785c82e13c0d4ae7a01b38039c37800ccede5457b0a82525da7214c5e"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130224000071/entgq32024ex991.htm",
+    "path": "sources/earnings/ENTG_0001101302-24-000071_release.html",
+    "kind": "earnings release",
+    "published": "2024-11-04",
+    "retrieved": "2026-09-20T10:38:02.568176+00:00",
+    "status": "cached",
+    "sha256": "a40b1a0d1cf648d8d46b087e19d475198434a955d0104a8bbe8259b3d87260d1"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130224000049/entg-20240731.htm",
+    "path": "sources/earnings/ENTG_0001101302-24-000049.html",
+    "kind": "earnings 8-K",
+    "published": "2024-07-31",
+    "retrieved": "2026-09-20T10:38:02.845019+00:00",
+    "status": "cached",
+    "sha256": "e365225a501072353356f71fcd2a03b512f724316523edc842082deec984b3c7"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130224000049/entgq22024ex991.htm",
+    "path": "sources/earnings/ENTG_0001101302-24-000049_release.html",
+    "kind": "earnings release",
+    "published": "2024-07-31",
+    "retrieved": "2026-09-20T10:38:03.039983+00:00",
+    "status": "cached",
+    "sha256": "3ec01111935d68eca75dfc1d864cc519406b29229416a6c9377a6f4fdfae7f1f"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130224000037/entg-20240501.htm",
+    "path": "sources/earnings/ENTG_0001101302-24-000037.html",
+    "kind": "earnings 8-K",
+    "published": "2024-05-01",
+    "retrieved": "2026-09-20T10:38:03.315943+00:00",
+    "status": "cached",
+    "sha256": "e0234c9d743fb919fa7def6d9bdaed46572b8f95a3cc82138ea38c660e259595"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130224000037/entgq12024ex991.htm",
+    "path": "sources/earnings/ENTG_0001101302-24-000037_release.html",
+    "kind": "earnings release",
+    "published": "2024-05-01",
+    "retrieved": "2026-09-20T10:38:03.591188+00:00",
+    "status": "cached",
+    "sha256": "368012a233ee8baad7f79d0acd1ac68ca7f0066e9a828fefdb59f149e727003a"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130224000005/entg-20240213.htm",
+    "path": "sources/earnings/ENTG_0001101302-24-000005.html",
+    "kind": "earnings 8-K",
+    "published": "2024-02-13",
+    "retrieved": "2026-09-20T10:38:03.862054+00:00",
+    "status": "cached",
+    "sha256": "3dda461c5bbffe6126e1d596324287bb22f3fedb8645a7131554bf9f5941c3f8"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130224000005/entgq42023ex991.htm",
+    "path": "sources/earnings/ENTG_0001101302-24-000005_release.html",
+    "kind": "earnings release",
+    "published": "2024-02-13",
+    "retrieved": "2026-09-20T10:38:04.150937+00:00",
+    "status": "cached",
+    "sha256": "ea07a51061c0e1c8db5833aba7c7e2b753a1fe04bc07129a3b4b4926522bf19f"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130223000086/entg-20231102.htm",
+    "path": "sources/earnings/ENTG_0001101302-23-000086.html",
+    "kind": "earnings 8-K",
+    "published": "2023-11-02",
+    "retrieved": "2026-09-20T10:38:04.419758+00:00",
+    "status": "cached",
+    "sha256": "2787bae22d90022010b18e50de1f5b2d9ac79513161c423bc18f2912f3fc4fbd"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130223000086/entgq32023ex991.htm",
+    "path": "sources/earnings/ENTG_0001101302-23-000086_release.html",
+    "kind": "earnings release",
+    "published": "2023-11-02",
+    "retrieved": "2026-09-20T10:38:04.738239+00:00",
+    "status": "cached",
+    "sha256": "8e82bbda181383555b8d5a46384b4dc4c016e97a8d298950775354f29bb472b4"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130223000077/entg-20230803.htm",
+    "path": "sources/earnings/ENTG_0001101302-23-000077.html",
+    "kind": "earnings 8-K",
+    "published": "2023-08-03",
+    "retrieved": "2026-09-20T10:38:05.085365+00:00",
+    "status": "cached",
+    "sha256": "94380260def54f979a6f99459d8ba5f035a8add669b4d6cdc4759b82ac0b8eb3"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130223000077/entgq22023ex991.htm",
+    "path": "sources/earnings/ENTG_0001101302-23-000077_release.html",
+    "kind": "earnings release",
+    "published": "2023-08-03",
+    "retrieved": "2026-09-20T10:38:05.370261+00:00",
+    "status": "cached",
+    "sha256": "b65bb9b24939e04510b18866e97274ae155a31d5369e919314067a6729fe9630"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130223000065/entg-20230511.htm",
+    "path": "sources/earnings/ENTG_0001101302-23-000065.html",
+    "kind": "earnings 8-K",
+    "published": "2023-05-11",
+    "retrieved": "2026-09-20T10:38:05.650513+00:00",
+    "status": "cached",
+    "sha256": "7d0ba304b327d7d6327c0d64c0517cb2c08795a656344b468672c74131bfddcd"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130223000065/entgq12023ex991.htm",
+    "path": "sources/earnings/ENTG_0001101302-23-000065_release.html",
+    "kind": "earnings release",
+    "published": "2023-05-11",
+    "retrieved": "2026-09-20T10:38:05.949359+00:00",
+    "status": "cached",
+    "sha256": "a34d87ac8b433d8e9636a955b7fc09cd471c55998d202596a035db146737309a"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130223000016/entg-20230214.htm",
+    "path": "sources/earnings/ENTG_0001101302-23-000016.html",
+    "kind": "earnings 8-K",
+    "published": "2023-02-14",
+    "retrieved": "2026-09-20T10:38:06.219513+00:00",
+    "status": "cached",
+    "sha256": "979a11c0dc3fe0c8bb2760477e37955030df0fe8055be51ecf7dffcf589059fa"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130223000016/entgq42022ex991.htm",
+    "path": "sources/earnings/ENTG_0001101302-23-000016_release.html",
+    "kind": "earnings release",
+    "published": "2023-02-14",
+    "retrieved": "2026-09-20T10:38:06.500545+00:00",
+    "status": "cached",
+    "sha256": "e8ed6f3968e642f7c736e51407937d3ffa0cd59906e4b42faecba5816ec694ad"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130222000047/entg-20221102.htm",
+    "path": "sources/earnings/ENTG_0001101302-22-000047.html",
+    "kind": "earnings 8-K",
+    "published": "2022-11-02",
+    "retrieved": "2026-09-20T10:38:06.862120+00:00",
+    "status": "cached",
+    "sha256": "c1b3d675072b6c0ffe7925e4bf8da6ba815819d6a29bead21291313a53959049"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130222000047/entgq32022ex991.htm",
+    "path": "sources/earnings/ENTG_0001101302-22-000047_release.html",
+    "kind": "earnings release",
+    "published": "2022-11-02",
+    "retrieved": "2026-09-20T10:38:07.147291+00:00",
+    "status": "cached",
+    "sha256": "fa583519d7cdc7501864e2ab9689a40e40eef9b3743a4a394722bb0d0d3f2450"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130222000038/entg-20220802.htm",
+    "path": "sources/earnings/ENTG_0001101302-22-000038.html",
+    "kind": "earnings 8-K",
+    "published": "2022-08-02",
+    "retrieved": "2026-09-20T10:38:07.416530+00:00",
+    "status": "cached",
+    "sha256": "301392129025cf3377247109507ec29fe73c116a00cf0327fed5e8f3b3f4c397"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130222000038/entgq22022ex991.htm",
+    "path": "sources/earnings/ENTG_0001101302-22-000038_release.html",
+    "kind": "earnings release",
+    "published": "2022-08-02",
+    "retrieved": "2026-09-20T10:38:07.706497+00:00",
+    "status": "cached",
+    "sha256": "f60338495d94d8456d36ceb9634271516d15b7d1a4d2f8c1f4fcd403118da8ea"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130222000021/entg-20220426.htm",
+    "path": "sources/earnings/ENTG_0001101302-22-000021.html",
+    "kind": "earnings 8-K",
+    "published": "2022-04-26",
+    "retrieved": "2026-09-20T10:38:07.984757+00:00",
+    "status": "cached",
+    "sha256": "74bec5e2dd9eb624bf907ec08621e4f8df6073818d576426be37f9863c72185e"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130222000021/entgq12022ex991.htm",
+    "path": "sources/earnings/ENTG_0001101302-22-000021_release.html",
+    "kind": "earnings release",
+    "published": "2022-04-26",
+    "retrieved": "2026-09-20T10:38:08.408234+00:00",
+    "status": "cached",
+    "sha256": "3bf56fc79bff2a2fa54149e1094cb1f435114efb8b7153d9260ac4c1ff155eb4"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130222000006/entg-20220201.htm",
+    "path": "sources/earnings/ENTG_0001101302-22-000006.html",
+    "kind": "earnings 8-K",
+    "published": "2022-02-01",
+    "retrieved": "2026-09-20T10:38:08.688569+00:00",
+    "status": "cached",
+    "sha256": "73a8e033b8e73cd213055a5d67136d39f14ad81a59dce7766655847602b4ff05"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130222000006/entgq42021ex991.htm",
+    "path": "sources/earnings/ENTG_0001101302-22-000006_release.html",
+    "kind": "earnings release",
+    "published": "2022-02-01",
+    "retrieved": "2026-09-20T10:38:08.874145+00:00",
+    "status": "cached",
+    "sha256": "8edb54a95341f2445ec8ede59bd0c2d137a7a9786d976e78543ac2e121f25c20"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130221000075/entg-20211026.htm",
+    "path": "sources/earnings/ENTG_0001101302-21-000075.html",
+    "kind": "earnings 8-K",
+    "published": "2021-10-26",
+    "retrieved": "2026-09-20T10:38:09.150090+00:00",
+    "status": "cached",
+    "sha256": "7c1bca3762398e69a85a7cae07df8110012f2711e7f95193892f9cd30a4ba3ee"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130221000075/entgq32021ex991.htm",
+    "path": "sources/earnings/ENTG_0001101302-21-000075_release.html",
+    "kind": "earnings release",
+    "published": "2021-10-26",
+    "retrieved": "2026-09-20T10:38:09.434308+00:00",
+    "status": "cached",
+    "sha256": "4de3cdc47b122fc84f640c9c012a22a1186198625aa6c92252aa6ba23fc812ef"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130221000064/entg-20210727.htm",
+    "path": "sources/earnings/ENTG_0001101302-21-000064.html",
+    "kind": "earnings 8-K",
+    "published": "2021-07-27",
+    "retrieved": "2026-09-20T10:38:09.727629+00:00",
+    "status": "cached",
+    "sha256": "1c05eba3a92742a4a2fe67a48221431138f7883c8920f8a05e246833554427cf"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130221000064/entgq22021ex991.htm",
+    "path": "sources/earnings/ENTG_0001101302-21-000064_release.html",
+    "kind": "earnings release",
+    "published": "2021-07-27",
+    "retrieved": "2026-09-20T10:38:10.019136+00:00",
+    "status": "cached",
+    "sha256": "1e16ed28fb66d16edc6515d9fd75b680a17f284b49918bba5f25ce1793f65c6c"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130221000036/entg-20210427.htm",
+    "path": "sources/earnings/ENTG_0001101302-21-000036.html",
+    "kind": "earnings 8-K",
+    "published": "2021-04-27",
+    "retrieved": "2026-09-20T10:38:10.302181+00:00",
+    "status": "cached",
+    "sha256": "6e7b6d7920a3350f993d402aad984e9d71099972932a4c72f302309d649cfd00"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130221000036/entgq12021ex991.htm",
+    "path": "sources/earnings/ENTG_0001101302-21-000036_release.html",
+    "kind": "earnings release",
+    "published": "2021-04-27",
+    "retrieved": "2026-09-20T10:38:10.589524+00:00",
+    "status": "cached",
+    "sha256": "5dc09945edf53384905e65313a890a94b82d479d331eee35ab7d996975a47df0"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130221000004/entg-20210202.htm",
+    "path": "sources/earnings/ENTG_0001101302-21-000004.html",
+    "kind": "earnings 8-K",
+    "published": "2021-02-02",
+    "retrieved": "2026-09-20T10:38:10.876324+00:00",
+    "status": "cached",
+    "sha256": "52eaee483968e6b89c6ecddbe3b5d503f1563409f0177bb6fc458a14dabfe663"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1101302/000110130221000004/entgq42020ex991.htm",
+    "path": "sources/earnings/ENTG_0001101302-21-000004_release.html",
+    "kind": "earnings release",
+    "published": "2021-02-02",
+    "retrieved": "2026-09-20T10:38:11.171263+00:00",
+    "status": "cached",
+    "sha256": "14f9ebe7d13b8b2aca533cc23517f06a5f72bca17e649a1c0df7144e90fba0c9"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000030/crs-20260730.htm",
+    "path": "sources/earnings/CRS_0000017843-26-000030.html",
+    "kind": "earnings 8-K",
+    "published": "2026-07-30",
+    "retrieved": "2026-09-20T10:38:11.343919+00:00",
+    "status": "cached",
+    "sha256": "915eee9c61e2a227bc9211a0f0d16bd122d54148418195dd1ad8b997f2625eb3"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000030/a4thqtr2026resultspressrel.htm",
+    "path": "sources/earnings/CRS_0000017843-26-000030_release.html",
+    "kind": "earnings release",
+    "published": "2026-07-30",
+    "retrieved": "2026-09-20T10:38:11.533295+00:00",
+    "status": "cached",
+    "sha256": "98f78b793a36c9dc240382df0eca276a20125cbde741060a9d6c9b3472615350"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000028/crs-20260730.htm",
+    "path": "sources/earnings/CRS_0000017843-26-000028.html",
+    "kind": "earnings 8-K",
+    "published": "2026-07-30",
+    "retrieved": "2026-09-20T10:38:11.714027+00:00",
+    "status": "cached",
+    "sha256": "454c4625b1d223643215c1d39fc09d7dcd9b29321f21c56d5f87bc714ac6aa5e"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000018/crs-20260429.htm",
+    "path": "sources/earnings/CRS_0000017843-26-000018.html",
+    "kind": "earnings 8-K",
+    "published": "2026-04-29",
+    "retrieved": "2026-09-20T10:38:11.983355+00:00",
+    "status": "cached",
+    "sha256": "ee1fb45c1b5257dfcac7cba00d3a4fe5f3cb1d754f74f6a008d2b7de8fe7b3cb"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000018/a3rdqtrfy2026results.htm",
+    "path": "sources/earnings/CRS_0000017843-26-000018_release.html",
+    "kind": "earnings release",
+    "published": "2026-04-29",
+    "retrieved": "2026-09-20T10:38:12.290841+00:00",
+    "status": "cached",
+    "sha256": "c4b271550bc4d760ae8e47aa867928adc3bb6cbf2cad84f1a67a2fad5de563d6"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000016/crs-20260429.htm",
+    "path": "sources/earnings/CRS_0000017843-26-000016.html",
+    "kind": "earnings 8-K",
+    "published": "2026-04-29",
+    "retrieved": "2026-09-20T10:38:12.566368+00:00",
+    "status": "cached",
+    "sha256": "66df4e3f34e2dc599851507654d10618a8decc44df82b9c7b6867029d56f47e2"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000007/crs-20260129.htm",
+    "path": "sources/earnings/CRS_0000017843-26-000007.html",
+    "kind": "earnings 8-K",
+    "published": "2026-01-29",
+    "retrieved": "2026-09-20T10:38:13.480073+00:00",
+    "status": "cached",
+    "sha256": "83c72f1d3f669b0d5ef9fbc9507f471e8b807cdbb680890896b53ea79a2ba561"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000007/a2ndqtrfy2026results.htm",
+    "path": "sources/earnings/CRS_0000017843-26-000007_release.html",
+    "kind": "earnings release",
+    "published": "2026-01-29",
+    "retrieved": "2026-09-20T10:38:13.777754+00:00",
+    "status": "cached",
+    "sha256": "c6d6479d5a55348945f0c12c37615501e1fc71e53b9124c88dd62accaee9d359"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000005/crs-20260129.htm",
+    "path": "sources/earnings/CRS_0000017843-26-000005.html",
+    "kind": "earnings 8-K",
+    "published": "2026-01-29",
+    "retrieved": "2026-09-20T10:38:14.059678+00:00",
+    "status": "cached",
+    "sha256": "1cf7432c925a301e968850580e6cf6af6f202836660bd13cecdc073ca5c212eb"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784325000034/crs-20251023.htm",
+    "path": "sources/earnings/CRS_0000017843-25-000034.html",
+    "kind": "earnings 8-K",
+    "published": "2025-10-23",
+    "retrieved": "2026-09-20T10:38:14.338571+00:00",
+    "status": "cached",
+    "sha256": "c9196fdd5f1027ce172b20f92c7a7f2b4a0a03d51f7d4d32d5e18a6602424a58"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784325000031/crs-20251023.htm",
+    "path": "sources/earnings/CRS_0000017843-25-000031.html",
+    "kind": "earnings 8-K",
+    "published": "2025-10-23",
+    "retrieved": "2026-09-20T10:38:14.639420+00:00",
+    "status": "cached",
+    "sha256": "f463ecb63b942f6adf3ca6024ab4c47199e10000ab63bb99ba98927b6f916058"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784325000031/crs1stqtrfy2026resultsfinal.htm",
+    "path": "sources/earnings/CRS_0000017843-25-000031_release.html",
+    "kind": "earnings release",
+    "published": "2025-10-23",
+    "retrieved": "2026-09-20T10:38:15.126435+00:00",
+    "status": "cached",
+    "sha256": "5bd5e43d0bdad1e50557fb7cf784d14bed1c7dc69b201437b8d4b4f5aca8a0d6"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312525174452/d78576d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-25-174452.html",
+    "kind": "earnings 8-K",
+    "published": "2025-08-06",
+    "retrieved": "2026-09-20T10:38:15.446977+00:00",
+    "status": "cached",
+    "sha256": "97e53cb3816d1bb5c2fb9d2a6482febc1651c7feab791b332a84e9ed7fd7504d"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312525174452/d78576dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-25-174452_release.html",
+    "kind": "earnings release",
+    "published": "2025-08-06",
+    "retrieved": "2026-09-20T10:38:15.801584+00:00",
+    "status": "cached",
+    "sha256": "0c917b808dc2b5982616f2c1a3ec1f204d66eff99b6d490028f4a517180a5395"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312525174450/d80170d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-25-174450.html",
+    "kind": "earnings 8-K",
+    "published": "2025-08-06",
+    "retrieved": "2026-09-20T10:38:16.111866+00:00",
+    "status": "cached",
+    "sha256": "c1e27646824c8651e10622e9fdef4da6234f7fa58392581c8e3bf03bf76b2d4b"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312525174450/d80170dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-25-174450_release.html",
+    "kind": "earnings release",
+    "published": "2025-08-06",
+    "retrieved": "2026-09-20T10:38:16.390933+00:00",
+    "status": "cached",
+    "sha256": "040768d2c550c02ae4f696291659e1ff97b8f1426516bbf7759f680683bca582"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312525103787/d807987d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-25-103787.html",
+    "kind": "earnings 8-K",
+    "published": "2025-04-29",
+    "retrieved": "2026-09-20T10:38:16.679815+00:00",
+    "status": "cached",
+    "sha256": "362e25ceeaf81775dc4599fe589e111f09b589ca0be23ea132363dff81afd9df"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312525103787/d807987dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-25-103787_release.html",
+    "kind": "earnings release",
+    "published": "2025-04-29",
+    "retrieved": "2026-09-20T10:38:16.961169+00:00",
+    "status": "cached",
+    "sha256": "324e11e5e9100e0287a0c3924381eb7c82b388ab7de299238d552a7450c6c12d"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312525103769/d809330d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-25-103769.html",
+    "kind": "earnings 8-K",
+    "published": "2025-04-29",
+    "retrieved": "2026-09-20T10:38:17.130041+00:00",
+    "status": "cached",
+    "sha256": "aea0544f7ca25ea89e8db69f7db56c939b5b61d44f9edd26410eba7740759fad"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312525103769/d809330dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-25-103769_release.html",
+    "kind": "earnings release",
+    "published": "2025-04-29",
+    "retrieved": "2026-09-20T10:38:17.418859+00:00",
+    "status": "cached",
+    "sha256": "a58367efd919827d915161f40e878df270e2d1825490504f89fa23b0bc0ccfdc"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312525019386/d901198d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-25-019386.html",
+    "kind": "earnings 8-K",
+    "published": "2025-02-03",
+    "retrieved": "2026-09-20T10:38:17.724348+00:00",
+    "status": "cached",
+    "sha256": "fd116918f85006fbd2930e66851409c32960e43fe7c4ceb9b4867cd299e069b4"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312525019386/d901198dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-25-019386_release.html",
+    "kind": "earnings release",
+    "published": "2025-02-03",
+    "retrieved": "2026-09-20T10:38:18.015475+00:00",
+    "status": "cached",
+    "sha256": "e9ae1cb0c2fa7dbfb63304876ea08a457790aa27719b0a4bd8e6ba3efdc76633"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312525019378/d899171d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-25-019378.html",
+    "kind": "earnings 8-K",
+    "published": "2025-02-03",
+    "retrieved": "2026-09-20T10:38:18.282171+00:00",
+    "status": "cached",
+    "sha256": "a89951adf8bbb4d8adec82400a4999edf93a456ef6ad9749bf84a2a5c3ab68ca"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312525019378/d899171dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-25-019378_release.html",
+    "kind": "earnings release",
+    "published": "2025-02-03",
+    "retrieved": "2026-09-20T10:38:18.547848+00:00",
+    "status": "cached",
+    "sha256": "92a57bfbfff8bf676c94d2e015257605bb963f344bf7d89cb11d2fae64909cb1"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312524246616/d901819d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-24-246616.html",
+    "kind": "earnings 8-K",
+    "published": "2024-10-29",
+    "retrieved": "2026-09-20T10:38:18.815499+00:00",
+    "status": "cached",
+    "sha256": "b2c1bce8c01e2130cadd5012dcfae91e66c814dc7363199c367de92175042793"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312524246616/d901819dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-24-246616_release.html",
+    "kind": "earnings release",
+    "published": "2024-10-29",
+    "retrieved": "2026-09-20T10:38:19.091478+00:00",
+    "status": "cached",
+    "sha256": "e55a4d77ee483536f433fd90be5fff6ccc6711e6371404945a3df66b6d6581f1"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312524246614/d899707d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-24-246614.html",
+    "kind": "earnings 8-K",
+    "published": "2024-10-29",
+    "retrieved": "2026-09-20T10:38:19.376899+00:00",
+    "status": "cached",
+    "sha256": "c5518e2ba5a4fcbb8cdbf165c71029e746a6abbf4078604e0de5efb812ad3dfd"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312524246614/d899707dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-24-246614_release.html",
+    "kind": "earnings release",
+    "published": "2024-10-29",
+    "retrieved": "2026-09-20T10:38:19.651416+00:00",
+    "status": "cached",
+    "sha256": "196189ae0a7563cc13f1e3f16b670ba83b5055b357ca6ebb57ccb2304641a17e"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312524187545/d873646d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-24-187545.html",
+    "kind": "earnings 8-K",
+    "published": "2024-07-29",
+    "retrieved": "2026-09-20T10:38:19.914543+00:00",
+    "status": "cached",
+    "sha256": "754366a773d757cabd2682ca74ab30c8bee81e2cbb578fba06c294fb03c2c122"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312524187545/d873646dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-24-187545_release.html",
+    "kind": "earnings release",
+    "published": "2024-07-29",
+    "retrieved": "2026-09-20T10:38:20.182765+00:00",
+    "status": "cached",
+    "sha256": "5fa89567187efc3903beca0798a8933625da268248639ea7c46904afd9d25ff8"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312524187540/d817637d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-24-187540.html",
+    "kind": "earnings 8-K",
+    "published": "2024-07-29",
+    "retrieved": "2026-09-20T10:38:20.459919+00:00",
+    "status": "cached",
+    "sha256": "c4d83b376170f4d6aac72406e181ff7f7666c7bb348d9e8fb46710a80a748fae"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312524187540/d817637dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-24-187540_release.html",
+    "kind": "earnings release",
+    "published": "2024-07-29",
+    "retrieved": "2026-09-20T10:38:20.736795+00:00",
+    "status": "cached",
+    "sha256": "f73334eb1106c7b0969aec66eee695f4355e0b5d41366770bc2b1f0ca3f5b39c"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312524130676/d825973d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-24-130676.html",
+    "kind": "earnings 8-K",
+    "published": "2024-05-03",
+    "retrieved": "2026-09-20T10:38:21.036182+00:00",
+    "status": "cached",
+    "sha256": "6184b050dab4b5e95bcb60673a15a1e4a9213d843c536e2f48114c26361dafac"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312524130676/d825973dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-24-130676_release.html",
+    "kind": "earnings release",
+    "published": "2024-05-03",
+    "retrieved": "2026-09-20T10:38:21.326509+00:00",
+    "status": "cached",
+    "sha256": "dafa54ffc1c8ba51d92dddc8a3d68b7d13d519f0ab59ee10e2f79f37df3a7ed0"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312524130672/d631283d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-24-130672.html",
+    "kind": "earnings 8-K",
+    "published": "2024-05-03",
+    "retrieved": "2026-09-20T10:38:21.586224+00:00",
+    "status": "cached",
+    "sha256": "eb0ce9c8f4bda33f0e77effb9632c4be7e80e790b2d2e37df60d035f6efc35e7"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312524130672/d631283dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-24-130672_release.html",
+    "kind": "earnings release",
+    "published": "2024-05-03",
+    "retrieved": "2026-09-20T10:38:21.885652+00:00",
+    "status": "cached",
+    "sha256": "d0ed81ad152ae96b02c606635c34760a058f8b84c8a339a62db8c64f004f5fea"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312524018118/d917906d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-24-018118.html",
+    "kind": "earnings 8-K",
+    "published": "2024-01-29",
+    "retrieved": "2026-09-20T10:38:22.141271+00:00",
+    "status": "cached",
+    "sha256": "fd30ed553b8088e9037201f1530969710fe428c38eda6b721af0936f5d06d35c"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312524018118/d917906dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-24-018118_release.html",
+    "kind": "earnings release",
+    "published": "2024-01-29",
+    "retrieved": "2026-09-20T10:38:22.452119+00:00",
+    "status": "cached",
+    "sha256": "c6816da283e8c429ea852c6a1ec99eee331296327320cc8f7add28bce411d7a0"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312524018111/d890653d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-24-018111.html",
+    "kind": "earnings 8-K",
+    "published": "2024-01-29",
+    "retrieved": "2026-09-20T10:38:22.736677+00:00",
+    "status": "cached",
+    "sha256": "a4e196f6c5724a3f8f29d5cab33512401ce24dba9c601c20de70fc9c6df4dd4a"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312524018111/d890653dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-24-018111_release.html",
+    "kind": "earnings release",
+    "published": "2024-01-29",
+    "retrieved": "2026-09-20T10:38:23.148326+00:00",
+    "status": "cached",
+    "sha256": "a38ae84f582691ea67b2b33f82aa2f4bcd232c7ad10d5ac8a3651ab7f3a975f6"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312523267222/d543191d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-23-267222.html",
+    "kind": "earnings 8-K",
+    "published": "2023-10-31",
+    "retrieved": "2026-09-20T10:38:23.496887+00:00",
+    "status": "cached",
+    "sha256": "5bd06418c976192b5ab9ea46dbadda6acc9b7aa673dfddfc4c57eb19f407cd53"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312523267222/d543191dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-23-267222_release.html",
+    "kind": "earnings release",
+    "published": "2023-10-31",
+    "retrieved": "2026-09-20T10:38:23.936088+00:00",
+    "status": "cached",
+    "sha256": "eeec20e5ec5fea78dbc6b4d0a21848311eb5cff93b99d0b8abc4438c6211a757"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312523267221/d549448d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-23-267221.html",
+    "kind": "earnings 8-K",
+    "published": "2023-10-31",
+    "retrieved": "2026-09-20T10:38:24.302180+00:00",
+    "status": "cached",
+    "sha256": "3d4e74e4d649f7fcb462bf595d0dc0c4936e33fd75857990e73b8ac06da1e1b4"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312523267221/d549448dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-23-267221_release.html",
+    "kind": "earnings release",
+    "published": "2023-10-31",
+    "retrieved": "2026-09-20T10:38:24.685332+00:00",
+    "status": "cached",
+    "sha256": "09935600d4d4a0c72c39b425c44246f566d807eedc3894dc67460be476097987"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312523199107/d469319d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-23-199107.html",
+    "kind": "earnings 8-K",
+    "published": "2023-07-31",
+    "retrieved": "2026-09-20T10:38:24.989023+00:00",
+    "status": "cached",
+    "sha256": "68338df970f0576973171ab7f937b1b7df9f583645f7684199b9d0490a6c5560"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312523199107/d469319dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-23-199107_release.html",
+    "kind": "earnings release",
+    "published": "2023-07-31",
+    "retrieved": "2026-09-20T10:38:25.451656+00:00",
+    "status": "cached",
+    "sha256": "dd52e7f92cbafc64d950a2f1493f7b7ffd7fda975e6189225253a4dc1852fd84"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312523199106/d511145d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-23-199106.html",
+    "kind": "earnings 8-K",
+    "published": "2023-07-31",
+    "retrieved": "2026-09-20T10:38:25.825074+00:00",
+    "status": "cached",
+    "sha256": "532eb03a3fe6404b4d0930c544a6cc19284e8452139c01bdf16a438bcc5d597b"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312523199106/d511145dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-23-199106_release.html",
+    "kind": "earnings release",
+    "published": "2023-07-31",
+    "retrieved": "2026-09-20T10:38:26.113274+00:00",
+    "status": "cached",
+    "sha256": "42c7d870aac9d57f223bf366c477b829c5b23ae9ff9077fdfad01d8c6c1f9649"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312523130466/d383627d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-23-130466.html",
+    "kind": "earnings 8-K",
+    "published": "2023-05-01",
+    "retrieved": "2026-09-20T10:38:26.469542+00:00",
+    "status": "cached",
+    "sha256": "6feb6719f3863d1f462cc8dd6fa49c2233f3f7af8bae646e2093b7f986d2f72a"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312523130466/d383627dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-23-130466_release.html",
+    "kind": "earnings release",
+    "published": "2023-05-01",
+    "retrieved": "2026-09-20T10:38:26.884959+00:00",
+    "status": "cached",
+    "sha256": "4459f8b07a46201b1c0015b6731e26ac641fea22ce5e14a93da8f3afc0b75be8"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312523130465/d439871d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-23-130465.html",
+    "kind": "earnings 8-K",
+    "published": "2023-05-01",
+    "retrieved": "2026-09-20T10:38:27.253628+00:00",
+    "status": "cached",
+    "sha256": "7a6a985e1996c00879cc889948a9a0282f04c116fde575fb4c785b30f597e2b7"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312523130465/d439871dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-23-130465_release.html",
+    "kind": "earnings release",
+    "published": "2023-05-01",
+    "retrieved": "2026-09-20T10:38:27.476529+00:00",
+    "status": "cached",
+    "sha256": "4640f93bc323f088f22ef30953a52f80d07d6b9084cb85e8bbd67fbd2feec6d4"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312523017580/d342851d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-23-017580.html",
+    "kind": "earnings 8-K",
+    "published": "2023-01-27",
+    "retrieved": "2026-09-20T10:38:27.789168+00:00",
+    "status": "cached",
+    "sha256": "e738c7e1de944cb1a5b624d4fe67c60b5268acd2c76c77cd6698ba18b4ac8513"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312523017580/d342851dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-23-017580_release.html",
+    "kind": "earnings release",
+    "published": "2023-01-27",
+    "retrieved": "2026-09-20T10:38:28.091524+00:00",
+    "status": "cached",
+    "sha256": "21ca5b612a4b9accca52d02f564881fe269643adb9da831f544b7582fdd0b7e7"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312523017576/d405718d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-23-017576.html",
+    "kind": "earnings 8-K",
+    "published": "2023-01-27",
+    "retrieved": "2026-09-20T10:38:28.376491+00:00",
+    "status": "cached",
+    "sha256": "bad51b70b1f9f3bea728843520044735f684a4d4a7945ca14be1cc4f183c0d12"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312523017576/d405718dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-23-017576_release.html",
+    "kind": "earnings release",
+    "published": "2023-01-27",
+    "retrieved": "2026-09-20T10:38:28.712670+00:00",
+    "status": "cached",
+    "sha256": "e8234f284093aa077240d3b9c5036b0484c165ec0c25edf4f547a4d9d2eaeee4"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312522275056/d415706d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-22-275056.html",
+    "kind": "earnings 8-K",
+    "published": "2022-11-01",
+    "retrieved": "2026-09-20T10:38:29.098267+00:00",
+    "status": "cached",
+    "sha256": "b7fad0f126e8172143cb76c086145f5c75132c276726e9ea555c1f733eea91fc"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312522275056/d415706dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-22-275056_release.html",
+    "kind": "earnings release",
+    "published": "2022-11-01",
+    "retrieved": "2026-09-20T10:38:29.535776+00:00",
+    "status": "cached",
+    "sha256": "d17165c8f006fb886dfe078c695767be5da20df91810820d16b24912a349946f"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312522275047/d418712d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-22-275047.html",
+    "kind": "earnings 8-K",
+    "published": "2022-11-01",
+    "retrieved": "2026-09-20T10:38:29.808510+00:00",
+    "status": "cached",
+    "sha256": "153963af5c4e3304d3b877545d297f758f3e98eeed5ef0146f89ac2e06f4443e"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312522275047/d418712dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-22-275047_release.html",
+    "kind": "earnings release",
+    "published": "2022-11-01",
+    "retrieved": "2026-09-20T10:38:30.086135+00:00",
+    "status": "cached",
+    "sha256": "f14ebf22f99ca1785810045159fcfd9a7516503aa65a6aa98cc6f03e0b650386"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312522262260/d381569d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-22-262260.html",
+    "kind": "earnings 8-K",
+    "published": "2022-10-13",
+    "retrieved": "2026-09-20T10:38:30.494720+00:00",
+    "status": "cached",
+    "sha256": "0f3efb5108c1cfa8a3eca8b9b59fdf44ae496814571f6383bc5bcf9a1572ff63"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312522262260/d381569dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-22-262260_release.html",
+    "kind": "earnings release",
+    "published": "2022-10-13",
+    "retrieved": "2026-09-20T10:38:30.766193+00:00",
+    "status": "cached",
+    "sha256": "d26229f05666df303c238bfbc405f188d4a4e91d2102f44081696d32aa8c34b9"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312522209829/d369415d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-22-209829.html",
+    "kind": "earnings 8-K",
+    "published": "2022-08-02",
+    "retrieved": "2026-09-20T10:38:31.162655+00:00",
+    "status": "cached",
+    "sha256": "430f08ef06ac41660001c78a9c5e46db9143ac6d20a0dd84fab8d704cfcaa7e3"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312522209829/d369415dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-22-209829_release.html",
+    "kind": "earnings release",
+    "published": "2022-08-02",
+    "retrieved": "2026-09-20T10:38:31.586063+00:00",
+    "status": "cached",
+    "sha256": "91ecd325601cd185ee98fc3e53644e9950bf5d61cc63cacd1d13ae563bcd1a9f"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312522209798/d385150d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-22-209798.html",
+    "kind": "earnings 8-K",
+    "published": "2022-08-02",
+    "retrieved": "2026-09-20T10:38:31.872669+00:00",
+    "status": "cached",
+    "sha256": "e60304bee725f370ca2050f58a7664b60195051f33188e6bf90cd6f0e492cf0a"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312522209798/d385150dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-22-209798_release.html",
+    "kind": "earnings release",
+    "published": "2022-08-02",
+    "retrieved": "2026-09-20T10:38:32.158023+00:00",
+    "status": "cached",
+    "sha256": "ae532f7da82abc8b175a6ad1df57229b21d92f79a260a4790367c5b24b554c4c"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312522133041/d766378d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-22-133041.html",
+    "kind": "earnings 8-K",
+    "published": "2022-04-29",
+    "retrieved": "2026-09-20T10:38:32.539092+00:00",
+    "status": "cached",
+    "sha256": "4e54cbbbe725d8dca812ed6e755a4c4fca3c87ce78221dce36c804fc59c3d4f4"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312522133041/d766378dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-22-133041_release.html",
+    "kind": "earnings release",
+    "published": "2022-04-29",
+    "retrieved": "2026-09-20T10:38:32.893257+00:00",
+    "status": "cached",
+    "sha256": "46176ea48957ba7d3f8695aecd07bac0ceb700fe6bf091359d1d1221799306cb"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312522132928/d766354d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-22-132928.html",
+    "kind": "earnings 8-K",
+    "published": "2022-04-29",
+    "retrieved": "2026-09-20T10:38:33.354337+00:00",
+    "status": "cached",
+    "sha256": "4be432dc6ce2582a4168b62db0e23378724f10ece6b159f517e5db70536e0359"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312522132928/d766354dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-22-132928_release.html",
+    "kind": "earnings release",
+    "published": "2022-04-29",
+    "retrieved": "2026-09-20T10:38:33.642982+00:00",
+    "status": "cached",
+    "sha256": "9fe89cedb3849ab5a2fd9898e9f7694da664970282a693465e1ba598c26a9757"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312522027079/d262603d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-22-027079.html",
+    "kind": "earnings 8-K",
+    "published": "2022-02-03",
+    "retrieved": "2026-09-20T10:38:34.029772+00:00",
+    "status": "cached",
+    "sha256": "2fcbe0b5c1c11fa152ff66c60edbf22a260723f1e250d82431a792cf5c36f77f"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312522027079/d262603dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-22-027079_release.html",
+    "kind": "earnings release",
+    "published": "2022-02-03",
+    "retrieved": "2026-09-20T10:38:34.477458+00:00",
+    "status": "cached",
+    "sha256": "4de5eb17b922dedc469416041873dd77a00266ff9f500eec114c9399987c2cc3"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312522026962/d286593d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-22-026962.html",
+    "kind": "earnings 8-K",
+    "published": "2022-02-03",
+    "retrieved": "2026-09-20T10:38:34.918543+00:00",
+    "status": "cached",
+    "sha256": "4192bb1b94f0eafca2fe5adc55efaf6782b35f682727ae1a4ace6a41de44a66d"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312522026962/d286593dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-22-026962_release.html",
+    "kind": "earnings release",
+    "published": "2022-02-03",
+    "retrieved": "2026-09-20T10:38:35.341806+00:00",
+    "status": "cached",
+    "sha256": "c03c6e06ed136f318970760fe1295ecdffa2e1c9acf4991f8d2acbf738bb64e8"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312521311250/d250803d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-21-311250.html",
+    "kind": "earnings 8-K",
+    "published": "2021-10-28",
+    "retrieved": "2026-09-20T10:38:35.620190+00:00",
+    "status": "cached",
+    "sha256": "acda291922c87a3079e0f4a055d15d2f8d2aecd0d8b1d4132842bbdefdefb00a"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312521311250/d250803dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-21-311250_release.html",
+    "kind": "earnings release",
+    "published": "2021-10-28",
+    "retrieved": "2026-09-20T10:38:35.905960+00:00",
+    "status": "cached",
+    "sha256": "76d86dae3fac2404e9cb8f7f83753894679bc20974454c7fa85d3e18bc57a7cb"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312521311248/d247726d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-21-311248.html",
+    "kind": "earnings 8-K",
+    "published": "2021-10-28",
+    "retrieved": "2026-09-20T10:38:36.189049+00:00",
+    "status": "cached",
+    "sha256": "2a4782b391b54bef3c7b6e6e7ee73561a6666b2cba288f546346bd4c4e8737b8"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312521311248/d247726dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-21-311248_release.html",
+    "kind": "earnings release",
+    "published": "2021-10-28",
+    "retrieved": "2026-09-20T10:38:36.471306+00:00",
+    "status": "cached",
+    "sha256": "b0c4719f3fe02cafa6c53e59fcca31f3fd1d3aa446b680e76c46733dd031d784"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312521230653/d201506d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-21-230653.html",
+    "kind": "earnings 8-K",
+    "published": "2021-07-30",
+    "retrieved": "2026-09-20T10:38:36.741765+00:00",
+    "status": "cached",
+    "sha256": "8acf315f2ff8193d0944c668b69f2e4b6b96db70578d61010153f38b50c650f9"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312521230653/d201506dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-21-230653_release.html",
+    "kind": "earnings release",
+    "published": "2021-07-30",
+    "retrieved": "2026-09-20T10:38:37.016452+00:00",
+    "status": "cached",
+    "sha256": "c8e3d620ea357e78c1189a84cf85f95763d410d90d4fd11647e4ece79e19e2d6"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312521230646/d201492d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-21-230646.html",
+    "kind": "earnings 8-K",
+    "published": "2021-07-30",
+    "retrieved": "2026-09-20T10:38:37.305390+00:00",
+    "status": "cached",
+    "sha256": "89920082e5936f07430b65c394e30ad1089233a37ef8f10f4c66a0377bb6fc83"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312521230646/d201492dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-21-230646_release.html",
+    "kind": "earnings release",
+    "published": "2021-07-30",
+    "retrieved": "2026-09-20T10:38:37.586768+00:00",
+    "status": "cached",
+    "sha256": "1f80fcc567568df258270d4bc3930d941867e0254c9a236934d04b20af6e2b88"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312521143444/d184196d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-21-143444.html",
+    "kind": "earnings 8-K",
+    "published": "2021-04-30",
+    "retrieved": "2026-09-20T10:38:37.869692+00:00",
+    "status": "cached",
+    "sha256": "4ff2ae7bd2580557c88ab52ecfc0e315c004694c77469d0b3d4e5b6cebfb049f"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312521143444/d184196dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-21-143444_release.html",
+    "kind": "earnings release",
+    "published": "2021-04-30",
+    "retrieved": "2026-09-20T10:38:38.152681+00:00",
+    "status": "cached",
+    "sha256": "3a0c6232dde8382da61ca3b14efa3472ebc2c39f6d4e53699ad479454ade63d8"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312521143405/d183656d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-21-143405.html",
+    "kind": "earnings 8-K",
+    "published": "2021-04-30",
+    "retrieved": "2026-09-20T10:38:38.433543+00:00",
+    "status": "cached",
+    "sha256": "9306f568e7e83c1fae0dfed419254ef7e7658c688675daf56ecac991f2cb236d"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312521143405/d183656dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-21-143405_release.html",
+    "kind": "earnings release",
+    "published": "2021-04-30",
+    "retrieved": "2026-09-20T10:38:38.708761+00:00",
+    "status": "cached",
+    "sha256": "e0aeb78a0e927f0f839191be1d6bbb85b31e27c376298d3115b7b63a7437f321"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312521022699/d104186d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-21-022699.html",
+    "kind": "earnings 8-K",
+    "published": "2021-01-29",
+    "retrieved": "2026-09-20T10:38:39.046152+00:00",
+    "status": "cached",
+    "sha256": "92e3e96c6f0b5ea6baba0f75a39b87ec90b7c30f35c6d3398e4a06ac2cf18a4f"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312521022699/d104186dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-21-022699_release.html",
+    "kind": "earnings release",
+    "published": "2021-01-29",
+    "retrieved": "2026-09-20T10:38:39.342712+00:00",
+    "status": "cached",
+    "sha256": "88439dcef4637dd5f325eccf955d18738374072e7f01e126d55f09126fb7370f"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312521022687/d105662d8k.htm",
+    "path": "sources/earnings/CRS_0001193125-21-022687.html",
+    "kind": "earnings 8-K",
+    "published": "2021-01-29",
+    "retrieved": "2026-09-20T10:38:39.623194+00:00",
+    "status": "cached",
+    "sha256": "9abf2f01838963a366e491c9767c68397d2589df75210ffda4721551c2676032"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000119312521022687/d105662dex991.htm",
+    "path": "sources/earnings/CRS_0001193125-21-022687_release.html",
+    "kind": "earnings release",
+    "published": "2021-01-29",
+    "retrieved": "2026-09-20T10:38:39.937357+00:00",
+    "status": "cached",
+    "sha256": "33ef767aa921445818ca4ccb9a221f9b7fbc3bc57e2683727f95f36eb5af6d14"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828026053856/ati-20260806.htm",
+    "path": "sources/earnings/ATI_0001628280-26-053856.html",
+    "kind": "earnings 8-K",
+    "published": "2026-08-06",
+    "retrieved": "2026-09-20T10:38:40.122537+00:00",
+    "status": "cached",
+    "sha256": "448be4b074f6076d3d1dea9936397be28864dbe514a70c4a9d67c24e67bf8589"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828026053856/form8-kq22026ex991.htm",
+    "path": "sources/earnings/ATI_0001628280-26-053856_release.html",
+    "kind": "earnings release",
+    "published": "2026-08-06",
+    "retrieved": "2026-09-20T10:38:40.423469+00:00",
+    "status": "cached",
+    "sha256": "74dcf6580348578904b8caa947695b0be1bac38f7db1c1917d79a2e2366723a9"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828026028589/ati-20260430.htm",
+    "path": "sources/earnings/ATI_0001628280-26-028589.html",
+    "kind": "earnings 8-K",
+    "published": "2026-04-30",
+    "retrieved": "2026-09-20T10:38:40.619051+00:00",
+    "status": "cached",
+    "sha256": "176dbe117e72f0945a20c8e229c40a8d07d3a362747cdbc74c825699bb65a7d6"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828026028589/form8-kq12026ex991.htm",
+    "path": "sources/earnings/ATI_0001628280-26-028589_release.html",
+    "kind": "earnings release",
+    "published": "2026-04-30",
+    "retrieved": "2026-09-20T10:38:40.819931+00:00",
+    "status": "cached",
+    "sha256": "19bd946e924cd0a81aa5edb606297336504c684032d933910079e4c0a2fc463c"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828026004793/ati-20260203.htm",
+    "path": "sources/earnings/ATI_0001628280-26-004793.html",
+    "kind": "earnings 8-K",
+    "published": "2026-02-03",
+    "retrieved": "2026-09-20T10:38:41.019825+00:00",
+    "status": "cached",
+    "sha256": "0c19c133e4e5133e3d65aec2d381b96a0f98fe9e85942b8d25a1cf6f9228bb42"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828026004793/form8-kq42025ex991.htm",
+    "path": "sources/earnings/ATI_0001628280-26-004793_release.html",
+    "kind": "earnings release",
+    "published": "2026-02-03",
+    "retrieved": "2026-09-20T10:38:41.318326+00:00",
+    "status": "cached",
+    "sha256": "628739f513b37d735214e27cef91e3d1bc09440a170637ddae9043abae02fe6d"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828025046559/ati-20251028.htm",
+    "path": "sources/earnings/ATI_0001628280-25-046559.html",
+    "kind": "earnings 8-K",
+    "published": "2025-10-28",
+    "retrieved": "2026-09-20T10:38:41.587057+00:00",
+    "status": "cached",
+    "sha256": "1c06513b2a8e8690bb64162baa2f4a160619029daa11c817df8d5b39153e4707"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828025046559/form8-kq32025ex991.htm",
+    "path": "sources/earnings/ATI_0001628280-25-046559_release.html",
+    "kind": "earnings release",
+    "published": "2025-10-28",
+    "retrieved": "2026-09-20T10:38:41.988475+00:00",
+    "status": "cached",
+    "sha256": "ef1cf282933fb7a90c8599a6492e33dfc27d8ea339b447bccfb7cfd081413d66"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828025036845/ati-20250731.htm",
+    "path": "sources/earnings/ATI_0001628280-25-036845.html",
+    "kind": "earnings 8-K",
+    "published": "2025-07-31",
+    "retrieved": "2026-09-20T10:38:42.276267+00:00",
+    "status": "cached",
+    "sha256": "89f5672175b734454ee4fdac9e13466bf6c5d8d3041ff75279fca7900409b844"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828025036845/form8-kq22025ex991.htm",
+    "path": "sources/earnings/ATI_0001628280-25-036845_release.html",
+    "kind": "earnings release",
+    "published": "2025-07-31",
+    "retrieved": "2026-09-20T10:38:42.612322+00:00",
+    "status": "cached",
+    "sha256": "15d01ffa77a1e41de5f181e8967fe5d1801eadd2190c3ad773961abcdf61bbdf"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828025021324/ati-20250501.htm",
+    "path": "sources/earnings/ATI_0001628280-25-021324.html",
+    "kind": "earnings 8-K",
+    "published": "2025-05-01",
+    "retrieved": "2026-09-20T10:38:42.909220+00:00",
+    "status": "cached",
+    "sha256": "ff1f43e31e53dc9946c65d8fd273df509eb961e44de3e915a8fde2f6aa9e12a1"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828025021324/form8-kq12025ex991.htm",
+    "path": "sources/earnings/ATI_0001628280-25-021324_release.html",
+    "kind": "earnings release",
+    "published": "2025-05-01",
+    "retrieved": "2026-09-20T10:38:43.144220+00:00",
+    "status": "cached",
+    "sha256": "cb138ce9e427ed31c31556030a3a64c25736587fb3ba0eb80c6c5d069ebcbe33"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828025003579/ati-20250204.htm",
+    "path": "sources/earnings/ATI_0001628280-25-003579.html",
+    "kind": "earnings 8-K",
+    "published": "2025-02-04",
+    "retrieved": "2026-09-20T10:38:43.514444+00:00",
+    "status": "cached",
+    "sha256": "ffc7d38dfe29df5d2a5baf76f99868126b1c8149bd63384f2819948044063cd9"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828025003579/form8-kq42024ex991.htm",
+    "path": "sources/earnings/ATI_0001628280-25-003579_release.html",
+    "kind": "earnings release",
+    "published": "2025-02-04",
+    "retrieved": "2026-09-20T10:38:43.879972+00:00",
+    "status": "cached",
+    "sha256": "f503586bc44ed432291f75457bc4e32811d9a52bd754956ab99b456d8b1b5607"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828024044003/ati-20241029.htm",
+    "path": "sources/earnings/ATI_0001628280-24-044003.html",
+    "kind": "earnings 8-K",
+    "published": "2024-10-29",
+    "retrieved": "2026-09-20T10:38:44.161785+00:00",
+    "status": "cached",
+    "sha256": "6a15ac230ab5658f143d84b71b59ff5d5893c9c33f259a175b3b8cf68b272c70"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828024044003/form8-kq32024ex991.htm",
+    "path": "sources/earnings/ATI_0001628280-24-044003_release.html",
+    "kind": "earnings release",
+    "published": "2024-10-29",
+    "retrieved": "2026-09-20T10:38:44.356051+00:00",
+    "status": "cached",
+    "sha256": "05bae2ff9e5b446255af307f6528aa3bc7b858d168e5bef3754950cbf07f2280"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828024034973/ati-20240806.htm",
+    "path": "sources/earnings/ATI_0001628280-24-034973.html",
+    "kind": "earnings 8-K",
+    "published": "2024-08-06",
+    "retrieved": "2026-09-20T10:38:44.627923+00:00",
+    "status": "cached",
+    "sha256": "a2affa7eac6ed8daa5a0a03d527c42583714ac78bbccbbb3c344e10de0d7cf40"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828024034973/form8-kq22024ex991.htm",
+    "path": "sources/earnings/ATI_0001628280-24-034973_release.html",
+    "kind": "earnings release",
+    "published": "2024-08-06",
+    "retrieved": "2026-09-20T10:38:44.812581+00:00",
+    "status": "cached",
+    "sha256": "936ae07ab925da1be0a895b7db0614d2cb5d17c2f9ecd7c37c94c9bf91e637fa"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828024019185/ati-20240430.htm",
+    "path": "sources/earnings/ATI_0001628280-24-019185.html",
+    "kind": "earnings 8-K",
+    "published": "2024-04-30",
+    "retrieved": "2026-09-20T10:38:45.081644+00:00",
+    "status": "cached",
+    "sha256": "d5d226a418ed253023c1723fa27f7d826880df8bbdd81b09880540167f38d2de"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828024019185/form8-kq12024ex991.htm",
+    "path": "sources/earnings/ATI_0001628280-24-019185_release.html",
+    "kind": "earnings release",
+    "published": "2024-04-30",
+    "retrieved": "2026-09-20T10:38:45.271998+00:00",
+    "status": "cached",
+    "sha256": "3158271fbb13cf27c30843d26e4f8a51e77b81e4e84527df5269b2ea7983f368"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828024002807/ati-20240201.htm",
+    "path": "sources/earnings/ATI_0001628280-24-002807.html",
+    "kind": "earnings 8-K",
+    "published": "2024-02-01",
+    "retrieved": "2026-09-20T10:38:45.544716+00:00",
+    "status": "cached",
+    "sha256": "a77fae1c8e7c7788acf45cc80f088ff33876c8222e831eb55aa77ee2e12d479b"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828024002807/form8-kq42023ex991.htm",
+    "path": "sources/earnings/ATI_0001628280-24-002807_release.html",
+    "kind": "earnings release",
+    "published": "2024-02-01",
+    "retrieved": "2026-09-20T10:38:46.413147+00:00",
+    "status": "cached",
+    "sha256": "9010fd2272ad6471a47847b21c2c3e9bd0c6e33a1a645168c1a4296b01f47101"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828023036216/ati-20231102.htm",
+    "path": "sources/earnings/ATI_0001628280-23-036216.html",
+    "kind": "earnings 8-K",
+    "published": "2023-11-02",
+    "retrieved": "2026-09-20T10:38:46.695665+00:00",
+    "status": "cached",
+    "sha256": "d26531c56198c6e42125d9fee7e3eea2f1fd29aadf3d3d01b2d4f84e3c7caf26"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828023036216/form8-kq32023ex991.htm",
+    "path": "sources/earnings/ATI_0001628280-23-036216_release.html",
+    "kind": "earnings release",
+    "published": "2023-11-02",
+    "retrieved": "2026-09-20T10:38:46.889825+00:00",
+    "status": "cached",
+    "sha256": "d956c98ccc54e9f61bcabb2692609e61cec3c7b0116ae918a828f54b4bbe7074"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828023026573/ati-20230802.htm",
+    "path": "sources/earnings/ATI_0001628280-23-026573.html",
+    "kind": "earnings 8-K",
+    "published": "2023-08-02",
+    "retrieved": "2026-09-20T10:38:47.236004+00:00",
+    "status": "cached",
+    "sha256": "5adb695d7f12e7578af1085634c273083c5e78350a2539f039f5ac6492bad7e4"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828023026573/form8-kq22023ex991.htm",
+    "path": "sources/earnings/ATI_0001628280-23-026573_release.html",
+    "kind": "earnings release",
+    "published": "2023-08-02",
+    "retrieved": "2026-09-20T10:38:47.464893+00:00",
+    "status": "cached",
+    "sha256": "a89c29c918f722f2c9bb594b0349c0f38110d37a8a8797b2a530536d12e3ba2e"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828023015453/ati-20230504.htm",
+    "path": "sources/earnings/ATI_0001628280-23-015453.html",
+    "kind": "earnings 8-K",
+    "published": "2023-05-04",
+    "retrieved": "2026-09-20T10:38:47.743241+00:00",
+    "status": "cached",
+    "sha256": "b695eb580c1f16d5df1e3e7b5a598a8ffe8672855adace39cad9c27af8764556"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828023015453/form8-kq12023ex991.htm",
+    "path": "sources/earnings/ATI_0001628280-23-015453_release.html",
+    "kind": "earnings release",
+    "published": "2023-05-04",
+    "retrieved": "2026-09-20T10:38:47.971843+00:00",
+    "status": "cached",
+    "sha256": "0edcc1f92feb4fbe46552d2568a80ab47e30ec63954e43e0d0f22fb50bdb540d"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828023001965/ati-20230202.htm",
+    "path": "sources/earnings/ATI_0001628280-23-001965.html",
+    "kind": "earnings 8-K",
+    "published": "2023-02-02",
+    "retrieved": "2026-09-20T10:38:48.277998+00:00",
+    "status": "cached",
+    "sha256": "eaa6b31f1bdddcc27dca367fa3cb71d9e74810009c8b1140b7d4086c8a459d1d"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828023001965/form8-kq42022ex991.htm",
+    "path": "sources/earnings/ATI_0001628280-23-001965_release.html",
+    "kind": "earnings release",
+    "published": "2023-02-02",
+    "retrieved": "2026-09-20T10:38:48.569152+00:00",
+    "status": "cached",
+    "sha256": "f9cf3f2918f1bc5ebef7f20f432b575f3bd1d7052377a3134131851378788299"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828022027662/ati-20221102.htm",
+    "path": "sources/earnings/ATI_0001628280-22-027662.html",
+    "kind": "earnings 8-K",
+    "published": "2022-11-02",
+    "retrieved": "2026-09-20T10:38:48.843751+00:00",
+    "status": "cached",
+    "sha256": "a2e468a2df8fec124eee0b3ccee16d38338165ae814ad7249daa4c0b93ba1c44"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828022027662/form8-kq32022ex991.htm",
+    "path": "sources/earnings/ATI_0001628280-22-027662_release.html",
+    "kind": "earnings release",
+    "published": "2022-11-02",
+    "retrieved": "2026-09-20T10:38:49.033746+00:00",
+    "status": "cached",
+    "sha256": "7eb3168f54af709db641d2d6fb17844bfa1f6d14cf734152986eb5c561fffe4e"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828022020867/ati-20220804.htm",
+    "path": "sources/earnings/ATI_0001628280-22-020867.html",
+    "kind": "earnings 8-K",
+    "published": "2022-08-04",
+    "retrieved": "2026-09-20T10:38:49.439438+00:00",
+    "status": "cached",
+    "sha256": "d1f69430b86983e6169e408c0774b2b1e851d3cf33acb48dab6a45a0a7e75ba9"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828022020867/form8-kq22022ex991.htm",
+    "path": "sources/earnings/ATI_0001628280-22-020867_release.html",
+    "kind": "earnings release",
+    "published": "2022-08-04",
+    "retrieved": "2026-09-20T10:38:49.627182+00:00",
+    "status": "cached",
+    "sha256": "155318dc2f08a68d88c777205d561abb5ff10bf5fc4e7311bbd8f0fecdfcd357"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828022012142/ati-20220504.htm",
+    "path": "sources/earnings/ATI_0001628280-22-012142.html",
+    "kind": "earnings 8-K",
+    "published": "2022-05-04",
+    "retrieved": "2026-09-20T10:38:49.899747+00:00",
+    "status": "cached",
+    "sha256": "bfa24bd0ff21ce6e77ae279f6b5cbb8c7978ccd5342166268b46c856af770d48"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828022012142/form8-kq12022ex991.htm",
+    "path": "sources/earnings/ATI_0001628280-22-012142_release.html",
+    "kind": "earnings release",
+    "published": "2022-05-04",
+    "retrieved": "2026-09-20T10:38:50.187976+00:00",
+    "status": "cached",
+    "sha256": "b0508074f5b5df6499d88449c74207d13a171e2e842cfdb7a0ae3c0ae64f019f"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828022001628/ati-20220202.htm",
+    "path": "sources/earnings/ATI_0001628280-22-001628.html",
+    "kind": "earnings 8-K",
+    "published": "2022-02-02",
+    "retrieved": "2026-09-20T10:38:50.580128+00:00",
+    "status": "cached",
+    "sha256": "4e16034975a6b188a1e2739975420c9861819d358afe37f70673e808918a0867"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828022001628/form8-kq42021ex991.htm",
+    "path": "sources/earnings/ATI_0001628280-22-001628_release.html",
+    "kind": "earnings release",
+    "published": "2022-02-02",
+    "retrieved": "2026-09-20T10:38:50.799343+00:00",
+    "status": "cached",
+    "sha256": "162ba6047ba4c5cd1365929cf4e3ada6fe74a71c7217ca902a415c1d11537255"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828021020694/ati-20211028.htm",
+    "path": "sources/earnings/ATI_0001628280-21-020694.html",
+    "kind": "earnings 8-K",
+    "published": "2021-10-28",
+    "retrieved": "2026-09-20T10:38:51.077669+00:00",
+    "status": "cached",
+    "sha256": "f3a2b1ba99382f2586ae5094280ad0118bdbcc7b634fd9e76d38492fe7837fd0"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828021020694/form8-kq32021ex991.htm",
+    "path": "sources/earnings/ATI_0001628280-21-020694_release.html",
+    "kind": "earnings release",
+    "published": "2021-10-28",
+    "retrieved": "2026-09-20T10:38:51.377719+00:00",
+    "status": "cached",
+    "sha256": "c2f4125018c1324ce74bc2d4e5f006eda050c37dc503b6eaa9757639975008bc"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828021015240/ati-20210803.htm",
+    "path": "sources/earnings/ATI_0001628280-21-015240.html",
+    "kind": "earnings 8-K",
+    "published": "2021-08-03",
+    "retrieved": "2026-09-20T10:38:51.685195+00:00",
+    "status": "cached",
+    "sha256": "4556b1e8a5418a7622f4dbd40cd9bf402b3c10682eb08d72ecc5e3f45db69e04"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828021015240/form8-kq22021ex991.htm",
+    "path": "sources/earnings/ATI_0001628280-21-015240_release.html",
+    "kind": "earnings release",
+    "published": "2021-08-03",
+    "retrieved": "2026-09-20T10:38:52.002514+00:00",
+    "status": "cached",
+    "sha256": "1ff0a25bf665fc72f7fc0bf48e07c8ec62436a65fd7b6eb62c68391ef05e4760"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828021008035/ati-20210429.htm",
+    "path": "sources/earnings/ATI_0001628280-21-008035.html",
+    "kind": "earnings 8-K",
+    "published": "2021-04-29",
+    "retrieved": "2026-09-20T10:38:52.287282+00:00",
+    "status": "cached",
+    "sha256": "b08ee21ff5f6dbd7ccb93a2a60d45a874d84e4e7db2ea73449501eba2712cab8"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828021008035/form8-kq12021ex991.htm",
+    "path": "sources/earnings/ATI_0001628280-21-008035_release.html",
+    "kind": "earnings release",
+    "published": "2021-04-29",
+    "retrieved": "2026-09-20T10:38:52.751732+00:00",
+    "status": "cached",
+    "sha256": "93847cde26e721d838d474786dac4a6361328984102aae35fafebf05aad22296"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828021000940/ati-20210128.htm",
+    "path": "sources/earnings/ATI_0001628280-21-000940.html",
+    "kind": "earnings 8-K",
+    "published": "2021-01-28",
+    "retrieved": "2026-09-20T10:38:53.048068+00:00",
+    "status": "cached",
+    "sha256": "8233e90662a75c193aa039cec24d0e294d7634d5638698546089f672ef5fd32b"
+  },
+  {
+    "url": "https://www.sec.gov/Archives/edgar/data/1018963/000162828021000940/form8-kq42020ex991.htm",
+    "path": "sources/earnings/ATI_0001628280-21-000940_release.html",
+    "kind": "earnings release",
+    "published": "2021-01-28",
+    "retrieved": "2026-09-20T10:38:53.350820+00:00",
+    "status": "cached",
+    "sha256": "ceae1ed6001208043c4b15458150688faf8d19ee6867f1c7e7f5f26b567735e8"
+  },
+  {
+    "url": "https://investors.theelmetgroup.com/news-events/press-releases/detail/157/the-elmet-group-co-announces-closing-of-upsized-initial-public-offering-and-full-exercise-of-underwriters-option-to-purchase-additional-shares",
+    "path": "sources/ELMT_IPO.html",
+    "kind": "company/benchmark evidence",
+    "published": "",
+    "retrieved": "2026-09-20T10:38:53.724898+00:00",
+    "status": "cached",
+    "sha256": "a53107b73afa4595e7ea2e79e25967285d163c346e5d51793d838f9969314f5e"
+  },
+  {
+    "url": "https://investors.theelmetgroup.com/news-events/press-releases/detail/168/department-of-war-makes-landmark-450-million-committed-investment-in-the-elmet-group-to-secure-americas-tungsten-supply-chain",
+    "path": "sources/ELMT_financing.html",
+    "kind": "company/benchmark evidence",
+    "published": "",
+    "retrieved": "2026-09-20T10:38:53.935375+00:00",
+    "status": "cached",
+    "sha256": "0936db280e1bb9b12f21f7b62225f092fe1ae0f381bff5cf81f5ca44f529fdc6"
+  },
+  {
+    "url": "https://investors.theelmetgroup.com/sec-filings/content/0001213900-26-099734/ea0304682-8k_elmet.htm",
+    "path": "sources/ELMT_financing_8K.html",
+    "kind": "company/benchmark evidence",
+    "published": "",
+    "retrieved": "2026-09-20T10:38:54.171332+00:00",
+    "status": "cached",
+    "sha256": "94993d9345f0b881f02cf2dabc64689545a0dfea9c812203c3cf5d49dd0ebb68"
+  },
+  {
+    "url": "https://stockanalysis.com/stocks/elmt/history/",
+    "path": "sources/ELMT_history.html",
+    "kind": "company/benchmark evidence",
+    "published": "",
+    "retrieved": "2026-09-20T10:38:54.688230+00:00",
+    "status": "cached",
+    "sha256": "668480bf3daa9f6cee5729907099e67286e1541df68588df66d8758179ca64f4"
+  },
+  {
+    "url": "https://www.ishares.com/us/products/239705/ishares-phlx-semiconductor-etf",
+    "path": "sources/SOXX.html",
+    "kind": "company/benchmark evidence",
+    "published": "",
+    "retrieved": "2026-09-20T10:38:55.692228+00:00",
+    "status": "cached",
+    "sha256": "c4ae5187a571225ed6d5ebed533a0df8cccc8135b62438adcbd01ced206e6c96"
+  },
+  {
+    "url": "https://www.ishares.com/us/products/239502/ishares-us-aerospace-defense-etf",
+    "path": "sources/ITA.html",
+    "kind": "company/benchmark evidence",
+    "published": "",
+    "retrieved": "2026-09-20T10:38:56.681234+00:00",
+    "status": "cached",
+    "sha256": "08b4f295efa0ac23aef2c529277964f7ec93ee52222166d684cd30d03c5744e1"
+  }
+]

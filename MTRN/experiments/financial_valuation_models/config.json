@@ -1,0 +1,67 @@
+{
+  "version": 3,
+  "cutoff": "2026-09-18",
+  "last_complete_month": "2026-08-31",
+  "first_target": "2016-01-31",
+  "initial_training_months": 84,
+  "first_primary_target": "2023-01-31",
+  "inner_validation_months": 24,
+  "refit": "each origin",
+  "retune": "annually; fixed candidates between retunes",
+  "bootstrap_reps": 2000,
+  "bootstrap_block_months": 6,
+  "seed": 20260918,
+  "feature_training_min_coverage": 0.7,
+  "feature_clip_quantiles": [
+    0.01,
+    0.99
+  ],
+  "regularization_grid": [
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "elastic_mixing": [
+    0.2,
+    0.5,
+    0.8
+  ],
+  "arima_orders": [
+    [
+      0,
+      0
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "dynamic_core": [
+    "revenue_growth",
+    "operating_margin",
+    "earnings_yield",
+    "market_return",
+    "industry_relative",
+    "driver_return"
+  ],
+  "rolling_months": 84,
+  "garch_training_days": 1260,
+  "ewma_lambda": 0.94,
+  "primary_horizon_months": 1,
+  "secondary_horizon_months": 3,
+  "no_deep_learning": true
+}

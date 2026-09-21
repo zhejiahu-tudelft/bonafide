@@ -1,0 +1,80 @@
+{
+  "audit_date": "2026-09-21",
+  "governing_protocol": "MTRN/experiments/prompt_v2_financial_valuation_models.md",
+  "protocol_sha256": "14a14489b7385ca9bdd42a258fe8dfa4a6abf7febab8fb7292be0ae3d2c37d5d",
+  "prior_experiment": "MTRN/experiments/historical_attribution (complete; preserved and hash-verified)",
+  "cutoff_found": "code/report.py ended mid-file at make_figures(); no HTML builder, no entry point, figures/ and final/ empty",
+  "stages_found_complete": [
+    "features",
+    "return_models",
+    "variance_models",
+    "pooling",
+    "transform_models",
+    "score",
+    "diagnostics",
+    "dependence",
+    "documentation"
+  ],
+  "stages_found_incomplete": [
+    "report (figures written but never executed; no HTML)",
+    "validate (absent)",
+    "run_experiments orchestrator (absent)",
+    "README and pinned requirements (absent)"
+  ],
+  "stale_outputs_found": "score.py and documentation.py were edited after their last execution",
+  "defects_corrected": [
+    {
+      "defect": "Block removal matched name prefixes, so pe_pct_change survived removal of the valuation block",
+      "effect": "The central E2 comparison retained a valuation-derived predictor",
+      "fix": "learning.parents() maps each derived column to its parent blocks; removal follows declared dependencies"
+    },
+    {
+      "defect": "Entegris parent-only equity tag stops in 2019",
+      "effect": "roe, book_yield and debt_equity were 67% missing for ENTG",
+      "fix": "Materiality-gated consolidated-tag fallback recorded per observation; ATI, whose NCI is material, never uses it"
+    },
+    {
+      "defect": "financial_snapshot forced every flow onto the revenue reporting clock",
+      "effect": "Carpenter trailing earnings, earnings yield, ROA and net margin were 33% missing",
+      "fix": "Each flow keeps its own as-known period; the shared-period rule applies only to ratios combining two flows"
+    },
+    {
+      "defect": "Materion mine development is disclosed annually and cannot form a quarter-aligned trailing measure",
+      "effect": "total_capex and fcf were 41% missing",
+      "fix": "Equipment-capex free cash flow is the modelled series; the mine-inclusive measure is an MTRN-only sensitivity and still reconciles to the preserved study"
+    },
+    {
+      "defect": "industry_return and driver_return are per-issuer aliases of named series in the same model",
+      "effect": "Exactly duplicated predictor columns inside the broad feature set",
+      "fix": "The broad set keeps the named series; the compact core keeps the alias"
+    },
+    {
+      "defect": "rate_rising_regime coerced an unavailable yield change to False",
+      "effect": "Early origins were misclassified as falling-rate",
+      "fix": "An unavailable change is left unclassified"
+    }
+  ],
+  "requirements_added": [
+    "zero-return benchmark",
+    "excess-return secondary target",
+    "protocol-order ablation ladder alongside the market-first ladder",
+    "frozen sixteen-contrast family with Holm adjustment",
+    "fallback-excluded matched scores",
+    "limited-sample labelling for dynamic fits below ten observations per parameter",
+    "variance inflation factors",
+    "trailing valuation percentile",
+    "exposure map extended to the section 7 schema",
+    "Elastic Net mixing grid {0.2,0.5,0.8}",
+    "cumulative paired forecast-loss figure",
+    "incremental-loss companion to the ablation figure"
+  ],
+  "results_that_carry_forward": [
+    "Old French factor archive ends 2026-07-31 and is not used for these targets",
+    "Archived analyst consensus unavailable; forward valuation untestable",
+    "EV/ROIC claims bridge unreconciled; proxy sensitivity only",
+    "ELMT excluded from all fitted models (5 monthly observations against an 84-month gate)",
+    "High-yield credit spread archive begins 2023 and fails the training coverage gate"
+  ],
+  "original_files_tracked": 577,
+  "original_files_changed": []
+}

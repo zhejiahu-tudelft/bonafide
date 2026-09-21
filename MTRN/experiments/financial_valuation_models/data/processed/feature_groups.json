@@ -1,0 +1,111 @@
+{
+  "market": [
+    "market_return",
+    "market_vol",
+    "smallcap_return",
+    "yield_10y",
+    "yield_short",
+    "yield_10y_change",
+    "term_spread",
+    "vix",
+    "credit_spread",
+    "credit_spread_change",
+    "real_yield",
+    "real_yield_change",
+    "eurusd_return",
+    "dollar_return"
+  ],
+  "financial": [
+    "revenue_growth",
+    "eps_growth",
+    "eps_change_price",
+    "loss_transition",
+    "ebitda_growth",
+    "gross_margin",
+    "operating_margin",
+    "net_margin",
+    "ebitda_margin",
+    "roa",
+    "roe",
+    "cfo_assets",
+    "fcf_equipment_assets",
+    "capex_assets",
+    "cash_assets",
+    "debt_assets",
+    "debt_equity",
+    "interest_coverage",
+    "current_ratio",
+    "quick_ratio",
+    "payout",
+    "earnings_age_days"
+  ],
+  "valuation": [
+    "earnings_yield",
+    "book_yield",
+    "sales_yield",
+    "fcf_equipment_yield",
+    "dividend_yield",
+    "earnings_yield_relative",
+    "earnings_yield_percentile",
+    "fcf_equipment_yield_relative",
+    "pe_percentile",
+    "peer_earnings_yield_gap"
+  ],
+  "momentum": [
+    "momentum_1",
+    "momentum_3",
+    "momentum_6",
+    "momentum_12",
+    "relative_momentum",
+    "industry_momentum_relative"
+  ],
+  "risk": [
+    "vol_21",
+    "vol_63",
+    "vol_252",
+    "beta_252",
+    "idio_vol",
+    "downside_deviation",
+    "drawdown_252",
+    "log_dollar_volume",
+    "turnover",
+    "amihud"
+  ],
+  "industry": [
+    "industry_vol",
+    "sector_return",
+    "semis_return",
+    "defense_return"
+  ],
+  "business": [
+    "driver_vol",
+    "copper_return",
+    "gold_return",
+    "silver_return",
+    "gas_return",
+    "oil_return"
+  ],
+  "transform": [
+    "revenue_growth_diff",
+    "operating_margin_diff",
+    "roe_diff",
+    "earnings_yield_diff",
+    "revenue_growth_lag1",
+    "earnings_yield_lag1",
+    "pe_pct_change",
+    "earnings_yield_z"
+  ],
+  "interaction": [
+    "revenue_valuation_interaction",
+    "margin_valuation_interaction"
+  ],
+  "claims_proxy": [
+    "roic_proxy",
+    "ev_ebitda_proxy",
+    "ev_sales_proxy"
+  ],
+  "mine_inclusive_fcf": [
+    "fcf_yield",
+    "fcf_assets"
+  ]
+}

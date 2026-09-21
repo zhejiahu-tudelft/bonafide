@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "cutoff": "2026-09-18",
+  "checks": [
+    {
+      "check": "Financial identities and TTM",
+      "status": "passed",
+      "details": "Eight periods; corrected 2023 mine capex; 371-day trailing calculation; cumulative FCF $80.904m."
+    },
+    {
+      "check": "Primary filing cash-flow check",
+      "status": "passed",
+      "details": "2023\u20132025 mine spending matched to the retained 2025 10-K table."
+    },
+    {
+      "check": "Information cutoff",
+      "status": "passed",
+      "details": "Selected SEC filings and all market histories respect September 18, 2026; close reconciles to $251.53."
+    },
+    {
+      "check": "DCF and enterprise-equity bridge",
+      "status": "passed",
+      "details": "All scenarios independently recalculated; terminal growth resets working-capital reinvestment."
+    },
+    {
+      "check": "Excel formula evaluation",
+      "status": "passed",
+      "details": "411 formulas independently evaluated from their precedents and matched to cached results across 17 sheets."
+    },
+    {
+      "check": "Options snapshot quality",
+      "status": "passed",
+      "details": "Real 352-record chain; OCC dates/strikes and 100-share multiplier verified; 254 unexpired records; zero eligible strategy legs."
+    },
+    {
+      "check": "Reusable options conventions",
+      "status": "passed",
+      "details": "Put-call parity, vanna/vomma finite differences, signed contract aggregation, payoff and bid/ask execution-side checks passed. Synthetic checks are not research quotes."
+    },
+    {
+      "check": "Final artifact integrity",
+      "status": "passed",
+      "details": "18 sections; six valid embedded charts; all local and section links exist; no unresolved template fields; interactive base DCF matches Python."
+    },
+    {
+      "check": "Source archive integrity",
+      "status": "passed",
+      "details": "92 file hashes verified; 58 source entries point to retained evidence."
+    }
+  ]
+}

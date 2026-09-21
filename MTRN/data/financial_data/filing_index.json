@@ -1,0 +1,114 @@
+[
+  {
+    "form": "10-Q",
+    "filing_date": "2026-08-05",
+    "report_date": "2026-07-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465726000044/mtrn-20260703.htm",
+    "local": "report/company_filings/10-Q_2026-08-05_mtrn-20260703.htm"
+  },
+  {
+    "form": "8-K",
+    "filing_date": "2026-08-05",
+    "report_date": "2026-08-05",
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465726000042/mtrn-20260805.htm",
+    "local": "report/company_filings/8-K_2026-08-05_mtrn-20260805.htm"
+  },
+  {
+    "form": "8-K",
+    "filing_date": "2026-05-07",
+    "report_date": "2026-05-07",
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465726000031/mtrn-20260507.htm",
+    "local": "report/company_filings/8-K_2026-05-07_mtrn-20260507.htm"
+  },
+  {
+    "form": "10-Q",
+    "filing_date": "2026-04-29",
+    "report_date": "2026-04-03",
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465726000029/mtrn-20260403.htm",
+    "local": "report/company_filings/10-Q_2026-04-29_mtrn-20260403.htm"
+  },
+  {
+    "form": "8-K",
+    "filing_date": "2026-04-29",
+    "report_date": "2026-04-29",
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465726000026/mtrn-20260429.htm",
+    "local": "report/company_filings/8-K_2026-04-29_mtrn-20260429.htm"
+  },
+  {
+    "form": "DEF 14A",
+    "filing_date": "2026-03-26",
+    "report_date": "2026-05-07",
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465726000022/mtrn-20260326.htm",
+    "local": "report/company_filings/DEF14A_2026-03-26_mtrn-20260326.htm"
+  },
+  {
+    "form": "10-K",
+    "filing_date": "2026-02-12",
+    "report_date": "2025-12-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465726000011/mtrn-20251231.htm",
+    "local": "report/company_filings/10-K_2026-02-12_mtrn-20251231.htm"
+  },
+  {
+    "form": "8-K",
+    "filing_date": "2026-02-12",
+    "report_date": "2026-02-12",
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465726000006/mtrn-20260212.htm",
+    "local": "report/company_filings/8-K_2026-02-12_mtrn-20260212.htm"
+  },
+  {
+    "form": "8-K",
+    "filing_date": "2026-01-23",
+    "report_date": "2026-01-23",
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465726000002/mtrn-20260123.htm",
+    "local": "report/company_filings/8-K_2026-01-23_mtrn-20260123.htm"
+  },
+  {
+    "form": "10-Q",
+    "filing_date": "2025-10-30",
+    "report_date": "2025-09-26",
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465725000191/mtrn-20250926.htm",
+    "local": "report/company_filings/10-Q_2025-10-30_mtrn-20250926.htm"
+  },
+  {
+    "form": "10-Q",
+    "filing_date": "2025-07-30",
+    "report_date": "2025-06-27",
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465725000144/mtrn-20250627.htm",
+    "local": "report/company_filings/10-Q_2025-07-30_mtrn-20250627.htm"
+  },
+  {
+    "form": "10-Q",
+    "filing_date": "2025-05-01",
+    "report_date": "2025-03-28",
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465725000059/mtrn-20250328.htm",
+    "local": "report/company_filings/10-Q_2025-05-01_mtrn-20250328.htm"
+  },
+  {
+    "form": "10-K",
+    "filing_date": "2025-02-19",
+    "report_date": "2024-12-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465725000024/mtrn-20241231.htm",
+    "local": "report/company_filings/10-K_2025-02-19_mtrn-20241231.htm"
+  },
+  {
+    "form": "10-K",
+    "filing_date": "2024-02-15",
+    "report_date": "2023-12-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465724000019/mtrn-20231231.htm",
+    "local": "report/company_filings/10-K_2024-02-15_mtrn-20231231.htm"
+  },
+  {
+    "form": "10-K",
+    "filing_date": "2023-02-16",
+    "report_date": "2022-12-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465723000019/mtrn-20221231.htm",
+    "local": "report/company_filings/10-K_2023-02-16_mtrn-20221231.htm"
+  },
+  {
+    "form": "10-K",
+    "filing_date": "2022-02-17",
+    "report_date": "2021-12-31",
+    "url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465722000021/mtrn-20211231.htm",
+    "local": "report/company_filings/10-K_2022-02-17_mtrn-20211231.htm"
+  }
+]

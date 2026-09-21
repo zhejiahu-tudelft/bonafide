@@ -1,0 +1,1073 @@
+[
+  {
+    "ticker": "MTRN",
+    "accession": "0001104657-26-000042",
+    "filed": "2026-08-05",
+    "report_date": "2026-08-05",
+    "acceptance": "2026-08-05T10:47:53.000Z",
+    "filing_path": "sources/earnings/MTRN_0001104657-26-000042.html",
+    "release_path": "sources/earnings/MTRN_0001104657-26-000042_release.html"
+  },
+  {
+    "ticker": "MTRN",
+    "accession": "0001104657-26-000026",
+    "filed": "2026-04-29",
+    "report_date": "2026-04-29",
+    "acceptance": "2026-04-29T10:47:59.000Z",
+    "filing_path": "sources/earnings/MTRN_0001104657-26-000026.html",
+    "release_path": "sources/earnings/MTRN_0001104657-26-000026_release.html"
+  },
+  {
+    "ticker": "MTRN",
+    "accession": "0001104657-26-000006",
+    "filed": "2026-02-12",
+    "report_date": "2026-02-12",
+    "acceptance": "2026-02-12T11:48:16.000Z",
+    "filing_path": "sources/earnings/MTRN_0001104657-26-000006.html",
+    "release_path": "sources/earnings/MTRN_0001104657-26-000006_release.html"
+  },
+  {
+    "ticker": "MTRN",
+    "accession": "0001104657-26-000002",
+    "filed": "2026-01-23",
+    "report_date": "2026-01-23",
+    "acceptance": "2026-01-23T11:45:27.000Z",
+    "filing_path": "sources/earnings/MTRN_0001104657-26-000002.html",
+    "release_path": ""
+  },
+  {
+    "ticker": "MTRN",
+    "accession": "0001104657-25-000186",
+    "filed": "2025-10-29",
+    "report_date": "2025-10-29",
+    "acceptance": "2025-10-29T10:48:03.000Z",
+    "filing_path": "sources/earnings/MTRN_0001104657-25-000186.html",
+    "release_path": "sources/earnings/MTRN_0001104657-25-000186_release.html"
+  },
+  {
+    "ticker": "MTRN",
+    "accession": "0001104657-25-000140",
+    "filed": "2025-07-30",
+    "report_date": "2025-07-30",
+    "acceptance": "2025-07-30T10:52:32.000Z",
+    "filing_path": "sources/earnings/MTRN_0001104657-25-000140.html",
+    "release_path": "sources/earnings/MTRN_0001104657-25-000140_release.html"
+  },
+  {
+    "ticker": "MTRN",
+    "accession": "0001104657-25-000056",
+    "filed": "2025-05-01",
+    "report_date": "2025-05-01",
+    "acceptance": "2025-05-01T10:49:26.000Z",
+    "filing_path": "sources/earnings/MTRN_0001104657-25-000056.html",
+    "release_path": "sources/earnings/MTRN_0001104657-25-000056_release.html"
+  },
+  {
+    "ticker": "MTRN",
+    "accession": "0001104657-25-000019",
+    "filed": "2025-02-19",
+    "report_date": "2025-02-19",
+    "acceptance": "2025-02-19T11:49:12.000Z",
+    "filing_path": "sources/earnings/MTRN_0001104657-25-000019.html",
+    "release_path": "sources/earnings/MTRN_0001104657-25-000019_release.html"
+  },
+  {
+    "ticker": "MTRN",
+    "accession": "0001104657-24-000143",
+    "filed": "2024-10-30",
+    "report_date": "2024-10-30",
+    "acceptance": "2024-10-30T11:09:33.000Z",
+    "filing_path": "sources/earnings/MTRN_0001104657-24-000143.html",
+    "release_path": "sources/earnings/MTRN_0001104657-24-000143_release.html"
+  },
+  {
+    "ticker": "MTRN",
+    "accession": "0001104657-24-000112",
+    "filed": "2024-08-05",
+    "report_date": "2024-08-05",
+    "acceptance": "2024-08-05T20:07:44.000Z",
+    "filing_path": "sources/earnings/MTRN_0001104657-24-000112.html",
+    "release_path": "sources/earnings/MTRN_0001104657-24-000112_release.html"
+  },
+  {
+    "ticker": "MTRN",
+    "accession": "0001104657-24-000063",
+    "filed": "2024-05-02",
+    "report_date": "2024-05-01",
+    "acceptance": "2024-05-01T22:42:35.000Z",
+    "filing_path": "sources/earnings/MTRN_0001104657-24-000063.html",
+    "release_path": "sources/earnings/MTRN_0001104657-24-000063_release.html"
+  },
+  {
+    "ticker": "MTRN",
+    "accession": "0001104657-24-000015",
+    "filed": "2024-02-15",
+    "report_date": "2024-02-15",
+    "acceptance": "2024-02-15T11:49:54.000Z",
+    "filing_path": "sources/earnings/MTRN_0001104657-24-000015.html",
+    "release_path": "sources/earnings/MTRN_0001104657-24-000015_release.html"
+  },
+  {
+    "ticker": "MTRN",
+    "accession": "0001104657-24-000007",
+    "filed": "2024-01-19",
+    "report_date": "2024-01-19",
+    "acceptance": "2024-01-19T11:47:41.000Z",
+    "filing_path": "sources/earnings/MTRN_0001104657-24-000007.html",
+    "release_path": ""
+  },
+  {
+    "ticker": "MTRN",
+    "accession": "0001104657-23-000149",
+    "filed": "2023-11-01",
+    "report_date": "2023-11-01",
+    "acceptance": "2023-11-01T10:48:50.000Z",
+    "filing_path": "sources/earnings/MTRN_0001104657-23-000149.html",
+    "release_path": "sources/earnings/MTRN_0001104657-23-000149_release.html"
+  },
+  {
+    "ticker": "MTRN",
+    "accession": "0001104657-23-000121",
+    "filed": "2023-08-02",
+    "report_date": "2023-08-02",
+    "acceptance": "2023-08-02T10:49:42.000Z",
+    "filing_path": "sources/earnings/MTRN_0001104657-23-000121.html",
+    "release_path": "sources/earnings/MTRN_0001104657-23-000121_release.html"
+  },
+  {
+    "ticker": "MTRN",
+    "accession": "0001104657-23-000062",
+    "filed": "2023-05-03",
+    "report_date": "2023-05-03",
+    "acceptance": "2023-05-03T10:48:54.000Z",
+    "filing_path": "sources/earnings/MTRN_0001104657-23-000062.html",
+    "release_path": "sources/earnings/MTRN_0001104657-23-000062_release.html"
+  },
+  {
+    "ticker": "MTRN",
+    "accession": "0001104657-23-000015",
+    "filed": "2023-02-16",
+    "report_date": "2023-02-16",
+    "acceptance": "2023-02-16T11:50:31.000Z",
+    "filing_path": "sources/earnings/MTRN_0001104657-23-000015.html",
+    "release_path": "sources/earnings/MTRN_0001104657-23-000015_release.html"
+  },
+  {
+    "ticker": "MTRN",
+    "accession": "0001104657-22-000154",
+    "filed": "2022-11-02",
+    "report_date": "2022-11-02",
+    "acceptance": "2022-11-02T10:49:00.000Z",
+    "filing_path": "sources/earnings/MTRN_0001104657-22-000154.html",
+    "release_path": "sources/earnings/MTRN_0001104657-22-000154_release.html"
+  },
+  {
+    "ticker": "MTRN",
+    "accession": "0001104657-22-000123",
+    "filed": "2022-08-03",
+    "report_date": "2022-08-03",
+    "acceptance": "2022-08-03T10:55:54.000Z",
+    "filing_path": "sources/earnings/MTRN_0001104657-22-000123.html",
+    "release_path": "sources/earnings/MTRN_0001104657-22-000123_release.html"
+  },
+  {
+    "ticker": "MTRN",
+    "accession": "0001104657-22-000070",
+    "filed": "2022-04-28",
+    "report_date": "2022-04-28",
+    "acceptance": "2022-04-28T11:38:05.000Z",
+    "filing_path": "sources/earnings/MTRN_0001104657-22-000070.html",
+    "release_path": "sources/earnings/MTRN_0001104657-22-000070_release.html"
+  },
+  {
+    "ticker": "MTRN",
+    "accession": "0001104657-22-000059",
+    "filed": "2022-04-21",
+    "report_date": "2022-04-21",
+    "acceptance": "2022-04-21T21:12:59.000Z",
+    "filing_path": "sources/earnings/MTRN_0001104657-22-000059.html",
+    "release_path": "sources/earnings/MTRN_0001104657-22-000059_release.html"
+  },
+  {
+    "ticker": "MTRN",
+    "accession": "0001104657-22-000015",
+    "filed": "2022-02-17",
+    "report_date": "2022-02-17",
+    "acceptance": "2022-02-17T12:19:38.000Z",
+    "filing_path": "sources/earnings/MTRN_0001104657-22-000015.html",
+    "release_path": "sources/earnings/MTRN_0001104657-22-000015_release.html"
+  },
+  {
+    "ticker": "MTRN",
+    "accession": "0001104657-21-000104",
+    "filed": "2021-11-02",
+    "report_date": "2021-11-02",
+    "acceptance": "2021-11-02T11:13:13.000Z",
+    "filing_path": "sources/earnings/MTRN_0001104657-21-000104.html",
+    "release_path": "sources/earnings/MTRN_0001104657-21-000104_release.html"
+  },
+  {
+    "ticker": "MTRN",
+    "accession": "0001104657-21-000076",
+    "filed": "2021-08-03",
+    "report_date": "2021-08-03",
+    "acceptance": "2021-08-03T11:23:00.000Z",
+    "filing_path": "sources/earnings/MTRN_0001104657-21-000076.html",
+    "release_path": "sources/earnings/MTRN_0001104657-21-000076_release.html"
+  },
+  {
+    "ticker": "MTRN",
+    "accession": "0001104657-21-000042",
+    "filed": "2021-04-29",
+    "report_date": "2021-04-29",
+    "acceptance": "2021-04-29T11:09:27.000Z",
+    "filing_path": "sources/earnings/MTRN_0001104657-21-000042.html",
+    "release_path": "sources/earnings/MTRN_0001104657-21-000042_release.html"
+  },
+  {
+    "ticker": "MTRN",
+    "accession": "0001104657-21-000008",
+    "filed": "2021-02-18",
+    "report_date": "2021-02-18",
+    "acceptance": "2021-02-18T12:59:37.000Z",
+    "filing_path": "sources/earnings/MTRN_0001104657-21-000008.html",
+    "release_path": "sources/earnings/MTRN_0001104657-21-000008_release.html"
+  },
+  {
+    "ticker": "ENTG",
+    "accession": "0001101302-26-000146",
+    "filed": "2026-08-04",
+    "report_date": "2026-08-04",
+    "acceptance": "2026-08-04T11:02:24.000Z",
+    "filing_path": "sources/earnings/ENTG_0001101302-26-000146.html",
+    "release_path": "sources/earnings/ENTG_0001101302-26-000146_release.html"
+  },
+  {
+    "ticker": "ENTG",
+    "accession": "0001101302-26-000099",
+    "filed": "2026-04-30",
+    "report_date": "2026-04-30",
+    "acceptance": "2026-04-30T11:01:50.000Z",
+    "filing_path": "sources/earnings/ENTG_0001101302-26-000099.html",
+    "release_path": "sources/earnings/ENTG_0001101302-26-000099_release.html"
+  },
+  {
+    "ticker": "ENTG",
+    "accession": "0001101302-26-000009",
+    "filed": "2026-02-10",
+    "report_date": "2026-02-10",
+    "acceptance": "2026-02-10T12:02:21.000Z",
+    "filing_path": "sources/earnings/ENTG_0001101302-26-000009.html",
+    "release_path": "sources/earnings/ENTG_0001101302-26-000009_release.html"
+  },
+  {
+    "ticker": "ENTG",
+    "accession": "0001101302-25-000099",
+    "filed": "2025-10-30",
+    "report_date": "2025-10-30",
+    "acceptance": "2025-10-30T11:03:29.000Z",
+    "filing_path": "sources/earnings/ENTG_0001101302-25-000099.html",
+    "release_path": "sources/earnings/ENTG_0001101302-25-000099_release.html"
+  },
+  {
+    "ticker": "ENTG",
+    "accession": "0001101302-25-000075",
+    "filed": "2025-07-30",
+    "report_date": "2025-07-30",
+    "acceptance": "2025-07-30T10:03:37.000Z",
+    "filing_path": "sources/earnings/ENTG_0001101302-25-000075.html",
+    "release_path": "sources/earnings/ENTG_0001101302-25-000075_release.html"
+  },
+  {
+    "ticker": "ENTG",
+    "accession": "0001101302-25-000056",
+    "filed": "2025-05-07",
+    "report_date": "2025-05-07",
+    "acceptance": "2025-05-07T10:02:35.000Z",
+    "filing_path": "sources/earnings/ENTG_0001101302-25-000056.html",
+    "release_path": "sources/earnings/ENTG_0001101302-25-000056_release.html"
+  },
+  {
+    "ticker": "ENTG",
+    "accession": "0001101302-25-000010",
+    "filed": "2025-02-06",
+    "report_date": "2025-02-06",
+    "acceptance": "2025-02-06T11:17:15.000Z",
+    "filing_path": "sources/earnings/ENTG_0001101302-25-000010.html",
+    "release_path": "sources/earnings/ENTG_0001101302-25-000010_release.html"
+  },
+  {
+    "ticker": "ENTG",
+    "accession": "0001101302-24-000071",
+    "filed": "2024-11-04",
+    "report_date": "2024-11-04",
+    "acceptance": "2024-11-04T11:03:42.000Z",
+    "filing_path": "sources/earnings/ENTG_0001101302-24-000071.html",
+    "release_path": "sources/earnings/ENTG_0001101302-24-000071_release.html"
+  },
+  {
+    "ticker": "ENTG",
+    "accession": "0001101302-24-000049",
+    "filed": "2024-07-31",
+    "report_date": "2024-07-31",
+    "acceptance": "2024-07-31T10:01:37.000Z",
+    "filing_path": "sources/earnings/ENTG_0001101302-24-000049.html",
+    "release_path": "sources/earnings/ENTG_0001101302-24-000049_release.html"
+  },
+  {
+    "ticker": "ENTG",
+    "accession": "0001101302-24-000037",
+    "filed": "2024-05-01",
+    "report_date": "2024-05-01",
+    "acceptance": "2024-05-01T10:03:35.000Z",
+    "filing_path": "sources/earnings/ENTG_0001101302-24-000037.html",
+    "release_path": "sources/earnings/ENTG_0001101302-24-000037_release.html"
+  },
+  {
+    "ticker": "ENTG",
+    "accession": "0001101302-24-000005",
+    "filed": "2024-02-13",
+    "report_date": "2024-02-13",
+    "acceptance": "2024-02-13T21:32:33.000Z",
+    "filing_path": "sources/earnings/ENTG_0001101302-24-000005.html",
+    "release_path": "sources/earnings/ENTG_0001101302-24-000005_release.html"
+  },
+  {
+    "ticker": "ENTG",
+    "accession": "0001101302-23-000086",
+    "filed": "2023-11-02",
+    "report_date": "2023-11-02",
+    "acceptance": "2023-11-02T10:02:15.000Z",
+    "filing_path": "sources/earnings/ENTG_0001101302-23-000086.html",
+    "release_path": "sources/earnings/ENTG_0001101302-23-000086_release.html"
+  },
+  {
+    "ticker": "ENTG",
+    "accession": "0001101302-23-000077",
+    "filed": "2023-08-03",
+    "report_date": "2023-08-03",
+    "acceptance": "2023-08-03T10:03:33.000Z",
+    "filing_path": "sources/earnings/ENTG_0001101302-23-000077.html",
+    "release_path": "sources/earnings/ENTG_0001101302-23-000077_release.html"
+  },
+  {
+    "ticker": "ENTG",
+    "accession": "0001101302-23-000065",
+    "filed": "2023-05-11",
+    "report_date": "2023-05-11",
+    "acceptance": "2023-05-11T10:40:20.000Z",
+    "filing_path": "sources/earnings/ENTG_0001101302-23-000065.html",
+    "release_path": "sources/earnings/ENTG_0001101302-23-000065_release.html"
+  },
+  {
+    "ticker": "ENTG",
+    "accession": "0001101302-23-000016",
+    "filed": "2023-02-14",
+    "report_date": "2023-02-14",
+    "acceptance": "2023-02-14T11:09:43.000Z",
+    "filing_path": "sources/earnings/ENTG_0001101302-23-000016.html",
+    "release_path": "sources/earnings/ENTG_0001101302-23-000016_release.html"
+  },
+  {
+    "ticker": "ENTG",
+    "accession": "0001101302-22-000047",
+    "filed": "2022-11-02",
+    "report_date": "2022-11-02",
+    "acceptance": "2022-11-02T10:02:03.000Z",
+    "filing_path": "sources/earnings/ENTG_0001101302-22-000047.html",
+    "release_path": "sources/earnings/ENTG_0001101302-22-000047_release.html"
+  },
+  {
+    "ticker": "ENTG",
+    "accession": "0001101302-22-000038",
+    "filed": "2022-08-02",
+    "report_date": "2022-08-02",
+    "acceptance": "2022-08-02T10:07:08.000Z",
+    "filing_path": "sources/earnings/ENTG_0001101302-22-000038.html",
+    "release_path": "sources/earnings/ENTG_0001101302-22-000038_release.html"
+  },
+  {
+    "ticker": "ENTG",
+    "accession": "0001101302-22-000021",
+    "filed": "2022-04-26",
+    "report_date": "2022-04-26",
+    "acceptance": "2022-04-26T10:04:20.000Z",
+    "filing_path": "sources/earnings/ENTG_0001101302-22-000021.html",
+    "release_path": "sources/earnings/ENTG_0001101302-22-000021_release.html"
+  },
+  {
+    "ticker": "ENTG",
+    "accession": "0001101302-22-000006",
+    "filed": "2022-02-01",
+    "report_date": "2022-02-01",
+    "acceptance": "2022-02-01T11:05:19.000Z",
+    "filing_path": "sources/earnings/ENTG_0001101302-22-000006.html",
+    "release_path": "sources/earnings/ENTG_0001101302-22-000006_release.html"
+  },
+  {
+    "ticker": "ENTG",
+    "accession": "0001101302-21-000075",
+    "filed": "2021-10-26",
+    "report_date": "2021-10-26",
+    "acceptance": "2021-10-26T10:03:56.000Z",
+    "filing_path": "sources/earnings/ENTG_0001101302-21-000075.html",
+    "release_path": "sources/earnings/ENTG_0001101302-21-000075_release.html"
+  },
+  {
+    "ticker": "ENTG",
+    "accession": "0001101302-21-000064",
+    "filed": "2021-07-27",
+    "report_date": "2021-07-27",
+    "acceptance": "2021-07-27T10:04:06.000Z",
+    "filing_path": "sources/earnings/ENTG_0001101302-21-000064.html",
+    "release_path": "sources/earnings/ENTG_0001101302-21-000064_release.html"
+  },
+  {
+    "ticker": "ENTG",
+    "accession": "0001101302-21-000036",
+    "filed": "2021-04-27",
+    "report_date": "2021-04-27",
+    "acceptance": "2021-04-27T10:06:09.000Z",
+    "filing_path": "sources/earnings/ENTG_0001101302-21-000036.html",
+    "release_path": "sources/earnings/ENTG_0001101302-21-000036_release.html"
+  },
+  {
+    "ticker": "ENTG",
+    "accession": "0001101302-21-000004",
+    "filed": "2021-02-02",
+    "report_date": "2021-02-02",
+    "acceptance": "2021-02-02T11:06:51.000Z",
+    "filing_path": "sources/earnings/ENTG_0001101302-21-000004.html",
+    "release_path": "sources/earnings/ENTG_0001101302-21-000004_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0000017843-26-000030",
+    "filed": "2026-07-30",
+    "report_date": "2026-07-30",
+    "acceptance": "2026-07-30T20:22:41.000Z",
+    "filing_path": "sources/earnings/CRS_0000017843-26-000030.html",
+    "release_path": "sources/earnings/CRS_0000017843-26-000030_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0000017843-26-000028",
+    "filed": "2026-07-30",
+    "report_date": "2026-07-30",
+    "acceptance": "2026-07-30T20:15:48.000Z",
+    "filing_path": "sources/earnings/CRS_0000017843-26-000028.html",
+    "release_path": ""
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0000017843-26-000018",
+    "filed": "2026-04-29",
+    "report_date": "2026-04-29",
+    "acceptance": "2026-04-29T20:24:03.000Z",
+    "filing_path": "sources/earnings/CRS_0000017843-26-000018.html",
+    "release_path": "sources/earnings/CRS_0000017843-26-000018_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0000017843-26-000016",
+    "filed": "2026-04-29",
+    "report_date": "2026-04-29",
+    "acceptance": "2026-04-29T20:14:58.000Z",
+    "filing_path": "sources/earnings/CRS_0000017843-26-000016.html",
+    "release_path": ""
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0000017843-26-000007",
+    "filed": "2026-01-29",
+    "report_date": "2026-01-29",
+    "acceptance": "2026-01-29T21:17:08.000Z",
+    "filing_path": "sources/earnings/CRS_0000017843-26-000007.html",
+    "release_path": "sources/earnings/CRS_0000017843-26-000007_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0000017843-26-000005",
+    "filed": "2026-01-29",
+    "report_date": "2026-01-29",
+    "acceptance": "2026-01-29T21:11:31.000Z",
+    "filing_path": "sources/earnings/CRS_0000017843-26-000005.html",
+    "release_path": ""
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0000017843-25-000034",
+    "filed": "2025-10-23",
+    "report_date": "2025-10-23",
+    "acceptance": "2025-10-23T21:15:06.000Z",
+    "filing_path": "sources/earnings/CRS_0000017843-25-000034.html",
+    "release_path": ""
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0000017843-25-000031",
+    "filed": "2025-10-23",
+    "report_date": "2025-10-23",
+    "acceptance": "2025-10-23T21:04:41.000Z",
+    "filing_path": "sources/earnings/CRS_0000017843-25-000031.html",
+    "release_path": "sources/earnings/CRS_0000017843-25-000031_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-25-174452",
+    "filed": "2025-08-06",
+    "report_date": "2025-07-31",
+    "acceptance": "2025-08-06T20:06:12.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-25-174452.html",
+    "release_path": "sources/earnings/CRS_0001193125-25-174452_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-25-174450",
+    "filed": "2025-08-06",
+    "report_date": "2025-07-31",
+    "acceptance": "2025-08-06T20:06:01.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-25-174450.html",
+    "release_path": "sources/earnings/CRS_0001193125-25-174450_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-25-103787",
+    "filed": "2025-04-29",
+    "report_date": "2025-04-24",
+    "acceptance": "2025-04-29T20:10:17.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-25-103787.html",
+    "release_path": "sources/earnings/CRS_0001193125-25-103787_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-25-103769",
+    "filed": "2025-04-29",
+    "report_date": "2025-04-24",
+    "acceptance": "2025-04-29T20:05:33.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-25-103769.html",
+    "release_path": "sources/earnings/CRS_0001193125-25-103769_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-25-019386",
+    "filed": "2025-02-03",
+    "report_date": "2025-01-30",
+    "acceptance": "2025-02-03T22:24:38.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-25-019386.html",
+    "release_path": "sources/earnings/CRS_0001193125-25-019386_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-25-019378",
+    "filed": "2025-02-03",
+    "report_date": "2025-01-30",
+    "acceptance": "2025-02-03T22:19:44.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-25-019378.html",
+    "release_path": "sources/earnings/CRS_0001193125-25-019378_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-24-246616",
+    "filed": "2024-10-29",
+    "report_date": "2024-10-24",
+    "acceptance": "2024-10-29T20:51:04.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-24-246616.html",
+    "release_path": "sources/earnings/CRS_0001193125-24-246616_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-24-246614",
+    "filed": "2024-10-29",
+    "report_date": "2024-10-24",
+    "acceptance": "2024-10-29T20:48:30.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-24-246614.html",
+    "release_path": "sources/earnings/CRS_0001193125-24-246614_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-24-187545",
+    "filed": "2024-07-29",
+    "report_date": "2024-07-25",
+    "acceptance": "2024-07-29T20:03:32.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-24-187545.html",
+    "release_path": "sources/earnings/CRS_0001193125-24-187545_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-24-187540",
+    "filed": "2024-07-29",
+    "report_date": "2024-07-25",
+    "acceptance": "2024-07-29T20:01:31.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-24-187540.html",
+    "release_path": "sources/earnings/CRS_0001193125-24-187540_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-24-130676",
+    "filed": "2024-05-03",
+    "report_date": "2024-05-01",
+    "acceptance": "2024-05-03T20:04:03.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-24-130676.html",
+    "release_path": "sources/earnings/CRS_0001193125-24-130676_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-24-130672",
+    "filed": "2024-05-03",
+    "report_date": "2024-05-01",
+    "acceptance": "2024-05-03T20:02:35.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-24-130672.html",
+    "release_path": "sources/earnings/CRS_0001193125-24-130672_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-24-018118",
+    "filed": "2024-01-29",
+    "report_date": "2024-01-25",
+    "acceptance": "2024-01-29T21:11:08.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-24-018118.html",
+    "release_path": "sources/earnings/CRS_0001193125-24-018118_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-24-018111",
+    "filed": "2024-01-29",
+    "report_date": "2024-01-25",
+    "acceptance": "2024-01-29T21:08:35.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-24-018111.html",
+    "release_path": "sources/earnings/CRS_0001193125-24-018111_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-23-267222",
+    "filed": "2023-10-31",
+    "report_date": "2023-10-26",
+    "acceptance": "2023-10-31T20:24:00.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-23-267222.html",
+    "release_path": "sources/earnings/CRS_0001193125-23-267222_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-23-267221",
+    "filed": "2023-10-31",
+    "report_date": "2023-10-26",
+    "acceptance": "2023-10-31T20:23:05.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-23-267221.html",
+    "release_path": "sources/earnings/CRS_0001193125-23-267221_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-23-199107",
+    "filed": "2023-07-31",
+    "report_date": "2023-07-27",
+    "acceptance": "2023-07-31T20:04:54.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-23-199107.html",
+    "release_path": "sources/earnings/CRS_0001193125-23-199107_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-23-199106",
+    "filed": "2023-07-31",
+    "report_date": "2023-07-27",
+    "acceptance": "2023-07-31T20:04:53.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-23-199106.html",
+    "release_path": "sources/earnings/CRS_0001193125-23-199106_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-23-130466",
+    "filed": "2023-05-01",
+    "report_date": "2023-04-27",
+    "acceptance": "2023-05-01T20:16:11.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-23-130466.html",
+    "release_path": "sources/earnings/CRS_0001193125-23-130466_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-23-130465",
+    "filed": "2023-05-01",
+    "report_date": "2023-04-27",
+    "acceptance": "2023-05-01T20:16:02.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-23-130465.html",
+    "release_path": "sources/earnings/CRS_0001193125-23-130465_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-23-017580",
+    "filed": "2023-01-27",
+    "report_date": "2023-01-26",
+    "acceptance": "2023-01-27T21:21:14.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-23-017580.html",
+    "release_path": "sources/earnings/CRS_0001193125-23-017580_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-23-017576",
+    "filed": "2023-01-27",
+    "report_date": "2023-01-26",
+    "acceptance": "2023-01-27T21:20:07.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-23-017576.html",
+    "release_path": "sources/earnings/CRS_0001193125-23-017576_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-22-275056",
+    "filed": "2022-11-01",
+    "report_date": "2022-10-27",
+    "acceptance": "2022-11-01T21:15:56.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-22-275056.html",
+    "release_path": "sources/earnings/CRS_0001193125-22-275056_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-22-275047",
+    "filed": "2022-11-01",
+    "report_date": "2022-10-27",
+    "acceptance": "2022-11-01T21:12:10.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-22-275047.html",
+    "release_path": "sources/earnings/CRS_0001193125-22-275047_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-22-262260",
+    "filed": "2022-10-13",
+    "report_date": "2022-10-13",
+    "acceptance": "2022-10-13T21:18:05.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-22-262260.html",
+    "release_path": "sources/earnings/CRS_0001193125-22-262260_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-22-209829",
+    "filed": "2022-08-02",
+    "report_date": "2022-07-28",
+    "acceptance": "2022-08-02T17:15:24.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-22-209829.html",
+    "release_path": "sources/earnings/CRS_0001193125-22-209829_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-22-209798",
+    "filed": "2022-08-02",
+    "report_date": "2022-07-28",
+    "acceptance": "2022-08-02T16:39:32.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-22-209798.html",
+    "release_path": "sources/earnings/CRS_0001193125-22-209798_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-22-133041",
+    "filed": "2022-04-29",
+    "report_date": "2022-04-28",
+    "acceptance": "2022-04-29T18:50:55.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-22-133041.html",
+    "release_path": "sources/earnings/CRS_0001193125-22-133041_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-22-132928",
+    "filed": "2022-04-29",
+    "report_date": "2022-04-28",
+    "acceptance": "2022-04-29T18:32:10.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-22-132928.html",
+    "release_path": "sources/earnings/CRS_0001193125-22-132928_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-22-027079",
+    "filed": "2022-02-03",
+    "report_date": "2022-02-02",
+    "acceptance": "2022-02-03T21:51:04.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-22-027079.html",
+    "release_path": "sources/earnings/CRS_0001193125-22-027079_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-22-026962",
+    "filed": "2022-02-03",
+    "report_date": "2022-02-02",
+    "acceptance": "2022-02-03T20:54:12.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-22-026962.html",
+    "release_path": "sources/earnings/CRS_0001193125-22-026962_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-21-311250",
+    "filed": "2021-10-28",
+    "report_date": "2021-10-28",
+    "acceptance": "2021-10-28T19:55:54.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-21-311250.html",
+    "release_path": "sources/earnings/CRS_0001193125-21-311250_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-21-311248",
+    "filed": "2021-10-28",
+    "report_date": "2021-10-28",
+    "acceptance": "2021-10-28T19:54:07.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-21-311248.html",
+    "release_path": "sources/earnings/CRS_0001193125-21-311248_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-21-230653",
+    "filed": "2021-07-30",
+    "report_date": "2021-07-30",
+    "acceptance": "2021-07-30T17:02:39.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-21-230653.html",
+    "release_path": "sources/earnings/CRS_0001193125-21-230653_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-21-230646",
+    "filed": "2021-07-30",
+    "report_date": "2021-07-30",
+    "acceptance": "2021-07-30T16:58:32.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-21-230646.html",
+    "release_path": "sources/earnings/CRS_0001193125-21-230646_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-21-143444",
+    "filed": "2021-04-30",
+    "report_date": "2021-04-29",
+    "acceptance": "2021-04-30T15:19:18.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-21-143444.html",
+    "release_path": "sources/earnings/CRS_0001193125-21-143444_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-21-143405",
+    "filed": "2021-04-30",
+    "report_date": "2021-04-29",
+    "acceptance": "2021-04-30T15:14:54.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-21-143405.html",
+    "release_path": "sources/earnings/CRS_0001193125-21-143405_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-21-022699",
+    "filed": "2021-01-29",
+    "report_date": "2021-01-28",
+    "acceptance": "2021-01-29T21:35:12.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-21-022699.html",
+    "release_path": "sources/earnings/CRS_0001193125-21-022699_release.html"
+  },
+  {
+    "ticker": "CRS",
+    "accession": "0001193125-21-022687",
+    "filed": "2021-01-29",
+    "report_date": "2021-01-28",
+    "acceptance": "2021-01-29T21:30:43.000Z",
+    "filing_path": "sources/earnings/CRS_0001193125-21-022687.html",
+    "release_path": "sources/earnings/CRS_0001193125-21-022687_release.html"
+  },
+  {
+    "ticker": "ATI",
+    "accession": "0001628280-26-053856",
+    "filed": "2026-08-06",
+    "report_date": "2026-08-06",
+    "acceptance": "2026-08-06T11:40:01.000Z",
+    "filing_path": "sources/earnings/ATI_0001628280-26-053856.html",
+    "release_path": "sources/earnings/ATI_0001628280-26-053856_release.html"
+  },
+  {
+    "ticker": "ATI",
+    "accession": "0001628280-26-028589",
+    "filed": "2026-04-30",
+    "report_date": "2026-04-30",
+    "acceptance": "2026-04-30T11:33:57.000Z",
+    "filing_path": "sources/earnings/ATI_0001628280-26-028589.html",
+    "release_path": "sources/earnings/ATI_0001628280-26-028589_release.html"
+  },
+  {
+    "ticker": "ATI",
+    "accession": "0001628280-26-004793",
+    "filed": "2026-02-03",
+    "report_date": "2026-02-03",
+    "acceptance": "2026-02-03T12:37:29.000Z",
+    "filing_path": "sources/earnings/ATI_0001628280-26-004793.html",
+    "release_path": "sources/earnings/ATI_0001628280-26-004793_release.html"
+  },
+  {
+    "ticker": "ATI",
+    "accession": "0001628280-25-046559",
+    "filed": "2025-10-28",
+    "report_date": "2025-10-28",
+    "acceptance": "2025-10-28T11:45:06.000Z",
+    "filing_path": "sources/earnings/ATI_0001628280-25-046559.html",
+    "release_path": "sources/earnings/ATI_0001628280-25-046559_release.html"
+  },
+  {
+    "ticker": "ATI",
+    "accession": "0001628280-25-036845",
+    "filed": "2025-07-31",
+    "report_date": "2025-07-31",
+    "acceptance": "2025-07-31T11:36:16.000Z",
+    "filing_path": "sources/earnings/ATI_0001628280-25-036845.html",
+    "release_path": "sources/earnings/ATI_0001628280-25-036845_release.html"
+  },
+  {
+    "ticker": "ATI",
+    "accession": "0001628280-25-021324",
+    "filed": "2025-05-01",
+    "report_date": "2025-05-01",
+    "acceptance": "2025-05-01T11:34:26.000Z",
+    "filing_path": "sources/earnings/ATI_0001628280-25-021324.html",
+    "release_path": "sources/earnings/ATI_0001628280-25-021324_release.html"
+  },
+  {
+    "ticker": "ATI",
+    "accession": "0001628280-25-003579",
+    "filed": "2025-02-04",
+    "report_date": "2025-02-04",
+    "acceptance": "2025-02-04T12:36:45.000Z",
+    "filing_path": "sources/earnings/ATI_0001628280-25-003579.html",
+    "release_path": "sources/earnings/ATI_0001628280-25-003579_release.html"
+  },
+  {
+    "ticker": "ATI",
+    "accession": "0001628280-24-044003",
+    "filed": "2024-10-29",
+    "report_date": "2024-10-29",
+    "acceptance": "2024-10-29T11:36:33.000Z",
+    "filing_path": "sources/earnings/ATI_0001628280-24-044003.html",
+    "release_path": "sources/earnings/ATI_0001628280-24-044003_release.html"
+  },
+  {
+    "ticker": "ATI",
+    "accession": "0001628280-24-034973",
+    "filed": "2024-08-06",
+    "report_date": "2024-08-06",
+    "acceptance": "2024-08-06T11:35:15.000Z",
+    "filing_path": "sources/earnings/ATI_0001628280-24-034973.html",
+    "release_path": "sources/earnings/ATI_0001628280-24-034973_release.html"
+  },
+  {
+    "ticker": "ATI",
+    "accession": "0001628280-24-019185",
+    "filed": "2024-04-30",
+    "report_date": "2024-04-30",
+    "acceptance": "2024-04-30T11:34:12.000Z",
+    "filing_path": "sources/earnings/ATI_0001628280-24-019185.html",
+    "release_path": "sources/earnings/ATI_0001628280-24-019185_release.html"
+  },
+  {
+    "ticker": "ATI",
+    "accession": "0001628280-24-002807",
+    "filed": "2024-02-01",
+    "report_date": "2024-02-01",
+    "acceptance": "2024-02-01T12:36:51.000Z",
+    "filing_path": "sources/earnings/ATI_0001628280-24-002807.html",
+    "release_path": "sources/earnings/ATI_0001628280-24-002807_release.html"
+  },
+  {
+    "ticker": "ATI",
+    "accession": "0001628280-23-036216",
+    "filed": "2023-11-02",
+    "report_date": "2023-11-02",
+    "acceptance": "2023-11-02T11:56:59.000Z",
+    "filing_path": "sources/earnings/ATI_0001628280-23-036216.html",
+    "release_path": "sources/earnings/ATI_0001628280-23-036216_release.html"
+  },
+  {
+    "ticker": "ATI",
+    "accession": "0001628280-23-026573",
+    "filed": "2023-08-02",
+    "report_date": "2023-08-02",
+    "acceptance": "2023-08-02T11:37:44.000Z",
+    "filing_path": "sources/earnings/ATI_0001628280-23-026573.html",
+    "release_path": "sources/earnings/ATI_0001628280-23-026573_release.html"
+  },
+  {
+    "ticker": "ATI",
+    "accession": "0001628280-23-015453",
+    "filed": "2023-05-04",
+    "report_date": "2023-05-04",
+    "acceptance": "2023-05-04T11:32:46.000Z",
+    "filing_path": "sources/earnings/ATI_0001628280-23-015453.html",
+    "release_path": "sources/earnings/ATI_0001628280-23-015453_release.html"
+  },
+  {
+    "ticker": "ATI",
+    "accession": "0001628280-23-001965",
+    "filed": "2023-02-02",
+    "report_date": "2023-02-02",
+    "acceptance": "2023-02-02T12:34:40.000Z",
+    "filing_path": "sources/earnings/ATI_0001628280-23-001965.html",
+    "release_path": "sources/earnings/ATI_0001628280-23-001965_release.html"
+  },
+  {
+    "ticker": "ATI",
+    "accession": "0001628280-22-027662",
+    "filed": "2022-11-02",
+    "report_date": "2022-11-02",
+    "acceptance": "2022-11-02T11:35:47.000Z",
+    "filing_path": "sources/earnings/ATI_0001628280-22-027662.html",
+    "release_path": "sources/earnings/ATI_0001628280-22-027662_release.html"
+  },
+  {
+    "ticker": "ATI",
+    "accession": "0001628280-22-020867",
+    "filed": "2022-08-04",
+    "report_date": "2022-08-04",
+    "acceptance": "2022-08-04T11:40:26.000Z",
+    "filing_path": "sources/earnings/ATI_0001628280-22-020867.html",
+    "release_path": "sources/earnings/ATI_0001628280-22-020867_release.html"
+  },
+  {
+    "ticker": "ATI",
+    "accession": "0001628280-22-012142",
+    "filed": "2022-05-04",
+    "report_date": "2022-05-04",
+    "acceptance": "2022-05-04T11:39:23.000Z",
+    "filing_path": "sources/earnings/ATI_0001628280-22-012142.html",
+    "release_path": "sources/earnings/ATI_0001628280-22-012142_release.html"
+  },
+  {
+    "ticker": "ATI",
+    "accession": "0001628280-22-001628",
+    "filed": "2022-02-02",
+    "report_date": "2022-02-02",
+    "acceptance": "2022-02-02T12:51:39.000Z",
+    "filing_path": "sources/earnings/ATI_0001628280-22-001628.html",
+    "release_path": "sources/earnings/ATI_0001628280-22-001628_release.html"
+  },
+  {
+    "ticker": "ATI",
+    "accession": "0001628280-21-020694",
+    "filed": "2021-10-28",
+    "report_date": "2021-10-28",
+    "acceptance": "2021-10-28T11:35:44.000Z",
+    "filing_path": "sources/earnings/ATI_0001628280-21-020694.html",
+    "release_path": "sources/earnings/ATI_0001628280-21-020694_release.html"
+  },
+  {
+    "ticker": "ATI",
+    "accession": "0001628280-21-015240",
+    "filed": "2021-08-03",
+    "report_date": "2021-08-03",
+    "acceptance": "2021-08-03T11:35:07.000Z",
+    "filing_path": "sources/earnings/ATI_0001628280-21-015240.html",
+    "release_path": "sources/earnings/ATI_0001628280-21-015240_release.html"
+  },
+  {
+    "ticker": "ATI",
+    "accession": "0001628280-21-008035",
+    "filed": "2021-04-29",
+    "report_date": "2021-04-29",
+    "acceptance": "2021-04-29T11:37:42.000Z",
+    "filing_path": "sources/earnings/ATI_0001628280-21-008035.html",
+    "release_path": "sources/earnings/ATI_0001628280-21-008035_release.html"
+  },
+  {
+    "ticker": "ATI",
+    "accession": "0001628280-21-000940",
+    "filed": "2021-01-28",
+    "report_date": "2021-01-28",
+    "acceptance": "2021-01-28T12:40:33.000Z",
+    "filing_path": "sources/earnings/ATI_0001628280-21-000940.html",
+    "release_path": "sources/earnings/ATI_0001628280-21-000940_release.html"
+  }
+]

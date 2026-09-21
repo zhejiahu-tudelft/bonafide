@@ -1,0 +1,154 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "check": "Original MTRN research, original inputs, HPE code and protocol preserved",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "No price observation beyond cutoff",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ELMT matched public history only",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Every selected SEC fact available at assigned date",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All selected facts, including TTM comparatives, have vintage metadata",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Complete opening weeks retained and ELMT partial week excluded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Risk-free-adjusted moments do not extrapolate beyond factor coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Partial September excluded from monthly returns",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Materion TTM FCF includes mine development",
+      "passed": true,
+      "detail": {
+        "fcf_m": 32.43900000000001,
+        "mine_capex_m": 17.774
+      }
+    },
+    {
+      "check": "No negative investment outflow from stale tag selection",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "All requested bridge panels represented",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Price/EPS/multiple log identities reconcile",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Invalid EPS bridges are excluded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Monthly gates, calendar alignment, and no ELMT full model",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Nested models share observations",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Mean and variance decomposition identities",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Residual mean not confused with alpha",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Complete 2021-cutoff quarterly earnings census",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Original-release update coverage",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Carpenter prior-year column, not sequential column",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Loss EPS sign preserved",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Announcement release dates precede filing dates",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Event windows end by cutoff and estimation ends before window",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Event primary, wider, timing and industry sensitivities present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ELMT secondary price source reconciled",
+      "passed": true,
+      "detail": {
+        "observations": 50,
+        "max_price_difference": 9.155273446026512e-07
+      }
+    },
+    {
+      "check": "Report contains embedded figures and all five firms",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Report local evidence/output links exist",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Report coverage counts match computed moments",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "cutoff": "2026-09-18",
+  "seed": 20260918,
+  "bootstrap_replications": 2000
+}

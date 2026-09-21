@@ -1,0 +1,42 @@
+[
+  {
+    "component": "August/September risk-free-adjusted statistics",
+    "reason": "Kenneth French July 2026 vintage ends 2026-07-31; raw returns and benchmark models extend to 2026-09-18. No risk-free observations extrapolated."
+  },
+  {
+    "component": "M3 real-yield and credit-spread model",
+    "reason": "Both FRED CSV and alternative text delivery failed. M2 plus nominal Treasury yield change is labeled a sensitivity, not a substitute for M3."
+  },
+  {
+    "component": "Fully reconciled EV/EBITDA, EV bridges and ROIC",
+    "reason": "Lease, minority, pension and preferred claims and historical invested-capital definitions are not uniformly reconciled. Report operating EBITDA and common-equity multiples where valid; no false cross-company EV precision."
+  },
+  {
+    "component": "Complete discrete quarterly cash-flow history",
+    "reason": "Same-accession YTD subtraction only. Missing same-vintage components and undisclosed Q4 data remain missing; annual and TTM cash flows are available."
+  },
+  {
+    "component": "Exact rolling diluted EPS denominator",
+    "reason": "Annual + YTD - prior YTD disclosed diluted EPS is a transparent approximation because EPS is not additive under changing share weights. Price/log bridge reconciles exactly for this explicitly defined earnings proxy; no causal earnings attribution."
+  },
+  {
+    "component": "ELMT long-history, full monthly and formal event-study models",
+    "reason": "103 public closes / 102 close-to-close returns from Apr23; fewer than 160 pre-event sessions. Only common daily market model and descriptive benchmark-relative event returns."
+  },
+  {
+    "component": "Consensus, historical guidance/backlog revision regressions",
+    "reason": "Recoverable historical expectations were not assembled. Primary disclosure covariates are original GAAP EPS changes and margin changes, not consensus surprises."
+  },
+  {
+    "component": "Comprehensive strategic-event census and real-economy time-series regressions",
+    "reason": "Selected source-established events and archived industry context are reported separately; not a complete policy, contract, quality, acquisition or lockup history. No claimed statistical attribution from this selected register."
+  },
+  {
+    "component": "Historical ETF holdings and own-stock contamination",
+    "reason": "Saved issuer descriptions establish SOXX/ITA relevance. Historical constituent weights were not recovered; any issuer overlap is unquantified, so ETF co-movement is descriptive."
+  },
+  {
+    "component": "Factor vintage available exactly at cutoff",
+    "reason": "French July 2026 data were retrieved Sept20. No economic observations after cutoff are used, but exact Sept18-vintage equivalence cannot be established. All factor regressions are explicitly retrospective-vintage estimates, not a point-in-time backtest."
+  }
+]

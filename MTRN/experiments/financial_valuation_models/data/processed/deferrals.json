@@ -1,0 +1,38 @@
+[
+  {
+    "component": "forward_pe",
+    "reason": "No archived historical analyst consensus"
+  },
+  {
+    "component": "earnings_surprise",
+    "reason": "Consensus with matching original EPS basis unavailable"
+  },
+  {
+    "component": "analyst_revisions",
+    "reason": "No point-in-time estimate archive"
+  },
+  {
+    "component": "bid_ask_spread",
+    "reason": "Historical contemporaneous quotes unavailable"
+  },
+  {
+    "component": "roic",
+    "reason": "Claims/tax/invested-capital reconciliation incomplete; explicitly labeled proxy sensitivity available"
+  },
+  {
+    "component": "ev_ebitda",
+    "reason": "Full preferred/pension/lease/other claims unreconciled; proxy sensitivity only"
+  },
+  {
+    "component": "ev_sales",
+    "reason": "Full claims bridge unavailable; proxy sensitivity only"
+  },
+  {
+    "component": "index_membership_return",
+    "reason": "Historical constituent membership unavailable; index/sector proxies used"
+  },
+  {
+    "component": "tungsten_molybdenum_prices",
+    "reason": "Comparable accessible historical price series not established"
+  }
+]

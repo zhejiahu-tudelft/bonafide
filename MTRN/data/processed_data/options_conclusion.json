@@ -1,0 +1,15 @@
+{
+  "file_timestamp": "2026-09-19 01:47:18",
+  "file_timezone": "unspecified by vendor",
+  "underlying_last_trade": "2026-09-18T15:59:59",
+  "spot": 251.53,
+  "vendor_iv30_pct": 51.874,
+  "total_contracts": 352,
+  "unexpired_contracts": 254,
+  "usable_contracts": 0,
+  "liquidity_only_pass": 5,
+  "unexpired_volume": 18.0,
+  "unexpired_oi": 755.0,
+  "conclusion": "Reliable options analysis could not be performed because the available option-chain data was insufficient or illiquid.",
+  "screen": "Positive bid; ask >= bid; spread <= 30% of midpoint; OI >= 20; nonexpired; IV > 0 and < 500%; underlying session date aligned; most recent trade <= 5 calendar days old; at least one contract traded in snapshot."
+}
