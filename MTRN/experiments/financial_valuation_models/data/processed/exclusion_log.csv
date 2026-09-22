@@ -1,0 +1,1222 @@
+task,horizon,ticker,model,window,date,variable,status,stage
+return,1,pooled,pooled_ridge,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_pooled
+return,1,pooled,pooled_ridge,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_pooled
+return,1,pooled,pooled_ridge,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_pooled
+return,1,pooled,pooled_ridge,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_pooled
+return,1,pooled,pooled_ridge,expanding,2022-12-31,payout,training coverage below gate,exclusions_pooled
+return,1,pooled,pooled_ridge,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_pooled
+return,1,pooled,pooled_forest,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_pooled
+return,1,pooled,pooled_forest,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_pooled
+return,1,pooled,pooled_forest,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_pooled
+return,1,pooled,pooled_forest,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_pooled
+return,1,pooled,pooled_forest,expanding,2022-12-31,payout,training coverage below gate,exclusions_pooled
+return,1,pooled,pooled_forest,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_pooled
+return,1,pooled,pooled_boost,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_pooled
+return,1,pooled,pooled_boost,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_pooled
+return,1,pooled,pooled_boost,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_pooled
+return,1,pooled,pooled_boost,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_pooled
+return,1,pooled,pooled_boost,expanding,2022-12-31,payout,training coverage below gate,exclusions_pooled
+return,1,pooled,pooled_boost,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_pooled
+return,1,MTRN+ENTG,business_pair_ridge,expanding,2022-12-31,company_ATI,constant in training window,exclusions_pooled
+return,1,MTRN+ENTG,business_pair_ridge,expanding,2022-12-31,company_CRS,constant in training window,exclusions_pooled
+return,1,MTRN+ENTG,business_pair_ridge,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_pooled
+return,1,MTRN+ENTG,business_pair_ridge,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_pooled
+return,1,MTRN+ENTG,business_pair_ridge,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_pooled
+return,1,CRS+ATI,business_pair_ridge,expanding,2022-12-31,company_ENTG,constant in training window,exclusions_pooled
+return,1,CRS+ATI,business_pair_ridge,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_pooled
+return,1,CRS+ATI,business_pair_ridge,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_pooled
+return,1,CRS+ATI,business_pair_ridge,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_pooled
+return,1,CRS+ATI,business_pair_ridge,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_pooled
+return,1,CRS+ATI,business_pair_ridge,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_pooled
+return,1,CRS+ATI,business_pair_ridge,expanding,2022-12-31,payout,training coverage below gate,exclusions_pooled
+return,1,CRS+ATI,business_pair_ridge,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_pooled
+return,1,CRS+ATI,business_pair_ridge,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_pooled
+variance,1,pooled,pooled_ridge,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_pooled
+variance,1,pooled,pooled_ridge,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_pooled
+variance,1,pooled,pooled_ridge,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_pooled
+variance,1,pooled,pooled_ridge,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_pooled
+variance,1,pooled,pooled_ridge,expanding,2022-12-31,payout,training coverage below gate,exclusions_pooled
+variance,1,pooled,pooled_ridge,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_pooled
+variance,1,pooled,pooled_forest,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_pooled
+variance,1,pooled,pooled_forest,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_pooled
+variance,1,pooled,pooled_forest,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_pooled
+variance,1,pooled,pooled_forest,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_pooled
+variance,1,pooled,pooled_forest,expanding,2022-12-31,payout,training coverage below gate,exclusions_pooled
+variance,1,pooled,pooled_forest,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_pooled
+variance,1,pooled,pooled_boost,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_pooled
+variance,1,pooled,pooled_boost,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_pooled
+variance,1,pooled,pooled_boost,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_pooled
+variance,1,pooled,pooled_boost,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_pooled
+variance,1,pooled,pooled_boost,expanding,2022-12-31,payout,training coverage below gate,exclusions_pooled
+variance,1,pooled,pooled_boost,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_pooled
+variance,1,MTRN+ENTG,business_pair_ridge,expanding,2022-12-31,company_ATI,constant in training window,exclusions_pooled
+variance,1,MTRN+ENTG,business_pair_ridge,expanding,2022-12-31,company_CRS,constant in training window,exclusions_pooled
+variance,1,MTRN+ENTG,business_pair_ridge,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_pooled
+variance,1,MTRN+ENTG,business_pair_ridge,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_pooled
+variance,1,MTRN+ENTG,business_pair_ridge,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_pooled
+variance,1,CRS+ATI,business_pair_ridge,expanding,2022-12-31,company_ENTG,constant in training window,exclusions_pooled
+variance,1,CRS+ATI,business_pair_ridge,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_pooled
+variance,1,CRS+ATI,business_pair_ridge,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_pooled
+variance,1,CRS+ATI,business_pair_ridge,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_pooled
+variance,1,CRS+ATI,business_pair_ridge,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_pooled
+variance,1,CRS+ATI,business_pair_ridge,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_pooled
+variance,1,CRS+ATI,business_pair_ridge,expanding,2022-12-31,payout,training coverage below gate,exclusions_pooled
+variance,1,CRS+ATI,business_pair_ridge,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_pooled
+variance,1,CRS+ATI,business_pair_ridge,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_pooled
+return,1,CRS+ATI,business_pair_ridge,expanding,2025-02-28,fcf_equipment_yield_relative,readmitted,exclusions_pooled
+variance,1,CRS+ATI,business_pair_ridge,expanding,2025-02-28,fcf_equipment_yield_relative,readmitted,exclusions_pooled
+return,1,pooled,pooled_ridge,expanding,2026-04-30,eps_growth,readmitted,exclusions_pooled
+return,1,pooled,pooled_forest,expanding,2026-04-30,eps_growth,readmitted,exclusions_pooled
+return,1,pooled,pooled_boost,expanding,2026-04-30,eps_growth,readmitted,exclusions_pooled
+variance,1,pooled,pooled_ridge,expanding,2026-04-30,eps_growth,readmitted,exclusions_pooled
+variance,1,pooled,pooled_forest,expanding,2026-04-30,eps_growth,readmitted,exclusions_pooled
+variance,1,pooled,pooled_boost,expanding,2026-04-30,eps_growth,readmitted,exclusions_pooled
+return,3,MTRN,ridge_full,expanding,2023-04-30,capex_assets,training coverage below gate,exclusions_pooled
+return,3,MTRN,ridge_full,expanding,2023-04-30,credit_spread,training coverage below gate,exclusions_pooled
+return,3,MTRN,ridge_full,expanding,2023-04-30,credit_spread_change,training coverage below gate,exclusions_pooled
+return,3,MTRN,ridge_full,expanding,2023-04-30,debt_assets,training coverage below gate,exclusions_pooled
+return,3,MTRN,ridge_full,expanding,2023-04-30,debt_equity,training coverage below gate,exclusions_pooled
+return,3,MTRN,ridge_full,expanding,2023-04-30,interest_coverage,training coverage below gate,exclusions_pooled
+return,3,MTRN,forest_full,expanding,2023-04-30,capex_assets,training coverage below gate,exclusions_pooled
+return,3,MTRN,forest_full,expanding,2023-04-30,credit_spread,training coverage below gate,exclusions_pooled
+return,3,MTRN,forest_full,expanding,2023-04-30,credit_spread_change,training coverage below gate,exclusions_pooled
+return,3,MTRN,forest_full,expanding,2023-04-30,debt_assets,training coverage below gate,exclusions_pooled
+return,3,MTRN,forest_full,expanding,2023-04-30,debt_equity,training coverage below gate,exclusions_pooled
+return,3,MTRN,forest_full,expanding,2023-04-30,interest_coverage,training coverage below gate,exclusions_pooled
+return,3,MTRN,boost_full,expanding,2023-04-30,capex_assets,training coverage below gate,exclusions_pooled
+return,3,MTRN,boost_full,expanding,2023-04-30,credit_spread,training coverage below gate,exclusions_pooled
+return,3,MTRN,boost_full,expanding,2023-04-30,credit_spread_change,training coverage below gate,exclusions_pooled
+return,3,MTRN,boost_full,expanding,2023-04-30,debt_assets,training coverage below gate,exclusions_pooled
+return,3,MTRN,boost_full,expanding,2023-04-30,debt_equity,training coverage below gate,exclusions_pooled
+return,3,MTRN,boost_full,expanding,2023-04-30,interest_coverage,training coverage below gate,exclusions_pooled
+return,3,ENTG,ridge_full,expanding,2023-04-30,credit_spread,training coverage below gate,exclusions_pooled
+return,3,ENTG,ridge_full,expanding,2023-04-30,credit_spread_change,training coverage below gate,exclusions_pooled
+return,3,ENTG,ridge_full,expanding,2023-04-30,dividend_yield,training coverage below gate,exclusions_pooled
+return,3,ENTG,ridge_full,expanding,2023-04-30,payout,training coverage below gate,exclusions_pooled
+return,3,ENTG,forest_full,expanding,2023-04-30,credit_spread,training coverage below gate,exclusions_pooled
+return,3,ENTG,forest_full,expanding,2023-04-30,credit_spread_change,training coverage below gate,exclusions_pooled
+return,3,ENTG,forest_full,expanding,2023-04-30,dividend_yield,training coverage below gate,exclusions_pooled
+return,3,ENTG,forest_full,expanding,2023-04-30,payout,training coverage below gate,exclusions_pooled
+return,3,ENTG,boost_full,expanding,2023-04-30,credit_spread,training coverage below gate,exclusions_pooled
+return,3,ENTG,boost_full,expanding,2023-04-30,credit_spread_change,training coverage below gate,exclusions_pooled
+return,3,ENTG,boost_full,expanding,2023-04-30,dividend_yield,training coverage below gate,exclusions_pooled
+return,3,ENTG,boost_full,expanding,2023-04-30,payout,training coverage below gate,exclusions_pooled
+return,3,ENTG,ridge_full,expanding,2023-05-31,dividend_yield,readmitted,exclusions_pooled
+return,3,ENTG,ridge_full,expanding,2023-05-31,payout,readmitted,exclusions_pooled
+return,3,ENTG,forest_full,expanding,2023-05-31,dividend_yield,readmitted,exclusions_pooled
+return,3,ENTG,forest_full,expanding,2023-05-31,payout,readmitted,exclusions_pooled
+return,3,ENTG,boost_full,expanding,2023-05-31,dividend_yield,readmitted,exclusions_pooled
+return,3,ENTG,boost_full,expanding,2023-05-31,payout,readmitted,exclusions_pooled
+return,3,ENTG,ridge_full,expanding,2023-09-30,payout,training coverage below gate,exclusions_pooled
+return,3,ENTG,forest_full,expanding,2023-09-30,payout,training coverage below gate,exclusions_pooled
+return,3,ENTG,boost_full,expanding,2023-09-30,payout,training coverage below gate,exclusions_pooled
+return,3,ENTG,ridge_full,expanding,2024-03-31,payout,readmitted,exclusions_pooled
+return,3,ENTG,forest_full,expanding,2024-03-31,payout,readmitted,exclusions_pooled
+return,3,ENTG,boost_full,expanding,2024-03-31,payout,readmitted,exclusions_pooled
+return,3,CRS,ridge_full,expanding,2023-04-30,credit_spread,training coverage below gate,exclusions_pooled
+return,3,CRS,ridge_full,expanding,2023-04-30,credit_spread_change,training coverage below gate,exclusions_pooled
+return,3,CRS,ridge_full,expanding,2023-04-30,eps_growth,training coverage below gate,exclusions_pooled
+return,3,CRS,ridge_full,expanding,2023-04-30,fcf_equipment_yield_relative,training coverage below gate,exclusions_pooled
+return,3,CRS,ridge_full,expanding,2023-04-30,net_margin,training coverage below gate,exclusions_pooled
+return,3,CRS,ridge_full,expanding,2023-04-30,payout,training coverage below gate,exclusions_pooled
+return,3,CRS,ridge_full,expanding,2023-04-30,pe_pct_change,training coverage below gate,exclusions_pooled
+return,3,CRS,ridge_full,expanding,2023-04-30,pe_percentile,training coverage below gate,exclusions_pooled
+return,3,CRS,forest_full,expanding,2023-04-30,credit_spread,training coverage below gate,exclusions_pooled
+return,3,CRS,forest_full,expanding,2023-04-30,credit_spread_change,training coverage below gate,exclusions_pooled
+return,3,CRS,forest_full,expanding,2023-04-30,eps_growth,training coverage below gate,exclusions_pooled
+return,3,CRS,forest_full,expanding,2023-04-30,fcf_equipment_yield_relative,training coverage below gate,exclusions_pooled
+return,3,CRS,forest_full,expanding,2023-04-30,net_margin,training coverage below gate,exclusions_pooled
+return,3,CRS,forest_full,expanding,2023-04-30,payout,training coverage below gate,exclusions_pooled
+return,3,CRS,forest_full,expanding,2023-04-30,pe_pct_change,training coverage below gate,exclusions_pooled
+return,3,CRS,forest_full,expanding,2023-04-30,pe_percentile,training coverage below gate,exclusions_pooled
+return,3,CRS,boost_full,expanding,2023-04-30,credit_spread,training coverage below gate,exclusions_pooled
+return,3,CRS,boost_full,expanding,2023-04-30,credit_spread_change,training coverage below gate,exclusions_pooled
+return,3,CRS,boost_full,expanding,2023-04-30,eps_growth,training coverage below gate,exclusions_pooled
+return,3,CRS,boost_full,expanding,2023-04-30,fcf_equipment_yield_relative,training coverage below gate,exclusions_pooled
+return,3,CRS,boost_full,expanding,2023-04-30,net_margin,training coverage below gate,exclusions_pooled
+return,3,CRS,boost_full,expanding,2023-04-30,payout,training coverage below gate,exclusions_pooled
+return,3,CRS,boost_full,expanding,2023-04-30,pe_pct_change,training coverage below gate,exclusions_pooled
+return,3,CRS,boost_full,expanding,2023-04-30,pe_percentile,training coverage below gate,exclusions_pooled
+return,3,CRS,ridge_full,expanding,2024-10-31,pe_pct_change,readmitted,exclusions_pooled
+return,3,CRS,forest_full,expanding,2024-10-31,pe_pct_change,readmitted,exclusions_pooled
+return,3,CRS,boost_full,expanding,2024-10-31,pe_pct_change,readmitted,exclusions_pooled
+return,3,ATI,ridge_full,expanding,2023-04-30,credit_spread,training coverage below gate,exclusions_pooled
+return,3,ATI,ridge_full,expanding,2023-04-30,credit_spread_change,training coverage below gate,exclusions_pooled
+return,3,ATI,ridge_full,expanding,2023-04-30,ebitda_growth,training coverage below gate,exclusions_pooled
+return,3,ATI,ridge_full,expanding,2023-04-30,eps_growth,training coverage below gate,exclusions_pooled
+return,3,ATI,ridge_full,expanding,2023-04-30,interest_coverage,training coverage below gate,exclusions_pooled
+return,3,ATI,ridge_full,expanding,2023-04-30,payout,training coverage below gate,exclusions_pooled
+return,3,ATI,ridge_full,expanding,2023-04-30,pe_pct_change,training coverage below gate,exclusions_pooled
+return,3,ATI,ridge_full,expanding,2023-04-30,pe_percentile,training coverage below gate,exclusions_pooled
+return,3,ATI,forest_full,expanding,2023-04-30,credit_spread,training coverage below gate,exclusions_pooled
+return,3,ATI,forest_full,expanding,2023-04-30,credit_spread_change,training coverage below gate,exclusions_pooled
+return,3,ATI,forest_full,expanding,2023-04-30,ebitda_growth,training coverage below gate,exclusions_pooled
+return,3,ATI,forest_full,expanding,2023-04-30,eps_growth,training coverage below gate,exclusions_pooled
+return,3,ATI,forest_full,expanding,2023-04-30,interest_coverage,training coverage below gate,exclusions_pooled
+return,3,ATI,forest_full,expanding,2023-04-30,payout,training coverage below gate,exclusions_pooled
+return,3,ATI,forest_full,expanding,2023-04-30,pe_pct_change,training coverage below gate,exclusions_pooled
+return,3,ATI,forest_full,expanding,2023-04-30,pe_percentile,training coverage below gate,exclusions_pooled
+return,3,ATI,boost_full,expanding,2023-04-30,credit_spread,training coverage below gate,exclusions_pooled
+return,3,ATI,boost_full,expanding,2023-04-30,credit_spread_change,training coverage below gate,exclusions_pooled
+return,3,ATI,boost_full,expanding,2023-04-30,ebitda_growth,training coverage below gate,exclusions_pooled
+return,3,ATI,boost_full,expanding,2023-04-30,eps_growth,training coverage below gate,exclusions_pooled
+return,3,ATI,boost_full,expanding,2023-04-30,interest_coverage,training coverage below gate,exclusions_pooled
+return,3,ATI,boost_full,expanding,2023-04-30,payout,training coverage below gate,exclusions_pooled
+return,3,ATI,boost_full,expanding,2023-04-30,pe_pct_change,training coverage below gate,exclusions_pooled
+return,3,ATI,boost_full,expanding,2023-04-30,pe_percentile,training coverage below gate,exclusions_pooled
+return,3,ATI,ridge_full,expanding,2025-01-31,ebitda_growth,readmitted,exclusions_pooled
+return,3,ATI,forest_full,expanding,2025-01-31,ebitda_growth,readmitted,exclusions_pooled
+return,3,ATI,boost_full,expanding,2025-01-31,ebitda_growth,readmitted,exclusions_pooled
+return,1,ATI,ridge_full,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ATI
+return,1,ATI,ridge_full,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,ridge_full,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,ridge_full,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,ridge_full,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,ridge_full,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,ridge_full,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,ridge_full,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_ATI
+return,1,ATI,lasso_full,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ATI
+return,1,ATI,lasso_full,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,lasso_full,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,lasso_full,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,lasso_full,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,lasso_full,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,lasso_full,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,lasso_full,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_ATI
+return,1,ATI,elastic_full,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ATI
+return,1,ATI,elastic_full,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,elastic_full,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,elastic_full,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,elastic_full,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,elastic_full,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,elastic_full,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,elastic_full,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_ATI
+return,1,ATI,forest_full,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ATI
+return,1,ATI,forest_full,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,forest_full,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,forest_full,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,forest_full,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,forest_full,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,forest_full,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,forest_full,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_ATI
+return,1,ATI,boost_full,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ATI
+return,1,ATI,boost_full,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,boost_full,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,boost_full,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,boost_full,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,boost_full,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,boost_full,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,boost_full,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A1_market,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A1_market,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A2_financial,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A2_financial,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A2_financial,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A2_financial,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A2_financial,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A2_financial,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A3_valuation,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A3_valuation,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A3_valuation,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A3_valuation,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A3_valuation,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A3_valuation,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A3_valuation,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A4_momentum,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A4_momentum,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A4_momentum,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A4_momentum,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A4_momentum,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A4_momentum,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A4_momentum,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A5_risk,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A5_risk,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A5_risk,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A5_risk,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A5_risk,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A5_risk,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A5_risk,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A6_industry,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A6_industry,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A6_industry,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A6_industry,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A6_industry,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A6_industry,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A6_industry,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A7_business,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A7_business,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A7_business,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A7_business,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A7_business,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A7_business,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A7_business,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A8_transform,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A8_transform,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A8_transform,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A8_transform,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A8_transform,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A8_transform,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A8_transform,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A8_transform,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A9_interaction,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A9_interaction,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A9_interaction,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A9_interaction,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A9_interaction,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A9_interaction,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A9_interaction,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,A9_interaction,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P1_financial,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P1_financial,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P1_financial,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P1_financial,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P2_valuation,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P2_valuation,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P2_valuation,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P2_valuation,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P2_valuation,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P3_transform,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P3_transform,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P3_transform,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P3_transform,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P3_transform,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P3_transform,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P4_market,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P4_market,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P4_market,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P4_market,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P4_market,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P4_market,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P4_market,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P4_market,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P5_industry,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P5_industry,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P5_industry,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P5_industry,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P5_industry,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P5_industry,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P5_industry,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P5_industry,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P6_business,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P6_business,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P6_business,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P6_business,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P6_business,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P6_business,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P6_business,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,P6_business,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_ATI
+return,1,ATI,financial_only,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,financial_only,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,financial_only,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,financial_only,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,financial_valuation,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,financial_valuation,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,financial_valuation,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,financial_valuation,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,financial_valuation,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_market,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_market,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_market,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_market,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_market,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_market,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_financial,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_financial,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_financial,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_financial,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_valuation,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_valuation,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_valuation,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_valuation,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_valuation,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_valuation,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_momentum,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_momentum,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_momentum,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_momentum,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_momentum,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_momentum,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_momentum,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_momentum,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_risk,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_risk,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_risk,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_risk,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_risk,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_risk,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_risk,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_risk,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_industry,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_industry,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_industry,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_industry,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_industry,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_industry,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_industry,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_industry,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_business,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_business,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_business,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_business,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_business,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_business,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_business,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,without_business,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_ATI
+return,1,ATI,claims_proxy_sensitivity,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ATI
+return,1,ATI,claims_proxy_sensitivity,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,claims_proxy_sensitivity,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,claims_proxy_sensitivity,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,claims_proxy_sensitivity,expanding,2022-12-31,ev_ebitda_proxy,training coverage below gate,exclusions_return_ATI
+return,1,ATI,claims_proxy_sensitivity,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,claims_proxy_sensitivity,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,claims_proxy_sensitivity,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,claims_proxy_sensitivity,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_ATI
+return,1,ATI,ridge_rolling84,rolling84,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ATI
+return,1,ATI,ridge_rolling84,rolling84,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,ridge_rolling84,rolling84,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,ridge_rolling84,rolling84,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+return,1,ATI,ridge_rolling84,rolling84,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+return,1,ATI,ridge_rolling84,rolling84,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+return,1,ATI,ridge_rolling84,rolling84,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_ATI
+return,1,ATI,ridge_rolling84,rolling84,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_ATI
+market_relative_return,1,ATI,ridge_full,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ATI
+market_relative_return,1,ATI,ridge_full,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ATI
+market_relative_return,1,ATI,ridge_full,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+market_relative_return,1,ATI,ridge_full,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+market_relative_return,1,ATI,ridge_full,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+market_relative_return,1,ATI,ridge_full,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+market_relative_return,1,ATI,ridge_full,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_ATI
+market_relative_return,1,ATI,ridge_full,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_ATI
+market_relative_return,1,ATI,boost_full,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ATI
+market_relative_return,1,ATI,boost_full,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ATI
+market_relative_return,1,ATI,boost_full,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_return_ATI
+market_relative_return,1,ATI,boost_full,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_ATI
+market_relative_return,1,ATI,boost_full,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_ATI
+market_relative_return,1,ATI,boost_full,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ATI
+market_relative_return,1,ATI,boost_full,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_ATI
+market_relative_return,1,ATI,boost_full,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_ATI
+return,1,ATI,ridge_rolling84,rolling84,2024-09-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,ridge_full,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,lasso_full,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,elastic_full,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,forest_full,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,boost_full,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,A2_financial,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,A3_valuation,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,A4_momentum,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,A5_risk,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,A6_industry,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,A7_business,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,A8_transform,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,A9_interaction,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,P1_financial,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,P2_valuation,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,P3_transform,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,P4_market,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,P5_industry,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,P6_business,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,financial_only,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,financial_valuation,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,without_market,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,without_valuation,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,without_momentum,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,without_risk,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,without_industry,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,without_business,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,claims_proxy_sensitivity,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,claims_proxy_sensitivity,expanding,2024-11-30,ev_ebitda_proxy,readmitted,exclusions_return_ATI
+return,1,ATI,ridge_rolling84,rolling84,2024-11-30,dividend_yield,constant in training window,exclusions_return_ATI
+market_relative_return,1,ATI,ridge_full,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+market_relative_return,1,ATI,boost_full,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_return_ATI
+return,1,ATI,ridge_rolling84,rolling84,2025-06-30,pe_pct_change,readmitted,exclusions_return_ATI
+return,1,CRS,ridge_full,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_CRS
+return,1,CRS,ridge_full,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,ridge_full,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,ridge_full,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_return_CRS
+return,1,CRS,ridge_full,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,ridge_full,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,ridge_full,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,ridge_full,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_CRS
+return,1,CRS,lasso_full,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_CRS
+return,1,CRS,lasso_full,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,lasso_full,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,lasso_full,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_return_CRS
+return,1,CRS,lasso_full,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,lasso_full,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,lasso_full,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,lasso_full,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_CRS
+return,1,CRS,elastic_full,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_CRS
+return,1,CRS,elastic_full,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,elastic_full,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,elastic_full,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_return_CRS
+return,1,CRS,elastic_full,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,elastic_full,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,elastic_full,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,elastic_full,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_CRS
+return,1,CRS,forest_full,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_CRS
+return,1,CRS,forest_full,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,forest_full,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,forest_full,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_return_CRS
+return,1,CRS,forest_full,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,forest_full,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,forest_full,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,forest_full,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_CRS
+return,1,CRS,boost_full,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_CRS
+return,1,CRS,boost_full,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,boost_full,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,boost_full,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_return_CRS
+return,1,CRS,boost_full,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,boost_full,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,boost_full,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,boost_full,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A1_market,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A1_market,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A2_financial,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A2_financial,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A2_financial,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A2_financial,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A2_financial,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A3_valuation,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A3_valuation,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A3_valuation,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A3_valuation,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A3_valuation,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A3_valuation,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A3_valuation,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A4_momentum,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A4_momentum,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A4_momentum,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A4_momentum,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A4_momentum,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A4_momentum,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A4_momentum,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A5_risk,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A5_risk,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A5_risk,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A5_risk,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A5_risk,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A5_risk,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A5_risk,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A6_industry,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A6_industry,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A6_industry,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A6_industry,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A6_industry,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A6_industry,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A6_industry,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A7_business,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A7_business,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A7_business,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A7_business,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A7_business,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A7_business,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A7_business,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A8_transform,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A8_transform,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A8_transform,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A8_transform,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A8_transform,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A8_transform,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A8_transform,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A8_transform,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A9_interaction,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A9_interaction,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A9_interaction,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A9_interaction,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A9_interaction,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A9_interaction,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A9_interaction,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,A9_interaction,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P1_financial,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P1_financial,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P1_financial,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P2_valuation,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P2_valuation,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P2_valuation,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P2_valuation,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P2_valuation,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P3_transform,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P3_transform,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P3_transform,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P3_transform,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P3_transform,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P3_transform,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P4_market,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P4_market,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P4_market,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P4_market,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P4_market,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P4_market,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P4_market,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P4_market,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P5_industry,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P5_industry,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P5_industry,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P5_industry,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P5_industry,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P5_industry,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P5_industry,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P5_industry,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P6_business,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P6_business,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P6_business,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P6_business,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P6_business,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P6_business,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P6_business,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,P6_business,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_CRS
+return,1,CRS,financial_only,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,financial_only,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,financial_only,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,financial_valuation,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,financial_valuation,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_return_CRS
+return,1,CRS,financial_valuation,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,financial_valuation,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,financial_valuation,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_market,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_market,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_market,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_market,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_market,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_market,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_financial,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_financial,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_financial,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_financial,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_financial,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_valuation,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_valuation,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_valuation,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_valuation,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_valuation,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_momentum,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_momentum,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_momentum,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_momentum,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_momentum,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_momentum,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_momentum,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_momentum,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_risk,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_risk,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_risk,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_risk,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_risk,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_risk,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_risk,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_risk,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_industry,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_industry,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_industry,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_industry,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_industry,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_industry,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_industry,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_industry,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_business,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_business,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_business,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_business,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_business,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_business,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_business,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,without_business,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_CRS
+return,1,CRS,claims_proxy_sensitivity,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_CRS
+return,1,CRS,claims_proxy_sensitivity,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,claims_proxy_sensitivity,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,claims_proxy_sensitivity,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_return_CRS
+return,1,CRS,claims_proxy_sensitivity,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,claims_proxy_sensitivity,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,claims_proxy_sensitivity,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,claims_proxy_sensitivity,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_CRS
+return,1,CRS,ridge_rolling84,rolling84,2022-12-31,credit_spread,training coverage below gate,exclusions_return_CRS
+return,1,CRS,ridge_rolling84,rolling84,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,ridge_rolling84,rolling84,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+return,1,CRS,ridge_rolling84,rolling84,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_return_CRS
+return,1,CRS,ridge_rolling84,rolling84,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+return,1,CRS,ridge_rolling84,rolling84,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+return,1,CRS,ridge_rolling84,rolling84,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_CRS
+return,1,CRS,ridge_rolling84,rolling84,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_CRS
+market_relative_return,1,CRS,ridge_full,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_CRS
+market_relative_return,1,CRS,ridge_full,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_CRS
+market_relative_return,1,CRS,ridge_full,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+market_relative_return,1,CRS,ridge_full,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_return_CRS
+market_relative_return,1,CRS,ridge_full,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+market_relative_return,1,CRS,ridge_full,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+market_relative_return,1,CRS,ridge_full,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_CRS
+market_relative_return,1,CRS,ridge_full,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_CRS
+market_relative_return,1,CRS,boost_full,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_CRS
+market_relative_return,1,CRS,boost_full,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_CRS
+market_relative_return,1,CRS,boost_full,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_return_CRS
+market_relative_return,1,CRS,boost_full,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_return_CRS
+market_relative_return,1,CRS,boost_full,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_return_CRS
+market_relative_return,1,CRS,boost_full,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_CRS
+market_relative_return,1,CRS,boost_full,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_return_CRS
+market_relative_return,1,CRS,boost_full,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_return_CRS
+return,1,CRS,ridge_full,expanding,2024-08-31,pe_pct_change,readmitted,exclusions_return_CRS
+return,1,CRS,lasso_full,expanding,2024-08-31,pe_pct_change,readmitted,exclusions_return_CRS
+return,1,CRS,elastic_full,expanding,2024-08-31,pe_pct_change,readmitted,exclusions_return_CRS
+return,1,CRS,forest_full,expanding,2024-08-31,pe_pct_change,readmitted,exclusions_return_CRS
+return,1,CRS,boost_full,expanding,2024-08-31,pe_pct_change,readmitted,exclusions_return_CRS
+return,1,CRS,A8_transform,expanding,2024-08-31,pe_pct_change,readmitted,exclusions_return_CRS
+return,1,CRS,A9_interaction,expanding,2024-08-31,pe_pct_change,readmitted,exclusions_return_CRS
+return,1,CRS,P3_transform,expanding,2024-08-31,pe_pct_change,readmitted,exclusions_return_CRS
+return,1,CRS,P4_market,expanding,2024-08-31,pe_pct_change,readmitted,exclusions_return_CRS
+return,1,CRS,P5_industry,expanding,2024-08-31,pe_pct_change,readmitted,exclusions_return_CRS
+return,1,CRS,P6_business,expanding,2024-08-31,pe_pct_change,readmitted,exclusions_return_CRS
+return,1,CRS,without_market,expanding,2024-08-31,pe_pct_change,readmitted,exclusions_return_CRS
+return,1,CRS,without_financial,expanding,2024-08-31,pe_pct_change,readmitted,exclusions_return_CRS
+return,1,CRS,without_momentum,expanding,2024-08-31,pe_pct_change,readmitted,exclusions_return_CRS
+return,1,CRS,without_risk,expanding,2024-08-31,pe_pct_change,readmitted,exclusions_return_CRS
+return,1,CRS,without_industry,expanding,2024-08-31,pe_pct_change,readmitted,exclusions_return_CRS
+return,1,CRS,without_business,expanding,2024-08-31,pe_pct_change,readmitted,exclusions_return_CRS
+return,1,CRS,claims_proxy_sensitivity,expanding,2024-08-31,pe_pct_change,readmitted,exclusions_return_CRS
+return,1,CRS,ridge_rolling84,rolling84,2024-08-31,net_margin,readmitted,exclusions_return_CRS
+market_relative_return,1,CRS,ridge_full,expanding,2024-08-31,pe_pct_change,readmitted,exclusions_return_CRS
+market_relative_return,1,CRS,boost_full,expanding,2024-08-31,pe_pct_change,readmitted,exclusions_return_CRS
+return,1,CRS,ridge_rolling84,rolling84,2025-05-31,fcf_equipment_yield_relative,readmitted,exclusions_return_CRS
+return,1,CRS,claims_proxy_sensitivity,expanding,2026-01-31,ev_ebitda_proxy,training coverage below gate,exclusions_return_CRS
+return,1,CRS,ridge_rolling84,rolling84,2026-04-30,debt_assets,training coverage below gate,exclusions_return_CRS
+return,1,CRS,ridge_rolling84,rolling84,2026-04-30,debt_equity,training coverage below gate,exclusions_return_CRS
+return,1,CRS,claims_proxy_sensitivity,expanding,2026-06-30,ev_sales_proxy,training coverage below gate,exclusions_return_CRS
+return,1,ENTG,ridge_full,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,ridge_full,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,ridge_full,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,ridge_full,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,lasso_full,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,lasso_full,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,lasso_full,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,lasso_full,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,elastic_full,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,elastic_full,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,elastic_full,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,elastic_full,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,forest_full,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,forest_full,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,forest_full,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,forest_full,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,boost_full,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,boost_full,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,boost_full,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,boost_full,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A1_market,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A1_market,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A2_financial,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A2_financial,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A2_financial,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A3_valuation,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A3_valuation,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A3_valuation,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A3_valuation,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A4_momentum,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A4_momentum,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A4_momentum,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A4_momentum,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A5_risk,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A5_risk,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A5_risk,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A5_risk,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A6_industry,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A6_industry,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A6_industry,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A6_industry,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A7_business,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A7_business,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A7_business,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A7_business,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A8_transform,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A8_transform,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A8_transform,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A8_transform,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A9_interaction,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A9_interaction,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A9_interaction,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A9_interaction,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,P1_financial,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,P2_valuation,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,P2_valuation,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,P3_transform,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,P3_transform,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,P4_market,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,P4_market,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,P4_market,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,P4_market,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,P5_industry,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,P5_industry,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,P5_industry,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,P5_industry,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,P6_business,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,P6_business,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,P6_business,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,P6_business,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,financial_only,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,financial_valuation,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,financial_valuation,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_market,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_market,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_financial,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_financial,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_financial,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_valuation,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_valuation,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_valuation,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_momentum,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_momentum,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_momentum,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_momentum,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_risk,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_risk,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_risk,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_risk,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_industry,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_industry,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_industry,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_industry,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_business,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_business,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_business,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_business,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,claims_proxy_sensitivity,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,claims_proxy_sensitivity,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,claims_proxy_sensitivity,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,claims_proxy_sensitivity,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_equity_inputs,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_equity_inputs,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_equity_inputs,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_equity_inputs,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,ridge_rolling84,rolling84,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,ridge_rolling84,rolling84,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,ridge_rolling84,rolling84,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,ridge_rolling84,rolling84,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+market_relative_return,1,ENTG,ridge_full,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ENTG
+market_relative_return,1,ENTG,ridge_full,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ENTG
+market_relative_return,1,ENTG,ridge_full,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+market_relative_return,1,ENTG,ridge_full,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+market_relative_return,1,ENTG,boost_full,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_ENTG
+market_relative_return,1,ENTG,boost_full,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_ENTG
+market_relative_return,1,ENTG,boost_full,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_return_ENTG
+market_relative_return,1,ENTG,boost_full,expanding,2022-12-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,ridge_rolling84,rolling84,2023-01-31,dividend_yield,readmitted,exclusions_return_ENTG
+return,1,ENTG,ridge_rolling84,rolling84,2023-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,ridge_full,expanding,2023-03-31,dividend_yield,readmitted,exclusions_return_ENTG
+return,1,ENTG,ridge_full,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,lasso_full,expanding,2023-03-31,dividend_yield,readmitted,exclusions_return_ENTG
+return,1,ENTG,lasso_full,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,elastic_full,expanding,2023-03-31,dividend_yield,readmitted,exclusions_return_ENTG
+return,1,ENTG,elastic_full,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,forest_full,expanding,2023-03-31,dividend_yield,readmitted,exclusions_return_ENTG
+return,1,ENTG,forest_full,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,boost_full,expanding,2023-03-31,dividend_yield,readmitted,exclusions_return_ENTG
+return,1,ENTG,boost_full,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,A2_financial,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,A3_valuation,expanding,2023-03-31,dividend_yield,readmitted,exclusions_return_ENTG
+return,1,ENTG,A3_valuation,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,A4_momentum,expanding,2023-03-31,dividend_yield,readmitted,exclusions_return_ENTG
+return,1,ENTG,A4_momentum,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,A5_risk,expanding,2023-03-31,dividend_yield,readmitted,exclusions_return_ENTG
+return,1,ENTG,A5_risk,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,A6_industry,expanding,2023-03-31,dividend_yield,readmitted,exclusions_return_ENTG
+return,1,ENTG,A6_industry,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,A7_business,expanding,2023-03-31,dividend_yield,readmitted,exclusions_return_ENTG
+return,1,ENTG,A7_business,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,A8_transform,expanding,2023-03-31,dividend_yield,readmitted,exclusions_return_ENTG
+return,1,ENTG,A8_transform,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,A9_interaction,expanding,2023-03-31,dividend_yield,readmitted,exclusions_return_ENTG
+return,1,ENTG,A9_interaction,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,P1_financial,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,P2_valuation,expanding,2023-03-31,dividend_yield,readmitted,exclusions_return_ENTG
+return,1,ENTG,P2_valuation,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,P3_transform,expanding,2023-03-31,dividend_yield,readmitted,exclusions_return_ENTG
+return,1,ENTG,P3_transform,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,P4_market,expanding,2023-03-31,dividend_yield,readmitted,exclusions_return_ENTG
+return,1,ENTG,P4_market,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,P5_industry,expanding,2023-03-31,dividend_yield,readmitted,exclusions_return_ENTG
+return,1,ENTG,P5_industry,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,P6_business,expanding,2023-03-31,dividend_yield,readmitted,exclusions_return_ENTG
+return,1,ENTG,P6_business,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,financial_only,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,financial_valuation,expanding,2023-03-31,dividend_yield,readmitted,exclusions_return_ENTG
+return,1,ENTG,financial_valuation,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,without_market,expanding,2023-03-31,dividend_yield,readmitted,exclusions_return_ENTG
+return,1,ENTG,without_market,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,without_financial,expanding,2023-03-31,dividend_yield,readmitted,exclusions_return_ENTG
+return,1,ENTG,without_valuation,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,without_momentum,expanding,2023-03-31,dividend_yield,readmitted,exclusions_return_ENTG
+return,1,ENTG,without_momentum,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,without_risk,expanding,2023-03-31,dividend_yield,readmitted,exclusions_return_ENTG
+return,1,ENTG,without_risk,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,without_industry,expanding,2023-03-31,dividend_yield,readmitted,exclusions_return_ENTG
+return,1,ENTG,without_industry,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,without_business,expanding,2023-03-31,dividend_yield,readmitted,exclusions_return_ENTG
+return,1,ENTG,without_business,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,claims_proxy_sensitivity,expanding,2023-03-31,dividend_yield,readmitted,exclusions_return_ENTG
+return,1,ENTG,claims_proxy_sensitivity,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,without_equity_inputs,expanding,2023-03-31,dividend_yield,readmitted,exclusions_return_ENTG
+return,1,ENTG,without_equity_inputs,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+market_relative_return,1,ENTG,ridge_full,expanding,2023-03-31,dividend_yield,readmitted,exclusions_return_ENTG
+market_relative_return,1,ENTG,ridge_full,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+market_relative_return,1,ENTG,boost_full,expanding,2023-03-31,dividend_yield,readmitted,exclusions_return_ENTG
+market_relative_return,1,ENTG,boost_full,expanding,2023-03-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,ridge_full,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,lasso_full,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,elastic_full,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,forest_full,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,boost_full,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A2_financial,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A3_valuation,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A4_momentum,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A5_risk,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A6_industry,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A7_business,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A8_transform,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,A9_interaction,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,P1_financial,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,P2_valuation,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,P3_transform,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,P4_market,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,P5_industry,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,P6_business,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,financial_only,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,financial_valuation,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_market,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_valuation,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_momentum,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_risk,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_industry,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_business,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,claims_proxy_sensitivity,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,without_equity_inputs,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+market_relative_return,1,ENTG,ridge_full,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+market_relative_return,1,ENTG,boost_full,expanding,2023-07-31,payout,training coverage below gate,exclusions_return_ENTG
+return,1,ENTG,ridge_full,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,lasso_full,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,elastic_full,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,forest_full,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,boost_full,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,A2_financial,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,A3_valuation,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,A4_momentum,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,A5_risk,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,A6_industry,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,A7_business,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,A8_transform,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,A9_interaction,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,P1_financial,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,P2_valuation,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,P3_transform,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,P4_market,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,P5_industry,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,P6_business,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,financial_only,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,financial_valuation,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,without_market,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,without_valuation,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,without_momentum,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,without_risk,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,without_industry,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,without_business,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,claims_proxy_sensitivity,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,ENTG,without_equity_inputs,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+market_relative_return,1,ENTG,ridge_full,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+market_relative_return,1,ENTG,boost_full,expanding,2024-01-31,payout,readmitted,exclusions_return_ENTG
+return,1,MTRN,ridge_full,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,ridge_full,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,ridge_full,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,ridge_full,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,ridge_full,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,ridge_full,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,lasso_full,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,lasso_full,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,lasso_full,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,lasso_full,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,lasso_full,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,lasso_full,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,elastic_full,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,elastic_full,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,elastic_full,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,elastic_full,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,elastic_full,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,elastic_full,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,forest_full,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,forest_full,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,forest_full,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,forest_full,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,forest_full,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,forest_full,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,boost_full,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,boost_full,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,boost_full,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,boost_full,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,boost_full,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,boost_full,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,core_ridge_financial_ext,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,core_ols_financial_ext,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A1_market,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A1_market,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A2_financial,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A2_financial,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A2_financial,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A2_financial,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A2_financial,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A2_financial,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A3_valuation,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A3_valuation,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A3_valuation,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A3_valuation,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A3_valuation,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A3_valuation,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A4_momentum,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A4_momentum,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A4_momentum,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A4_momentum,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A4_momentum,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A4_momentum,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A5_risk,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A5_risk,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A5_risk,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A5_risk,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A5_risk,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A5_risk,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A6_industry,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A6_industry,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A6_industry,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A6_industry,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A6_industry,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A6_industry,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A7_business,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A7_business,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A7_business,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A7_business,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A7_business,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A7_business,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A8_transform,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A8_transform,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A8_transform,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A8_transform,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A8_transform,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A8_transform,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A9_interaction,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A9_interaction,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A9_interaction,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A9_interaction,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A9_interaction,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,A9_interaction,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P1_financial,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P1_financial,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P1_financial,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P1_financial,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P2_valuation,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P2_valuation,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P2_valuation,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P2_valuation,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P3_transform,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P3_transform,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P3_transform,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P3_transform,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P4_market,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P4_market,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P4_market,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P4_market,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P4_market,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P4_market,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P5_industry,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P5_industry,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P5_industry,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P5_industry,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P5_industry,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P5_industry,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P6_business,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P6_business,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P6_business,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P6_business,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P6_business,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,P6_business,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,financial_only,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,financial_only,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,financial_only,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,financial_only,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,financial_valuation,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,financial_valuation,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,financial_valuation,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,financial_valuation,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_market,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_market,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_market,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_market,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_financial,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_financial,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_valuation,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_valuation,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_valuation,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_valuation,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_valuation,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_valuation,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_momentum,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_momentum,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_momentum,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_momentum,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_momentum,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_momentum,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_risk,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_risk,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_risk,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_risk,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_risk,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_risk,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_industry,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_industry,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_industry,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_industry,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_industry,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_industry,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_business,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_business,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_business,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_business,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_business,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,without_business,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,claims_proxy_sensitivity,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,claims_proxy_sensitivity,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,claims_proxy_sensitivity,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,claims_proxy_sensitivity,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,claims_proxy_sensitivity,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,claims_proxy_sensitivity,expanding,2022-12-31,ev_ebitda_proxy,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,claims_proxy_sensitivity,expanding,2022-12-31,ev_sales_proxy,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,claims_proxy_sensitivity,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,claims_proxy_sensitivity,expanding,2022-12-31,roic_proxy,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,mine_inclusive_fcf,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,mine_inclusive_fcf,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,mine_inclusive_fcf,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,mine_inclusive_fcf,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,mine_inclusive_fcf,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,mine_inclusive_fcf,expanding,2022-12-31,fcf_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,mine_inclusive_fcf,expanding,2022-12-31,fcf_yield,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,mine_inclusive_fcf,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,ridge_rolling84,rolling84,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,ridge_rolling84,rolling84,2022-12-31,credit_spread,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,ridge_rolling84,rolling84,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,ridge_rolling84,rolling84,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,ridge_rolling84,rolling84,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,ridge_rolling84,rolling84,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+market_relative_return,1,MTRN,ridge_full,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+market_relative_return,1,MTRN,ridge_full,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_MTRN
+market_relative_return,1,MTRN,ridge_full,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_MTRN
+market_relative_return,1,MTRN,ridge_full,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+market_relative_return,1,MTRN,ridge_full,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+market_relative_return,1,MTRN,ridge_full,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+market_relative_return,1,MTRN,boost_full,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_return_MTRN
+market_relative_return,1,MTRN,boost_full,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_return_MTRN
+market_relative_return,1,MTRN,boost_full,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_return_MTRN
+market_relative_return,1,MTRN,boost_full,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_return_MTRN
+market_relative_return,1,MTRN,boost_full,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_return_MTRN
+market_relative_return,1,MTRN,boost_full,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_return_MTRN
+return,1,MTRN,ridge_rolling84,rolling84,2025-02-28,debt_assets,readmitted,exclusions_return_MTRN
+return,1,MTRN,ridge_rolling84,rolling84,2025-02-28,debt_equity,readmitted,exclusions_return_MTRN
+return,1,CRS,core_pe_level,expanding,2022-12-31,pe,training coverage below gate,exclusions_transformations
+return,1,CRS,core_pe_difference,expanding,2022-12-31,pe_diff,training coverage below gate,exclusions_transformations
+return,1,CRS,core_pe_percentage,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_transformations
+return,1,CRS,core_pe_lag1,expanding,2023-01-31,pe_lag1,training coverage below gate,exclusions_transformations
+return,1,CRS,core_pe_level,expanding,2024-04-30,pe,readmitted,exclusions_transformations
+return,1,CRS,core_pe_lag1,expanding,2024-04-30,pe_lag1,readmitted,exclusions_transformations
+return,1,CRS,core_pe_difference,expanding,2024-08-31,pe_diff,readmitted,exclusions_transformations
+return,1,CRS,core_pe_percentage,expanding,2024-08-31,pe_pct_change,readmitted,exclusions_transformations
+return,1,ATI,core_pe_level,expanding,2022-12-31,pe,training coverage below gate,exclusions_transformations
+return,1,ATI,core_pe_difference,expanding,2022-12-31,pe_diff,training coverage below gate,exclusions_transformations
+return,1,ATI,core_pe_percentage,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_transformations
+return,1,ATI,core_pe_lag1,expanding,2022-12-31,pe_lag1,training coverage below gate,exclusions_transformations
+variance,1,MTRN,variance_ridge,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_variance
+variance,1,MTRN,variance_ridge,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_variance
+variance,1,MTRN,variance_ridge,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_variance
+variance,1,MTRN,variance_ridge,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_variance
+variance,1,MTRN,variance_ridge,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_variance
+variance,1,MTRN,variance_ridge,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_variance
+variance,1,MTRN,variance_forest,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_variance
+variance,1,MTRN,variance_forest,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_variance
+variance,1,MTRN,variance_forest,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_variance
+variance,1,MTRN,variance_forest,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_variance
+variance,1,MTRN,variance_forest,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_variance
+variance,1,MTRN,variance_forest,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_variance
+variance,1,MTRN,variance_boost,expanding,2022-12-31,capex_assets,training coverage below gate,exclusions_variance
+variance,1,MTRN,variance_boost,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_variance
+variance,1,MTRN,variance_boost,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_variance
+variance,1,MTRN,variance_boost,expanding,2022-12-31,debt_assets,training coverage below gate,exclusions_variance
+variance,1,MTRN,variance_boost,expanding,2022-12-31,debt_equity,training coverage below gate,exclusions_variance
+variance,1,MTRN,variance_boost,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_variance
+variance,1,ENTG,variance_ridge,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_variance
+variance,1,ENTG,variance_ridge,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_variance
+variance,1,ENTG,variance_ridge,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_variance
+variance,1,ENTG,variance_ridge,expanding,2022-12-31,payout,training coverage below gate,exclusions_variance
+variance,1,ENTG,variance_forest,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_variance
+variance,1,ENTG,variance_forest,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_variance
+variance,1,ENTG,variance_forest,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_variance
+variance,1,ENTG,variance_forest,expanding,2022-12-31,payout,training coverage below gate,exclusions_variance
+variance,1,ENTG,variance_boost,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_variance
+variance,1,ENTG,variance_boost,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_variance
+variance,1,ENTG,variance_boost,expanding,2022-12-31,dividend_yield,training coverage below gate,exclusions_variance
+variance,1,ENTG,variance_boost,expanding,2022-12-31,payout,training coverage below gate,exclusions_variance
+variance,1,ENTG,variance_ridge,expanding,2023-03-31,dividend_yield,readmitted,exclusions_variance
+variance,1,ENTG,variance_ridge,expanding,2023-03-31,payout,readmitted,exclusions_variance
+variance,1,ENTG,variance_forest,expanding,2023-03-31,dividend_yield,readmitted,exclusions_variance
+variance,1,ENTG,variance_forest,expanding,2023-03-31,payout,readmitted,exclusions_variance
+variance,1,ENTG,variance_boost,expanding,2023-03-31,dividend_yield,readmitted,exclusions_variance
+variance,1,ENTG,variance_boost,expanding,2023-03-31,payout,readmitted,exclusions_variance
+variance,1,ENTG,variance_ridge,expanding,2023-07-31,payout,training coverage below gate,exclusions_variance
+variance,1,ENTG,variance_forest,expanding,2023-07-31,payout,training coverage below gate,exclusions_variance
+variance,1,ENTG,variance_boost,expanding,2023-07-31,payout,training coverage below gate,exclusions_variance
+variance,1,ENTG,variance_ridge,expanding,2024-01-31,payout,readmitted,exclusions_variance
+variance,1,ENTG,variance_forest,expanding,2024-01-31,payout,readmitted,exclusions_variance
+variance,1,ENTG,variance_boost,expanding,2024-01-31,payout,readmitted,exclusions_variance
+variance,1,CRS,variance_ridge,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_variance
+variance,1,CRS,variance_ridge,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_variance
+variance,1,CRS,variance_ridge,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_variance
+variance,1,CRS,variance_ridge,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_variance
+variance,1,CRS,variance_ridge,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_variance
+variance,1,CRS,variance_ridge,expanding,2022-12-31,payout,training coverage below gate,exclusions_variance
+variance,1,CRS,variance_ridge,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_variance
+variance,1,CRS,variance_ridge,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_variance
+variance,1,CRS,variance_forest,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_variance
+variance,1,CRS,variance_forest,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_variance
+variance,1,CRS,variance_forest,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_variance
+variance,1,CRS,variance_forest,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_variance
+variance,1,CRS,variance_forest,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_variance
+variance,1,CRS,variance_forest,expanding,2022-12-31,payout,training coverage below gate,exclusions_variance
+variance,1,CRS,variance_forest,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_variance
+variance,1,CRS,variance_forest,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_variance
+variance,1,CRS,variance_boost,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_variance
+variance,1,CRS,variance_boost,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_variance
+variance,1,CRS,variance_boost,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_variance
+variance,1,CRS,variance_boost,expanding,2022-12-31,fcf_equipment_yield_relative,training coverage below gate,exclusions_variance
+variance,1,CRS,variance_boost,expanding,2022-12-31,net_margin,training coverage below gate,exclusions_variance
+variance,1,CRS,variance_boost,expanding,2022-12-31,payout,training coverage below gate,exclusions_variance
+variance,1,CRS,variance_boost,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_variance
+variance,1,CRS,variance_boost,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_variance
+variance,1,CRS,variance_ridge,expanding,2024-08-31,pe_pct_change,readmitted,exclusions_variance
+variance,1,CRS,variance_forest,expanding,2024-08-31,pe_pct_change,readmitted,exclusions_variance
+variance,1,CRS,variance_boost,expanding,2024-08-31,pe_pct_change,readmitted,exclusions_variance
+variance,1,ATI,variance_ridge,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_variance
+variance,1,ATI,variance_ridge,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_variance
+variance,1,ATI,variance_ridge,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_variance
+variance,1,ATI,variance_ridge,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_variance
+variance,1,ATI,variance_ridge,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_variance
+variance,1,ATI,variance_ridge,expanding,2022-12-31,payout,training coverage below gate,exclusions_variance
+variance,1,ATI,variance_ridge,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_variance
+variance,1,ATI,variance_ridge,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_variance
+variance,1,ATI,variance_forest,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_variance
+variance,1,ATI,variance_forest,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_variance
+variance,1,ATI,variance_forest,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_variance
+variance,1,ATI,variance_forest,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_variance
+variance,1,ATI,variance_forest,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_variance
+variance,1,ATI,variance_forest,expanding,2022-12-31,payout,training coverage below gate,exclusions_variance
+variance,1,ATI,variance_forest,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_variance
+variance,1,ATI,variance_forest,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_variance
+variance,1,ATI,variance_boost,expanding,2022-12-31,credit_spread,training coverage below gate,exclusions_variance
+variance,1,ATI,variance_boost,expanding,2022-12-31,credit_spread_change,training coverage below gate,exclusions_variance
+variance,1,ATI,variance_boost,expanding,2022-12-31,ebitda_growth,training coverage below gate,exclusions_variance
+variance,1,ATI,variance_boost,expanding,2022-12-31,eps_growth,training coverage below gate,exclusions_variance
+variance,1,ATI,variance_boost,expanding,2022-12-31,interest_coverage,training coverage below gate,exclusions_variance
+variance,1,ATI,variance_boost,expanding,2022-12-31,payout,training coverage below gate,exclusions_variance
+variance,1,ATI,variance_boost,expanding,2022-12-31,pe_pct_change,training coverage below gate,exclusions_variance
+variance,1,ATI,variance_boost,expanding,2022-12-31,pe_percentile,training coverage below gate,exclusions_variance
+variance,1,ATI,variance_ridge,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_variance
+variance,1,ATI,variance_forest,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_variance
+variance,1,ATI,variance_boost,expanding,2024-11-30,ebitda_growth,readmitted,exclusions_variance

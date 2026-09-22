@@ -32,6 +32,21 @@ def build():
     pd.DataFrame(rows).to_csv(OUT/'covariance_regimes.csv',index=False)
     pd.DataFrame(rolling).to_csv(OUT/'rolling_dependence.csv',index=False)
     pd.DataFrame(contrasts).to_csv(OUT/'correlation_regime_contrasts.csv',index=False)
+    # The forecast regimes are monthly and the correlation regime is daily; they use
+    # different windows and thresholds and must not be read as the same classification.
+    f=pd.read_csv(OUT/'monthly_features_as_known.csv');f=f[(f.ticker=='MTRN')&(f.date>='2022-12-31')&(f.date<='2026-07-31')]
+    long=high.loc['2016-01-01':CUTOFF].dropna()
+    pd.DataFrame([
+      dict(regime='high_vol_regime',frequency='monthly forecast origin',used_for='regime scores of out-of-sample forecasts',
+           definition='SPY within-month daily-return SD for the completed origin month above the median of the preceding 60 monthly values (at least 36)',
+           timing='Known at the origin close; the target month never enters',states_in_evaluation=f'{int((f.high_vol_regime==1).sum())} high / {int((f.high_vol_regime==0).sum())} low of 44 origins'),
+      dict(regime='rate_rising_regime',frequency='monthly forecast origin',used_for='regime scores of out-of-sample forecasts',
+           definition='Three-month change in the as-known 10-year Treasury yield above zero; an unavailable change is left unclassified',
+           timing='Known at the origin close',states_in_evaluation=f'{int((f.rate_rising_regime==1).sum())} rising / {int((f.rate_rising_regime==0).sum())} not rising of 44 origins'),
+      dict(regime='high_vol (correlation)',frequency='trading day',used_for='high- minus low-volatility correlation contrasts',
+           definition='SPY 63-session daily-return SD, lagged one session, above its trailing 252-session median (at least 126)',
+           timing='Known the session before each daily return',states_in_evaluation=f'{int((long==True).sum())} high / {int((long==False).sum())} low sessions, 2016 to cutoff')
+    ]).to_csv(OUT/'regime_definitions.csv',index=False)
     print('DEPENDENCE complete',len(rows),'pair/regime rows',flush=True)
 
 if __name__=='__main__':build()

@@ -28,7 +28,9 @@ results are saved in `data/processed_data/validation_results.json`.
 
 ## Evidence and methodology
 
-* `report/company_filings`: five annual reports, quarterly reports, 8-Ks and proxy.
+* `report/company_filings`: the five annual reports (validation also parses the 2025 10-K), the
+  July 2026 10-Q and the 2026 proxy. Quarterly reports and 8-Ks that the report does not link to
+  are link-only; see [RESOURCE_LINKS.md](RESOURCE_LINKS.md).
 * Other `report/` subfolders: earnings, macro, industry, competitor and options evidence.
 * `report/source_log.csv`: original URLs, archive paths, dates and source types.
 * `data/financial_data`: raw SEC company facts and explicit valuation assumptions.
@@ -53,6 +55,11 @@ position-aggregation tools are provided and independently checked with finite
 differences and payoff identities.
 
 ## Retrieval and historical reproducibility
+
+SEC filings that no code parses and no report links to were replaced on September 21, 2026 by
+their permanent EDGAR URLs; derived plain-text renderings were removed. Each removal is listed in
+[RESOURCE_LINKS.md](RESOURCE_LINKS.md) with its URL and hash, and recorded in
+`resource_changes.json`, which the validators check.
 
 `fetch_research.py --section sec|prices|sources|options|all` is the separate
 network retrieval entry point. Preserve the original evidence for this dated

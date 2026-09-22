@@ -8,8 +8,10 @@ def build():
     checks=[]
     def check(name,condition,detail=''):
         checks.append(dict(check=name,passed=bool(condition),detail=detail))
+    from common.code.preservation import verify
     original=json.loads((ROOT/'baseline_hashes.json').read_text())
-    changed=[p for p,h in original.items() if not (REPO/p).exists() or hashlib.sha256((REPO/p).read_bytes()).hexdigest()!=h]
+    # Documented link-only retirements and amendments (MTRN/RESOURCE_LINKS.md) count as preserved.
+    changed=verify(original,REPO,REPO/'MTRN/resource_changes.json')
     check('Original MTRN research, original inputs, HPE code and protocol preserved',not changed,changed)
     r=pd.read_csv(OUT/'daily_returns.csv',index_col=0,parse_dates=True)
     check('No price observation beyond cutoff',str(r.index.max().date())==CUTOFF)
@@ -72,7 +74,7 @@ def build():
         'Matched five-company panel':int(moments.query('panel=="matched" and frequency=="daily" and basis=="total"').n.iloc[0])})
     inventory=[]
     files=[p for d in [RAW,SOURCES] for p in d.rglob('*') if p.is_file()]
-    files += [REPO/p for p in original if p.startswith(('MTRN/data/','MTRN/report/'))]
+    files += [REPO/p for p in original if p.startswith(('MTRN/data/','MTRN/report/')) and (REPO/p).exists()]
     for p in sorted(set(files)):
         inventory.append(dict(path=str(p.relative_to(REPO)),sha256=hashlib.sha256(p.read_bytes()).hexdigest(),bytes=p.stat().st_size))
     pd.DataFrame(inventory).to_csv(OUT/'input_hashes.csv',index=False)

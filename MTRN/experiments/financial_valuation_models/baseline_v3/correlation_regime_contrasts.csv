@@ -1,0 +1,7 @@
+first,second,high_minus_low_correlation,lo,hi,n_high,n_low,block,replications,interpretation
+MTRN,ENTG,0.22471357581547519,0.12858936157923348,0.3269488692127166,1214,1479,20,2000,Pointwise descriptive regime contrast; not a causal contagion test
+MTRN,CRS,0.15691989069805218,0.027334033219154074,0.27727257104042036,1214,1479,20,2000,Pointwise descriptive regime contrast; not a causal contagion test
+MTRN,ATI,0.10916821419164807,-0.006160412929021177,0.21599836288292498,1214,1479,20,2000,Pointwise descriptive regime contrast; not a causal contagion test
+ENTG,CRS,0.185751352639278,0.07440198884823776,0.2878017851765123,1214,1479,20,2000,Pointwise descriptive regime contrast; not a causal contagion test
+ENTG,ATI,0.1451784633127423,0.047709989508539274,0.23852215747541422,1214,1479,20,2000,Pointwise descriptive regime contrast; not a causal contagion test
+CRS,ATI,0.013503050880633527,-0.06898296190078382,0.10385816441002088,1214,1479,20,2000,Pointwise descriptive regime contrast; not a causal contagion test

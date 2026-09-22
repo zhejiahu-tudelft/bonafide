@@ -125,6 +125,9 @@ whether the selected value differs from that original vintage.
 - `baseline_hashes.json`: original report/input/code/protocol preservation check.
 - `sources/manifest.json`: retrieval URLs, status, timestamp and hashes;
   failed earlier attempts remain in the audit alongside successful downloads.
+- Link-only sources: the earnings 8-K cover documents (their parsed release exhibits
+  stay local) and ELMT SEC filings not cited by path were replaced on 2026-09-21 by
+  their EDGAR URLs, listed with hashes in [../../RESOURCE_LINKS.md](../../RESOURCE_LINKS.md).
 - `data/processed/financial_fact_audit.csv`: selected filing accession, period,
   tag, units implied by metric, availability and assigned as-of date.
 - `data/processed/earnings_extractions.json`: original table text and dateline

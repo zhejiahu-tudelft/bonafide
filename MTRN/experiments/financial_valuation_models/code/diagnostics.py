@@ -39,12 +39,28 @@ def build():
     pd.DataFrame(vif).to_csv(OUT/'variance_inflation.csv',index=False)
     pd.DataFrame(corr).to_csv(OUT/'high_predictor_correlations.csv',index=False)
     pd.DataFrame(res).to_csv(OUT/'residual_diagnostics.csv',index=False)
-    paths=pd.concat([pd.read_csv(OUT/f'parameter_paths_return_{t}.csv') for t in CORE])
-    paths=paths[paths.model=='core_ols'].copy();paths['raw_slope']=paths.effect/paths.scale
+    # Coefficient and selection stability across the 44 refits. An intercept-only
+    # refit has no coefficients, so every variable counts as unselected there.
+    paths=pd.read_csv(OUT/'parameter_paths.csv');paths['raw_slope']=paths.effect/paths.scale
+    specs=pd.read_csv(OUT/'specification_records.csv',low_memory=False)
+    one=specs[(specs.task=='return')&(specs.horizon==1)]
+    refits=one.groupby(['ticker','model']).size()
     summaries=[]
-    for (tk,v),g in paths.groupby(['ticker','variable']):
-        summaries.append(dict(ticker=tk,variable=v,origins=len(g),median_standardized_effect=g.effect.median(),q25_standardized_effect=g.effect.quantile(.25),q75_standardized_effect=g.effect.quantile(.75),median_raw_slope=g.raw_slope.median(),positive_fraction=(g.effect>0).mean(),note='Across-refit variability, not a confidence interval. Standardized coefficient is return-fraction change per training SD.'))
+    for (tk,model,v),g in paths[paths.effect_type.str.startswith('coefficient')].groupby(['ticker','model','variable']):
+        total=int(refits.get((tk,model),len(g)))
+        summaries.append(dict(ticker=tk,model=model,variable=v,refits=total,refits_with_coefficient=len(g),
+            selection_frequency=float((g.effect.abs()>1e-12).sum()/total),median_standardized_effect=g.effect.median(),
+            q25_standardized_effect=g.effect.quantile(.25),q75_standardized_effect=g.effect.quantile(.75),median_raw_slope=g.raw_slope.median(),
+            positive_fraction=float((g.effect>0).mean()),sign_changes=int((np.sign(g.sort_values('date').effect).diff().fillna(0)!=0).sum()),
+            note='Across-refit variability, not a confidence interval. Standardized coefficient is return-fraction change per training SD; selection frequency counts nonzero coefficients over all refits, intercept-only refits included.'))
     pd.DataFrame(summaries).to_csv(OUT/'coefficient_stability.csv',index=False)
+    summary=specs.groupby(['task','horizon','ticker','model','window'],dropna=False).agg(refits=('date','size'),
+        intercept_only_share=('intercept_only','mean'),median_candidates=('candidates','median'),median_retained=('retained','median'),
+        max_missing_indicators=('missing_indicators','max'),max_excluded_low_coverage=('excluded_low_coverage','max'),
+        median_effective_df=('effective_df','median'),median_condition_number=('condition_number','median'),
+        min_rank=('rank','min'),median_nonzero_coefficients=('nonzero_coefficients','median'),median_tree_leaves=('tree_leaves','median'),
+        distinct_retained_sets=('retained_set','nunique')).reset_index()
+    summary.to_csv(OUT/'specification_summary.csv',index=False)
     f=pd.read_csv(OUT/'forecasts.csv');ar=f[(f.model=='arimax')&(f.horizon==1)]
     ar.groupby(['ticker','order'],dropna=False).size().rename('origins').reset_index().to_csv(OUT/'dynamic_order_counts.csv',index=False)
     print('DIAGNOSTICS',len(rows),'designs;',len(res),'residual checks',flush=True)

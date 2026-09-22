@@ -1,5 +1,6 @@
 """Readable variable/metric registries generated from the actual implementation."""
 import json
+import numpy as np
 import pandas as pd
 from settings import *
 
@@ -63,7 +64,19 @@ def build():
         for lag in [1,3]:
             label=f'{name}_lag{lag}'
             if label not in set(r.variable):extra.append(dict(variable=label,name=f'{name.replace("_"," ").title()}, {lag}-month lag',group='transform',formula=f'{name} recorded {lag} calendar months before the origin; not a first difference',units='same as parent variable',frequency='monthly lag of as-known series',availability='known strictly before origin',rationale='Tests delayed predictor effects with otherwise identical current predictors.',status='implemented in controlled lag comparison'))
+    # The compact model's issuer-specific aliases are not in the broad catalogue (they
+    # would duplicate named series there), so they are registered explicitly.
+    compact={'industry_return':('market','SOXX monthly return for MTRN/ENTG; ITA monthly return for CRS/ATI','fraction','Reference industry exposure; a traded equity proxy, not segment revenue or physical demand.'),
+      'industry_relative':('market','Origin-month industry-reference return (SOXX for MTRN/ENTG, ITA for CRS/ATI) minus the SPY return over the same completed month','fraction (difference of returns)','Industry performance beyond the broad market in the month before the target; a traded proxy, not physical demand.'),
+      'driver_return':('business','Completed-month change in the mapped input price, delayed one US session: HG=F copper futures for MTRN, NG=F natural gas futures for ENTG, CRS and ATI','fraction','MTRN: copper is a named input with disclosed pass-through. ENTG/CRS/ATI: a weak, exploratory energy-cost hypothesis with no disclosed exposure weight.')}
+    for name,(group,formula,units,why) in compact.items():
+        if name not in set(r.variable):
+            extra.append(dict(variable=name,name=name.replace('_',' ').title(),group=group,formula=formula,units=units,
+                frequency='daily market observations aggregated at monthly forecast origins',availability='Origin close; futures delayed one US session',
+                rationale=why,status='implemented in the compact model; issuer-specific alias excluded from the broad set to avoid duplicate columns'))
     r=pd.concat([r,pd.DataFrame(extra)],ignore_index=True)
+    r['in_compact_model']=r.variable.isin(CONFIG['dynamic_core'])
+    r['in_financial_extension']=r.variable.isin(CONFIG['financial_extension'])
     for name,formula in [('pe_diff','Valid origin P/E minus preceding monthly P/E'),('pe_lag1','Valid P/E recorded one calendar month before origin')]:
         if name not in set(r.variable):r.loc[len(r),['variable','name','group','formula','units','frequency','availability','rationale','status']]=[name,name.replace('_',' ').title(),'transform',formula,'multiple','monthly','known at origin','Controlled P/E transformation comparison with other compact predictors held fixed.','implemented in controlled P/E comparison']
     d=pd.read_csv(OUT/'monthly_features_as_known.csv')
@@ -78,9 +91,17 @@ def build():
      ('Direction','mean(sign(actual)==sign(forecast))','higher relative to directional baselines','Exact zero is a separate sign; magnitudes are ignored.'),
      ('Forecast correlation','Pearson correlation(forecast,actual)','higher, jointly with calibration/loss','Undefined for a constant series; high correlation alone does not ensure small errors.'),
      ('QLIKE','mean(actual_variance/predicted_variance - log(actual_variance/predicted_variance) - 1)','lower','Positive variance forecasts required; main variance ranking score.'),
-     ('Volatility RMSE','sqrt(mean((sqrt(actual_variance)-sqrt(predicted_variance))^2))','lower','Daily-volatility units; distinct from variance RMSE.'),
+     ('Root-variance RMSE','sqrt(mean((sqrt(actual_variance)-sqrt(predicted_variance))^2))','lower','Daily-volatility scale. The square root of a variance forecast is not an expected volatility (Jensen), so this is an error on the root of the variance forecast.'),
      ('AIC/BIC','-2 log-likelihood + 2k / -2 log-likelihood + k log(n)','lower on compatible training likelihoods','Recorded for dynamic/volatility fits, not the OOS selection score.'),
-     ('Loss reduction','mean(loss_reduced_model - loss_expanded_model)','positive favors expanded','Paired same-origin MSE for returns; paired QLIKE for variance.'),
+     ('Loss reduction','mean over calendar months of d = loss(reduced) - loss(expanded)','positive favours expanded','Estimand of every paired comparison: paired same-month MSE for returns, QLIKE for variance. Identical forecasts give d = 0 exactly.'),
+     ('Paired interval','95% percentile interval, order statistics 50 and 1950 of B = 1999 circular block bootstrap means (blocks of 3, 6 or 12 months; 6 primary; seed 20260918)','excludes zero','Resamples whole calendar months; conditional on saved forecasts, so estimation, tuning and specification-search uncertainty are not included.'),
+     ('Unadjusted p-value','2 (min(#d*<=0, #d*>=0) + 1) / (B + 1)','smaller','Inverts the same interval: p <= 0.05 exactly when the 95% interval excludes zero. Monte Carlo resolution 0.001.'),
+     ('Joint cross-issuer contrast','Equal-weight average of the issuers\' d within each calendar month, then the same bootstrap','excludes zero','Whole months are resampled, never individual company-month rows.'),
+     ('Holm-adjusted p-value','Holm step-down over the tested rows of one declared family (R16, RJ4, V20, VJ5)','smaller','A multiplicity-adjusted decision; it need not agree with unadjusted interval exclusion. Other comparisons are exploratory.'),
+     ('Clark-West statistic','mean of (e_small^2 - (e_big^2 - (f_small - f_big)^2)), Newey-West t, one-sided','larger','Fixed nested OLS pairs only: population predictive content of extra regressors, not sample forecast accuracy.'),
+     ('Detectable loss reduction','2.80 x bootstrap standard error of the mean differential','n/a','80% power at 5% two-sided under a normal approximation; for returns also shown in OOS R-squared points relative to the historical mean.'),
+     ('Empirical size','Rejection rate at nominal 5% over 500 synthetic null samples (stationary bootstrap of the demeaned observed differential)','close to 0.05','Calibration of the paired test for series like the observed ones; above 0.10 at the primary block means p-values are descriptive only.'),
+     ('Family status','tested / identical_by_exclusion / identical_by_selection / identical_other / ineligible','n/a','Identical forecasts at every origin are an untested contrast, not evidence of no effect.'),
      ('Rolling stability','12-month RMSE, MAE, bias and OOS R2','interpret jointly','Overlapping windows are not independent evidence.')]
     pd.DataFrame(metrics,columns=['metric','formula','preferred_direction','interpretation']).to_csv(OUT/'metric_registry.csv',index=False)
     # Protocol section 16 fixes the E-series identifiers the report is organised by.
@@ -100,16 +121,34 @@ def build():
      ('E6','Does a forecastable AR/MA error process improve on a static model using the same information?',
       'Selected ARIMAX vs the matching ARMA(0,0) fit with identical inputs, likelihood and intercept convention','Paired OOS MSE; AIC/BIC as training screens only','RQ3'),
      ('E7','Do the main comparisons remain stable across forecast horizons, training windows and market regimes?',
-      'One- and three-month horizons; expanding vs rolling 84-month; origin-known volatility and rate regimes; calendar years','Rolling 12-month loss, regime and horizon score tables; nonoverlapping offsets','RQ7'),
+      'One- and three-month horizons on common origins; expanding vs separately tuned rolling 84-month; origin-known volatility and rate regimes; leave-one-month and leave-one-year influence','Rolling 12-month loss, regime, horizon and influence tables; all nonoverlapping three-month offsets','RQ7'),
      ('E8','Can the same information improve a separately defined forecast of realised variance?',
-      'Historical variance, EWMA, ARCH, GARCH, GARCH-X market/industry/business, regularised and tree variance models; individual vs pooled','QLIKE primary; variance and volatility RMSE/MAE reported separately','RQ5, RQ6, RQ8')]
+      'Historical variance, EWMA, ARCH, GARCH, GARCH-X; controlled 2x2 matrix of individual/pooled x persistence/persistence+external (declared family V20, joint VJ5); regularised and tree variance models','QLIKE primary, Holm within V20 and VJ5; root-variance errors reported separately','RQ5, RQ6, RQ8')]
     pd.DataFrame(questions,columns=['experiment','research_question','comparison','evaluation','addendum_cross_reference']).to_csv(OUT/'experiment_registry.csv',index=False)
+    # Descriptive availability (origins from December 2015) is not training
+    # eligibility: each outer fit applies the 70% gate to its own training window.
     coverage=pd.read_csv(OUT/'feature_coverage.csv')
-    used={}
-    for p in OUT.glob('parameter_paths_return_*.csv'):
-        tk=p.stem.split('_')[-1]
-        used[tk]=set(pd.read_csv(p).variable.str.replace(' missing','',regex=False))
+    aliases=[]
+    for tk,g in d.groupby('ticker'):
+        use=g[g.date>='2015-12-31']
+        for v,group in [('industry_relative','market'),('driver_return','business')]:
+            if not ((coverage.ticker==tk)&(coverage.variable==v)).any():
+                aliases.append(dict(ticker=tk,variable=v,group=group,observations=len(use),available=int(use[v].notna().sum()),status='implemented in the compact model'))
+    coverage=pd.concat([coverage,pd.DataFrame(aliases)],ignore_index=True)
+    coverage['descriptive_nonmissing_share']=coverage.available/coverage.observations.where(coverage.observations>0)
+    paths=pd.read_csv(OUT/'parameter_paths.csv')
+    used=paths.assign(variable=paths.variable.str.replace(' missing','',regex=False)).groupby('ticker').variable.apply(set).to_dict()
     coverage['selected_by_a_recorded_primary_model']=[v in used.get(t,set()) for t,v in zip(coverage.ticker,coverage.variable)]
+    gate=CONFIG['feature_training_min_coverage'];eligible={}
+    for tk in CORE:
+        z=d[(d.ticker==tk)&(d.date>='2015-12-31')].dropna(subset=['return_target']).reset_index(drop=True)
+        for v in set(coverage.variable)&set(z.columns):
+            x=pd.to_numeric(z[v],errors='coerce').replace([np.inf,-np.inf],np.nan)
+            ok=[bool(x.iloc[:i].notna().mean()>=gate and x.iloc[:i].std()>1e-12) for i in range(84,len(z))]
+            eligible[(tk,v)]=(float(np.mean(ok)),next((z.date.iloc[84+j] for j,flag in enumerate(ok) if flag),''))
+    coverage['training_eligible_share']=[eligible.get((t,v),(np.nan,''))[0] for t,v in zip(coverage.ticker,coverage.variable)]
+    coverage['first_eligible_origin']=[eligible.get((t,v),(np.nan,''))[1] for t,v in zip(coverage.ticker,coverage.variable)]
+    coverage['coverage_note']='descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.'
     coverage.to_csv(OUT/'coverage_and_deferrals.csv',index=False)
     print('DOCUMENTATION',len(r),'variable definitions',flush=True)
 

@@ -1,11 +1,11 @@
 """Controlled transformations and honest block permutation diagnostics for ML."""
 import numpy as np,pandas as pd
 from settings import *
-from learning import load_frame,Regressor,tune,feature_sets
+from learning import load_frame,Regressor,SpecLog,tune,feature_sets
 
 def build():
     initialize();frame=load_frame();core=CONFIG['dynamic_core'];_,full=feature_sets()
-    records=[];importance=[]
+    records=[];importance=[];log=SpecLog();tuning=[]
     for tk in CORE:
         d=frame[(frame.ticker==tk)&(frame.date>='2015-12-31')].dropna(subset=['return_target']).reset_index(drop=True).copy()
         for c in core:
@@ -21,9 +21,12 @@ def build():
         for i in range(84,len(d)):
             tr=d.iloc[:i];te=d.iloc[[i]];r=te.iloc[0];base=float(tr.return_target.mean());refresh=i==84 or r.date[5:7]=='12'
             for name,cols in specs.items():
-                if refresh or name not in choices:choices[name],_=tune('ridge',tr[cols],tr.return_target,tr.date.to_numpy())
+                if refresh or name not in choices:
+                    choices[name],trials=tune('ridge',tr[cols],tr.return_target,tr.date.to_numpy())
+                    tuning.extend(dict(ticker=tk,task='return',window='expanding',date=r.date,model=name,**x) for x in trials)
                 fit=Regressor('ridge',choices[name]).fit(tr[cols],tr.return_target)
-                records.append(dict(ticker=tk,task='return',horizon=1,window='expanding',model=name,date=r.date,origin=r.origin,target_end=r.target_end,actual=r.return_target,prediction=fit.predict(te[cols])[0],benchmark=base,train_n=i,high_vol_regime=r.high_vol_regime,rate_rising_regime=r.rate_rising_regime,fallback=False,hyperparameter=choices[name],selected_features=str(fit.names)))
+                log.add(fit,task='return',horizon=1,ticker=tk,model=name,window='expanding',date=r.date)
+                records.append(dict(ticker=tk,task='return',horizon=1,window='expanding',model=name,date=r.date,origin=r.origin,target_end=r.target_end,actual=r.return_target,prediction=fit.predict(te[cols])[0],benchmark=base,train_n=i,high_vol_regime=r.high_vol_regime,rate_rising_regime=r.rate_rising_regime,fallback=False,hyperparameter=str(choices[name]),selected_features=str(fit.names)))
             # Retain fitted forests for retrospective paired block permutation;
             # permuted forecasts are diagnostics, never part of the real leaderboard.
             if refresh or 'forest' not in choices:choices['forest'],_=tune('forest',tr[full],tr.return_target,tr.date.to_numpy())
@@ -44,7 +47,10 @@ def build():
             deltas=np.mean((actual[None,:]-predictions)**2,axis=1)-base_loss
             importance.append(dict(ticker=tk,model='forest_full',group=group,block_months=3,repeats=20,mean_mse_increase=np.mean(deltas),permutation_sd=np.std(deltas,ddof=1),interpretation='Retrospective grouped block permutation with fitted models held fixed. Can break cross-group dependence; no causal meaning, no prediction claim, no significance interval.'))
         print('TRANSFORMS/PERMUTATION',tk,flush=True)
-    pd.DataFrame(records).to_csv(OUT/'forecasts_transformations.csv',index=False)
+    pd.DataFrame(records).to_csv(INTERIM/'forecasts_transformations.csv',index=False)
+    pd.DataFrame(tuning).to_csv(INTERIM/'tuning_transformations.csv',index=False)
+    pd.DataFrame(log.rows).to_csv(INTERIM/'specifications_transformations.csv',index=False)
+    pd.DataFrame(log.exclusions).to_csv(INTERIM/'exclusions_transformations.csv',index=False)
     pd.DataFrame(importance).to_csv(OUT/'permutation_importance.csv',index=False)
 
 if __name__=='__main__':build()

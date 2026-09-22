@@ -134,7 +134,7 @@
     {
       "check": "Every RMSE and out-of-sample R\u00b2 recomputes from the saved ledger",
       "passed": true,
-      "detail": "9.985502008591496e-17"
+      "detail": "9.75781955236954e-17"
     },
     {
       "check": "Out-of-sample R\u00b2 uses the real-time benchmark, not the test-sample mean",
@@ -157,11 +157,6 @@
       "detail": "16"
     },
     {
-      "check": "Holm adjustment never reduces a raw p-value",
-      "passed": true,
-      "detail": ""
-    },
-    {
       "check": "ARIMAX order is recorded for every origin and may vary",
       "passed": true,
       "detail": ""
@@ -177,6 +172,156 @@
       "detail": ""
     },
     {
+      "check": "Revision specification frozen before scoring",
+      "passed": true,
+      "detail": "{'frozen': '2026-09-21T20:10:39+00:00', 'scored': '2026-09-21T23:12:35+00:00'}"
+    },
+    {
+      "check": "Baseline manifest records the version-3 state",
+      "passed": true,
+      "detail": "174"
+    },
+    {
+      "check": "Every unadjusted interval and p-value agree",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Every paired comparison is labelled isolating or complete procedure",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Successful-fit comparisons use each pair's intersection",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "check": "Joint contrasts resample common calendar months",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Variance family covers the controlled 2x2 matrix",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Holm adjustment never reduces a raw p-value within any family",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Identical forecasts are never counted as tested",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Clark-West limited to fixed nested OLS pairs",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Calibration recorded for both tasks and all blocks",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Influence diagnostics cover every family contrast",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Leave-one-block-out rows are populated",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "check": "Reversed comparisons negate the mean and swap interval endpoints",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Every inner-validation label had matured",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Rolling sensitivity is tuned on its own 84-month window",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Tuning grid includes the intercept-only benchmark",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Every fitted specification has a complexity record",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Pooled models are fitted on date-synchronised folds",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No unpenalised specification mixes a level with its lag or difference",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Pooled variance benchmark equals the 63-session historical variance",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Market-relative task named consistently",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Registry covers every compact-model input",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Coverage separates description from training eligibility",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Regime definitions recorded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Exposure map records evidence strength",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "ENTG equity-substitution sensitivity scored on matched dates",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Metric registry states the inference estimand",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "No per-stage duplicate of a consolidated table in the processed outputs",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "No interim ledger remains after a full rebuild",
+      "passed": true,
+      "detail": ""
+    },
+    {
       "check": "Every manifest figure exists as PNG, SVG and source data",
       "passed": true,
       "detail": ""
@@ -184,7 +329,7 @@
     {
       "check": "Figure numbers are sequential with no gaps or duplicates",
       "passed": true,
-      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]"
+      "detail": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21]"
     },
     {
       "check": "Every figure is referred to in the narrative",
@@ -207,14 +352,34 @@
       "detail": ""
     },
     {
+      "check": "Report distinguishes forecast origins from target months",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "Report contains none of the flagged assertions",
+      "passed": true,
+      "detail": "[]"
+    },
+    {
+      "check": "Correlation prose matches the contrast table",
+      "passed": true,
+      "detail": ""
+    },
+    {
       "check": "No placeholder text remains in the report",
       "passed": true,
       "detail": "[]"
+    },
+    {
+      "check": "Every issue-register check exists and passed",
+      "passed": true,
+      "detail": "{'missing': [], 'failed': []}"
     }
   ],
   "cutoff": "2026-09-18",
   "seed": 20260918,
   "out_of_sample_months": 44,
-  "figures": 18,
+  "figures": 21,
   "generated": "offline rebuild via code/run_experiments.py"
 }

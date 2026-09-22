@@ -12,7 +12,13 @@ REQUIRED_ARTIFACTS=['data/processed/feature_registry.csv','data/processed/exposu
  'data/processed/figure_manifest.csv','data/processed/table_manifest.csv',
  'data/processed/primary_comparison_family.csv','data/processed/successful_fit_scores.csv',
  'data/processed/validation_results.json','sources/manifest.json','config.json','README.md',
- 'final/Financial_Valuation_Model_Comparison.html']
+ 'final/Financial_Valuation_Model_Comparison.html',
+ # Version-4 revision
+ 'REVISION_SPEC.md','revision_freeze.json','baseline_v3/MANIFEST.json','data/processed/scoring_run.json',
+ 'data/processed/inference_families.csv','data/processed/clark_west.csv','data/processed/inference_calibration.csv',
+ 'data/processed/detectable_effects.csv','data/processed/influence_diagnostics.csv','data/processed/horizon_common_origin_scores.csv',
+ 'data/processed/regime_definitions.csv','data/processed/specification_records.csv','data/processed/specification_summary.csv',
+ 'data/processed/exclusion_log.csv','data/processed/issue_register.csv','data/processed/baseline_vs_revision.csv']
 
 def digest(path):
     return hashlib.sha256(path.read_bytes()).hexdigest() if path.exists() else None
@@ -75,7 +81,8 @@ def build():
       validation_passed=validation['passed'],
       checks_passed=sum(x['passed'] for x in validation['checks']),
       checks_total=len(validation['checks']),
-      method_tests='16 passed (tests/test_methods.py)',
+      method_tests=f"{(ROOT/'tests/test_methods.py').read_text().count('    def test_')} passed (tests/test_methods.py; the rebuild stops on any failure)",
+      version=CONFIG['version'],
       required_artifacts={a:('present' if (ROOT/a).exists() else 'MISSING') for a in REQUIRED_ARTIFACTS},
       figures=len(manifest),
       tables=len(pd.read_csv(OUT/'table_manifest.csv')),
@@ -87,13 +94,38 @@ def build():
       experiments_answered=['E1','E2','E3','E4','E5','E6','E7','E8'],
       experiments_deferred=[],
       what_was_learned=dict(
-        return_task='No factor block, transformation, added lag or ARMA error process reliably improved on the expanding historical mean. Estimates are imprecise rather than measured zeros.',
-        variance_task='Several variance models improve on the 63-session persistence benchmark; the gains come mainly from pooling and persistence, not from added external volatility inputs.',
+        return_task='No factor block, transformation, added lag or ARMA error process reliably improved on the expanding historical mean; with an intercept-only option, validation usually chose the benchmark itself. Estimates are imprecise rather than measured zeros.',
+        variance_task='Point-estimate gains over 63-session persistence for CRS and ATI; ENTG gains rest on April 2025; MTRN persistence is hard to beat. In the controlled 2x2 matrix neither pooling nor external inputs survives Holm, and the paired test over-rejects on these heavy-tailed losses, so no variance discovery is claimed.',
         recommendation='Retain the historical-mean benchmark for the return task; the simplest model the evidence supports.'),
       what_remains_untested=[x['component'] for x in json.loads((OUT/'deferrals.json').read_text())]
         +['ELMT formal modelling (short public history)','Return predictability at horizons beyond three months'],
       honest_completion='No placeholder findings, no fabricated metrics, no empty result panel presented as a completed experiment. Every deferral is visible in the report and in deferrals.json.')
     (ROOT/'COMPLETION_AUDIT.json').write_text(json.dumps(completion,indent=2)+'\n')
+
+    # Version-4 revision record, built from the saved outputs.
+    review=ROOT.parent/'prompt__revision.md';freeze=json.loads((ROOT/'revision_freeze.json').read_text())
+    run=json.loads((OUT/'scoring_run.json').read_text());issues=pd.read_csv(OUT/'issue_register.csv')
+    fam=pd.read_csv(OUT/'inference_families.csv');cal=pd.read_csv(OUT/'inference_calibration.csv');bvr=pd.read_csv(OUT/'baseline_vs_revision.csv')
+    r16=bvr[(bvr.item=='R16 frozen family')&(bvr.metric=='unadjusted p-value')]
+    moved=lambda a,b:int(((pd.to_numeric(r16[a])<=.05)!=(pd.to_numeric(r16[b])<=.05)).sum())
+    revision=dict(audit_date=today,
+      review_document=str(review.relative_to(REPO)),review_sha256=digest(review),
+      status='post-hoc revision of an exploratory study; decisions frozen before rescoring, evaluation sample already seen',
+      baseline=dict(version=3,git_commit='bef7b32',snapshot='baseline_v3/',reproduced_bit_for_bit='all data outputs, the HTML report and PNG figures; SVGs differed only in timestamp and random ids'),
+      specification=dict(file=freeze['spec'],sha256=freeze['spec_sha256'],frozen_at=freeze['frozen_at'],scored_at=run['scored_at'],amendments=freeze['amendments']),
+      issues=issues.decision.value_counts().to_dict(),
+      issues_unresolved=issues[issues.decision.isin(['deferred'])].finding.tolist(),
+      families={k:dict(declared=int(len(g)),tested=int((g.status=='tested').sum()),survive_holm=int((g.holm_adjusted_pvalue<=.05).sum()),
+                       unadjusted_exclusions=int((g.unadjusted_decision=='interval excludes zero').sum())) for k,g in fam.groupby('family')},
+      calibration={f'{role} / {task}':float(v) for (role,task),v in cal[cal.block==6].groupby(['series_role','task']).empirical_size.max().items()},
+      inference_status=sorted(cal.inference_status.unique().tolist()),
+      r16_decision_changes=dict(from_inference_change=moved('baseline_published','baseline_new_inference'),from_refit=moved('baseline_new_inference','revision')),
+      validation_passed=validation['passed'],
+      supports=['No reliable out-of-sample return improvement over the historical mean for any issuer, family or joint contrast',
+                'Issuer-specific point-estimate variance gains over persistence (most consistent for CRS)'],
+      does_not_support=['Any causal, alpha or portfolio-improvement claim','A stable absence of any return relationship (a failure to reject is not equivalence)',
+                        'A statistically established variance improvement (the test is miscalibrated on these losses)','Transfer of CRS results to MTRN'])
+    (ROOT/'REVISION_AUDIT.json').write_text(json.dumps(revision,indent=2,default=str)+'\n')
     missing=[a for a,v in completion['required_artifacts'].items() if v=='MISSING']
     print('AUDITS written; required artifacts missing:',missing or 'none',flush=True)
     if missing:raise SystemExit('Required artifacts missing: '+', '.join(missing))

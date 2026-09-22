@@ -1,5 +1,5 @@
 {
-  "audit_date": "2026-09-21",
+  "audit_date": "2026-09-22",
   "governing_protocol": "MTRN/experiments/prompt_v2_financial_valuation_models.md",
   "protocol_sha256": "14a14489b7385ca9bdd42a258fe8dfa4a6abf7febab8fb7292be0ae3d2c37d5d",
   "prior_experiment": "MTRN/experiments/historical_attribution (complete; preserved and hash-verified)",

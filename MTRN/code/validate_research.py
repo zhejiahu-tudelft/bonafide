@@ -118,13 +118,17 @@ def build():
     value=(sum(cf/(1+w)**(i+1) for i,cf in enumerate(d['cashflows']))+terminal/(w-g)/(1+w)**5-d['claims'])/d['shares']
     assert math.isclose(value,summary.loc['Base','per_share'])
     passed('Final artifact integrity','18 sections; six valid embedded charts; all local and section links exist; no unresolved template fields; interactive base DCF matches Python.')
+    # Stable SEC copies retired to links and removed derived copies are documented in
+    # resource_changes.json / RESOURCE_LINKS.md; the recorded hash still has to match.
+    from common.code.preservation import verify,accounted
+    changes=ROOT/'resource_changes.json'
     inventory=pd.read_csv(D/'evidence_inventory.csv')
-    for r in inventory.itertuples():
-        p=ROOT/r.local_path
-        assert hashlib.sha256(p.read_bytes()).hexdigest()==r.sha256,r.local_path
+    problems=verify(dict(zip(inventory.local_path,inventory.sha256)),ROOT.parent,changes,prefix='MTRN/')
+    assert not problems,problems[:5]
+    retained=sum((ROOT/p).exists() for p in inventory.local_path)
     sources=pd.read_csv(ROOT/'report/source_log.csv')
-    for path in sources.local_path: assert (ROOT/path).exists(),path
-    passed('Source archive integrity',f'{len(inventory)} file hashes verified; {len(sources)} source entries point to retained evidence.')
+    for path in sources.local_path: assert accounted('MTRN/'+path,ROOT.parent,changes),path
+    passed('Source archive integrity',f'{retained} retained file hashes verified; {len(inventory)-retained} link-only or derived copies documented in RESOURCE_LINKS.md; {len(sources)} source entries point to retained or link-documented evidence.')
     result=dict(status='passed',cutoff=CUTOFF,checks=checks)
     (D/'validation_results.json').write_text(json.dumps(result,indent=2))
     print(json.dumps(result,indent=2))

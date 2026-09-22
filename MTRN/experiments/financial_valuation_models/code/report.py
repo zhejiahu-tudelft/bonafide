@@ -15,6 +15,9 @@ STAGES=['historical_mean','A1_market','A2_financial','A3_valuation','A4_momentum
 for n,label in zip(STAGES[1:],['Market','+ Financial','+ Valuation','+ Momentum','+ Risk/liquidity','+ Industry','+ Business drivers','+ Changes/lags','+ Interactions']):NAMES[n]=label
 for n in ['market','financial','valuation','momentum','risk','industry','business']:NAMES['without_'+n]='Broad Ridge minus '+n
 NAMES['zero']='Zero return';NAMES['mine_inclusive_fcf']='Broad Ridge + mine-inclusive FCF'
+NAMES.update({'core_ridge_financial_ext':'Compact Ridge + cash/leverage','core_ols_financial_ext':'Compact OLS + cash/leverage',
+  'without_equity_inputs':'Broad Ridge minus equity inputs','pooled_variance_persistence':'Pooled Ridge: persistence',
+  'pooled_variance_external':'Pooled Ridge: +external','without_momentum':'Broad Ridge minus momentum','without_risk':'Broad Ridge minus risk'})
 for n,label in zip(['P1_financial','P2_valuation','P3_transform','P4_market','P5_industry','P6_business'],
                    ['Financial','+ Valuation','+ Changes/lags','+ Market','+ Industry','+ Business drivers']):NAMES[n]=label
 PROTOCOL_STAGES=['historical_mean','P1_financial','P2_valuation','P3_transform','P4_market','P5_industry','P6_business']
@@ -39,7 +42,9 @@ def reference(ax,value=0,axis='y'):
     """Reference lines belong behind the marks they annotate, never across them."""
     line=ax.axhline if axis=='y' else ax.axvline
     line(value,color='#64748b',lw=.7,zorder=0)
-plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'axes.titlesize':11,'axes.labelsize':10,'xtick.labelsize':9,'ytick.labelsize':9,'legend.fontsize':9,'axes.spines.top':False,'axes.spines.right':False,'axes.facecolor':'white','figure.facecolor':'white','axes.grid':True,'grid.alpha':.18,'grid.linewidth':.6,'savefig.dpi':160,'axes.axisbelow':True})
+plt.rcParams.update({'font.family':'DejaVu Sans','font.size':10,'axes.titlesize':11,'axes.labelsize':10,'xtick.labelsize':9,'ytick.labelsize':9,'legend.fontsize':9,'axes.spines.top':False,'axes.spines.right':False,'axes.facecolor':'white','figure.facecolor':'white','axes.grid':True,'grid.alpha':.18,'grid.linewidth':.6,'savefig.dpi':160,'axes.axisbelow':True,
+  # Deterministic SVG exports: fixed element-id salt and no creation timestamp.
+  'svg.hashsalt':str(SEED)})
 MANIFEST=[]
 def read(n):
     p=OUT/(n+'.csv')
@@ -53,7 +58,7 @@ def save(fig,key,title,subtitle,caption,data):
     fig.tight_layout(rect=[0,0,1,1-1.0/height])
     fig.text(.02,1-.20/height,title,ha='left',va='top',fontsize=16,fontweight='bold',color='#172554')
     fig.text(.02,1-.62/height,subtitle,ha='left',va='top',fontsize=10,color='#475569')
-    fig.savefig(FIG/(key+'.png'),bbox_inches='tight');fig.savefig(FIG/(key+'.svg'),bbox_inches='tight');plt.close(fig)
+    fig.savefig(FIG/(key+'.png'),bbox_inches='tight');fig.savefig(FIG/(key+'.svg'),bbox_inches='tight',metadata={'Date':None});plt.close(fig)
     data.to_csv(FIG/(key+'_source.csv'),index=False)
     MANIFEST.append(dict(number=None,key=key,title=title,subtitle=subtitle,caption=caption,png=key+'.png',svg=key+'.svg',source=key+'_source.csv'))
 
@@ -64,6 +69,9 @@ def figure(key):
     f=entry(key)
     if f['number'] is not None:raise ValueError(f'Figure {key} embedded twice; cross-reference it with num() instead')
     f['number']=sum(1 for x in MANIFEST if x['number'] is not None)+1
+    # File names carry the number the figure bears in the report.
+    for column in ['png','svg','source']:
+        final=f'{f["number"]:02d}_{f[column]}';(FIG/f[column]).rename(FIG/final);f[column]=final
     encoded=base64.b64encode((FIG/f['png']).read_bytes()).decode()
     return f'<figure id="figure-{f["number"]}"><img src="data:image/png;base64,{encoded}" alt="{html.escape(f["title"])}"><figcaption><strong>Figure {f["number"]}.</strong> {html.escape(f["caption"])} <a href="../figures/{f["svg"]}">SVG</a> · <a href="../figures/{f["source"]}">data</a></figcaption></figure>'
 def num(key):
@@ -76,30 +84,31 @@ def scores_table(s,task,models,ticker=None,horizon=1):
     z=s[(s.task==task)&(s.horizon==horizon)&s.model.isin(models)].copy()
     if ticker:z=z[z.ticker==ticker]
     order={m:i for i,m in enumerate(models)};z['sort']=z.model.map(order);z=z.sort_values(['ticker','sort'])
-    if task=='return':
+    if task in ('return','market_relative_return'):
         z[['rmse','mae','directional_accuracy']]*=100
         cols=['ticker','model','n','rmse','mae','r2_oos','directional_accuracy','forecast_correlation']
         names={'rmse':'RMSE (pp)','mae':'MAE (pp)','r2_oos':'OOS R²','directional_accuracy':'Direction (%)','forecast_correlation':'Forecast corr.'}
     else:
-        z[['rmse','mae']]*=1e6;z['volatility_rmse']*=100
-        cols=['ticker','model','n','qlike','rmse','mae','r2_oos','volatility_rmse','volatility_correlation']
-        names={'rmse':'Variance RMSE ×10⁶','mae':'Variance MAE ×10⁶','r2_oos':'OOS R²','qlike':'QLIKE','volatility_rmse':'Vol. RMSE (daily pp)','volatility_correlation':'Vol. forecast corr.'}
+        z[['rmse','mae']]*=1e6;z['root_variance_rmse']*=100
+        cols=['ticker','model','n','qlike','rmse','mae','r2_oos','root_variance_rmse','root_variance_correlation']
+        names={'rmse':'Variance RMSE ×10⁶','mae':'Variance MAE ×10⁶','r2_oos':'OOS R²','qlike':'QLIKE','root_variance_rmse':'Root-variance RMSE (daily pp)','root_variance_correlation':'Root-variance corr.'}
     z['model']=z.model.map(model)
     return z[cols].rename(columns=dict(ticker='Company',model='Model',n='Months',**names))
 
 def make_figures(s,f):
+    for old in list(FIG.glob('*.png'))+list(FIG.glob('*.svg'))+list(FIG.glob('*_source.csv')):old.unlink()
     timeline=pd.DataFrame([['Initial fitting targets','2016-01-01','2022-12-31'],['First inner validation block','2021-01-01','2021-12-31'],['Second inner validation block','2022-01-01','2022-12-31'],['One-month out-of-sample targets','2023-01-01','2026-08-31']],columns=['period','start','end'])
     fig,ax=plt.subplots(figsize=(11,3.9))
     for i,row in timeline.iterrows():
         a,b=pd.to_datetime([row.start,row.end]);ax.barh(i,(b-a).days,left=mdates.date2num(a),height=.5,color=['#235b91','#8bafcd','#8bafcd','#087f83'][i])
     ax.set_yticks(range(4),timeline.period);ax.invert_yaxis();ax.xaxis_date();ax.xaxis.set_major_locator(mdates.YearLocator(2));ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y'));ax.set_xlabel('Calendar year');ax.set_ylabel('Research period')
-    save(fig,'01_timeline','A chronological experiment with nested validation','Primary horizon: next calendar month; common target sample for all eligible models','The first 84 completed monthly targets train the January 2023 forecast. Inner validation is inside that training history; every later outer origin expands the history and refits. Annual retuning reuses only preceding validation targets. The independent unit is the month, not each company-month row.',timeline)
+    save(fig,'timeline','A chronological experiment with nested validation','Primary horizon: next calendar month; common target sample for all eligible models','The first 84 completed monthly targets train the January 2023 forecast. Inner validation is inside that training history; every later outer origin expands the history and refits. Annual retuning reuses only preceding validation targets. The independent unit is the month, not each company-month row.',timeline)
     cov=read('coverage_and_deferrals');order=['financial','valuation','market','momentum','risk','industry','business']
-    cov=cov[cov.ticker.isin(CORE)&cov.group.isin(order)].copy();cov['coverage']=cov.available/cov.observations*100
-    cov['clears_gate']=(cov.coverage>=70).astype(float)*100
+    cov=cov[cov.ticker.isin(CORE)&cov.group.isin(order)].copy();cov['coverage']=cov.descriptive_nonmissing_share*100
+    cov['clears_gate']=cov.training_eligible_share*100
     fig,axes=plt.subplots(1,2,figsize=(13,4.8))
-    panels=[('coverage','Mean nonmissing share of candidates (%)','Average availability'),
-            ('clears_gate','Candidates clearing the 70% training gate (%)','What is actually usable')]
+    panels=[('coverage','Mean nonmissing share of candidates (%)','Descriptive availability'),
+            ('clears_gate','Training windows passing the gate (%)','Training eligibility')]
     for ax,(column,barlabel,title) in zip(axes,panels):
         pivot=cov.groupby(['group','ticker'])[column].mean().unstack().reindex(order)[CORE]
         im=ax.imshow(pivot,vmin=0,vmax=100,cmap='Blues',aspect='auto')
@@ -108,20 +117,20 @@ def make_figures(s,f):
         for i in range(len(pivot)):
             for j in range(4):ax.text(j,i,f'{pivot.iloc[i,j]:.0f}%',ha='center',va='center',fontsize=9,color='white' if pivot.iloc[i,j]>65 else '#172554')
         fig.colorbar(im,ax=ax,label=barlabel,fraction=.046,pad=.04)
-    save(fig,'02_coverage','After the extraction repairs, most candidates are usable for most issuers','Origin rows December 2015-August 2026 - descriptive availability, left, and the share clearing the training gate, right',
-        'The left panel averages nonmissing share within each group; the right shows the share of candidates in that group whose coverage clears the 70% training-only gate, which is what determines whether a variable can enter a fit. The right panel is the operative one: a group can average high availability while individual variables fail, as the high-yield credit spread does from a 2023 archive start and interest coverage does for Materion and ATI. Three extraction defects were repaired during this continuation - Entegris equity, Carpenter trailing earnings and Materion free cash flow - and the coverage shown here is after those repairs.',cov)
+    save(fig,'coverage','Availability is not the same as training eligibility','Left: nonmissing share over origin rows December 2015-August 2026 - right: share of the 44 actual training windows in which a candidate passed the 70% gate',
+        'The left panel is descriptive: it averages nonmissing share over a longer sample than any model is trained on. The right panel is the operative one: for each candidate it records in how many of the 44 expanding training windows the variable cleared the training-only 70% coverage gate, then averages within the group. A group can look well covered descriptively while individual variables fail in the early windows, as the high-yield credit spread does from its 2023 archive start. The coverage shown follows the version-3 extraction repairs for Entegris equity, Carpenter trailing earnings and Materion free cash flow.',cov)
     primary=['historical_mean','zero','market_mean','capm_style','core_ols','core_ridge','ar1','arx','distributed_all_lag1','arimax','ridge_full','lasso_full','elastic_full','forest_full','boost_full']
     z=s[(s.task=='return')&(s.horizon==1)&s.model.isin(primary)]
     fig,axes=plt.subplots(2,2,figsize=(12,10),sharex=True,sharey=True)
     for ax,tk in zip(axes.ravel(),CORE):
         a=z[z.ticker==tk].set_index('model').reindex(primary);ax.barh(range(len(primary)),a.r2_oos,color=[STYLE[m]['color'] for m in primary],height=.65,zorder=3);reference(ax,0,'x');ax.set_yticks(range(len(primary)),[model(m) for m in primary]);ax.invert_yaxis();ax.set_title(tk);ax.set_xlabel('OOS R² (higher is better)');ax.set_ylabel('Model')
-    save(fig,'03_return_models','More elaborate return models rarely improve the benchmark','44 one-month targets per company • January 2023–August 2026','Models use the same forecast dates and historical-mean denominator. The historical mean is the denominator, so its own bar is exactly zero by construction and none is drawn. Negative R² means larger squared errors than the origin-available mean. Identical axes preserve cross-company comparability; the full tables also report MAE, direction and correlation.',z)
+    save(fig,'return_models','More elaborate return models rarely improve the benchmark','44 one-month targets per company • January 2023–August 2026','Models use the same forecast dates and historical-mean denominator. The historical mean is the denominator, so its own bar is exactly zero by construction and none is drawn. Negative R² means larger squared errors than the origin-available mean. Identical axes preserve cross-company comparability; the full tables also report MAE, direction and correlation.',z)
     ab=s[(s.task=='return')&(s.horizon==1)&s.model.isin(STAGES)].pivot(index='model',columns='ticker',values='r2_oos').reindex(STAGES)[CORE]
     fig,ax=plt.subplots(figsize=(9,6));lim=max(abs(ab.min().min()),abs(ab.max().max()));im=ax.imshow(ab,vmin=-lim,vmax=lim,cmap='RdBu',aspect='auto');ax.set_xticks(range(4),CORE);ax.set_yticks(range(len(ab)),[model(m) for m in STAGES]);ax.set_xlabel('Company');ax.set_ylabel('Cumulative Ridge factor set')
     for i in range(len(ab)):
         for j in range(4):ax.text(j,i,f'{ab.iloc[i,j]:.2f}',ha='center',va='center',fontsize=9,color='white' if abs(ab.iloc[i,j])>lim*.6 else '#172554')
     fig.colorbar(im,ax=ax,label='OOS R² (higher is better)')
-    save(fig,'06_ablation','Incremental factors have different effects across issuers','Historical mean → market → financial → valuation → momentum → risk → industry → business → dynamics → interactions','Each row refits and retunes the cumulative Ridge specification on the same 44 target months. Improvements between rows are order-dependent. Full-minus-block checks provide a second view; zero or unchanged results can also arise when the added factor fails coverage.',ab.reset_index())
+    save(fig,'ablation','Incremental factors have different effects across issuers','Historical mean → market → financial → valuation → momentum → risk → industry → business → dynamics → interactions','Each row refits and retunes the cumulative Ridge specification on the same 44 target months. Improvements between rows are order-dependent. Full-minus-block checks provide a second view; zero or unchanged results can also arise when the added factor fails coverage.',ab.reset_index())
     ab=read('ablation_scores');prot=ab[ab.ladder=='protocol_order']
     fig,axes=plt.subplots(1,2,figsize=(13,5.4))
     width=.2
@@ -138,27 +147,27 @@ def make_figures(s,f):
     axes[1].set_yticks(range(1,len(PROTOCOL_STAGES)),[model(m) for m in PROTOCOL_STAGES[1:]],fontsize=8);axes[1].invert_yaxis()
     axes[1].set_xlabel('Paired MSE reduction vs preceding stage (pp\u00b2; positive is better)');axes[1].set_ylabel('Added information');axes[1].set_title('Incremental change, with uncertainty')
     axes[1].margins(y=.08)  # One shared legend on the left panel; colours match across both.
-    save(fig,'04_protocol_ablation','Adding information in the protocol order changes little out of sample','Historical mean \u2192 financial \u2192 valuation \u2192 changes/lags \u2192 market \u2192 industry \u2192 business drivers \u2022 44 matched target months',
-        'Company colours are shared by both panels and shown once, in the left legend. The left panel scores each cumulative stage against its own origin-available historical mean; the right shows the paired month-by-month loss change relative to the immediately preceding stage, with 95% moving-block intervals. A missing interval means the matched pair was ineligible. This ordering does not uniquely allocate information shared between blocks, which is why the market-first ladder and the leave-one-block-out checks are reported beside it.',prot)
+    save(fig,'protocol_ablation','Adding information in the protocol order changes little out of sample','Historical mean \u2192 financial \u2192 valuation \u2192 changes/lags \u2192 market \u2192 industry \u2192 business drivers \u2022 44 matched target months',
+        'Company colours are shared by both panels and shown once, in the left legend. The left panel scores each cumulative stage against its own origin-available historical mean; the right shows the paired month-by-month loss change relative to the immediately preceding stage, with 95% circular-block intervals (six-month blocks). A zero-width interval at zero means both stages produced identical forecasts, usually because validation chose the intercept-only benchmark for both. This ordering does not uniquely allocate information shared between blocks, which is why the market-first ladder and the leave-one-block-out checks are reported beside it.',prot)
     z=f[(f.task=='return')&(f.horizon==1)&(f.ticker=='MTRN')&f.model.isin(['historical_mean','ridge_full','pooled_boost'])]
     fig,ax=plt.subplots(figsize=(11,4.8));actual=z[z.model=='historical_mean'].sort_values('target_end');ax.plot(pd.to_datetime(actual.target_end),actual.actual*100,color='#111827',label='Observed return',lw=1.6)
     for m in ['historical_mean','ridge_full','pooled_boost']:
         a=z[z.model==m].sort_values('target_end');ax.plot(pd.to_datetime(a.target_end),a.prediction*100,label=model(m),lw=1.5,**STYLE[m])
     reference(ax);ax.set_ylabel('Monthly total-return proxy (%)');ax.set_xlabel('Target month');ax.legend(loc='upper left',ncol=2);ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
-    save(fig,'05_return_paths','MTRN forecasts explain little of its monthly swings','Out-of-sample targets January 2023–August 2026 • horizon one month','Black is realized adjusted-close return; all other lines were generated at the preceding month’s final close. The pooled booster is displayed as a tested comparison, not a prospectively selected winner. Forecast intervals are not estimated.',z)
-    cs=read('coefficient_stability');cs=cs[cs.variable.isin(CONFIG['dynamic_core'])]
+    save(fig,'return_paths','MTRN forecasts explain little of its monthly swings','Out-of-sample targets January 2023–August 2026 • horizon one month','Black is realized adjusted-close return; all other lines were generated at the preceding month’s final close. The pooled booster is displayed as a tested comparison, not a prospectively selected winner. Forecast intervals are not estimated.',z)
+    cs=read('coefficient_stability');cs=cs[(cs.model=='core_ols')&cs.variable.isin(CONFIG['dynamic_core'])]
     fig,axes=plt.subplots(2,3,figsize=(12,7))
     for ax,var in zip(axes.ravel(),CONFIG['dynamic_core']):
         a=cs[cs.variable==var].set_index('ticker').reindex(CORE);mid=a.median_standardized_effect*100
         ax.errorbar(mid,range(4),xerr=np.vstack([(a.median_standardized_effect-a.q25_standardized_effect)*100,(a.q75_standardized_effect-a.median_standardized_effect)*100]),fmt='o',color=COLORS['linear'],capsize=3,zorder=3);reference(ax,0,'x');ax.set_yticks(range(4),CORE);ax.set_title(var.replace('_',' ').title());ax.set_xlabel('Return pp per training SD');ax.set_ylabel('Company')
-    save(fig,'13_coefficients','Compact return slopes vary by company and refit','Median and interquartile range across 44 expanding-window OLS fits','Dots show median coefficients measured per training standard deviation; whiskers show across-origin interquartile ranges, not sampling confidence intervals. Unavailable predictors produce blank entries. Scaling makes within-model effects readable, but differs between companies and dates; raw slopes are also archived.',cs)
+    save(fig,'coefficients','Compact return slopes vary by company and refit','Median and interquartile range across 44 expanding-window OLS fits','Dots show median coefficients measured per training standard deviation; whiskers show across-origin interquartile ranges, not sampling confidence intervals. Unavailable predictors produce blank entries. Scaling makes within-model effects readable, but differs between companies and dates; raw slopes are also archived.',cs)
     comparisons=read('paired_loss_comparisons');wanted=['core_pe_difference','core_pe_percentage','core_pe_lag1','core_financial_changes','distributed_all_lag1','distributed_all_lag3']
-    z=comparisons[(comparisons.task=='return')&(comparisons.horizon==1)&(comparisons.block==6)&comparisons.expanded.isin(wanted)&(comparisons.reduced!='historical_mean')]
+    z=comparisons[(comparisons.task=='return')&(comparisons.horizon==1)&(comparisons.block==6)&(comparisons['sample']=='operational')&comparisons.expanded.isin(wanted)&(comparisons.reduced!='historical_mean')]
     fig,axes=plt.subplots(2,2,figsize=(12,7),sharex=True,sharey=True)
     for ax,tk in zip(axes.ravel(),CORE):
         a=z[z.ticker==tk].set_index('expanded').reindex(wanted);mid=a.mean_loss_reduction*1e4
         ax.errorbar(mid,range(len(wanted)),xerr=np.vstack([(a.mean_loss_reduction-a.lo)*1e4,(a.hi-a.mean_loss_reduction)*1e4]),fmt='o',color=COLORS['lag'],capsize=3,zorder=3);reference(ax,0,'x');ax.set_yticks(range(len(wanted)),[model(m) for m in wanted]);ax.invert_yaxis();ax.set_title(tk);ax.set_xlabel('MSE reduction (pp²; positive is better)');ax.set_ylabel('Controlled transformation')
-    save(fig,'07_transformations','Differences and lags are separate empirical questions','44 monthly tests • 95% pointwise moving-block intervals, six-month blocks','P/E representations are compared with P/E level; financial changes and all-core lag models are compared with Compact Ridge. Intervals condition on saved forecasts and are not adjusted for model search. Zero ATI/CRS P/E contrasts reflect excluded sparse P/E inputs, not economic equivalence.',z)
+    save(fig,'transformations','Differences and lags are separate empirical questions','44 target months • 95% pointwise circular-block intervals, six-month blocks','P/E representations are compared with P/E level; financial changes and all-core lag models are compared with Compact Ridge. Intervals condition on saved forecasts and are not adjusted for model search. A point fixed at zero with no interval means identical forecasts on both sides - for ATI the P/E input failed the coverage gate - which is an untested contrast, not economic equivalence.',z)
     fam=read('primary_comparison_family');fc=f[(f.task=='return')&(f.horizon==1)]
     pairs=[('valuation_added','ridge_full','without_valuation'),('transformations_vs_levels','core_pe_difference','core_pe_level'),('arma_vs_static','arimax','arma_static'),('lags_vs_static','distributed_all_lag1','core_ridge')]
     fig,axes=plt.subplots(2,2,figsize=(12,7.6),sharex=True);src=[]
@@ -176,43 +185,43 @@ def make_figures(s,f):
         ax.xaxis.set_major_locator(mdates.YearLocator());ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y'))
         ax.legend(fontsize=7,loc='best',framealpha=.92)
     for ax in axes[1]:ax.set_xlabel('Target month')
-    save(fig,'09_cumulative_loss','Any advantage arrives in a few months, not steadily','Cumulative paired squared-error difference for the four prespecified contrasts \u2022 January 2023\u2013August 2026',
+    save(fig,'cumulative_loss','Any advantage arrives in a few months, not steadily','Cumulative paired squared-error difference for the four prespecified contrasts \u2022 January 2023\u2013August 2026',
         'Each line accumulates the reduced model\u2019s squared error minus the expanded model\u2019s, so a rising line favours the expanded model. A step change identifies a single influential month rather than a persistent edge; a flat line means the two models effectively agreed. Panels use issuer-specific vertical scales because the magnitudes differ by an order of magnitude, so heights must not be compared across panels \u2014 only shapes. Lines stop where matched forecasts are unavailable and are not connected across gaps.',pd.DataFrame(src))
     p=read('permutation_importance');groups=['financial','valuation','market','momentum','risk','industry','business','transform'];fig,axes=plt.subplots(2,2,figsize=(12,7),sharex=True,sharey=True)
     for ax,tk in zip(axes.ravel(),CORE):
         a=p[p.ticker==tk].set_index('group').reindex(groups);ax.errorbar(a.mean_mse_increase*1e4,range(8),xerr=a.permutation_sd*1e4,fmt='o',capsize=3,color=COLORS['forest'],zorder=3);reference(ax,0,'x');ax.set_yticks(range(8),[x.title() for x in groups]);ax.invert_yaxis();ax.set_title(tk);ax.set_xlabel('MSE increase after shuffle (pp²)');ax.set_ylabel('Random Forest factor group')
-    save(fig,'08_importance','Random Forest importance does not identify causal drivers','Return forecasts • 20 group permutations in three-month blocks across 44 target origins','Positive values indicate worse error when the group is disturbed. Bars are one permutation standard deviation, not confidence intervals. Saved origin-specific models stay fixed; shuffling can break cross-group dependence, so this retrospective diagnostic is interpreted alongside controlled ablations.',p)
-    vmodels=['historical_variance63','historical_variance252','ewma94','arch1','garch11','garchx_market','garchx_industry','garchx_business','variance_ridge','variance_forest','variance_boost','pooled_ridge','business_pair_ridge'];z=s[(s.task=='variance')&s.model.isin(vmodels)]
+    save(fig,'importance','Random Forest importance does not identify causal drivers','Return forecasts • 20 group permutations in three-month blocks across 44 target origins','Positive values indicate worse error when the group is disturbed. Bars are one permutation standard deviation, not confidence intervals. Saved origin-specific models stay fixed; shuffling can break cross-group dependence, so this retrospective diagnostic is interpreted alongside controlled ablations.',p)
+    vmodels=['historical_variance63','historical_variance252','ewma94','arch1','garch11','garchx_market','garchx_industry','garchx_business','variance_ridge_persistence','variance_ridge_external','pooled_variance_persistence','pooled_variance_external','variance_ridge','variance_forest','variance_boost','pooled_ridge','business_pair_ridge'];z=s[(s.task=='variance')&s.model.isin(vmodels)]
     fig,axes=plt.subplots(2,2,figsize=(12,9.8),sharex=True,sharey=True)
     for ax,tk in zip(axes.ravel(),CORE):
         a=z[z.ticker==tk].set_index('model').reindex(vmodels);ax.barh(range(len(vmodels)),a.qlike,color=[STYLE[m]['color'] for m in vmodels],height=.65,zorder=3);ax.set_yticks(range(len(vmodels)),[model(m) for m in vmodels]);ax.invert_yaxis();ax.set_title(tk);ax.set_xlabel('QLIKE loss (lower is better)');ax.set_ylabel('Variance model');ax.set_xlim(left=0)
         ax.axvline(a.loc['historical_variance63','qlike'],color='#334155',lw=1.1,ls='--',zorder=0,label='63-session persistence benchmark')
         ax.legend(fontsize=7,loc='lower right')
-    save(fig,'14_variance_models','Variance forecasts benefit more from pooling than complexity','44 next-month realized daily-variance targets • January 2023–August 2026','QLIKE evaluates positive variance forecasts relative to realized central daily variance. The dashed line marks the 63-session persistence benchmark each model must beat. All panels share a scale. MTRN differs from the other issuers: its historical 63-session estimate remains competitive. A lower QLIKE need not also mean lower variance RMSE.',z)
-    z=f[(f.task=='variance')&(f.ticker=='MTRN')&f.model.isin(['historical_variance63','garchx_industry','pooled_ridge'])];fig,ax=plt.subplots(figsize=(11,4.8));actual=z[z.model=='historical_variance63'].sort_values('target_end');ax.plot(pd.to_datetime(actual.target_end),np.sqrt(actual.actual)*100,color='#111827',label='Observed daily volatility',lw=1.6)
+    save(fig,'variance_models','Whether a model beats 63-session persistence depends on the issuer','44 next-month realized daily-variance targets • January 2023–August 2026','QLIKE evaluates positive variance forecasts against the within-month sample variance of daily returns; lower is better. The dashed line marks the 63-session persistence benchmark. All panels share a scale. For MTRN the persistence estimate is hard to beat; for ENTG the apparent gains rest largely on April 2025 (see the influence figure); for CRS and ATI most models score below the benchmark. Point estimates only: the paired tests and their calibration are reported separately, and a lower QLIKE need not also mean lower variance RMSE.',z)
+    z=f[(f.task=='variance')&(f.ticker=='MTRN')&f.model.isin(['historical_variance63','garchx_industry','pooled_ridge'])];fig,ax=plt.subplots(figsize=(11,4.8));actual=z[z.model=='historical_variance63'].sort_values('target_end');ax.plot(pd.to_datetime(actual.target_end),np.sqrt(actual.actual)*100,color='#111827',label='Observed root variance',lw=1.6)
     for m in ['historical_variance63','garchx_industry','pooled_ridge']:
         a=z[z.model==m].sort_values('target_end');ax.plot(pd.to_datetime(a.target_end),np.sqrt(a.prediction)*100,label=model(m),lw=1.5,**STYLE[m])
-    ax.set_ylim(bottom=0);ax.set_ylabel('Daily volatility within target month (%)');ax.set_xlabel('Target month');ax.legend(loc='upper left',ncol=2);ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
-    save(fig,'15_volatility_paths','MTRN volatility shocks remain difficult to anticipate','Square roots of next-month variance targets and variance forecasts • 2023–August 2026','The plotted forecast is sqrt(expected variance), which is not generally expected volatility. No annualization or prediction intervals are applied. Common full-scale axes retain the visible size of missed volatility spikes.',z)
+    ax.set_ylim(bottom=0);ax.set_ylabel('Square root of within-month daily variance (%)');ax.set_xlabel('Target month');ax.legend(loc='upper left',ncol=2);ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
+    save(fig,'volatility_paths','MTRN volatility shocks remain difficult to anticipate','Square roots of next-month variance targets and variance forecasts • 2023–August 2026','The plotted forecast is sqrt(expected variance), which is not generally expected volatility. No annualization or prediction intervals are applied. Common full-scale axes retain the visible size of missed volatility spikes.',z)
     z=s[(s.horizon==1)&s.model.isin(['ridge_full','variance_ridge','pooled_ridge','business_pair_ridge'])];fig,axes=plt.subplots(1,2,figsize=(12,5.2));xs=np.arange(4)
     for ax,task,metric in zip(axes,['return','variance'],['r2_oos','qlike']):
         individual='ridge_full' if task=='return' else 'variance_ridge'
         for j,m in enumerate([individual,'pooled_ridge','business_pair_ridge']):
             a=z[(z.task==task)&(z.model==m)].set_index('ticker').reindex(CORE);ax.bar(xs+(j-1)*.23,a[metric],width=.22,label=model(m),color=STYLE[m]['color'],hatch=['','//','..'][j],zorder=3)
         reference(ax);ax.set_xticks(xs,CORE);ax.set_xlabel('Company');ax.set_ylabel('OOS R² (higher is better)' if task=='return' else 'QLIKE (lower is better)');ax.set_title('Return' if task=='return' else 'Variance');ax.legend(loc='lower left' if task=='return' else 'upper right',fontsize=8)
-    save(fig,'16_pooling','Pooling helps risk forecasts more consistently than return forecasts','Same 44 targets; individual, all-four and two-company Ridge fits','Return scores use company-specific historical means; variance QLIKE uses the same realized risk target. Pooling uses company indicators and synchronous calendar folds. Business pairs are MTRN/ENTG and CRS/ATI, not asserted homogeneous industries.',z)
+    save(fig,'pooling','Pooled variance fits score lower QLIKE for every issuer; pooled return fits do not help','Same 44 targets; individual, all-four and two-company Ridge fits on the broad catalogue','Point estimates for complete procedures that use different training histories. Return scores use company-specific historical means; variance QLIKE uses the same realized risk target. Pooling uses company indicators and date-synchronised folds. The controlled 2x2 comparison with identical inputs is tested separately, and a performance difference does not identify why pooling helps. Business pairs are MTRN/ENTG and CRS/ATI, not asserted homogeneous industries.',z)
     roll=read('rolling_scores');z=roll[(roll.ticker=='MTRN')&(roll.horizon==1)&(((roll.task=='return')&roll.model.isin(['historical_mean','ridge_full','pooled_boost']))|((roll.task=='variance')&roll.model.isin(['historical_variance63','garchx_industry','pooled_ridge'])))];fig,axes=plt.subplots(2,1,figsize=(11,7),sharex=True)
     for ax,task,metric,scale in zip(axes,['return','variance'],['rmse','qlike'],[100,1]):
         for m in z[z.task==task].model.unique():
             a=z[(z.task==task)&(z.model==m)].sort_values('date');ax.plot(pd.to_datetime(a.date),a[metric]*scale,label=model(m),lw=1.7,**STYLE[m])
         ax.set_ylabel('12-month return RMSE (pp)' if task=='return' else '12-month mean QLIKE');ax.set_xlabel('Last target month in rolling window');ax.legend(ncol=3,fontsize=8);ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
-    save(fig,'11_rolling','Model rankings can change as the evaluation window moves','MTRN • 12-target-month rolling errors • December 2023–August 2026','Every point uses the latest 12 already realized out-of-sample targets; lower values are better. Windows overlap and must not be counted as independent evidence. Return and variance panels use different loss functions with explicit units.',z)
-    models=['historical_mean','core_ols','ridge_full','forest_full','boost_full'];z=s[(s.task=='return')&s.model.isin(models)];fig,axes=plt.subplots(2,2,figsize=(12,7),sharey=True)
+    save(fig,'rolling','Model rankings can change as the evaluation window moves','MTRN • 12-target-month rolling errors • December 2023–August 2026','Every point uses the latest 12 already realized out-of-sample targets; lower values are better. Windows overlap and must not be counted as independent evidence. Return and variance panels use different loss functions with explicit units.',z)
+    models=['historical_mean','core_ols','ridge_full','forest_full','boost_full'];z=read('horizon_common_origin_scores');z=z[z.model.isin(models)];fig,axes=plt.subplots(2,2,figsize=(12,7),sharey=True)
     for ax,tk in zip(axes.ravel(),CORE):
         for j,h in enumerate([1,3]):
             a=z[(z.ticker==tk)&(z.horizon==h)].set_index('model').reindex(models);ax.bar(np.arange(5)+(j-.5)*.36,a.r2_oos,width=.34,label=f'{h}-month horizon',color=['#235b91','#b7772b'][j],hatch=['','//'][j],zorder=3)
         reference(ax);ax.set_xticks(range(5),[model(m).replace(' ','\n',1) for m in models],fontsize=8);ax.set_ylabel('Horizon-specific OOS R²');ax.set_xlabel('Model');ax.set_title(tk);ax.legend(fontsize=8)
-    save(fig,'12_horizons','Longer-horizon results are a sensitivity, not independent confirmation','One month: 44 targets, Jan 2023–Aug 2026 • three months: 38 overlapping targets ending Jul 2023–Aug 2026','Each horizon uses its own matured historical-mean benchmark. The three-month fits purge unmatured labels and use a later start; R² changes therefore mix horizon and period effects. All three nonoverlapping offsets, only 12–13 outcomes each, are archived.',z)
+    save(fig,'horizons','Longer-horizon results are a sensitivity, not independent confirmation','Both horizons on the same 38 forecast origins (April 2023 - May 2026 month-end labels) • targets: the next month vs the next three months','Both horizons use the same origins, so the comparison is not confounded by different sample periods; the targets still differ (one month vs three overlapping months). Each horizon uses its own matured historical-mean benchmark. Overlapping three-month outcomes are strongly dependent: 38 of them carry far less information than 38 independent months. All three nonoverlapping offsets, 12-13 outcomes each, are reported separately.',z)
     mats=[read('correlation_long').set_index('Unnamed: 0'),read('correlation_matched').set_index('Unnamed: 0')];fig,axes=plt.subplots(1,2,figsize=(12,5));src=[]
     for ax,a,title in zip(axes,mats,['Four established issuers, 2016–Sep 2026','Five public equities, Apr–Sep 2026']):
         im=ax.imshow(a,vmin=-1,vmax=1,cmap='RdBu');ax.set_xticks(range(len(a)),a.columns);ax.set_yticks(range(len(a)),a.index);ax.set_title(title);ax.set_xlabel('Company');ax.set_ylabel('Company');ax.grid(False)
@@ -220,18 +229,74 @@ def make_figures(s,f):
             for j in range(len(a)):ax.text(j,i,f'{a.iloc[i,j]:.2f}',ha='center',va='center',color='white' if abs(a.iloc[i,j])>.6 else '#172554')
         src.extend(dict(panel=title,first=i,second=j,correlation=a.loc[i,j]) for i in a.index for j in a.columns)
     for ax in axes:fig.colorbar(ax.images[0],ax=ax,label='Daily-return correlation',fraction=.046,pad=.04)
-    save(fig,'17_correlations','Correlation is sample-dependent, especially for the recent IPO','Daily adjusted-close returns through September 18, 2026 • identical correlation color scale','The long panel has 2,693 shared daily returns; the matched five-equity panel has 102. The right-hand matrix describes only ELMT’s short public sample and is not comparable evidence of long-run diversification. Covariance tables preserve squared-return units separately.',pd.DataFrame(src))
+    save(fig,'correlations','Correlation is sample-dependent, especially for the recent IPO','Daily adjusted-close returns through September 18, 2026 • identical correlation color scale','The long panel has 2,693 shared daily returns; the matched five-equity panel has 102. The right-hand matrix describes only ELMT’s short public sample and is not comparable evidence of long-run diversification. Covariance tables preserve squared-return units separately.',pd.DataFrame(src))
     z=read('rolling_dependence');z=z[(z.panel=='long')&(z['window']==63)&(z['first']=='MTRN')];fig,ax=plt.subplots(figsize=(11,4.5))
     for i,tk in enumerate(['ENTG','CRS','ATI']):
         a=z[z['second']==tk];ax.plot(pd.to_datetime(a.date),a.correlation,label='MTRN / '+tk,color=['#235b91','#b7772b','#087f83'][i],linestyle=['-','--','-.'][i],lw=1.2)
     ax.set_ylim(-1,1);ax.set_ylabel('63-session daily-return correlation');ax.set_xlabel('Window end date');ax.legend(ncol=3);reference(ax)
-    save(fig,'18_rolling_correlation','Competitor co-movement is not constant','MTRN versus ENTG, CRS and ATI • 63-session windows • 2016–September 18, 2026','All pairs use the same daily calendar and correlation scale. Shared changes can weaken diversification when risks rise; the prespecified origin-known volatility-regime comparison is quantified in the accompanying table.',z)
+    save(fig,'rolling_correlation','Competitor co-movement is not constant','MTRN versus ENTG, CRS and ATI • 63-session windows • 2016–September 18, 2026','All pairs use the same daily calendar and correlation scale. Shared changes can weaken diversification when risks rise; the prespecified origin-known volatility-regime comparison is quantified in the accompanying table.',z)
     z=f[(f.task=='return')&(f.horizon==1)&(f.ticker=='MTRN')&f.model.isin(['historical_mean','ridge_full','arimax'])].copy();z['error']=z.actual-z.prediction;fig,axes=plt.subplots(1,2,figsize=(12,4.5));ac=[]
     for j,m in enumerate(['historical_mean','ridge_full','arimax']):
         a=z[z.model==m].sort_values('target_end');axes[0].plot(pd.to_datetime(a.target_end),a.error*100,label=model(m),lw=1.2,**STYLE[m]);v=acf(a.error,nlags=6,fft=False)[1:];axes[1].plot(range(1,7),v,label=model(m),marker=['o','s','^'][j],**{k:v for k,v in STYLE[m].items() if k!='marker'});ac.extend(dict(model=m,lag=i+1,acf=x) for i,x in enumerate(v))
     axes[0].set_xlabel('Target month');axes[0].set_ylabel('Observed minus forecast return (pp)');axes[0].xaxis.set_major_formatter(mdates.DateFormatter('%Y'));axes[1].set_xlabel('Error lag (months)');axes[1].set_ylabel('Sample error autocorrelation');axes[1].set_ylim(-1,1)
     for ax in axes:reference(ax);ax.legend(fontsize=8)
-    save(fig,'10_errors','Residual dependence alone does not establish a forecast advantage','MTRN • 44 saved one-month forecast errors, January 2023–August 2026','The left panel shows forecast misses; the right shows lag-1 through lag-6 error autocorrelation. This is a post-evaluation diagnostic, not another tuning opportunity. No IID confidence bands are imposed on the short, adaptively fitted error sequence.',pd.DataFrame(ac))
+    save(fig,'errors','Residual dependence alone does not establish a forecast advantage','MTRN • 44 saved one-month forecast errors, January 2023–August 2026','The left panel shows forecast misses; the right shows lag-1 through lag-6 error autocorrelation. This is a post-evaluation diagnostic, not another tuning opportunity. No IID confidence bands are imposed on the short, adaptively fitted error sequence.',pd.DataFrame(ac))
+
+    # Calibration of the paired test under a null that mimics each series.
+    cal=read('inference_calibration');blocks=sorted(cal.block.unique());fig,axes=plt.subplots(1,2,figsize=(12,4.6),sharey=True)
+    palette=['#235b91','#b7772b','#087f83','#bc4c47']
+    for ax,(task,role,title) in zip(axes,[('return','supplementary','Returns: compact OLS vs historical mean'),('variance','declared','Variance: GARCH(1,1) vs 63-session persistence')]):
+        z=cal[(cal.task==task)&(cal.series_role==role)]
+        for j,tk in enumerate(CORE):
+            a=z[z.ticker==tk].set_index('block').reindex(blocks)
+            ax.errorbar(np.arange(len(blocks))+(j-1.5)*.1,a.empirical_size*100,yerr=1.96*a.monte_carlo_se*100,fmt='o',ms=5,capsize=2,color=palette[j],label=tk,zorder=3)
+        ax.axhline(5,color='#334155',lw=1,ls='--',zorder=0,label='Nominal 5%');ax.axhline(10,color='#bc4c47',lw=1,ls=':',zorder=0,label='Declared limit 10%')
+        ax.set_xticks(range(len(blocks)),[f'{b}-month' for b in blocks]);ax.set_xlabel('Bootstrap block length');ax.set_title(title);ax.set_ylim(bottom=0)
+    top=float(((cal.empirical_size+1.96*cal.monte_carlo_se)*100).max())*1.08
+    for ax in axes:ax.set_ylim(0,top)
+    axes[0].set_ylabel('Rejection rate of a true null (%)');axes[1].legend(fontsize=8,loc='upper left',bbox_to_anchor=(1.02,1),frameon=False)
+    save(fig,'calibration','The paired test over-rejects on heavy-tailed variance losses','Empirical size at nominal 5% from 500 synthetic null samples per series and block length (95% Monte Carlo bars)',
+        'Each synthetic sample resamples the demeaned observed loss differential with random-length blocks, preserving its tails and serial dependence while making the true mean zero. A calibrated test rejects about 5% of the time. The variance series, whose QLIKE differentials are dominated by a few months, reject far more often, so their p-values are reported as descriptive. The return panel shows the supplementary dense series (compact OLS); the declared return series (gradient boosting) is identically zero for MTRN and ENTG because validation chose the intercept-only benchmark, and is reported in the calibration table.',cal)
+    # Controlled 2x2 variance matrix, declared family V20 plus the joint VJ5 row.
+    fam=read('inference_families');v=fam[fam.family.isin(['V20','VJ5'])].copy();labels=[c[0] for c in CONFIG['families']['V20']]
+    names={'persistence_vs_naive':'Fitted persistence vs 63-session','pooling_persistence':'Pooling, persistence only','pooling_external':'Pooling, with external inputs',
+           'external_individual':'External inputs, individual','external_pooled':'External inputs, pooled'}
+    fig,axes=plt.subplots(1,5,figsize=(15,4.8),sharey=True)
+    for ax,tk in zip(axes,CORE+['joint']):
+        a=v[v.ticker==tk].set_index('contrast').reindex(labels)
+        ax.errorbar(a.mean_loss_reduction,range(len(labels)),xerr=np.vstack([a.mean_loss_reduction-a.lo,a.hi-a.mean_loss_reduction]),fmt='o',ms=5,capsize=3,color=COLORS['pool'],zorder=3)
+        reference(ax,0,'x');ax.set_title('Equal-weight four issuers' if tk=='joint' else tk);ax.set_xlabel('QLIKE reduction');ax.xaxis.set_major_locator(MaxNLocator(4))
+    axes[0].set_yticks(range(len(labels)),[names[x] for x in labels]);axes[0].invert_yaxis();axes[0].set_ylabel('Controlled contrast')
+    save(fig,'variance_matrix','With identical inputs, neither pooling nor external inputs reliably lowers variance loss','Declared family V20 (per issuer) and VJ5 (joint) • 95% pointwise circular-block intervals • positive favours pooling or the external inputs',
+        'Each pooled model reuses exactly the column list of its individual counterpart and adds only company indicators, so a contrast isolates one change. The first row asks whether a fitted persistence model beats the naive 63-session estimate. No contrast survives Holm adjustment within its family, and the calibration results mean these intervals are descriptive for the variance task.',v)
+    # Loss-only influence: the evaluation month removed, forecasts held fixed.
+    inf=read('influence_diagnostics');inf=inf[inf.level=='target_month']
+    rows=[('variance','pooled_ridge','historical_variance63','Variance: pooled Ridge vs 63-session persistence (QLIKE)',1),('return','core_ols','historical_mean','Return: compact OLS vs historical mean (MSE, pp²)',1e4)]
+    fig,axes=plt.subplots(2,4,figsize=(14,7.2),sharex=True);src=[]
+    for r,(task,e,red,label,scale) in enumerate(rows):
+        for c,tk in enumerate(CORE):
+            ax=axes[r,c];a=inf[(inf.task==task)&(inf.ticker==tk)&(inf.expanded==e)&(inf.reduced==red)].sort_values('excluded')
+            x=pd.to_datetime(a.excluded+'-01');ax.plot(x,a.mean_loss_reduction*scale,'o',ms=3,color=COLORS['pool' if task=='variance' else 'linear'],zorder=3)
+            ax.axhline(a.full_mean.iloc[0]*scale,color='#334155',ls='--',lw=1,zorder=0);reference(ax)
+            for month in ['2024-08','2025-04']:
+                hit=a[a.excluded==month]
+                if len(hit) and ((tk=='MTRN' and month=='2024-08') or (tk=='ENTG' and month=='2025-04')):
+                    ax.annotate(month,(pd.Timestamp(month+'-01'),hit.mean_loss_reduction.iloc[0]*scale),xytext=(6,6),textcoords='offset points',fontsize=8,color='#bc4c47')
+            ax.set_title(tk if r==0 else '');ax.xaxis.set_major_locator(mdates.YearLocator());ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y'))
+            src.extend(a[['task','ticker','expanded','reduced','excluded','full_mean','mean_loss_reduction','pvalue','sign_flip']].to_dict('records'))
+        axes[r,0].set_ylabel(label.split(': ')[0]+': mean loss reduction\nwithout that month')
+    for ax in axes[1]:ax.set_xlabel('Target month removed')
+    def flips(task,e,red):
+        z=inf[(inf.task==task)&(inf.expanded==e)&(inf.reduced==red)].groupby('ticker')
+        return {tk:(int(g.sign_flip.astype(bool).sum()),int(g.decision_flip.astype(bool).sum())) for tk,g in z}
+    fv=flips('variance','pooled_ridge','historical_variance63');fr=flips('return','core_ols','historical_mean')
+    vtext='; '.join(f'{tk}: {s} sign reversal{"s" if s!=1 else ""}' for tk,(s,_) in fv.items())
+    rtext='; '.join(f'{tk}: {s}' for tk,(s,_) in fr.items())
+    save(fig,'influence','One month can carry an apparent gain','Mean paired loss reduction recomputed with each target month removed • dashed: all 44 months • forecasts and fitted models held fixed',
+        'Each dot is the full-sample comparison with one target month left out of the evaluation; a dot on the other side of zero from the dashed line marks a month whose removal reverses the sign. '
+        f'Variance, single-month exclusions reversing the sign - {vtext}. Return, single-month sign reversals - {rtext}; '
+        +(f'no single month changes an unadjusted return decision. ' if not sum(d for _,d in fr.values()) else f'{sum(d for _,d in fr.values())} single-month exclusions change an unadjusted return decision. ')+
+        'This is a loss-only diagnostic, not a refit robustness test.',pd.DataFrame(src))
 
 # ---------------------------------------------------------------------------
 # Research report. Every quoted number is read back from a saved result file.
@@ -255,25 +320,27 @@ def verdict(rows):
     if worse:parts.append(f'{worse} entirely below' if better else f'{worse} of {n} issuer intervals entirely below zero')
     return ' and '.join(parts)
 
-def holm_statement(family,contrast):
-    """How the frozen family reads after adjustment, stated without overclaiming."""
-    rows=family[(family.contrast==contrast)&family.eligible.astype(bool)]
-    if rows.empty:return 'this contrast was not eligible for any issuer'
-    survivors=int((rows.holm_adjusted_pvalue<.05).sum())
-    smallest=rows.holm_adjusted_pvalue.min()
+def holm_statement(family,contrast,name='R16'):
+    """How a declared family reads after adjustment, stated without overclaiming."""
+    rows=family[(family.family==name)&(family.contrast==contrast)]
+    tested=rows[rows.status=='tested'];untested=len(rows)-len(tested)
+    note=f'; {untested} of {len(rows)} issuer contrasts were untested because both sides produced identical forecasts' if untested else ''
+    if tested.empty:return f'no issuer contrast could be tested{note}'
+    survivors=int((tested.holm_adjusted_pvalue<=.05).sum());smallest=tested.holm_adjusted_pvalue.min()
+    size=int(tested.family_tested.iloc[0])
     if survivors==0:
-        return (f'no issuer survives Holm adjustment across the sixteen-contrast family '
-                f'(smallest adjusted p = {smallest:.2f})')
-    return (f'{survivors} of {len(rows)} issuers survive Holm adjustment across the sixteen-contrast family '
-            f'(smallest adjusted p = {smallest:.3f})')
+        return f'no tested issuer survives Holm adjustment across the {size} tested contrasts of family {name} (smallest adjusted p = {smallest:.2f}){note}'
+    return f'{survivors} of {len(tested)} tested issuers survive Holm adjustment across family {name} (smallest adjusted p = {smallest:.3f}){note}'
 
 def contrast_table(comparisons,rows,block=6):
     out=[]
     for label,expanded,reduced in rows:
-        z=comparisons[(comparisons.expanded==expanded)&(comparisons.reduced==reduced)&(comparisons.block==block)]
+        z=comparisons[(comparisons.expanded==expanded)&(comparisons.reduced==reduced)&(comparisons.block==block)&(comparisons['sample']=='operational')]
         for _,r in z.iterrows():
+            scale=1e4 if r.metric=='MSE' else 1
             out.append({'Comparison':label,'Company':r.ticker,'Months':int(r.n),'Loss metric':r.metric,
-                'Mean loss reduction (pp²)':1e4*r.mean_loss_reduction,'Lower 95%':1e4*r.lo,'Upper 95%':1e4*r.hi})
+                'Mean loss reduction'+(' (pp²)' if r.metric=='MSE' else ''):scale*r.mean_loss_reduction,'Lower 95%':scale*r.lo,'Upper 95%':scale*r.hi,
+                'Unadjusted p':r.pvalue,'Identical forecasts (share of months)':r.identical_share})
     return pd.DataFrame(out)
 
 def experiment(anchor,ident,question,body):
@@ -285,9 +352,20 @@ def spec_table(rows):
 def build():
     initialize()
     s=read('model_scores');f=read('forecasts');comparisons=read('paired_loss_comparisons')
-    ret=comparisons[(comparisons.task=='return')&(comparisons.horizon==1)]
-    var=comparisons[comparisons.task=='variance']
-    family=read('primary_comparison_family');ablation=read('ablation_scores')
+    ret=comparisons[(comparisons.task=='return')&(comparisons.horizon==1)&(comparisons['sample']=='operational')]
+    var=comparisons[(comparisons.task=='variance')&(comparisons['sample']=='operational')]
+    family=read('inference_families');ablation=read('ablation_scores')
+    calibration=read('inference_calibration');clark=read('clark_west');detect=read('detectable_effects')
+    influence=read('influence_diagnostics');regdef=read('regime_definitions');issues=read('issue_register')
+    changes=read('baseline_vs_revision');specsum=read('specification_summary');common=read('horizon_common_origin_scores')
+    freeze=json.loads((ROOT/'revision_freeze.json').read_text())
+    size=calibration[(calibration.series_role=='declared')&(calibration.block==6)].groupby('task').empirical_size.max()
+    size_supp=calibration[(calibration.series_role=='supplementary')&(calibration.block==6)].empirical_size
+    descriptive=calibration.inference_status.str.startswith('descriptive').groupby(calibration.task).any()
+    head=detect[(detect.task=='return')&(detect.expanded=='core_ols')&(detect.reduced=='historical_mean')]
+    io=specsum[(specsum.task=='return')&(specsum.horizon==1)&(specsum.window=='expanding')]
+    io_broad=io[io.model.isin(['ridge_full','lasso_full','elastic_full','forest_full','boost_full'])].intercept_only_share
+    origin0=f[(f.task=='return')&(f.horizon==1)].origin.min()[:10];origin1=f[(f.task=='return')&(f.horizon==1)].origin.max()[:10]
     coverage=read('coverage_and_deferrals');registry=read('feature_registry');metrics=read('metric_registry')
     questions=read('experiment_registry');splits=read('split_manifest')
     failures=read('model_failures');regimes=read('regime_scores');stability=read('coefficient_stability')
@@ -307,12 +385,12 @@ def build():
     p.append('<header><div class="eyebrow">MTRN · ENTG · CRS · ATI · ELMT</div>'
       '<h1>Do financial characteristics and starting valuation forecast returns?</h1>'
       '<p class="subtitle">A chronological out-of-sample comparison of static, distributed-lag, dynamic and machine-learning models, '
-      f'with a separate realized-variance task · information and price cutoff {CUTOFF}</p></header>')
+      f'with a separate realized-variance task · information and price cutoff {CUTOFF} · version 4, post-hoc methodological revision</p></header>')
     p.append('<nav>'+' '.join(f'<a href="#{a}">{t}</a>' for a,t in [
       ('purpose','Purpose'),('data','Data'),('variables','Variables'),('design','Design'),
       ('e1','E1 Financials'),('e2','E2 Valuation'),('e3','E3 Transformations'),('e4','E4 Drivers'),
       ('e5','E5 Lags'),('e6','E6 Dynamics'),('e7','E7 Stability'),('e8','E8 Variance'),
-      ('elmt','Elmet'),('synthesis','Synthesis'),('conclusion','Conclusion'),('limitations','Limitations'),('repro','Reproducibility')])+'</nav>')
+      ('elmt','Elmet'),('synthesis','Synthesis'),('conclusion','Conclusion'),('limitations','Limitations'),('revision','Revision record'),('repro','Reproducibility')])+'</nav>')
 
     # 1 -----------------------------------------------------------------
     p.append('<section id="purpose"><h2>Purpose, motivation and scope</h2>')
@@ -323,10 +401,17 @@ def build():
     p.append('<p>This experiment asks a different question. Standing at the final close of a month, using only information published by then, '
       'do a company’s disclosed financial characteristics and the valuation investors were paying carry information about <strong>next</strong> month’s return? '
       'And does adding time-series structure — older predictor values, or a forecastable error process — improve on a static regression using the same inputs?</p>')
-    p.append(f'<p>The test is a chronological replay. At each of {months} monthly origins from {start} to {stop} the models are refitted on history only, '
-      'issue one forecast, and are scored against the outcome that history already recorded. Nothing after the information cutoff enters any fit. '
+    p.append(f'<p>The test is a chronological replay. At each of {months} monthly forecast origins — the last exchange closes from {origin0} to {origin1} — '
+      f'the models are refitted on history only, issue one forecast for the following month, and are scored against the outcome that history already recorded. '
+      f'The {months} target months therefore run from {start[:7]} to {stop[:7]}. Nothing after the information cutoff enters any fit. '
       'This is a historical evaluation of an already observed sample, not a live signal and not a formally preregistered holdout: '
       'these companies and much of their history were reviewed before the protocol was frozen.</p>')
+    p.append('<div class="note"><p><strong>Version 4 is a post-hoc revision.</strong> A methodological review of version 3 found incompatible interval and p-value '
+      'procedures, a shrinkage grid whose upper bound was selected in most fits, inner validation that did not mirror the monthly refitting, a rolling sensitivity '
+      'that borrowed the expanding model\u2019s penalty, an uncontrolled pooling claim for variance, and several reporting defects. The repairs were written down and '
+      f'frozen in <a href="../REVISION_SPEC.md">REVISION_SPEC.md</a> on {freeze["frozen_at"][:10]} before any revised forecast was scored; {len(freeze["amendments"])} later '
+      'amendments are logged with their reasons in <a href="../revision_freeze.json">revision_freeze.json</a>. The evaluation sample had already been seen, so this is '
+      'a repair of an exploratory study, not an independent replication. The <a href="#revision">revision record</a> lists every issue, its resolution, and what changed from version 3.</p></div>')
     p.append('<div class="note"><p><strong>What this study cannot do.</strong> Four companies are not a cross-section of the market. '
       'Predictability is not intrinsic value, and a fitted coefficient is not a cause. Statistical significance was never a completion requirement, '
       'and a null result is reported with the same prominence as an improvement.</p></div>')
@@ -340,26 +425,30 @@ def build():
       'A figure is usable only from the first exchange session after the filing that first contained it; a later restatement '
       'cannot revise an earlier snapshot. Commodity, currency, volatility and macro series are delayed a further US session, '
       'because their closing timestamps are not reliably comparable with the US equity close.</p>')
-    p.append(figure('01_timeline'))
-    p.append(f'<p>Figure {num("01_timeline")} shows the chronology. The first 84 completed monthly outcomes train the January 2023 forecast. '
-      'Hyperparameters are chosen inside that training history on two consecutive twelve-month validation blocks, never on the month being forecast. '
-      'Each later origin adds the newly matured outcome and refits. Because the procedure refits every month, no single train/test split exists.</p>')
-    p.append(figure('02_coverage'))
-    p.append(f'<p>Figure {num("02_coverage")} shows what is actually usable after repair. '
+    p.append(figure('timeline'))
+    p.append(f'<p>Figure {num("timeline")} shows the chronology. The first 84 completed monthly outcomes train the January 2023 forecast. '
+      'Hyperparameters are chosen inside that training history on its last 24 months: at each of those inner origins the candidate is refitted on outcomes '
+      'that had matured by then and forecasts that month, mirroring the outer procedure. They are retuned at the first origin and at every December origin, '
+      'which forecasts the following January. Each later origin adds the newly matured outcome and refits. Because the procedure refits every month, no single train/test split exists.</p>')
+    p.append(figure('coverage'))
+    p.append(f'<p>Figure {num("coverage")} shows what is actually usable after repair. '
       'Coverage reflects which XBRL concepts each issuer reported in each era, and it was not uniform. '
       'Three extraction defects found during this continuation were repaired. Entegris stopped tagging parent-only equity in 2019 and reports '
       'a consolidated equity line instead; that line is now used where the issuer’s own earlier filings show an immaterial noncontrolling interest, '
-      'and the substitution is recorded per observation. ATI, whose noncontrolling interest is material, never uses that fallback. '
+      'and the substitution is recorded per observation. That materiality evidence comes from the years in which both tags were reported, through 2019; nothing '
+      'proves the assessment still holds later, so E2 reports a matched exclusion of every equity-derived input for Entegris. ATI, whose noncontrolling interest is material, never uses that fallback. '
       'Carpenter’s trailing earnings were previously voided whenever its revenue tag reported a different period end; each disclosed flow now keeps '
       'its own reporting clock, and the shared-period requirement applies only where a ratio genuinely combines two flows. '
       'Materion discloses mine development annually, so free cash flow is modelled on equipment capital expenditure and the mine-inclusive measure is retained as a separate sensitivity.</p>')
-    avail=coverage[coverage.group.isin(['financial','valuation'])].copy();avail['share']=avail.available/avail.observations
+    avail=coverage[coverage.group.isin(['financial','valuation'])&coverage.ticker.isin(CORE)].copy()
     summary=avail.groupby('ticker').agg(**{'Candidate financial/valuation variables':('variable','nunique'),
-      'Mean nonmissing share':('share','mean'),'Variables above the 70% training gate':('share',lambda x:int((x>=.7).sum()))}).reset_index().rename(columns={'ticker':'Company'})
+      'Mean descriptive nonmissing share':('descriptive_nonmissing_share','mean'),
+      'Eligible in every one of the 44 training windows':('training_eligible_share',lambda x:int((x>=1).sum())),
+      'Eligible in no training window':('training_eligible_share',lambda x:int((x<=0).sum()))}).reset_index().rename(columns={'ticker':'Company'})
     p.append(T('Financial and valuation availability by issuer',summary,
-      'Descriptive coverage over origin months from December 2015. Each fitted model applies its own training-only 70% gate, so a variable can be eligible in later windows and not earlier ones.'))
-    p.append(T('Economic exposure map',exposure[['issuer','business_segment','candidate_driver','exact_series','transmission_channel','revenue_or_cost_exposure','possible_sign','feature_block','inclusion_status','omission_reason']],
-      'Economic relevance is recorded before any statistical selection. A driver marked unavailable stays unavailable: no commodity index is substituted for a price history that does not exist.'))
+      'The first share is descriptive, over origin rows from December 2015. The two counts are training eligibility: in how many of the 44 expanding training windows each variable cleared the training-only 70% gate. ELMT is excluded from every fitted model.'))
+    p.append(T('Economic exposure map',exposure[['issuer','business_segment','candidate_driver','exact_series','transmission_channel','revenue_or_cost_exposure','possible_sign','evidence_strength','proxy_type','mapping_basis','inclusion_status','omission_reason']],
+      'Economic relevance is recorded before any statistical selection. SOXX and ITA are traded equity proxies, not physical demand indicators, so their failure to forecast does not disprove the operating mechanism. Natural gas is a weak, exploratory cost hypothesis for ENTG, CRS and ATI. The mapping describes present-day segments and is not a point-in-time historical mapping. A driver marked unavailable stays unavailable: no commodity index is substituted for a price history that does not exist.'))
     p.append('<p>Elmet listed on 23 April 2026. It contributes five monthly observations, far below the 84-month training gate, so it is excluded from every fitted model '
       'and appears only in the descriptive case study below. Its private operating history cannot create public-market returns.</p>')
     p.append('</section>')
@@ -385,29 +474,56 @@ def build():
       'and with the same-date median of the other established issuers where at least three are valid.</p>')
     core=registry[registry.variable.isin(CONFIG['dynamic_core'])][['name','group','formula','units','rationale']]
     p.append(T('The six compact predictors used in every common-input comparison',core.rename(columns={'name':'Reader-facing name','group':'Block','formula':'Exact formula','units':'Units','rationale':'Why it is included'}),
-      'These six are fixed in configuration by economic priority, not chosen by fit, and are shared by the static, distributed-lag and dynamic families so that only model structure differs between them. The full dictionary of every implemented variable is in the appendix.'))
+      'These six are fixed in configuration by economic priority, not chosen by fit, and are shared by the static, distributed-lag and dynamic families so that only model structure differs between them. The compact model is the main interpretable reference; the broad catalogue is a sensitivity. industry_relative and driver_return are issuer-specific: SOXX for MTRN and ENTG, ITA for CRS and ATI; copper for MTRN, natural gas (exploratory) for the others. The full dictionary of every implemented variable is in the appendix.'))
+    p.append('<p>One predefined group was added in this revision, after the version-3 results were seen, and is labelled exploratory: the compact model plus '
+      'equipment-capex cash generation relative to assets (<code>fcf_equipment_assets</code>) and debt relative to assets (<code>debt_assets</code>), evaluated together. '
+      'It is operating cash flow less equipment capital expenditure, not a reconciled free cash flow. Removing exactly duplicated columns does not guarantee a '
+      'full-rank design or remove economic overlap, so each fit also records its rank, condition number and effective degrees of freedom.</p>')
     p.append('</section>')
 
     # 4 -----------------------------------------------------------------
     p.append('<section id="design"><h2>Common evaluation design</h2>')
     p.append(f'<p><strong>Primary target.</strong> Next month’s total return from adjusted closes, <code>close[t+1]/close[t] − 1</code>. '
-      f'<strong>Secondary targets.</strong> The same return minus the market’s realised return over the identical month; a three-month compounded return; '
-      'and, as a separate problem, next month’s realised variance of daily returns. The future market return is part of the excess-return outcome, never an input.</p>')
+      f'<strong>Secondary targets.</strong> The same return minus SPY\u2019s return over the identical month — a <em>market-relative</em> return, not alpha, not a risk-adjusted return '
+      'and not a return above the risk-free rate; a three-month compounded return; and, as a separate problem, next month\u2019s realised variance of daily returns. '
+      'The future market return is part of the market-relative outcome, never an input.</p>')
     p.append('<p><strong>Benchmarks.</strong> The headline denominator is the expanding historical mean available at each origin. A zero forecast and, '
       'for the risk task, trailing realised variance are also recorded. Out-of-sample R² is measured against that real-time benchmark, '
       'never against the test period’s own mean — which would not have been knowable.</p>')
     p.append('<p><strong>Leakage control.</strong> Imputation, clipping, scaling, the coverage gate, feature selection and every hyperparameter are fitted '
       'inside the training window only. Training labels must have fully matured by the fitting origin, which for the three-month target requires purging '
       'origins whose outcome extends past the boundary. A failed fit falls back to the origin’s historical mean and is recorded as a failure; '
-      f'the study logs {len(failures)} such events, and a separate matched table re-scores every model on origins where nothing fell back.</p>')
+      f'the study logs {len(failures)} such events. Paired comparisons are also computed on each pair\u2019s own intersection of successful fits whenever a fallback occurs, beside the operational score that includes it.</p>')
+    p.append('<p><strong>Tuning.</strong> Ridge minimises the mean squared error plus \u03bb times the squared coefficients, so one \u03bb means the same per-observation penalty '
+      'in a single-issuer fit and in a four-issuer pooled fit (in scikit-learn\u2019s summed-loss convention, \u03b1 = \u03bb\u00b7n); Lasso and Elastic Net already use a per-observation objective. '
+      'The grid spans \u03bb from 0.0001 to 100, and every tuned procedure may also choose an <strong>intercept-only</strong> candidate — the training mean, which is the '
+      'historical-mean benchmark itself. Version 3\u2019s grid stopped at a strength chosen in most fits, so validation could not express how little it trusted the predictors. '
+      f'In version 4 the broad return models (Ridge, Lasso, Elastic Net, random forest, gradient boosting) chose the intercept-only candidate in a median {io_broad.median():.0%} of refits across models and issuers. '
+      'The rolling 84-month sensitivity is tuned inside its own window.</p>')
     p.append(T('Scoring criteria and how to read them',metrics.rename(columns={'metric':'Criterion','formula':'Formula','preferred_direction':'Preferred direction','interpretation':'Interpretation and caution'}),
       'Return models are ranked primarily on RMSE and out-of-sample R²; variance models on QLIKE. Variance and volatility losses are never mixed, and directional accuracy is only applied to signed targets.'))
-    p.append('<p>Uncertainty uses 2,000 synchronised moving-block resamples of the saved forecast records, seed 20260918, with three-, six- and twelve-month blocks. '
-      'Resampling preserves the paired models and the common calendar, so a comparison is never credited to two models being scored on different months. '
-      'These intervals are conditional on the fitted procedure and the observed history; they do not price in the search that produced the protocol.</p>')
-    p.append('<p><strong>Multiplicity.</strong> Four contrasts per issuer were frozen before scoring — valuation added to otherwise identical controls, '
-      'changes versus levels, ARMA errors versus static, and added lags versus static. With four eligible issuers that is a sixteen-comparison family, '
-      'and Holm adjustment is applied within it. Every other comparison in this report is exploratory and labelled as such.</p>')
+    p.append('<p><strong>Inference.</strong> Every comparison estimates the mean over calendar months of d = loss(reduced model) \u2212 loss(expanded model); positive favours the expanded model, '
+      'and the null hypothesis is a zero mean. One procedure produces both the interval and the p-value: 1,999 circular block-bootstrap resamples of whole calendar months '
+      '(seed 20260918; three-, six- and twelve-month blocks, six primary), a 95% percentile interval, and the p-value that inverts that interval. An unadjusted p-value of '
+      '0.05 or less therefore occurs exactly when the interval excludes zero, which version 3\u2019s combination of a percentile interval and a recentred p-value did not guarantee. '
+      'The Monte Carlo resolution of a p-value is 0.001. Joint cross-issuer results average the four differentials within each month and resample whole months.</p>'
+      '<p>These intervals hold the saved forecasts fixed. They do not include the uncertainty from estimating and tuning the models, nor from the specification search that '
+      'preceded this protocol and this revision, so they understate the total uncertainty.</p>')
+    p.append(figure('calibration'))
+    p.append(f'<p><strong>Calibration.</strong> Figure {num("calibration")} asks whether the test keeps its nominal 5% error rate on series like these. It does not for variance: '
+      f'on the declared GARCH-versus-persistence series the largest issuer-level rejection rate at the six-month block is {size.get("variance",float("nan")):.0%}, because a few months dominate '
+      'the QLIKE differentials. By the rule declared before rescoring (empirical size above 10%), variance p-values are reported as descriptive only. The declared return series was '
+      f'nearly degenerate, because validation chose the intercept-only benchmark; its largest size, {size.get("return",float("nan")):.0%}, is inflated by near-constant synthetic samples, and '
+      f'on the supplementary dense compact-OLS series (logged amendment 1) sizes range from {size_supp.min():.0%} to {size_supp.max():.0%}. Return p-values are therefore also treated as descriptive, and no discovery claim is made anywhere in this report.</p>')
+    p.append(f'<p><strong>What the sample can detect.</strong> Under a normal approximation with the bootstrap standard error taken as known, a two-sided 5% test on these 44 months '
+      f'would detect, with 80% power, only a compact-OLS improvement over the historical mean of about {head.detectable_in_benchmark_units.min():.2f} to {head.detectable_in_benchmark_units.max():.2f} '
+      'out-of-sample R\u00b2 points, depending on the issuer. Plausible monthly return predictability is far smaller, so a failure to reject says little about whether a small effect exists. '
+      'Full figures by contrast are in <a href="../data/processed/detectable_effects.csv">detectable_effects.csv</a>.</p>')
+    p.append('<p><strong>Multiplicity.</strong> Four comparison families are declared, and Holm adjustment is applied within each one, over its tested rows only. '
+      'R16 keeps version 3\u2019s sixteen return contrasts — valuation added to otherwise identical controls, changes versus levels, ARMA errors versus static, and added lags '
+      'versus static, for each of four issuers — and RJ4 is the same four contrasts averaged across issuers. V20 is the controlled variance matrix, five contrasts for each issuer, and VJ5 its joint version. '
+      'A contrast whose two sides produced identical forecasts at every origin is untested, not evidence of no effect; the status column says why. '
+      'An adjusted decision need not agree with unadjusted interval exclusion. Every other comparison in this report is exploratory.</p>')
     p.append('</section>')
 
     # 5 --- E1 ----------------------------------------------------------
@@ -420,12 +536,13 @@ def build():
     fin=ablation[(ablation.ladder=='protocol_order')&(ablation.stage=='P1_financial')]
     body.append(spec_table([
       ('Target','Next-month adjusted-close total return, fraction'),
-      ('Origins',f'{months} monthly origins, targets {start} to {stop}'),
+      ('Forecast origins',f'{months} last closes, {origin0} to {origin1}'),
+      ('Target months',f'{start[:7]} to {stop[:7]}'),
       ('Issuers','MTRN, ENTG, CRS, ATI (ELMT excluded: 5 monthly observations against an 84-month gate)'),
-      ('Window','Expanding, refit each origin; rolling 84-month recorded as a separate sensitivity'),
-      ('Inner validation','Two consecutive 12-month blocks inside the training history; retuned at the first origin and each December'),
+      ('Window','Expanding, refit each origin; rolling 84-month, tuned in its own window, recorded as a separate sensitivity'),
+      ('Inner validation','Last 24 origins of the training history, refitted at each on matured labels; retuned at the first origin and each December origin'),
       ('Model','Ridge on the cumulative block set, predictors standardised inside the training fold, intercept unpenalised'),
-      ('Penalty grid','0.01, 0.1, 1, 10, 100; ties resolved toward the stronger penalty'),
+      ('Penalty grid','Per-observation \u03bb in {0.0001, 0.001, 0.01, 0.1, 1, 10, 100} plus intercept-only; ties resolved toward the simpler candidate'),
       ('Predictors',f'{int(fin.predictors.max()) if len(fin) else 0} financial columns eligible before the training coverage gate'),
       ('Baseline','Expanding historical mean; zero and market-mean forecasts also recorded'),
       ('Comparisons','P1 vs historical mean (added); full model vs full-minus-financial (removed)'),
@@ -448,31 +565,38 @@ def build():
       'All models share the same origins, outcomes and historical-mean denominator. Out-of-sample R² below zero means larger total squared error than the benchmark a forecaster could actually have used.'))
     rows=[('Financial block added to the mean','P1_financial','historical_mean'),('Financial block removed from the full model','ridge_full','without_financial')]
     body.append(T('E1 paired comparisons',contrast_table(ret,rows),'Positive means the expanded model reduced squared error. Intervals are 95% pointwise moving-block, six-month blocks, on matched dates.'))
-    body.append(figure('03_return_models'))
-    body.append(figure('04_protocol_ablation'))
-    body.append(figure('05_return_paths'))
+    cw=clark[['ticker','larger','smaller','n','adjusted_mean','t_stat','pvalue_one_sided','mspe_small','mspe_big']].copy()
+    for c in ['adjusted_mean','mspe_small','mspe_big']:cw[c]*=1e4
+    cw['larger']=cw.larger.map(model);cw['smaller']=cw.smaller.map(model)
+    body.append(T('Clark\u2013West sensitivity for fixed nested OLS forecasts',cw.rename(columns={'ticker':'Company','larger':'Larger model','smaller':'Nested model','n':'Months','adjusted_mean':'Adjusted MSPE difference (pp\u00b2)','t_stat':'Newey\u2013West t','pvalue_one_sided':'One-sided p','mspe_small':'MSPE nested (pp\u00b2)','mspe_big':'MSPE larger (pp\u00b2)'}),
+      'Clark\u2013West adds back the noise a larger model pays for estimating extra coefficients that are zero under the null, so it asks whether the extra predictors carry population predictive content. It is not a test that the larger model forecast more accurately in this sample, it is applied only to untuned nested OLS pairs, and it is outside every multiplicity family.'))
+    body.append(T('Exploratory: compact model plus cash generation and leverage',contrast_table(ret,[('Compact Ridge + cash/leverage vs Compact Ridge','core_ridge_financial_ext','core_ridge'),('Compact OLS + cash/leverage vs Compact OLS','core_ols_financial_ext','core_ols')]),
+      'fcf_equipment_assets and debt_assets are added together as one predefined group, declared before rescoring but after the version-3 results were seen. Equipment-capex cash flow is not reconciled free cash flow.'))
+    body.append(figure('return_models'))
+    body.append(figure('protocol_ablation'))
+    body.append(figure('return_paths'))
     added=ret[(ret.expanded=='P1_financial')&(ret.reduced=='historical_mean')&(ret.block==6)]
     removed=ret[(ret.expanded=='ridge_full')&(ret.reduced=='without_financial')&(ret.block==6)]
     body.append('<h3>F. Figures and diagnostics</h3>'
-      f'<p>Figure {num("03_return_models")} places every family on one axis so the comparison is visual rather than table-hopping; '
-      f'Figure {num("04_protocol_ablation")} isolates the financial step and shows its paired uncertainty beside its absolute score. '
+      f'<p>Figure {num("return_models")} places every family on one axis so the comparison is visual rather than table-hopping; '
+      f'Figure {num("protocol_ablation")} isolates the financial step and shows its paired uncertainty beside its absolute score. '
       'The uncertainty panel matters more than the level panel: a bar slightly above zero with an interval ten times its width is not evidence. '
-      f'Figure {num("05_return_paths")} shows what these scores look like as a time series: the forecasts are nearly flat lines against monthly '
+      f'Figure {num("return_paths")} shows what these scores look like as a time series: the forecasts are nearly flat lines against monthly '
       'swings of twenty percent or more, which is the plainest statement of the result in this report.</p>')
     body.append('<h3>G. Interpretation</h3>'
       f'<p>Adding the financial block to the historical mean gives {verdict(added)}. Removing it from the full model gives {verdict(removed)}. '
       'Several explanations are consistent with this and the design cannot separate them: quarterly fundamentals update only four times a year and are carried forward between releases, '
       'so a monthly model sees the same values repeatedly; the information is public by construction and may already be in the price; '
-      'and with 44 outcomes per issuer the sampling noise in a monthly return dwarfs any plausible effect. '
+      'and with 44 outcomes per issuer the sampling noise in monthly returns is large relative to the effects this sample can detect (see the detectable-effect statement above). '
       'These are hypotheses, not findings.</p>')
     body.append('<h3>H. Experiment conclusion</h3>'
       f'<p>On this evidence, disclosed financial characteristics did not reliably improve next-month return forecasts for these four issuers. '
       'The estimated effects are small relative to their intervals, so the data are equally consistent with a small effect and with none. '
       'This is a null result on a short sample, not a demonstration that fundamentals are irrelevant to shareholders.</p>')
     body.append('<h3>I. Limitations and next test</h3>'
-      '<p>Forty-four monthly outcomes per issuer cannot resolve effects of the size plausibly at stake. Quarterly disclosure means the effective number of '
-      'independent fundamental updates is closer to fifteen. A better-powered version needs a wider panel of comparable issuers at the same origins, '
-      'which lengthens the cross-section without fabricating history for these five.</p>')
+      f'<p>With 44 monthly outcomes the detectable compact-OLS improvement is about {head.detectable_in_benchmark_units.min():.2f} to {head.detectable_in_benchmark_units.max():.2f} R\u00b2 points (80% power, 5% two-sided, normal approximation), '
+      'far above any plausible monthly effect. Quarterly disclosure means the effective number of independent fundamental updates is closer to fifteen. '
+      'A wider panel of comparable issuers at the same origins would lengthen the cross-section without fabricating history for these five.</p>')
     p.append(experiment('e1','E1','Do company financial characteristics add predictive information beyond simple benchmarks?',''.join(body)))
 
     # --- E2 ------------------------------------------------------------
@@ -489,8 +613,8 @@ def build():
       ('Origins',f'{months} monthly origins, {start} to {stop}; identical dates on both sides of every contrast'),
       ('Valuation block','Earnings yield, book yield, sales yield, equipment free-cash-flow yield, dividend yield, own-history relative valuation and trailing percentile, peer earnings-yield gap'),
       ('Dependency rule','Removing the block also removes its differences, lags, z-score, percentile and the P/E percentage change; a no-valuation model contains no valuation-derived column'),
-      ('Model','Ridge, retuned annually on the inner blocks, refit every origin'),
-      ('Primary contrast','Broad Ridge vs Broad Ridge minus valuation — member of the frozen 16-comparison family'),
+      ('Model','Ridge, retuned annually on the 24 inner origins with the intercept-only option, refit every origin'),
+      ('Primary contrast','Broad Ridge vs Broad Ridge minus valuation — member of the declared family R16 (and RJ4 jointly)'),
       ('Secondary contrast','P2 vs P1 in the protocol-order ladder; financial+valuation vs financial only'),
       ('Multiplicity','Holm within the frozen family; the ladder step is exploratory')]))
     body.append('<h3>C. Variables and mechanism</h3>'
@@ -504,26 +628,29 @@ def build():
     body.append('<h3>E. Results</h3>')
     body.append(T('E2 paired comparisons',contrast_table(ret,[('Valuation added to financials','P2_valuation','P1_financial'),('Valuation removed from the full model','ridge_full','without_valuation'),('Financial + valuation vs financial only','financial_valuation','financial_only')]),
       'The middle row is the frozen primary contrast. All three use identical dates on both sides and retune both sides inside the same inner folds.'))
-    show=fam2[['ticker','n','mean_loss_reduction','lo','hi','pvalue','holm_adjusted_pvalue']].copy()
+    show=fam2[['ticker','status','identical_share','n','mean_loss_reduction','lo','hi','pvalue','holm_adjusted_pvalue']].copy()
     for c in ['mean_loss_reduction','lo','hi']:show[c]*=1e4
-    body.append(T('Frozen family: valuation added',show.rename(columns={'ticker':'Company','n':'Months','mean_loss_reduction':'Mean MSE reduction (pp²)','lo':'Lower 95%','hi':'Upper 95%','pvalue':'Block-resampling p','holm_adjusted_pvalue':'Holm-adjusted p'}),
-      'Holm adjustment is applied across all sixteen frozen contrasts, not within this row group. Block-resampling p-values are approximate for nested comparisons on 44 observations and are reported beside the interval, not in place of it.'))
-    body.append(figure('06_ablation'))
+    body.append(T('Declared family: valuation added',show.rename(columns={'ticker':'Company','status':'Status','identical_share':'Identical forecasts (share)','n':'Months','mean_loss_reduction':'Mean MSE reduction (pp²)','lo':'Lower 95%','hi':'Upper 95%','pvalue':'Unadjusted p','holm_adjusted_pvalue':'Holm-adjusted p'}),
+      'Holm adjustment is applied across the tested contrasts of family R16, not within this row group; the joint row belongs to RJ4. The unadjusted p-value and interval come from one bootstrap and always agree; both are descriptive under the calibration results.'))
+    sens=contrast_table(ret,[('MTRN: mine-inclusive FCF added','mine_inclusive_fcf','ridge_full'),('ENTG: equity-derived inputs removed','without_equity_inputs','ridge_full'),('Limited EV/ROIC proxies added','claims_proxy_sensitivity','ridge_full')])
+    body.append(T('Accounting-proxy sensitivities on matched dates',sens,
+      'Matched inclusion or exclusion of the three material accounting proxies, each against the unchanged Broad Ridge. Mine-inclusive free cash flow exists only for MTRN; the equity exclusion removes roe, its change, book yield and debt/equity for ENTG, whose consolidated-equity substitution rests on pre-2020 materiality evidence; the EV/ROIC proxies lack preferred, pension, lease and other claims. These are statements about accounting representations, not about the underlying business economics.'))
+    body.append(figure('ablation'))
     body.append('<h3>F. Figures and diagnostics</h3>'
-      f'<p>The valuation step is the second bar group in Figure {num("04_protocol_ablation")}, in the previous experiment. '
-      f'Figure {num("06_ablation")} shows the same block entering after market conditions rather than after financials; '
+      f'<p>The valuation step is the second bar group in Figure {num("protocol_ablation")}, in the previous experiment. '
+      f'Figure {num("ablation")} shows the same block entering after market conditions rather than after financials; '
       'the two orderings answer different questions because the blocks share information, and comparing them is the point.</p>')
     body.append('<h3>G. Interpretation</h3>'
       f'<p>Adding valuation to the financial block gives {verdict(val_add)}; removing it from the full model gives {verdict(val_rem)}. '
-      'A previous version of this pipeline left the P/E percentage change inside the nominally valuation-free model. '
-      'Retaining valuation information on the reduced side necessarily shrinks the measured gap, biasing the estimated contribution toward zero; '
-      'that dependency is now removed and these numbers reflect the corrected comparison. '
+      'An earlier version of this pipeline left the P/E percentage change inside the nominally valuation-free model; that dependency is removed. '
+      'Its effect on out-of-sample loss could have gone either way, since a regularised model can use or ignore a leaked column, so the correction is a matter of '
+      'validity rather than a predictable shift in the estimate. '
       'Monthly valuation ratios move mostly because the price moved, so a large part of the variation in a monthly valuation feature is simply the recent return, '
       'which the momentum block already carries.</p>')
     body.append('<h3>H. Experiment conclusion</h3>'
       f'<p>Starting valuation did not reliably improve next-month forecasts beyond the other blocks for these issuers on this sample: '
       f'{holm_statement(family,"valuation_added")}. '
-      'The estimates are imprecise rather than precisely zero, and the distinction matters: these intervals admit effects that would be economically interesting if real. '
+      'The estimates are imprecise rather than precisely zero: a failure to reject is not evidence that valuation carries no information, and these intervals admit effects that would be economically interesting if real. '
       'The central revised question was tested with genuine issuer-level valuation variables, not a style-factor substitute, and returned no reliable improvement.</p>')
     body.append('<h3>I. Limitations and next test</h3>'
       '<p>Forward-looking valuation could not be built: no archived historical analyst consensus was available, so forward P/E, earnings surprise and estimate revisions '
@@ -560,14 +687,15 @@ def build():
       'Equivalent parameterisations that produce different fits under regularisation are not evidence of new information.</p>')
     body.append('<h3>E. Results</h3>')
     body.append(T('E3 paired comparisons',contrast_table(ret,diff_rows),'Each row changes one representation and holds everything else fixed. Missing rows indicate a representation whose inputs failed the coverage gate for that issuer rather than an economic equivalence.'))
-    body.append(figure('07_transformations'))
+    body.append(figure('transformations'))
     body.append('<h3>F. Figures and diagnostics</h3>'
-      f'<p>Figure {num("07_transformations")} plots each controlled swap against zero with its interval. '
+      f'<p>Figure {num("transformations")} plots each controlled swap against zero with its interval. '
       'Reading across companies matters more than any single point: a representation that genuinely carried information should help in more than one issuer.</p>')
     body.append('<h3>G. Interpretation</h3>'
       f'<p>The frozen difference-versus-level contrast gives {verdict(tr_res)}, and {holm_statement(family,"transformations_vs_levels")}. '
-      'Where a P/E contrast is absent for ATI or Carpenter, the cause is a sparse or invalid P/E input at those origins — P/E requires positive trailing earnings — '
-      'not a finding that the representations are equivalent. That is also why the signed earnings yield, which survives losses, is the preferred valuation representation throughout.</p>')
+      +''.join(f'For {r.ticker} the P/E contrast is untested ({r.status.replace("_"," ")}): P/E requires positive trailing earnings, and ' for r in family[(family.family=="R16")&(family.contrast=="transformations_vs_levels")&(family.status!="tested")].itertuples())
+      +'where a P/E input fails the coverage gate the two representations produce the same forecast, which is not a finding that they are equivalent. '
+      'That is also why the signed earnings yield, which survives losses, is the preferred valuation representation throughout.</p>')
     body.append('<h3>H. Experiment conclusion</h3>'
       '<p>No representation reliably beat levels on this sample. The differences between representations are small relative to their intervals, '
       'consistent with all of them carrying substantially the same slow-moving information.</p>')
@@ -599,23 +727,24 @@ def build():
       '<p>Paired loss change for each block in both ladder orders and in the leave-one-block-out check. '
       'Agreement across the two orderings is required before a block is described as contributing, because ordered ladders allocate shared information to whichever block enters first.</p>')
     body.append('<h3>E. Results</h3>')
-    ab_show=ablation[ablation.ladder.isin(['protocol_order','market_first'])][['ladder','stage','ticker','n','predictors','rmse','r2_oos','mean_loss_reduction','lo','hi']].copy()
+    ab_show=ablation[ablation.ladder.isin(['protocol_order','market_first'])][['ladder','stage','ticker','n','predictors','intercept_only_share','rmse','r2_oos','mean_loss_reduction','lo','hi']].copy()
     for c in ['mean_loss_reduction','lo','hi']:ab_show[c]*=1e4
     ab_show['rmse']*=100
-    body.append(T('Both cumulative ladders',ab_show.rename(columns={'ladder':'Ladder','stage':'Stage','ticker':'Company','n':'Months','predictors':'Columns','rmse':'RMSE (pp)','r2_oos':'OOS R²','mean_loss_reduction':'Step MSE reduction (pp²)','lo':'Lower 95%','hi':'Upper 95%'}),
+    body.append(T('Both cumulative ladders',ab_show.rename(columns={'ladder':'Ladder','stage':'Stage','ticker':'Company','n':'Months','predictors':'Columns','intercept_only_share':'Intercept-only refits','rmse':'RMSE (pp)','r2_oos':'OOS R²','mean_loss_reduction':'Step MSE reduction (pp²)','lo':'Lower 95%','hi':'Upper 95%'}),
       'The protocol ladder adds financials first; the market-first ladder answers the separately required check of market and industry controls before company information. A block that looks useful in one ordering and not the other is sharing information, not proving its own value.'))
-    lobo=ablation[ablation.ladder=='leave_one_block_out'][['stage','ticker','n','rmse','r2_oos','mean_loss_reduction','lo','hi']].copy()
+    lobo=ablation[ablation.ladder=='leave_one_block_out'][['stage','ticker','n','intercept_only_share','rmse','r2_oos','mean_loss_reduction','lo','hi','pvalue']].copy()
     for c in ['mean_loss_reduction','lo','hi']:lobo[c]*=1e4
     lobo['rmse']*=100
-    body.append(T('Leave-one-block-out',lobo.rename(columns={'stage':'Model','ticker':'Company','n':'Months','rmse':'RMSE (pp)','r2_oos':'OOS R²','mean_loss_reduction':'MSE change vs full model (pp²)','lo':'Lower 95%','hi':'Upper 95%'}),
-      'Sign convention as elsewhere: positive favours the model named in the first column, so a positive value here means dropping the block improved the forecast.'))
-    body.append(figure('08_importance'))
+    body.append(T('Leave-one-block-out',lobo.rename(columns={'stage':'Model','ticker':'Company','n':'Months','intercept_only_share':'Intercept-only refits','rmse':'RMSE (pp)','r2_oos':'OOS R²','mean_loss_reduction':'MSE reduction vs full model (pp²)','lo':'Lower 95%','hi':'Upper 95%','pvalue':'Unadjusted p'}),
+      'Positive means the model without the block forecast better than the full model. Stored comparisons are read in whichever direction they were computed, with the mean negated and the interval endpoints swapped when reversed. The full-model row has no comparison.'))
+    body.append(figure('importance'))
     body.append('<h3>F. Figures and diagnostics</h3>'
-      f'<p>Figure {num("08_importance")} shows a grouped block permutation of a fitted Random Forest. It is included as a contrast to the ablations, not as a substitute: '
+      f'<p>Figure {num("importance")} shows a grouped block permutation of a fitted Random Forest. It is included as a contrast to the ablations, not as a substitute: '
       'shuffling a block in blocks of three months preserves some time structure but still breaks dependence between groups, so it can attribute importance to a block '
       'whose information is really carried by a correlated one. Refitted block ablations are the preferred evidence for economic importance.</p>')
     body.append('<h3>G. Interpretation</h3>'
-      '<p>The two ladders do not agree on which block helps, which is the expected signature of shared explanatory information rather than a contradiction. '
+      f'<p>Most ladder stages chose the intercept-only benchmark in most refits (median share {ablation[ablation.stage!="historical_mean"].intercept_only_share.median():.0%}), so many steps compare two nearly identical forecast series; '
+      'the step intervals are correspondingly narrow around zero rather than informative about a block\u2019s value. Where the two ladders differ, that is the expected signature of shared explanatory information rather than a contradiction. '
       'Market, industry and momentum blocks overlap heavily by construction: an industry-relative return is an industry return minus a market return, '
       'and a three-month relative momentum is a function of both. The leave-one-block-out check is the more informative view precisely because it holds everything else constant.</p>')
     body.append('<h3>H. Experiment conclusion</h3>'
@@ -650,9 +779,9 @@ def build():
     body.append('<h3>E. Results</h3>')
     body.append(T('E5 paired comparisons',contrast_table(ret,[('All-core lags {0,1} vs {0}','distributed_all_lag1','core_ridge'),('All-core lags {0,1,3} vs {0}','distributed_all_lag3','core_ridge'),('Selected-core lag 1','distributed_lag1','core_ridge'),('Selected-core lags 1 and 3','distributed_lag3','core_ridge')]),
       'The first row is the frozen family member. Lag-length sensitivity is the second row; agreement between them is the evidence that matters.'))
-    body.append(figure('09_cumulative_loss'))
+    body.append(figure('cumulative_loss'))
     body.append('<h3>F. Figures and diagnostics</h3>'
-      f'<p>Figure {num("09_cumulative_loss")} accumulates the paired squared-error difference month by month. '
+      f'<p>Figure {num("cumulative_loss")} accumulates the paired squared-error difference month by month. '
       'This is the diagnostic that distinguishes a persistent edge from one lucky month: a genuine improvement should produce a steadily rising line, '
       'whereas a single step means one outcome is carrying the entire result.</p>')
     body.append('<h3>G. Interpretation</h3>'
@@ -678,8 +807,8 @@ def build():
       ('Orders','(0,0), (1,0), (2,0), (0,1), (1,1); (0,0) included so the data can prefer no dynamics'),
       ('Differencing','d = 0 for return targets; no seasonal terms'),
       ('Exogenous alignment','The regressor row for target month s carries the features known at s−1; a one-step forecast is supplied X(t), never a realised X(t+1)'),
-      ('State updating','Filtered information only — realised outcomes are appended sequentially without refitting inside a validation block; no future-smoothed state is used'),
-      ('Order selection','Nested one-step validation inside the training history, refreshed annually; the order history is archived'),
+      ('State updating','Filtered information only; no future-smoothed state is used'),
+      ('Order selection','At each of the last 24 origins of the training history the full ARMA-error regression is refitted on matured labels and forecasts that month; refreshed annually; the order history is archived'),
       ('Fair comparison','The static side is the matching (0,0) fit with the same likelihood, intercept and exogenous convention, not a separately tuned Ridge'),
       ('Capacity gate','At least five training observations per estimated parameter; fits below ten per parameter are flagged limited-sample')]))
     body.append('<h3>C. Variables and mechanism</h3>'
@@ -699,9 +828,9 @@ def build():
       'silently removing the harder origins would flatter the dynamic model on exactly the months where it is least well identified.</p>')
     body.append(T('Selected ARMA order by origin',orders.rename(columns={'ticker':'Company','order':'Selected order (p,q)','origins':'Origins'}),
       'The order is chosen inside training data and changes over time, so this family is labelled "order selected in training" rather than given a fixed order in any figure legend.'))
-    body.append(figure('10_errors'))
+    body.append(figure('errors'))
     body.append('<h3>F. Figures and diagnostics</h3>'
-      f'<p>Figure {num("10_errors")} shows out-of-sample forecast errors and their autocorrelation. These are forecast errors, not training residuals, '
+      f'<p>Figure {num("errors")} shows out-of-sample forecast errors and their autocorrelation. These are forecast errors, not training residuals, '
       'and they are reported after the evaluation: they cannot trigger retrospective retuning. '
       'Visible autocorrelation in a short, adaptively fitted error sequence is not by itself evidence that a dynamic model would have helped, '
       'which is exactly what the paired comparison tests.</p>')
@@ -725,9 +854,9 @@ def build():
     body.append(spec_table([
       ('Horizons','One month (primary) and three-month compounded (sensitivity)'),
       ('Overlap handling','Three-month labels overlap, so training origins whose outcome extends past the fitting boundary are purged; three nonoverlapping calendar offsets are scored separately'),
-      ('Windows','Expanding (primary) and fixed trailing 84-month rolling (sensitivity), on identical origins'),
-      ('Volatility regime','High or low against a trailing median of realised market volatility, evaluated with information available at each origin'),
-      ('Rate regime','Rising or falling from the prior three-month change in the 10-year yield, with an unavailable change left unclassified rather than counted as falling'),
+      ('Windows','Expanding (primary) and fixed trailing 84-month rolling (sensitivity, tuned inside its own window), on identical origins; a complete-procedure comparison because the training histories differ'),
+      ('Regimes','Monthly forecast regimes known at each origin; exact windows and thresholds in the regime-definition table'),
+      ('Influence','Each target month and each calendar year removed in turn from the evaluation, forecasts held fixed'),
       ('Rolling display','12-month window, stated in the figure title; overlapping windows are dependent'),
       ('Regime gate','Fewer than 12 forecasts in a regime keeps the result descriptive')]))
     body.append('<h3>C. Variables and mechanism</h3>'
@@ -737,6 +866,11 @@ def build():
       '<p>Consistency of sign and rough magnitude across horizons, windows, calendar years and regimes. '
       'The three-month horizon is a sensitivity, not independent confirmation: it reuses the same underlying price history on a later, shorter sample.</p>')
     body.append('<h3>E. Results</h3>')
+    body.append(T('Regime definitions',regdef.rename(columns={'regime':'Regime','frequency':'Frequency','used_for':'Used for','definition':'Definition','timing':'Timing','states_in_evaluation':'States'}),
+      'The monthly forecast regimes and the daily correlation regime use different windows, thresholds and frequencies; they are not the same classification and must not be read across.'))
+    hc=common[common.model.isin(['historical_mean','core_ols','ridge_full','forest_full','boost_full'])][['ticker','model','horizon','origins','target_period','n','rmse','r2_oos']].copy();hc['rmse']*=100;hc['model']=hc.model.map(model)
+    body.append(T('One- and three-month forecasts on common origins',hc.rename(columns={'ticker':'Company','model':'Model','horizon':'Horizon (months)','origins':'Origin labels','target_period':'Target','n':'Origins','rmse':'RMSE (pp)','r2_oos':'OOS R²'}),
+      'Both horizons are scored on the same 38 origins, so the comparison is not confounded by different sample periods. The targets differ, and each horizon has its own matured historical-mean benchmark.'))
     body.append(T('Three-month horizon',scores_table(s,'return',['historical_mean','core_ols','ridge_full','forest_full','boost_full'],horizon=3),
       'Each horizon uses its own matured historical-mean benchmark, so R² is comparable within a horizon and not across horizons.'))
     no=nonoverlap[nonoverlap.model.isin(['historical_mean','ridge_full','boost_full'])][['ticker','model','offset','n','rmse','r2_oos']].copy();no['rmse']*=100
@@ -745,14 +879,22 @@ def build():
     reg=regimes[(regimes.task=='return')&(regimes.horizon==1)&(regimes.regime=='calendar_year')&regimes.model.isin(['historical_mean','ridge_full','boost_full','arimax'])][['ticker','model','value','n','rmse','r2_oos']].copy();reg['rmse']*=100
     body.append(T('Calendar-year performance',reg.rename(columns={'ticker':'Company','model':'Model','value':'Year','n':'Months','rmse':'RMSE (pp)','r2_oos':'OOS R²'}),
       '2026 is a partial year ending with the August target. Year-by-year splits of a 44-month sample are descriptive.'))
-    body.append(T('Excess-return target: stock minus market over the same month',scores_table(s,'excess_return',['historical_mean','zero','core_ridge','ridge_full','boost_full']),
-      'The realised market return belongs to this outcome, never to the predictors. Scored against the expanding mean of the same excess-return quantity.'))
-    body.append(figure('11_rolling'));body.append(figure('12_horizons'));body.append(figure('13_coefficients'))
+    body.append(T('Market-relative target: stock minus SPY over the same month',scores_table(s,'market_relative_return',['historical_mean','zero','core_ridge','ridge_full','boost_full']),
+      'A market-relative return, not alpha and not a risk-adjusted return. The realised SPY return belongs to this outcome, never to the predictors. Scored against the expanding mean of the same quantity.'))
+    named=influence[influence.named_check.notna()&(((influence.task=='variance')&influence.reduced.isin(['historical_variance63']))|((influence.task=='return')&(influence.reduced=='historical_mean')&influence.expanded.isin(['core_ols','ridge_full'])))]
+    nm=named[['task','ticker','excluded','expanded','reduced','full_mean','mean_loss_reduction','full_pvalue','pvalue','sign_flip','decision_flip']].copy();nm['expanded']=nm.expanded.map(model);nm['reduced']=nm.reduced.map(model)
+    body.append(T('The two months the review named: MTRN August 2024 and ENTG April 2025',nm.rename(columns={'task':'Task','ticker':'Company','excluded':'Month removed','expanded':'Model','reduced':'Benchmark','full_mean':'Mean loss reduction, all months','mean_loss_reduction':'Without that month','full_pvalue':'p, all months','pvalue':'p, without','sign_flip':'Sign reverses','decision_flip':'Decision changes'}),
+      'Loss-only: the month is removed from the evaluation while forecasts and fitted models stay fixed. An influential month is not an error and is kept in every headline result.'))
+    yr=influence[(influence.level=='calendar_year')&(influence.ticker!='joint')&(((influence.task=='variance')&influence.expanded.isin(['pooled_ridge','pooled_variance_external'])&(influence.reduced=='historical_variance63'))|((influence.task=='return')&(influence.expanded=='core_ols')&(influence.reduced=='historical_mean')))]
+    yr=yr[['task','ticker','expanded','excluded','full_mean','mean_loss_reduction','pvalue','sign_flip']].copy();yr['expanded']=yr.expanded.map(model)
+    body.append(T('Leave-one-calendar-year-out',yr.rename(columns={'task':'Task','ticker':'Company','expanded':'Model vs benchmark','excluded':'Year removed','full_mean':'All years','mean_loss_reduction':'Without that year','pvalue':'Unadjusted p, without','sign_flip':'Sign reverses'}),
+      'Each target year removed in turn from the evaluation; 2023 and 2026 are partial years. Forecasts are held fixed, so this is not a training-sample robustness test.'))
+    body.append(figure('rolling'));body.append(figure('horizons'));body.append(figure('influence'));body.append(figure('coefficients'))
     body.append('<h3>F. Figures and diagnostics</h3>'
-      f'<p>Figure {num("11_rolling")} moves a 12-month window across the evaluation period; overlapping windows are dependent and must not be counted as separate evidence. '
-      f'Figure {num("12_horizons")} places the one- and three-month results side by side with horizon-specific benchmarks. '
-      'The three-month fits start later because unmatured labels are purged, so a change between horizons mixes horizon and period. '
-      f'Figure {num("13_coefficients")} asks the parameter-stability question directly: whether the fitted relationship itself holds still as the window moves. '
+      f'<p>Figure {num("rolling")} moves a 12-month window across the evaluation period; overlapping windows are dependent and must not be counted as separate evidence. '
+      f'Figure {num("horizons")} places the one- and three-month results side by side on the same 38 origins with horizon-specific benchmarks. '
+      f'Figure {num("influence")} recomputes the headline comparisons with each target month removed, which separates a broad advantage from one carried by a single month. '
+      f'Figure {num("coefficients")} asks the parameter-stability question directly: whether the fitted relationship itself holds still as the window moves. '
       'Whiskers there are across-refit ranges, not sampling confidence intervals, and correlated predictors can exchange coefficients without changing any forecast.</p>')
     three=s[(s.task=='return')&(s.horizon==3)&(s.model=='core_ols')].set_index('ticker')
     best=three.r2_oos.idxmax()
@@ -763,17 +905,15 @@ def build():
       f'<p><strong>One apparently strong result deserves naming rather than burying.</strong> The compact OLS reaches an out-of-sample R\u00b2 of '
       f'{three.loc[best,"r2_oos"]:.2f} for {best} at the three-month horizon, far above anything in the one-month results. '
       'It is not a timing error: the outcome reproduces exactly from raw adjusted closes, every target ends exactly three months after its origin, '
-      'and no training label extends past its fitting origin. It survives all three nonoverlapping calendar offsets '
-      f'({", ".join(f"{v:.2f}" for v in off.sort_values("offset").r2_oos)}), which is the right check to run. '
-      'But each of those offsets holds only 12 or 13 independent outcomes, and overlapping three-month labels mean the headline 38 observations '
-      f'carry far less information than 38 independent ones. {best}\u2019s own returns over this window were unusually large, so a compact model that '
-      'leans on recent drift will look accurate over a horizon long enough for that drift to persist. '
-      'The honest reading is an imprecise estimate on roughly a dozen effective observations at a secondary horizon, not a discovered signal \u2014 '
-      'and it does not carry over to the one-month target that determines this study\u2019s conclusion.</p>')
+      'and no training label extends past its fitting origin. Across the three nonoverlapping calendar offsets it is '
+      f'{", ".join(f"{v:.2f}" for v in off.sort_values("offset").r2_oos)}. '
+      'Each offset holds only 12 or 13 outcomes, and the offsets share calendar months, so they are not three independent replications; overlapping three-month labels mean the headline 38 observations '
+      'carry far less information than 38 independent ones. A longer-horizon result should not be dismissed because the one-month result is weak, but on roughly a dozen effective observations '
+      'it remains an imprecise estimate at a secondary horizon, not a discovered signal, and it does not carry over to the one-month target.</p>')
     body.append('<h3>H. Experiment conclusion</h3>'
-      '<p>The main comparisons do not become reliable at another horizon, in another window or in a particular market state. '
-      'The absence of a stable improvement is itself the stable finding. The single three-month exception above is reported in full, '
-      'is consistent with small-sample variation on a dozen effective observations, and is not treated as evidence against that conclusion.</p>')
+      '<p>The main return comparisons do not become reliable at another horizon, in another window, in a particular market state, or after removing any single month. '
+      'That is a failure to find a stable improvement, not evidence of a stable absence of any relationship. The three-month exception above is reported in full '
+      'and remains an imprecise, secondary-horizon estimate.</p>')
     body.append('<h3>I. Limitations and next test</h3>'
       '<p>Regime analysis on 44 months is close to anecdote. A longer point-in-time history, not a finer regime definition, is what would make this testable.</p>')
     p.append(experiment('e7','E7','Do the answers hold across horizons, windows and market regimes?',''.join(body)))
@@ -793,14 +933,19 @@ def build():
       ('Daily-to-monthly','Daily model forecasts are averaged over the target month’s exchange sessions'),
       ('Log target','Regularised and tree models fit log variance and retransform with a training-only smearing factor'),
       ('GARCH-X timing','External squared returns enter the recursion lagged one session; commodity inputs are delayed a further session; the stock’s own session calendar is never compressed'),
-      ('Loss','QLIKE on positive variance forecasts; variance RMSE/MAE and volatility RMSE reported separately and never mixed')]))
+      ('GARCH-X restrictions','\u03c9 > 0, \u03b1 and \u03b2 in (0, 0.995), \u03b1 + \u03b2 \u2264 0.995, external loadings \u2265 0, so the variance stays positive and stationary; 1,260-session training window'),
+      ('Future external inputs','Over the target month each external squared return is set to its mean over the last 21 sessions; realised future inputs are never used'),
+      ('Controlled matrix','Individual and pooled Ridge on log variance with identical column lists: persistence only (21/63/252-session volatility) and persistence plus market volatility, VIX, industry and driver volatility and the 10-year yield change; pooled fits add company indicators (penalised) and use date-synchronised folds'),
+      ('Loss','QLIKE on positive variance forecasts; variance RMSE/MAE and root-variance RMSE reported separately and never mixed'),
+      ('Inference','Declared families V20 and VJ5 with Holm; descriptive only under the calibration rule')]))
     body.append('<h3>C. Variables and mechanism</h3>'
       '<p>Trailing realised volatility measures what has happened; the VIX level measures what options imply about the future — different frequencies and different meanings, '
       'so both are recorded rather than treated as interchangeable. Market and industry volatility enter GARCH-X on the hypothesis that '
       'a common volatility shock reaches the issuer, which is a co-movement channel, not a causal one.</p>')
     body.append('<h3>D. Evaluation criteria</h3>'
-      '<p>Lower QLIKE against trailing realised variance. Volatility is reported as the square root of the variance forecast, '
-      'which is not generally the expected volatility — an inequality worth stating because the two are routinely conflated.</p>')
+      '<p>Lower QLIKE against trailing realised variance. Patton (2011) shows QLIKE and MSE rank variance forecasts consistently even with a noisy realised-variance proxy; '
+      'QLIKE is less dominated by the largest months. The target is next month\u2019s sample variance of daily returns, not the variance of the compounded monthly return, '
+      'and its square root is reported on a daily-volatility scale; the square root of a variance forecast is not the expected volatility.</p>')
     body.append('<h3>E. Results</h3>')
     body.append(T('Variance models',scores_table(s,'variance',['historical_variance21','historical_variance63','historical_variance252','ewma94','arch1','garch11','garchx_market','garchx_industry','garchx_business','variance_ridge_persistence','variance_ridge_market','variance_ridge_external','variance_ridge','variance_forest','variance_boost','pooled_ridge','business_pair_ridge']),
       'QLIKE is the ranking score. Variance RMSE and volatility RMSE are shown beside it because a model can win on one and lose on another; disagreement is reported rather than resolved by picking a favourable metric.'))
@@ -808,20 +953,23 @@ def build():
       'Retrospectively lowest observed score among tested pipelines. This is not a prospectively validated choice and the differences between the leading models are small.'))
     body.append(T('E8 paired comparisons',contrast_table(var,[('GARCH(1,1) vs 63-day persistence','garch11','historical_variance63'),('EWMA vs persistence','ewma94','historical_variance63'),('GARCH-X market vs GARCH','garchx_market','garch11'),('GARCH-X +industry vs +market','garchx_industry','garchx_market'),('GARCH-X +business vs +industry','garchx_business','garchx_industry'),('Variance Ridge vs GARCH','variance_ridge','garch11'),('Pooled Ridge vs individual Ridge','pooled_ridge','variance_ridge')]),
       'Paired QLIKE differences on matched months; positive favours the first-named model.'))
-    body.append(figure('14_variance_models'));body.append(figure('15_volatility_paths'));body.append(figure('16_pooling'))
+    vf=family[family.family.isin(['V20','VJ5'])][['family','ticker','contrast','status','n','mean_loss_reduction','lo','hi','pvalue','holm_adjusted_pvalue','adjusted_decision']]
+    body.append(T('Declared variance families V20 and VJ5: the controlled 2\u00d72 matrix',vf.rename(columns={'family':'Family','ticker':'Company','contrast':'Contrast','status':'Status','n':'Months','mean_loss_reduction':'Mean QLIKE reduction','lo':'Lower 95%','hi':'Upper 95%','pvalue':'Unadjusted p','holm_adjusted_pvalue':'Holm-adjusted p','adjusted_decision':'Adjusted decision'}),
+      'Declared before rescoring. Pooling contrasts compare a pooled and an individual fit with identical inputs; external contrasts add the same external block on each side. Under the calibration results these p-values are descriptive.'))
+    body.append(figure('variance_models'));body.append(figure('variance_matrix'));body.append(figure('volatility_paths'));body.append(figure('pooling'))
     body.append('<h3>F. Figures and diagnostics</h3>'
-      f'<p>Figure {num("14_variance_models")} ranks the variance models on a shared QLIKE scale. '
-      f'Figure {num("15_volatility_paths")} plots square roots against the realised daily volatility of each target month, keeping the full scale so that missed spikes stay visible. '
-      f'Figure {num("16_pooling")} contrasts individual, four-company and business-pair fits on the return and variance tasks side by side.</p>')
+      f'<p>Figure {num("variance_models")} ranks the variance models on a shared QLIKE scale. Figure {num("variance_matrix")} isolates pooling and external inputs with identical columns on both sides. '
+      f'Figure {num("volatility_paths")} plots square roots against the realised daily volatility of each target month, keeping the full scale so that missed spikes stay visible. '
+      f'Figure {num("pooling")} contrasts individual, four-company and business-pair fits on the return and variance tasks side by side.</p>')
     body.append('<h3>G. Interpretation</h3>'
-      '<p>Unlike the return task, several variance models do improve on their benchmark, which is what volatility clustering predicts. '
-      'The gains come mainly from pooling and from persistence, not from added external volatility inputs: '
-      'the stepwise GARCH-X additions do not compound. Pooling helps because volatility dynamics are more similar across these four issuers than their return dynamics are — '
-      'a statement about the estimation problem, not a claim that the businesses are interchangeable.</p>')
+      '<p>The variance picture differs by issuer. For CRS and ATI most fitted models score below the 63-session benchmark on QLIKE, and for CRS no single month carries the result. '
+      'For ENTG the apparent advantages rest largely on April 2025: without that month the pooled Ridge advantage over persistence disappears. For MTRN the persistence estimate is hard to beat. '
+      'In the controlled matrix neither pooling nor the external block reliably lowers loss once the inputs are held identical: no V20 or VJ5 contrast survives Holm adjustment. '
+      'A lower pooled loss, where it appears, does not establish why pooling helps; it could reflect shared volatility dynamics, more data for the same parameters, or chance.</p>')
     body.append('<h3>H. Experiment conclusion</h3>'
-      '<p>The same information base does support a measurable improvement in forecasting realised variance, unlike mean return. '
-      'This must not be read as partial success on the return question: they are different targets with different losses, '
-      'and no return conclusion is strengthened by a variance result.</p>')
+      '<p>Fitted variance models improve on persistence for some issuers in point estimates, most consistently for CRS, but the paired test over-rejects on these heavy-tailed losses, '
+      'so no variance improvement is claimed as a statistical discovery. A variance result is a different target with a different loss: it says nothing about statistical power for the return question, '
+      'and no return conclusion is strengthened by it.</p>')
     body.append('<h3>I. Limitations and next test</h3>'
       '<p>QLIKE and variance RMSE do not always agree, and both are sensitive to a small number of high-volatility months. '
       'Intraday data would give a far more precise realised-variance target than 21 daily observations per month, and is the obvious next step.</p>')
@@ -838,20 +986,22 @@ def build():
       'funding is not earnings, a stockpile-contract ceiling is not recognised revenue, and warrant dilution is not captured by ordinary debt ratios. '
       'Those claims are documented in the <a href="../../historical_attribution/final/Historical_Attribution.html#elmt">earlier study’s case review</a>, '
       'which remains the authoritative record and is unchanged by this experiment.</p>')
-    p.append(figure('17_correlations'));p.append(figure('18_rolling_correlation'))
-    p.append(f'<p>Figure {num("17_correlations")} contrasts the four-issuer correlation matrix over the long daily sample with the five-equity matrix over Elmet’s '
+    p.append(figure('correlations'));p.append(figure('rolling_correlation'))
+    p.append(f'<p>Figure {num("correlations")} contrasts the four-issuer correlation matrix over the long daily sample with the five-equity matrix over Elmet’s '
       'short shared window. The right-hand panel describes roughly one hundred overlapping trading days and is not comparable evidence about long-run co-movement. '
-      f'Figure {num("18_rolling_correlation")} shows that even among the established issuers, pairwise correlation is far from constant, '
+      f'Figure {num("rolling_correlation")} shows that even among the established issuers, pairwise correlation is far from constant, '
       'which is why a single full-sample correlation is a summary rather than a property.</p>')
     contrast=read('correlation_regime_contrasts')
     show=contrast[['first','second','n_high','n_low','high_minus_low_correlation','lo','hi']]
     p.append(T('Daily-return correlation in high- versus low-volatility regimes',
       show.rename(columns={'first':'Company A','second':'Company B','n_high':'High-vol days','n_low':'Low-vol days',
         'high_minus_low_correlation':'Correlation difference','lo':'Lower 95%','hi':'Upper 95%'}),
-      'Regimes are defined from trailing market volatility known at each date, not chosen after seeing the result. Intervals are synchronised moving-block resamples of the paired daily returns. A positive difference means the pair co-moved more when market volatility was already high, which is when diversification is least useful; this is a descriptive contrast, not a contagion test.'))
-    rise=int((contrast.lo>0).sum())
-    p.append(f'<p>{rise} of the {len(contrast)} established-issuer pairs show higher correlation in the high-volatility regime with an interval excluding zero. '
-      'The exception is Carpenter and ATI, whose returns already move together closely in both regimes. '
+      'This is the daily correlation regime: SPY 63-session volatility, lagged one session, against its trailing 252-session median. It is not the monthly forecast regime used in E7 (see the regime-definition table). Intervals are synchronised moving-block resamples of the paired daily returns. A positive difference means the pair co-moved more when market volatility was already high, which is when diversification is least useful; this is a descriptive contrast, not a contagion test.'))
+    rise=contrast[contrast.lo>0];spans=contrast[(contrast.lo<=0)&(contrast.hi>=0)]
+    pairs=lambda z:', '.join(f'{a}\u2013{b}' for a,b in zip(z['first'],z['second']))
+    p.append(f'<p>{len(rise)} of the {len(contrast)} established-issuer pairs show higher correlation in the high-volatility regime with an interval excluding zero ({pairs(rise)}). '
+      +(f'For {pairs(spans)} the interval includes zero. ' if len(spans) else '')
+      +'Carpenter and ATI already move together closely in both regimes. '
       'This matters for the earlier study’s risk comparison rather than for forecasting: it says the diversification these names offer each other is weakest '
       'in exactly the periods when it would be most valuable. It says nothing about whether next month’s return is predictable.</p>')
     p.append('</section>')
@@ -866,16 +1016,25 @@ def build():
           'Median MSE reduction (pp²)':1e4*z.mean_loss_reduction.median() if len(z) else np.nan,
           'Issuers with interval above zero':int((z.lo>0).sum()) if len(z) else 0,
           'Issuers with interval below zero':int((z.hi<0).sum()) if len(z) else 0})
-    z=var[(var.expanded=='garch11')&(var.reduced=='historical_variance63')&(var.block==6)]
-    sy.append({'Experiment':'E8','Information or structure tested':'Variance dynamics (QLIKE)','Issuers compared':len(z),
+    z=var[(var.expanded=='variance_ridge_persistence')&(var.reduced=='historical_variance63')&(var.block==6)]
+    sy.append({'Experiment':'E8','Information or structure tested':'Fitted persistence vs 63-session variance (QLIKE)','Issuers compared':len(z),
       'Median MSE reduction (pp²)':np.nan,'Issuers with interval above zero':int((z.lo>0).sum()) if len(z) else 0,
       'Issuers with interval below zero':int((z.hi<0).sum()) if len(z) else 0})
     p.append(T('One row per experiment',pd.DataFrame(sy),
-      'The variance row uses QLIKE, not squared error, so its magnitude column is deliberately blank: the two losses are not comparable and combining them into one ranking would be wrong.'))
+      'Unadjusted pointwise intervals, six-month blocks. The variance row uses QLIKE, not squared error, so its magnitude column is deliberately blank: the two losses are not comparable and combining them into one ranking would be wrong.'))
+    levels=pd.DataFrame([
+      ('E1\u2013E2 financials and valuation','Fitted coefficients vary in sign and size across refits; no stable conditional association','No matched improvement on the historical mean; validation usually chose the intercept-only benchmark','No contrast survives Holm; p-values descriptive under calibration','None demonstrated'),
+      ('E3\u2013E6 transformations, drivers, lags, ARMA errors','Blocks overlap by construction; ordered ladders cannot allocate shared information','No representation, block, lag set or error process improves reliably','No contrast survives Holm in R16 or RJ4','None demonstrated'),
+      ('E7 stability','Rankings move with the window; one three-month exception (ATI compact OLS)','Not stable across horizons, windows, regimes or single-month removal','Descriptive only','None demonstrated'),
+      ('E8 variance','Volatility persistence is strong; external inputs add little once persistence is held fixed','Point-estimate gains over persistence for CRS and ATI; ENTG\u2019s rest on April 2025; MTRN\u2019s persistence is hard to beat','No V20 or VJ5 contrast survives Holm; the test over-rejects on these losses','Possible input to risk monitoring or position sizing, but no covariance, portfolio or execution test was run')],
+      columns=['Experiments','Explanatory association','Predictive usefulness','Statistical evidence','Investment relevance'])
+    p.append(T('Four levels of evidence, kept apart',levels,
+      'Association is not causation, a lower loss is not alpha, and a variance improvement is not a demonstrated portfolio benefit. Each column is a separate claim that needs its own evidence.'))
     p.append('<p>The experiments agree with one another, which matters more than any single result. '
       'Across factor additions, transformation choices, lag lengths and error dynamics, the estimated improvements are small relative to their intervals, '
-      'and no block or structure helps consistently across issuers and orderings. The one place the same information base does pay is the variance task, '
-      'where volatility clustering gives a real and repeatedly measurable signal.</p>')
+      'and no block or structure helps consistently across issuers and orderings; with the intercept-only option available, validation usually preferred the benchmark itself. '
+      'The variance task shows point-estimate gains over persistence for some issuers, most consistently CRS, but they are issuer-specific, partly carried by single months, '
+      'and not supported by a calibrated test.</p>')
     p.append('<p>Where metrics disagree they are reported rather than reconciled by choosing one. '
       'Several models show a better RMSE alongside a worse MAE, which indicates the gain sits in a small number of large months rather than in typical accuracy; '
       'the cumulative paired-loss figure makes that visible directly. Directional accuracy above 50% is likewise not automatically useful '
@@ -885,11 +1044,16 @@ def build():
     p.append('<section id="conclusion"><h2>Overall conclusion</h2>')
     p.append('<p><strong>On this evidence, company financial characteristics and starting valuation did not add reliable out-of-sample information '
       'about next-month returns for these four issuers, and adding time-series structure to a static regression using the same information did not help either.</strong> '
-      'The simplest model supported by the evidence is the benchmark: the expanding historical mean. That is the recommendation.</p>')
+      f'The simplest model supported by the evidence is the benchmark: the expanding historical mean. That is the recommendation, and in version 4 it is also what the broad tuned models themselves chose in a median {io_broad.median():.0%} of refits.</p>')
     p.append('<p>Two qualifications are essential. First, these are imprecise estimates, not measured zeros: the intervals admit effects '
       'that would be economically interesting if real, and a 44-month evaluation cannot rule them out. Reporting "no reliable improvement" is not the same as '
-      'reporting "no effect", and the difference is the entire uncertainty of the study. Second, the separate risk task did improve on its benchmark, '
-      'which shows the pipeline can detect a signal when one is present — a useful control on the return null.</p>')
+      f'reporting "no effect": with 80% power the sample could detect only compact-model improvements of roughly {head.detectable_in_benchmark_units.min():.2f} to {head.detectable_in_benchmark_units.max():.2f} R\u00b2 points. '
+      'Second, the variance task is a different target with a different loss. Its point-estimate gains for some issuers say nothing about the power of the return comparisons.</p>')
+    p.append('<p><strong>Investment relevance.</strong> A lower RMSE is not investment alpha, and a lower QLIKE is not a demonstrated portfolio improvement. '
+      'These forecasts use closing prices and are not automatically executable at those prices; transaction costs, feasible execution timing, covariance forecasts, position '
+      'constraints and an explicit portfolio experiment would all be needed before any trading use. The variance results could inform risk monitoring or position sizing for CRS and ATI, '
+      'but that requires its own test. Conclusions are company-specific: the steadier CRS variance result does not transfer to MTRN, and an average across issuers does not show that each benefits. '
+      'Short-horizon return uncertainty is not intrinsic valuation, and nothing here changes a valuation range.</p>')
     p.append('<p>For the historical investment comparison, this bounds what the earlier study’s findings can be used for. '
       'That work measured contemporaneous exposures and decomposed past repricing; it never claimed forecastability, and this experiment finds none to add. '
       'Predictability and intrinsic value are different things: a stock whose next-month return is unforecastable can still be mispriced, '
@@ -898,8 +1062,11 @@ def build():
 
     p.append('<section id="limitations"><h2>Limitations and further research</h2>')
     p.append('<ul>'
-      '<li><strong>Sample size.</strong> Four issuers and 44 monthly outcomes each. Monthly equity returns are dominated by noise at this length; '
-      'the study is underpowered against any plausible effect size, and this is the binding constraint on every conclusion.</li>'
+      f'<li><strong>Sample size.</strong> Four issuers and 44 monthly outcomes each. Under the stated normal approximation, the detectable compact-model improvement is about {head.detectable_in_benchmark_units.min():.2f}\u2013{head.detectable_in_benchmark_units.max():.2f} R\u00b2 points; '
+      'smaller effects, which are the plausible ones, cannot be distinguished from zero at this length.</li>'
+      '<li><strong>Inference calibration.</strong> The paired block bootstrap over-rejects on the heavy-tailed variance losses, and its intervals hold the saved forecasts fixed, '
+      'omitting estimation, tuning and specification-search uncertainty. All p-values are descriptive.</li>'
+      '<li><strong>Post-hoc revision.</strong> Version 4\u2019s decisions were frozen before rescoring but after the version-3 results were seen.</li>'
       '<li><strong>Observed-history selection.</strong> These companies and much of their history were reviewed before the protocol was frozen. '
       'The protocol is newly frozen, not preregistered on unseen data; genuinely prospective data would be needed for independent confirmation.</li>'
       '<li><strong>Survivorship.</strong> Five currently listed issuers are not a cross-section, and no asset-pricing premium should be inferred from them.</li>'
@@ -912,7 +1079,7 @@ def build():
       'predictive information and coefficients can exchange freely between correlated columns without changing forecasts.</li>'
       '<li><strong>Structural change.</strong> Acquisitions, business exits and restructuring alter what these issuers are over the sample, '
       'so a fixed exposure mapping is an approximation of a moving target.</li>'
-      '<li><strong>Overfitting and instability.</strong> Hyperparameters are retuned annually rather than at every origin, a disclosed operational simplification. '
+      '<li><strong>Overfitting and instability.</strong> Hyperparameters are retuned annually rather than at every origin, a disclosed operational simplification. Company intercepts in the pooled models are penalised with the other coefficients. '
       'Selected ARMA orders and Lasso selections vary across origins, which is reported rather than smoothed away.</li>'
       '</ul>')
     p.append('<p>Ranked by the uncertainty they would resolve, the most valuable follow-ups are: a wider panel of comparable issuers evaluated at the same origins, '
@@ -920,6 +1087,22 @@ def build():
       'be asked at all; and intraday data for a far more precise realised-variance target. Adding model complexity would not help and is not proposed.</p>')
     p.append('</section>')
 
+    p.append('<section id="revision"><h2>Revision record: version 3 to version 4</h2>')
+    decided=issues.decision.value_counts()
+    p.append(f'<p>The review document raised {len(issues)} items. {int(decided.get("accepted",0))} were accepted, {int(decided.get("accepted as exploratory",0))} accepted as exploratory only, '
+      f'{int(decided.get("partially accepted",0))} partially accepted, {int(decided.get("already satisfied",0))} were already satisfied, {int(decided.get("rejected",0))} rejected and {int(decided.get("deferred",0))} deferred. '
+      'The separate review directory was not created: the owner chose to revise in place, with version 3 preserved in git commit bef7b32 and a frozen snapshot of its headline tables in <code>baseline_v3/</code>.</p>')
+    p.append(T('Issue register',issues.rename(columns={'id':'ID','revision_section':'Review section','finding':'Finding','verified':'What was verified','severity':'Severity','decision':'Decision','resolution':'Resolution','artifact':'Artifact','validation_check':'Validation check','remaining_limitation':'Remaining limitation'}),
+      'Each finding was checked against the code and outputs before being accepted or rejected. The validation-check column names the fail-closed check in validation_results.json.'))
+    fam16=changes[(changes.item=='R16 frozen family')&changes.metric.isin(['unadjusted p-value','status'])].pivot_table(index=['ticker','subject'],columns='metric',values=['baseline_published','baseline_new_inference','revision'],aggfunc='first')
+    fam16.columns=[f'{a.replace("_"," ")}: {b}' for a,b in fam16.columns];fam16=fam16.reset_index().rename(columns={'ticker':'Company','subject':'Contrast'})
+    p.append(T('What changed in the frozen return family, and why',fam16,
+      'Baseline published: version 3 as reported. Baseline new inference: the version-3 forecasts rescored with the version-4 bootstrap, so any movement there is the inference change alone. Revision: version-4 forecasts, whose differences from the middle columns come from refitting (grid, intercept-only choice, monthly inner validation). Neither version finds a contrast that survives Holm.'))
+    tune=changes[changes.item=='tuning'][['subject','baseline_published','revision']].rename(columns={'subject':'Model','baseline_published':'v3: share of refits at the grid maximum','revision':'v4: share choosing intercept-only'})
+    p.append(T('Tuning behaviour before and after the grid repair',tune,'Version 3\u2019s strongest penalty was the closest it could get to the benchmark; version 4 can choose the benchmark exactly.'))
+    p.append('<p>Every row, including model-score changes, is in <a href="../data/processed/baseline_vs_revision.csv">baseline_vs_revision.csv</a>, and the '
+      'issue register in <a href="../data/processed/issue_register.csv">issue_register.csv</a>.</p>')
+    p.append('</section>')
     p.append('<section id="repro"><h2>Reproducibility and appendices</h2>')
     p.append('<p>One offline command rebuilds every number, figure and table in this report from the archived inputs:</p>'
       '<pre>/tmp/mtrn-research-venv/bin/python MTRN/experiments/financial_valuation_models/code/run_experiments.py</pre>'
@@ -927,19 +1110,23 @@ def build():
       'It makes no network calls; retrieval is a separate entry point (<code>code/fetch_external.py</code>) that never overwrites an existing archive. '
       'Seeds are fixed at 20260918 and the pipeline is deterministic: re-running it reproduces the saved forecast ledger exactly.</p>')
     p.append(T('Frozen configuration',pd.DataFrame(sorted((str(k),str(v)) for k,v in CONFIG.items()),columns=['Setting','Value']),
-      'The complete frozen configuration, also saved as config.json. Penalty grids, order candidates, gates, seeds and block lengths were fixed before scoring.'))
+      'The complete version-4 configuration, also saved as config.json. Grids, families, order candidates, gates, seeds and block lengths were fixed in REVISION_SPEC.md before rescoring; the one later addition is logged in revision_freeze.json.'))
     p.append(T('Deferred and unavailable inputs',deferrals.rename(columns={'component':'Requested input','reason':'Why it is not implemented'}),
       'Each remains visible as an explicit deferral. None was replaced by a substitute and none was dropped from the report’s scope statement.'))
     reg_show=registry[['variable','name','group','formula','units','transformation','availability','missing_treatment','status']] if 'transformation' in registry.columns else registry
     p.append('<details><summary>Appendix A. Complete variable dictionary ('+str(len(registry))+' entries)</summary>'+table(reg_show,
       'Every implemented, reported and deferred variable with its exact formula, units, transformation form, availability rule and missing-value treatment.')+'</details>')
     p.append('<details><summary>Appendix B. All model scores</summary>'+table(s,'Every model, task, horizon and issuer scored on matched dates.')+'</details>')
-    p.append('<details><summary>Appendix C. Matched successful-fit scores (fallbacks excluded)</summary>'+table(successful,
-      'The same models re-scored on origins where no forecast fell back. A fallback is a recorded failure, never evidence for the model that failed.')+'</details>')
-    degenerate=family[family.get('degenerate')==True] if 'degenerate' in family.columns else family.iloc[0:0]
-    p.append('<details><summary>Appendix D. Frozen comparison family with Holm adjustment</summary>'
-      +('<p>'+esc(f'{len(degenerate)} of the sixteen contrasts could not actually be run: both specifications produced identical forecasts because the distinguishing predictor failed the training coverage gate. Those rows are untested contrasts, not measured nulls, and are flagged in the degenerate column.')+'</p>' if len(degenerate) else '')
-      +table(family,'The sixteen prespecified contrasts. Every other comparison in this report is exploratory.')+'</details>')
+    p.append('<details><summary>Appendix C. Successful-fit scores (fallbacks excluded)</summary>'+table(successful,
+      'Each model re-scored on origins where it did not fall back. Paired comparisons use each pair\u2019s own intersection of successful fits whenever a fallback occurs. A fallback is a recorded failure, never evidence for the model that failed.')+'</details>')
+    untested=family[family.status!='tested']
+    p.append('<details><summary>Appendix D. Declared comparison families with Holm adjustment</summary>'
+      +('<p>'+esc(f'{len(untested)} declared contrasts were untested because both sides produced identical forecasts at every origin; the status column gives the reason. They are not measured nulls.')+'</p>' if len(untested) else '')
+      +table(family,'Families R16, RJ4, V20 and VJ5. Holm applies within each family to tested rows only. Every other comparison in this report is exploratory.')+'</details>')
+    p.append('<details><summary>Appendix D2. Inference calibration and detectable effects</summary>'+table(calibration,'Empirical size of the paired test at nominal 5%, by series, issuer and block length, with the declared rule.')
+      +table(detect[(detect.task=='return')&(detect.reduced=='historical_mean')],'Detectable loss reductions for return models against the historical mean (80% power, 5% two-sided, normal approximation).')+'</details>')
+    p.append('<details><summary>Appendix D3. Specification complexity and selection</summary>'+table(specsum[specsum.horizon==1],
+      'Per model and issuer across refits: intercept-only share, retained predictors, missing indicators, exclusions, effective degrees of freedom, condition number and rank. Per-fit rows are in specification_records.csv and exclusion changes in exclusion_log.csv.')+'</details>')
     p.append('<details><summary>Appendix E. Ablation scores, both ladders and leave-one-block-out</summary>'+table(ablation,
       'Absolute and paired incremental performance for each stage, with the sign convention stated in every row.')+'</details>')
     p.append('<details><summary>Appendix F. Model failures and fallbacks</summary>'+table(failures if len(failures) else pd.DataFrame([{'note':'No model fit failed during this run'}]),
@@ -952,11 +1139,13 @@ def build():
       'Across-refit variation, not sampling confidence intervals. Correlated predictors can exchange coefficients without changing forecasts.')+'</details>')
     p.append('<details><summary>Appendix I. Split manifest</summary>'+table(splits.head(200),
       'First 200 rows; the complete manifest is in split_manifest.csv. Each row records the training interval, the inner validation boundaries and whether the origin retuned.')+'</details>')
-    p.append('<p>Machine-readable outputs: '+' · '.join(link(n) for n in ['forecasts','model_scores','ablation_scores','paired_loss_comparisons','primary_comparison_family','successful_fit_scores','split_manifest','parameter_paths','model_failures','feature_registry','metric_registry','experiment_registry','coverage_and_deferrals','feature_availability_audit','monthly_features_as_known','exposure_map','figure_manifest','table_manifest'])+'.</p>')
+    p.append('<p>Machine-readable outputs: '+' · '.join(link(n) for n in ['forecasts','model_scores','ablation_scores','paired_loss_comparisons','inference_families','primary_comparison_family','clark_west','inference_calibration','detectable_effects','influence_diagnostics','horizon_common_origin_scores','regime_definitions','successful_fit_scores','split_manifest','parameter_paths','specification_records','specification_summary','exclusion_log','tuning_history','model_failures','feature_registry','metric_registry','experiment_registry','coverage_and_deferrals','feature_availability_audit','monthly_features_as_known','exposure_map','issue_register','baseline_vs_revision','figure_manifest','table_manifest'])+'.</p>')
     p.append('<p>Provenance and audits: <a href="../config.json">frozen configuration</a> · <a href="../sources/manifest.json">download manifest</a> · '
       '<a href="../data/processed/validation_results.json">validation results</a> · <a href="../CONTINUATION_AUDIT.json">continuation audit</a> · '
-      '<a href="../COMPLETION_AUDIT.json">completion audit</a> · <a href="../README.md">reproduction notes</a> · '
-      '<a href="../../prompt_v2_financial_valuation_models.md">governing protocol</a>.</p>')
+      '<a href="../COMPLETION_AUDIT.json">completion audit</a> · <a href="../REVISION_AUDIT.json">revision audit</a> · <a href="../README.md">reproduction notes</a> · '
+      '<a href="../../prompt_v2_financial_valuation_models.md">governing protocol</a> · <a href="../../prompt__revision.md">review document</a> · '
+      '<a href="../REVISION_SPEC.md">revision specification</a> · <a href="../revision_freeze.json">freeze record</a> · <a href="../baseline_v3/MANIFEST.json">version-3 baseline manifest</a> · '
+      '<a href="../../../RESOURCE_LINKS.md">link-only source record</a>.</p>')
     p.append('<p>The earlier historical-attribution study, its seven figures and all of its numerical outputs are preserved unchanged and hash-verified; '
       'none of its results is reused here as predictive evidence.</p>')
     p.append('</section>')

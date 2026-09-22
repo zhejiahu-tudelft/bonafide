@@ -1,0 +1,4 @@
+regime,frequency,used_for,definition,timing,states_in_evaluation
+high_vol_regime,monthly forecast origin,regime scores of out-of-sample forecasts,SPY within-month daily-return SD for the completed origin month above the median of the preceding 60 monthly values (at least 36),Known at the origin close; the target month never enters,12 high / 32 low of 44 origins
+rate_rising_regime,monthly forecast origin,regime scores of out-of-sample forecasts,Three-month change in the as-known 10-year Treasury yield above zero; an unavailable change is left unclassified,Known at the origin close,28 rising / 16 not rising of 44 origins
+high_vol (correlation),trading day,high- minus low-volatility correlation contrasts,"SPY 63-session daily-return SD, lagged one session, above its trailing 252-session median (at least 126)",Known the session before each daily return,"1214 high / 1479 low sessions, 2016 to cutoff"

@@ -1,21 +1,34 @@
 """Small deterministic estimators with training-only preprocessing and tuning."""
-import json, warnings
+import hashlib, json, warnings
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LinearRegression,Ridge,Lasso,ElasticNet
 from sklearn.ensemble import RandomForestRegressor,GradientBoostingRegressor
 from settings import SEED,CONFIG
 
+# Every tuned procedure may choose to forecast the training mean: when validation
+# finds no usable signal, the fitted model collapses to the historical-mean benchmark.
+INTERCEPT='intercept_only'
+
 class Regressor:
     def __init__(self,kind='ridge',parameter=1.):
-        # Elastic Net carries a (penalty, mixing) pair; every other estimator a scalar.
-        self.kind=kind;self.parameter=parameter
-        self.alpha,self.mix=(parameter if isinstance(parameter,(tuple,list)) else (parameter,.5))
+        # Elastic Net carries a (lambda, mixing) pair; every other estimator a scalar.
+        self.kind=kind;self.parameter=parameter;self.intercept_only=parameter==INTERCEPT
+        self.alpha,self.mix=(None,None) if self.intercept_only else (parameter if isinstance(parameter,(tuple,list)) else (parameter,.5))
     def fit(self,X,y):
         a=X.replace([np.inf,-np.inf],np.nan)
-        names=a.columns[(a.notna().mean()>=CONFIG['feature_training_min_coverage']) & (a.std()>1e-12)]
-        self.columns=list(names);a=a[names].to_numpy(float)
-        if not len(names):raise ValueError('No eligible varying predictors in training data')
+        gate=CONFIG['feature_training_min_coverage'];coverage=a.notna().mean();spread=a.std()
+        # Record why each candidate predictor is absent from this particular fit.
+        self.candidates=list(a.columns)
+        self.excluded={c:('training coverage below gate' if coverage[c]<gate else 'constant in training window')
+                       for c in a.columns if not (coverage[c]>=gate and spread[c]>1e-12)}
+        self.columns=[c for c in a.columns if c not in self.excluded]
+        self.ymean=float(np.mean(y));self.yscale=max(float(np.std(y)),1e-8);self.n=len(a)
+        if self.intercept_only:
+            self.names=[];self.model=None;self._design=None;self.missing=np.zeros(0,bool)
+            return self
+        if not self.columns:raise ValueError('No eligible varying predictors in training data')
+        a=a[self.columns].to_numpy(float)
         self.low=np.nanquantile(a,.01,axis=0);self.high=np.nanquantile(a,.99,axis=0)
         a=np.clip(a,self.low,self.high);self.median=np.nanmedian(a,axis=0)
         self.missing=np.any(~np.isfinite(a),axis=0)
@@ -23,66 +36,124 @@ class Regressor:
         self.center=b.mean(axis=0);self.scale=b.std(axis=0);self.scale[self.scale<1e-12]=1
         self.names=self.columns+[x+' missing' for x,m in zip(self.columns,self.missing) if m]
         b=self.transform(X)
-        self.ymean=float(np.mean(y));self.yscale=max(float(np.std(y)),1e-8)
         z=(np.asarray(y)-self.ymean)/self.yscale
         p=self.alpha
         if self.kind=='ols':model=LinearRegression()
-        elif self.kind=='ridge':model=Ridge(alpha=p)
+        # Per-observation penalty: the same lambda means the same shrinkage per
+        # observation in an individual fit and in a four-issuer pooled fit.
+        elif self.kind=='ridge':model=Ridge(alpha=p*len(b))
         elif self.kind=='lasso':model=Lasso(alpha=p,max_iter=10000,tol=1e-5)
         elif self.kind=='elastic':model=ElasticNet(alpha=p,l1_ratio=self.mix,max_iter=10000,tol=1e-5)
         elif self.kind=='forest':model=RandomForestRegressor(n_estimators=80,max_depth=3 if p==0 else 5,min_samples_leaf=8 if p==0 else 12,max_features=.7,n_jobs=1,random_state=SEED)
         elif self.kind=='boost':model=GradientBoostingRegressor(n_estimators=60 if p==0 else 100,max_depth=1 if p==0 else 2,min_samples_leaf=10,learning_rate=.04,loss='squared_error',random_state=SEED)
         else:raise ValueError(self.kind)
         with warnings.catch_warnings():warnings.simplefilter('ignore');model.fit(b,z)
-        self.model=model
+        self.model=model;self._design=b
         return self
     def transform(self,X):
         a=X[self.columns].replace([np.inf,-np.inf],np.nan).to_numpy(float)
         missing=~np.isfinite(a);a=np.clip(a,self.low,self.high)
         a=np.where(missing,self.median,a);a=(a-self.center)/self.scale
         return np.column_stack([a,missing[:,self.missing].astype(float)])
-    def predict(self,X):return self.ymean+self.yscale*self.model.predict(self.transform(X))
+    def predict(self,X):
+        if self.intercept_only:return np.full(len(X),self.ymean)
+        return self.ymean+self.yscale*self.model.predict(self.transform(X))
     def effects(self):
+        if self.intercept_only:return []
         values=getattr(self.model,'coef_',getattr(self.model,'feature_importances_',np.zeros(len(self.names))))
         effect_type='coefficient per training SD in target units' if hasattr(self.model,'coef_') else 'training impurity importance, noncausal'
         if hasattr(self.model,'coef_'):values=values*self.yscale
         return [dict(variable=n,effect=float(v),effect_type=effect_type,center=float(self.center[i]) if i<len(self.columns) else 0,scale=float(self.scale[i]) if i<len(self.columns) else 1,impute=float(self.median[i]) if i<len(self.columns) else 0,clip_lo=float(self.low[i]) if i<len(self.columns) else 0,clip_hi=float(self.high[i]) if i<len(self.columns) else 1) for i,(n,v) in enumerate(zip(self.names,values))]
+    def describe(self):
+        """Complexity and selection record for this fitted specification.
+
+        Rank and condition number are for the centred, standardised design actually
+        passed to the estimator (missing indicators included). Removing exactly
+        duplicated columns does not guarantee full rank or remove economic overlap.
+        Effective degrees of freedom: trace of the ridge hat matrix, the rank for OLS,
+        the count of nonzero coefficients for Lasso/Elastic Net; trees report leaves.
+        """
+        record=dict(candidates=len(self.candidates),retained=len(self.columns),
+            missing_indicators=int(np.sum(self.missing)),
+            excluded_low_coverage=sum(v.startswith('training coverage') for v in self.excluded.values()),
+            excluded_constant=sum(v.startswith('constant') for v in self.excluded.values()),
+            # Identity of the predictors that passed the gate, before any selection, so
+            # identical sets on both sides of a contrast reveal an untestable comparison.
+            retained_set=hashlib.sha1('|'.join(self.columns).encode()).hexdigest()[:12] if self.columns else 'none',
+            intercept_only=self.intercept_only,train_rows=self.n,rank=0,condition_number=np.nan,effective_df=0.,nonzero_coefficients=0,tree_leaves=np.nan)
+        if self.intercept_only:return record
+        x=self._design-self._design.mean(axis=0);s=np.linalg.svd(x,compute_uv=False);tol=s.max()*max(x.shape)*np.finfo(float).eps if s.size else 0
+        record['rank']=int(np.sum(s>tol));record['condition_number']=float(s[0]/s[s>tol][-1]) if record['rank'] else np.nan
+        coef=getattr(self.model,'coef_',None)
+        if coef is not None:record['nonzero_coefficients']=int(np.sum(np.abs(coef)>1e-12))
+        if self.kind=='ridge':record['effective_df']=float(np.sum(s**2/(s**2+self.alpha*len(x))))
+        elif self.kind=='ols':record['effective_df']=float(record['rank'])
+        elif self.kind in ('lasso','elastic'):record['effective_df']=float(record['nonzero_coefficients'])
+        else:
+            record['effective_df']=np.nan
+            trees=self.model.estimators_.ravel() if self.kind=='boost' else self.model.estimators_
+            record['tree_leaves']=int(sum(t.get_n_leaves() for t in trees))
+        return record
+
+class SpecLog:
+    """Per-fit specification records plus a change log of excluded predictors."""
+    def __init__(self):self.rows=[];self.exclusions=[];self.last={}
+    def add(self,fit,**key):
+        self.rows.append(dict(**key,hyperparameter=str(fit.parameter),**fit.describe()))
+        k=tuple(key.get(x) for x in ('task','horizon','ticker','model','window'))
+        now=fit.excluded;before=self.last.get(k,{})
+        for v in sorted(set(now)|set(before)):
+            if now.get(v)!=before.get(v):self.exclusions.append(dict(**key,variable=v,status=now.get(v,'readmitted')))
+        self.last[k]=dict(now)
 
 def candidates(kind):
-    if kind in ['forest','boost']:return [0,1]
     if kind=='ols':return [0]
-    if kind=='elastic':return [(a,m) for a in CONFIG['regularization_grid'] for m in CONFIG['elastic_mixing']]
-    return list(CONFIG['regularization_grid'])
+    grid=CONFIG['lambda_grid']
+    if kind in ['forest','boost']:base=[0,1]
+    elif kind=='elastic':base=[(a,m) for a in grid for m in CONFIG['elastic_mixing']]
+    else:base=list(grid)
+    return ([INTERCEPT] if CONFIG['intercept_only_candidate'] else [])+base
 
-def simplicity(parameter):
-    """Ordering for the tie rule: a stronger penalty is the simpler candidate."""
+def simplicity(parameter,kind='ridge'):
+    """Tie-rule order, simplest first: intercept-only, then smaller tree capacity or
+    a stronger penalty, then a larger L1 share."""
+    if parameter==INTERCEPT:return (0,0.,0.)
+    if kind in ('forest','boost','ols'):return (1,float(parameter),0.)
     alpha,mix=parameter if isinstance(parameter,(tuple,list)) else (parameter,.5)
-    return (-float(alpha),-float(mix))
+    return (1,-float(alpha),-float(mix))
 
 def tune(kind,X,y,dates,variance=False,horizon=1):
-    unique=np.sort(np.unique(dates));trials=[]
-    if len(unique)<84:return candidates(kind)[-1],[]
-    for p in candidates(kind):
+    """Choose a hyperparameter on the last 24 origins of the training history.
+
+    Mirrors the outer procedure: at each inner origin the candidate is refitted on
+    rows dated before it whose targets had matured by it, then forecasts that
+    origin's rows. Losses are pooled over the 24 origins (two 12-month blocks).
+    """
+    dates=np.asarray(dates);y=np.asarray(y,float);unique=np.sort(np.unique(dates));options=candidates(kind)
+    if len(options)==1:return options[0],[]
+    if len(unique)<84:
+        return min(options,key=lambda p:simplicity(p,kind)),[dict(parameter='insufficient history',validation_loss=np.nan)]
+    label_ends=(pd.to_datetime(dates)+pd.offsets.MonthEnd(horizon)).strftime('%Y-%m-%d').to_numpy()
+    folds=[((dates<v)&(label_ends<=v),dates==v) for v in unique[-24:]]
+    matured=all(label_ends[train].max()<=v for (train,_),v in zip(folds,unique[-24:]))
+    trials=[]
+    for p in options:
         errors=[]
-        for offset in [24,12]:
-            boundary=unique[-offset];end=unique[-offset+12] if offset>12 else None
-            train=np.asarray(dates)<boundary;valid=np.asarray(dates)>=boundary
-            label_ends=(pd.to_datetime(dates)+pd.offsets.MonthEnd(horizon)).strftime('%Y-%m-%d').to_numpy()
-            train &= label_ends<=boundary
-            if end is not None:valid &= np.asarray(dates)<end
+        for train,valid in folds:
             try:
-                fit=Regressor(kind,p).fit(X.loc[train],np.asarray(y)[train]);pred=fit.predict(X.loc[valid])
+                fit=Regressor(kind,p).fit(X.loc[train],y[train]);pred=fit.predict(X.loc[valid])
                 if variance:
-                    smear=np.mean(np.exp(np.asarray(y)[train]-fit.predict(X.loc[train])))
-                    ratio=np.exp(np.asarray(y)[valid]-pred)/smear
+                    smear=np.mean(np.exp(y[train]-fit.predict(X.loc[train])))
+                    ratio=np.exp(y[valid]-pred)/smear
                     errors.extend(ratio-np.log(ratio)-1)
-                else:errors.extend((np.asarray(y)[valid]-pred)**2)
+                else:errors.extend((y[valid]-pred)**2)
             except Exception:errors.append(np.inf)
-        trials.append(dict(parameter=p,validation_mse=float(np.mean(errors))))
-    finite=[x for x in trials if np.isfinite(x['validation_mse'])]
-    if not finite:return candidates(kind)[-1],trials
-    best=min(finite,key=lambda x:(x['validation_mse'],simplicity(x['parameter'])))
-    return best['parameter'],trials
+        trials.append(dict(parameter=str(p),validation_loss=float(np.mean(errors)),inner_origins=len(folds),
+                           first_inner_origin=unique[-24],labels_matured=matured,_p=p))
+    finite=[x for x in trials if np.isfinite(x['validation_loss'])]
+    best=min(finite,key=lambda x:(x['validation_loss'],simplicity(x['_p'],kind)))['_p'] if finite else min(options,key=lambda p:simplicity(p,kind))
+    for x in trials:x.pop('_p')
+    return best,trials
 
 def load_frame():
     from settings import OUT

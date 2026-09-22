@@ -1,0 +1,97 @@
+{
+  "audit_date": "2026-09-22",
+  "review_document": "MTRN/experiments/prompt__revision.md",
+  "review_sha256": "b79a83d7dc54a78340d35c0b3fd46ec62fb5ebfb608b0dbf25088b3dab596365",
+  "status": "post-hoc revision of an exploratory study; decisions frozen before rescoring, evaluation sample already seen",
+  "baseline": {
+    "version": 3,
+    "git_commit": "bef7b32",
+    "snapshot": "baseline_v3/",
+    "reproduced_bit_for_bit": "all data outputs, the HTML report and PNG figures; SVGs differed only in timestamp and random ids"
+  },
+  "specification": {
+    "file": "REVISION_SPEC.md",
+    "sha256": "cfe2af2587943f06cd24686bfe6a4f1f528e639639ee4aaad39f6d1e0ec5e034",
+    "frozen_at": "2026-09-21T20:10:39+00:00",
+    "scored_at": "2026-09-21T23:12:35+00:00",
+    "amendments": [
+      {
+        "number": 1,
+        "recorded_at": "2026-09-21T22:36:16+00:00",
+        "change": "Supplementary calibration series core_ols minus historical_mean for the return task, reported beside the declared series.",
+        "reason": "After the first revised scoring run, the declared return series (boost_full minus historical_mean) was identically zero for MTRN and ENTG and nonzero in only 18% of months for CRS and ATI, because validation selected the intercept-only candidate. Demeaning such a sparse series creates near-constant synthetic samples, so its empirical size says little about the test on dense differentials.",
+        "effect_on_rules": "None. The declared series and the declared descriptive-only rule are unchanged and still govern; the supplementary series is descriptive context.",
+        "spec_changed": false
+      },
+      {
+        "number": 2,
+        "recorded_at": "2026-09-21T22:36:16+00:00",
+        "change": "Family status: identical_by_exclusion is checked before identical_by_selection, and the retained-set identity is taken before selection.",
+        "reason": "Implementation correction found on inspection: an intercept-only fit recorded an empty retained set, so a contrast whose distinguishing predictor failed the coverage gate (ATI P/E) was labelled identical_by_selection. The specification already states that exclusion makes a contrast untestable.",
+        "effect_on_rules": "Labels only; no loss, interval or p-value changes.",
+        "spec_changed": false
+      }
+    ]
+  },
+  "issues": {
+    "accepted": 37,
+    "already satisfied": 3,
+    "rejected": 2,
+    "deferred": 2,
+    "accepted as exploratory": 1,
+    "partially accepted": 1
+  },
+  "issues_unresolved": [
+    "Additional data collection",
+    "Wider panel, analyst archives, intraday variance, clustering"
+  ],
+  "families": {
+    "R16": {
+      "declared": 16,
+      "tested": 15,
+      "survive_holm": 0,
+      "unadjusted_exclusions": 0
+    },
+    "RJ4": {
+      "declared": 4,
+      "tested": 4,
+      "survive_holm": 0,
+      "unadjusted_exclusions": 0
+    },
+    "V20": {
+      "declared": 20,
+      "tested": 20,
+      "survive_holm": 0,
+      "unadjusted_exclusions": 2
+    },
+    "VJ5": {
+      "declared": 5,
+      "tested": 5,
+      "survive_holm": 0,
+      "unadjusted_exclusions": 0
+    }
+  },
+  "calibration": {
+    "declared / return": 0.298,
+    "declared / variance": 0.252,
+    "supplementary / return": 0.142
+  },
+  "inference_status": [
+    "descriptive only (size above declared limit)"
+  ],
+  "r16_decision_changes": {
+    "from_inference_change": 0,
+    "from_refit": 0
+  },
+  "validation_passed": true,
+  "supports": [
+    "No reliable out-of-sample return improvement over the historical mean for any issuer, family or joint contrast",
+    "Issuer-specific point-estimate variance gains over persistence (most consistent for CRS)"
+  ],
+  "does_not_support": [
+    "Any causal, alpha or portfolio-improvement claim",
+    "A stable absence of any return relationship (a failure to reject is not equivalence)",
+    "A statistically established variance improvement (the test is miscalibrated on these losses)",
+    "Transfer of CRS results to MTRN"
+  ]
+}

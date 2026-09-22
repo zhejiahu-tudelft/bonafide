@@ -45,7 +45,7 @@
     {
       "check": "Source archive integrity",
       "status": "passed",
-      "details": "92 file hashes verified; 58 source entries point to retained evidence."
+      "details": "62 retained file hashes verified; 30 link-only or derived copies documented in RESOURCE_LINKS.md; 58 source entries point to retained or link-documented evidence."
     }
   ]
 }

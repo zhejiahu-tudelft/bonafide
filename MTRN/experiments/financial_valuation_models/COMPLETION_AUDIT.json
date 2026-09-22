@@ -1,9 +1,10 @@
 {
-  "audit_date": "2026-09-21",
+  "audit_date": "2026-09-22",
   "validation_passed": true,
-  "checks_passed": 42,
-  "checks_total": 42,
-  "method_tests": "16 passed (tests/test_methods.py)",
+  "checks_passed": 75,
+  "checks_total": 75,
+  "method_tests": "25 passed (tests/test_methods.py; the rebuild stops on any failure)",
+  "version": 4,
   "required_artifacts": {
     "data/processed/feature_registry.csv": "present",
     "data/processed/exposure_map.csv": "present",
@@ -27,10 +28,26 @@
     "sources/manifest.json": "present",
     "config.json": "present",
     "README.md": "present",
-    "final/Financial_Valuation_Model_Comparison.html": "present"
+    "final/Financial_Valuation_Model_Comparison.html": "present",
+    "REVISION_SPEC.md": "present",
+    "revision_freeze.json": "present",
+    "baseline_v3/MANIFEST.json": "present",
+    "data/processed/scoring_run.json": "present",
+    "data/processed/inference_families.csv": "present",
+    "data/processed/clark_west.csv": "present",
+    "data/processed/inference_calibration.csv": "present",
+    "data/processed/detectable_effects.csv": "present",
+    "data/processed/influence_diagnostics.csv": "present",
+    "data/processed/horizon_common_origin_scores.csv": "present",
+    "data/processed/regime_definitions.csv": "present",
+    "data/processed/specification_records.csv": "present",
+    "data/processed/specification_summary.csv": "present",
+    "data/processed/exclusion_log.csv": "present",
+    "data/processed/issue_register.csv": "present",
+    "data/processed/baseline_vs_revision.csv": "present"
   },
-  "figures": 18,
-  "tables": 26,
+  "figures": 21,
+  "tables": 38,
   "issuers_modelled": [
     "ATI",
     "CRS",
@@ -38,10 +55,10 @@
     "MTRN"
   ],
   "out_of_sample_months": 44,
-  "forecast_records": 14884,
+  "forecast_records": 15632,
   "model_failures": 0,
   "tasks_scored": [
-    "excess_return",
+    "market_relative_return",
     "return",
     "variance"
   ],
@@ -57,8 +74,8 @@
   ],
   "experiments_deferred": [],
   "what_was_learned": {
-    "return_task": "No factor block, transformation, added lag or ARMA error process reliably improved on the expanding historical mean. Estimates are imprecise rather than measured zeros.",
-    "variance_task": "Several variance models improve on the 63-session persistence benchmark; the gains come mainly from pooling and persistence, not from added external volatility inputs.",
+    "return_task": "No factor block, transformation, added lag or ARMA error process reliably improved on the expanding historical mean; with an intercept-only option, validation usually chose the benchmark itself. Estimates are imprecise rather than measured zeros.",
+    "variance_task": "Point-estimate gains over 63-session persistence for CRS and ATI; ENTG gains rest on April 2025; MTRN persistence is hard to beat. In the controlled 2x2 matrix neither pooling nor external inputs survives Holm, and the paired test over-rejects on these heavy-tailed losses, so no variance discovery is claimed.",
     "recommendation": "Retain the historical-mean benchmark for the return task; the simplest model the evidence supports."
   },
   "what_remains_untested": [

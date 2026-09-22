@@ -49,3 +49,22 @@ the market's realised return over the identical month, are scored as separate ta
 
 Four one-month-return contrasts per eligible issuer are frozen as the primary comparison family and
 carry Holm adjustment across the resulting sixteen comparisons. Everything else is exploratory.
+
+## Version 4 revision addendum (2026-09-21)
+
+Version 4 applies the justified recommendations of the methodological review in
+`../prompt__revision.md`. The binding decisions are in `REVISION_SPEC.md`, frozen before rescoring,
+with later amendments logged in `revision_freeze.json`; where they differ from the text above,
+`REVISION_SPEC.md` governs. In summary: a per-observation ridge penalty with a λ grid from 1e-4 to
+100 plus an intercept-only candidate for every tuned procedure; inner validation that refits at
+each of the last 24 training origins on matured labels; a rolling window tuned on its own history;
+one circular block bootstrap giving compatible intervals and p-values (B = 1999); four declared
+families (R16, RJ4, V20, VJ5) with Holm within each; a controlled individual/pooled ×
+persistence/external variance matrix; Clark–West for fixed nested OLS pairs; loss-only influence,
+calibration and detectable-effect diagnostics; and the market-relative rename of the secondary
+target.
+
+Correction to the addendum above: it stated that retaining the P/E percentage change in the
+valuation-free model "biased the estimated contribution of the valuation block toward zero". That
+direction is not established — a regularised model can use or ignore a leaked column — and the
+correction is one of validity, not of a predictable shift in the estimate.

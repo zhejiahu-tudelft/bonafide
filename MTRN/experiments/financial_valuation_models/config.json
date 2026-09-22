@@ -1,22 +1,33 @@
 {
-  "version": 3,
+  "version": 4,
   "cutoff": "2026-09-18",
   "last_complete_month": "2026-08-31",
   "first_target": "2016-01-31",
   "initial_training_months": 84,
   "first_primary_target": "2023-01-31",
+  "first_primary_origin": "2022-12-30",
+  "last_primary_origin": "2026-07-31",
   "inner_validation_months": 24,
+  "inner_validation": "two 12-month blocks; refit at each of the 24 inner origins on labels matured by that origin",
   "refit": "each origin",
-  "retune": "annually; fixed candidates between retunes",
-  "bootstrap_reps": 2000,
+  "retune": "first origin and every December origin (forecasting the January target)",
+  "bootstrap_reps": 1999,
+  "bootstrap_scheme": "circular block, calendar months",
   "bootstrap_block_months": 6,
+  "bootstrap_block_sensitivity": [
+    3,
+    12
+  ],
+  "confidence": 0.95,
   "seed": 20260918,
   "feature_training_min_coverage": 0.7,
   "feature_clip_quantiles": [
     0.01,
     0.99
   ],
-  "regularization_grid": [
+  "lambda_grid": [
+    0.0001,
+    0.001,
     0.01,
     0.1,
     1.0,
@@ -28,6 +39,8 @@
     0.5,
     0.8
   ],
+  "intercept_only_candidate": true,
+  "penalty_convention": "Ridge minimises (1/n)|y-Xb|^2 + lambda|b|^2, i.e. scikit-learn alpha = lambda*n_train; Lasso/Elastic Net alpha = lambda (already per observation)",
   "arima_orders": [
     [
       0,
@@ -58,6 +71,116 @@
     "industry_relative",
     "driver_return"
   ],
+  "financial_extension": [
+    "fcf_equipment_assets",
+    "debt_assets"
+  ],
+  "equity_inputs": [
+    "roe",
+    "roe_diff",
+    "book_yield",
+    "debt_equity"
+  ],
+  "variance_persistence": [
+    "vol_21",
+    "vol_63",
+    "vol_252"
+  ],
+  "variance_external": [
+    "vol_21",
+    "vol_63",
+    "vol_252",
+    "market_vol",
+    "vix",
+    "industry_vol",
+    "driver_vol",
+    "yield_10y_change"
+  ],
+  "families": {
+    "R16": [
+      [
+        "valuation_added",
+        "ridge_full",
+        "without_valuation"
+      ],
+      [
+        "transformations_vs_levels",
+        "core_pe_difference",
+        "core_pe_level"
+      ],
+      [
+        "arma_vs_static",
+        "arimax",
+        "arma_static"
+      ],
+      [
+        "lags_vs_static",
+        "distributed_all_lag1",
+        "core_ridge"
+      ]
+    ],
+    "V20": [
+      [
+        "persistence_vs_naive",
+        "variance_ridge_persistence",
+        "historical_variance63"
+      ],
+      [
+        "pooling_persistence",
+        "pooled_variance_persistence",
+        "variance_ridge_persistence"
+      ],
+      [
+        "pooling_external",
+        "pooled_variance_external",
+        "variance_ridge_external"
+      ],
+      [
+        "external_individual",
+        "variance_ridge_external",
+        "variance_ridge_persistence"
+      ],
+      [
+        "external_pooled",
+        "pooled_variance_external",
+        "pooled_variance_persistence"
+      ]
+    ]
+  },
+  "clark_west_pairs": [
+    [
+      "core_ols",
+      "historical_mean"
+    ],
+    [
+      "ar1",
+      "historical_mean"
+    ],
+    [
+      "arx",
+      "core_ols"
+    ],
+    [
+      "core_ols_financial_ext",
+      "core_ols"
+    ]
+  ],
+  "calibration": {
+    "simulations": 500,
+    "return_pair": [
+      "boost_full",
+      "historical_mean"
+    ],
+    "variance_pair": [
+      "garch11",
+      "historical_variance63"
+    ],
+    "descriptive_only_if_size_above": 0.1,
+    "supplementary_return_pair": [
+      "core_ols",
+      "historical_mean"
+    ]
+  },
   "rolling_months": 84,
   "garch_training_days": 1260,
   "ewma_lambda": 0.94,

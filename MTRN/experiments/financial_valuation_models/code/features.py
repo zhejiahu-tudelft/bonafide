@@ -200,6 +200,26 @@ SEGMENTS={
  'ELMT':[('Tungsten and molybdenum products','2026-04-23','tungsten and molybdenum prices and supply','no accessible historical series','USD/unit','Input scarcity and defence stockpiling affect price and volume','both revenue and cost','ambiguous','Government contracts and grants alter economics','n/a','thin and partly proprietary pricing data','business','unavailable','No comparable accessible history; ELMT is excluded from formal models'),
       ('Defense and semiconductor end markets','2026-04-23','defense procurement and semiconductor demand','ITA and SOXX total returns','index return, fraction','Programme funding and chip demand drive volume','revenue','ambiguous','Contract ceilings are not recognised revenue','same-session index close','traded proxies only','industry','sample-gated','Five public months; descriptive case study only')]}
 
+def evidence(row):
+    """How strongly the mapping is supported, and what kind of series stands in for it.
+
+    A traded proxy failing to forecast does not disprove the operating mechanism:
+    SOXX and ITA are equity prices, not chip output or procurement volumes.
+    """
+    series=row['exact_series'];status=row['inclusion_status']
+    if status in ('unavailable','incomparable','sample-gated'):strength='not tested'
+    elif series.startswith('NG=F'):strength='weak and exploratory: indirect energy-cost hypothesis with no disclosed exposure weight'
+    elif series.startswith('HG=F'):strength='moderate: copper is a named input with disclosed metal pass-through'
+    elif status=='redundant-with-tested-representation':strength='moderate: represented by the issuer’s primary industry proxy'
+    else:strength='moderate: disclosed end-market exposure, measured with a traded proxy'
+    if 'total return' in series:kind='traded equity index (market proxy, not a physical demand indicator)'
+    elif 'futures' in series:kind='traded futures price (input-cost channel)'
+    elif row['feature_block']=='financial':kind='accounting disclosure'
+    else:kind='no accessible series'
+    basis=('Present-day segment description applied to the whole sample; not a point-in-time historical mapping'
+           if row['exposure_start']<='2013-12-31' else f"Dated from {row['exposure_start']}; earlier history is not comparable")
+    return dict(evidence_strength=strength,proxy_type=kind,mapping_basis=basis)
+
 def exposure_rows(ticker,industry,driver):
     """Economic mapping recorded before any statistical selection."""
     base=pd.read_csv(OLD/'data/processed/business_exposure.csv').set_index('ticker')
@@ -207,7 +227,7 @@ def exposure_rows(ticker,industry,driver):
     rows=[]
     for values in SEGMENTS[ticker]:
         row=dict(zip(columns,values))
-        rows.append(dict(issuer=ticker,**row,exposure_end=CUTOFF,
+        rows.append(dict(issuer=ticker,**row,**evidence(row),exposure_end=CUTOFF,
             evidence_date=CUTOFF,source=str(base.loc[ticker,'source_url']),
             modelled_industry_reference=industry,modelled_driver_series=driver if ticker!='ELMT' else 'none',
             comparability=str(base.loc[ticker,'comparability']),

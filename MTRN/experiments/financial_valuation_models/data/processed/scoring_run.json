@@ -1,0 +1,11 @@
+{
+  "scored_at": "2026-09-21T23:12:35+00:00",
+  "spec_sha256": "cfe2af2587943f06cd24686bfe6a4f1f528e639639ee4aaad39f6d1e0ec5e034",
+  "bootstrap_replications": 1999,
+  "blocks": [
+    3,
+    6,
+    12
+  ],
+  "primary_block": 6
+}

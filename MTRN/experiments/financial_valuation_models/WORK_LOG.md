@@ -1,5 +1,47 @@
 # Work log
 
+## Version 4 revision, 2026-09-21 to 2026-09-22 — complete
+
+A methodological review (`../prompt__revision.md`) was checked item by item against the code and
+outputs before anything changed. Every defect it named was confirmed:
+- intervals and p-values that disagreed in 24 of 305 six-month-block comparisons;
+- a ridge grid whose upper bound won in most fits;
+- inner validation that did not mirror the monthly refit;
+- a rolling window that borrowed the expanding model's penalty;
+- an uncontrolled pooling claim for variance;
+- blank leave-one-block-out losses (reversed lookup);
+- origins mislabelled as target months;
+- two unregistered compact inputs;
+- a hard-coded correlation exception;
+- descriptive coverage presented as eligibility;
+- conflated regime definitions;
+- per-model rather than per-pair successful-fit scoring;
+- five unsupported assertions.
+
+The revision also found a market-relative table rendered with variance columns, and SVG exports
+that embedded a timestamp.
+
+The owner chose to revise in place. The unchanged pipeline was first rerun in a fresh environment
+and reproduced every data output and the report byte for byte. Version 3 is frozen in
+`baseline_v3/` (commit `bef7b32`). The accepted repairs were written into `REVISION_SPEC.md` and
+frozen before any revised forecast was scored. Two later amendments, a supplementary calibration
+series and a status-label correction, are logged with reasons in `revision_freeze.json`.
+`data/processed/issue_register.csv` records every item: accepted, partially accepted, already
+satisfied, rejected or deferred.
+
+**Findings.** Returns are unchanged in substance. No family or joint contrast survives Holm, and
+the tuned models chose the intercept-only benchmark in most refits.
+
+Variance point estimates beat persistence for CRS and ATI. ENTG's gains rest on April 2025, and
+MTRN's persistence estimate is hard to beat. With identical inputs, neither pooling nor external
+inputs reliably lowers loss.
+
+The paired test over-rejects on the heavy-tailed variance losses (empirical size up to about 25%
+at nominal 5%), so all p-values are descriptive.
+
+The repository cleanup that preceded the revision is recorded in `../../RESOURCE_LINKS.md` and
+`../../resource_changes.json`.
+
 ## Continuation, 2026-09-21 — complete
 
 Resumed after the previous run stopped mid-file at `code/report.py`, where `make_figures()`

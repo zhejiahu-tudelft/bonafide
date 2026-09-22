@@ -1,0 +1,25 @@
+{
+  "spec": "REVISION_SPEC.md",
+  "spec_sha256": "cfe2af2587943f06cd24686bfe6a4f1f528e639639ee4aaad39f6d1e0ec5e034",
+  "frozen_at": "2026-09-21T20:10:39+00:00",
+  "baseline_commit": "bef7b32",
+  "note": "Post-hoc revision; decisions frozen before any revised forecast was scored.",
+  "amendments": [
+    {
+      "number": 1,
+      "recorded_at": "2026-09-21T22:36:16+00:00",
+      "change": "Supplementary calibration series core_ols minus historical_mean for the return task, reported beside the declared series.",
+      "reason": "After the first revised scoring run, the declared return series (boost_full minus historical_mean) was identically zero for MTRN and ENTG and nonzero in only 18% of months for CRS and ATI, because validation selected the intercept-only candidate. Demeaning such a sparse series creates near-constant synthetic samples, so its empirical size says little about the test on dense differentials.",
+      "effect_on_rules": "None. The declared series and the declared descriptive-only rule are unchanged and still govern; the supplementary series is descriptive context.",
+      "spec_changed": false
+    },
+    {
+      "number": 2,
+      "recorded_at": "2026-09-21T22:36:16+00:00",
+      "change": "Family status: identical_by_exclusion is checked before identical_by_selection, and the retained-set identity is taken before selection.",
+      "reason": "Implementation correction found on inspection: an intercept-only fit recorded an empty retained set, so a contrast whose distinguishing predictor failed the coverage gate (ATI P/E) was labelled identical_by_selection. The specification already states that exclusion makes a contrast untestable.",
+      "effect_on_rules": "Labels only; no loss, interval or p-value changes.",
+      "spec_changed": false
+    }
+  ]
+}

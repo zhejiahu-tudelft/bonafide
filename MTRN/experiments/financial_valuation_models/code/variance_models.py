@@ -4,7 +4,7 @@ import numpy as np,pandas as pd
 from scipy.optimize import minimize
 from scipy.signal import lfilter
 from settings import *
-from learning import Regressor,tune,load_frame,feature_sets
+from learning import Regressor,SpecLog,tune,load_frame,feature_sets
 from arch import arch_model
 
 def variance_filter(shocks,z,parameters,initial):
@@ -44,14 +44,15 @@ def garch_forecast(r,horizon,arch=False):
 def run():
     initialize();frame=load_frame();_,full=feature_sets()
     daily=pd.read_csv(OUT/'daily_returns.csv',index_col=0,parse_dates=True)
-    records=[];parameters=[];failures=[];tuning=[]
+    records=[];parameters=[];failures=[];tuning=[];log=SpecLog()
     for tk in CORE:
         d=frame[(frame.ticker==tk)&(frame.date>='2015-12-31')].dropna(subset=['variance_target']).reset_index(drop=True)
         industry='SOXX' if tk in ['MTRN','ENTG'] else 'ITA';driver='HG=F' if tk=='MTRN' else 'NG=F'
         specs={'variance_ridge':('ridge',full),'variance_forest':('forest',full),'variance_boost':('boost',full),
-               'variance_ridge_persistence':('ridge',['vol_21','vol_63','vol_252']),
+               # The pooled matrix in pooling.py reuses these two column lists exactly.
+               'variance_ridge_persistence':('ridge',CONFIG['variance_persistence']),
                'variance_ridge_market':('ridge',['vol_21','vol_63','vol_252','market_vol','vix','yield_10y_change']),
-               'variance_ridge_external':('ridge',['vol_21','vol_63','vol_252','market_vol','vix','industry_vol','driver_vol','yield_10y_change'])}
+               'variance_ridge_external':('ridge',CONFIG['variance_external'])}
         choices={}
         for i in range(84,len(d)):
             train=d.iloc[:i];test=d.iloc[[i]];row=test.iloc[0];origin=pd.Timestamp(row.origin)
@@ -99,18 +100,21 @@ def run():
                 try:
                     if refresh or name not in choices:
                         choices[name],trials=tune(kind,train[cols],y,train.date.to_numpy(),variance=True)
-                        tuning.extend(dict(ticker=tk,date=row.date,model=name,**x) for x in trials)
+                        tuning.extend(dict(ticker=tk,task='variance',window='expanding',date=row.date,model=name,**x) for x in trials)
                     fit=Regressor(kind,choices[name]).fit(train[cols],y)
                     smear=float(np.mean(np.exp(y-fit.predict(train[cols]))))
                     pred=float(np.exp(fit.predict(test[cols])[0])*smear)
-                    record(name,pred,hyperparameter=choices[name],smearing=smear)
+                    record(name,pred,hyperparameter=str(choices[name]),smearing=smear)
+                    log.add(fit,task='variance',horizon=1,ticker=tk,model=name,window='expanding',date=row.date)
                     if name in ['variance_ridge','variance_forest','variance_boost']:
                         parameters.extend(dict(ticker=tk,date=row.date,model=name,**x) for x in fit.effects())
                 except Exception as e:
                     record(name,baseline);records[-1]['fallback']=True;failures.append(dict(ticker=tk,date=row.date,model=name,error=str(e)))
             if refresh:print('VARIANCE',tk,row.target_end,'daily training',len(r),flush=True)
         print('VARIANCE COMPLETE',tk,flush=True)
-    for name,rows in [('forecasts_variance',records),('variance_parameters',parameters),('variance_failures',failures),('variance_tuning',tuning)]:
-        pd.DataFrame(rows).to_csv(OUT/f'{name}.csv',index=False)
+    pd.DataFrame(parameters).to_csv(OUT/'variance_parameters.csv',index=False)
+    for name,rows in [('forecasts_variance',records),('failures_variance',failures),('tuning_variance',tuning),
+                      ('specifications_variance',log.rows),('exclusions_variance',log.exclusions)]:
+        pd.DataFrame(rows).to_csv(INTERIM/f'{name}.csv',index=False)
 
 if __name__=='__main__':run()

@@ -1,501 +1,511 @@
-ticker,variable,group,observations,available,status,selected_by_a_recorded_primary_model
-ATI,market_return,market,129,129,implemented,True
-ATI,market_vol,market,129,129,implemented,True
-ATI,smallcap_return,market,129,129,implemented,True
-ATI,yield_10y,market,129,129,implemented,True
-ATI,yield_short,market,129,129,implemented,True
-ATI,yield_10y_change,market,129,129,implemented,True
-ATI,term_spread,market,129,129,implemented,True
-ATI,vix,market,129,129,implemented,True
-ATI,credit_spread,market,129,36,implemented,False
-ATI,credit_spread_change,market,129,35,implemented,False
-ATI,real_yield,market,129,129,implemented,True
-ATI,real_yield_change,market,129,129,implemented,True
-ATI,eurusd_return,market,129,129,implemented,True
-ATI,dollar_return,market,129,129,implemented,True
-ATI,revenue_growth,financial,129,129,implemented,True
-ATI,eps_growth,financial,129,69,implemented,False
-ATI,eps_change_price,financial,129,129,implemented,True
-ATI,loss_transition,financial,129,129,implemented,True
-ATI,ebitda_growth,financial,129,97,implemented,True
-ATI,gross_margin,financial,129,115,implemented,True
-ATI,operating_margin,financial,129,129,implemented,True
-ATI,net_margin,financial,129,129,implemented,True
-ATI,ebitda_margin,financial,129,129,implemented,True
-ATI,roa,financial,129,129,implemented,True
-ATI,roe,financial,129,129,implemented,True
-ATI,cfo_assets,financial,129,129,implemented,True
-ATI,fcf_equipment_assets,financial,129,129,implemented,True
-ATI,capex_assets,financial,129,129,implemented,True
-ATI,cash_assets,financial,129,129,implemented,True
-ATI,debt_assets,financial,129,129,implemented,True
-ATI,debt_equity,financial,129,129,implemented,True
-ATI,interest_coverage,financial,129,30,implemented,False
-ATI,current_ratio,financial,129,129,implemented,True
-ATI,quick_ratio,financial,129,129,implemented,True
-ATI,payout,financial,129,9,implemented,False
-ATI,earnings_age_days,financial,129,129,implemented,True
-ATI,earnings_yield,valuation,129,129,implemented,True
-ATI,book_yield,valuation,129,129,implemented,True
-ATI,sales_yield,valuation,129,129,implemented,True
-ATI,fcf_equipment_yield,valuation,129,129,implemented,True
-ATI,dividend_yield,valuation,129,129,implemented,True
-ATI,earnings_yield_relative,valuation,129,117,implemented,True
-ATI,earnings_yield_percentile,valuation,129,117,implemented,True
-ATI,fcf_equipment_yield_relative,valuation,129,117,implemented,True
-ATI,pe_percentile,valuation,129,40,implemented,False
-ATI,peer_earnings_yield_gap,valuation,129,129,implemented,True
-ATI,momentum_1,momentum,129,129,implemented,True
-ATI,momentum_3,momentum,129,129,implemented,True
-ATI,momentum_6,momentum,129,129,implemented,True
-ATI,momentum_12,momentum,129,129,implemented,True
-ATI,relative_momentum,momentum,129,129,implemented,True
-ATI,industry_momentum_relative,momentum,129,129,implemented,True
-ATI,vol_21,risk,129,129,implemented,True
-ATI,vol_63,risk,129,129,implemented,True
-ATI,vol_252,risk,129,129,implemented,True
-ATI,beta_252,risk,129,129,implemented,True
-ATI,idio_vol,risk,129,129,implemented,True
-ATI,downside_deviation,risk,129,129,implemented,True
-ATI,drawdown_252,risk,129,129,implemented,True
-ATI,log_dollar_volume,risk,129,129,implemented,True
-ATI,turnover,risk,129,129,implemented,True
-ATI,amihud,risk,129,129,implemented,True
-ATI,industry_vol,industry,129,129,implemented,True
-ATI,sector_return,industry,129,129,implemented,True
-ATI,semis_return,industry,129,129,implemented,True
-ATI,defense_return,industry,129,129,implemented,True
-ATI,driver_vol,business,129,129,implemented,True
-ATI,copper_return,business,129,129,implemented,True
-ATI,gold_return,business,129,129,implemented,True
-ATI,silver_return,business,129,129,implemented,True
-ATI,gas_return,business,129,129,implemented,True
-ATI,oil_return,business,129,129,implemented,True
-ATI,revenue_growth_diff,transform,129,129,implemented,True
-ATI,operating_margin_diff,transform,129,129,implemented,True
-ATI,roe_diff,transform,129,129,implemented,True
-ATI,earnings_yield_diff,transform,129,129,implemented,True
-ATI,revenue_growth_lag1,transform,129,129,implemented,True
-ATI,earnings_yield_lag1,transform,129,129,implemented,True
-ATI,pe_pct_change,transform,129,74,implemented,False
-ATI,earnings_yield_z,transform,129,129,implemented,True
-ATI,revenue_valuation_interaction,interaction,129,129,implemented,False
-ATI,margin_valuation_interaction,interaction,129,129,implemented,False
-ATI,roic_proxy,claims_proxy,129,129,implemented,False
-ATI,ev_ebitda_proxy,claims_proxy,129,97,implemented,False
-ATI,ev_sales_proxy,claims_proxy,129,129,implemented,False
-ATI,fcf_yield,mine_inclusive_fcf,129,129,implemented,False
-ATI,fcf_assets,mine_inclusive_fcf,129,129,implemented,False
-ATI,pe,valuation,129,76,reported; reciprocal/related representation tested instead where redundant,False
-ATI,pb,valuation,129,129,reported; reciprocal/related representation tested instead where redundant,False
-ATI,ps,valuation,129,129,reported; reciprocal/related representation tested instead where redundant,False
-ATI,pe_relative,valuation,129,40,reported; reciprocal/related representation tested instead where redundant,False
-ATI,forward_pe,deferred,129,0,deferred,False
-ATI,earnings_surprise,deferred,129,0,deferred,False
-ATI,analyst_revisions,deferred,129,0,deferred,False
-ATI,bid_ask_spread,deferred,129,0,deferred,False
-ATI,roic,deferred,129,0,deferred,False
-ATI,ev_ebitda,deferred,129,0,deferred,False
-ATI,ev_sales,deferred,129,0,deferred,False
-ATI,index_membership_return,deferred,129,0,deferred,False
-ATI,tungsten_molybdenum_prices,deferred,129,0,deferred,False
-CRS,market_return,market,129,129,implemented,True
-CRS,market_vol,market,129,129,implemented,True
-CRS,smallcap_return,market,129,129,implemented,True
-CRS,yield_10y,market,129,129,implemented,True
-CRS,yield_short,market,129,129,implemented,True
-CRS,yield_10y_change,market,129,129,implemented,True
-CRS,term_spread,market,129,129,implemented,True
-CRS,vix,market,129,129,implemented,True
-CRS,credit_spread,market,129,36,implemented,False
-CRS,credit_spread_change,market,129,35,implemented,False
-CRS,real_yield,market,129,129,implemented,True
-CRS,real_yield_change,market,129,129,implemented,True
-CRS,eurusd_return,market,129,129,implemented,True
-CRS,dollar_return,market,129,129,implemented,True
-CRS,revenue_growth,financial,129,127,implemented,True
-CRS,eps_growth,financial,129,74,implemented,False
-CRS,eps_change_price,financial,129,129,implemented,True
-CRS,loss_transition,financial,129,129,implemented,True
-CRS,ebitda_growth,financial,129,115,implemented,True
-CRS,gross_margin,financial,129,117,implemented,True
-CRS,operating_margin,financial,129,117,implemented,True
-CRS,net_margin,financial,129,86,implemented,False
-CRS,ebitda_margin,financial,129,117,implemented,True
-CRS,roa,financial,129,129,implemented,True
-CRS,roe,financial,129,129,implemented,True
-CRS,cfo_assets,financial,129,129,implemented,True
-CRS,fcf_equipment_assets,financial,129,111,implemented,True
-CRS,capex_assets,financial,129,129,implemented,True
-CRS,cash_assets,financial,129,129,implemented,True
-CRS,debt_assets,financial,129,99,implemented,True
-CRS,debt_equity,financial,129,99,implemented,True
-CRS,interest_coverage,financial,129,129,implemented,True
-CRS,current_ratio,financial,129,129,implemented,True
-CRS,quick_ratio,financial,129,129,implemented,True
-CRS,payout,financial,129,58,implemented,False
-CRS,earnings_age_days,financial,129,129,implemented,True
-CRS,earnings_yield,valuation,129,129,implemented,True
-CRS,book_yield,valuation,129,129,implemented,True
-CRS,sales_yield,valuation,129,119,implemented,True
-CRS,fcf_equipment_yield,valuation,129,111,implemented,True
-CRS,dividend_yield,valuation,129,129,implemented,True
-CRS,earnings_yield_relative,valuation,129,117,implemented,True
-CRS,earnings_yield_percentile,valuation,129,117,implemented,True
-CRS,fcf_equipment_yield_relative,valuation,129,75,implemented,False
-CRS,pe_percentile,valuation,129,51,implemented,False
-CRS,peer_earnings_yield_gap,valuation,129,129,implemented,True
-CRS,momentum_1,momentum,129,129,implemented,True
-CRS,momentum_3,momentum,129,129,implemented,True
-CRS,momentum_6,momentum,129,129,implemented,True
-CRS,momentum_12,momentum,129,129,implemented,True
-CRS,relative_momentum,momentum,129,129,implemented,True
-CRS,industry_momentum_relative,momentum,129,129,implemented,True
-CRS,vol_21,risk,129,129,implemented,True
-CRS,vol_63,risk,129,129,implemented,True
-CRS,vol_252,risk,129,129,implemented,True
-CRS,beta_252,risk,129,129,implemented,True
-CRS,idio_vol,risk,129,129,implemented,True
-CRS,downside_deviation,risk,129,129,implemented,True
-CRS,drawdown_252,risk,129,129,implemented,True
-CRS,log_dollar_volume,risk,129,129,implemented,True
-CRS,turnover,risk,129,129,implemented,True
-CRS,amihud,risk,129,129,implemented,True
-CRS,industry_vol,industry,129,129,implemented,True
-CRS,sector_return,industry,129,129,implemented,True
-CRS,semis_return,industry,129,129,implemented,True
-CRS,defense_return,industry,129,129,implemented,True
-CRS,driver_vol,business,129,129,implemented,True
-CRS,copper_return,business,129,129,implemented,True
-CRS,gold_return,business,129,129,implemented,True
-CRS,silver_return,business,129,129,implemented,True
-CRS,gas_return,business,129,129,implemented,True
-CRS,oil_return,business,129,129,implemented,True
-CRS,revenue_growth_diff,transform,129,126,implemented,True
-CRS,operating_margin_diff,transform,129,116,implemented,True
-CRS,roe_diff,transform,129,129,implemented,True
-CRS,earnings_yield_diff,transform,129,129,implemented,True
-CRS,revenue_growth_lag1,transform,129,127,implemented,True
-CRS,earnings_yield_lag1,transform,129,129,implemented,True
-CRS,pe_pct_change,transform,129,98,implemented,True
-CRS,earnings_yield_z,transform,129,129,implemented,True
-CRS,revenue_valuation_interaction,interaction,129,127,implemented,False
-CRS,margin_valuation_interaction,interaction,129,117,implemented,False
-CRS,roic_proxy,claims_proxy,129,99,implemented,False
-CRS,ev_ebitda_proxy,claims_proxy,129,85,implemented,False
-CRS,ev_sales_proxy,claims_proxy,129,89,implemented,False
-CRS,fcf_yield,mine_inclusive_fcf,129,111,implemented,False
-CRS,fcf_assets,mine_inclusive_fcf,129,111,implemented,False
-CRS,pe,valuation,129,99,reported; reciprocal/related representation tested instead where redundant,False
-CRS,pb,valuation,129,129,reported; reciprocal/related representation tested instead where redundant,False
-CRS,ps,valuation,129,119,reported; reciprocal/related representation tested instead where redundant,False
-CRS,pe_relative,valuation,129,51,reported; reciprocal/related representation tested instead where redundant,False
-CRS,forward_pe,deferred,129,0,deferred,False
-CRS,earnings_surprise,deferred,129,0,deferred,False
-CRS,analyst_revisions,deferred,129,0,deferred,False
-CRS,bid_ask_spread,deferred,129,0,deferred,False
-CRS,roic,deferred,129,0,deferred,False
-CRS,ev_ebitda,deferred,129,0,deferred,False
-CRS,ev_sales,deferred,129,0,deferred,False
-CRS,index_membership_return,deferred,129,0,deferred,False
-CRS,tungsten_molybdenum_prices,deferred,129,0,deferred,False
-ELMT,market_return,market,5,5,implemented,False
-ELMT,market_vol,market,5,5,implemented,False
-ELMT,smallcap_return,market,5,5,implemented,False
-ELMT,yield_10y,market,5,5,implemented,False
-ELMT,yield_short,market,5,5,implemented,False
-ELMT,yield_10y_change,market,5,5,implemented,False
-ELMT,term_spread,market,5,5,implemented,False
-ELMT,vix,market,5,5,implemented,False
-ELMT,credit_spread,market,5,5,implemented,False
-ELMT,credit_spread_change,market,5,5,implemented,False
-ELMT,real_yield,market,5,5,implemented,False
-ELMT,real_yield_change,market,5,5,implemented,False
-ELMT,eurusd_return,market,5,5,implemented,False
-ELMT,dollar_return,market,5,5,implemented,False
-ELMT,revenue_growth,financial,5,1,implemented,False
-ELMT,eps_growth,financial,5,0,implemented,False
-ELMT,eps_change_price,financial,5,3,implemented,False
-ELMT,loss_transition,financial,5,3,implemented,False
-ELMT,ebitda_growth,financial,5,0,implemented,False
-ELMT,gross_margin,financial,5,0,implemented,False
-ELMT,operating_margin,financial,5,0,implemented,False
-ELMT,net_margin,financial,5,0,implemented,False
-ELMT,ebitda_margin,financial,5,0,implemented,False
-ELMT,roa,financial,5,0,implemented,False
-ELMT,roe,financial,5,0,implemented,False
-ELMT,cfo_assets,financial,5,0,implemented,False
-ELMT,fcf_equipment_assets,financial,5,0,implemented,False
-ELMT,capex_assets,financial,5,0,implemented,False
-ELMT,cash_assets,financial,5,0,implemented,False
-ELMT,debt_assets,financial,5,0,implemented,False
-ELMT,debt_equity,financial,5,0,implemented,False
-ELMT,interest_coverage,financial,5,0,implemented,False
-ELMT,current_ratio,financial,5,0,implemented,False
-ELMT,quick_ratio,financial,5,0,implemented,False
-ELMT,payout,financial,5,0,implemented,False
-ELMT,earnings_age_days,financial,5,0,implemented,False
-ELMT,earnings_yield,valuation,5,0,implemented,False
-ELMT,book_yield,valuation,5,0,implemented,False
-ELMT,sales_yield,valuation,5,0,implemented,False
-ELMT,fcf_equipment_yield,valuation,5,0,implemented,False
-ELMT,dividend_yield,valuation,5,0,implemented,False
-ELMT,earnings_yield_relative,valuation,5,0,implemented,False
-ELMT,earnings_yield_percentile,valuation,5,0,implemented,False
-ELMT,fcf_equipment_yield_relative,valuation,5,0,implemented,False
-ELMT,pe_percentile,valuation,5,0,implemented,False
-ELMT,peer_earnings_yield_gap,valuation,5,0,implemented,False
-ELMT,momentum_1,momentum,5,5,implemented,False
-ELMT,momentum_3,momentum,5,3,implemented,False
-ELMT,momentum_6,momentum,5,0,implemented,False
-ELMT,momentum_12,momentum,5,0,implemented,False
-ELMT,relative_momentum,momentum,5,3,implemented,False
-ELMT,industry_momentum_relative,momentum,5,3,implemented,False
-ELMT,vol_21,risk,5,4,implemented,False
-ELMT,vol_63,risk,5,2,implemented,False
-ELMT,vol_252,risk,5,0,implemented,False
-ELMT,beta_252,risk,5,0,implemented,False
-ELMT,idio_vol,risk,5,0,implemented,False
-ELMT,downside_deviation,risk,5,2,implemented,False
-ELMT,drawdown_252,risk,5,0,implemented,False
-ELMT,log_dollar_volume,risk,5,5,implemented,False
-ELMT,turnover,risk,5,3,implemented,False
-ELMT,amihud,risk,5,5,implemented,False
-ELMT,industry_vol,industry,5,5,implemented,False
-ELMT,sector_return,industry,5,5,implemented,False
-ELMT,semis_return,industry,5,5,implemented,False
-ELMT,defense_return,industry,5,5,implemented,False
-ELMT,driver_vol,business,5,5,implemented,False
-ELMT,copper_return,business,5,5,implemented,False
-ELMT,gold_return,business,5,5,implemented,False
-ELMT,silver_return,business,5,5,implemented,False
-ELMT,gas_return,business,5,5,implemented,False
-ELMT,oil_return,business,5,5,implemented,False
-ELMT,revenue_growth_diff,transform,5,0,implemented,False
-ELMT,operating_margin_diff,transform,5,0,implemented,False
-ELMT,roe_diff,transform,5,0,implemented,False
-ELMT,earnings_yield_diff,transform,5,0,implemented,False
-ELMT,revenue_growth_lag1,transform,5,0,implemented,False
-ELMT,earnings_yield_lag1,transform,5,0,implemented,False
-ELMT,pe_pct_change,transform,5,0,implemented,False
-ELMT,earnings_yield_z,transform,5,0,implemented,False
-ELMT,revenue_valuation_interaction,interaction,5,0,implemented,False
-ELMT,margin_valuation_interaction,interaction,5,0,implemented,False
-ELMT,roic_proxy,claims_proxy,5,0,implemented,False
-ELMT,ev_ebitda_proxy,claims_proxy,5,0,implemented,False
-ELMT,ev_sales_proxy,claims_proxy,5,0,implemented,False
-ELMT,fcf_yield,mine_inclusive_fcf,5,0,implemented,False
-ELMT,fcf_assets,mine_inclusive_fcf,5,0,implemented,False
-ELMT,pe,valuation,5,0,reported; reciprocal/related representation tested instead where redundant,False
-ELMT,pb,valuation,5,0,reported; reciprocal/related representation tested instead where redundant,False
-ELMT,ps,valuation,5,0,reported; reciprocal/related representation tested instead where redundant,False
-ELMT,pe_relative,valuation,5,0,reported; reciprocal/related representation tested instead where redundant,False
-ELMT,forward_pe,deferred,5,0,deferred,False
-ELMT,earnings_surprise,deferred,5,0,deferred,False
-ELMT,analyst_revisions,deferred,5,0,deferred,False
-ELMT,bid_ask_spread,deferred,5,0,deferred,False
-ELMT,roic,deferred,5,0,deferred,False
-ELMT,ev_ebitda,deferred,5,0,deferred,False
-ELMT,ev_sales,deferred,5,0,deferred,False
-ELMT,index_membership_return,deferred,5,0,deferred,False
-ELMT,tungsten_molybdenum_prices,deferred,5,0,deferred,False
-ENTG,market_return,market,129,129,implemented,True
-ENTG,market_vol,market,129,129,implemented,True
-ENTG,smallcap_return,market,129,129,implemented,True
-ENTG,yield_10y,market,129,129,implemented,True
-ENTG,yield_short,market,129,129,implemented,True
-ENTG,yield_10y_change,market,129,129,implemented,True
-ENTG,term_spread,market,129,129,implemented,True
-ENTG,vix,market,129,129,implemented,True
-ENTG,credit_spread,market,129,36,implemented,False
-ENTG,credit_spread_change,market,129,35,implemented,False
-ENTG,real_yield,market,129,129,implemented,True
-ENTG,real_yield_change,market,129,129,implemented,True
-ENTG,eurusd_return,market,129,129,implemented,True
-ENTG,dollar_return,market,129,129,implemented,True
-ENTG,revenue_growth,financial,129,129,implemented,True
-ENTG,eps_growth,financial,129,110,implemented,True
-ENTG,eps_change_price,financial,129,129,implemented,True
-ENTG,loss_transition,financial,129,129,implemented,True
-ENTG,ebitda_growth,financial,129,129,implemented,True
-ENTG,gross_margin,financial,129,129,implemented,True
-ENTG,operating_margin,financial,129,129,implemented,True
-ENTG,net_margin,financial,129,129,implemented,True
-ENTG,ebitda_margin,financial,129,129,implemented,True
-ENTG,roa,financial,129,129,implemented,True
-ENTG,roe,financial,129,129,implemented,True
-ENTG,cfo_assets,financial,129,129,implemented,True
-ENTG,fcf_equipment_assets,financial,129,129,implemented,True
-ENTG,capex_assets,financial,129,129,implemented,True
-ENTG,cash_assets,financial,129,125,implemented,True
-ENTG,debt_assets,financial,129,126,implemented,True
-ENTG,debt_equity,financial,129,126,implemented,True
-ENTG,interest_coverage,financial,129,129,implemented,True
-ENTG,current_ratio,financial,129,129,implemented,True
-ENTG,quick_ratio,financial,129,129,implemented,True
-ENTG,payout,financial,129,100,implemented,True
-ENTG,earnings_age_days,financial,129,129,implemented,True
-ENTG,earnings_yield,valuation,129,129,implemented,True
-ENTG,book_yield,valuation,129,129,implemented,True
-ENTG,sales_yield,valuation,129,129,implemented,True
-ENTG,fcf_equipment_yield,valuation,129,129,implemented,True
-ENTG,dividend_yield,valuation,129,103,implemented,True
-ENTG,earnings_yield_relative,valuation,129,117,implemented,True
-ENTG,earnings_yield_percentile,valuation,129,117,implemented,True
-ENTG,fcf_equipment_yield_relative,valuation,129,117,implemented,True
-ENTG,pe_percentile,valuation,129,114,implemented,True
-ENTG,peer_earnings_yield_gap,valuation,129,129,implemented,True
-ENTG,momentum_1,momentum,129,129,implemented,True
-ENTG,momentum_3,momentum,129,129,implemented,True
-ENTG,momentum_6,momentum,129,129,implemented,True
-ENTG,momentum_12,momentum,129,129,implemented,True
-ENTG,relative_momentum,momentum,129,129,implemented,True
-ENTG,industry_momentum_relative,momentum,129,129,implemented,True
-ENTG,vol_21,risk,129,129,implemented,True
-ENTG,vol_63,risk,129,129,implemented,True
-ENTG,vol_252,risk,129,129,implemented,True
-ENTG,beta_252,risk,129,129,implemented,True
-ENTG,idio_vol,risk,129,129,implemented,True
-ENTG,downside_deviation,risk,129,129,implemented,True
-ENTG,drawdown_252,risk,129,129,implemented,True
-ENTG,log_dollar_volume,risk,129,129,implemented,True
-ENTG,turnover,risk,129,129,implemented,True
-ENTG,amihud,risk,129,129,implemented,True
-ENTG,industry_vol,industry,129,129,implemented,True
-ENTG,sector_return,industry,129,129,implemented,True
-ENTG,semis_return,industry,129,129,implemented,True
-ENTG,defense_return,industry,129,129,implemented,True
-ENTG,driver_vol,business,129,129,implemented,True
-ENTG,copper_return,business,129,129,implemented,True
-ENTG,gold_return,business,129,129,implemented,True
-ENTG,silver_return,business,129,129,implemented,True
-ENTG,gas_return,business,129,129,implemented,True
-ENTG,oil_return,business,129,129,implemented,True
-ENTG,revenue_growth_diff,transform,129,129,implemented,True
-ENTG,operating_margin_diff,transform,129,129,implemented,True
-ENTG,roe_diff,transform,129,129,implemented,True
-ENTG,earnings_yield_diff,transform,129,129,implemented,True
-ENTG,revenue_growth_lag1,transform,129,129,implemented,True
-ENTG,earnings_yield_lag1,transform,129,129,implemented,True
-ENTG,pe_pct_change,transform,129,125,implemented,True
-ENTG,earnings_yield_z,transform,129,129,implemented,True
-ENTG,revenue_valuation_interaction,interaction,129,129,implemented,False
-ENTG,margin_valuation_interaction,interaction,129,129,implemented,False
-ENTG,roic_proxy,claims_proxy,129,122,implemented,False
-ENTG,ev_ebitda_proxy,claims_proxy,129,122,implemented,False
-ENTG,ev_sales_proxy,claims_proxy,129,122,implemented,False
-ENTG,fcf_yield,mine_inclusive_fcf,129,129,implemented,False
-ENTG,fcf_assets,mine_inclusive_fcf,129,129,implemented,False
-ENTG,pe,valuation,129,126,reported; reciprocal/related representation tested instead where redundant,False
-ENTG,pb,valuation,129,129,reported; reciprocal/related representation tested instead where redundant,False
-ENTG,ps,valuation,129,129,reported; reciprocal/related representation tested instead where redundant,False
-ENTG,pe_relative,valuation,129,114,reported; reciprocal/related representation tested instead where redundant,False
-ENTG,forward_pe,deferred,129,0,deferred,False
-ENTG,earnings_surprise,deferred,129,0,deferred,False
-ENTG,analyst_revisions,deferred,129,0,deferred,False
-ENTG,bid_ask_spread,deferred,129,0,deferred,False
-ENTG,roic,deferred,129,0,deferred,False
-ENTG,ev_ebitda,deferred,129,0,deferred,False
-ENTG,ev_sales,deferred,129,0,deferred,False
-ENTG,index_membership_return,deferred,129,0,deferred,False
-ENTG,tungsten_molybdenum_prices,deferred,129,0,deferred,False
-MTRN,market_return,market,129,129,implemented,True
-MTRN,market_vol,market,129,129,implemented,True
-MTRN,smallcap_return,market,129,129,implemented,True
-MTRN,yield_10y,market,129,129,implemented,True
-MTRN,yield_short,market,129,129,implemented,True
-MTRN,yield_10y_change,market,129,129,implemented,True
-MTRN,term_spread,market,129,129,implemented,True
-MTRN,vix,market,129,129,implemented,True
-MTRN,credit_spread,market,129,36,implemented,False
-MTRN,credit_spread_change,market,129,35,implemented,False
-MTRN,real_yield,market,129,129,implemented,True
-MTRN,real_yield_change,market,129,129,implemented,True
-MTRN,eurusd_return,market,129,129,implemented,True
-MTRN,dollar_return,market,129,129,implemented,True
-MTRN,revenue_growth,financial,129,129,implemented,True
-MTRN,eps_growth,financial,129,115,implemented,True
-MTRN,eps_change_price,financial,129,129,implemented,True
-MTRN,loss_transition,financial,129,129,implemented,True
-MTRN,ebitda_growth,financial,129,126,implemented,True
-MTRN,gross_margin,financial,129,129,implemented,True
-MTRN,operating_margin,financial,129,129,implemented,True
-MTRN,net_margin,financial,129,129,implemented,True
-MTRN,ebitda_margin,financial,129,129,implemented,True
-MTRN,roa,financial,129,129,implemented,True
-MTRN,roe,financial,129,129,implemented,True
-MTRN,cfo_assets,financial,129,129,implemented,True
-MTRN,fcf_equipment_assets,financial,129,129,implemented,True
-MTRN,capex_assets,financial,129,76,implemented,False
-MTRN,cash_assets,financial,129,129,implemented,True
-MTRN,debt_assets,financial,129,84,implemented,False
-MTRN,debt_equity,financial,129,84,implemented,False
-MTRN,interest_coverage,financial,129,19,implemented,False
-MTRN,current_ratio,financial,129,129,implemented,True
-MTRN,quick_ratio,financial,129,129,implemented,True
-MTRN,payout,financial,129,129,implemented,True
-MTRN,earnings_age_days,financial,129,129,implemented,True
-MTRN,earnings_yield,valuation,129,129,implemented,True
-MTRN,book_yield,valuation,129,129,implemented,True
-MTRN,sales_yield,valuation,129,129,implemented,True
-MTRN,fcf_equipment_yield,valuation,129,129,implemented,True
-MTRN,dividend_yield,valuation,129,129,implemented,True
-MTRN,earnings_yield_relative,valuation,129,117,implemented,True
-MTRN,earnings_yield_percentile,valuation,129,117,implemented,True
-MTRN,fcf_equipment_yield_relative,valuation,129,117,implemented,True
-MTRN,pe_percentile,valuation,129,117,implemented,True
-MTRN,peer_earnings_yield_gap,valuation,129,129,implemented,True
-MTRN,momentum_1,momentum,129,129,implemented,True
-MTRN,momentum_3,momentum,129,129,implemented,True
-MTRN,momentum_6,momentum,129,129,implemented,True
-MTRN,momentum_12,momentum,129,129,implemented,True
-MTRN,relative_momentum,momentum,129,129,implemented,True
-MTRN,industry_momentum_relative,momentum,129,129,implemented,True
-MTRN,vol_21,risk,129,129,implemented,True
-MTRN,vol_63,risk,129,129,implemented,True
-MTRN,vol_252,risk,129,129,implemented,True
-MTRN,beta_252,risk,129,129,implemented,True
-MTRN,idio_vol,risk,129,129,implemented,True
-MTRN,downside_deviation,risk,129,129,implemented,True
-MTRN,drawdown_252,risk,129,129,implemented,True
-MTRN,log_dollar_volume,risk,129,129,implemented,True
-MTRN,turnover,risk,129,129,implemented,True
-MTRN,amihud,risk,129,129,implemented,True
-MTRN,industry_vol,industry,129,129,implemented,True
-MTRN,sector_return,industry,129,129,implemented,True
-MTRN,semis_return,industry,129,129,implemented,True
-MTRN,defense_return,industry,129,129,implemented,True
-MTRN,driver_vol,business,129,129,implemented,True
-MTRN,copper_return,business,129,129,implemented,True
-MTRN,gold_return,business,129,129,implemented,True
-MTRN,silver_return,business,129,129,implemented,True
-MTRN,gas_return,business,129,129,implemented,True
-MTRN,oil_return,business,129,129,implemented,True
-MTRN,revenue_growth_diff,transform,129,129,implemented,True
-MTRN,operating_margin_diff,transform,129,129,implemented,True
-MTRN,roe_diff,transform,129,129,implemented,True
-MTRN,earnings_yield_diff,transform,129,129,implemented,True
-MTRN,revenue_growth_lag1,transform,129,129,implemented,True
-MTRN,earnings_yield_lag1,transform,129,129,implemented,True
-MTRN,pe_pct_change,transform,129,129,implemented,True
-MTRN,earnings_yield_z,transform,129,129,implemented,True
-MTRN,revenue_valuation_interaction,interaction,129,129,implemented,False
-MTRN,margin_valuation_interaction,interaction,129,129,implemented,False
-MTRN,roic_proxy,claims_proxy,129,84,implemented,False
-MTRN,ev_ebitda_proxy,claims_proxy,129,84,implemented,False
-MTRN,ev_sales_proxy,claims_proxy,129,84,implemented,False
-MTRN,fcf_yield,mine_inclusive_fcf,129,76,implemented,False
-MTRN,fcf_assets,mine_inclusive_fcf,129,76,implemented,False
-MTRN,pe,valuation,129,129,reported; reciprocal/related representation tested instead where redundant,False
-MTRN,pb,valuation,129,129,reported; reciprocal/related representation tested instead where redundant,False
-MTRN,ps,valuation,129,129,reported; reciprocal/related representation tested instead where redundant,False
-MTRN,pe_relative,valuation,129,117,reported; reciprocal/related representation tested instead where redundant,False
-MTRN,forward_pe,deferred,129,0,deferred,False
-MTRN,earnings_surprise,deferred,129,0,deferred,False
-MTRN,analyst_revisions,deferred,129,0,deferred,False
-MTRN,bid_ask_spread,deferred,129,0,deferred,False
-MTRN,roic,deferred,129,0,deferred,False
-MTRN,ev_ebitda,deferred,129,0,deferred,False
-MTRN,ev_sales,deferred,129,0,deferred,False
-MTRN,index_membership_return,deferred,129,0,deferred,False
-MTRN,tungsten_molybdenum_prices,deferred,129,0,deferred,False
+ticker,variable,group,observations,available,status,descriptive_nonmissing_share,selected_by_a_recorded_primary_model,training_eligible_share,first_eligible_origin,coverage_note
+ATI,market_return,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,market_vol,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,smallcap_return,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,yield_10y,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,yield_short,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,yield_10y_change,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,term_spread,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,vix,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,credit_spread,market,129,36,implemented,0.27906976744186046,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,credit_spread_change,market,129,35,implemented,0.2713178294573643,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,real_yield,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,real_yield_change,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,eurusd_return,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,dollar_return,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,revenue_growth,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,eps_growth,financial,129,69,implemented,0.5348837209302325,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,eps_change_price,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,loss_transition,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,ebitda_growth,financial,129,97,implemented,0.751937984496124,True,0.4772727272727273,2024-11-30,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,gross_margin,financial,129,115,implemented,0.8914728682170543,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,operating_margin,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,net_margin,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,ebitda_margin,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,roa,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,roe,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,cfo_assets,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,fcf_equipment_assets,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,capex_assets,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,cash_assets,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,debt_assets,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,debt_equity,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,interest_coverage,financial,129,30,implemented,0.23255813953488372,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,current_ratio,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,quick_ratio,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,payout,financial,129,9,implemented,0.06976744186046512,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,earnings_age_days,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,earnings_yield,valuation,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,book_yield,valuation,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,sales_yield,valuation,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,fcf_equipment_yield,valuation,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,dividend_yield,valuation,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,earnings_yield_relative,valuation,129,117,implemented,0.9069767441860465,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,earnings_yield_percentile,valuation,129,117,implemented,0.9069767441860465,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,fcf_equipment_yield_relative,valuation,129,117,implemented,0.9069767441860465,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,pe_percentile,valuation,129,40,implemented,0.31007751937984496,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,peer_earnings_yield_gap,valuation,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,momentum_1,momentum,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,momentum_3,momentum,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,momentum_6,momentum,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,momentum_12,momentum,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,relative_momentum,momentum,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,industry_momentum_relative,momentum,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,vol_21,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,vol_63,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,vol_252,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,beta_252,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,idio_vol,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,downside_deviation,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,drawdown_252,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,log_dollar_volume,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,turnover,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,amihud,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,industry_vol,industry,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,sector_return,industry,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,semis_return,industry,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,defense_return,industry,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,driver_vol,business,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,copper_return,business,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,gold_return,business,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,silver_return,business,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,gas_return,business,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,oil_return,business,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,revenue_growth_diff,transform,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,operating_margin_diff,transform,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,roe_diff,transform,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,earnings_yield_diff,transform,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,revenue_growth_lag1,transform,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,earnings_yield_lag1,transform,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,pe_pct_change,transform,129,74,implemented,0.5736434108527132,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,earnings_yield_z,transform,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,revenue_valuation_interaction,interaction,129,129,implemented,1.0,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,margin_valuation_interaction,interaction,129,129,implemented,1.0,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,roic_proxy,claims_proxy,129,129,implemented,1.0,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,ev_ebitda_proxy,claims_proxy,129,97,implemented,0.751937984496124,False,0.4772727272727273,2024-11-30,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,ev_sales_proxy,claims_proxy,129,129,implemented,1.0,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,fcf_yield,mine_inclusive_fcf,129,129,implemented,1.0,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,fcf_assets,mine_inclusive_fcf,129,129,implemented,1.0,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,pe,valuation,129,76,reported; reciprocal/related representation tested instead where redundant,0.5891472868217055,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,pb,valuation,129,129,reported; reciprocal/related representation tested instead where redundant,1.0,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,ps,valuation,129,129,reported; reciprocal/related representation tested instead where redundant,1.0,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,pe_relative,valuation,129,40,reported; reciprocal/related representation tested instead where redundant,0.31007751937984496,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,forward_pe,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,earnings_surprise,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,analyst_revisions,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,bid_ask_spread,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,roic,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,ev_ebitda,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,ev_sales,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,index_membership_return,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,tungsten_molybdenum_prices,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,market_return,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,market_vol,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,smallcap_return,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,yield_10y,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,yield_short,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,yield_10y_change,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,term_spread,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,vix,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,credit_spread,market,129,36,implemented,0.27906976744186046,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,credit_spread_change,market,129,35,implemented,0.2713178294573643,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,real_yield,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,real_yield_change,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,eurusd_return,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,dollar_return,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,revenue_growth,financial,129,127,implemented,0.9844961240310077,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,eps_growth,financial,129,74,implemented,0.5736434108527132,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,eps_change_price,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,loss_transition,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,ebitda_growth,financial,129,115,implemented,0.8914728682170543,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,gross_margin,financial,129,117,implemented,0.9069767441860465,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,operating_margin,financial,129,117,implemented,0.9069767441860465,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,net_margin,financial,129,86,implemented,0.6666666666666666,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,ebitda_margin,financial,129,117,implemented,0.9069767441860465,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,roa,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,roe,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,cfo_assets,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,fcf_equipment_assets,financial,129,111,implemented,0.8604651162790697,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,capex_assets,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,cash_assets,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,debt_assets,financial,129,99,implemented,0.7674418604651163,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,debt_equity,financial,129,99,implemented,0.7674418604651163,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,interest_coverage,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,current_ratio,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,quick_ratio,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,payout,financial,129,58,implemented,0.4496124031007752,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,earnings_age_days,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,earnings_yield,valuation,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,book_yield,valuation,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,sales_yield,valuation,129,119,implemented,0.9224806201550387,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,fcf_equipment_yield,valuation,129,111,implemented,0.8604651162790697,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,dividend_yield,valuation,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,earnings_yield_relative,valuation,129,117,implemented,0.9069767441860465,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,earnings_yield_percentile,valuation,129,117,implemented,0.9069767441860465,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,fcf_equipment_yield_relative,valuation,129,75,implemented,0.5813953488372093,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,pe_percentile,valuation,129,51,implemented,0.3953488372093023,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,peer_earnings_yield_gap,valuation,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,momentum_1,momentum,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,momentum_3,momentum,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,momentum_6,momentum,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,momentum_12,momentum,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,relative_momentum,momentum,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,industry_momentum_relative,momentum,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,vol_21,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,vol_63,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,vol_252,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,beta_252,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,idio_vol,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,downside_deviation,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,drawdown_252,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,log_dollar_volume,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,turnover,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,amihud,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,industry_vol,industry,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,sector_return,industry,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,semis_return,industry,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,defense_return,industry,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,driver_vol,business,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,copper_return,business,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,gold_return,business,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,silver_return,business,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,gas_return,business,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,oil_return,business,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,revenue_growth_diff,transform,129,126,implemented,0.9767441860465116,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,operating_margin_diff,transform,129,116,implemented,0.8992248062015504,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,roe_diff,transform,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,earnings_yield_diff,transform,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,revenue_growth_lag1,transform,129,127,implemented,0.9844961240310077,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,earnings_yield_lag1,transform,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,pe_pct_change,transform,129,98,implemented,0.7596899224806202,True,0.5454545454545454,2024-08-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,earnings_yield_z,transform,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,revenue_valuation_interaction,interaction,129,127,implemented,0.9844961240310077,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,margin_valuation_interaction,interaction,129,117,implemented,0.9069767441860465,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,roic_proxy,claims_proxy,129,99,implemented,0.7674418604651163,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,ev_ebitda_proxy,claims_proxy,129,85,implemented,0.6589147286821705,False,0.8409090909090909,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,ev_sales_proxy,claims_proxy,129,89,implemented,0.689922480620155,False,0.9545454545454546,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,fcf_yield,mine_inclusive_fcf,129,111,implemented,0.8604651162790697,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,fcf_assets,mine_inclusive_fcf,129,111,implemented,0.8604651162790697,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,pe,valuation,129,99,reported; reciprocal/related representation tested instead where redundant,0.7674418604651163,False,0.6363636363636364,2024-04-30,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,pb,valuation,129,129,reported; reciprocal/related representation tested instead where redundant,1.0,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,ps,valuation,129,119,reported; reciprocal/related representation tested instead where redundant,0.9224806201550387,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,pe_relative,valuation,129,51,reported; reciprocal/related representation tested instead where redundant,0.3953488372093023,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,forward_pe,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,earnings_surprise,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,analyst_revisions,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,bid_ask_spread,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,roic,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,ev_ebitda,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,ev_sales,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,index_membership_return,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,tungsten_molybdenum_prices,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,market_return,market,5,5,implemented,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,market_vol,market,5,5,implemented,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,smallcap_return,market,5,5,implemented,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,yield_10y,market,5,5,implemented,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,yield_short,market,5,5,implemented,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,yield_10y_change,market,5,5,implemented,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,term_spread,market,5,5,implemented,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,vix,market,5,5,implemented,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,credit_spread,market,5,5,implemented,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,credit_spread_change,market,5,5,implemented,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,real_yield,market,5,5,implemented,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,real_yield_change,market,5,5,implemented,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,eurusd_return,market,5,5,implemented,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,dollar_return,market,5,5,implemented,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,revenue_growth,financial,5,1,implemented,0.2,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,eps_growth,financial,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,eps_change_price,financial,5,3,implemented,0.6,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,loss_transition,financial,5,3,implemented,0.6,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,ebitda_growth,financial,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,gross_margin,financial,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,operating_margin,financial,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,net_margin,financial,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,ebitda_margin,financial,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,roa,financial,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,roe,financial,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,cfo_assets,financial,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,fcf_equipment_assets,financial,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,capex_assets,financial,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,cash_assets,financial,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,debt_assets,financial,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,debt_equity,financial,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,interest_coverage,financial,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,current_ratio,financial,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,quick_ratio,financial,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,payout,financial,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,earnings_age_days,financial,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,earnings_yield,valuation,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,book_yield,valuation,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,sales_yield,valuation,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,fcf_equipment_yield,valuation,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,dividend_yield,valuation,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,earnings_yield_relative,valuation,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,earnings_yield_percentile,valuation,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,fcf_equipment_yield_relative,valuation,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,pe_percentile,valuation,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,peer_earnings_yield_gap,valuation,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,momentum_1,momentum,5,5,implemented,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,momentum_3,momentum,5,3,implemented,0.6,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,momentum_6,momentum,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,momentum_12,momentum,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,relative_momentum,momentum,5,3,implemented,0.6,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,industry_momentum_relative,momentum,5,3,implemented,0.6,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,vol_21,risk,5,4,implemented,0.8,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,vol_63,risk,5,2,implemented,0.4,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,vol_252,risk,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,beta_252,risk,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,idio_vol,risk,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,downside_deviation,risk,5,2,implemented,0.4,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,drawdown_252,risk,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,log_dollar_volume,risk,5,5,implemented,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,turnover,risk,5,3,implemented,0.6,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,amihud,risk,5,5,implemented,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,industry_vol,industry,5,5,implemented,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,sector_return,industry,5,5,implemented,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,semis_return,industry,5,5,implemented,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,defense_return,industry,5,5,implemented,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,driver_vol,business,5,5,implemented,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,copper_return,business,5,5,implemented,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,gold_return,business,5,5,implemented,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,silver_return,business,5,5,implemented,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,gas_return,business,5,5,implemented,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,oil_return,business,5,5,implemented,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,revenue_growth_diff,transform,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,operating_margin_diff,transform,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,roe_diff,transform,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,earnings_yield_diff,transform,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,revenue_growth_lag1,transform,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,earnings_yield_lag1,transform,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,pe_pct_change,transform,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,earnings_yield_z,transform,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,revenue_valuation_interaction,interaction,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,margin_valuation_interaction,interaction,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,roic_proxy,claims_proxy,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,ev_ebitda_proxy,claims_proxy,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,ev_sales_proxy,claims_proxy,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,fcf_yield,mine_inclusive_fcf,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,fcf_assets,mine_inclusive_fcf,5,0,implemented,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,pe,valuation,5,0,reported; reciprocal/related representation tested instead where redundant,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,pb,valuation,5,0,reported; reciprocal/related representation tested instead where redundant,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,ps,valuation,5,0,reported; reciprocal/related representation tested instead where redundant,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,pe_relative,valuation,5,0,reported; reciprocal/related representation tested instead where redundant,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,forward_pe,deferred,5,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,earnings_surprise,deferred,5,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,analyst_revisions,deferred,5,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,bid_ask_spread,deferred,5,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,roic,deferred,5,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,ev_ebitda,deferred,5,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,ev_sales,deferred,5,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,index_membership_return,deferred,5,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,tungsten_molybdenum_prices,deferred,5,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,market_return,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,market_vol,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,smallcap_return,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,yield_10y,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,yield_short,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,yield_10y_change,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,term_spread,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,vix,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,credit_spread,market,129,36,implemented,0.27906976744186046,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,credit_spread_change,market,129,35,implemented,0.2713178294573643,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,real_yield,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,real_yield_change,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,eurusd_return,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,dollar_return,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,revenue_growth,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,eps_growth,financial,129,110,implemented,0.8527131782945736,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,eps_change_price,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,loss_transition,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,ebitda_growth,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,gross_margin,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,operating_margin,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,net_margin,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,ebitda_margin,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,roa,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,roe,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,cfo_assets,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,fcf_equipment_assets,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,capex_assets,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,cash_assets,financial,129,125,implemented,0.9689922480620154,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,debt_assets,financial,129,126,implemented,0.9767441860465116,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,debt_equity,financial,129,126,implemented,0.9767441860465116,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,interest_coverage,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,current_ratio,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,quick_ratio,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,payout,financial,129,100,implemented,0.7751937984496124,True,0.7954545454545454,2023-03-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,earnings_age_days,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,earnings_yield,valuation,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,book_yield,valuation,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,sales_yield,valuation,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,fcf_equipment_yield,valuation,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,dividend_yield,valuation,129,103,implemented,0.7984496124031008,True,0.9318181818181818,2023-03-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,earnings_yield_relative,valuation,129,117,implemented,0.9069767441860465,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,earnings_yield_percentile,valuation,129,117,implemented,0.9069767441860465,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,fcf_equipment_yield_relative,valuation,129,117,implemented,0.9069767441860465,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,pe_percentile,valuation,129,114,implemented,0.8837209302325582,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,peer_earnings_yield_gap,valuation,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,momentum_1,momentum,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,momentum_3,momentum,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,momentum_6,momentum,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,momentum_12,momentum,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,relative_momentum,momentum,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,industry_momentum_relative,momentum,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,vol_21,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,vol_63,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,vol_252,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,beta_252,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,idio_vol,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,downside_deviation,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,drawdown_252,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,log_dollar_volume,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,turnover,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,amihud,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,industry_vol,industry,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,sector_return,industry,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,semis_return,industry,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,defense_return,industry,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,driver_vol,business,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,copper_return,business,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,gold_return,business,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,silver_return,business,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,gas_return,business,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,oil_return,business,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,revenue_growth_diff,transform,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,operating_margin_diff,transform,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,roe_diff,transform,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,earnings_yield_diff,transform,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,revenue_growth_lag1,transform,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,earnings_yield_lag1,transform,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,pe_pct_change,transform,129,125,implemented,0.9689922480620154,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,earnings_yield_z,transform,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,revenue_valuation_interaction,interaction,129,129,implemented,1.0,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,margin_valuation_interaction,interaction,129,129,implemented,1.0,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,roic_proxy,claims_proxy,129,122,implemented,0.9457364341085271,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,ev_ebitda_proxy,claims_proxy,129,122,implemented,0.9457364341085271,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,ev_sales_proxy,claims_proxy,129,122,implemented,0.9457364341085271,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,fcf_yield,mine_inclusive_fcf,129,129,implemented,1.0,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,fcf_assets,mine_inclusive_fcf,129,129,implemented,1.0,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,pe,valuation,129,126,reported; reciprocal/related representation tested instead where redundant,0.9767441860465116,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,pb,valuation,129,129,reported; reciprocal/related representation tested instead where redundant,1.0,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,ps,valuation,129,129,reported; reciprocal/related representation tested instead where redundant,1.0,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,pe_relative,valuation,129,114,reported; reciprocal/related representation tested instead where redundant,0.8837209302325582,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,forward_pe,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,earnings_surprise,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,analyst_revisions,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,bid_ask_spread,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,roic,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,ev_ebitda,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,ev_sales,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,index_membership_return,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,tungsten_molybdenum_prices,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,market_return,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,market_vol,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,smallcap_return,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,yield_10y,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,yield_short,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,yield_10y_change,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,term_spread,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,vix,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,credit_spread,market,129,36,implemented,0.27906976744186046,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,credit_spread_change,market,129,35,implemented,0.2713178294573643,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,real_yield,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,real_yield_change,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,eurusd_return,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,dollar_return,market,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,revenue_growth,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,eps_growth,financial,129,115,implemented,0.8914728682170543,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,eps_change_price,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,loss_transition,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,ebitda_growth,financial,129,126,implemented,0.9767441860465116,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,gross_margin,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,operating_margin,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,net_margin,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,ebitda_margin,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,roa,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,roe,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,cfo_assets,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,fcf_equipment_assets,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,capex_assets,financial,129,76,implemented,0.5891472868217055,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,cash_assets,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,debt_assets,financial,129,84,implemented,0.6511627906976745,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,debt_equity,financial,129,84,implemented,0.6511627906976745,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,interest_coverage,financial,129,19,implemented,0.14728682170542637,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,current_ratio,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,quick_ratio,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,payout,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,earnings_age_days,financial,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,earnings_yield,valuation,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,book_yield,valuation,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,sales_yield,valuation,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,fcf_equipment_yield,valuation,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,dividend_yield,valuation,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,earnings_yield_relative,valuation,129,117,implemented,0.9069767441860465,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,earnings_yield_percentile,valuation,129,117,implemented,0.9069767441860465,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,fcf_equipment_yield_relative,valuation,129,117,implemented,0.9069767441860465,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,pe_percentile,valuation,129,117,implemented,0.9069767441860465,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,peer_earnings_yield_gap,valuation,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,momentum_1,momentum,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,momentum_3,momentum,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,momentum_6,momentum,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,momentum_12,momentum,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,relative_momentum,momentum,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,industry_momentum_relative,momentum,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,vol_21,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,vol_63,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,vol_252,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,beta_252,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,idio_vol,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,downside_deviation,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,drawdown_252,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,log_dollar_volume,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,turnover,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,amihud,risk,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,industry_vol,industry,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,sector_return,industry,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,semis_return,industry,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,defense_return,industry,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,driver_vol,business,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,copper_return,business,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,gold_return,business,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,silver_return,business,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,gas_return,business,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,oil_return,business,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,revenue_growth_diff,transform,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,operating_margin_diff,transform,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,roe_diff,transform,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,earnings_yield_diff,transform,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,revenue_growth_lag1,transform,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,earnings_yield_lag1,transform,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,pe_pct_change,transform,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,earnings_yield_z,transform,129,129,implemented,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,revenue_valuation_interaction,interaction,129,129,implemented,1.0,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,margin_valuation_interaction,interaction,129,129,implemented,1.0,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,roic_proxy,claims_proxy,129,84,implemented,0.6511627906976745,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,ev_ebitda_proxy,claims_proxy,129,84,implemented,0.6511627906976745,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,ev_sales_proxy,claims_proxy,129,84,implemented,0.6511627906976745,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,fcf_yield,mine_inclusive_fcf,129,76,implemented,0.5891472868217055,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,fcf_assets,mine_inclusive_fcf,129,76,implemented,0.5891472868217055,False,0.0,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,pe,valuation,129,129,reported; reciprocal/related representation tested instead where redundant,1.0,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,pb,valuation,129,129,reported; reciprocal/related representation tested instead where redundant,1.0,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,ps,valuation,129,129,reported; reciprocal/related representation tested instead where redundant,1.0,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,pe_relative,valuation,129,117,reported; reciprocal/related representation tested instead where redundant,0.9069767441860465,False,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,forward_pe,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,earnings_surprise,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,analyst_revisions,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,bid_ask_spread,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,roic,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,ev_ebitda,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,ev_sales,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,index_membership_return,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,tungsten_molybdenum_prices,deferred,129,0,deferred,0.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,industry_relative,market,129,129,implemented in the compact model,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ATI,driver_return,business,129,129,implemented in the compact model,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,industry_relative,market,129,129,implemented in the compact model,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+CRS,driver_return,business,129,129,implemented in the compact model,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,industry_relative,market,5,5,implemented in the compact model,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ELMT,driver_return,business,5,5,implemented in the compact model,1.0,False,,,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,industry_relative,market,129,129,implemented in the compact model,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+ENTG,driver_return,business,129,129,implemented in the compact model,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,industry_relative,market,129,129,implemented in the compact model,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
+MTRN,driver_return,business,129,129,implemented in the compact model,1.0,True,1.0,2022-12-31,descriptive_nonmissing_share: origins from December 2015; training_eligible_share: share of the 44 outer training windows in which the variable passed the 70% gate.
